@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "spots": [
+    {
+      "region": "intro",
+      "global_start": 0,
+      "global_end": 10,
+      "zero_lag_waveform_correlation": 0.9999929353327935,
+      "AAC_vs_WAV_rms_delta_db": -0.005117494017257208,
+      "timing_and_tail": "PASS"
+    },
+    {
+      "region": "AB",
+      "global_start": 192,
+      "global_end": 200,
+      "zero_lag_waveform_correlation": 0.9999648572336799,
+      "AAC_vs_WAV_rms_delta_db": -0.006380092824462984,
+      "timing_and_tail": "PASS"
+    },
+    {
+      "region": "BC",
+      "global_start": 292,
+      "global_end": 302,
+      "zero_lag_waveform_correlation": 0.999921037268101,
+      "AAC_vs_WAV_rms_delta_db": -0.009636398242099825,
+      "timing_and_tail": "PASS"
+    },
+    {
+      "region": "late assembly",
+      "global_start": 467,
+      "global_end": 477,
+      "zero_lag_waveform_correlation": 0.9999372006819229,
+      "AAC_vs_WAV_rms_delta_db": -0.009465807572507742,
+      "timing_and_tail": "PASS"
+    },
+    {
+      "region": "showcase",
+      "global_start": 503,
+      "global_end": 513,
+      "zero_lag_waveform_correlation": 0.9999472035168303,
+      "AAC_vs_WAV_rms_delta_db": -0.008731376006029173,
+      "timing_and_tail": "PASS"
+    },
+    {
+      "region": "final presentation",
+      "global_start": 517,
+      "global_end": 524.066666667,
+      "zero_lag_waveform_correlation": 0.9999803564115795,
+      "AAC_vs_WAV_rms_delta_db": -0.007326915363415659,
+      "timing_and_tail": "PASS"
+    },
+    {
+      "region": "final fade",
+      "global_start": 518.066666667,
+      "global_end": 524.066666667,
+      "zero_lag_waveform_correlation": 0.9999752417835593,
+      "AAC_vs_WAV_rms_delta_db": -0.007943715932271138,
+      "timing_and_tail": "PASS"
+    }
+  ],
+  "drift": "Zero-lag agreement with WAV at intro, AB, BC, late assembly, showcase and final fade; exact declared audio/video duration",
+  "interior_100ms_below_minus70_dbfs": 0,
+  "tail_present": "PASS",
+  "finite_decoded_samples": "PASS",
+  "mux_introduced_audio_difference": "NONE: AAC packet sequence equal to director-reviewed preview",
+  "perceptual_review": "Director-approved Pass02; no new internal listening claim",
+  "AAC_decode_padding_seconds": 0.008,
+  "padding_note": "Native AAC decode can emit frame padding beyond declared duration. MP4 stream duration is exactly 25,155,200 / 48,000 seconds; no approved audio truncated."
+}

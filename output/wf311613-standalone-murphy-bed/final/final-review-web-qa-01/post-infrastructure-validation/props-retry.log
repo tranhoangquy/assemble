@@ -1,0 +1,19 @@
+Running unchanged approved gate: src/products/wf311613-standalone-murphy-bed/tools/verify-polish02b-props.ts ; reports redirected to /Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/post-infrastructure-validation
+(node:1968) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{
+  valid: true,
+  errors: [],
+  authority: 'PRESENTATION ESTIMATE',
+  mattress: { center: [ 0, 41.8, -89.2 ], size: [ 217, 19, 182 ], radius: 1.6 },
+  duvetBounds: {
+    min: [ -107, 51.73000000074506, -174.73999633789063 ],
+    max: [ 107, 56.47914951324463, -40.06000366210938 ]
+  },
+  pipingBounds: {
+    min: [ -108.54330444335938, 7.449999809265137, -91.04330444335938 ],
+    max: [ 108.54330444335938, 7.550000190734863, 91.04330444335938 ]
+  },
+  roomXClearances: { table: 145.5, plant: 147, curtains: 152.5, art: 156 }
+}

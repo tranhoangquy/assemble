@@ -1,0 +1,34 @@
+{
+  "id": "demo-cabinet-main",
+  "title": "Demo Cabinet Assembly",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "background": "#e8e5de",
+  "cameraPresets": {
+    "hero": { "position": [245, 175, 300], "target": [0, 90, 0], "fov": 34 },
+    "front": { "position": [0, 105, 340], "target": [0, 90, 0], "fov": 32 },
+    "left": { "position": [-235, 155, 285], "target": [0, 90, 0], "fov": 34 },
+    "right": { "position": [235, 155, 285], "target": [0, 90, 0], "fov": 34 },
+    "open": { "position": [225, 140, 280], "target": [0, 85, 28], "fov": 36 }
+  },
+  "quickActions": [
+    { "id": "play-assembly", "label": "Play assembly", "sceneId": "shell", "primary": true },
+    { "id": "open-doors", "label": "Open doors", "sceneId": "open-doors" }
+  ],
+  "scenes": [
+    { "id": "overview", "title": "Demo Cabinet", "subtitle": "Multi-product architecture validation", "duration": 5, "camera": "hero", "callouts": ["14 JSON-driven parts", "Independent product lifecycle"], "actions": [
+      { "type": "camera", "from": "hero", "to": "left", "at": 0.5, "duration": 4 }
+    ] },
+    { "id": "shell", "title": "Build Cabinet Shell", "subtitle": "Position the structural panels", "step": "STEP 01", "duration": 8, "camera": "left", "assemblyStep": "build-shell", "partIntro": { "label": "Cabinet panels", "count": 5, "duration": 1.8 }, "completionAt": 6.7, "actions": [] },
+    { "id": "shelves", "title": "Install Shelves", "subtitle": "Slide shelves into the cabinet", "step": "STEP 02", "duration": 7, "camera": "front", "assemblyStep": "install-shelves", "partIntro": { "label": "Interior shelves", "count": 2, "duration": 1.8 }, "completionAt": 5.6, "actions": [] },
+    { "id": "doors", "title": "Install Doors", "subtitle": "Mount doors and handles", "step": "STEP 03", "duration": 7, "camera": "right", "assemblyStep": "install-doors", "partIntro": { "label": "Doors and handles", "count": 4, "duration": 1.8 }, "completionAt": 5.8, "actions": [] },
+    { "id": "open-doors", "title": "Open Cabinet Doors", "subtitle": "Verify both hinge pivots", "step": "MECHANISM", "duration": 7, "camera": "open", "callouts": ["Independent door pivots", "Cabinet remains stationary"], "completionAt": 5.8, "actions": [
+      { "type": "focus", "targets": ["door_left", "door_right", "handle_left", "handle_right"], "related": ["left_side", "right_side", "cabinet_top", "cabinet_bottom"], "at": 0.2, "duration": 0.3 },
+      { "type": "rotate", "target": "door_left_pivot", "axis": "y", "from": 0, "to": -105, "unit": "deg", "at": 1, "duration": 3.5, "ease": "power2.inOut" },
+      { "type": "rotate", "target": "door_right_pivot", "axis": "y", "from": 0, "to": 105, "unit": "deg", "at": 1, "duration": 3.5, "ease": "power2.inOut" },
+      { "type": "clearFocus", "at": 5.2, "duration": 0.4 }
+    ] }
+  ],
+  "audio": { "voiceover": null, "music": null }
+}

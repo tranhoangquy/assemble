@@ -1,0 +1,13 @@
+Running unchanged approved gate: src/products/wf311613-standalone-murphy-bed/tools/verify-polish02b-props.ts ; reports redirected to /Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/product-fit-hole-audit
+(node:41225) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error: ENOENT: no such file or directory, open '/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/product-fit-hole-audit/polish02b-presentation/presentation-fit.json'
+    at async open (node:internal/fs/promises:639:25)
+    at async Object.writeFile (node:internal/fs/promises:1216:14)
+    at async main (/Users/quyth/development/three/POC/src/products/wf311613-standalone-murphy-bed/tools/verify-polish02b-props.ts:31:5) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/product-fit-hole-audit/polish02b-presentation/presentation-fit.json'
+}

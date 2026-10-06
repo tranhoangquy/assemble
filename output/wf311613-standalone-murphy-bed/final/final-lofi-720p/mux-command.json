@@ -1,0 +1,32 @@
+{
+  "argv": [
+    "/opt/homebrew/bin/ffmpeg",
+    "-hide_banner",
+    "-nostats",
+    "-i",
+    "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/director-approved-full-720p-20261004/WF311613-director-approved-full-720p.mp4",
+    "-i",
+    "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/WF311613-lofi-mix-pass02.wav",
+    "-map",
+    "0:v:0",
+    "-map",
+    "1:a:0",
+    "-c:v",
+    "copy",
+    "-c:a",
+    "aac",
+    "-b:a",
+    "256k",
+    "-ar",
+    "48000",
+    "-ac",
+    "2",
+    "-movie_timescale",
+    "48000",
+    "-movflags",
+    "+faststart",
+    "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/WF311613-final-lofi-720p.mp4"
+  ],
+  "audio_processing": "Only AAC encoding; no audio filters, fades, gains, limiter or mastering. MP4 movie_timescale=48000 preserves exact sample-aligned audio endpoint.",
+  "video_processing": "Encoded stream copy only"
+}

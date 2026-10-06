@@ -1,0 +1,44 @@
+(node:87069) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{
+  "candidate": "wf311613-director-polish-02b",
+  "valid": true,
+  "checks": {
+    "approvedSourceFiles": true,
+    "product": true,
+    "materials": true,
+    "plan": true,
+    "approvedVideo": true,
+    "assemblyScenes": true,
+    "assemblyCameras": true,
+    "captions": true,
+    "assemblyEnvironment": true,
+    "assemblyExposure": true,
+    "mattressEnvelope": true,
+    "showcaseActions": true,
+    "propsAfterAssembly": true,
+    "assemblySteps": true,
+    "silent": true
+  },
+  "lockedSourceFiles": 92,
+  "modified": [],
+  "assemblyRuntime": 498.25369388888834,
+  "runtime": 519.0536938888883,
+  "planSha256": "bf43ecdb93c8a43dd50ea4a9e46306882902cbaf813e24438826f8585045e520",
+  "videoSha256": "f222e140bea7131b36003150b450372689458972b69d4705d3caee7345b76882",
+  "mattress": {
+    "center": [
+      0,
+      41.8,
+      -89.2
+    ],
+    "size": [
+      217,
+      19,
+      182
+    ],
+    "radius": 1.6
+  },
+  "dimensionAuthority": "PRESENTATION ESTIMATE"
+}

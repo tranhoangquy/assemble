@@ -1,0 +1,58 @@
+{
+  "checks": [
+    {
+      "name": "default-WF311613",
+      "pass": true
+    },
+    {
+      "name": "production hides Debug",
+      "pass": true
+    },
+    {
+      "name": "production hides Assembly state",
+      "pass": true
+    },
+    {
+      "name": "production hides Validation",
+      "pass": true
+    },
+    {
+      "name": "production hides QA only",
+      "pass": true
+    },
+    {
+      "name": "duration 08:44",
+      "pass": true
+    },
+    {
+      "name": "all legacy/native profile IDs",
+      "pass": true
+    },
+    {
+      "name": "1280x720 available",
+      "pass": true
+    },
+    {
+      "name": "1920x1080 available",
+      "pass": true
+    },
+    {
+      "name": "720p available",
+      "pass": true
+    },
+    {
+      "name": "1080p available",
+      "pass": true
+    },
+    {
+      "name": "1440p available",
+      "pass": true
+    },
+    {
+      "name": "2160p available",
+      "pass": true
+    }
+  ],
+  "pageErrors": [],
+  "valid": true
+}

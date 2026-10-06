@@ -1,0 +1,201 @@
+{
+  "id": "murphy-bed-reference-assembly-estimated",
+  "sourceNote": "Physically plausible reconstruction derived from supplied product images. This is not an official manufacturer assembly sequence.",
+  "steps": [
+    {
+      "id": "base-and-uprights",
+      "name": "Base and Uprights",
+      "description": "Estimated sequence: establish the plinth, align three uprights, then drive each visible base screw separately.",
+      "orderSource": "estimated",
+      "actions": [
+        { "type": "visibility", "targets": "all", "visible": false, "at": 0 },
+        { "type": "focus", "targets": ["base_plinth","left_outer_post","shelf_divider","right_post","screw_base_left","screw_base_divider","screw_base_right"], "at": 0, "duration": 0.3, "dimOpacity": 0.28 },
+        { "type": "show", "target": "base_plinth", "at": 0.3 },
+        { "type": "move", "target": "base_plinth", "from": [0,-42,0], "to": [0,4,0], "at": 0.3, "duration": 1.5, "ease": "back.out(1.2)" },
+        { "type": "highlight", "target": "base_plinth", "at": 0.3, "duration": 1.5 },
+        { "type": "installPart", "target": "left_outer_post", "connection": { "part": "base_plinth", "point": "left_mount" }, "fromOffset": [-52,18,0], "approachDistance": 8, "at": 1.7, "duration": 1.8 },
+        { "type": "installPart", "target": "shelf_divider", "connection": { "part": "base_plinth", "point": "divider_mount" }, "fromOffset": [0,55,36], "approachDistance": 8, "at": 3.5, "duration": 1.8 },
+        { "type": "installPart", "target": "right_post", "connection": { "part": "base_plinth", "point": "right_mount" }, "fromOffset": [52,18,0], "approachDistance": 8, "at": 5.3, "duration": 1.8 },
+        { "type": "installScrew", "target": "screw_base_left", "connection": { "part": "base_plinth", "point": "left_screw" }, "distance": 25, "turns": 5, "spinAxis": "y", "at": 7.3, "duration": 1.15 },
+        { "type": "installScrew", "target": "screw_base_divider", "connection": { "part": "base_plinth", "point": "divider_screw" }, "distance": 25, "turns": 5, "spinAxis": "y", "at": 8.5, "duration": 1.15 },
+        { "type": "installScrew", "target": "screw_base_right", "connection": { "part": "base_plinth", "point": "right_screw" }, "distance": 25, "turns": 5, "spinAxis": "y", "at": 9.7, "duration": 1.15 },
+        { "type": "clearFocus", "at": 11, "duration": 0.4 }
+      ]
+    },
+    {
+      "id": "bookcase",
+      "name": "Bookcase Back and Shelves",
+      "description": "Fit the shallow back, insert one dowel at a time, and slide each shelf into the side holes.",
+      "dependsOn": ["base-and-uprights"],
+      "orderSource": "estimated",
+      "actions": [
+        { "type": "focus", "targets": ["shelf_back","shelf_base","shelf_1","shelf_2","shelf_3","shelf_4","dowel_shelf_1","dowel_shelf_2","dowel_shelf_3","dowel_shelf_4"], "related": ["left_outer_post","shelf_divider","base_plinth"], "at": 0, "duration": 0.3 },
+        { "type": "installPart", "target": "shelf_back", "connection": { "part": "shelf_divider", "point": "base" }, "fromOffset": [0,0,-58], "approachDistance": 6, "at": 0.4, "duration": 1.7 },
+        { "type": "installPart", "target": "shelf_base", "connection": { "part": "base_plinth", "point": "left_mount" }, "fromOffset": [-42,20,28], "approachDistance": 7, "at": 2.1, "duration": 1.4 },
+        { "type": "installDowel", "target": "dowel_shelf_1", "connection": { "part": "left_outer_post", "point": "shelf_1" }, "distance": 18, "turns": 1, "spinAxis": "y", "at": 3.6, "duration": 0.9 },
+        { "type": "installPart", "target": "shelf_1", "connection": { "part": "left_outer_post", "point": "shelf_1" }, "fromOffset": [-48,0,20], "approachDistance": 7, "at": 4.5, "duration": 1.35 },
+        { "type": "installDowel", "target": "dowel_shelf_2", "connection": { "part": "left_outer_post", "point": "shelf_2" }, "distance": 18, "turns": 1, "spinAxis": "y", "at": 5.95, "duration": 0.9 },
+        { "type": "installPart", "target": "shelf_2", "connection": { "part": "left_outer_post", "point": "shelf_2" }, "fromOffset": [-48,0,20], "approachDistance": 7, "at": 6.85, "duration": 1.35 },
+        { "type": "installDowel", "target": "dowel_shelf_3", "connection": { "part": "left_outer_post", "point": "shelf_3" }, "distance": 18, "turns": 1, "spinAxis": "y", "at": 8.3, "duration": 0.9 },
+        { "type": "installPart", "target": "shelf_3", "connection": { "part": "left_outer_post", "point": "shelf_3" }, "fromOffset": [-48,0,20], "approachDistance": 7, "at": 9.2, "duration": 1.35 },
+        { "type": "installDowel", "target": "dowel_shelf_4", "connection": { "part": "left_outer_post", "point": "shelf_4" }, "distance": 18, "turns": 1, "spinAxis": "y", "at": 10.65, "duration": 0.9 },
+        { "type": "installPart", "target": "shelf_4", "connection": { "part": "left_outer_post", "point": "shelf_4" }, "fromOffset": [-48,0,20], "approachDistance": 7, "at": 11.55, "duration": 1.35 },
+        { "type": "clearFocus", "at": 13.2, "duration": 0.4 }
+      ]
+    },
+    {
+      "id": "upper-structure",
+      "name": "Headers and Top Cap",
+      "description": "Join the open bed bay, add its inset details, cap the cabinet, and tighten the three top screws.",
+      "dependsOn": ["base-and-uprights", "bookcase"],
+      "orderSource": "estimated",
+      "actions": [
+        { "type": "focus", "targets": ["bed_header","header_inset_left","header_inset_center","header_inset_right","lower_crossbar","lower_inset_left","lower_inset_right","rear_floor_brace","top_cap","screw_top_left","screw_top_divider","screw_top_right"], "related": ["left_outer_post","shelf_divider","right_post"], "at": 0, "duration": 0.3 },
+        { "type": "installPart", "target": "rear_floor_brace", "connection": { "part": "base_plinth", "point": "divider_mount" }, "fromOffset": [0,-20,-46], "approachDistance": 8, "at": 0.4, "duration": 1.3 },
+        { "type": "installPart", "target": "lower_crossbar", "connection": { "part": "shelf_divider", "point": "crossbar" }, "fromOffset": [0,0,52], "approachDistance": 7, "at": 1.8, "duration": 1.5 },
+        { "type": "installPart", "target": "lower_inset_left", "connection": { "part": "lower_crossbar", "point": "left" }, "fromOffset": [0,0,30], "approachDistance": 5, "at": 3.3, "duration": 0.9 },
+        { "type": "installPart", "target": "lower_inset_right", "connection": { "part": "lower_crossbar", "point": "right" }, "fromOffset": [0,0,30], "approachDistance": 5, "at": 4.15, "duration": 0.9 },
+        { "type": "installPart", "target": "bed_header", "connection": { "part": "shelf_divider", "point": "header" }, "fromOffset": [0,42,52], "approachDistance": 7, "at": 5.1, "duration": 1.6 },
+        { "type": "installPart", "target": "header_inset_left", "connection": { "part": "bed_header", "point": "left" }, "fromOffset": [0,0,28], "approachDistance": 5, "at": 6.7, "duration": 0.8 },
+        { "type": "installPart", "target": "header_inset_center", "connection": { "part": "bed_header", "point": "left" }, "fromOffset": [0,0,28], "approachDistance": 5, "at": 7.4, "duration": 0.8 },
+        { "type": "installPart", "target": "header_inset_right", "connection": { "part": "bed_header", "point": "right" }, "fromOffset": [0,0,28], "approachDistance": 5, "at": 8.1, "duration": 0.8 },
+        { "type": "installPart", "target": "top_cap", "connection": { "part": "left_outer_post", "point": "top" }, "fromOffset": [0,52,0], "approachDistance": 8, "at": 8.9, "duration": 1.6 },
+        { "type": "installScrew", "target": "screw_top_left", "connection": { "part": "top_cap", "point": "left_screw" }, "distance": 24, "turns": 5, "spinAxis": "y", "at": 10.6, "duration": 1 },
+        { "type": "installScrew", "target": "screw_top_divider", "connection": { "part": "top_cap", "point": "divider_screw" }, "distance": 24, "turns": 5, "spinAxis": "y", "at": 11.65, "duration": 1 },
+        { "type": "installScrew", "target": "screw_top_right", "connection": { "part": "top_cap", "point": "right_screw" }, "distance": 24, "turns": 5, "spinAxis": "y", "at": 12.7, "duration": 1 },
+        { "type": "clearFocus", "at": 13.9, "duration": 0.4 }
+      ]
+    },
+    {
+      "id": "bed-frame",
+      "name": "Bed Frame Perimeter",
+      "description": "Lay out the four perimeter rails and add the longitudinal center support instead of spawning a complete bed frame.",
+      "dependsOn": ["upper-structure"],
+      "orderSource": "estimated",
+      "actions": [
+        { "type": "focus", "targets": ["bed_left_rail","bed_right_rail","bed_head_rail","bed_foot_rail","bed_center_rail"], "related": ["base_plinth","shelf_divider","right_post"], "at": 0, "duration": 0.3 },
+        { "type": "show", "target": "bed_left_rail", "at": 0.3 },
+        { "type": "move", "target": "bed_left_rail", "from": [-132,98,62], "to": [-77,98,0], "at": 0.3, "duration": 1.5 },
+        { "type": "installPart", "target": "bed_head_rail", "connection": { "part": "bed_left_rail", "point": "head" }, "fromOffset": [0,-46,50], "approachDistance": 7, "at": 1.8, "duration": 1.45 },
+        { "type": "installPart", "target": "bed_foot_rail", "connection": { "part": "bed_left_rail", "point": "foot" }, "fromOffset": [0,46,50], "approachDistance": 7, "at": 3.25, "duration": 1.45 },
+        { "type": "installPart", "target": "bed_right_rail", "connection": { "part": "bed_head_rail", "point": "left" }, "fromOffset": [58,0,50], "approachDistance": 7, "at": 4.7, "duration": 1.5 },
+        { "type": "installPart", "target": "bed_center_rail", "connection": { "part": "bed_head_rail", "point": "left" }, "fromOffset": [0,0,66], "approachDistance": 7, "at": 6.25, "duration": 1.4 },
+        { "type": "clearFocus", "at": 7.9, "duration": 0.4 }
+      ]
+    },
+    {
+      "id": "bed-deck",
+      "name": "Deck and Mattress Slats",
+      "description": "Install the two steel deck panels, then place all five pale timber slats one at a time.",
+      "dependsOn": ["bed-frame"],
+      "orderSource": "estimated",
+      "actions": [
+        { "type": "focus", "targets": ["deck_left","deck_right","slat_1","slat_2","slat_3","slat_4","slat_5"], "related": ["bed_left_rail","bed_right_rail","bed_head_rail","bed_foot_rail","bed_center_rail"], "at": 0, "duration": 0.3 },
+        { "type": "installPart", "target": "deck_left", "connection": { "part": "bed_center_rail", "point": "support" }, "fromOffset": [-26,0,58], "approachDistance": 8, "at": 0.3, "duration": 1.35 },
+        { "type": "installPart", "target": "deck_right", "connection": { "part": "bed_center_rail", "point": "support" }, "fromOffset": [26,0,58], "approachDistance": 8, "at": 1.65, "duration": 1.35 },
+        { "type": "installPart", "target": "slat_1", "connection": { "part": "bed_center_rail", "point": "support" }, "fromOffset": [-16,-30,66], "approachDistance": 8, "at": 3, "duration": 1.05 },
+        { "type": "installPart", "target": "slat_2", "connection": { "part": "bed_center_rail", "point": "support" }, "fromOffset": [16,-18,66], "approachDistance": 8, "at": 4.05, "duration": 1.05 },
+        { "type": "installPart", "target": "slat_3", "connection": { "part": "bed_center_rail", "point": "support" }, "fromOffset": [-16,0,66], "approachDistance": 8, "at": 5.1, "duration": 1.05 },
+        { "type": "installPart", "target": "slat_4", "connection": { "part": "bed_center_rail", "point": "support" }, "fromOffset": [16,18,66], "approachDistance": 8, "at": 6.15, "duration": 1.05 },
+        { "type": "installPart", "target": "slat_5", "connection": { "part": "bed_center_rail", "point": "support" }, "fromOffset": [-16,30,66], "approachDistance": 8, "at": 7.2, "duration": 1.05 },
+        { "type": "clearFocus", "at": 8.5, "duration": 0.4 }
+      ]
+    },
+    {
+      "id": "front-face",
+      "name": "Cabinet Front Face",
+      "description": "Build the framed six-panel facade and add the two vertical pull handles visible in the closed reference.",
+      "dependsOn": ["assist-mechanism"],
+      "accessBarrierFor": ["left_pivot_bracket", "right_pivot_bracket", "screw_bracket_left_1", "screw_bracket_left_2", "screw_bracket_right_1", "screw_bracket_right_2", "washer_left", "washer_right", "pivot_bolt_left", "pivot_bolt_right", "pivot_nut_left", "pivot_nut_right", "left_gas_body", "left_gas_rod", "right_gas_body", "right_gas_rod"],
+      "orderSource": "estimated",
+      "actions": [
+        { "type": "focus", "targets": ["face_left_stile","face_right_stile","face_mullion_left","face_mullion_right","face_top_rail","face_mid_rail","face_bottom_rail","face_panel_upper_left","face_panel_upper_center","face_panel_upper_right","face_panel_lower_left","face_panel_lower_center","face_panel_lower_right","handle_left","handle_right"], "related": ["bed_left_rail","bed_right_rail"], "at": 0, "duration": 0.3 },
+        { "type": "installPart", "target": "face_left_stile", "connection": { "part": "bed_left_rail", "point": "pivot" }, "fromOffset": [-30,0,74], "approachDistance": 8, "at": 0.3, "duration": 1.15 },
+        { "type": "installPart", "target": "face_right_stile", "connection": { "part": "bed_right_rail", "point": "pivot" }, "fromOffset": [30,0,74], "approachDistance": 8, "at": 1.45, "duration": 1.15 },
+        { "type": "installPart", "target": "face_panel_lower_left", "connection": { "part": "bed_center_rail", "point": "support" }, "fromOffset": [-20,-12,76], "approachDistance": 8, "at": 2.55, "duration": 0.8 },
+        { "type": "installPart", "target": "face_panel_lower_center", "connection": { "part": "bed_center_rail", "point": "support" }, "fromOffset": [0,-12,76], "approachDistance": 8, "at": 3.05, "duration": 0.8 },
+        { "type": "installPart", "target": "face_panel_lower_right", "connection": { "part": "bed_center_rail", "point": "support" }, "fromOffset": [20,-12,76], "approachDistance": 8, "at": 3.55, "duration": 0.8 },
+        { "type": "installPart", "target": "face_panel_upper_left", "connection": { "part": "bed_center_rail", "point": "support" }, "fromOffset": [-20,12,76], "approachDistance": 8, "at": 4.05, "duration": 0.8 },
+        { "type": "installPart", "target": "face_panel_upper_center", "connection": { "part": "bed_center_rail", "point": "support" }, "fromOffset": [0,12,76], "approachDistance": 8, "at": 4.55, "duration": 0.8 },
+        { "type": "installPart", "target": "face_panel_upper_right", "connection": { "part": "bed_center_rail", "point": "support" }, "fromOffset": [20,12,76], "approachDistance": 8, "at": 5.05, "duration": 0.8 },
+        { "type": "installPart", "target": "face_mullion_left", "connection": { "part": "bed_center_rail", "point": "support" }, "fromOffset": [-12,0,78], "approachDistance": 8, "at": 5.65, "duration": 0.9 },
+        { "type": "installPart", "target": "face_mullion_right", "connection": { "part": "bed_center_rail", "point": "support" }, "fromOffset": [12,0,78], "approachDistance": 8, "at": 6.45, "duration": 0.9 },
+        { "type": "installPart", "target": "face_bottom_rail", "connection": { "part": "bed_center_rail", "point": "support" }, "fromOffset": [0,-24,82], "approachDistance": 8, "at": 7.25, "duration": 0.85 },
+        { "type": "installPart", "target": "face_mid_rail", "connection": { "part": "bed_center_rail", "point": "support" }, "fromOffset": [0,0,82], "approachDistance": 8, "at": 8, "duration": 0.85 },
+        { "type": "installPart", "target": "face_top_rail", "connection": { "part": "bed_center_rail", "point": "support" }, "fromOffset": [0,24,82], "approachDistance": 8, "at": 8.75, "duration": 0.85 },
+        { "type": "installPart", "target": "handle_left", "connection": { "part": "bed_center_rail", "point": "support" }, "fromOffset": [-12,0,95], "approachDistance": 8, "at": 9.55, "duration": 0.85 },
+        { "type": "installPart", "target": "handle_right", "connection": { "part": "bed_center_rail", "point": "support" }, "fromOffset": [12,0,95], "approachDistance": 8, "at": 10.4, "duration": 0.85 },
+        { "type": "clearFocus", "at": 11.55, "duration": 0.4 }
+      ]
+    },
+    {
+      "id": "left-pivot",
+      "name": "Left Pivot Hardware",
+      "description": "Close-up: bracket, two screws, washer, bolt and nut are installed sequentially, followed by a small pivot test.",
+      "dependsOn": ["bed-deck"],
+      "orderSource": "estimated",
+      "actions": [
+        { "type": "focus", "targets": ["left_pivot_bracket","screw_bracket_left_1","screw_bracket_left_2","washer_left","pivot_bolt_left","pivot_nut_left"], "related": ["shelf_divider","bed_left_rail"], "at": 0, "duration": 0.3, "dimOpacity": 0.42 },
+        { "id": "left-bracket", "type": "installBracket", "target": "left_pivot_bracket", "connection": { "part": "shelf_divider", "point": "pivot" }, "fromOffset": [-38,0,25], "approachDistance": 7, "at": 0.35, "duration": 1.45 },
+        { "id": "left-screw-1", "dependsOn": ["left-bracket"], "type": "installScrew", "target": "screw_bracket_left_1", "connection": { "part": "left_pivot_bracket", "point": "screw_1" }, "distance": 24, "turns": 6, "spinAxis": "y", "at": 1.9, "duration": 1.25 },
+        { "id": "left-screw-2", "dependsOn": ["left-screw-1"], "type": "installScrew", "target": "screw_bracket_left_2", "connection": { "part": "left_pivot_bracket", "point": "screw_2" }, "distance": 24, "turns": 6, "spinAxis": "y", "at": 3.2, "duration": 1.25 },
+        { "id": "left-washer", "dependsOn": ["left-screw-2"], "type": "installWasher", "target": "washer_left", "connection": { "part": "left_pivot_bracket", "point": "bolt" }, "distance": 18, "at": 4.55, "duration": 0.85 },
+        { "id": "left-bolt", "dependsOn": ["left-washer"], "type": "installBolt", "target": "pivot_bolt_left", "connection": { "part": "left_pivot_bracket", "point": "bolt" }, "distance": 28, "turns": 4, "spinAxis": "y", "at": 5.45, "duration": 1.35 },
+        { "id": "left-nut", "dependsOn": ["left-bolt"], "type": "installNut", "target": "pivot_nut_left", "connection": { "part": "left_pivot_bracket", "point": "cabinet" }, "distance": 20, "turns": 4, "spinAxis": "y", "at": 6.9, "duration": 1.2 },
+        { "type": "testPivot", "target": "bed_pivot", "axis": "x", "from": 0, "to": 14, "returnTo": 0, "unit": "deg", "at": 8.25, "duration": 1.8 },
+        { "type": "clearFocus", "at": 10.2, "duration": 0.4 }
+      ]
+    },
+    {
+      "id": "right-pivot",
+      "name": "Right Pivot Hardware",
+      "description": "Repeat the bracket and fastener sequence on the opposite side without moving the camera during tightening.",
+      "dependsOn": ["left-pivot"],
+      "orderSource": "estimated",
+      "actions": [
+        { "type": "focus", "targets": ["right_pivot_bracket","screw_bracket_right_1","screw_bracket_right_2","washer_right","pivot_bolt_right","pivot_nut_right"], "related": ["right_post","bed_right_rail"], "at": 0, "duration": 0.3, "dimOpacity": 0.42 },
+        { "id": "right-bracket", "type": "installBracket", "target": "right_pivot_bracket", "connection": { "part": "right_post", "point": "pivot" }, "fromOffset": [38,0,25], "approachDistance": 7, "at": 0.35, "duration": 1.45 },
+        { "id": "right-screw-1", "dependsOn": ["right-bracket"], "type": "installScrew", "target": "screw_bracket_right_1", "connection": { "part": "right_pivot_bracket", "point": "screw_1" }, "distance": 24, "turns": 6, "spinAxis": "y", "at": 1.9, "duration": 1.25 },
+        { "id": "right-screw-2", "dependsOn": ["right-screw-1"], "type": "installScrew", "target": "screw_bracket_right_2", "connection": { "part": "right_pivot_bracket", "point": "screw_2" }, "distance": 24, "turns": 6, "spinAxis": "y", "at": 3.2, "duration": 1.25 },
+        { "id": "right-washer", "dependsOn": ["right-screw-2"], "type": "installWasher", "target": "washer_right", "connection": { "part": "right_pivot_bracket", "point": "bolt" }, "distance": 18, "at": 4.55, "duration": 0.85 },
+        { "id": "right-bolt", "dependsOn": ["right-washer"], "type": "installBolt", "target": "pivot_bolt_right", "connection": { "part": "right_pivot_bracket", "point": "bolt" }, "distance": 28, "turns": 4, "spinAxis": "y", "at": 5.45, "duration": 1.35 },
+        { "id": "right-nut", "dependsOn": ["right-bolt"], "type": "installNut", "target": "pivot_nut_right", "connection": { "part": "right_pivot_bracket", "point": "cabinet" }, "distance": 20, "turns": 4, "spinAxis": "y", "at": 6.9, "duration": 1.2 },
+        { "type": "testPivot", "target": "bed_pivot", "axis": "x", "from": 0, "to": 14, "returnTo": 0, "unit": "deg", "at": 8.25, "duration": 1.8 },
+        { "type": "clearFocus", "at": 10.2, "duration": 0.4 }
+      ]
+    },
+    {
+      "id": "assist-mechanism",
+      "name": "Gas Assist Mechanism",
+      "description": "Add the paired black assist bodies and bright rods visible near the lower cabinet sides.",
+      "dependsOn": ["right-pivot"],
+      "orderSource": "estimated",
+      "actions": [
+        { "type": "focus", "targets": ["left_gas_body","left_gas_rod","right_gas_body","right_gas_rod"], "related": ["left_pivot_bracket","right_pivot_bracket","bed_left_rail","bed_right_rail"], "at": 0, "duration": 0.3 },
+        { "id": "left-assist-body", "type": "installHinge", "target": "left_gas_body", "connection": { "part": "left_pivot_bracket", "point": "cabinet" }, "fromOffset": [-34,20,34], "approachDistance": 7, "installation": { "stagingOffset": [-34,20,54], "preInstallOffset": [-8,5,20], "approachDirection": [0,0,1], "approachDistance": 8, "sampleCount": 12, "allowedContacts": ["lower_inset_left", "lower_crossbar"], "estimated": true }, "at": 0.4, "duration": 1.4 },
+        { "id": "left-assist-rod", "dependsOn": ["left-assist-body"], "type": "installPart", "target": "left_gas_rod", "connection": { "part": "left_gas_body", "point": "mount" }, "fromOffset": [-20,22,32], "approachDistance": 7, "installation": { "stagingOffset": [-22,24,52], "preInstallOffset": [-6,6,18], "approachDirection": [0,0,1], "approachDistance": 8, "sampleCount": 12, "allowedContacts": ["lower_inset_left", "lower_crossbar"], "estimated": true }, "at": 1.8, "duration": 1.25 },
+        { "id": "right-assist-body", "dependsOn": ["left-assist-rod"], "type": "installHinge", "target": "right_gas_body", "connection": { "part": "right_pivot_bracket", "point": "cabinet" }, "fromOffset": [34,20,34], "approachDistance": 7, "installation": { "stagingOffset": [34,20,54], "preInstallOffset": [8,5,20], "approachDirection": [0,0,1], "approachDistance": 8, "sampleCount": 12, "allowedContacts": ["lower_inset_right", "lower_crossbar"], "estimated": true }, "at": 3.15, "duration": 1.4 },
+        { "id": "right-assist-rod", "dependsOn": ["right-assist-body"], "type": "installPart", "target": "right_gas_rod", "connection": { "part": "right_gas_body", "point": "mount" }, "fromOffset": [20,22,32], "approachDistance": 7, "installation": { "stagingOffset": [22,24,52], "preInstallOffset": [6,6,18], "approachDirection": [0,0,1], "approachDistance": 8, "sampleCount": 12, "allowedContacts": ["lower_inset_right", "lower_crossbar"], "estimated": true }, "at": 4.55, "duration": 1.25 },
+        { "type": "clearFocus", "at": 6.1, "duration": 0.4 }
+      ]
+    },
+    {
+      "id": "legs-and-mattress",
+      "name": "Folding Legs and Mattress",
+      "description": "Mount the two folding legs and their feet, tighten both pivot bolts, then place the mattress on the slats.",
+      "dependsOn": ["front-face"],
+      "orderSource": "estimated",
+      "actions": [
+        { "type": "focus", "targets": ["left_leg","left_foot","right_leg","right_foot","leg_bolt_left","leg_bolt_right","mattress"], "related": ["bed_foot_rail","slat_1","slat_2","slat_3","slat_4","slat_5"], "at": 0, "duration": 0.3 },
+        { "type": "installHinge", "target": "left_leg", "connection": { "part": "bed_foot_rail", "point": "leg_left" }, "fromOffset": [-28,12,42], "approachDistance": 7, "at": 0.35, "duration": 1.25 },
+        { "type": "installPart", "target": "left_foot", "connection": { "part": "bed_foot_rail", "point": "leg_left" }, "fromOffset": [-30,-8,44], "approachDistance": 7, "at": 1.6, "duration": 1 },
+        { "type": "installBolt", "target": "leg_bolt_left", "connection": { "part": "bed_foot_rail", "point": "leg_left" }, "distance": 24, "turns": 4, "spinAxis": "y", "at": 2.65, "duration": 1.1 },
+        { "type": "installHinge", "target": "right_leg", "connection": { "part": "bed_foot_rail", "point": "leg_right" }, "fromOffset": [28,12,42], "approachDistance": 7, "at": 3.85, "duration": 1.25 },
+        { "type": "installPart", "target": "right_foot", "connection": { "part": "bed_foot_rail", "point": "leg_right" }, "fromOffset": [30,-8,44], "approachDistance": 7, "at": 5.1, "duration": 1 },
+        { "type": "installBolt", "target": "leg_bolt_right", "connection": { "part": "bed_foot_rail", "point": "leg_right" }, "distance": 24, "turns": 4, "spinAxis": "y", "at": 6.15, "duration": 1.1 },
+        { "type": "installPart", "target": "mattress", "connection": { "part": "bed_center_rail", "point": "support" }, "fromOffset": [0,28,-72], "approachDistance": 10, "at": 7.45, "duration": 1.9, "ease": "power2.inOut" },
+        { "type": "clearFocus", "at": 9.6, "duration": 0.4 }
+      ]
+    }
+  ]
+}

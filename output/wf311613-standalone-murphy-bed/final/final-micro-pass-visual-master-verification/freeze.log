@@ -1,0 +1,36 @@
+{
+  "candidate": "wf311613-final-micro-pass",
+  "approvedBaseline": "wf311613-director-polish-02b",
+  "dataLockMatchesApprovedQA": true,
+  "productHash": "4645bcf33682cbf377d84a2d0f8139674b6d80f5a5014a29505bf97287f82a45",
+  "materialHash": "d9a96203382d9d92eaaec1cab45a97f97da01ac13d5fbec739477c9f06514bcc",
+  "assemblyHash": "19df9d72004a93989fc5245d5cbf953c8a6289423f2587749584ee4c322ba184",
+  "approvedPlanHash": "bf43ecdb93c8a43dd50ea4a9e46306882902cbaf813e24438826f8585045e520",
+  "microVideoHash": "58fb308c0117e3c9116aefa09a9f2bee840216ca23aca7d30240fca529c8c22b",
+  "videoSha256": "58fb308c0117e3c9116aefa09a9f2bee840216ca23aca7d30240fca529c8c22b",
+  "planSha256": "bf43ecdb93c8a43dd50ea4a9e46306882902cbaf813e24438826f8585045e520",
+  "camerasSha256": "18228f58ddd0eaa07f3e2682c2a89dd6174444f02536e66d6ca7f6f06101d9bf",
+  "duration": 524.0536938888888,
+  "expectedFrames": 15722,
+  "step26Camera": {
+    "position": [
+      -114.3,
+      116,
+      17
+    ],
+    "target": [
+      -115.3,
+      111,
+      7
+    ],
+    "fov": 62
+  },
+  "assemblyRuntime": 498.2536938888889,
+  "showcaseRuntime": 20.8,
+  "sourceFiles": 214,
+  "historyFiles": 126,
+  "note": "Approved historical data hashes verified. Full byte manifest freezes CURRENT reviewed source for pre/post export; no unavailable historical wrapper byte manifest is inferred."
+}
+(node:75543) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)

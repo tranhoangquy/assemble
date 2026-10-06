@@ -1,0 +1,13 @@
+
+> furniture-video-engine@0.2.0 test
+> vitest run src/engine/export src/engine/render/SceneDiagnostics.test.ts
+
+
+ RUN  v4.1.11 /Users/quyth/development/three/POC
+
+
+ Test Files  7 passed (7)
+      Tests  39 passed (39)
+   Start at  15:15:39
+   Duration  338ms (transform 221ms, setup 0ms, import 534ms, tests 83ms, environment 0ms)
+

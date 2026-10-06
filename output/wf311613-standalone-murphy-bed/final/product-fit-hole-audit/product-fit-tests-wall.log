@@ -1,0 +1,38 @@
+
+ RUN  v4.1.11 /Users/quyth/development/three/POC
+
+(node:37094) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ❯ src/products/wf311613-standalone-murphy-bed/tests/product-fit-hole-audit.test.ts (4 tests | 1 failed) 10306ms
+   × seats the screenshot side-board and all side mating surfaces in assembled, closed and open states 10074ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/products/wf311613-standalone-murphy-bed/tests/product-fit-hole-audit.test.ts > seats the screenshot side-board and all side mating surfaces in assembled, closed and open states
+AssertionError: expected [ Array(1) ] to deeply equal []
+
+- Expected
++ Received
+
+- []
++ [
++   "regression-467: S30-H15-0 has no adequate post engagement",
++ ]
+
+ ❯ src/products/wf311613-standalone-murphy-bed/tests/product-fit-hole-audit.test.ts:8:45
+      6| import {correctProductFitAndHoles} from '../product/fit-hole-correctio…
+      7| it('seats the screenshot side-board and all side mating surfaces in as…
+      8|  const r=auditProductFit();expect(r.errors).toEqual([]);expect(r.valid…
+       |                                             ^
+      9| },180000);
+     10| it('classifies every explicit bore and driver recess, retaining matche…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 3 passed (4)
+   Start at  18:14:27
+   Duration  10.69s (transform 194ms, setup 0ms, import 309ms, tests 10.31s, environment 0ms)
+

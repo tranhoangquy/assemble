@@ -1,0 +1,78 @@
+{
+  "retrieved_at": "2026-10-05T03:10:06.828948+00:00",
+  "source_url": "https://breakingcopyright.com/song/artificialmusic-herbal-tea",
+  "required_credit_text": "Song: Herbal Tea\nComposer: Artificial.Music\nWebsite: https://www.youtube.com/channel/UCC49uNuUk7pY77NoVMlNYDA\nLicense: Creative Commons (BY 3.0) https://creativecommons.org/licenses/by/3.0/\nMusic powered by BreakingCopyright: https://breakingcopyright.com",
+  "structured_data": [
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicRecording",
+      "datePublished": "2026-08-02",
+      "name": "Herbal Tea",
+      "byArtist": [
+        {
+          "@type": "Person",
+          "name": "Artificial.Music",
+          "url": "https://breakingcopyright.com/artist/artificialmusic"
+        }
+      ],
+      "genre": "Electronic Dance",
+      "audio": {
+        "@type": "AudioObject",
+        "contentUrl": "https://files.breakingcopyright.com/song/artificialmusic-herbal-tea.mp3",
+        "encodingFormat": "audio/mpeg"
+      },
+      "keywords": "Electronic Dance music, Chill music, Electronic Dance mp3 download, royalty-free music, free download",
+      "license": "https://creativecommons.org/licenses/by/3.0/",
+      "video": {
+        "@type": "VideoObject",
+        "name": "Electronic Dance & Chill (Royalty Free Music) - \"Herbal Tea\" by Artificial.Music",
+        "description": "Electronic Dance royalty-free music for videos. Chill instrumental music to use on YouTube and social media",
+        "uploadDate": "2026-08-02",
+        "thumbnailUrl": "https://img.youtube.com/vi/6ukEy6FOxZE/maxresdefault.jpg",
+        "contentUrl": "https://www.youtube.com/watch?v=6ukEy6FOxZE",
+        "embedUrl": "https://www.youtube.com/embed/6ukEy6FOxZE"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://breakingcopyright.com//"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Music",
+          "item": "https://breakingcopyright.com//royalty-free-music"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Herbal Tea"
+        }
+      ]
+    }
+  ],
+  "youtube_description_observation": {
+    "exact_video_id": "6ukEy6FOxZE",
+    "artist": "Artificial.Music",
+    "title": "Herbal Tea",
+    "stated_license": "Creative Commons Attribution 3.0",
+    "permission": "Free to use on YouTube and social media with required credits",
+    "official_download_page": "https://breakingcopyright.com/song/artificialmusic-herbal-tea",
+    "restriction": "Do not register song on Spotify, iTunes, or copyright detection systems",
+    "method": "Expanded exact director-supplied YouTube description inspected via browser accessibility/DOM; not a remembered third-party claim"
+  },
+  "download_attempt": {
+    "official_audio_url": "https://files.breakingcopyright.com/song/artificialmusic-herbal-tea.mp3",
+    "http_status": 403,
+    "result": "No audio asset acquired",
+    "methods": [
+      "HTTPS curl with standard certificate validation"
+    ]
+  }
+}

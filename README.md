@@ -13,7 +13,7 @@ npm run dev
 
 Mở `http://localhost:3000`. Chọn Murphy Bed hoặc Demo Cabinet trong header. URL giữ sản phẩm đang mở, ví dụ `/?product=demo-cabinet`.
 
-Nhấn **Export video** để chọn 720p/1080p và 30/60 FPS. UI tạo background job, hiển thị tiến độ render/encode, cho phép hủy và tải MP4 khi hoàn tất. POC dùng job store trong memory nên cần một tiến trình Node/Next chạy liên tục trong lúc export.
+Nhấn **Export video** để chọn 720p/1080p và 30/60 FPS. UI tạo background job, hiển thị tiến độ render/encode, cho phép hủy và tải MP4 khi hoàn tất. Generate File lưu checkpoint bền vững, chia công việc theo chunk frame và cho phép Resume sau gián đoạn. Cancel giữ cache; Delete render là thao tác riêng. Xem [resumable export](docs/resumable-export.md) để biết lifecycle, API và chính sách lưu trữ. Cần tiến trình Node/Next chạy liên tục; khi server khởi động lại, job tương thích có thể Resume.
 
 ## Kiểm tra và build
 
@@ -71,7 +71,7 @@ Script mở `/render`, gọi `window.__VIDEO_RENDERER__.renderFrame(frame / fps)
 
 Có thể override bằng `RENDER_URL`, `PROJECT_ID`, `OUTPUT_WIDTH`, `OUTPUT_HEIGHT`, `OUTPUT_FPS`, `FRAMES_DIR`, `OUTPUT_FILE`. `START_TIME=68 FRAME_LIMIT=3` hữu ích cho smoke test một đoạn mà không render toàn video.
 
-API job dùng thư mục temp riêng `furniture-video-engine/render-<jobId>/frames`, xóa frames sau encode và xóa output theo TTL sau khi download. API:
+API job dùng thư mục riêng `output/export-jobs/render-<profile>-<identity>-<jobId>/`, giữ frames/manifest sau encode và download cho đến khi người dùng chọn Delete render. Các job temp cũ không có checkpoint version 2 không được tự suy đoán là resumable. API:
 
 - `POST /api/export`
 - `GET /api/export/<jobId>`

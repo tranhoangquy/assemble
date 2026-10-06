@@ -1,0 +1,9 @@
+
+ RUN  v4.1.11 /Users/quyth/development/three/POC
+
+
+ Test Files  3 passed (3)
+      Tests  17 passed (17)
+   Start at  18:11:37
+   Duration  516ms (transform 191ms, setup 0ms, import 311ms, tests 10ms, environment 0ms)
+

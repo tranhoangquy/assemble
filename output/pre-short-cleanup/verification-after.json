@@ -1,0 +1,81 @@
+{
+  "protectedFilesUnchanged": 3213,
+  "masters": [
+    {
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/director-approved-full-720p-20261004/WF311613-director-approved-full-720p.mp4",
+      "sha256": "0d5d898cbfaecb4573f07e818ce722c6884cbd4dc67d7c51b7c6c724f404ba0a",
+      "expected": "0d5d898cbfaecb4573f07e818ce722c6884cbd4dc67d7c51b7c6c724f404ba0a",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/WF311613-final-lofi-720p.mp4",
+      "sha256": "c42767184db43ce794aa165e9b60c6762c6551829833ed2f7ba60c7fdb42d457",
+      "expected": "c42767184db43ce794aa165e9b60c6762c6551829833ed2f7ba60c7fdb42d457",
+      "status": "PASS"
+    },
+    {
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/WF311613-lofi-mix-pass02.wav",
+      "sha256": "75b282e6e55a65923b00c152099f47e194b66c007f2e8053ccf6b9ec66690b2b",
+      "expected": "75b282e6e55a65923b00c152099f47e194b66c007f2e8053ccf6b9ec66690b2b",
+      "status": "PASS"
+    }
+  ],
+  "before": {
+    "output": {
+      "files": 107964,
+      "bytes": 55109655058,
+      "allocatedBytes": 55334551552,
+      "directories": 161
+    },
+    "tmp": {
+      "files": 379,
+      "bytes": 75668996,
+      "allocatedBytes": 76419072,
+      "directories": 17
+    },
+    ".next": {
+      "files": 1536,
+      "bytes": 1685219527,
+      "allocatedBytes": 1689948160,
+      "directories": 83
+    }
+  },
+  "after": {
+    "output": {
+      "files": 3651,
+      "bytes": 3003795427,
+      "allocatedBytes": 3012677632,
+      "directories": 141
+    },
+    "tmp": {
+      "files": 379,
+      "bytes": 75668996,
+      "allocatedBytes": 76419072,
+      "directories": 17
+    },
+    ".next": {
+      "files": 1542,
+      "bytes": 1688925219,
+      "allocatedBytes": 1693671424,
+      "directories": 83
+    }
+  },
+  "deleted": {
+    "files": 104330,
+    "bytes": 52119499607,
+    "allocatedBytes": 52335550464,
+    "directories": 24
+  },
+  "gitStatusCounts": {
+    " D": 104330,
+    "??": 16
+  },
+  "productionResumableJobsDeleted": 0,
+  "remainingExportJobs": [],
+  "UNKNOWN_retained": [
+    "tmp/",
+    ".next/"
+  ],
+  "noSourceCreativeMasterModified": true,
+  "noRenderOrShortImplementation": true
+}

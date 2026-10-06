@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "packets": 24567,
+  "comparison": "All final AAC packet payload hashes, PTS/DTS/order and skip-sample metadata equal the approved Pass02 preview. Final edit-list stream duration preserves 32 samples (0.667ms) rounded off by the preview movie timescale; no AAC packet or payload changed",
+  "audio_stream_duration_samples": 25155200,
+  "last_packet": {
+    "pts": 25154560,
+    "dts": 25154560,
+    "duration": 640,
+    "size": "17",
+    "flags": "K__",
+    "data_hash": "SHA256:d5ee2a2ef05dfb7c2633b6da82185a19b7f51d4580cf6d6302bae1584cf2c4d4"
+  },
+  "first_packet": {
+    "pts": -1024,
+    "dts": -1024,
+    "duration": 1024,
+    "size": "23",
+    "flags": "KD_",
+    "data_hash": "SHA256:553cd86a6984e5aead748dfa1603ba0f18c397aa54e888d94562df92519d16bb",
+    "side_data_list": [
+      {
+        "side_data_type": "Skip Samples",
+        "skip_samples": 1024,
+        "discard_padding": 0,
+        "skip_reason": 0,
+        "discard_reason": 0
+      }
+    ]
+  }
+}

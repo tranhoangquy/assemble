@@ -1,0 +1,84 @@
+{
+  "readinessBudget": 90000,
+  "productionCamerasChanged": false,
+  "pageErrors": [],
+  "captures": [
+    {
+      "id": "joint-underside-front",
+      "group": "closeups",
+      "time": 516.8,
+      "title": "open underside front",
+      "partIds": [
+        "C7-0",
+        "C7-1",
+        "C7-2",
+        "D2-0"
+      ],
+      "camera": {
+        "position": [
+          0,
+          8,
+          -245
+        ],
+        "target": [
+          0,
+          30,
+          -115
+        ],
+        "fov": 60
+      }
+    },
+    {
+      "id": "joint-underside-left",
+      "group": "closeups",
+      "time": 516.8,
+      "title": "open underside left",
+      "partIds": [
+        "C7-0",
+        "C7-1",
+        "C7-2",
+        "D2-0"
+      ],
+      "camera": {
+        "position": [
+          -120,
+          12,
+          -190
+        ],
+        "target": [
+          0,
+          30,
+          -115
+        ],
+        "fov": 60
+      }
+    },
+    {
+      "id": "joint-underside-right",
+      "group": "closeups",
+      "time": 516.8,
+      "title": "open underside right",
+      "partIds": [
+        "C7-0",
+        "C7-1",
+        "C7-2",
+        "D2-0"
+      ],
+      "camera": {
+        "position": [
+          120,
+          12,
+          -190
+        ],
+        "target": [
+          0,
+          30,
+          -115
+        ],
+        "fov": 60
+      }
+    }
+  ],
+  "readinessMs": 66335,
+  "valid": true
+}

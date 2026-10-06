@@ -1,0 +1,132 @@
+{
+  "version": "Pass 02",
+  "status": "DIRECTOR_COMPLETE_PASS02_LISTENING_REQUIRED",
+  "created_at": "2026-10-05T04:28:41.898538+00:00",
+  "track_order": [
+    "A",
+    "B",
+    "C"
+  ],
+  "sample_rate": 48000,
+  "samples_per_channel": 25155200,
+  "duration_seconds": 524.0666666666667,
+  "segments": [
+    {
+      "track_id": "A",
+      "title": "And So It Begins",
+      "artist": "Artificial.Music",
+      "source_path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/sources/A-director-supplied.mp3",
+      "source_sha256": "419442217a6d6300803a3d552eb7b4451a156a6fe671e19a449cdef55698a132",
+      "source_in_samples": 0,
+      "source_out_samples": 9360720,
+      "source_in_seconds": 0.0,
+      "source_out_seconds": 195.015,
+      "global_in_samples": 0,
+      "global_out_samples": 9360720,
+      "global_in_seconds": 0.0,
+      "global_out_seconds": 195.015,
+      "gain_db": -10.41,
+      "gain_changed": false,
+      "source_in_reason": "Retain opening from source 0s",
+      "source_out_reason": "Director locked 195.015s"
+    },
+    {
+      "track_id": "B",
+      "title": "Herbal Tea",
+      "artist": "Artificial.Music",
+      "source_path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/sources/B-director-supplied.mp3",
+      "source_sha256": "d2685ec597c6fbefe73afcf134827b8692d5a12730787cf5f692c04aa54a3e80",
+      "source_in_samples": 1975440,
+      "source_out_samples": 7079094,
+      "source_in_seconds": 41.155,
+      "source_out_seconds": 147.481125,
+      "global_in_samples": 9240720,
+      "global_out_samples": 14344374,
+      "global_in_seconds": 192.515,
+      "global_out_seconds": 298.841125,
+      "gain_db": -10.79,
+      "gain_changed": false,
+      "source_in_reason": "Director approved AB Candidate 1 entry",
+      "source_out_reason": "Retain Pass 01 BC source OUT"
+    },
+    {
+      "track_id": "C",
+      "title": "Way Home",
+      "artist": "Tokyo Music Walker",
+      "source_path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/sources/C-director-supplied.mp3",
+      "source_sha256": "dc5daba50f889602e26207c1cc3ddb22e5f6b5d352235621f6e9c445f07caf5d",
+      "source_in_samples": 1254869,
+      "source_out_samples": 12257695,
+      "source_in_seconds": 26.143104166666667,
+      "source_out_seconds": 255.36864583333335,
+      "global_in_samples": 14152374,
+      "global_out_samples": 25155200,
+      "global_in_seconds": 294.841125,
+      "global_out_seconds": 524.0666666666667,
+      "gain_db": -9.88,
+      "gain_changed": false,
+      "source_in_reason": "Retain Pass 01 BC source entry, quantized to nearest sample",
+      "source_out_reason": "Extend source use to fill exact locked duration after approved AB change; no loop or retime. Musical ending requires director listening."
+    }
+  ],
+  "transitions": [
+    {
+      "id": "A-B",
+      "candidate": 1,
+      "approval": "DIRECTOR_APPROVED_LOCKED",
+      "global_start": 192.515,
+      "global_end": 195.015,
+      "duration": 2.5,
+      "curve": "complementary half-cosine",
+      "source_A_out": 195.015,
+      "source_B_in": 41.155
+    },
+    {
+      "id": "B-C",
+      "approval": "RETAINED_PASS01_BASELINE_PENDING_COMPLETE_LISTENING",
+      "global_start": 294.841125,
+      "global_end": 298.841125,
+      "duration": 4.0,
+      "curve": "sin/cos equal-power",
+      "source_B_out": 147.481125,
+      "source_C_in": 26.143104166666667
+    }
+  ],
+  "master_fade_in": {
+    "start": 0,
+    "duration": 1.5,
+    "curve": "half cosine"
+  },
+  "master_fade_out": {
+    "start": 518.0666666666667,
+    "end": 524.0666666666667,
+    "duration": 6,
+    "curve": "half cosine"
+  },
+  "timeline_derivation": {
+    "B_global_in": "A_source_out - AB_overlap",
+    "B_duration": "B_source_out - B_source_in",
+    "C_global_in": "B_global_in + B_duration - BC_overlap",
+    "C_source_out": "C_source_in + locked_total_duration - C_global_in",
+    "B_duration_seconds": 106.326125,
+    "BC_shift_from_pass01_seconds": -8.919375000000002,
+    "C_source_out_extension_from_pass01_seconds": 8.919375000000002,
+    "C_requested_in_seconds": 26.143104,
+    "C_effective_sample_in_seconds": 26.143104166666667
+  },
+  "processing": [
+    "decode/resample to 48kHz stereo",
+    "source trims",
+    "fixed gains unchanged",
+    "approved AB crossfade",
+    "baseline BC crossfade",
+    "baseline master fades"
+  ],
+  "loops": false,
+  "tempo_pitch_change": false,
+  "video_retiming": false,
+  "voice_check": "VOICE_CONTENT_REQUIRES_DIRECTOR_LISTENING",
+  "internal_actual_listening": "NOT_PERFORMED_NO_LISTENING_CAPABLE_TOOL",
+  "director_full_pass02_approval": "PENDING",
+  "final_mux_created": false
+}

@@ -1,0 +1,427 @@
+{
+  "status": "TECHNICAL_PASS_DIRECTOR_LISTENING_PENDING",
+  "results": [
+    {
+      "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/WF311613-lofi-mix-pass02.wav",
+      "sha256": "75b282e6e55a65923b00c152099f47e194b66c007f2e8053ccf6b9ec66690b2b",
+      "full_audio_decode": "PASS",
+      "ffprobe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "pcm_s24le",
+            "codec_long_name": "PCM signed 24-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s32",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 24,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "duration_ts": 25155200,
+            "duration": "524.066667",
+            "bit_rate": "2304000",
+            "bits_per_raw_sample": "24",
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/WF311613-lofi-mix-pass02.wav",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "wav",
+          "format_long_name": "WAV / WAVE (Waveform Audio)",
+          "duration": "524.066667",
+          "size": "150931302",
+          "bit_rate": "2304001",
+          "probe_score": 99,
+          "tags": {
+            "encoder": "Lavf62.12.102"
+          }
+        }
+      },
+      "integrated_lufs": -20.0,
+      "true_peak_dbtp": -7.6,
+      "decoded_sample_peak_dbfs": -7.687831,
+      "loudness_range_lu": 7.3,
+      "sample_clipping": "PASS"
+    },
+    {
+      "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/WF311613-lofi-mix-pass02-preview.m4a",
+      "sha256": "91419b5584af8ae5e73e8cd04bddf81d2c1bc8dfbb71cf484e9f8f2305927ff3",
+      "full_audio_decode": "PASS",
+      "ffprobe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "mime_codec_string": "mp4a.40.2",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x1",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 25155168,
+            "duration": "524.066000",
+            "bit_rate": "253582",
+            "nb_frames": "24567",
+            "extradata_size": 5,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "SoundHandler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/WF311613-lofi-mix-pass02-preview.m4a",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "524.066000",
+          "size": "16711762",
+          "bit_rate": "255109",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "M4A ",
+            "minor_version": "512",
+            "compatible_brands": "M4A isomiso2",
+            "encoder": "Lavf62.12.102"
+          }
+        }
+      },
+      "integrated_lufs": -20.0,
+      "true_peak_dbtp": -7.1,
+      "decoded_sample_peak_dbfs": -7.095001,
+      "loudness_range_lu": 7.3,
+      "sample_clipping": "PASS"
+    }
+  ],
+  "review_artifacts": [
+    {
+      "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/intro-music-review-pass02.wav",
+      "sha256": "5bc1ae6f2f13d7c788afeba2e5ac8dd6a8def15f474773149984b6bf98f0ed67",
+      "ffprobe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "pcm_s24le",
+            "codec_long_name": "PCM signed 24-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s32",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 24,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "duration_ts": 1920000,
+            "duration": "40.000000",
+            "bit_rate": "2304000",
+            "bits_per_raw_sample": "24",
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/intro-music-review-pass02.wav",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "wav",
+          "format_long_name": "WAV / WAVE (Waveform Audio)",
+          "duration": "40.000000",
+          "size": "11520102",
+          "bit_rate": "2304020",
+          "probe_score": 99,
+          "tags": {
+            "encoder": "Lavf62.12.102"
+          }
+        }
+      }
+    },
+    {
+      "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/final-fade-review-pass02.wav",
+      "sha256": "e2ee818ce218c80b62fceb249c9ce3de94b6f3f7f308d828d7a80bc5d44114ac",
+      "ffprobe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "pcm_s24le",
+            "codec_long_name": "PCM signed 24-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s32",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 24,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "duration_ts": 1440000,
+            "duration": "30.000000",
+            "bit_rate": "2304000",
+            "bits_per_raw_sample": "24",
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/final-fade-review-pass02.wav",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "wav",
+          "format_long_name": "WAV / WAVE (Waveform Audio)",
+          "duration": "30.000000",
+          "size": "8640102",
+          "bit_rate": "2304027",
+          "probe_score": 99,
+          "tags": {
+            "encoder": "Lavf62.12.102"
+          }
+        }
+      }
+    },
+    {
+      "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/transition-B-C-pass02.wav",
+      "sha256": "1d7f2db2387e69ae6671939216978d4680e8c4f3fb46ee9a9b471e913f691932",
+      "ffprobe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "pcm_s24le",
+            "codec_long_name": "PCM signed 24-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s32",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 24,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "duration_ts": 1152000,
+            "duration": "24.000000",
+            "bit_rate": "2304000",
+            "bits_per_raw_sample": "24",
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/transition-B-C-pass02.wav",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "wav",
+          "format_long_name": "WAV / WAVE (Waveform Audio)",
+          "duration": "24.000000",
+          "size": "6912102",
+          "bit_rate": "2304034",
+          "probe_score": 99,
+          "tags": {
+            "encoder": "Lavf62.12.102"
+          }
+        }
+      }
+    },
+    {
+      "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/transition-A-B-pass02.wav",
+      "sha256": "f3ba0cf5fec9f0606df6fb6b78a294fde8d3721d09f3ff45b8ecc4ad5691d448",
+      "ffprobe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "pcm_s24le",
+            "codec_long_name": "PCM signed 24-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s32",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 24,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "duration_ts": 1080000,
+            "duration": "22.500000",
+            "bit_rate": "2304000",
+            "bits_per_raw_sample": "24",
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/transition-A-B-pass02.wav",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "wav",
+          "format_long_name": "WAV / WAVE (Waveform Audio)",
+          "duration": "22.500000",
+          "size": "6480102",
+          "bit_rate": "2304036",
+          "probe_score": 99,
+          "tags": {
+            "encoder": "Lavf62.12.102"
+          }
+        }
+      }
+    }
+  ],
+  "interior_100ms_below_minus70_dbfs": [],
+  "finite_samples": "PASS",
+  "VOICE_CONTENT": "VOICE_CONTENT_REQUIRES_DIRECTOR_LISTENING",
+  "perceptual_transition_and_ending_qa": "PENDING"
+}

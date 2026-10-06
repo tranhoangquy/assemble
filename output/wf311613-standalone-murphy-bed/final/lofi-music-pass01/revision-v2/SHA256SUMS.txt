@@ -1,0 +1,10 @@
+f3ba0cf5fec9f0606df6fb6b78a294fde8d3721d09f3ff45b8ecc4ad5691d448  /Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/revision-v2/AB-transition-v2-candidate-1.wav
+5d0c6b4a88b97e9c121a37d101070f2ff5cd6eb815732a5ef5ef981dbdf7d4a6  /Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/revision-v2/AB-transition-v2-candidate-1.wav.qa.log
+2e23b7c03f3adc77d29b83014ee2e8887b1d7e2b7ef19b8b53a33856c85054dc  /Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/revision-v2/AB-transition-v2-candidate-2.wav
+ff4c4c55c8ac71cec18c40562fcb730c745ab667bba9a9087021135a504ab57e  /Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/revision-v2/AB-transition-v2-candidate-2.wav.qa.log
+c976f3e98086b908363a157daf4f1c55fc9fc300c93d402783121855a68bc406  /Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/revision-v2/AB-transition-v2-candidate-3.wav
+aab2b66be9e2c7a159092112db40277e6799eee519c98612537eef18294b404c  /Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/revision-v2/AB-transition-v2-candidate-3.wav.qa.log
+3fca801d1895b95db15bd5ad001cf246c83c83a80e31b8bf560ebb0b6963eaf0  /Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/revision-v2/REVISION-v2-REPORT.md
+fee45ba00b06325d0686e3d83395b3bc7bf29b01b0cf8f0cdc8ddc985fad28bb  /Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/revision-v2/build/create_candidates.py
+de17685b9224277a5dfb12c9fcb7fcf3758ddd91e931c8d30dfcb04ed1e1e06b  /Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/revision-v2/pass01-evidence-freeze.json
+cdb62db2ade04edfc584401d144891d621b9ee29503168e6e20f72fe76596d61  /Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/revision-v2/revision-v2-edit-plan.json

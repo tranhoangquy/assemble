@@ -1,0 +1,63 @@
+Decoded 01-early-assembly frame 318 camera rail-0
+Decoded 02-first-hardware-closeup frame 478 camera joint-0
+Decoded 03-cabinet-assembly frame 2191 camera S4-context
+Decoded 04-bed-face-assembly frame 7411 camera grounded-S15-complete
+Decoded 05-carrier-assembly frame 7852 camera grounded-S16-complete
+Decoded 06-step25-front-context frame 11071 camera polish01-actual-front-context
+Decoded 07-step25-supported-approach frame 11173 camera polish01-actual-front-orient
+Decoded 08-step25-bearing-seating frame 11352 camera S25--1-pivot
+Decoded 09-step25-connected-pullback frame 11514 camera polish01-actual-front-connected
+Decoded 10-gas-piston-mechanism frame 11705 camera S26-cabinet-eye
+Decoded 11-folding-legs frame 12364 camera S28--1-D7
+Decoded 12-wall-anchoring frame 13925 camera polish01-front-S30-0-anchor
+Decoded 13-assembly-complete frame 14935 camera polish01-actual-final-open
+Decoded 14-finished-closed frame 15135 camera residential-closed
+Decoded 15-finished-opening frame 15192 camera residential-hero
+Decoded 16-mattress frame 15410 camera residential-mattress
+Decoded 17-bedding frame 15469 camera residential-hero
+Decoded 18-final-hero frame 15553 camera residential-hero
+{
+  "valid": true,
+  "candidate": "wf311613-director-polish-02b",
+  "output": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/wf311613-polish-02b-visual-master-720p.mp4",
+  "duration": 519.066667,
+  "timelineDuration": 519.0536938888888,
+  "frameCount": 15572,
+  "sourceFrameCount": 15572,
+  "sourceSequenceContiguous": true,
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": "30/1",
+  "codec": "h264",
+  "pixelFormat": "yuv420p",
+  "fileSizeBytes": 29730233,
+  "sha256": "76804a7076908bac33220f785d87940bc6128fb764e8105892284804431724a2",
+  "sourceFilesUnchanged": 198,
+  "modifiedSources": [],
+  "approvedCandidateIdentity": true,
+  "approvedCameraIdentity": true,
+  "completeDecode": true,
+  "unexpectedBlackIntervals": 0,
+  "audioStreams": 0,
+  "historicalVideoOrFramesUsed": false,
+  "freshFrameDirectory": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/frames/wf311613-polish-02b-visual-master-new-d0SrbS",
+  "spotCheckCount": 18,
+  "validation": {
+    "locks": true,
+    "props": true,
+    "mechanicalGates": true,
+    "presentationSeekReset": true
+  },
+  "warnings": [
+    "(node:90203) [THREE_CJS_DEPRECATED] DeprecationWarning: `require(\"three\")` is deprecated and will be removed.",
+    "(Use `node --trace-deprecation ...` to show where the warning was created)",
+    "[browser:warning] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+  ],
+  "verifiedAt": "2026-10-03T12:22:48.763Z",
+  "visualInspection": "Pending human/model inspection of decoded spot frames"
+}
+(node:3065) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)

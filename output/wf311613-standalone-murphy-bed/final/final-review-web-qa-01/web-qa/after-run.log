@@ -1,0 +1,31 @@
+locator.check: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('[data-profile-id="720p"]').first()[22m
+[2m    - locator resolved to <input type="radio" value="720p" name="resolution" data-profile-id="720p"/>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - performing click action[22m
+[2m    - click action done[22m
+[2m    - waiting for scheduled navigations to finish[22m
+[2m    - navigations have finished[22m
+
+    at main (/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/audit-production-ui.mjs:261:19)
+    at async file:///Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/audit-production-ui.mjs:319:3 {
+  log: [
+    `  - waiting for locator('[data-profile-id="720p"]').first()`,
+    '    - locator resolved to <input type="radio" value="720p" name="resolution" data-profile-id="720p"/>',
+    '  - attempting click action',
+    '    - waiting for element to be visible, enabled and stable',
+    '    - element is visible, enabled and stable',
+    '    - scrolling into view if needed',
+    '    - done scrolling',
+    '    - performing click action',
+    '    - click action done',
+    '    - waiting for scheduled navigations to finish',
+    '    - navigations have finished'
+  ],
+  name: 'TimeoutError'
+}

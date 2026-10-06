@@ -1,0 +1,73 @@
+{
+  "templateVersion": "1.0",
+  "productId": null,
+  "revision": null,
+  "previousRevisionPlan": null,
+  "status": "DRAFT",
+  "lockedVisual": {
+    "path": null,
+    "sha256": null,
+    "durationSeconds": null
+  },
+  "workingAudio": {
+    "sampleRateHz": null,
+    "channels": null,
+    "format": null,
+    "expectedSamplesPerChannel": null,
+    "roundingPolicy": null
+  },
+  "tracks": [
+    {
+      "id": null,
+      "assetSha256": null,
+      "analysis": {
+        "intro": null,
+        "body": null,
+        "outro": null,
+        "phraseBarBoundaries": [],
+        "tempoEstimateBpm": null,
+        "energy": null,
+        "method": null,
+        "confidence": null
+      },
+      "sourceInSample": null,
+      "sourceOutSample": null,
+      "globalInSample": null,
+      "globalOutSample": null,
+      "requestedAndQuantizedTimes": null,
+      "gainDb": null,
+      "selectionRationale": null
+    }
+  ],
+  "transitions": [
+    {
+      "fromTrack": null,
+      "toTrack": null,
+      "globalStartSample": null,
+      "globalEndSample": null,
+      "durationSamples": null,
+      "curve": null,
+      "listeningRationale": null,
+      "directorSelectionEvidence": null,
+      "locked": false
+    }
+  ],
+  "introFade": null,
+  "finalFade": null,
+  "downstreamRecalculationReport": null,
+  "zeroSfxEvidence": null,
+  "numericQa": null,
+  "actualListening": {
+    "status": "NOT RUN",
+    "capability": null,
+    "coverage": null,
+    "evidence": null
+  },
+  "completeAudioDirectorApproval": null,
+  "audioMaster": {
+    "path": null,
+    "sha256": null
+  },
+  "previewPath": null,
+  "reviewClips": []
+}

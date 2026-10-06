@@ -1,0 +1,542 @@
+{
+  "valid": true,
+  "checkedAt": "2026-10-03T07:47:25.796Z",
+  "browserExecutable": "/Users/quyth/Library/Caches/ms-playwright/chromium-1243/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing",
+  "loadedURL": "http://127.0.0.1:3014/render?project=wf311613-director-polish-01",
+  "duration": 498.2536938888889,
+  "identity": {
+    "projectId": "wf311613-director-polish-01",
+    "productHash": "4645bcf33682cbf377d84a2d0f8139674b6d80f5a5014a29505bf97287f82a45",
+    "planHash": "e40e3ba17aeab9ed26545fe17013cf90f5a21443d7a7d3434a73bff8b7d8f6d7",
+    "videoHash": "c7dcb91022b7eeb60b5fbac8767f241a18d0045a945b7b4dd7f013de8bea146d",
+    "assemblyHash": "27c5e70e0388550bf1ae66eb5e4010ec7a8ea3956cad7081039ecfc0576fdfc5",
+    "cameraPresetsHash": "d9a60f634250e3f493a33a8313d57c25b3d1e3ef79d9c87c7d63e1d455b450b4"
+  },
+  "candidateIdentityMatches": true,
+  "changedSourceFiles": [],
+  "camerasMatch": true,
+  "errors": [],
+  "failedResources": [],
+  "checks": [
+    {
+      "name": "01-early-assembly.png",
+      "time": 10.631072500000002,
+      "camera": {
+        "position": [
+          10.379522000000005,
+          252.090436,
+          -196.218425
+        ],
+        "direction": [
+          -0.04116716871754763,
+          -0.8233433610492531,
+          0.5660485615527173
+        ],
+        "target": [
+          -2,
+          4.5,
+          -26
+        ],
+        "fov": 32
+      },
+      "positionError": 0,
+      "targetError": 0,
+      "directionError": 0,
+      "fovError": 0
+    },
+    {
+      "name": "02-cabinet-working-medium.png",
+      "time": 73.0636938888888,
+      "camera": {
+        "position": [
+          30.110726000000003,
+          175.33217699999997,
+          331.1810750000001
+        ],
+        "direction": [
+          -0.0898832283293801,
+          -0.2696496820030501,
+          -0.9587544285481777
+        ],
+        "target": [
+          0,
+          85,
+          10
+        ],
+        "fov": 35
+      },
+      "positionError": 0,
+      "targetError": 0,
+      "directionError": 0,
+      "fovError": 0
+    },
+    {
+      "name": "03-after-distant-224s.png",
+      "time": 224,
+      "camera": {
+        "position": [
+          150.16514200000003,
+          316.28045,
+          -448.238778
+        ],
+        "direction": [
+          -0.27464916413897855,
+          -0.7552852013821908,
+          0.5950731897933429
+        ],
+        "target": [
+          39.27057,
+          11.320377,
+          -207.967205
+        ],
+        "fov": 50
+      },
+      "positionError": 0,
+      "targetError": 0,
+      "directionError": 0,
+      "fovError": 0
+    },
+    {
+      "name": "04-step25-front-staging.png",
+      "time": 369.0636938888887,
+      "camera": {
+        "position": [
+          194.99685899999997,
+          279.095459,
+          -602.846173
+        ],
+        "direction": [
+          -0.27973661966458807,
+          -0.4099588391965215,
+          0.8681481289407185
+        ],
+        "target": [
+          48.40399,
+          64.261082,
+          -147.902787
+        ],
+        "fov": 55
+      },
+      "positionError": 0,
+      "targetError": 0,
+      "directionError": 0,
+      "fovError": 0
+    },
+    {
+      "name": "05-step25-supported-approach.png",
+      "time": 372.4436938888887,
+      "camera": {
+        "position": [
+          200.49288399999995,
+          247.44751699999998,
+          -618.8278620000001
+        ],
+        "direction": [
+          -0.29003988267769465,
+          -0.32504469649613604,
+          0.9001237757864438
+        ],
+        "target": [
+          47.341458,
+          75.812298,
+          -143.530332
+        ],
+        "fov": 55
+      },
+      "positionError": 0,
+      "targetError": 0,
+      "directionError": 0,
+      "fovError": 0
+    },
+    {
+      "name": "06-step25-bearing-alignment.png",
+      "time": 375.15169388888864,
+      "camera": {
+        "position": [
+          172.43606699999995,
+          197.36302600000005,
+          -497.273281
+        ],
+        "direction": [
+          -0.2965055380422203,
+          -0.2556082212217276,
+          0.9201896017420312
+        ],
+        "target": [
+          39.270217,
+          82.56488,
+          -83.999953
+        ],
+        "fov": 55
+      },
+      "positionError": 0,
+      "targetError": 0,
+      "directionError": 0,
+      "fovError": 0
+    },
+    {
+      "name": "07-step25-seated-connection.png",
+      "time": 378.41369388888864,
+      "camera": {
+        "position": [
+          -116.9,
+          37.5,
+          -13
+        ],
+        "direction": [
+          0.23499810407419122,
+          -0.2473664253412532,
+          0.9399924162967623
+        ],
+        "target": [
+          -115.95,
+          36.5,
+          -9.2
+        ],
+        "fov": 55
+      },
+      "positionError": 0,
+      "targetError": 0,
+      "directionError": 0,
+      "fovError": 0
+    },
+    {
+      "name": "08-step28-leg-work.png",
+      "time": 412.13969388888853,
+      "camera": {
+        "position": [
+          9.352574000000011,
+          71.33610100000001,
+          -469.005293
+        ],
+        "direction": [
+          0.9307578455741897,
+          -0.25854383854782964,
+          0.25854383854783
+        ],
+        "target": [
+          64.916052,
+          55.901802,
+          -453.570994
+        ],
+        "fov": 35
+      },
+      "positionError": 0,
+      "targetError": 0,
+      "directionError": 0,
+      "fovError": 0
+    },
+    {
+      "name": "09-step30-wall-anchoring.png",
+      "time": 464.1911938888885,
+      "camera": {
+        "position": [
+          -190.818171,
+          223.023796,
+          -18.607369999999996
+        ],
+        "direction": [
+          0.8627860512589344,
+          -0.26362907121800766,
+          0.43139302562946746
+        ],
+        "target": [
+          -126.901431,
+          203.493681,
+          13.351
+        ],
+        "fov": 35
+      },
+      "positionError": 0,
+      "targetError": 0,
+      "directionError": 0,
+      "fovError": 0
+    },
+    {
+      "name": "10-final-open-bedroom.png",
+      "time": 497.75369388888834,
+      "camera": {
+        "position": [
+          191.78568800000005,
+          276.377111,
+          -542.801612
+        ],
+        "direction": [
+          -0.2797366193716076,
+          -0.4099588386673487,
+          0.8681481292850104
+        ],
+        "target": [
+          47.606882,
+          65.080585,
+          -95.350145
+        ],
+        "fov": 55
+      },
+      "positionError": 0,
+      "targetError": 0,
+      "directionError": 0,
+      "fovError": 0
+    },
+    {
+      "name": "11-final-closed-bedroom.png",
+      "time": 490.4536938888883,
+      "camera": {
+        "position": [
+          160.85118799999998,
+          162.067415,
+          -470.57752600000003
+        ],
+        "direction": [
+          -0.2993989587994248,
+          -0.21680614332286435,
+          0.9291691771078538
+        ],
+        "target": [
+          35.957891,
+          71.627441,
+          -82.977641
+        ],
+        "fov": 55
+      },
+      "positionError": 0,
+      "targetError": 0,
+      "directionError": 0,
+      "fovError": 0
+    },
+    {
+      "name": "12-early-connection-macro.png",
+      "time": 15.951110000000003,
+      "camera": {
+        "position": [
+          -87.835598,
+          38.258346,
+          -64.32880400000002
+        ],
+        "direction": [
+          -0.36589586144252156,
+          -0.5749792108382482,
+          0.7317917228850437
+        ],
+        "target": [
+          -109,
+          5,
+          -22
+        ],
+        "fov": 35
+      },
+      "positionError": 0,
+      "targetError": 0,
+      "directionError": 0,
+      "fovError": 0
+    },
+    {
+      "name": "13-top-cap-installation.png",
+      "time": 140.51869388888863,
+      "camera": {
+        "position": [
+          55.83672100000001,
+          463.346885,
+          239.30023400000005
+        ],
+        "direction": [
+          -0.16815072985457546,
+          -0.6726029224297738,
+          -0.7206459885327201
+        ],
+        "target": [
+          0,
+          240,
+          0
+        ],
+        "fov": 35
+      },
+      "positionError": 0,
+      "targetError": 0,
+      "directionError": 0,
+      "fovError": 0
+    },
+    {
+      "name": "14-carrier-and-face.png",
+      "time": 261.75369388888885,
+      "camera": {
+        "position": [
+          236.44883899999996,
+          341.678698,
+          -489.279068
+        ],
+        "direction": [
+          -0.11086501616905682,
+          -0.7760551226654797,
+          0.6208440986064878
+        ],
+        "target": [
+          189.680618,
+          14.301147,
+          -227.377027
+        ],
+        "fov": 55
+      },
+      "positionError": 0,
+      "targetError": 0,
+      "directionError": 0,
+      "fovError": 0
+    },
+    {
+      "name": "15-step25-bearing-lowering.png",
+      "time": 376.17869388888863,
+      "camera": {
+        "position": [
+          -116.9,
+          36.9,
+          -13
+        ],
+        "direction": [
+          0.23499810407419122,
+          -0.2473664253412532,
+          0.9399924162967623
+        ],
+        "target": [
+          -115.95,
+          35.9,
+          -9.2
+        ],
+        "fov": 75
+      },
+      "positionError": 0,
+      "targetError": 0,
+      "directionError": 0,
+      "fovError": 0
+    },
+    {
+      "name": "16-step25-retainer-installation.png",
+      "time": 379.92369388888864,
+      "camera": {
+        "position": [
+          -161.897236,
+          44.880016,
+          -32.412587
+        ],
+        "direction": [
+          0.8994380224128954,
+          -0.22485950560322387,
+          0.3747658556723834
+        ],
+        "target": [
+          -115.773428,
+          33.349064,
+          -13.194333
+        ],
+        "fov": 35
+      },
+      "positionError": 0,
+      "targetError": 0,
+      "directionError": 0,
+      "fovError": 0
+    },
+    {
+      "name": "17-pdf-left-D8-target.png",
+      "time": 168.32369388888878,
+      "camera": {
+        "position": [
+          43.40045700000002,
+          97.92765799999998,
+          -80.40598800000001
+        ],
+        "direction": [
+          -0.8302780878356746,
+          -0.23063280249496357,
+          0.507392163196531
+        ],
+        "target": [
+          -101.475124,
+          57.684441,
+          8.129089
+        ],
+        "fov": 45
+      },
+      "positionError": 0,
+      "targetError": 0,
+      "directionError": 0,
+      "fovError": 0
+    },
+    {
+      "name": "18-pdf-right-D9-seating.png",
+      "time": 153.41609388888872,
+      "camera": {
+        "position": [
+          -31.34014400000001,
+          97.92765799999998,
+          -100.141046
+        ],
+        "direction": [
+          0.8302780878356746,
+          -0.23063280249496357,
+          0.507392163196531
+        ],
+        "target": [
+          113.535437,
+          57.684441,
+          -11.605969
+        ],
+        "fov": 45
+      },
+      "positionError": 0,
+      "targetError": 0,
+      "directionError": 0,
+      "fovError": 0
+    },
+    {
+      "name": "19-step25-connected-pullback.png",
+      "time": 383.8286938888886,
+      "camera": {
+        "position": [
+          151.65049700000003,
+          175.22859500000004,
+          -392.20208799999995
+        ],
+        "direction": [
+          -0.29650553676602237,
+          -0.25560822361988195,
+          0.9201896014870965
+        ],
+        "target": [
+          34.536557,
+          74.268301,
+          -28.745031
+        ],
+        "fov": 55
+      },
+      "positionError": 0,
+      "targetError": 0,
+      "directionError": 0,
+      "fovError": 0
+    },
+    {
+      "name": "20-step29-leg-pivot.png",
+      "time": 448.3286938888885,
+      "camera": {
+        "position": [
+          136.731153,
+          42.39191,
+          -184.684432
+        ],
+        "direction": [
+          -0.8677848622978482,
+          -0.31336672356309886,
+          0.38568216102126507
+        ],
+        "target": [
+          116.560542,
+          35.108079,
+          -175.719716
+        ],
+        "fov": 35
+      },
+      "positionError": 0,
+      "targetError": 0,
+      "directionError": 0,
+      "fovError": 0
+    }
+  ]
+}

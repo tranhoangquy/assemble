@@ -1,0 +1,3866 @@
+[
+  {
+    "step": 1,
+    "shot": "context",
+    "before": "Six PDF-coded wood parts laid flat. No storage or side-bookcase geometry.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "part-introduction",
+    "before": "A5 main panel · A7 middle tie · A8 end tie · A9 thin panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "panel-alignment",
+    "before": "Lower A9 between A7 and A8; keep the panel edges visible.",
+    "after": "Fit the lower side panel.",
+    "omitted": false
+  },
+  {
+    "step": 1,
+    "shot": "dowel-target",
+    "before": "Locate the edge bore. The upright stays separated so the mating axis remains visible.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "dowel-macro",
+    "before": "#6 dowel 1/6 — push halfway into A8; leave half exposed for the upright.",
+    "after": "Fit the wood dowel.",
+    "omitted": false
+  },
+  {
+    "step": 1,
+    "shot": "dowel-1",
+    "before": "#6 dowel 2/6 — push halfway into A7; leave half exposed for the upright.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "dowel-2",
+    "before": "#6 dowel 3/6 — push halfway into A5; leave half exposed for the upright.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "dowel-3",
+    "before": "#6 dowel 4/6 — push halfway into A8; leave half exposed for the upright.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "dowel-4",
+    "before": "#6 dowel 5/6 — push halfway into A7; leave half exposed for the upright.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "dowel-5",
+    "before": "#6 dowel 6/6 — push halfway into A5; leave half exposed for the upright.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "rail-stage-0",
+    "before": "A1 approaches from the near outside edge, parallel to the six dowel axes.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "rail-seat-0",
+    "before": "Slide A1 straight onto its three exposed dowels; seat against A5, A7 and A8.",
+    "after": "Fit the side frame rail.",
+    "omitted": false
+  },
+  {
+    "step": 1,
+    "shot": "rail-stage-1",
+    "before": "A3 approaches from the opposite outside edge, parallel to the six dowel axes.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "rail-seat-1",
+    "before": "Slide A3 straight onto its three exposed dowels; seat against A5, A7 and A8.",
+    "after": "Fit the side frame rail.",
+    "omitted": false
+  },
+  {
+    "step": 1,
+    "shot": "joint-target-0",
+    "before": "A8 ↔ A1 — top cam bore and outside bolt axis. Both members are seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "cam-install-0",
+    "before": "#8 cam 1/8 — lower into the cross-bore, with its opening facing the incoming bolt.",
+    "after": "Turn the cam to lock the joint.",
+    "omitted": false
+  },
+  {
+    "step": 1,
+    "shot": "bolt-macro",
+    "before": "#5 bolt 1/8 — approach → align → contact → turn and feed → seat in #8.",
+    "after": "Fit the long bolt.",
+    "omitted": false
+  },
+  {
+    "step": 1,
+    "shot": "cam-lock-0",
+    "before": "Turn the horizontal-hole cam to lock the engaged bolt; verify the closed seam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 1,
+    "shot": "joint-target-1",
+    "before": "A7 ↔ A1 — top cam bore and outside bolt axis. Both members are seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "cam-install-1",
+    "before": "#8 cam 2/8 — lower into the cross-bore, with its opening facing the incoming bolt.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "bolt-install-1",
+    "before": "#5 bolt 2/8 — approach → align → contact → turn and feed → seat in #8.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "cam-lock-1",
+    "before": "Turn the horizontal-hole cam to lock the engaged bolt; verify the closed seam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 1,
+    "shot": "joint-target-2",
+    "before": "A5 ↔ A1 — top cam bore and outside bolt axis. Both members are seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "cam-install-2",
+    "before": "#8 cam 3/8 — lower into the cross-bore, with its opening facing the incoming bolt.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "bolt-install-2",
+    "before": "#5 bolt 3/8 — approach → align → contact → turn and feed → seat in #8.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "cam-lock-2",
+    "before": "Turn the horizontal-hole cam to lock the engaged bolt; verify the closed seam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 1,
+    "shot": "joint-target-3",
+    "before": "A5 ↔ A1 — top cam bore and outside bolt axis. Both members are seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "cam-install-3",
+    "before": "#8 cam 4/8 — lower into the cross-bore, with its opening facing the incoming bolt.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "bolt-install-3",
+    "before": "#5 bolt 4/8 — approach → align → contact → turn and feed → seat in #8.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "cam-lock-3",
+    "before": "Turn the horizontal-hole cam to lock the engaged bolt; verify the closed seam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 1,
+    "shot": "joint-target-4",
+    "before": "A8 ↔ A3 — top cam bore and outside bolt axis. Both members are seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "cam-install-4",
+    "before": "#8 cam 5/8 — lower into the cross-bore, with its opening facing the incoming bolt.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "bolt-install-4",
+    "before": "#5 bolt 5/8 — approach → align → contact → turn and feed → seat in #8.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "cam-lock-4",
+    "before": "Turn the horizontal-hole cam to lock the engaged bolt; verify the closed seam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 1,
+    "shot": "joint-target-5",
+    "before": "A7 ↔ A3 — top cam bore and outside bolt axis. Both members are seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "cam-install-5",
+    "before": "#8 cam 6/8 — lower into the cross-bore, with its opening facing the incoming bolt.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "bolt-install-5",
+    "before": "#5 bolt 6/8 — approach → align → contact → turn and feed → seat in #8.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "cam-lock-5",
+    "before": "Turn the horizontal-hole cam to lock the engaged bolt; verify the closed seam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 1,
+    "shot": "joint-target-6",
+    "before": "A5 ↔ A3 — top cam bore and outside bolt axis. Both members are seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "cam-install-6",
+    "before": "#8 cam 7/8 — lower into the cross-bore, with its opening facing the incoming bolt.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "bolt-install-6",
+    "before": "#5 bolt 7/8 — approach → align → contact → turn and feed → seat in #8.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "cam-lock-6",
+    "before": "Turn the horizontal-hole cam to lock the engaged bolt; verify the closed seam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 1,
+    "shot": "joint-target-7",
+    "before": "A5 ↔ A3 — top cam bore and outside bolt axis. Both members are seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "cam-install-7",
+    "before": "#8 cam 8/8 — lower into the cross-bore, with its opening facing the incoming bolt.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "bolt-install-7",
+    "before": "#5 bolt 8/8 — approach → align → contact → turn and feed → seat in #8.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "cam-lock-7",
+    "before": "Turn the horizontal-hole cam to lock the engaged bolt; verify the closed seam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 1,
+    "shot": "verify",
+    "before": "All 6 dowels and all 8 cam/bolt joints installed. Both long uprights are seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 1,
+    "shot": "result",
+    "before": "Step 1 complete — one flat cabinet-side subassembly. Stop for director review.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-context",
+    "before": "First side remains parked. Build the mirrored A2 / A4 / A6 side.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-part-introduction",
+    "before": "A6 main panel · A7 middle tie · A8 end tie · A9 thin panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-panel-alignment",
+    "before": "Lower A9 between A7 and A8; keep the panel edges visible.",
+    "after": "Fit the lower side panel.",
+    "omitted": false
+  },
+  {
+    "step": 2,
+    "shot": "R-dowel-macro",
+    "before": "#6 dowel 1/6 — push halfway into A8; leave half exposed for the upright.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-dowel-1",
+    "before": "#6 dowel 2/6 — push halfway into A7; leave half exposed for the upright.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-dowel-2",
+    "before": "#6 dowel 3/6 — push halfway into A6; leave half exposed for the upright.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-dowel-3",
+    "before": "#6 dowel 4/6 — push halfway into A8; leave half exposed for the upright.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-dowel-4",
+    "before": "#6 dowel 5/6 — push halfway into A7; leave half exposed for the upright.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-dowel-5",
+    "before": "#6 dowel 6/6 — push halfway into A6; leave half exposed for the upright.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-rail-stage-0",
+    "before": "A2 approaches from the near outside edge, parallel to the six dowel axes.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-rail-seat-0",
+    "before": "Slide A2 straight onto its three exposed dowels; seat against A6, A7 and A8.",
+    "after": "Fit the side frame rail.",
+    "omitted": false
+  },
+  {
+    "step": 2,
+    "shot": "R-rail-stage-1",
+    "before": "A4 approaches from the opposite outside edge, parallel to the six dowel axes.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-rail-seat-1",
+    "before": "Slide A4 straight onto its three exposed dowels; seat against A6, A7 and A8.",
+    "after": "Fit the side frame rail.",
+    "omitted": false
+  },
+  {
+    "step": 2,
+    "shot": "R-joint-target-0",
+    "before": "A8 ↔ A2 — top cam bore and outside bolt axis. Both members are seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-cam-install-0",
+    "before": "#8 cam 1/8 — lower into the cross-bore, with its opening facing the incoming bolt.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-bolt-macro",
+    "before": "#5 bolt 1/8 — approach → align → contact → turn and feed → seat in #8.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-joint-target-1",
+    "before": "A7 ↔ A2 — top cam bore and outside bolt axis. Both members are seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-cam-install-1",
+    "before": "#8 cam 2/8 — lower into the cross-bore, with its opening facing the incoming bolt.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-bolt-install-1",
+    "before": "#5 bolt 2/8 — approach → align → contact → turn and feed → seat in #8.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-joint-target-2",
+    "before": "A6 ↔ A2 — top cam bore and outside bolt axis. Both members are seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-cam-install-2",
+    "before": "#8 cam 3/8 — lower into the cross-bore, with its opening facing the incoming bolt.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-bolt-install-2",
+    "before": "#5 bolt 3/8 — approach → align → contact → turn and feed → seat in #8.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-joint-target-3",
+    "before": "A6 ↔ A2 — top cam bore and outside bolt axis. Both members are seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-cam-install-3",
+    "before": "#8 cam 4/8 — lower into the cross-bore, with its opening facing the incoming bolt.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-bolt-install-3",
+    "before": "#5 bolt 4/8 — approach → align → contact → turn and feed → seat in #8.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-joint-target-4",
+    "before": "A8 ↔ A4 — top cam bore and outside bolt axis. Both members are seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-cam-install-4",
+    "before": "#8 cam 5/8 — lower into the cross-bore, with its opening facing the incoming bolt.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-bolt-install-4",
+    "before": "#5 bolt 5/8 — approach → align → contact → turn and feed → seat in #8.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-joint-target-5",
+    "before": "A7 ↔ A4 — top cam bore and outside bolt axis. Both members are seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-cam-install-5",
+    "before": "#8 cam 6/8 — lower into the cross-bore, with its opening facing the incoming bolt.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-bolt-install-5",
+    "before": "#5 bolt 6/8 — approach → align → contact → turn and feed → seat in #8.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-joint-target-6",
+    "before": "A6 ↔ A4 — top cam bore and outside bolt axis. Both members are seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-cam-install-6",
+    "before": "#8 cam 7/8 — lower into the cross-bore, with its opening facing the incoming bolt.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-bolt-install-6",
+    "before": "#5 bolt 7/8 — approach → align → contact → turn and feed → seat in #8.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-joint-target-7",
+    "before": "A6 ↔ A4 — top cam bore and outside bolt axis. Both members are seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-cam-install-7",
+    "before": "#8 cam 8/8 — lower into the cross-bore, with its opening facing the incoming bolt.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-bolt-install-7",
+    "before": "#5 bolt 8/8 — approach → align → contact → turn and feed → seat in #8.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-cam-lock-0",
+    "before": "Turn the horizontal-hole cam to lock the engaged bolt; verify the closed seam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 2,
+    "shot": "R-cam-lock-1",
+    "before": "Turn the horizontal-hole cam to lock the engaged bolt; verify the closed seam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 2,
+    "shot": "R-cam-lock-2",
+    "before": "Turn the horizontal-hole cam to lock the engaged bolt; verify the closed seam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 2,
+    "shot": "R-cam-lock-3",
+    "before": "Turn the horizontal-hole cam to lock the engaged bolt; verify the closed seam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 2,
+    "shot": "R-cam-lock-4",
+    "before": "Turn the horizontal-hole cam to lock the engaged bolt; verify the closed seam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 2,
+    "shot": "R-cam-lock-5",
+    "before": "Turn the horizontal-hole cam to lock the engaged bolt; verify the closed seam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 2,
+    "shot": "R-cam-lock-6",
+    "before": "Turn the horizontal-hole cam to lock the engaged bolt; verify the closed seam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 2,
+    "shot": "R-cam-lock-7",
+    "before": "Turn the horizontal-hole cam to lock the engaged bolt; verify the closed seam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 2,
+    "shot": "R-verify",
+    "before": "All 6 dowels and all 8 cam/bolt joints installed. Both long uprights are seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 2,
+    "shot": "R-result",
+    "before": "Two mirrored cabinet-side assemblies complete.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-supported-sides",
+    "before": "Both finished sides are supported upright. Keep the second side outboard until all rail-end dowels are aligned.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-introduce-lower-frame",
+    "before": "E3 and B9 remain supported in the open gap; introduce E4 and D5 before mating the frame to the sides.",
+    "after": "Bottom Front Rail",
+    "omitted": false
+  },
+  {
+    "step": 3,
+    "shot": "S3-center-target",
+    "before": "Align the E4 bottom tongue with the center receiver in E3; D5 remains raised.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-seat-E4",
+    "before": "Lower E4 into E3 without trapping its upper tongue.",
+    "after": "Fit the lower center support.",
+    "omitted": false
+  },
+  {
+    "step": 3,
+    "shot": "S3-seat-D5-on-E4",
+    "before": "Lower D5 onto the E4 upper tongue while the lower frame is still supported clear of both cabinet sides.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-E3--1-dowel-insert",
+    "before": "#6 dowel 1/6 — insert halfway into E3; keep the other half exposed along the cabinet-width axis.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-E3-1-dowel-insert",
+    "before": "#6 dowel 2/6 — insert halfway into E3; keep the other half exposed along the cabinet-width axis.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-B9--1-dowel-insert",
+    "before": "#6 dowel 3/6 — insert halfway into B9; keep the other half exposed along the cabinet-width axis.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-B9-1-dowel-insert",
+    "before": "#6 dowel 4/6 — insert halfway into B9; keep the other half exposed along the cabinet-width axis.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-D5--1-dowel-insert",
+    "before": "#6 dowel 5/6 — insert halfway into D5; keep the other half exposed along the cabinet-width axis.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-D5-1-dowel-insert",
+    "before": "#6 dowel 6/6 — insert halfway into D5; keep the other half exposed along the cabinet-width axis.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-first-side-target",
+    "before": "All three exposed dowels at the first side align with its receiver holes. Translate the supported lower frame only along X.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-seat-first-side",
+    "before": "Seat the complete lower frame on the FIRST side. E4 and all six dowels move rigidly with their rails; the second side stays outboard.",
+    "after": "Fit the bottom front rail.",
+    "omitted": false
+  },
+  {
+    "step": 3,
+    "shot": "S3-second-side-alignment",
+    "before": "Keep the second side supported. Align its three holes with the exposed dowels before closing the gap.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-close-second-side",
+    "before": "Close the SECOND side straight along the dowel axes. The installed lower frame does not move.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-start-all-warning",
+    "before": "START ALL SIX BOLTS FIRST — no final tightening until every #4 bolt has engaged its #8 cam.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-E3--1-cam-insert",
+    "before": "#8 cam 1/6 — its opening faces the outside bolt axis.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-E3--1-bolt-start",
+    "before": "#4 bolt 1/6 — approach, contact and turn only to START the joint; leave it loose for squaring.",
+    "after": "Start every bolt before tightening.",
+    "omitted": false
+  },
+  {
+    "step": 3,
+    "shot": "S3-E3-1-cam-insert",
+    "before": "#8 cam 2/6 — its opening faces the outside bolt axis.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-E3-1-bolt-start",
+    "before": "#4 bolt 2/6 — approach, contact and turn only to START the joint; leave it loose for squaring.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-B9--1-cam-insert",
+    "before": "#8 cam 3/6 — its opening faces the outside bolt axis.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-B9--1-bolt-start",
+    "before": "#4 bolt 3/6 — approach, contact and turn only to START the joint; leave it loose for squaring.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-B9-1-cam-insert",
+    "before": "#8 cam 4/6 — its opening faces the outside bolt axis.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-B9-1-bolt-start",
+    "before": "#4 bolt 4/6 — approach, contact and turn only to START the joint; leave it loose for squaring.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-D5--1-cam-insert",
+    "before": "#8 cam 5/6 — its opening faces the outside bolt axis.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-D5--1-bolt-start",
+    "before": "#4 bolt 5/6 — approach, contact and turn only to START the joint; leave it loose for squaring.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-D5-1-cam-insert",
+    "before": "#8 cam 6/6 — its opening faces the outside bolt axis.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-D5-1-bolt-start",
+    "before": "#4 bolt 6/6 — approach, contact and turn only to START the joint; leave it loose for squaring.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 3,
+    "shot": "S3-square-before-tightening",
+    "before": "All six bolts have started. Verify parallel cabinet sides and square lower-frame corners before the tightening pass.",
+    "after": "Check alignment before tightening.",
+    "omitted": false
+  },
+  {
+    "step": 3,
+    "shot": "S3-E3--1-final-tightening",
+    "before": "Final tightening pass — turn the engaged bolt, seat its head, then lock its cam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 3,
+    "shot": "S3-E3-1-final-tightening",
+    "before": "Final tightening pass — turn the engaged bolt, seat its head, then lock its cam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 3,
+    "shot": "S3-B9--1-final-tightening",
+    "before": "Final tightening pass — turn the engaged bolt, seat its head, then lock its cam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 3,
+    "shot": "S3-B9-1-final-tightening",
+    "before": "Final tightening pass — turn the engaged bolt, seat its head, then lock its cam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 3,
+    "shot": "S3-D5--1-final-tightening",
+    "before": "Final tightening pass — turn the engaged bolt, seat its head, then lock its cam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 3,
+    "shot": "S3-D5-1-final-tightening",
+    "before": "Final tightening pass — turn the engaged bolt, seat its head, then lock its cam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 3,
+    "shot": "S3-complete",
+    "before": "Step 3 complete — D5, B9, E3 and E4 joined to both sides; 6 dowels, 6 cams and 6 bolts installed.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 4,
+    "shot": "S4-context",
+    "before": "Continue the cabinet: add row 1 above the completed structure.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 4,
+    "shot": "S4-introduce",
+    "before": "B8 ×2, B7 center tie, and the spanning rail. Keep B7 in front of the open row and the upper rail clear until the panels seat.",
+    "after": "Cabinet Back Panel",
+    "omitted": false
+  },
+  {
+    "step": 4,
+    "shot": "S4-target",
+    "before": "Identify the center receiver and both row edges. The two thin B8 panels fill the open span.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 4,
+    "shot": "S4-B8-4--1-seat",
+    "before": "Approach just inward and above the support edges, clear the rear post easing, align outward, then settle onto the lower rail. B7 and the upper rail remain clear.",
+    "after": "Fit the cabinet back panel.",
+    "omitted": false
+  },
+  {
+    "step": 4,
+    "shot": "S4-B8-4-1-seat",
+    "before": "Approach just inward and above the support edges, clear the rear post easing, align outward, then settle onto the lower rail. B7 and the upper rail remain clear.",
+    "after": "Fit the cabinet back panel.",
+    "omitted": false
+  },
+  {
+    "step": 4,
+    "shot": "S4-B7-seat",
+    "before": "Bring B7 from its clear front staging position into the center channel, then lower onto the receiver; its upper tongue remains exposed.",
+    "after": "Fit the cabinet center support.",
+    "omitted": false
+  },
+  {
+    "step": 4,
+    "shot": "S4-D4-1-seat",
+    "before": "D4-1 — align between the side frames, then lower onto the center tongue.",
+    "after": "Fit the cabinet cross rail.",
+    "omitted": false
+  },
+  {
+    "step": 4,
+    "shot": "S4-D4-1--1-target",
+    "before": "Aligned end holes — dowel above, bolt/cam below. Insert from the outside now that the rail is seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 4,
+    "shot": "S4-D4-1--1-dowel",
+    "before": "#6 dowel — push through the aligned outside receiver, leaving half its length in the rail.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 4,
+    "shot": "S4-D4-1--1-cam",
+    "before": "#8 cam — slot faces the outside bolt axis.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 4,
+    "shot": "S4-D4-1--1-start",
+    "before": "#4 bolt — start the thread only; keep the joint loose until ALL bolts are started.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 4,
+    "shot": "S4-D4-1-1-target",
+    "before": "Aligned end holes — dowel above, bolt/cam below. Insert from the outside now that the rail is seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 4,
+    "shot": "S4-D4-1-1-dowel",
+    "before": "#6 dowel — push through the aligned outside receiver, leaving half its length in the rail.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 4,
+    "shot": "S4-D4-1-1-cam",
+    "before": "#8 cam — slot faces the outside bolt axis.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 4,
+    "shot": "S4-D4-1-1-start",
+    "before": "#4 bolt — start the thread only; keep the joint loose until ALL bolts are started.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 4,
+    "shot": "S4-square",
+    "before": "ALL bolts are started. Verify alignment and squareness BEFORE the final tightening pass.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 4,
+    "shot": "S4-D4-1--1-tighten",
+    "before": "Seat the engaged bolt, then lock the cam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 4,
+    "shot": "S4-D4-1-1-tighten",
+    "before": "Seat the engaged bolt, then lock the cam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 4,
+    "shot": "S4-complete",
+    "before": "Row 1 complete — panels retained, center tie aligned, all end joints secured.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 5,
+    "shot": "S5-context",
+    "before": "Continue the cabinet: add row 2 above the completed structure.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 5,
+    "shot": "S5-introduce",
+    "before": "B8 ×2, B7 center tie, and the spanning rail. Keep B7 in front of the open row and the upper rail clear until the panels seat.",
+    "after": "Cabinet Back Panel",
+    "omitted": false
+  },
+  {
+    "step": 5,
+    "shot": "S5-target",
+    "before": "Identify the center receiver and both row edges. The two thin B8 panels fill the open span.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 5,
+    "shot": "S5-B8-5--1-seat",
+    "before": "Approach just inward and above the support edges, clear the rear post easing, align outward, then settle onto the lower rail. B7 and the upper rail remain clear.",
+    "after": "Fit the cabinet back panel.",
+    "omitted": false
+  },
+  {
+    "step": 5,
+    "shot": "S5-B8-5-1-seat",
+    "before": "Approach just inward and above the support edges, clear the rear post easing, align outward, then settle onto the lower rail. B7 and the upper rail remain clear.",
+    "after": "Fit the cabinet back panel.",
+    "omitted": false
+  },
+  {
+    "step": 5,
+    "shot": "S5-B7-seat",
+    "before": "Bring B7 from its clear front staging position into the center channel, then lower onto the receiver; its upper tongue remains exposed.",
+    "after": "Fit the cabinet center support.",
+    "omitted": false
+  },
+  {
+    "step": 5,
+    "shot": "S5-D4-2-seat",
+    "before": "D4-2 — align between the side frames, then lower onto the center tongue.",
+    "after": "Fit the cabinet cross rail.",
+    "omitted": false
+  },
+  {
+    "step": 5,
+    "shot": "S5-D4-2--1-target",
+    "before": "Aligned end holes — dowel above, bolt/cam below. Insert from the outside now that the rail is seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 5,
+    "shot": "S5-D4-2--1-dowel",
+    "before": "#6 dowel — push through the aligned outside receiver, leaving half its length in the rail.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 5,
+    "shot": "S5-D4-2--1-cam",
+    "before": "#8 cam — slot faces the outside bolt axis.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 5,
+    "shot": "S5-D4-2--1-start",
+    "before": "#4 bolt — start the thread only; keep the joint loose until ALL bolts are started.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 5,
+    "shot": "S5-D4-2-1-target",
+    "before": "Aligned end holes — dowel above, bolt/cam below. Insert from the outside now that the rail is seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 5,
+    "shot": "S5-D4-2-1-dowel",
+    "before": "#6 dowel — push through the aligned outside receiver, leaving half its length in the rail.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 5,
+    "shot": "S5-D4-2-1-cam",
+    "before": "#8 cam — slot faces the outside bolt axis.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 5,
+    "shot": "S5-D4-2-1-start",
+    "before": "#4 bolt — start the thread only; keep the joint loose until ALL bolts are started.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 5,
+    "shot": "S5-square",
+    "before": "ALL bolts are started. Verify alignment and squareness BEFORE the final tightening pass.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 5,
+    "shot": "S5-D4-2--1-tighten",
+    "before": "Seat the engaged bolt, then lock the cam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 5,
+    "shot": "S5-D4-2-1-tighten",
+    "before": "Seat the engaged bolt, then lock the cam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 5,
+    "shot": "S5-complete",
+    "before": "Row 2 complete — panels retained, center tie aligned, all end joints secured.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 6,
+    "shot": "S6-context",
+    "before": "Continue the cabinet: add row 3 above the completed structure.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 6,
+    "shot": "S6-introduce",
+    "before": "B8 ×2, B7 center tie, and the spanning rail. Keep B7 in front of the open row and the upper rail clear until the panels seat.",
+    "after": "Cabinet Back Panel",
+    "omitted": false
+  },
+  {
+    "step": 6,
+    "shot": "S6-target",
+    "before": "Identify the center receiver and both row edges. The two thin B8 panels fill the open span.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 6,
+    "shot": "S6-B8-6--1-seat",
+    "before": "Approach just inward and above the support edges, clear the rear post easing, align outward, then settle onto the lower rail. B7 and the upper rail remain clear.",
+    "after": "Fit the cabinet back panel.",
+    "omitted": false
+  },
+  {
+    "step": 6,
+    "shot": "S6-B8-6-1-seat",
+    "before": "Approach just inward and above the support edges, clear the rear post easing, align outward, then settle onto the lower rail. B7 and the upper rail remain clear.",
+    "after": "Fit the cabinet back panel.",
+    "omitted": false
+  },
+  {
+    "step": 6,
+    "shot": "S6-B7-seat",
+    "before": "Bring B7 from its clear front staging position into the center channel, then lower onto the receiver; its upper tongue remains exposed.",
+    "after": "Fit the cabinet center support.",
+    "omitted": false
+  },
+  {
+    "step": 6,
+    "shot": "S6-B5-seat",
+    "before": "B5 — align between the side frames, then lower onto the center tongue.",
+    "after": "Fit the upper front rail.",
+    "omitted": false
+  },
+  {
+    "step": 6,
+    "shot": "S6-B6-seat",
+    "before": "B6 — align between the side frames, then lower onto the center tongue.",
+    "after": "Fit the upper rear rail.",
+    "omitted": false
+  },
+  {
+    "step": 6,
+    "shot": "S6-B5--1-target",
+    "before": "Aligned end holes — dowel above, bolt/cam below. Insert from the outside now that the rail is seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 6,
+    "shot": "S6-B5--1-dowel",
+    "before": "#6 dowel — push through the aligned outside receiver, leaving half its length in the rail.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 6,
+    "shot": "S6-B5--1-cam",
+    "before": "#8 cam — slot faces the outside bolt axis.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 6,
+    "shot": "S6-B5--1-start",
+    "before": "#4 bolt — start the thread only; keep the joint loose until ALL bolts are started.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 6,
+    "shot": "S6-B5-1-target",
+    "before": "Aligned end holes — dowel above, bolt/cam below. Insert from the outside now that the rail is seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 6,
+    "shot": "S6-B5-1-dowel",
+    "before": "#6 dowel — push through the aligned outside receiver, leaving half its length in the rail.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 6,
+    "shot": "S6-B5-1-cam",
+    "before": "#8 cam — slot faces the outside bolt axis.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 6,
+    "shot": "S6-B5-1-start",
+    "before": "#4 bolt — start the thread only; keep the joint loose until ALL bolts are started.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 6,
+    "shot": "S6-B6--1-target",
+    "before": "Aligned end holes — dowel above, bolt/cam below. Insert from the outside now that the rail is seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 6,
+    "shot": "S6-B6--1-dowel",
+    "before": "#6 dowel — push through the aligned outside receiver, leaving half its length in the rail.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 6,
+    "shot": "S6-B6--1-cam",
+    "before": "#8 cam — slot faces the outside bolt axis.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 6,
+    "shot": "S6-B6--1-start",
+    "before": "#4 bolt — start the thread only; keep the joint loose until ALL bolts are started.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 6,
+    "shot": "S6-B6-1-target",
+    "before": "Aligned end holes — dowel above, bolt/cam below. Insert from the outside now that the rail is seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 6,
+    "shot": "S6-B6-1-dowel",
+    "before": "#6 dowel — push through the aligned outside receiver, leaving half its length in the rail.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 6,
+    "shot": "S6-B6-1-cam",
+    "before": "#8 cam — slot faces the outside bolt axis.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 6,
+    "shot": "S6-B6-1-start",
+    "before": "#4 bolt — start the thread only; keep the joint loose until ALL bolts are started.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 6,
+    "shot": "S6-square",
+    "before": "ALL bolts are started. Verify alignment and squareness BEFORE the final tightening pass.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 6,
+    "shot": "S6-B5--1-tighten",
+    "before": "Seat the engaged bolt, then lock the cam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 6,
+    "shot": "S6-B5-1-tighten",
+    "before": "Seat the engaged bolt, then lock the cam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 6,
+    "shot": "S6-B6--1-tighten",
+    "before": "Seat the engaged bolt, then lock the cam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 6,
+    "shot": "S6-B6-1-tighten",
+    "before": "Seat the engaged bolt, then lock the cam.",
+    "after": "Tighten the bolts.",
+    "omitted": false
+  },
+  {
+    "step": 6,
+    "shot": "S6-complete",
+    "before": "Row 3 complete — panels retained, center tie aligned, all end joints secured.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 7,
+    "shot": "S7-context",
+    "before": "Build the top cap separately: B1 ×2, B2 ×2, B3 ×1, B4 ×2. All parts remain supported on the work surface.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 7,
+    "shot": "S7-groove-target",
+    "before": "The thin B4 panels fit inside the routed B1 channels. Leave the long rails open while arranging the panels.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 7,
+    "shot": "B4-left-seat",
+    "before": "Lower B4 into the open layout; the rails are still spread apart, so no panel crosses a groove lip.",
+    "after": "Fit the top infill panel.",
+    "omitted": false
+  },
+  {
+    "step": 7,
+    "shot": "B4-right-seat",
+    "before": "Lower B4 into the open layout; the rails are still spread apart, so no panel crosses a groove lip.",
+    "after": "Fit the top infill panel.",
+    "omitted": false
+  },
+  {
+    "step": 7,
+    "shot": "B2-left-align",
+    "before": "B2 end tie — fit into the clear notch between the two B4 panels.",
+    "after": "Fit the top cross rail.",
+    "omitted": false
+  },
+  {
+    "step": 7,
+    "shot": "B3-align",
+    "before": "B3 center tie — fit into the clear notch between the two B4 panels.",
+    "after": "Fit the top center support.",
+    "omitted": false
+  },
+  {
+    "step": 7,
+    "shot": "B2-right-align",
+    "before": "B2 end tie — fit into the clear notch between the two B4 panels.",
+    "after": "Fit the top cross rail.",
+    "omitted": false
+  },
+  {
+    "step": 7,
+    "shot": "B1-rear-close",
+    "before": "Close B1 along the panel edges; the B4 edges enter the routed channel without passing through the rail.",
+    "after": "Fit the top frame rail.",
+    "omitted": false
+  },
+  {
+    "step": 7,
+    "shot": "B1-front-close",
+    "before": "Close B1 along the panel edges; the B4 edges enter the routed channel without passing through the rail.",
+    "after": "Fit the top frame rail.",
+    "omitted": false
+  },
+  {
+    "step": 7,
+    "shot": "S7-H13-0-install",
+    "before": "#13 screw 1/6 — EDGE axis into B2/B3, not downward through the cap.",
+    "after": "Fit the long wood screw.",
+    "omitted": false
+  },
+  {
+    "step": 7,
+    "shot": "S7-H13-1-install",
+    "before": "#13 screw 2/6 — EDGE axis into B2/B3, not downward through the cap.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 7,
+    "shot": "S7-H13-2-install",
+    "before": "#13 screw 3/6 — EDGE axis into B2/B3, not downward through the cap.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 7,
+    "shot": "S7-H13-3-install",
+    "before": "#13 screw 4/6 — EDGE axis into B2/B3, not downward through the cap.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 7,
+    "shot": "S7-H13-4-install",
+    "before": "#13 screw 5/6 — EDGE axis into B2/B3, not downward through the cap.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 7,
+    "shot": "S7-H13-5-install",
+    "before": "#13 screw 6/6 — EDGE axis into B2/B3, not downward through the cap.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 7,
+    "shot": "S7-complete",
+    "before": "Complete top cap: two rails, two end ties, one center tie, two infills and all six edge screws.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 8,
+    "shot": "S8-context",
+    "before": "The completed top cap and cabinet are separate assemblies. Lift the cap clear before moving it over the cabinet.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 8,
+    "shot": "S8-cap-lift",
+    "before": "Lift the COMPLETE top cap, including all six installed screws, above the cabinet.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 8,
+    "shot": "S8-cap-above",
+    "before": "Translate the cap over the cabinet only after its underside clears the highest installed part.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 8,
+    "shot": "S8-four-targets",
+    "before": "Identify all FOUR vertical dowel receiver pairs before lowering.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 8,
+    "shot": "S8-dowel--1--18-insert",
+    "before": "#6 top dowel 1/4 — insert halfway, leaving the upper half for the cap.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 8,
+    "shot": "S8-dowel--1-18-insert",
+    "before": "#6 top dowel 2/4 — insert halfway, leaving the upper half for the cap.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 8,
+    "shot": "S8-dowel-1--18-insert",
+    "before": "#6 top dowel 3/4 — insert halfway, leaving the upper half for the cap.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 8,
+    "shot": "S8-dowel-1-18-insert",
+    "before": "#6 top dowel 4/4 — insert halfway, leaving the upper half for the cap.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 8,
+    "shot": "S8-lower-align",
+    "before": "Lower to the exposed dowel tips; stop with all four cap holes aligned.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 8,
+    "shot": "S8-cap-seat",
+    "before": "Controlled final lowering: four dowels enter their holes and the perimeter seats flush.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 8,
+    "shot": "S8-H12--1-0-install",
+    "before": "#12 top screw 1/10 — drive DOWN through the seated cap into B6.",
+    "after": "Fit the wood screw.",
+    "omitted": false
+  },
+  {
+    "step": 8,
+    "shot": "S8-H12--1-1-install",
+    "before": "#12 top screw 2/10 — drive DOWN through the seated cap into B6.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 8,
+    "shot": "S8-H12--1-2-install",
+    "before": "#12 top screw 3/10 — drive DOWN through the seated cap into B6.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 8,
+    "shot": "S8-H12--1-3-install",
+    "before": "#12 top screw 4/10 — drive DOWN through the seated cap into B6.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 8,
+    "shot": "S8-H12--1-4-install",
+    "before": "#12 top screw 5/10 — drive DOWN through the seated cap into B6.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 8,
+    "shot": "S8-H12-1-0-install",
+    "before": "#12 top screw 6/10 — drive DOWN through the seated cap into B5.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 8,
+    "shot": "S8-H12-1-1-install",
+    "before": "#12 top screw 7/10 — drive DOWN through the seated cap into B5.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 8,
+    "shot": "S8-H12-1-2-install",
+    "before": "#12 top screw 8/10 — drive DOWN through the seated cap into B5.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 8,
+    "shot": "S8-H12-1-3-install",
+    "before": "#12 top screw 9/10 — drive DOWN through the seated cap into B5.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 8,
+    "shot": "S8-H12-1-4-install",
+    "before": "#12 top screw 10/10 — drive DOWN through the seated cap into B5.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 8,
+    "shot": "S8-complete",
+    "before": "Top cap seated and fastened: four dowels, ten downward screws.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 9,
+    "shot": "S9-context",
+    "before": "D9 = PDF-right. Mount it on the INNER lower side face, with the curved receiver facing the opening.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 9,
+    "shot": "S9-introduce",
+    "before": "Separate metal L-link: show its tall arm, lower arm, curved receiver and ten mounting holes.",
+    "after": "Right Pivot Bracket",
+    "omitted": false
+  },
+  {
+    "step": 9,
+    "shot": "S9-target",
+    "before": "Match the metal holes with the side-panel pilots before closing the gap.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 9,
+    "shot": "S9-seat-link",
+    "before": "Approach perpendicular to the inner face; align and seat the plate flush.",
+    "after": "Fit the right pivot bracket.",
+    "omitted": false
+  },
+  {
+    "step": 9,
+    "shot": "S9-H21-0-install",
+    "before": "#21 screw 1/10 — align, engage, rotate/feed and seat through D9 into the side panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 9,
+    "shot": "S9-H21-1-install",
+    "before": "#21 screw 2/10 — align, engage, rotate/feed and seat through D9 into the side panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 9,
+    "shot": "S9-H21-2-install",
+    "before": "#21 screw 3/10 — align, engage, rotate/feed and seat through D9 into the side panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 9,
+    "shot": "S9-H21-3-install",
+    "before": "#21 screw 4/10 — align, engage, rotate/feed and seat through D9 into the side panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 9,
+    "shot": "S9-H21-4-install",
+    "before": "#21 screw 5/10 — align, engage, rotate/feed and seat through D9 into the side panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 9,
+    "shot": "S9-H21-5-install",
+    "before": "#21 screw 6/10 — align, engage, rotate/feed and seat through D9 into the side panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 9,
+    "shot": "S9-H21-6-install",
+    "before": "#21 screw 7/10 — align, engage, rotate/feed and seat through D9 into the side panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 9,
+    "shot": "S9-H21-7-install",
+    "before": "#21 screw 8/10 — align, engage, rotate/feed and seat through D9 into the side panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 9,
+    "shot": "S9-H21-8-install",
+    "before": "#21 screw 9/10 — align, engage, rotate/feed and seat through D9 into the side panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 9,
+    "shot": "S9-H21-9-install",
+    "before": "#21 screw 10/10 — align, engage, rotate/feed and seat through D9 into the side panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 9,
+    "shot": "S9-bracket-target",
+    "before": "#25 angle metal: drilled face mounts to the upper inside post; its return flange meets the back panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 9,
+    "shot": "S9-bracket-seat",
+    "before": "Seat the ONE bent bracket; both surfaces move rigidly together.",
+    "after": "Fit the inner angle bracket.",
+    "omitted": false
+  },
+  {
+    "step": 9,
+    "shot": "S9-H14-0-install",
+    "before": "#14 screw 1/2 — fasten the bracket’s drilled face to the upper inside post.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 9,
+    "shot": "S9-H14-1-install",
+    "before": "#14 screw 2/2 — fasten the bracket’s drilled face to the upper inside post.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 9,
+    "shot": "S9-complete",
+    "before": "D9 and the first #25 bracket secured on PDF-right. The opposite side remains available for Step 10.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-context",
+    "before": "D8 = PDF-left. Mount it on the INNER lower side face, with the curved receiver facing the opening.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-introduce",
+    "before": "Separate metal L-link: show its tall arm, lower arm, curved receiver and ten mounting holes.",
+    "after": "Left Pivot Bracket",
+    "omitted": false
+  },
+  {
+    "step": 10,
+    "shot": "S10-target",
+    "before": "Match the metal holes with the side-panel pilots before closing the gap.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-seat-link",
+    "before": "Approach perpendicular to the inner face; align and seat the plate flush.",
+    "after": "Fit the left pivot bracket.",
+    "omitted": false
+  },
+  {
+    "step": 10,
+    "shot": "S10-H21-0-install",
+    "before": "#21 screw 1/10 — align, engage, rotate/feed and seat through D8 into the side panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-H21-1-install",
+    "before": "#21 screw 2/10 — align, engage, rotate/feed and seat through D8 into the side panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-H21-2-install",
+    "before": "#21 screw 3/10 — align, engage, rotate/feed and seat through D8 into the side panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-H21-3-install",
+    "before": "#21 screw 4/10 — align, engage, rotate/feed and seat through D8 into the side panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-H21-4-install",
+    "before": "#21 screw 5/10 — align, engage, rotate/feed and seat through D8 into the side panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-H21-5-install",
+    "before": "#21 screw 6/10 — align, engage, rotate/feed and seat through D8 into the side panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-H21-6-install",
+    "before": "#21 screw 7/10 — align, engage, rotate/feed and seat through D8 into the side panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-H21-7-install",
+    "before": "#21 screw 8/10 — align, engage, rotate/feed and seat through D8 into the side panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-H21-8-install",
+    "before": "#21 screw 9/10 — align, engage, rotate/feed and seat through D8 into the side panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-H21-9-install",
+    "before": "#21 screw 10/10 — align, engage, rotate/feed and seat through D8 into the side panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-E5-introduce",
+    "before": "E5 is the CENTER stile — D8 remains PDF-left; D9 remains PDF-right.",
+    "after": "Cabinet Center Rail",
+    "omitted": false
+  },
+  {
+    "step": 10,
+    "shot": "S10-E5-seat",
+    "before": "Align E5 vertically on the cabinet center line, then seat it over the center connectors.",
+    "after": "Fit the cabinet center rail.",
+    "omitted": false
+  },
+  {
+    "step": 10,
+    "shot": "S10-E5-dimension",
+    "before": "PDF 284 mm reference: lower rail to the second-lowest #24 pilot. Remaining centers are proportionally reconstructed.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-H24-8-install",
+    "before": "#24 screw 1/9 — top-to-bottom installation through E5 into the center structure.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-H24-7-install",
+    "before": "#24 screw 2/9 — top-to-bottom installation through E5 into the center structure.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-H24-6-install",
+    "before": "#24 screw 3/9 — top-to-bottom installation through E5 into the center structure.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-H24-5-install",
+    "before": "#24 screw 4/9 — top-to-bottom installation through E5 into the center structure.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-H24-4-install",
+    "before": "#24 screw 5/9 — top-to-bottom installation through E5 into the center structure.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-H24-3-install",
+    "before": "#24 screw 6/9 — top-to-bottom installation through E5 into the center structure.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-H24-2-install",
+    "before": "#24 screw 7/9 — top-to-bottom installation through E5 into the center structure.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-H24-1-install",
+    "before": "#24 screw 8/9 — top-to-bottom installation through E5 into the center structure.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-H24-0-install",
+    "before": "#24 screw 9/9 — top-to-bottom installation through E5 into the center structure.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-bracket-target",
+    "before": "#25 angle metal: drilled face mounts to the upper inside post; its return flange meets the back panel.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-bracket-seat",
+    "before": "Seat the ONE bent bracket; both surfaces move rigidly together.",
+    "after": "Fit the inner angle bracket.",
+    "omitted": false
+  },
+  {
+    "step": 10,
+    "shot": "S10-H14-0-install",
+    "before": "#14 screw 1/2 — fasten the bracket’s drilled face to the upper inside post.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-H14-1-install",
+    "before": "#14 screw 2/2 — fasten the bracket’s drilled face to the upper inside post.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-verify-left",
+    "before": "D8 secured on PDF-left: verify the lower receiver and all ten mounting screws.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-verify-right",
+    "before": "D9 remains secured on PDF-right: verify the mirrored receiver before the final cabinet overview.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 10,
+    "shot": "S10-complete",
+    "before": "Step 10 complete — D8 PDF-left, D9 PDF-right, E5 center; both brackets and all specified screws installed. STOP before Step 11.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 11,
+    "shot": "S11-context",
+    "before": "The cabinet is complete. Begin the separate bed-face subassembly in the supported FRONT work area; the empty bed root was positioned before any of its parts became visible.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 11,
+    "shot": "S11-introduce",
+    "before": "C1 cross rail and C4 longitudinal rail — a right-angle starting joint.",
+    "after": "Bed Face End Rail",
+    "omitted": false
+  },
+  {
+    "step": 11,
+    "shot": "S11-target",
+    "before": "C4 tongue and C1 groove: identify the right-angle mating surfaces and the two intersecting receiver axes.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 11,
+    "shot": "S11-C4-seat",
+    "before": "C4 approaches axially from the open end; its integral tongue enters C1, with no wood crossing.",
+    "after": "Fit the bed face support rail.",
+    "omitted": false
+  },
+  {
+    "step": 11,
+    "shot": "S11-C4-left-connect",
+    "before": "#8 cam enters its cross-bore; #22 aligns, contacts, visibly threads into the cam and seats.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 11,
+    "shot": "S11-complete",
+    "before": "C1/C4 corner secured at 90°. Cabinet remains unchanged and separate.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 12,
+    "shot": "S12-context",
+    "before": "Continue the existing face grid; the closing end stays open for axial panel insertion.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 12,
+    "shot": "S12-C4-right-introduce",
+    "before": "Introduce the next longitudinal rail, parallel to the existing grid.",
+    "after": "Bed Face Support Rail",
+    "omitted": false
+  },
+  {
+    "step": 12,
+    "shot": "S12-C4-right-seat",
+    "before": "Seat the rail at the C1 receiver. The panel groove remains open at its far end.",
+    "after": "Fit the bed face support rail.",
+    "omitted": false
+  },
+  {
+    "step": 12,
+    "shot": "S12-C5-introduce",
+    "before": "Introduce the next longitudinal rail, parallel to the existing grid.",
+    "after": "Bed Face Center Rail",
+    "omitted": false
+  },
+  {
+    "step": 12,
+    "shot": "S12-C5-seat",
+    "before": "Seat the rail at the C1 receiver. The panel groove remains open at its far end.",
+    "after": "Fit the bed face center rail.",
+    "omitted": false
+  },
+  {
+    "step": 12,
+    "shot": "S12-layer-target",
+    "before": "Layer order: exposed rail face ABOVE the C6 panel; panel edges rest inside the actual routed support channels.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 12,
+    "shot": "S12-C6-1-first-introduce",
+    "before": "C6 stages beyond the OPEN end, clear of the existing rails.",
+    "after": "Bed Face Panel",
+    "omitted": false
+  },
+  {
+    "step": 12,
+    "shot": "S12-C6-1-first-seat",
+    "before": "Lower outside the rail ends, then slide C6 axially through its support channels into the first bay. Never drop it through a rail.",
+    "after": "Fit the bed face panel.",
+    "omitted": false
+  },
+  {
+    "step": 12,
+    "shot": "S12-C3-1-seat",
+    "before": "C3 enters from the empty bay; its end tongues enter the same side channels and its front groove captures the seated panel edge.",
+    "after": "Fit the bed face cross rail.",
+    "omitted": false
+  },
+  {
+    "step": 12,
+    "shot": "S12-C6-2-first-introduce",
+    "before": "C6 stages beyond the OPEN end, clear of the existing rails.",
+    "after": "Bed Face Panel",
+    "omitted": false
+  },
+  {
+    "step": 12,
+    "shot": "S12-C6-2-first-seat",
+    "before": "Lower outside the rail ends, then slide C6 axially through its support channels into the first bay. Never drop it through a rail.",
+    "after": "Fit the bed face panel.",
+    "omitted": false
+  },
+  {
+    "step": 12,
+    "shot": "S12-C3-2-seat",
+    "before": "C3 enters from the empty bay; its end tongues enter the same side channels and its front groove captures the seated panel edge.",
+    "after": "Fit the bed face cross rail.",
+    "omitted": false
+  },
+  {
+    "step": 12,
+    "shot": "S12-C5-connect",
+    "before": "Repeated cam joint: physical cam insertion, rapid visible bolt feed/rotation, then cam lock.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 12,
+    "shot": "S12-C4-right-connect",
+    "before": "Repeated cam joint: physical cam insertion, rapid visible bolt feed/rotation, then cam lock.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 12,
+    "shot": "S12-complete",
+    "before": "Two C6 panels captured below the rail faces; two C3 center ties installed.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 13,
+    "shot": "S13-context",
+    "before": "Three C7 support profiles belong BELOW C5, not on the decorative panel face.",
+    "after": "Support the frame on its edge.",
+    "omitted": false
+  },
+  {
+    "step": 13,
+    "shot": "S13-C7-0-seat",
+    "before": "Approach C7 from the clear underside and seat its top face against C5.",
+    "after": "Fit the underside support.",
+    "omitted": false
+  },
+  {
+    "step": 13,
+    "shot": "S13-C7-0-screws",
+    "before": "Two #12 screws drive downward through C5 into this C7 support.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 13,
+    "shot": "S13-C7-1-seat",
+    "before": "Approach C7 from the clear underside and seat its top face against C5.",
+    "after": "Fit the underside support.",
+    "omitted": false
+  },
+  {
+    "step": 13,
+    "shot": "S13-C7-1-screws",
+    "before": "Two #12 screws drive downward through C5 into this C7 support.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 13,
+    "shot": "S13-C7-2-seat",
+    "before": "Approach C7 from the clear underside and seat its top face against C5.",
+    "after": "Fit the underside support.",
+    "omitted": false
+  },
+  {
+    "step": 13,
+    "shot": "S13-C7-2-screws",
+    "before": "Two #12 screws drive downward through C5 into this C7 support.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 13,
+    "shot": "S13-complete",
+    "before": "All three C7 profiles secured beneath C5, with two #12 screws each.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 14,
+    "shot": "S14-context",
+    "before": "Continue the existing face grid; the closing end stays open for axial panel insertion.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 14,
+    "shot": "S14-C2-left-introduce",
+    "before": "Introduce the next longitudinal rail, parallel to the existing grid.",
+    "after": "Bed Face Side Rail",
+    "omitted": false
+  },
+  {
+    "step": 14,
+    "shot": "S14-C2-left-seat",
+    "before": "Seat the rail at the C1 receiver. The panel groove remains open at its far end.",
+    "after": "Fit the bed face side rail.",
+    "omitted": false
+  },
+  {
+    "step": 14,
+    "shot": "S14-C2-right-introduce",
+    "before": "Introduce the next longitudinal rail, parallel to the existing grid.",
+    "after": "Bed Face Side Rail",
+    "omitted": false
+  },
+  {
+    "step": 14,
+    "shot": "S14-C2-right-seat",
+    "before": "Seat the rail at the C1 receiver. The panel groove remains open at its far end.",
+    "after": "Fit the bed face side rail.",
+    "omitted": false
+  },
+  {
+    "step": 14,
+    "shot": "S14-layer-target",
+    "before": "Layer order: exposed rail face ABOVE the C6 panel; panel edges rest inside the actual routed support channels.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 14,
+    "shot": "S14-C6-0-first-introduce",
+    "before": "C6 stages beyond the OPEN end, clear of the existing rails.",
+    "after": "Bed Face Panel",
+    "omitted": false
+  },
+  {
+    "step": 14,
+    "shot": "S14-C6-0-first-seat",
+    "before": "Lower outside the rail ends, then slide C6 axially through its support channels into the first bay. Never drop it through a rail.",
+    "after": "Fit the bed face panel.",
+    "omitted": false
+  },
+  {
+    "step": 14,
+    "shot": "S14-C3-0-seat",
+    "before": "C3 enters from the empty bay; its end tongues enter the same side channels and its front groove captures the seated panel edge.",
+    "after": "Fit the bed face cross rail.",
+    "omitted": false
+  },
+  {
+    "step": 14,
+    "shot": "S14-C6-3-first-introduce",
+    "before": "C6 stages beyond the OPEN end, clear of the existing rails.",
+    "after": "Bed Face Panel",
+    "omitted": false
+  },
+  {
+    "step": 14,
+    "shot": "S14-C6-3-first-seat",
+    "before": "Lower outside the rail ends, then slide C6 axially through its support channels into the first bay. Never drop it through a rail.",
+    "after": "Fit the bed face panel.",
+    "omitted": false
+  },
+  {
+    "step": 14,
+    "shot": "S14-C3-3-seat",
+    "before": "C3 enters from the empty bay; its end tongues enter the same side channels and its front groove captures the seated panel edge.",
+    "after": "Fit the bed face cross rail.",
+    "omitted": false
+  },
+  {
+    "step": 14,
+    "shot": "S14-C2-left-connect",
+    "before": "Repeated cam joint: physical cam insertion, rapid visible bolt feed/rotation, then cam lock.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 14,
+    "shot": "S14-C2-right-connect",
+    "before": "Repeated cam joint: physical cam insertion, rapid visible bolt feed/rotation, then cam lock.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 14,
+    "shot": "S14-complete",
+    "before": "Four first-half C6 panels and all four C3 center ties installed symmetrically.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 15,
+    "shot": "S15-context",
+    "before": "Four matching second-half bays remain open. Keep C1 clear until all panels are seated.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 15,
+    "shot": "S15-C6-0-second-seat",
+    "before": "C6 enters from the open end in the SAME support layer; its first edge meets the C3 center groove.",
+    "after": "Fit the bed face panel.",
+    "omitted": false
+  },
+  {
+    "step": 15,
+    "shot": "S15-C6-1-second-seat",
+    "before": "C6 enters from the open end in the SAME support layer; its first edge meets the C3 center groove.",
+    "after": "Fit the bed face panel.",
+    "omitted": false
+  },
+  {
+    "step": 15,
+    "shot": "S15-C6-2-second-seat",
+    "before": "C6 enters from the open end in the SAME support layer; its first edge meets the C3 center groove.",
+    "after": "Fit the bed face panel.",
+    "omitted": false
+  },
+  {
+    "step": 15,
+    "shot": "S15-C6-3-second-seat",
+    "before": "C6 enters from the open end in the SAME support layer; its first edge meets the C3 center groove.",
+    "after": "Fit the bed face panel.",
+    "omitted": false
+  },
+  {
+    "step": 15,
+    "shot": "S15-C1-introduce",
+    "before": "All EIGHT panels are seated. Introduce the closing C1 end rail.",
+    "after": "Bed Face End Rail",
+    "omitted": false
+  },
+  {
+    "step": 15,
+    "shot": "S15-C1-seat",
+    "before": "Align all five rail tongues with the end groove, then close C1 axially without crossing a panel.",
+    "after": "Fit the bed face end rail.",
+    "omitted": false
+  },
+  {
+    "step": 15,
+    "shot": "S15-C2-left-connect",
+    "before": "Repeated cam joint: physical cam insertion, rapid visible bolt feed/rotation, then cam lock.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 15,
+    "shot": "S15-C4-left-connect",
+    "before": "Repeated cam joint: physical cam insertion, rapid visible bolt feed/rotation, then cam lock.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 15,
+    "shot": "S15-C5-connect",
+    "before": "Repeated cam joint: physical cam insertion, rapid visible bolt feed/rotation, then cam lock.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 15,
+    "shot": "S15-C4-right-connect",
+    "before": "Repeated cam joint: physical cam insertion, rapid visible bolt feed/rotation, then cam lock.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 15,
+    "shot": "S15-C2-right-connect",
+    "before": "Repeated cam joint: physical cam insertion, rapid visible bolt feed/rotation, then cam lock.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 15,
+    "shot": "S15-complete",
+    "before": "Eight supported C6 panels, four center ties, five long rails and both C1 ends form one complete face grid.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 16,
+    "shot": "S16-context",
+    "before": "The completed face stays parked. Build a SECOND, independent rectangular carrier from C8 ×2, C9 and D1.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 16,
+    "shot": "S16--1--1-dowels",
+    "before": "Insert the TWO #6 corner dowels into C8. The separate end rail remains outboard until both corners are aligned.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 16,
+    "shot": "S16--1-1-dowels",
+    "before": "Insert the TWO #6 corner dowels into C8. The separate end rail remains outboard until both corners are aligned.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 16,
+    "shot": "S16-1--1-dowels",
+    "before": "Insert the TWO #6 corner dowels into C8. The separate end rail remains outboard until both corners are aligned.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 16,
+    "shot": "S16-1-1-dowels",
+    "before": "Insert the TWO #6 corner dowels into C8. The separate end rail remains outboard until both corners are aligned.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 16,
+    "shot": "S16--1-end-seat",
+    "before": "The end rail seats along BOTH pairs of exposed dowels at once. C8 members are supported in parallel; no corner sweeps through a dowel.",
+    "after": "Fit the bed frame end rail.",
+    "omitted": false
+  },
+  {
+    "step": 16,
+    "shot": "S16-1-end-seat",
+    "before": "The end rail seats along BOTH pairs of exposed dowels at once. C8 members are supported in parallel; no corner sweeps through a dowel.",
+    "after": "Fit the bed frame end rail.",
+    "omitted": false
+  },
+  {
+    "step": 16,
+    "shot": "S16--1--1-connect",
+    "before": "#8 cam enters its cross-bore; #3 aligns, contacts, visibly threads into the cam and seats.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 16,
+    "shot": "S16--1-1-connect",
+    "before": "Repeated cam joint: physical cam insertion, rapid visible bolt feed/rotation, then cam lock.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 16,
+    "shot": "S16-1--1-connect",
+    "before": "Repeated cam joint: physical cam insertion, rapid visible bolt feed/rotation, then cam lock.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 16,
+    "shot": "S16-1-1-connect",
+    "before": "Repeated cam joint: physical cam insertion, rapid visible bolt feed/rotation, then cam lock.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 16,
+    "shot": "S16-square",
+    "before": "Verify the two diagonals and four square corners. Carrier remains SEPARATE from the face grid.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 16,
+    "shot": "S16-complete",
+    "before": "Two complete large subassemblies: face grid and rectangular carrier.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-context",
+    "before": "TWO completed assemblies become ONE bed. Keep the face grid supported and stationary.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-lift",
+    "before": "Lift the COMPLETE carrier, including every installed corner fastener, clear of the work surface.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-above",
+    "before": "Translate above the face grid only after the underside clears the highest face member.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-target",
+    "before": "Eight vertical dowel pairs and eight underside bolt/cam joints must align before lowering.",
+    "after": "Hold the frame tilted for underside access.",
+    "omitted": false
+  },
+  {
+    "step": 17,
+    "shot": "S17-side--1--55-dowel",
+    "before": "#6 vertical dowel: leave half exposed for the aligned carrier receiver.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-side--1-55-dowel",
+    "before": "#6 vertical dowel: leave half exposed for the aligned carrier receiver.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-side-1--55-dowel",
+    "before": "#6 vertical dowel: leave half exposed for the aligned carrier receiver.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-side-1-55-dowel",
+    "before": "#6 vertical dowel: leave half exposed for the aligned carrier receiver.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-end--1--80-dowel",
+    "before": "#6 vertical dowel: leave half exposed for the aligned carrier receiver.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-end--1-80-dowel",
+    "before": "#6 vertical dowel: leave half exposed for the aligned carrier receiver.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-end-1--80-dowel",
+    "before": "#6 vertical dowel: leave half exposed for the aligned carrier receiver.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-end-1-80-dowel",
+    "before": "#6 vertical dowel: leave half exposed for the aligned carrier receiver.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-lower",
+    "before": "Controlled lowering: retain the separation between the face panels and the carrier; align all eight dowels.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-seat",
+    "before": "Eight dowels enter the carrier and its lower faces seat on the face rails, not through C6.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-side--1--55-cam-seat",
+    "before": "#8 installs from the accessible INNER carrier face. Its window meets the vertical bolt bore.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-side--1--55-bolt-up",
+    "before": "PDF Step 17: #3 enters UP from the underside of the face rail into the carrier cam. Visible thread engagement and seating.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-side--1-55-cam-seat",
+    "before": "#8 installs from the accessible INNER carrier face. Its window meets the vertical bolt bore.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-side--1-55-bolt-up",
+    "before": "PDF Step 17: #3 enters UP from the underside of the face rail into the carrier cam. Visible thread engagement and seating.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-side-1--55-cam-seat",
+    "before": "#8 installs from the accessible INNER carrier face. Its window meets the vertical bolt bore.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-side-1--55-bolt-up",
+    "before": "PDF Step 17: #3 enters UP from the underside of the face rail into the carrier cam. Visible thread engagement and seating.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-side-1-55-cam-seat",
+    "before": "#8 installs from the accessible INNER carrier face. Its window meets the vertical bolt bore.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-side-1-55-bolt-up",
+    "before": "PDF Step 17: #3 enters UP from the underside of the face rail into the carrier cam. Visible thread engagement and seating.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-end--1--80-cam-seat",
+    "before": "#8 installs from the accessible INNER carrier face. Its window meets the vertical bolt bore.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-end--1--80-bolt-up",
+    "before": "PDF Step 17: #3 enters UP from the underside of the face rail into the carrier cam. Visible thread engagement and seating.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-end--1-80-cam-seat",
+    "before": "#8 installs from the accessible INNER carrier face. Its window meets the vertical bolt bore.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-end--1-80-bolt-up",
+    "before": "PDF Step 17: #3 enters UP from the underside of the face rail into the carrier cam. Visible thread engagement and seating.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-end-1--80-cam-seat",
+    "before": "#8 installs from the accessible INNER carrier face. Its window meets the vertical bolt bore.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-end-1--80-bolt-up",
+    "before": "PDF Step 17: #3 enters UP from the underside of the face rail into the carrier cam. Visible thread engagement and seating.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-end-1-80-cam-seat",
+    "before": "#8 installs from the accessible INNER carrier face. Its window meets the vertical bolt bore.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-end-1-80-bolt-up",
+    "before": "PDF Step 17: #3 enters UP from the underside of the face rail into the carrier cam. Visible thread engagement and seating.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 17,
+    "shot": "S17-complete",
+    "before": "Face outside/below, structural carrier inside/above: one rigid bed assembly, all eight joining cam bolts and dowels installed.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 18,
+    "shot": "S18-context",
+    "before": "Identify the first six bare inside corners. Each angle bracket uses FOUR #14 screws.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 18,
+    "shot": "S18-H20-0-seat",
+    "before": "The separate bent #20 bracket approaches from the open corner, aligns all four pilots, and seats on BOTH faces.",
+    "after": "Fit the angle bracket.",
+    "omitted": false
+  },
+  {
+    "step": 18,
+    "shot": "S18-H20-0-screws",
+    "before": "Two screws into the vertical carrier face, two DOWN into the horizontal face rail. Each physically approaches, threads and seats.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 18,
+    "shot": "S18-H20-1-seat",
+    "before": "The separate bent #20 bracket approaches from the open corner, aligns all four pilots, and seats on BOTH faces.",
+    "after": "Fit the angle bracket.",
+    "omitted": false
+  },
+  {
+    "step": 18,
+    "shot": "S18-H20-1-screws",
+    "before": "Two screws into the vertical carrier face, two DOWN into the horizontal face rail. Each physically approaches, threads and seats.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 18,
+    "shot": "S18-H20-2-seat",
+    "before": "The separate bent #20 bracket approaches from the open corner, aligns all four pilots, and seats on BOTH faces.",
+    "after": "Fit the angle bracket.",
+    "omitted": false
+  },
+  {
+    "step": 18,
+    "shot": "S18-H20-2-screws",
+    "before": "Two screws into the vertical carrier face, two DOWN into the horizontal face rail. Each physically approaches, threads and seats.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 18,
+    "shot": "S18-H20-3-seat",
+    "before": "The separate bent #20 bracket approaches from the open corner, aligns all four pilots, and seats on BOTH faces.",
+    "after": "Fit the angle bracket.",
+    "omitted": false
+  },
+  {
+    "step": 18,
+    "shot": "S18-H20-3-screws",
+    "before": "Two screws into the vertical carrier face, two DOWN into the horizontal face rail. Each physically approaches, threads and seats.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 18,
+    "shot": "S18-H20-4-seat",
+    "before": "The separate bent #20 bracket approaches from the open corner, aligns all four pilots, and seats on BOTH faces.",
+    "after": "Fit the angle bracket.",
+    "omitted": false
+  },
+  {
+    "step": 18,
+    "shot": "S18-H20-4-screws",
+    "before": "Two screws into the vertical carrier face, two DOWN into the horizontal face rail. Each physically approaches, threads and seats.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 18,
+    "shot": "S18-H20-5-seat",
+    "before": "The separate bent #20 bracket approaches from the open corner, aligns all four pilots, and seats on BOTH faces.",
+    "after": "Fit the angle bracket.",
+    "omitted": false
+  },
+  {
+    "step": 18,
+    "shot": "S18-H20-5-screws",
+    "before": "Two screws into the vertical carrier face, two DOWN into the horizontal face rail. Each physically approaches, threads and seats.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 18,
+    "shot": "S18-complete",
+    "before": "First six #20 brackets secured with 24 #14 screws.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 19,
+    "shot": "S19-context",
+    "before": "Opposite locations remain bare; the first six brackets stay installed. Repeat the same physical bracket operation.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 19,
+    "shot": "S19-H20-0-seat",
+    "before": "The separate bent #20 bracket approaches from the open corner, aligns all four pilots, and seats on BOTH faces.",
+    "after": "Fit the angle bracket.",
+    "omitted": false
+  },
+  {
+    "step": 19,
+    "shot": "S19-H20-0-screws",
+    "before": "Two screws into the vertical carrier face, two DOWN into the horizontal face rail. Each physically approaches, threads and seats.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 19,
+    "shot": "S19-H20-1-seat",
+    "before": "The separate bent #20 bracket approaches from the open corner, aligns all four pilots, and seats on BOTH faces.",
+    "after": "Fit the angle bracket.",
+    "omitted": false
+  },
+  {
+    "step": 19,
+    "shot": "S19-H20-1-screws",
+    "before": "Two screws into the vertical carrier face, two DOWN into the horizontal face rail. Each physically approaches, threads and seats.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 19,
+    "shot": "S19-H20-2-seat",
+    "before": "The separate bent #20 bracket approaches from the open corner, aligns all four pilots, and seats on BOTH faces.",
+    "after": "Fit the angle bracket.",
+    "omitted": false
+  },
+  {
+    "step": 19,
+    "shot": "S19-H20-2-screws",
+    "before": "Two screws into the vertical carrier face, two DOWN into the horizontal face rail. Each physically approaches, threads and seats.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 19,
+    "shot": "S19-H20-3-seat",
+    "before": "The separate bent #20 bracket approaches from the open corner, aligns all four pilots, and seats on BOTH faces.",
+    "after": "Fit the angle bracket.",
+    "omitted": false
+  },
+  {
+    "step": 19,
+    "shot": "S19-H20-3-screws",
+    "before": "Two screws into the vertical carrier face, two DOWN into the horizontal face rail. Each physically approaches, threads and seats.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 19,
+    "shot": "S19-H20-4-seat",
+    "before": "The separate bent #20 bracket approaches from the open corner, aligns all four pilots, and seats on BOTH faces.",
+    "after": "Fit the angle bracket.",
+    "omitted": false
+  },
+  {
+    "step": 19,
+    "shot": "S19-H20-4-screws",
+    "before": "Two screws into the vertical carrier face, two DOWN into the horizontal face rail. Each physically approaches, threads and seats.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 19,
+    "shot": "S19-H20-5-seat",
+    "before": "The separate bent #20 bracket approaches from the open corner, aligns all four pilots, and seats on BOTH faces.",
+    "after": "Fit the angle bracket.",
+    "omitted": false
+  },
+  {
+    "step": 19,
+    "shot": "S19-H20-5-screws",
+    "before": "Two screws into the vertical carrier face, two DOWN into the horizontal face rail. Each physically approaches, threads and seats.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 19,
+    "shot": "S19-complete",
+    "before": "All TWELVE #20 brackets secured; 48 #14 screws, both perpendicular faces at every joint.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 20,
+    "shot": "S20-context",
+    "before": "The exposed +Y side is the MATTRESS-facing side. Five D2 slats sit above the face-grid rails, inside the carrier.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 20,
+    "shot": "S20-D2-0-seat",
+    "before": "D2 lowers onto the five rail support faces. Its ends remain INSIDE the carrier, never beneath the deck.",
+    "after": "Fit the mattress support slat.",
+    "omitted": false
+  },
+  {
+    "step": 20,
+    "shot": "S20-D2-0-first-screw",
+    "before": "#16 screw enters the D2 pilot, visibly rotates/feeds, and seats into the support rail.",
+    "after": "Fit the slat screw.",
+    "omitted": false
+  },
+  {
+    "step": 20,
+    "shot": "S20-D2-0-remaining-screws",
+    "before": "Four remaining #16 screws install sequentially across the slat; no hardware pop-in.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 20,
+    "shot": "S20-D2-1-seat",
+    "before": "D2 lowers onto the five rail support faces. Its ends remain INSIDE the carrier, never beneath the deck.",
+    "after": "Fit the mattress support slat.",
+    "omitted": false
+  },
+  {
+    "step": 20,
+    "shot": "S20-D2-1-first-screw",
+    "before": "#16 screw enters the D2 pilot, visibly rotates/feeds, and seats into the support rail.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 20,
+    "shot": "S20-D2-1-remaining-screws",
+    "before": "Four remaining #16 screws install sequentially across the slat; no hardware pop-in.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 20,
+    "shot": "S20-D2-2-seat",
+    "before": "D2 lowers onto the five rail support faces. Its ends remain INSIDE the carrier, never beneath the deck.",
+    "after": "Fit the mattress support slat.",
+    "omitted": false
+  },
+  {
+    "step": 20,
+    "shot": "S20-D2-2-first-screw",
+    "before": "#16 screw enters the D2 pilot, visibly rotates/feeds, and seats into the support rail.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 20,
+    "shot": "S20-D2-2-remaining-screws",
+    "before": "Four remaining #16 screws install sequentially across the slat; no hardware pop-in.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 20,
+    "shot": "S20-D2-3-seat",
+    "before": "D2 lowers onto the five rail support faces. Its ends remain INSIDE the carrier, never beneath the deck.",
+    "after": "Fit the mattress support slat.",
+    "omitted": false
+  },
+  {
+    "step": 20,
+    "shot": "S20-D2-3-first-screw",
+    "before": "#16 screw enters the D2 pilot, visibly rotates/feeds, and seats into the support rail.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 20,
+    "shot": "S20-D2-3-remaining-screws",
+    "before": "Four remaining #16 screws install sequentially across the slat; no hardware pop-in.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 20,
+    "shot": "S20-D2-4-seat",
+    "before": "D2 lowers onto the five rail support faces. Its ends remain INSIDE the carrier, never beneath the deck.",
+    "after": "Fit the mattress support slat.",
+    "omitted": false
+  },
+  {
+    "step": 20,
+    "shot": "S20-D2-4-first-screw",
+    "before": "#16 screw enters the D2 pilot, visibly rotates/feeds, and seats into the support rail.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 20,
+    "shot": "S20-D2-4-remaining-screws",
+    "before": "Four remaining #16 screws install sequentially across the slat; no hardware pop-in.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 20,
+    "shot": "S20-complete",
+    "before": "Five D2 slats and all 25 #16 screws installed on the mattress-facing side. Verify even spacing. STOP before Step 21.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 21,
+    "shot": "S21-context",
+    "before": "Complete bed stays supported flat. E1 belongs on the OUTSIDE of this C8 carrier side.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 21,
+    "shot": "S21-introduce",
+    "before": "E1 orientation: large bearing spindle toward the cabinet pivot; small threaded stud toward the piston end.",
+    "after": "Bed Mechanism Plate",
+    "omitted": false
+  },
+  {
+    "step": 21,
+    "shot": "S21-target",
+    "before": "Match all EIGHT pilot holes. Keep the studs facing outward.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 21,
+    "shot": "S21-seat",
+    "before": "Axial approach, controlled final contact: E1 seats flush against the C8 outer face.",
+    "after": "Fit the bed mechanism plate.",
+    "omitted": false
+  },
+  {
+    "step": 21,
+    "shot": "S21-first-screw",
+    "before": "#21 screw: contact pilot, engage, visibly rotate/feed, then seat.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 21,
+    "shot": "S21-remaining-screws",
+    "before": "Seven repeated #21 screws — rapid sequential installation, every approach and seat visible.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 21,
+    "shot": "S21-complete",
+    "before": "Eight screws seated. E1 plate secure; both integral studs remain accessible.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 22,
+    "shot": "S22-context",
+    "before": "Complete bed stays supported flat. E1 belongs on the OUTSIDE of this C8 carrier side.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 22,
+    "shot": "S22-introduce",
+    "before": "E1 orientation: large bearing spindle toward the cabinet pivot; small threaded stud toward the piston end.",
+    "after": "Bed Mechanism Plate",
+    "omitted": false
+  },
+  {
+    "step": 22,
+    "shot": "S22-target",
+    "before": "Match all EIGHT pilot holes. Keep the studs facing outward.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 22,
+    "shot": "S22-seat",
+    "before": "Axial approach, controlled final contact: E1 seats flush against the C8 outer face.",
+    "after": "Fit the bed mechanism plate.",
+    "omitted": false
+  },
+  {
+    "step": 22,
+    "shot": "S22-first-screw",
+    "before": "#21 screw: contact pilot, engage, visibly rotate/feed, then seat.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 22,
+    "shot": "S22-remaining-screws",
+    "before": "Seven repeated #21 screws — rapid sequential installation, every approach and seat visible.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 22,
+    "shot": "S22-complete",
+    "before": "Eight screws seated. E1 plate secure; both integral studs remain accessible.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 23,
+    "shot": "S23-target",
+    "before": "Identify TWO different axes: radial bearing onto the large hollow spindle; E2 eye onto the small threaded stud.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 23,
+    "shot": "S23-bearing-intro",
+    "before": "#19 radial bearing — its central bore aligns with the E1 spindle.",
+    "after": "Bearing",
+    "omitted": false
+  },
+  {
+    "step": 23,
+    "shot": "S23-bearing-seat",
+    "before": "Slide #19 along X onto the spindle until its inner race seats; no bearing appears inside solid wood.",
+    "after": "Fit the bearing.",
+    "omitted": false
+  },
+  {
+    "step": 23,
+    "shot": "S23-piston-intro",
+    "before": "E2 gas piston, rated 750 N in the PDF. The cabinet-side end remains free and controlled upright.",
+    "after": "Gas Piston",
+    "omitted": false
+  },
+  {
+    "step": 23,
+    "shot": "S23-eye-seat",
+    "before": "The lower E2 eye approaches the SMALL stud axially. Keep the other end supported; do not articulate the bed.",
+    "after": "Fit the gas piston.",
+    "omitted": false
+  },
+  {
+    "step": 23,
+    "shot": "S23-retain",
+    "before": "#17 nut aligns with the stud, visibly threads, and retains the E2 eye.",
+    "after": "Fit the nut.",
+    "omitted": false
+  },
+  {
+    "step": 23,
+    "shot": "S23-complete",
+    "before": "Bearing seated and piston BED end retained. The opposite end is still free; no large test yet.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 24,
+    "shot": "S24-target",
+    "before": "Identify TWO different axes: radial bearing onto the large hollow spindle; E2 eye onto the small threaded stud.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 24,
+    "shot": "S24-bearing-intro",
+    "before": "#19 radial bearing — its central bore aligns with the E1 spindle.",
+    "after": "Bearing",
+    "omitted": false
+  },
+  {
+    "step": 24,
+    "shot": "S24-bearing-seat",
+    "before": "Slide #19 along X onto the spindle until its inner race seats; no bearing appears inside solid wood.",
+    "after": "Fit the bearing.",
+    "omitted": false
+  },
+  {
+    "step": 24,
+    "shot": "S24-piston-intro",
+    "before": "E2 gas piston, rated 750 N in the PDF. The cabinet-side end remains free and controlled upright.",
+    "after": "Gas Piston",
+    "omitted": false
+  },
+  {
+    "step": 24,
+    "shot": "S24-eye-seat",
+    "before": "The lower E2 eye approaches the SMALL stud axially. Keep the other end supported; do not articulate the bed.",
+    "after": "Fit the gas piston.",
+    "omitted": false
+  },
+  {
+    "step": 24,
+    "shot": "S24-retain",
+    "before": "#17 nut aligns with the stud, visibly threads, and retains the E2 eye.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 24,
+    "shot": "S24-complete",
+    "before": "Bearing seated and piston BED end retained. The opposite end is still free; no large test yet.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 25,
+    "shot": "S25-context",
+    "before": "Cabinet at rear + complete bed DIRECTLY IN FRONT, built in the same supported workspace since PDF Step 11. These two assemblies are about to join; four-person support required.",
+    "after": "Four people required to lift the bed.",
+    "omitted": false
+  },
+  {
+    "step": 25,
+    "shot": "S25-receivers",
+    "before": "PDF-left D8 open cradle: #19 lowers here. PDF-right D9 is mirrored on the SAME axis. Fit #18 only AFTER both bearings seat.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 25,
+    "shot": "S25-route-4",
+    "before": "4 people required — the complete bed has been built in this FRONT work area. Lift and orient under continuous support; keep both free E2 ends controlled upright.",
+    "after": "Lift together and keep the bed supported.",
+    "omitted": false
+  },
+  {
+    "step": 25,
+    "shot": "S25-route-5",
+    "before": "Short supported approach from the open front BELOW the retained mounting web. Align both bearings above their two open cabinet cradles.",
+    "after": "Align both bearings with the pivot brackets.",
+    "omitted": false
+  },
+  {
+    "step": 25,
+    "shot": "S25-route-6",
+    "before": "Lower BOTH bearing centers together onto the unchanged shared pivot axis. Continue support until both #18 retainers are fitted.",
+    "after": "Lower both bearings into place.",
+    "omitted": false
+  },
+  {
+    "step": 25,
+    "shot": "S25--1-connection",
+    "before": "Bearing outer race seats in the open cradle; E1 spindle and cabinet retention bore are coaxial.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 25,
+    "shot": "S25--1-retainer",
+    "before": "PDF #18 only — visible axial approach, thread engagement and seating through the outside cabinet bore.",
+    "after": "Fit the pivot retainer bolt.",
+    "omitted": false
+  },
+  {
+    "step": 25,
+    "shot": "S25-1-connection",
+    "before": "Bearing outer race seats in the open cradle; E1 spindle and cabinet retention bore are coaxial.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 25,
+    "shot": "S25-1-retainer",
+    "before": "PDF #18 only — visible axial approach, thread engagement and seating through the outside cabinet bore.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 25,
+    "shot": "S25-complete",
+    "before": "Both #18 retainers installed; bearings stay on the cabinet axis. CONTINUE four-person support for piston completion.",
+    "after": "Keep supporting the bed until both pivots are secured.",
+    "omitted": false
+  },
+  {
+    "step": 26,
+    "shot": "S26-supported-raise",
+    "before": "4 people required — hold the cabinet and raise the bed only to the supported piston-installation pose.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 26,
+    "shot": "S26-target",
+    "before": "Cabinet threaded stud and free E2 eye — approach from the INTERIOR, not through the cabinet side.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 26,
+    "shot": "S26-eye-align",
+    "before": "Keep the bed supported; guide the free piston eye onto the cabinet stud. Both piston ends follow their real pivots.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 26,
+    "shot": "S26-retain",
+    "before": "#17 nut approaches from inside, engages the cabinet stud, visibly threads and seats against the eye.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 26,
+    "shot": "S26-verify",
+    "before": "Cabinet-side E2 eye retained. Keep support until BOTH sides are complete.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 27,
+    "shot": "S27-target",
+    "before": "Cabinet threaded stud and free E2 eye — approach from the INTERIOR, not through the cabinet side.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 27,
+    "shot": "S27-eye-align",
+    "before": "Keep the bed supported; guide the free piston eye onto the cabinet stud. Both piston ends follow their real pivots.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 27,
+    "shot": "S27-retain",
+    "before": "#17 nut approaches from inside, engages the cabinet stud, visibly threads and seats against the eye.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 27,
+    "shot": "S27-verify",
+    "before": "Cabinet-side E2 eye retained. Keep support until BOTH sides are complete.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 27,
+    "shot": "S27-small-test-out",
+    "before": "Both pistons and pivot retainers are secured: small supported 15° articulation test.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 27,
+    "shot": "S27-small-test-return",
+    "before": "Return to the installation pose. Both bearing axes and all four E2 eyes remain connected.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 27,
+    "shot": "S27-complete",
+    "before": "Dual-piston mechanism verified. No unanchored final demonstration.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 28,
+    "shot": "S28-supported-work-pose",
+    "before": "Keep four-person support. Lower the secured bed to a lightly raised work pose before building the separate legs. The 3° support angle is estimated staging, not a PDF measurement.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 28,
+    "shot": "S28--1-intro",
+    "before": "Separate leg subassembly: stepped D3 upright, rounded D7 pivot arm and D6 foot. Mirror the second side.",
+    "after": "Folding Leg",
+    "omitted": false
+  },
+  {
+    "step": 28,
+    "shot": "S28--1-D7-inserts",
+    "before": "#9 canopy inserts enter the two bores from the OUTER face of the separate arm.",
+    "after": "Fit the threaded cap.",
+    "omitted": false
+  },
+  {
+    "step": 28,
+    "shot": "S28--1-D7-dowels",
+    "before": "Two #7 Ø8 ×20 mm dowels seat half-depth in the stepped D3 receiver; exposed halves point toward the arm.",
+    "after": "Fit the leg dowel.",
+    "omitted": false
+  },
+  {
+    "step": 28,
+    "shot": "S28--1-D7-join",
+    "before": "Slide the arm axially onto both dowels. The complementary half-laps close face-to-face, not through solid wood. Both installed inserts move rigidly with the arm.",
+    "after": "Fit the leg pivot arm.",
+    "omitted": false
+  },
+  {
+    "step": 28,
+    "shot": "S28--1-D7-bolts",
+    "before": "Two #1 bolts enter from the OPPOSITE face of D3 into the seated #9 inserts. Visible rotation and seating.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 28,
+    "shot": "S28--1-D6-inserts",
+    "before": "#9 canopy inserts enter the two bores from the OUTER face of the separate arm.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 28,
+    "shot": "S28--1-D6-dowels",
+    "before": "Two #7 Ø8 ×20 mm dowels seat half-depth in the stepped D3 receiver; exposed halves point toward the arm.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 28,
+    "shot": "S28--1-D6-join",
+    "before": "Slide the arm axially onto both dowels. The complementary half-laps close face-to-face, not through solid wood. Both installed inserts move rigidly with the arm.",
+    "after": "Fit the leg foot.",
+    "omitted": false
+  },
+  {
+    "step": 28,
+    "shot": "S28--1-D6-bolts",
+    "before": "Two #1 bolts enter from the OPPOSITE face of D3 into the seated #9 inserts. Visible rotation and seating.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 28,
+    "shot": "S28--1-complete",
+    "before": "D3 + D6 + D7 secured into one folding-leg subassembly; all four dowels, inserts and #1 bolts installed.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 28,
+    "shot": "S28-1-intro",
+    "before": "Separate leg subassembly: stepped D3 upright, rounded D7 pivot arm and D6 foot. Mirror the second side.",
+    "after": "Folding Leg",
+    "omitted": false
+  },
+  {
+    "step": 28,
+    "shot": "S28-1-D7-inserts",
+    "before": "#9 canopy inserts enter the two bores from the OUTER face of the separate arm.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 28,
+    "shot": "S28-1-D7-dowels",
+    "before": "Two #7 Ø8 ×20 mm dowels seat half-depth in the stepped D3 receiver; exposed halves point toward the arm.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 28,
+    "shot": "S28-1-D7-join",
+    "before": "Slide the arm axially onto both dowels. The complementary half-laps close face-to-face, not through solid wood. Both installed inserts move rigidly with the arm.",
+    "after": "Fit the leg pivot arm.",
+    "omitted": false
+  },
+  {
+    "step": 28,
+    "shot": "S28-1-D7-bolts",
+    "before": "Two #1 bolts enter from the OPPOSITE face of D3 into the seated #9 inserts. Visible rotation and seating.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 28,
+    "shot": "S28-1-D6-inserts",
+    "before": "#9 canopy inserts enter the two bores from the OUTER face of the separate arm.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 28,
+    "shot": "S28-1-D6-dowels",
+    "before": "Two #7 Ø8 ×20 mm dowels seat half-depth in the stepped D3 receiver; exposed halves point toward the arm.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 28,
+    "shot": "S28-1-D6-join",
+    "before": "Slide the arm axially onto both dowels. The complementary half-laps close face-to-face, not through solid wood. Both installed inserts move rigidly with the arm.",
+    "after": "Fit the leg foot.",
+    "omitted": false
+  },
+  {
+    "step": 28,
+    "shot": "S28-1-D6-bolts",
+    "before": "Two #1 bolts enter from the OPPOSITE face of D3 into the seated #9 inserts. Visible rotation and seating.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 28,
+    "shot": "S28-1-complete",
+    "before": "D3 + D6 + D7 secured into one folding-leg subassembly; all four dowels, inserts and #1 bolts installed.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 29,
+    "shot": "S29-supported-open",
+    "before": "4 people required — hold the secured bed and lower the final supported angle to the leg-installation pose.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 29,
+    "shot": "S29--1-insert",
+    "before": "#9 canopy insert enters from the carrier INNER face; its axis matches D7 and the pivot bolt.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 29,
+    "shot": "S29--1-washer",
+    "before": "WHITE PLASTIC #10 washer sits BETWEEN the C8 carrier and the D7 pivot arm.",
+    "after": "Fit the plastic washer.",
+    "omitted": false
+  },
+  {
+    "step": 29,
+    "shot": "S29--1-leg-approach",
+    "before": "Carry the entire completed leg toward the exposed outside pivot — every installed fastener moves with it.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 29,
+    "shot": "S29--1-seat",
+    "before": "Controlled axial leg seating onto the plastic washer; D7 bore and inner #9 insert stay coaxial.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 29,
+    "shot": "S29--1-bolt",
+    "before": "#2 passes through D7 → white #10 washer → C8 → #9 insert. Fast visible thread feed; seat without clamping the leg rigid.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 29,
+    "shot": "S29-1-insert",
+    "before": "#9 canopy insert enters from the carrier INNER face; its axis matches D7 and the pivot bolt.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 29,
+    "shot": "S29-1-washer",
+    "before": "WHITE PLASTIC #10 washer sits BETWEEN the C8 carrier and the D7 pivot arm.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 29,
+    "shot": "S29-1-leg-approach",
+    "before": "Carry the entire completed leg toward the exposed outside pivot — every installed fastener moves with it.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 29,
+    "shot": "S29-1-seat",
+    "before": "Controlled axial leg seating onto the plastic washer; D7 bore and inner #9 insert stay coaxial.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 29,
+    "shot": "S29-1-bolt",
+    "before": "#2 passes through D7 → white #10 washer → C8 → #9 insert. Fast visible thread feed; seat without clamping the leg rigid.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 29,
+    "shot": "S29-support-lift",
+    "before": "Support and lift the foot end slightly before folding, so the heel clears the floor. The support angle is reconstructed, not manufacturer-specified.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 29,
+    "shot": "S29-fold-test",
+    "before": "With the bed supported slightly above the floor, fold BOTH legs headward BELOW the bed face along their actual pivot axes.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 29,
+    "shot": "S29-unfold-test",
+    "before": "Unfold to the usable support position. Both plastic washers and pivot bolts remain fixed.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 29,
+    "shot": "S29-lower-support",
+    "before": "Both legs deployed: lower the supported foot end until the feet meet the floor.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 29,
+    "shot": "S29-complete",
+    "before": "Both folding legs attached and functionally checked. Support feet contact the floor.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 30,
+    "shot": "wall-position",
+    "before": "Positioning transition — assembled product at its installation wall. Wall is neutral context, not a specified substrate.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 30,
+    "shot": "S30-0-target",
+    "before": "Secure cabinet to wall. #15 bent angle bridges the cabinet outside face and wall — TWO locations on this side.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 30,
+    "shot": "S30-0-bracket",
+    "before": "Seat the separate #15 wall angle against both mounting faces; keep all holes visible.",
+    "after": "Fit the wall bracket.",
+    "omitted": false
+  },
+  {
+    "step": 30,
+    "shot": "S30-0-cabinet-screws",
+    "before": "Two #14 M4 ×15 mm screws visibly drive through the bracket into the cabinet side.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 30,
+    "shot": "S30-0-wall-screw",
+    "before": "#23 M4 ×40 mm wall screw: align, contact, rotate/feed and seat. No additional anchor hardware is invented.",
+    "after": "Fit the wall screw.",
+    "omitted": false
+  },
+  {
+    "step": 30,
+    "shot": "S30-0-secured",
+    "before": "Cabinet attachment and wall attachment secured at this location.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 30,
+    "shot": "S30-1-target",
+    "before": "Secure cabinet to wall. #15 bent angle bridges the cabinet outside face and wall — TWO locations on this side.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 30,
+    "shot": "S30-1-bracket",
+    "before": "Seat the separate #15 wall angle against both mounting faces; keep all holes visible.",
+    "after": "Fit the wall bracket.",
+    "omitted": false
+  },
+  {
+    "step": 30,
+    "shot": "S30-1-cabinet-screws",
+    "before": "Two #14 M4 ×15 mm screws visibly drive through the bracket into the cabinet side.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 30,
+    "shot": "S30-1-wall-screw",
+    "before": "#23 M4 ×40 mm wall screw: align, contact, rotate/feed and seat. No additional anchor hardware is invented.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 30,
+    "shot": "S30-1-secured",
+    "before": "Cabinet attachment and wall attachment secured at this location.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 30,
+    "shot": "S30-complete",
+    "before": "First TWO wall angles secured; continue on the opposite side.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 31,
+    "shot": "S31-0-target",
+    "before": "Secure cabinet to wall. #15 bent angle bridges the cabinet outside face and wall — TWO locations on this side.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 31,
+    "shot": "S31-0-bracket",
+    "before": "Seat the separate #15 wall angle against both mounting faces; keep all holes visible.",
+    "after": "Fit the wall bracket.",
+    "omitted": false
+  },
+  {
+    "step": 31,
+    "shot": "S31-0-cabinet-screws",
+    "before": "Two #14 M4 ×15 mm screws visibly drive through the bracket into the cabinet side.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 31,
+    "shot": "S31-0-wall-screw",
+    "before": "#23 M4 ×40 mm wall screw: align, contact, rotate/feed and seat. No additional anchor hardware is invented.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 31,
+    "shot": "S31-0-secured",
+    "before": "Cabinet attachment and wall attachment secured at this location.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 31,
+    "shot": "S31-1-target",
+    "before": "Secure cabinet to wall. #15 bent angle bridges the cabinet outside face and wall — TWO locations on this side.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 31,
+    "shot": "S31-1-bracket",
+    "before": "Seat the separate #15 wall angle against both mounting faces; keep all holes visible.",
+    "after": "Fit the wall bracket.",
+    "omitted": false
+  },
+  {
+    "step": 31,
+    "shot": "S31-1-cabinet-screws",
+    "before": "Two #14 M4 ×15 mm screws visibly drive through the bracket into the cabinet side.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 31,
+    "shot": "S31-1-wall-screw",
+    "before": "#23 M4 ×40 mm wall screw: align, contact, rotate/feed and seat. No additional anchor hardware is invented.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 31,
+    "shot": "S31-1-secured",
+    "before": "Cabinet attachment and wall attachment secured at this location.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 31,
+    "shot": "S31-complete",
+    "before": "All FOUR #15 brackets secured: #14 ×8 and #23 ×4 total. Option 1 assembly complete.",
+    "after": "Assembly complete.",
+    "omitted": false
+  },
+  {
+    "step": 31,
+    "shot": "final-support-lift",
+    "before": "After all four wall anchors: support and lift the foot end slightly to clear the folding heels.",
+    "after": "Support and slightly lift the bed.",
+    "omitted": false
+  },
+  {
+    "step": 31,
+    "shot": "final-fold-legs",
+    "before": "Functional verification AFTER all four wall anchors: keep the bed supported and fold both legs headward beneath the face.",
+    "after": "Fold both legs inward.",
+    "omitted": false
+  },
+  {
+    "step": 31,
+    "shot": "final-close",
+    "before": "Close under control. Bed rotates around both retained bearings; both connected pistons extend along their real endpoint axes.",
+    "after": "Close the bed under control.",
+    "omitted": false
+  },
+  {
+    "step": 31,
+    "shot": "final-closed",
+    "before": "Closed state — standalone Murphy Bed, no side storage and no Option 2.",
+    "after": "",
+    "omitted": true
+  },
+  {
+    "step": 31,
+    "shot": "final-open",
+    "before": "Reopen under control to the slightly raised leg-deployment pose. Both pistons remain attached.",
+    "after": "Open the bed under control.",
+    "omitted": false
+  },
+  {
+    "step": 31,
+    "shot": "final-deploy-legs",
+    "before": "Deploy both folding legs to the support position.",
+    "after": "Unfold both legs.",
+    "omitted": false
+  },
+  {
+    "step": 31,
+    "shot": "final-lower-support",
+    "before": "Legs fully deployed: lower the last supported angle until both feet meet the floor.",
+    "after": "Lower gently until both feet meet the floor.",
+    "omitted": false
+  },
+  {
+    "step": 31,
+    "shot": "final-result",
+    "before": "Option 1 complete — open usable support state. Director review; reconstructed dimensions remain estimated.",
+    "after": "Assembly complete.",
+    "omitted": false
+  }
+]

@@ -1,0 +1,13 @@
+{"at":"2026-10-05T09:16:19.763Z","status":"preparing","message":"Preparing generation and validating saved work…","validFrames":0,"retries":0}
+{"at":"2026-10-05T09:16:19.769Z","status":"rendering","message":"Rendering missing or invalid frames…","validFrames":0,"retries":0}
+{"at":"2026-10-05T09:16:19.773Z","status":"rendering","message":"Rendering work chunk 1 of 2…","validFrames":0,"retries":0}
+{"at":"2026-10-05T09:16:29.850Z","status":"rendering","message":"Rendering work chunk 2 of 2…","validFrames":2,"retries":0}
+{"at":"2026-10-05T09:16:29.954Z","status":"cancelled","message":"Generation cancelled. Valid frames kept.","validFrames":2,"retries":0,"errorCode":"JOB_INTERRUPTION","lastError":"__EXPORT_CANCELLED__"}
+{"at":"2026-10-05T09:16:53.476Z","status":"queued","message":"Resume queued. Existing frames will be validated.","validFrames":2,"retries":0,"lastError":"__EXPORT_CANCELLED__"}
+{"at":"2026-10-05T09:16:53.479Z","status":"preparing","message":"Preparing generation and validating saved work…","validFrames":2,"retries":0,"lastError":"__EXPORT_CANCELLED__"}
+{"at":"2026-10-05T09:16:53.502Z","status":"rendering","message":"Rendering missing or invalid frames…","validFrames":2,"retries":0,"lastError":"__EXPORT_CANCELLED__"}
+{"at":"2026-10-05T09:16:53.507Z","status":"rendering","message":"Rendering work chunk 2 of 2…","validFrames":2,"retries":0,"lastError":"__EXPORT_CANCELLED__"}
+{"at":"2026-10-05T09:17:06.577Z","status":"validating_frames","message":"Validating the complete frame sequence…","validFrames":4,"retries":0,"lastError":"__EXPORT_CANCELLED__"}
+{"at":"2026-10-05T09:17:06.609Z","status":"encoding","message":"Encoding validated frames…","validFrames":4,"retries":0,"lastError":"__EXPORT_CANCELLED__"}
+{"at":"2026-10-05T09:17:06.769Z","status":"verifying","message":"Verifying final video…","validFrames":4,"retries":0,"lastError":"__EXPORT_CANCELLED__"}
+{"at":"2026-10-05T09:17:06.935Z","status":"completed","message":"Generation complete. Ready to download.","validFrames":4,"retries":0,"lastError":"__EXPORT_CANCELLED__"}

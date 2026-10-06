@@ -1,0 +1,19 @@
+Running unchanged approved gate: src/products/wf311613-standalone-murphy-bed/validation/run-polish02-gates.ts ; reports redirected to /Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01
+(node:84214) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+locks {"valid":true,"errors":[]}
+assembly {"valid":true,"errors":[]}
+structuralPaths {"valid":true,"errors":[]}
+groundedFloor {"valid":true,"errors":[]}
+frontStaging {"valid":true,"errors":[]}
+mechanics {"valid":true,"errors":[]}
+hardware {"valid":true,"errors":[]}
+step28 {"valid":true,"errors":[]}
+foldingLegs {"valid":true,"errors":[]}
+receiverPaths {"valid":true,"errors":[]}
+pistons {"valid":true,"errors":[]}
+seekReset {"valid":true,"errors":[]}
+b8 {"valid":true,"errors":[]}
+presentationFit {"valid":true,"errors":[]}
+captions {"valid":true,"errors":[]}

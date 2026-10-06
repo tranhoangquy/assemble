@@ -1,0 +1,71 @@
+{
+  "purpose": "Explicit path classification for the user-authorized generic resolution/web-export pass. This is not approval of arbitrary content changes in these files and is not a validator threshold change.",
+  "paths": [
+    "scripts/render-video.ts",
+    "scripts/render-checkpoints.ts",
+    "src/app/api/export/route.ts",
+    "src/app/api/export/[jobId]/download/route.ts",
+    "src/app/render/page.tsx",
+    "src/app/globals.css",
+    "src/components/export/ExportVideoModal.tsx",
+    "src/components/viewer/ProductViewer.tsx",
+    "src/engine/export/ExportJobManager.ts",
+    "src/engine/export/RenderProfiles.ts",
+    "src/engine/export/RenderProfiles.test.ts",
+    "src/engine/export/NativeSurface.ts",
+    "src/engine/export/NativeSurface.test.ts",
+    "src/engine/export/RenderIdentity.ts",
+    "src/engine/export/RenderIdentity.test.ts",
+    "src/engine/export/FrameManifest.ts",
+    "src/engine/export/FrameManifest.test.ts",
+    "src/engine/export/ExportJobManager.test.ts",
+    "src/engine/export/ExportApi.test.ts",
+    "src/engine/render/FrameRenderer.ts",
+    "src/engine/render/SceneDiagnostics.ts",
+    "src/engine/render/SceneDiagnostics.test.ts",
+    "src/types/export.ts"
+  ],
+  "inventory_note": "These exact 23 paths match the lightweight changed/new-file inventory taken after the implementation agent's safe checkpoint: 11 modified existing files plus 12 new helpers/tests. Test presence does not assert test execution or PASS. Add any later path only after separately reviewing its authorized generic semantics; no directory-prefix wildcard is allowed.",
+  "path_categories": {
+    "profile_policy_and_server_validation": [
+      "src/engine/export/RenderProfiles.ts",
+      "src/engine/export/RenderProfiles.test.ts",
+      "src/app/api/export/route.ts",
+      "src/engine/export/ExportApi.test.ts"
+    ],
+    "identity_and_same_candidate_frame_resume": [
+      "src/engine/export/RenderIdentity.ts",
+      "src/engine/export/RenderIdentity.test.ts",
+      "src/engine/export/FrameManifest.ts",
+      "src/engine/export/FrameManifest.test.ts"
+    ],
+    "native_raster_capture_and_cli_profile_propagation": [
+      "src/engine/export/NativeSurface.ts",
+      "src/engine/export/NativeSurface.test.ts",
+      "scripts/render-video.ts",
+      "scripts/render-checkpoints.ts",
+      "src/app/render/page.tsx",
+      "src/engine/render/FrameRenderer.ts"
+    ],
+    "web_export_job_metadata_progress_memory_and_download_lifecycle": [
+      "src/engine/export/ExportJobManager.ts",
+      "src/engine/export/ExportJobManager.test.ts",
+      "src/types/export.ts",
+      "src/app/api/export/[jobId]/download/route.ts",
+      "src/components/export/ExportVideoModal.tsx"
+    ],
+    "read_only_cross_resolution_diagnostics_and_screen_space_caption_scaling": [
+      "src/engine/render/SceneDiagnostics.ts",
+      "src/engine/render/SceneDiagnostics.test.ts",
+      "src/components/viewer/ProductViewer.tsx",
+      "src/app/globals.css"
+    ]
+  },
+  "required_semantics": [
+    "Only profile selection, metadata, server validation, native raster configuration, caption screen-space scaling, frame/output isolation and generic export lifecycle may change.",
+    "No product-specific resolution logic; no WF311613 package data changes.",
+    "No animation, camera, geometry, material, mechanisms, paths, timing, lighting, caption wording or validator/test-threshold changes.",
+    "Existing profile IDs/default/dimensions remain backward compatible.",
+    "Approved 720p deterministic product/camera/lighting state must remain unchanged; native-resolution QA validates the host changes."
+  ]
+}

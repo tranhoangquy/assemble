@@ -1,0 +1,85 @@
+{
+  "valid": true,
+  "clips": [
+    {
+      "clip": "A",
+      "audioAndVideoTimestampShiftIdentical": true,
+      "commonShiftSeconds": -4.565299,
+      "sampledVideoPackets": 10,
+      "sampledAudioPackets": 10,
+      "maximumTimestampRoundingSeconds": 3.499999999956316e-05,
+      "timebaseRoundingBudgetSeconds": 8.793749999999999e-05,
+      "fullClipDecode": "PASS"
+    },
+    {
+      "clip": "B",
+      "audioAndVideoTimestampShiftIdentical": true,
+      "commonShiftSeconds": -9.279948,
+      "sampledVideoPackets": 10,
+      "sampledAudioPackets": 10,
+      "maximumTimestampRoundingSeconds": 5.200000000016303e-05,
+      "timebaseRoundingBudgetSeconds": 8.793749999999999e-05,
+      "fullClipDecode": "PASS"
+    },
+    {
+      "clip": "C",
+      "audioAndVideoTimestampShiftIdentical": true,
+      "commonShiftSeconds": -117.11998700000001,
+      "sampledVideoPackets": 10,
+      "sampledAudioPackets": 10,
+      "maximumTimestampRoundingSeconds": 1.2999999995599865e-05,
+      "timebaseRoundingBudgetSeconds": 8.793749999999999e-05,
+      "fullClipDecode": "PASS"
+    },
+    {
+      "clip": "C2",
+      "audioAndVideoTimestampShiftIdentical": true,
+      "commonShiftSeconds": -381.994662,
+      "sampledVideoPackets": 10,
+      "sampledAudioPackets": 10,
+      "maximumTimestampRoundingSeconds": 4.9999999873762135e-06,
+      "timebaseRoundingBudgetSeconds": 8.793749999999999e-05,
+      "fullClipDecode": "PASS"
+    },
+    {
+      "clip": "D",
+      "audioAndVideoTimestampShiftIdentical": true,
+      "commonShiftSeconds": -368.959961,
+      "sampledVideoPackets": 10,
+      "sampledAudioPackets": 10,
+      "maximumTimestampRoundingSeconds": 3.90000000152213e-05,
+      "timebaseRoundingBudgetSeconds": 8.793749999999999e-05,
+      "fullClipDecode": "PASS"
+    },
+    {
+      "clip": "E",
+      "audioAndVideoTimestampShiftIdentical": true,
+      "commonShiftSeconds": -436.65065100000004,
+      "sampledVideoPackets": 10,
+      "sampledAudioPackets": 10,
+      "maximumTimestampRoundingSeconds": 1.5999999959603883e-05,
+      "timebaseRoundingBudgetSeconds": 8.793749999999999e-05,
+      "fullClipDecode": "PASS"
+    },
+    {
+      "clip": "F",
+      "audioAndVideoTimestampShiftIdentical": true,
+      "commonShiftSeconds": -453.546614,
+      "sampledVideoPackets": 10,
+      "sampledAudioPackets": 10,
+      "maximumTimestampRoundingSeconds": 5.300000003671812e-05,
+      "timebaseRoundingBudgetSeconds": 8.793749999999999e-05,
+      "fullClipDecode": "PASS"
+    },
+    {
+      "clip": "G",
+      "audioAndVideoTimestampShiftIdentical": true,
+      "commonShiftSeconds": -501.183985,
+      "sampledVideoPackets": 10,
+      "sampledAudioPackets": 10,
+      "maximumTimestampRoundingSeconds": 1.500000001897206e-05,
+      "timebaseRoundingBudgetSeconds": 8.793749999999999e-05,
+      "fullClipDecode": "PASS"
+    }
+  ]
+}

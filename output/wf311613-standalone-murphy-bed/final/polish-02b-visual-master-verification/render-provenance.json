@@ -1,0 +1,16 @@
+{
+  "candidate": "wf311613-director-polish-02b",
+  "startedAt": "2026-10-03T11:49:04.856Z",
+  "output": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/wf311613-polish-02b-visual-master-720p.mp4",
+  "frames": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/frames/wf311613-polish-02b-visual-master-new-d0SrbS",
+  "frameSource": "New deterministic frame render from t=0; no historical MP4 or frame input",
+  "resumeFromFrame": 0,
+  "expectedFrames": 15572,
+  "timelineDuration": 519.0536938888888,
+  "videoSha256": "f222e140bea7131b36003150b450372689458972b69d4705d3caee7345b76882",
+  "planSha256": "bf43ecdb93c8a43dd50ea4a9e46306882902cbaf813e24438826f8585045e520",
+  "camerasSha256": "73aaf84e0911de64cf319ab942e462d2b37f6d87897613102d0b62a45696d8b2",
+  "renderer": "scripts/render-video.ts",
+  "rendererSha256": "4ab71f14ffd10d69adc5678383f9e4fbff7117c08d02eaf4d9c8668d911afc23",
+  "audio": false
+}

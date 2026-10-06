@@ -1,0 +1,23 @@
+{
+  "valid": true,
+  "method": "Recorded actual exit statuses of completed tool executions; not inferred from quiet logs. Required successful checks are distinguished from retained failures and the early overlapping attempt.",
+  "completedFinalChecksRanSequentially": true,
+  "allAttemptsStrictlySequential": false,
+  "operationalWarning": "An early props attempt briefly overlapped the running mechanical gate and exited 0 before an interruption could be sent. That output and log are preserved. After the mechanical gate exited 0, the unchanged props checker was rerun sequentially, followed by profile tests, full tests, typecheck, lint, production webpack build and the unchanged micro validator.",
+  "validatorThresholdsUnchanged": true,
+  "existingTestTimeoutsUnchanged": true,
+  "vitestConfigSha256": "82006bd7a711f879da7d3f92c2bff038951c251c5dbec6100dd6c48b9b5f90ac",
+  "commands": [
+    {"name":"mechanical","command":"node --import tsx run-approved-gate.mjs mechanical","exitCode":0,"log":"mechanical.log","result":"15/15 unchanged approved gates PASS"},
+    {"name":"props-early-overlap","command":"node --import tsx run-approved-gate.mjs props","exitCode":0,"log":"props.log","report":"props-early-overlap-presentation-fit.json","note":"Briefly overlapped mechanical; retained as an operational warning, not the final sequential props evidence"},
+    {"name":"props","command":"node --import tsx run-approved-gate.mjs props","exitCode":0,"log":"props-sequential-retry.log","result":"Unchanged presentation checker PASS after mechanical completion"},
+    {"name":"profile-tests","command":"npm test -- src/engine/export src/engine/render/SceneDiagnostics.test.ts","exitCode":0,"log":"profile-tests.log","tests":39,"files":7},
+    {"name":"full-tests","command":"npm test","exitCode":0,"log":"full-tests.log","tests":187,"files":37},
+    {"name":"typecheck","command":"npm run typecheck","exitCode":0,"log":"typecheck.log"},
+    {"name":"lint","command":"npm run lint -- --ignore-pattern 'output/**'","exitCode":0,"log":"lint.log","note":"Generated evidence artifacts excluded; application source linted"},
+    {"name":"build-webpack","command":"npm run build -- --webpack","exitCode":0,"log":"build-webpack.log","note":"Documented CLI backend selection, no configuration/package changes or validation skips"},
+    {"name":"micro-native","command":"node --import tsx run-approved-gate.mjs micro","exitCode":1,"log":"micro-native.log","result":"Physical/reset/camera checks pass; historical aggregate byte lock rejects only the two authorized generic engine changes. The original aggregate remains FAIL, not waived."}
+  ],
+  "previousAttemptsPreserved": "../post-infrastructure-validation/validation-summary.json",
+  "notClaimed": ["All native aggregate validators PASS", "Original strict camera JSON replay PASS", "Default Turbopack build PASS", "Every validation attempt strictly sequential"]
+}

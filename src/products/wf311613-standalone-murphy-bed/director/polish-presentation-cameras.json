@@ -1,0 +1,200 @@
+{
+  "cameraPresets": {
+    "polish01-actual-front-context": {
+      "position": [
+        194.99685851376188,
+        279.0954587110185,
+        -602.8461725031239
+      ],
+      "target": [
+        48.40398977017187,
+        64.261082104034,
+        -147.90278674715063
+      ],
+      "fov": 55
+    },
+    "polish01-actual-front-orient": {
+      "position": [
+        200.4928840429473,
+        247.44751663591796,
+        -618.8278617801571
+      ],
+      "target": [
+        47.34145793372668,
+        75.81229772041007,
+        -143.53033247567865
+      ],
+      "fov": 55
+    },
+    "polish01-actual-front-align": {
+      "position": [
+        172.43606744937915,
+        197.3630262976512,
+        -497.2732808011599
+      ],
+      "target": [
+        39.270217409457324,
+        82.56487971151137,
+        -83.99995309105714
+      ],
+      "fov": 55
+    },
+    "polish01-actual-front-connected": {
+      "position": [
+        151.65049711791136,
+        175.22859484180674,
+        -392.2020883079642
+      ],
+      "target": [
+        34.53655653461786,
+        74.26830123551895,
+        -28.745031325328643
+      ],
+      "fov": 55
+    },
+    "polish01-actual-raised-context": {
+      "position": [
+        160.8511875879792,
+        162.06741453467725,
+        -470.5775259824778
+      ],
+      "target": [
+        35.95789141419449,
+        71.62744144331529,
+        -82.97764130521362
+      ],
+      "fov": 55
+    },
+    "polish01-actual-final-open": {
+      "position": [
+        191.78568839029842,
+        276.37711068572776,
+        -542.801612327014
+      ],
+      "target": [
+        47.60688233474385,
+        65.08058456982783,
+        -95.35014525805104
+      ],
+      "fov": 55
+    },
+    "polish01-actual-D9-link": {
+      "position": [
+        -31.3401442460994,
+        97.92765780163562,
+        -100.1410461935513
+      ],
+      "target": [
+        113.53543678412721,
+        57.68444084879482,
+        -11.605968897301434
+      ],
+      "fov": 45
+    },
+    "polish01-actual-D8-link": {
+      "position": [
+        43.40045747102111,
+        97.92765780163562,
+        -80.40598818913399
+      ],
+      "target": [
+        -101.4751235592055,
+        57.68444084879482,
+        8.129089107115874
+      ],
+      "fov": 45
+    },
+    "polish01-front-S30-0-anchor": {
+      "target": [
+        -126.90143064777155,
+        203.49368111181872,
+        13.351000247234332
+      ],
+      "position": [
+        -190.81817069038627,
+        223.0237961248399,
+        -18.60736977407303
+      ],
+      "fov": 35
+    },
+    "polish01-front-S30-1-anchor": {
+      "target": [
+        -126.90143064777155,
+        27.493681111818717,
+        13.351000247234332
+      ],
+      "position": [
+        -190.81817069038627,
+        47.02379612483988,
+        -18.60736977407303
+      ],
+      "fov": 35
+    },
+    "polish01-front-S31-0-anchor": {
+      "target": [
+        121.70165858645039,
+        203.49368111181872,
+        23.75054436987665
+      ],
+      "position": [
+        185.6183986290651,
+        223.0237961248399,
+        -8.207825651430706
+      ],
+      "fov": 35
+    },
+    "polish01-front-S31-1-anchor": {
+      "target": [
+        121.70165858645039,
+        27.493681111818717,
+        23.75054436987665
+      ],
+      "position": [
+        185.6183986290651,
+        47.023796124839876,
+        -8.207825651430706
+      ],
+      "fov": 35
+    }
+  },
+  "shotCameras": {
+    "S25-context": "polish01-actual-front-context",
+    "S25-route-4": "polish01-actual-front-orient",
+    "S25-route-5": "polish01-actual-front-align",
+    "S25-complete": "polish01-actual-front-connected",
+    "S26-supported-raise": "polish01-actual-raised-context",
+    "S27-small-test-out": "polish01-actual-raised-context",
+    "S27-small-test-return": "polish01-actual-raised-context",
+    "S27-complete": "polish01-actual-raised-context",
+    "final-close": "polish01-actual-raised-context",
+    "final-closed": "polish01-actual-raised-context",
+    "final-result": "polish01-actual-final-open",
+    "S9-introduce": "polish01-actual-D9-link",
+    "S9-target": "polish01-actual-D9-link",
+    "S9-seat-link": "polish01-actual-D9-link",
+    "S10-introduce": "polish01-actual-D8-link",
+    "S10-target": "polish01-actual-D8-link",
+    "S10-seat-link": "polish01-actual-D8-link",
+    "S30-0-target": "polish01-front-S30-0-anchor",
+    "S30-0-bracket": "polish01-front-S30-0-anchor",
+    "S30-0-cabinet-screws": "polish01-front-S30-0-anchor",
+    "S30-0-wall-screw": "polish01-front-S30-0-anchor",
+    "S30-0-secured": "polish01-front-S30-0-anchor",
+    "S30-1-target": "polish01-front-S30-1-anchor",
+    "S30-1-bracket": "polish01-front-S30-1-anchor",
+    "S30-1-cabinet-screws": "polish01-front-S30-1-anchor",
+    "S30-1-wall-screw": "polish01-front-S30-1-anchor",
+    "S30-1-secured": "polish01-front-S30-1-anchor",
+    "S31-0-target": "polish01-front-S31-0-anchor",
+    "S31-0-bracket": "polish01-front-S31-0-anchor",
+    "S31-0-cabinet-screws": "polish01-front-S31-0-anchor",
+    "S31-0-wall-screw": "polish01-front-S31-0-anchor",
+    "S31-0-secured": "polish01-front-S31-0-anchor",
+    "S31-1-target": "polish01-front-S31-1-anchor",
+    "S31-1-bracket": "polish01-front-S31-1-anchor",
+    "S31-1-cabinet-screws": "polish01-front-S31-1-anchor",
+    "S31-1-wall-screw": "polish01-front-S31-1-anchor",
+    "S31-1-secured": "polish01-front-S31-1-anchor"
+  },
+  "source": "Generated offline from actual world meshes at 8%,50%,92%; camera-only visual QA correction. No product changes."
+}

@@ -1,0 +1,25 @@
+{
+  "baseline": "wf311613-director-polish-02b",
+  "candidate": "wf311613-final-micro-pass",
+  "compared": 198,
+  "changed": [
+    "src/components/animation/AnimationController.tsx",
+    "src/components/viewer/ProductViewer.tsx",
+    "src/products/tests/registry.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/index.ts",
+    "src/types/video.ts"
+  ],
+  "expectedChanges": [
+    "src/components/animation/AnimationController.tsx",
+    "src/components/viewer/ProductViewer.tsx",
+    "src/products/tests/registry.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/index.ts",
+    "src/types/video.ts"
+  ],
+  "productHash": "4645bcf33682cbf377d84a2d0f8139674b6d80f5a5014a29505bf97287f82a45",
+  "materialHash": "d9a96203382d9d92eaaec1cab45a97f97da01ac13d5fbec739477c9f06514bcc",
+  "assemblyHash": "19df9d72004a93989fc5245d5cbf953c8a6289423f2587749584ee4c322ba184",
+  "planHash": "bf43ecdb93c8a43dd50ea4a9e46306882902cbaf813e24438826f8585045e520",
+  "baselineVideoHash": "f222e140bea7131b36003150b450372689458972b69d4705d3caee7345b76882",
+  "microVideoHash": "58fb308c0117e3c9116aefa09a9f2bee840216ca23aca7d30240fca529c8c22b"
+}

@@ -1,0 +1,78 @@
+{
+  "retrieved_at": "2026-10-05T03:10:06.828948+00:00",
+  "source_url": "https://breakingcopyright.com/song/artificialmusic-and-so-it-begins",
+  "required_credit_text": "Song: And So It Begins\nComposer: Artificial.Music\nWebsite: https://www.youtube.com/channel/UCC49uNuUk7pY77NoVMlNYDA\nLicense: Free To Use YouTube license youtube-free\nMusic powered by BreakingCopyright: https://breakingcopyright.com",
+  "structured_data": [
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicRecording",
+      "datePublished": "2026-08-02",
+      "name": "And So It Begins",
+      "byArtist": [
+        {
+          "@type": "Person",
+          "name": "Artificial.Music",
+          "url": "https://breakingcopyright.com/artist/artificialmusic"
+        }
+      ],
+      "genre": "R&B",
+      "audio": {
+        "@type": "AudioObject",
+        "contentUrl": "https://files.breakingcopyright.com/song/artificialmusic-and-so-it-begins.mp3",
+        "encodingFormat": "audio/mpeg"
+      },
+      "keywords": "R&B music, Chill music, R&B mp3 download, royalty-free music, free download",
+      "video": {
+        "@type": "VideoObject",
+        "name": "R&B & Chill (Royalty Free Music) - \"And So It Begins\" by Artificial.Music",
+        "description": "R&B royalty-free music for videos. Chill instrumental music to use on YouTube and social media",
+        "uploadDate": "2026-08-02",
+        "thumbnailUrl": "https://img.youtube.com/vi/BH-SnQ8J1VU/maxresdefault.jpg",
+        "contentUrl": "https://www.youtube.com/watch?v=BH-SnQ8J1VU",
+        "embedUrl": "https://www.youtube.com/embed/BH-SnQ8J1VU"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://breakingcopyright.com//"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Music",
+          "item": "https://breakingcopyright.com//royalty-free-music"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "And So It Begins"
+        }
+      ]
+    }
+  ],
+  "youtube_description_observation": {
+    "exact_video_id": "BH-SnQ8J1VU",
+    "artist": "Artificial.Music",
+    "title": "And So It Begins",
+    "stated_license": "YouTube Free license",
+    "permission": "Free to use on YouTube and social media with required credits",
+    "official_download_page": "https://breakingcopyright.com/song/artificialmusic-and-so-it-begins",
+    "restriction": "Do not register song on Spotify, iTunes, or copyright detection systems",
+    "method": "Expanded exact director-supplied YouTube description inspected via browser accessibility/DOM; not a remembered third-party claim"
+  },
+  "download_attempt": {
+    "official_audio_url": "https://files.breakingcopyright.com/song/artificialmusic-and-so-it-begins.mp3",
+    "http_status": 403,
+    "result": "No audio asset acquired",
+    "methods": [
+      "HTTPS curl with standard certificate validation",
+      "HTTPS curl with referring official track page"
+    ]
+  }
+}

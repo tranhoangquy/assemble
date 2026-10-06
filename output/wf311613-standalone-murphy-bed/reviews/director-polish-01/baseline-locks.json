@@ -1,0 +1,6676 @@
+{
+  "productHash": "4645bcf33682cbf377d84a2d0f8139674b6d80f5a5014a29505bf97287f82a45",
+  "materialsHash": "d9a96203382d9d92eaaec1cab45a97f97da01ac13d5fbec739477c9f06514bcc",
+  "planHash": "9836e1ca75e4910b46c9e9d51ffb4ba2f0a7c78667dcb4297cd3772afc65d7b0",
+  "stepLocks": [
+    {
+      "step": 1,
+      "shots": [
+        {
+          "id": "context",
+          "duration": 1.4,
+          "actionsHash": "ed20225d929e65a56c19b18a6012172f65781dacc08c831e28b3a4550262e2e7"
+        },
+        {
+          "id": "part-introduction",
+          "duration": 1.3,
+          "actionsHash": "3d3f97cb38503f6d672a9fddde3dddef4e1e0def535d931b0e477df185c6272c"
+        },
+        {
+          "id": "panel-alignment",
+          "duration": 1.6470000000000002,
+          "actionsHash": "15daad43dccb56b894d2697d3d96c93cdd12f4d225678e54d20d6722e1a86050"
+        },
+        {
+          "id": "dowel-target",
+          "duration": 1.05,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "dowel-macro",
+          "duration": 1.585,
+          "actionsHash": "5218fdde8c09151c0b1b73bb8988447e5cd64cebe43e4af1a95543ebc9dd2843"
+        },
+        {
+          "id": "dowel-1",
+          "duration": 0.4983200000000001,
+          "actionsHash": "2fb80119c7e40d86adf52b6a6f12664e0af09a6eb025c43df53c63c1e2e03597"
+        },
+        {
+          "id": "dowel-2",
+          "duration": 0.3557600000000001,
+          "actionsHash": "08f78c7b8495e551fb75d9b4ea775f7d5e019d6fb1a4b3fc76df8c5dfd226fdb"
+        },
+        {
+          "id": "dowel-3",
+          "duration": 0.3557600000000001,
+          "actionsHash": "b48fe90f7f2420d654b4c2e5d09e75ca554ff44d02d11c62222eee70350d7d50"
+        },
+        {
+          "id": "dowel-4",
+          "duration": 0.3557600000000001,
+          "actionsHash": "a8c9c78a9541eda97550c2092475c245e820a99213f16872ffbde7bdd6fba11a"
+        },
+        {
+          "id": "dowel-5",
+          "duration": 0.3557600000000001,
+          "actionsHash": "ea0985e15dc7a934b776289517a726fb88d321c59fe4394f41296c1a42203b0b"
+        },
+        {
+          "id": "rail-stage-0",
+          "duration": 0.32,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "rail-seat-0",
+          "duration": 1.564125,
+          "actionsHash": "b991cf0b0c6e28df26873f108bf3e199c6a2e3e3ca78d4082232dfb5f5df2113"
+        },
+        {
+          "id": "rail-stage-1",
+          "duration": 0.32,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "rail-seat-1",
+          "duration": 1.564125,
+          "actionsHash": "1f27dfc73b8ce20fca2855f964fe978b798c48164bf6632d6d340b4ccdc940c4"
+        },
+        {
+          "id": "joint-target-0",
+          "duration": 1.05,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "cam-install-0",
+          "duration": 1.085,
+          "actionsHash": "0adbe7b622723b41e2a0ee5b653a000933fcedd3f96bde8aed5ec7f9c2ac9c82"
+        },
+        {
+          "id": "bolt-macro",
+          "duration": 1.635,
+          "actionsHash": "fb0cde76e5fcaada3951ca96334dd0127d69c83f45809470e98629422ed3e22c"
+        },
+        {
+          "id": "cam-lock-0",
+          "duration": 0.2810000000000001,
+          "actionsHash": "eb45794fa56acd5d2f9a5525e1d781636ea92667bc622b65777913151853f584"
+        },
+        {
+          "id": "joint-target-1",
+          "duration": 0.12,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "cam-install-1",
+          "duration": 0.4270400000000001,
+          "actionsHash": "3fd3b371ec8fe63a2e73fb242440e6b7cd4e43bc4e35491cd94aff8988b30d70"
+        },
+        {
+          "id": "bolt-install-1",
+          "duration": 0.8012600000000001,
+          "actionsHash": "4e428b678fd5dc9d3bd11ea2ec69688e41c1f4ac3cafeca3f68ba48aed083b11"
+        },
+        {
+          "id": "cam-lock-1",
+          "duration": 0.24899999999999997,
+          "actionsHash": "1a80c096b5bab00b8eae9eb17180bd8ad3f4027ab354acbf98bc4e190f47cc34"
+        },
+        {
+          "id": "joint-target-2",
+          "duration": 0.12,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "cam-install-2",
+          "duration": 0.37358,
+          "actionsHash": "e0883361e8ee454f418da0d9906b85bf5965e58cdeb0df719d4807488e187841"
+        },
+        {
+          "id": "bolt-install-2",
+          "duration": 0.6216666666666668,
+          "actionsHash": "ebf8b6801e4aae74e7a1d4ba589e67c796fc90ac5d7db65cf95cf37e42bc49b0"
+        },
+        {
+          "id": "cam-lock-2",
+          "duration": 0.217,
+          "actionsHash": "0e6ea533d4efa5048ce1672a194c7d686e252afad0f98b27d96fabe24e567290"
+        },
+        {
+          "id": "joint-target-3",
+          "duration": 0.12,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "cam-install-3",
+          "duration": 0.37358,
+          "actionsHash": "08498e70fa7cd34019bbe2679a93a59c8fd73dd2d56363696ce1acde0fa162f0"
+        },
+        {
+          "id": "bolt-install-3",
+          "duration": 0.6216666666666668,
+          "actionsHash": "9ef4626c763fd881740ff52113dd97398f774d4b2872c2f223e72f6d9b8126c4"
+        },
+        {
+          "id": "cam-lock-3",
+          "duration": 0.217,
+          "actionsHash": "764101898f6951f2ce450d63fafe0d7cddb769860d4ce368bf45f3e78b4393e0"
+        },
+        {
+          "id": "joint-target-4",
+          "duration": 0.12,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "cam-install-4",
+          "duration": 0.37358,
+          "actionsHash": "91a0485e5d3e2dc190059eccf7633bb0b047ec14ae731bbd6b9fde77f07b21b4"
+        },
+        {
+          "id": "bolt-install-4",
+          "duration": 0.6216666666666668,
+          "actionsHash": "6073cc3c07a5d4d668a096fae73116ac8314596b04239df2efb07e886ed5e4f3"
+        },
+        {
+          "id": "cam-lock-4",
+          "duration": 0.217,
+          "actionsHash": "ff2da6b7b8728838791956f38ed97b827c65b6ecf44b98de9a06923b4da8c8cd"
+        },
+        {
+          "id": "joint-target-5",
+          "duration": 0.12,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "cam-install-5",
+          "duration": 0.37358,
+          "actionsHash": "40f58a1c938e4a77df9f0c76d05a01c856e75f818676a71cbc703d7b81ffa0d8"
+        },
+        {
+          "id": "bolt-install-5",
+          "duration": 0.6216666666666668,
+          "actionsHash": "49bf0fb39ad901b03d1fd68a452a1199b26acd45581f46fb460a49e781502209"
+        },
+        {
+          "id": "cam-lock-5",
+          "duration": 0.217,
+          "actionsHash": "77e4b8be0b3a7b418277e17ba5214b3f4a910371d12e479fc0d43e159c301ab4"
+        },
+        {
+          "id": "joint-target-6",
+          "duration": 0.12,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "cam-install-6",
+          "duration": 0.37358,
+          "actionsHash": "7cd5de0a63baae162eb378c76f21931bbf338e9ba7b098f97ff0e2cf15a19b3b"
+        },
+        {
+          "id": "bolt-install-6",
+          "duration": 0.6216666666666668,
+          "actionsHash": "4b7003a4d031a877dbfacdc56fc12c9265814dbd039d22269d94165e0bba00ac"
+        },
+        {
+          "id": "cam-lock-6",
+          "duration": 0.217,
+          "actionsHash": "61122cf7b5706dd0accecc56f9aacab1112ae029b9afb640eae9e3dec1c7c219"
+        },
+        {
+          "id": "joint-target-7",
+          "duration": 0.12,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "cam-install-7",
+          "duration": 0.37358,
+          "actionsHash": "59945b9911fb084d74440b21ff6e05ac4a3a71bef46edfcffb9c6aa90fcff8cd"
+        },
+        {
+          "id": "bolt-install-7",
+          "duration": 0.6216666666666668,
+          "actionsHash": "981678a2a3834d66a21d52606a9c5c355b46b5e51063b2259ce2c75ab3c2a708"
+        },
+        {
+          "id": "cam-lock-7",
+          "duration": 0.217,
+          "actionsHash": "3abc46884687775cf54abe97ff7f42cc346d27ef3faebbbb2d5e496571212ee4"
+        },
+        {
+          "id": "verify",
+          "duration": 1.05,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "result",
+          "duration": 0.8,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "shots": [
+        {
+          "id": "R-context",
+          "duration": 0.8,
+          "actionsHash": "b02872ac8735fc6dae51a8ad1ed69976252e9578f98c32934df9d221bc352534"
+        },
+        {
+          "id": "R-part-introduction",
+          "duration": 0.7,
+          "actionsHash": "d4392b4e3ed334d869dcc6696e4a22862f15a19cfbea4c20276655b975f21ec9"
+        },
+        {
+          "id": "R-panel-alignment",
+          "duration": 0.9563750000000001,
+          "actionsHash": "1d63c62a84ccf158fef923db2cd7c8d3fa984d88bbf1d19e14567d466f1be825"
+        },
+        {
+          "id": "R-dowel-macro",
+          "duration": 0.31958,
+          "actionsHash": "dfe28cf9e21ae3b83c512c6d1d77c2ed326f566ba9b5958bcde3734337f41713"
+        },
+        {
+          "id": "R-dowel-1",
+          "duration": 0.31958,
+          "actionsHash": "45558a21cf0762e8bb1331cc6ca4c0323044020cfd1f0783ebaaed4688d21362"
+        },
+        {
+          "id": "R-dowel-2",
+          "duration": 0.31958,
+          "actionsHash": "8310a721b5e28f5493f1cdd0c0229e73f1799dfe89896f3f08c13607baaf8efe"
+        },
+        {
+          "id": "R-dowel-3",
+          "duration": 0.31958,
+          "actionsHash": "54a4fdc77c216d7f43cb35843c2ec2201d703390ca8d622cdc568694d56e7344"
+        },
+        {
+          "id": "R-dowel-4",
+          "duration": 0.31958,
+          "actionsHash": "24f8d01c50c57f0d18c8a06d8b06033c5c5278b44cdde4c18bdd7c1f39d927df"
+        },
+        {
+          "id": "R-dowel-5",
+          "duration": 0.31958,
+          "actionsHash": "5acb98382ddfbeabe2804fcbc589cfff54a7e912013bbcc08e2253e94e9419a4"
+        },
+        {
+          "id": "R-rail-stage-0",
+          "duration": 0.32,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "R-rail-seat-0",
+          "duration": 0.984,
+          "actionsHash": "8b66aed7d47ac140b6e7488911e994838dd551ef2bb75dc831ac872392bbfb55"
+        },
+        {
+          "id": "R-rail-stage-1",
+          "duration": 0.32,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "R-rail-seat-1",
+          "duration": 0.984,
+          "actionsHash": "a9b1451ddad2c07c11c6fb28c1c74eb7056be03b643b40f0609e730c95d43243"
+        },
+        {
+          "id": "R-joint-target-0",
+          "duration": 0.12,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "R-cam-install-0",
+          "duration": 0.3966666666666667,
+          "actionsHash": "5a638a4d7821f59654380867d7f56f6fc89ace49ec1e51b9ac048fc2e0f2e553"
+        },
+        {
+          "id": "R-bolt-macro",
+          "duration": 0.5861111111111111,
+          "actionsHash": "1abe7c60ea80e4d3e5546dbe2948bdda341c4e25a128acd9eaf723c0d789c174"
+        },
+        {
+          "id": "R-joint-target-1",
+          "duration": 0.12,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "R-cam-install-1",
+          "duration": 0.2861,
+          "actionsHash": "2ef17a2f6f45633d47061cadf9a99964961c42b5495418f3003638e83d0fb85c"
+        },
+        {
+          "id": "R-bolt-install-1",
+          "duration": 0.4032800000000001,
+          "actionsHash": "d0df1fb90f9df8b89e5351b3a333dba1de4945ed99f10eaa882b5c7a935471a8"
+        },
+        {
+          "id": "R-joint-target-2",
+          "duration": 0.12,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "R-cam-install-2",
+          "duration": 0.2861,
+          "actionsHash": "4f0adb0de7653d54bb8062532da0efa3a2d27aa157d5672ba1547aeac0812c7e"
+        },
+        {
+          "id": "R-bolt-install-2",
+          "duration": 0.4032800000000001,
+          "actionsHash": "f47bba4f0d4bbededb84a487aa73bb507adb203f329923f87f1445593a032894"
+        },
+        {
+          "id": "R-joint-target-3",
+          "duration": 0.12,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "R-cam-install-3",
+          "duration": 0.2861,
+          "actionsHash": "ccd963b7a059213d73caf6d58f165a12f221ca37f3b8b1662ff38f85b30ea4c4"
+        },
+        {
+          "id": "R-bolt-install-3",
+          "duration": 0.4032800000000001,
+          "actionsHash": "23a3847801afca89bdf815bfd800cf83bb3ee2bea181a8c8841c68a8bbc75c40"
+        },
+        {
+          "id": "R-joint-target-4",
+          "duration": 0.12,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "R-cam-install-4",
+          "duration": 0.2861,
+          "actionsHash": "3785ccc258702400eebd78c19af71d78c327ceaaca242565b1f5475e8622808c"
+        },
+        {
+          "id": "R-bolt-install-4",
+          "duration": 0.4032800000000001,
+          "actionsHash": "804b711b52029c344931493b4dc99223df1165860eda2ab5ec883dcd3686a663"
+        },
+        {
+          "id": "R-joint-target-5",
+          "duration": 0.12,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "R-cam-install-5",
+          "duration": 0.2861,
+          "actionsHash": "edf39e855fab6cd34da2a6378a0ea678ca33870fd93bb169d78f7d2460da8d7c"
+        },
+        {
+          "id": "R-bolt-install-5",
+          "duration": 0.4032800000000001,
+          "actionsHash": "9dc9978a143b518d30cdf66cac886e1fe27a2963cdaa74ab5d2b28790ae89092"
+        },
+        {
+          "id": "R-joint-target-6",
+          "duration": 0.12,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "R-cam-install-6",
+          "duration": 0.2861,
+          "actionsHash": "0d8da0febeaacf399979cea64eb30160a738f750bc4ee128c8b7cbac09240bf1"
+        },
+        {
+          "id": "R-bolt-install-6",
+          "duration": 0.4032800000000001,
+          "actionsHash": "c390acfe333e8e4193c43c6d782e280ada64fbfc0fd8ec5abd74df0f7164a0bb"
+        },
+        {
+          "id": "R-joint-target-7",
+          "duration": 0.12,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "R-cam-install-7",
+          "duration": 0.2861,
+          "actionsHash": "8148ea1ab39d48b846c80b13c4c6f11436d3f850b371d72fc6b0e32813fa1770"
+        },
+        {
+          "id": "R-bolt-install-7",
+          "duration": 0.4032800000000001,
+          "actionsHash": "66960786e462bc33ee9664f61796b5fdf31d4833df4e2ba7b2e2ebd6165aebe6"
+        },
+        {
+          "id": "R-cam-lock-0",
+          "duration": 0.15300000000000002,
+          "actionsHash": "e55ac905e99750e63b1f62fbf3d6058751272388a0d1187385de1944ca486d07"
+        },
+        {
+          "id": "R-cam-lock-1",
+          "duration": 0.15300000000000002,
+          "actionsHash": "1cc45b165f6329296006b23019929ab0ca233c1646a927eb8a99743407beb9c1"
+        },
+        {
+          "id": "R-cam-lock-2",
+          "duration": 0.15300000000000002,
+          "actionsHash": "20d2fb4c071b9d6ea3381f8d0ba9885fc3452cbcfef54722fea57147a2a6ff88"
+        },
+        {
+          "id": "R-cam-lock-3",
+          "duration": 0.15300000000000002,
+          "actionsHash": "b274d26e27721921234baba841f8b2dafe861c82b80cde153727e89498473c51"
+        },
+        {
+          "id": "R-cam-lock-4",
+          "duration": 0.15300000000000002,
+          "actionsHash": "361762b720048a4a0b92d7c0c1a49b87d8ddad2a6431033bb38d1271b912da43"
+        },
+        {
+          "id": "R-cam-lock-5",
+          "duration": 0.15300000000000002,
+          "actionsHash": "2d66f843cb1fe117db7d568871bd8d1bcb9f79beb33f804dd3126c6716ef3db1"
+        },
+        {
+          "id": "R-cam-lock-6",
+          "duration": 0.15300000000000002,
+          "actionsHash": "420312b8eca79ab041d4d9b26c90cea7038f6b64111222302a5962b61b55430a"
+        },
+        {
+          "id": "R-cam-lock-7",
+          "duration": 0.15300000000000002,
+          "actionsHash": "d8244e37bb3093add870bb7494d7ff7c77dc30787cc6e002cb7e54bc0b2a4749"
+        },
+        {
+          "id": "R-verify",
+          "duration": 0.65,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "R-result",
+          "duration": 0.8,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "shots": [
+        {
+          "id": "S3-supported-sides",
+          "duration": 1.15,
+          "actionsHash": "f5912c0e7631c35d032efde6139bc3fa44999927b9601117d81e96389a804a8c"
+        },
+        {
+          "id": "S3-introduce-lower-frame",
+          "duration": 1.05,
+          "actionsHash": "a3c97d2743c3c9df45dd6a1cb8bec29053e76fe4af626c27bda3ded18f90344b"
+        },
+        {
+          "id": "S3-center-target",
+          "duration": 0.85,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S3-seat-E4",
+          "duration": 1.01715,
+          "actionsHash": "23dccdeb01cc851c1cc98fc93e6fbfdbe2b35b06e2ed58f1b97cc1a7cd609f02"
+        },
+        {
+          "id": "S3-seat-D5-on-E4",
+          "duration": 0.90925,
+          "actionsHash": "059f9177125754b6bc74a59174be6180356c413e36ef5c657a36300b106ac1e4"
+        },
+        {
+          "id": "S3-E3--1-dowel-insert",
+          "duration": 0.5858000000000001,
+          "actionsHash": "0bfb026108929b779b35b96b1fe23c2cd30c7b0b12a9b9942a27ca4db1a2572e"
+        },
+        {
+          "id": "S3-E3-1-dowel-insert",
+          "duration": 0.34712,
+          "actionsHash": "1d7c4df595011a3345f7f8a8c2ab73fcf96891c24374bd022a00feb139c6658f"
+        },
+        {
+          "id": "S3-B9--1-dowel-insert",
+          "duration": 0.34712,
+          "actionsHash": "45df766c490a18bdaf4e5dc7257ddd3b64e7dfa454d10b228e9ec1d32f4b1f92"
+        },
+        {
+          "id": "S3-B9-1-dowel-insert",
+          "duration": 0.34712,
+          "actionsHash": "fc644e6905c0ad7756e940a4dd9fe84fbd32e71a3c8d3870184a189449f7234c"
+        },
+        {
+          "id": "S3-D5--1-dowel-insert",
+          "duration": 0.34712,
+          "actionsHash": "a4bc27e529e89ada5e1907cc32717fca167ee9a4a9d98490b397a0ad788f1c4d"
+        },
+        {
+          "id": "S3-D5-1-dowel-insert",
+          "duration": 0.34712,
+          "actionsHash": "b71edcd72246323c81e20fe037d2a9787d0bd1f7caa7b58608b78f1261168801"
+        },
+        {
+          "id": "S3-first-side-target",
+          "duration": 0.85,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S3-seat-first-side",
+          "duration": 1.6105999999999998,
+          "actionsHash": "0315315b222037dc96f098e35a00e85122cacf15088c02b10632a64aafb21c6b"
+        },
+        {
+          "id": "S3-second-side-alignment",
+          "duration": 0.85,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S3-close-second-side",
+          "duration": 1.5027000000000001,
+          "actionsHash": "b4b16721701fb8076c1243d6f3d540eb843b3967d4538f15f623d135caaf612a"
+        },
+        {
+          "id": "S3-start-all-warning",
+          "duration": 0.85,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S3-E3--1-cam-insert",
+          "duration": 0.43166666666666675,
+          "actionsHash": "be23267f3ccca8ce0baa0fd64c7fb4d82c7721da4197996e9dca8a782292ab54"
+        },
+        {
+          "id": "S3-E3--1-bolt-start",
+          "duration": 0.6394444444444446,
+          "actionsHash": "1fd347b6ba8d210c5df51886ea289e4eee1c34bfbcecb9df711001d7107cda84"
+        },
+        {
+          "id": "S3-E3-1-cam-insert",
+          "duration": 0.34712,
+          "actionsHash": "c2765e124f9e2f03b8d046296596ca626b36ae4ed02b9e4ef54d858e8000fca1"
+        },
+        {
+          "id": "S3-E3-1-bolt-start",
+          "duration": 0.47564000000000006,
+          "actionsHash": "5ec05250fd6144fe7164385389053f7f065787e41402a991b3b7bdc780a50383"
+        },
+        {
+          "id": "S3-B9--1-cam-insert",
+          "duration": 0.34712,
+          "actionsHash": "f63f4e082d4eb0d1d5877d1a0dbf7ef57337fad2afb15ba1379fd45293c07fae"
+        },
+        {
+          "id": "S3-B9--1-bolt-start",
+          "duration": 0.47564000000000006,
+          "actionsHash": "c385eb6655b169cb252b709d2d844be9f7b2ca51bbc0fd162a6ae32632a96c36"
+        },
+        {
+          "id": "S3-B9-1-cam-insert",
+          "duration": 0.34712,
+          "actionsHash": "213fa3f2a949c4a0ea03e19ff4906f8da1bebbe1bf36336f48c317815c813a93"
+        },
+        {
+          "id": "S3-B9-1-bolt-start",
+          "duration": 0.47564000000000006,
+          "actionsHash": "096e94e60fca91702b6ccaeb367cd4f6e3e5dfa21c25636fb73aabfc33b66b3b"
+        },
+        {
+          "id": "S3-D5--1-cam-insert",
+          "duration": 0.34712,
+          "actionsHash": "17547220110af7f07c8a95b234e1087dd143d4c3c5156d877f6dbd817ae1f56d"
+        },
+        {
+          "id": "S3-D5--1-bolt-start",
+          "duration": 0.47564000000000006,
+          "actionsHash": "2143874a0878f8899b287a470b1f78d49f08def2f5e41ea471229519fcf2f31c"
+        },
+        {
+          "id": "S3-D5-1-cam-insert",
+          "duration": 0.34712,
+          "actionsHash": "46c758e5fd8d4b2e8c3d6485b548c0b2b88f09e8abaf7d52c059668fc6135bf5"
+        },
+        {
+          "id": "S3-D5-1-bolt-start",
+          "duration": 0.47564000000000006,
+          "actionsHash": "0514bb59d329cfe50fb01e461a3731f1e326006b752cf36b56db1af2cfb9dc8a"
+        },
+        {
+          "id": "S3-square-before-tightening",
+          "duration": 1.05,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S3-E3--1-final-tightening",
+          "duration": 0.265,
+          "actionsHash": "4756bacf65df6840e8bc2ac0a7797bfd3dc7a252a04f44f46efc35022aced2b3"
+        },
+        {
+          "id": "S3-E3-1-final-tightening",
+          "duration": 0.265,
+          "actionsHash": "ab1dceca7ee137d5d60703d7998f70e70c8a4cbc6e1362e4ad9d7fcb32a1de85"
+        },
+        {
+          "id": "S3-B9--1-final-tightening",
+          "duration": 0.265,
+          "actionsHash": "8b3b897f3c2a0acffd58a7fd05eecece740b4c9ffc7b5458b9e65faa294fcb87"
+        },
+        {
+          "id": "S3-B9-1-final-tightening",
+          "duration": 0.265,
+          "actionsHash": "aab8c39bca13767e13171d74005c6f85a054f5ac9964b3b7ddcdc759516d0b7b"
+        },
+        {
+          "id": "S3-D5--1-final-tightening",
+          "duration": 0.265,
+          "actionsHash": "de7664e5e80ac53a1cdb30283d12fcb0e2b17f1e956230aaaca8a85ec682c2c5"
+        },
+        {
+          "id": "S3-D5-1-final-tightening",
+          "duration": 0.265,
+          "actionsHash": "4fa6535da7f5981896591f7dd5d3df5f891b6b459c2e8ba1931409f39e240d69"
+        },
+        {
+          "id": "S3-complete",
+          "duration": 0.8,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "shots": [
+        {
+          "id": "S4-context",
+          "duration": 0.8,
+          "actionsHash": "0ed7d097d4663ed8fb80c9c83893242781cedfacab66f981cdb6566d395037cf"
+        },
+        {
+          "id": "S4-introduce",
+          "duration": 0.9,
+          "actionsHash": "4d369585be244ab5d97c9ea6ad5bcd7294afdff67d25e701bc42a6d6f1f2d246"
+        },
+        {
+          "id": "S4-target",
+          "duration": 0.65,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S4-B8-4--1-seat",
+          "duration": 1.05,
+          "actionsHash": "859de0bf04a6c39f8a971a2bd95ce96440e859ba4dce4c4060a8d825509478c1"
+        },
+        {
+          "id": "S4-B8-4-1-seat",
+          "duration": 1.05,
+          "actionsHash": "d81d208211cd02ad35bc1f3e78a49571f3a0f3eb2fb15b16eb6cb33876f1258a"
+        },
+        {
+          "id": "S4-B7-seat",
+          "duration": 1.25,
+          "actionsHash": "8bc24d830359317136496300acb3b635e58df070f8d8ee2d9035b711656bfa67"
+        },
+        {
+          "id": "S4-D4-1-seat",
+          "duration": 1.4,
+          "actionsHash": "8286f5218585d2f21a50860517c6d2e16ed10bf12550340300e56b54da9daa26"
+        },
+        {
+          "id": "S4-D4-1--1-target",
+          "duration": 0.35,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S4-D4-1--1-dowel",
+          "duration": 0.5,
+          "actionsHash": "0421a38df81c7ac200774c07c96f42a489d57a2eb656a87a66d360c5a82ca204"
+        },
+        {
+          "id": "S4-D4-1--1-cam",
+          "duration": 0.48,
+          "actionsHash": "8cc3bd07a5de216d504c93f71d96bfe83bf3103323e2dacec1d7a4b428106411"
+        },
+        {
+          "id": "S4-D4-1--1-start",
+          "duration": 0.71,
+          "actionsHash": "ab2f17e99205a7d1780e6ed36df4738861b31b5cc52bb354f34c84ed483e83f4"
+        },
+        {
+          "id": "S4-D4-1-1-target",
+          "duration": 0.35,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S4-D4-1-1-dowel",
+          "duration": 0.5,
+          "actionsHash": "65b6567f25200c35670e6d311d7800825e28fe5d80a1cf2560ac918f2ea58c43"
+        },
+        {
+          "id": "S4-D4-1-1-cam",
+          "duration": 0.48,
+          "actionsHash": "2208959cb66808a01f51f4d2f183cd1cd584257d831043879eca331185584a8e"
+        },
+        {
+          "id": "S4-D4-1-1-start",
+          "duration": 0.71,
+          "actionsHash": "eac01dd658e90cc46963162ae9f1ea8556e319ac0cb2acd2c06d9c5652d3d21e"
+        },
+        {
+          "id": "S4-square",
+          "duration": 0.8,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S4-D4-1--1-tighten",
+          "duration": 0.36,
+          "actionsHash": "9342595eefd6c23c28bd9983f7ec26b79e7807c4f12b941019d87182c3366e75"
+        },
+        {
+          "id": "S4-D4-1-1-tighten",
+          "duration": 0.36,
+          "actionsHash": "f0a47551201413b1fe48cec3d0972fe18b0beee540ae2ecfaa19b4eb025a3439"
+        },
+        {
+          "id": "S4-complete",
+          "duration": 0.85,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "shots": [
+        {
+          "id": "S5-context",
+          "duration": 0.8,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S5-introduce",
+          "duration": 0.9,
+          "actionsHash": "bd3b9927eef05d7d42341e7a98624d4ce2adab7e7f7809ec24da098eba790ad5"
+        },
+        {
+          "id": "S5-target",
+          "duration": 0.65,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S5-B8-5--1-seat",
+          "duration": 1.05,
+          "actionsHash": "6c9b64ac65f6b56c1d5709589aac23270278bdce20597c514d2d61d68a3e1ce0"
+        },
+        {
+          "id": "S5-B8-5-1-seat",
+          "duration": 1.05,
+          "actionsHash": "6caa1025aeb3373fc4043ad04cf5a78f9e068cf43ca29fe6ef2c138481722ca5"
+        },
+        {
+          "id": "S5-B7-seat",
+          "duration": 1.25,
+          "actionsHash": "dffd2606a2cc7b6256dac5ed5e93ea19fe3fd793d1a4ab7b34c420805941cad9"
+        },
+        {
+          "id": "S5-D4-2-seat",
+          "duration": 1.4,
+          "actionsHash": "8575b6f4445807c544e0bd4176da2721ee57c87c0145aefa2d5bf712dd849733"
+        },
+        {
+          "id": "S5-D4-2--1-target",
+          "duration": 0.35,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S5-D4-2--1-dowel",
+          "duration": 0.5,
+          "actionsHash": "9fb4a6366d08852357ff3dff0cc0c3df6682637ba3b15f8a3335e3338db5e8b7"
+        },
+        {
+          "id": "S5-D4-2--1-cam",
+          "duration": 0.48,
+          "actionsHash": "032ae0f334cf4729accc5e1523ee749169bff4eeda474f1ad24069c2690963bf"
+        },
+        {
+          "id": "S5-D4-2--1-start",
+          "duration": 0.71,
+          "actionsHash": "160cbae52f886a13cadd73543b5472267cafed32cebd8730a66b34f6625a0dee"
+        },
+        {
+          "id": "S5-D4-2-1-target",
+          "duration": 0.35,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S5-D4-2-1-dowel",
+          "duration": 0.5,
+          "actionsHash": "4f3b76bde32ea1269a3b915a587aa7a6ae8b7073bae4dcbe48a1405649b24783"
+        },
+        {
+          "id": "S5-D4-2-1-cam",
+          "duration": 0.48,
+          "actionsHash": "c9154b09df58354f9f89bbc6438d9faf504d95f76cc938ed9d2a3f2544d024b6"
+        },
+        {
+          "id": "S5-D4-2-1-start",
+          "duration": 0.71,
+          "actionsHash": "4b6728c015083f7ee40b701b867f17555aa605cb7cc041c2b9fb0a44f32ba316"
+        },
+        {
+          "id": "S5-square",
+          "duration": 0.8,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S5-D4-2--1-tighten",
+          "duration": 0.36,
+          "actionsHash": "bac72ee05845c1a96277427041ab39882e5202a39a5c17200cbaecb667fa536e"
+        },
+        {
+          "id": "S5-D4-2-1-tighten",
+          "duration": 0.36,
+          "actionsHash": "83581391a63c8ad477abbbf4d181c5438ccee2d544a7308d35641244633e7480"
+        },
+        {
+          "id": "S5-complete",
+          "duration": 0.85,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "shots": [
+        {
+          "id": "S6-context",
+          "duration": 0.8,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S6-introduce",
+          "duration": 0.9,
+          "actionsHash": "1fe2bd74ece6688cf7719025c096f8e5db2b4834e22fc1b61252c876545188f4"
+        },
+        {
+          "id": "S6-target",
+          "duration": 0.65,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S6-B8-6--1-seat",
+          "duration": 1.05,
+          "actionsHash": "5595dd3db64f7748c477089e710df5222654e6b6e7ecec91c4eb38612743f484"
+        },
+        {
+          "id": "S6-B8-6-1-seat",
+          "duration": 1.05,
+          "actionsHash": "f8405c364279ad7da0caae37a1dd8a4eb26e819b8f255347100c9572bdb8b36a"
+        },
+        {
+          "id": "S6-B7-seat",
+          "duration": 1.25,
+          "actionsHash": "2d7a146103f3e6b633d6b345cb12e4903a7437b890374a87326b9e2de5a6861a"
+        },
+        {
+          "id": "S6-B5-seat",
+          "duration": 1.4,
+          "actionsHash": "19b88389a0f5b612c85327a41990ecf3cc73d74598e14b78d9c738398b52ae0e"
+        },
+        {
+          "id": "S6-B6-seat",
+          "duration": 1.4,
+          "actionsHash": "dae799b9e7fe67ce62f5e24dd8a90ef07ac51df96edc0d2485c7ada9d621ecad"
+        },
+        {
+          "id": "S6-B5--1-target",
+          "duration": 0.35,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S6-B5--1-dowel",
+          "duration": 0.5,
+          "actionsHash": "734e3fea9747f3fea3ea9c938629b01d821ee137935260a0750fcf7c66af6868"
+        },
+        {
+          "id": "S6-B5--1-cam",
+          "duration": 0.48,
+          "actionsHash": "647f43214b73e655dd104c2f1c8c469ade52f246a646fcdcfa42461b1028e8b6"
+        },
+        {
+          "id": "S6-B5--1-start",
+          "duration": 0.71,
+          "actionsHash": "41cb112f2dca1779e8ac6ea20024e1741dd8b942e3f05a06ecd134158d27d2e2"
+        },
+        {
+          "id": "S6-B5-1-target",
+          "duration": 0.35,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S6-B5-1-dowel",
+          "duration": 0.5,
+          "actionsHash": "e38bcdf96d4ed72151d0f7dbe3009e1fb878705d52204be800fdfa41848f03bb"
+        },
+        {
+          "id": "S6-B5-1-cam",
+          "duration": 0.48,
+          "actionsHash": "8dca76ec5ef5dfb6607fdb9c42f070c187a01964a5c62d139d3c46937dbc3d91"
+        },
+        {
+          "id": "S6-B5-1-start",
+          "duration": 0.71,
+          "actionsHash": "7e5951afb92970ced52c68ded71596a69125b8729d70bc9c07b2ead25462717c"
+        },
+        {
+          "id": "S6-B6--1-target",
+          "duration": 0.35,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S6-B6--1-dowel",
+          "duration": 0.5,
+          "actionsHash": "bde5b8f74773136b7e49fce3267cb10f221794f066c0049c5270d483e6d99c71"
+        },
+        {
+          "id": "S6-B6--1-cam",
+          "duration": 0.48,
+          "actionsHash": "059db6a90c95ac67929867a6db4e2c58f82494b2909201d7d6345ebc57393b30"
+        },
+        {
+          "id": "S6-B6--1-start",
+          "duration": 0.71,
+          "actionsHash": "99da944d38cb48e7fd3547292f7e14d52f0f3a920cd41321a78b684dc609d2b7"
+        },
+        {
+          "id": "S6-B6-1-target",
+          "duration": 0.35,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S6-B6-1-dowel",
+          "duration": 0.5,
+          "actionsHash": "8ff00240e923d0b012bc1bdaca6a59ab32036cbb9842ea1369b1228362f26625"
+        },
+        {
+          "id": "S6-B6-1-cam",
+          "duration": 0.48,
+          "actionsHash": "a66443c2395bc8b6499dbcaf03f0e3ce6954fd9e1dc33f59eb0d09a94dac83f8"
+        },
+        {
+          "id": "S6-B6-1-start",
+          "duration": 0.71,
+          "actionsHash": "0962246246f1be451af0a05cf8e4b7721cb535891ee0a008759e6d0a8d5160bd"
+        },
+        {
+          "id": "S6-square",
+          "duration": 0.8,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S6-B5--1-tighten",
+          "duration": 0.36,
+          "actionsHash": "928602baf2e371d37cfc038a71e92e88005151713e771c6f116061ca8d0cb336"
+        },
+        {
+          "id": "S6-B5-1-tighten",
+          "duration": 0.36,
+          "actionsHash": "834107ad238018c21b37a15a9b23fda16f9f403b43738c8e06957b384365d636"
+        },
+        {
+          "id": "S6-B6--1-tighten",
+          "duration": 0.36,
+          "actionsHash": "38106351beafcb674dd0cc1014bd240aad4091e4f6a41389ce71e7387e264992"
+        },
+        {
+          "id": "S6-B6-1-tighten",
+          "duration": 0.36,
+          "actionsHash": "477a1e5058d3b80ee89468a0d330dc066fc36c42d9de6f68d3cdfb527cc9198e"
+        },
+        {
+          "id": "S6-complete",
+          "duration": 0.85,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "shots": [
+        {
+          "id": "S7-context",
+          "duration": 1.1,
+          "actionsHash": "98eedfb27815701b8c787f812dfdc7a65b5b0c049920b7751cb1ee7aa1ba96f2"
+        },
+        {
+          "id": "S7-groove-target",
+          "duration": 0.9,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "B4-left-seat",
+          "duration": 1.35,
+          "actionsHash": "268a0f5e8595d31b7aa2c6ba80edbf9a3729881f69294e5bcf80f4dd7f044424"
+        },
+        {
+          "id": "B4-right-seat",
+          "duration": 1.35,
+          "actionsHash": "73225a85cd2193b6adeb3b32871289ccfc87436394bcdcec85ee29355690f247"
+        },
+        {
+          "id": "B2-left-align",
+          "duration": 1.25,
+          "actionsHash": "8c773ff61bf0317ba9ce5037f5f5e06cd64e04dbb9d9eb42fe95681a4fe820ab"
+        },
+        {
+          "id": "B3-align",
+          "duration": 1.25,
+          "actionsHash": "12a66c564505d43f3f18b7771be443720195b35b96d0071429a3b5ceeca2b7a5"
+        },
+        {
+          "id": "B2-right-align",
+          "duration": 1.25,
+          "actionsHash": "fc7831ac8f50b3ffe235cb473029d68079c43ba19208a18e5e70301654005d36"
+        },
+        {
+          "id": "B1-rear-close",
+          "duration": 1.35,
+          "actionsHash": "a23fffc0bf309446ec5868f0e7afdb288202cffd91ef8ce7b833aba869806d44"
+        },
+        {
+          "id": "B1-front-close",
+          "duration": 1.35,
+          "actionsHash": "b0d30ecc73e5a5c054e9cba3751d240adb8531db676da4eff74cd6fbf674b85b"
+        },
+        {
+          "id": "S7-H13-0-install",
+          "duration": 1.3800000000000001,
+          "actionsHash": "cd58eb6667d29de2d670d3ecec7c3718a05b04f482564d9ea1155d580412e396"
+        },
+        {
+          "id": "S7-H13-1-install",
+          "duration": 1.08,
+          "actionsHash": "6aa790f194cb76542c835704d2b0e3511982992505b5d0463a639a9ee501cef8"
+        },
+        {
+          "id": "S7-H13-2-install",
+          "duration": 0.73,
+          "actionsHash": "05eb176f0e02823d94477842985323345e301ae2589116a499521b2b1acfc39f"
+        },
+        {
+          "id": "S7-H13-3-install",
+          "duration": 0.73,
+          "actionsHash": "172f64c0ea842311d1fb8631268cd29ca37f55ded559b0d78a3bdb79694a8a5f"
+        },
+        {
+          "id": "S7-H13-4-install",
+          "duration": 0.73,
+          "actionsHash": "6fa2db99ece6b22a093900415e6e1acdd3af91fd712cdb39b5225426ad72ac53"
+        },
+        {
+          "id": "S7-H13-5-install",
+          "duration": 0.73,
+          "actionsHash": "19d48969f859ecbf6b680d3c525f08ce7715f477c46c616d78489bed56a9805b"
+        },
+        {
+          "id": "S7-complete",
+          "duration": 1,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "shots": [
+        {
+          "id": "S8-context",
+          "duration": 0.9,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S8-cap-lift",
+          "duration": 1.45,
+          "actionsHash": "9a3d1250829993427096fb53e95e341f67db41a1ad3e65b9e46919b7cfd68609"
+        },
+        {
+          "id": "S8-cap-above",
+          "duration": 1.25,
+          "actionsHash": "861466b16cbe197a97fca7def387df464d61e46abcf87f89c9b53c35cd49ebf5"
+        },
+        {
+          "id": "S8-four-targets",
+          "duration": 0.85,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S8-dowel--1--18-insert",
+          "duration": 0.82,
+          "actionsHash": "c4c5de80031ec9956e5c49c34eacd0e5c7c973393891b9fb6663e36b6705dc8a"
+        },
+        {
+          "id": "S8-dowel--1-18-insert",
+          "duration": 0.82,
+          "actionsHash": "15ccca6f583df0aa48dce7ba7dc63fe45df7f95f7598a79ab658685a5ce49425"
+        },
+        {
+          "id": "S8-dowel-1--18-insert",
+          "duration": 0.82,
+          "actionsHash": "ec43232b3ce21162af5409f59cf85a7ecc1a283a8fbccf74db782ba2c4d9b4d6"
+        },
+        {
+          "id": "S8-dowel-1-18-insert",
+          "duration": 0.82,
+          "actionsHash": "f7b60453a7417f1f64a60a6af20d92aba9a001113710f7c2f7ef079a1a12e389"
+        },
+        {
+          "id": "S8-lower-align",
+          "duration": 1.2,
+          "actionsHash": "71dbfd66151a5cf4aeaab47e2cdfc825cf53c723efb5f54ca2ec7f72b7c37123"
+        },
+        {
+          "id": "S8-cap-seat",
+          "duration": 1.15,
+          "actionsHash": "a1b56d221b2509382127d500e88dfc329d14be0cbd5d1587191b0abf372ad2ea"
+        },
+        {
+          "id": "S8-H12--1-0-install",
+          "duration": 1.36,
+          "actionsHash": "00b13c137d38325aeba7b3fa5c91e5e6b97ff1b3fd75f215aa0a2d84a5ec1950"
+        },
+        {
+          "id": "S8-H12--1-1-install",
+          "duration": 1.06,
+          "actionsHash": "fd46ee5fc2f200543514aa5c37779b900c3be37eff1d878ca6bae580cb23574c"
+        },
+        {
+          "id": "S8-H12--1-2-install",
+          "duration": 0.71,
+          "actionsHash": "538febd79e60e38ae530c72bb2a51ae65a61a3af2909a8d5fcfeb2b6b28c678c"
+        },
+        {
+          "id": "S8-H12--1-3-install",
+          "duration": 0.71,
+          "actionsHash": "03b62d259d84a5c3264c121b2e611fac0c2f2b992071c375212fa470c3142acb"
+        },
+        {
+          "id": "S8-H12--1-4-install",
+          "duration": 0.71,
+          "actionsHash": "24e768f8fb96a1da4b4f3d0dfb2452d78dc0e85a1e430445ffbe3da4b339e4c5"
+        },
+        {
+          "id": "S8-H12-1-0-install",
+          "duration": 0.71,
+          "actionsHash": "6087040c02fa37d31f5cd44da95232ecc04be4b8bc9d531e20f94559a5700966"
+        },
+        {
+          "id": "S8-H12-1-1-install",
+          "duration": 0.71,
+          "actionsHash": "d388135909016074af8e6566f98a9c0da89af1d460d8887eda73afaaba4ec93d"
+        },
+        {
+          "id": "S8-H12-1-2-install",
+          "duration": 0.71,
+          "actionsHash": "1c51cee2fc7ea15fe8407f67995f145a4f7d3f7126a3295f29e16b45189addfd"
+        },
+        {
+          "id": "S8-H12-1-3-install",
+          "duration": 0.71,
+          "actionsHash": "c422aa3a7522a1f49993b15e793c87ad19a301f2f39349ef67f4fbe72711b2e8"
+        },
+        {
+          "id": "S8-H12-1-4-install",
+          "duration": 0.71,
+          "actionsHash": "422ca4c40bdb76fb9df53ebd33f0560e88f04bcb0f4aef7c10cef1ff2b75b9df"
+        },
+        {
+          "id": "S8-complete",
+          "duration": 1,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "shots": [
+        {
+          "id": "S9-context",
+          "duration": 1,
+          "actionsHash": "d55eec62666721767b9d45391fa036e1d269234b70ce34879ae0824c432cee52"
+        },
+        {
+          "id": "S9-introduce",
+          "duration": 0.9,
+          "actionsHash": "dba86f0a47c020e44a71359b4b11b62649a168bfff55d157b3c27828e564cb2d"
+        },
+        {
+          "id": "S9-target",
+          "duration": 0.7,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S9-seat-link",
+          "duration": 1.32,
+          "actionsHash": "01f94ba9893430aec0b0bfd4ab3cdc6170539d840b36e9e8f9ffd2c792ef0d0c"
+        },
+        {
+          "id": "S9-H21-0-install",
+          "duration": 1.36,
+          "actionsHash": "95311433d3c0ff88c1cac802295418964d5b8159c9a5c4048af14a92879ab9c1"
+        },
+        {
+          "id": "S9-H21-1-install",
+          "duration": 0.71,
+          "actionsHash": "769f686bba39c055e3e0698f7ec00920b2286744f806fa2fa918fe38739bd56c"
+        },
+        {
+          "id": "S9-H21-2-install",
+          "duration": 0.71,
+          "actionsHash": "360a57cf47bbf9b0bf3a80edaaaf8e3aff26fcf005f314ce39cade6ae820eb3e"
+        },
+        {
+          "id": "S9-H21-3-install",
+          "duration": 0.71,
+          "actionsHash": "b0897601cc12dba2c82b326042a4435af37bf8ad9eb05c07841355aca3fd3391"
+        },
+        {
+          "id": "S9-H21-4-install",
+          "duration": 0.71,
+          "actionsHash": "0f61f114fb4bd5d48407f54db5339979f463a1cee7c5341d988cc3fa25f5628c"
+        },
+        {
+          "id": "S9-H21-5-install",
+          "duration": 0.71,
+          "actionsHash": "781c3dcb51b6829530e59a581914c289fca6a09644ed0a69c7c8b0c31252587f"
+        },
+        {
+          "id": "S9-H21-6-install",
+          "duration": 0.71,
+          "actionsHash": "99e14c36b0b5a6cb42c5d19a1101e319fbedfa615138aabcc429965691dc2adf"
+        },
+        {
+          "id": "S9-H21-7-install",
+          "duration": 0.71,
+          "actionsHash": "1cfe82f0970f201bc52d5eb985512510540cba99c8b8f7bcfcc50b0303b2a796"
+        },
+        {
+          "id": "S9-H21-8-install",
+          "duration": 0.71,
+          "actionsHash": "a9c07ee3e82bde23599d20295c027ce75fa1b871334758a2aaaa3f468a233dbb"
+        },
+        {
+          "id": "S9-H21-9-install",
+          "duration": 0.71,
+          "actionsHash": "a25e6fc019ac5dea29e06176567233c2af8eb6ed3bda7e3305052d67defd0383"
+        },
+        {
+          "id": "S9-bracket-target",
+          "duration": 0.65,
+          "actionsHash": "770c2472562b2ea4b939ee57ee5e11d42543dc73f749fc5cfb90501db4e169bf"
+        },
+        {
+          "id": "S9-bracket-seat",
+          "duration": 1.22,
+          "actionsHash": "c75178995649ec5fbf67e58e035959dfe6c1050e96736be04074a161908cbf06"
+        },
+        {
+          "id": "S9-H14-0-install",
+          "duration": 0.82,
+          "actionsHash": "501b27fb361e11a549e250615f16eaf80927f85b2b04eda89eddd698a8e669bd"
+        },
+        {
+          "id": "S9-H14-1-install",
+          "duration": 0.82,
+          "actionsHash": "adb2a50bca7fafe1d2a9734d2e02aeca97fd2993a0e78fb2e0b16321f99424ef"
+        },
+        {
+          "id": "S9-complete",
+          "duration": 0.95,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "shots": [
+        {
+          "id": "S10-context",
+          "duration": 1,
+          "actionsHash": "4adb8f6b65ed02f283fca856cb6d646307e73f88f3d089e6ceaedbc5d9eb3ab7"
+        },
+        {
+          "id": "S10-introduce",
+          "duration": 0.9,
+          "actionsHash": "f159c4c9e5d9cc39c5e99b82b4e74afffa6780142670c6319e1646309115a25d"
+        },
+        {
+          "id": "S10-target",
+          "duration": 0.7,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S10-seat-link",
+          "duration": 1.32,
+          "actionsHash": "e26388c25354d757049fbcee89a761f1f95a78af2a7e517edadaf0270679567b"
+        },
+        {
+          "id": "S10-H21-0-install",
+          "duration": 1.01,
+          "actionsHash": "775efcbf0bc01a24a3441c2b7d89da3b736b7d6127a37c820f8974b303529671"
+        },
+        {
+          "id": "S10-H21-1-install",
+          "duration": 0.71,
+          "actionsHash": "edea5f5d96a1ac4133f79b204b244457c60b8d63d0a49e98c7a71839920fc1ab"
+        },
+        {
+          "id": "S10-H21-2-install",
+          "duration": 0.71,
+          "actionsHash": "7cb105ec5aa928f9a5e093c3122cbef304d2b3edc9e674ac32d1168f0e157818"
+        },
+        {
+          "id": "S10-H21-3-install",
+          "duration": 0.71,
+          "actionsHash": "6d5b4005568ddd1b5f820ee93b8579773b1e5a7cdcd8a586a03b5f0fe00dd84b"
+        },
+        {
+          "id": "S10-H21-4-install",
+          "duration": 0.71,
+          "actionsHash": "046a9a75378a12b815e0e05021194aec067dab5619ee1a02dd5ae9c95b3823ac"
+        },
+        {
+          "id": "S10-H21-5-install",
+          "duration": 0.71,
+          "actionsHash": "6fbf0d651d8e65d69fb9c0eeb02b8bc3457007e5cfbde59a5a0b7535ba40b96b"
+        },
+        {
+          "id": "S10-H21-6-install",
+          "duration": 0.71,
+          "actionsHash": "73325ee8a27805ed248aa0b86275ea383527d9ff68a5224e831beef941d46f41"
+        },
+        {
+          "id": "S10-H21-7-install",
+          "duration": 0.71,
+          "actionsHash": "6db8c38b990385939a4b9612bf13ec6bc0515f456770a726f0b96c4007adc221"
+        },
+        {
+          "id": "S10-H21-8-install",
+          "duration": 0.71,
+          "actionsHash": "87107b4a87361a72359fca6841998432598679cd47e3b22114f17acc30b3ca52"
+        },
+        {
+          "id": "S10-H21-9-install",
+          "duration": 0.71,
+          "actionsHash": "794803df2d90b60a01bd078c989d12fe6a9f817011d1d077bbd06039d62edc01"
+        },
+        {
+          "id": "S10-E5-introduce",
+          "duration": 1,
+          "actionsHash": "7140296999935e6da362ea367a30879413ea5e4c7227edd55d366e39a11ec4ca"
+        },
+        {
+          "id": "S10-E5-seat",
+          "duration": 1.35,
+          "actionsHash": "bf077b6b46231f1f75564e2ac786a815cab7956c8fad819e074e897e20f3b423"
+        },
+        {
+          "id": "S10-E5-dimension",
+          "duration": 0.85,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S10-H24-8-install",
+          "duration": 1.36,
+          "actionsHash": "f48c518ad49b2b219844085b8f4fae0888f3bfadc66203c6ab507dd652f1d032"
+        },
+        {
+          "id": "S10-H24-7-install",
+          "duration": 0.71,
+          "actionsHash": "77a4bc0e14191434007564dbb934917d7cfa041c6044bfa3a4e2da77d7d47100"
+        },
+        {
+          "id": "S10-H24-6-install",
+          "duration": 0.71,
+          "actionsHash": "8ac4c22801cc9b11211b43ab268646d107b73e746f30d715dbda78677ffb3f2c"
+        },
+        {
+          "id": "S10-H24-5-install",
+          "duration": 0.71,
+          "actionsHash": "15c8ca3fe23cc221a8bffd1533b163b575ee6bd7d605f97de0fc91b205f15e3e"
+        },
+        {
+          "id": "S10-H24-4-install",
+          "duration": 0.71,
+          "actionsHash": "372787927efdce1fb268016c94b66aac7115212b43a4ff763e7c0076d27d3e47"
+        },
+        {
+          "id": "S10-H24-3-install",
+          "duration": 0.71,
+          "actionsHash": "fbd79a2413c54fa2299b1b927da554032689082ed85974f9788d5bea50ea7209"
+        },
+        {
+          "id": "S10-H24-2-install",
+          "duration": 0.71,
+          "actionsHash": "b9fec5086db1d5560b67b9b8929cd62f1e0a4d654b25b25b1ba4d7601400df95"
+        },
+        {
+          "id": "S10-H24-1-install",
+          "duration": 0.71,
+          "actionsHash": "a6d338672d758e4f3c3accd68a89eb299374f1e9d61078dd0a2c4e2dedce9ff2"
+        },
+        {
+          "id": "S10-H24-0-install",
+          "duration": 0.71,
+          "actionsHash": "8e6bc5a895e9154e1acfd620bfb6af4455ac305c5f615b9c7c2559d79175898b"
+        },
+        {
+          "id": "S10-bracket-target",
+          "duration": 0.65,
+          "actionsHash": "4da397ed2d8c0da88cf4a025dbc8dba9162f9d48a62336df3fb2d0e16fb94bcc"
+        },
+        {
+          "id": "S10-bracket-seat",
+          "duration": 1.22,
+          "actionsHash": "68c2429529609850e8845bd8a2c683569a327b20bd1061bab8af977d6cb74ac9"
+        },
+        {
+          "id": "S10-H14-0-install",
+          "duration": 0.82,
+          "actionsHash": "5bed2ad8f250072a44305e0dab9e9209c91393adc937d15efe1abb1e73569cd9"
+        },
+        {
+          "id": "S10-H14-1-install",
+          "duration": 0.82,
+          "actionsHash": "0e385f5a929c3d4d768f8b1ae9083365e10020632cc6ed416ce61dca43a8477e"
+        },
+        {
+          "id": "S10-verify-left",
+          "duration": 0.7,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S10-verify-right",
+          "duration": 0.7,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S10-complete",
+          "duration": 1.5,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "shots": [
+        {
+          "id": "S11-context",
+          "duration": 1.5,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S11-introduce",
+          "duration": 0.9,
+          "actionsHash": "e8df564fbc8001ae152cfc3f6fcc6a94b491ab5826a95c15e0395587bfa3060b"
+        },
+        {
+          "id": "S11-target",
+          "duration": 0.8,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S11-C4-seat",
+          "duration": 1.3,
+          "actionsHash": "86dcdadd04dc234ffd7c8e3c521913ca537587ca19d161f8458b33006c60d55f"
+        },
+        {
+          "id": "S11-C4-left-connect",
+          "duration": 2.4000000000000004,
+          "actionsHash": "9fa0c35a348e70b8b6b24e924dabe9cbca31a54cae8e8c9e1869c349997cb9be"
+        },
+        {
+          "id": "S11-complete",
+          "duration": 0.7,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "shots": [
+        {
+          "id": "S12-context",
+          "duration": 0.65,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S12-C4-right-introduce",
+          "duration": 0.3,
+          "actionsHash": "6098c8e325f67f91abaf104e5b714e608ca296e1ba20019dab3a372e6c7ffd40"
+        },
+        {
+          "id": "S12-C4-right-seat",
+          "duration": 0.88,
+          "actionsHash": "4433d380d450b32fed0ffecd14b0a35671ac7a346725cdafc90bff94fefee81d"
+        },
+        {
+          "id": "S12-C5-introduce",
+          "duration": 0.3,
+          "actionsHash": "b26583180844f14edb94161c0fb47e60be7b719365189be9b644e235a854b581"
+        },
+        {
+          "id": "S12-C5-seat",
+          "duration": 0.88,
+          "actionsHash": "1c9b93d5be51d305657a147522b938151febe91dd2208061a0261b3beb62cc59"
+        },
+        {
+          "id": "S12-layer-target",
+          "duration": 0.65,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S12-C6-1-first-introduce",
+          "duration": 0.3,
+          "actionsHash": "52f3848482ef39d49d9117b786d7dd16d13c7db403065505270b38615e9c2e4f"
+        },
+        {
+          "id": "S12-C6-1-first-seat",
+          "duration": 1.37,
+          "actionsHash": "18af1a7170c9c49ca62908995640b86023d86627db86c87b57355c297885fa57"
+        },
+        {
+          "id": "S12-C3-1-seat",
+          "duration": 0.91,
+          "actionsHash": "183e1f226a9d7e71321cc0ada172d148662a9a13e4eaacff9e7f658362439c19"
+        },
+        {
+          "id": "S12-C6-2-first-introduce",
+          "duration": 0.3,
+          "actionsHash": "c88d61095c54000e4eae964c98f892083e895571649a63758dc90d5c8c99180f"
+        },
+        {
+          "id": "S12-C6-2-first-seat",
+          "duration": 1.37,
+          "actionsHash": "9c2bc8a8a11070a8515e04845de07234406871a6f0b20c8ffde81fb3d8a81738"
+        },
+        {
+          "id": "S12-C3-2-seat",
+          "duration": 0.91,
+          "actionsHash": "0b358da5dad0e187eef6f2bd4f7b199a2d6f01e7a75fcff3a75ae9280bd547a5"
+        },
+        {
+          "id": "S12-C5-connect",
+          "duration": 1.25,
+          "actionsHash": "41d95d4d9fd983ff2d7a8e91fa840555fa3c5bcd63a5f40e1d04777561d549a1"
+        },
+        {
+          "id": "S12-C4-right-connect",
+          "duration": 1.25,
+          "actionsHash": "4a8310eea581c2fe5320592a22e7f5c80392fa840a4e30a3728105113223e81e"
+        },
+        {
+          "id": "S12-complete",
+          "duration": 0.7,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 13,
+      "shots": [
+        {
+          "id": "S13-context",
+          "duration": 0.7,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S13-C7-0-seat",
+          "duration": 1.1,
+          "actionsHash": "f7c037a8f8b385a29f8ae6671f8e0874af00c3eccdcf3bae2809cac511cf841f"
+        },
+        {
+          "id": "S13-C7-0-screws",
+          "duration": 2.12,
+          "actionsHash": "c76ed347ca2cceaf089f7fbf65a31b39fef45211db1d86886c732da839a7f257"
+        },
+        {
+          "id": "S13-C7-1-seat",
+          "duration": 0.8,
+          "actionsHash": "bc60dc1a054ffb630fe917fe531c4fd31e40c99f17f6069970fbf7f441239104"
+        },
+        {
+          "id": "S13-C7-1-screws",
+          "duration": 0.92,
+          "actionsHash": "c78e1b6af3d701b931ce766dd28c99a1cf4327bb28c80092d604bae1b4e95fa9"
+        },
+        {
+          "id": "S13-C7-2-seat",
+          "duration": 0.8,
+          "actionsHash": "db73d1b40daf55a90e513809b1f9423f900062961def9f8afb1c55a31d96fb6f"
+        },
+        {
+          "id": "S13-C7-2-screws",
+          "duration": 0.92,
+          "actionsHash": "0d114610996be4c2777d8681204cd62a237e04a9628ff848b48a35dbe4cd8aa2"
+        },
+        {
+          "id": "S13-complete",
+          "duration": 0.65,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 14,
+      "shots": [
+        {
+          "id": "S14-context",
+          "duration": 0.65,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S14-C2-left-introduce",
+          "duration": 0.3,
+          "actionsHash": "99f3ec58522723f10cf952de5ada39535640191693fe475d80def9b1d681249d"
+        },
+        {
+          "id": "S14-C2-left-seat",
+          "duration": 0.88,
+          "actionsHash": "0c4c9e3da1eee7fab583365ebead734d8c51f459c28b2466dce9058d19168c0a"
+        },
+        {
+          "id": "S14-C2-right-introduce",
+          "duration": 0.3,
+          "actionsHash": "1682b2c8062ed19b22c4264e1ea6cf2b7830d92acdb6b8b149f42084f81a0a9a"
+        },
+        {
+          "id": "S14-C2-right-seat",
+          "duration": 0.88,
+          "actionsHash": "1bba3c6fa73bf985b2477e6886b14f3330712f2e7799fe13095b3c6b4eeb7b84"
+        },
+        {
+          "id": "S14-layer-target",
+          "duration": 0.65,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S14-C6-0-first-introduce",
+          "duration": 0.3,
+          "actionsHash": "4a5c27bbc93e11cc52c46acb0e723ba849ef034fe08ead6367d0d2a5756923db"
+        },
+        {
+          "id": "S14-C6-0-first-seat",
+          "duration": 1.37,
+          "actionsHash": "ff22b138ed77148379372e0b18b4cdc5304e4c6c8cda6391f79facedf23e410b"
+        },
+        {
+          "id": "S14-C3-0-seat",
+          "duration": 0.91,
+          "actionsHash": "c1c9e4004961c53a8cee410a6c0e7bbc26cda5ea02bbd3487104f10d11170a3f"
+        },
+        {
+          "id": "S14-C6-3-first-introduce",
+          "duration": 0.3,
+          "actionsHash": "0921cef6af8b94b299f3cd0659b888fb1b5dccac37918e003514d53877d291ba"
+        },
+        {
+          "id": "S14-C6-3-first-seat",
+          "duration": 1.37,
+          "actionsHash": "abae5f69a28771f11f281ce82e97b42c04cbbf8acd0b6cffad47f6e8867607fb"
+        },
+        {
+          "id": "S14-C3-3-seat",
+          "duration": 0.91,
+          "actionsHash": "a0676bdb6db3288f47b56fd2850d2df8fd45bcbaf8273e520e15cd2e096ab85c"
+        },
+        {
+          "id": "S14-C2-left-connect",
+          "duration": 1.25,
+          "actionsHash": "1b32f7361b47ab9130bdd2ef47dc518685526da9d2c310ffdb9caccfb507310d"
+        },
+        {
+          "id": "S14-C2-right-connect",
+          "duration": 1.25,
+          "actionsHash": "c5d20bac8d101c6faf672710bdca26c40aaede2dc2f7131d57976f89c37e62de"
+        },
+        {
+          "id": "S14-complete",
+          "duration": 0.7,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 15,
+      "shots": [
+        {
+          "id": "S15-context",
+          "duration": 0.7,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S15-C6-0-second-seat",
+          "duration": 1,
+          "actionsHash": "47646a39e2f023411f79b24e743527b5f06e29193804880c7e5d106adeaf0687"
+        },
+        {
+          "id": "S15-C6-1-second-seat",
+          "duration": 1,
+          "actionsHash": "675cb57e8353a70975fb0f62042ef489401c7d119b9f0dc2a4558d6e7b57bf8b"
+        },
+        {
+          "id": "S15-C6-2-second-seat",
+          "duration": 1,
+          "actionsHash": "59722454b45f77471ada0d0613ffafc8290c0d64e1d915f13bd85155cb0e42a8"
+        },
+        {
+          "id": "S15-C6-3-second-seat",
+          "duration": 1,
+          "actionsHash": "f928b336825c767e4270c9c1b5f204e6979c22f2bd234c93824adc65890c8358"
+        },
+        {
+          "id": "S15-C1-introduce",
+          "duration": 0.6,
+          "actionsHash": "36f1329f5058c5f9307e932fcb0652a7fa9de883aa9c2443b83c4ef8d285a844"
+        },
+        {
+          "id": "S15-C1-seat",
+          "duration": 1.35,
+          "actionsHash": "696e0d249129f86a6581392be99854c6fb214b6dad935241f0bb674c1867ecd7"
+        },
+        {
+          "id": "S15-C2-left-connect",
+          "duration": 1.25,
+          "actionsHash": "583d932ea54aba6988765c6b8397b882c669120ee41db7faad04a0dcbb539a24"
+        },
+        {
+          "id": "S15-C4-left-connect",
+          "duration": 1.25,
+          "actionsHash": "7d1707aad530da07d881eb9ac5c49273a654681ade42576c1c1df471a65d5a6c"
+        },
+        {
+          "id": "S15-C5-connect",
+          "duration": 1.25,
+          "actionsHash": "26312e254407040d88d76541549913d6c701a62f8822bb625d81c76efbd435cf"
+        },
+        {
+          "id": "S15-C4-right-connect",
+          "duration": 1.25,
+          "actionsHash": "2cce87b4876a7967b9e580281c54dafcfc606bfa928773f674840f872be040ae"
+        },
+        {
+          "id": "S15-C2-right-connect",
+          "duration": 1.25,
+          "actionsHash": "feabc4d13f98821be4c696ba2df80eb3e549c67490e406c457224e1d0fc95485"
+        },
+        {
+          "id": "S15-complete",
+          "duration": 0.85,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 16,
+      "shots": [
+        {
+          "id": "S16-context",
+          "duration": 1.2,
+          "actionsHash": "fff73eeaea3f1b095d2854def56199082d199469fb71ef4bd08edd50b8763df0"
+        },
+        {
+          "id": "S16--1--1-dowels",
+          "duration": 1.4000000000000001,
+          "actionsHash": "9e89a8b7633ef262e944f821f9faed1a124ad83f387c1106c50f85ed02d6b351"
+        },
+        {
+          "id": "S16--1-1-dowels",
+          "duration": 0.7,
+          "actionsHash": "161a56063c532de812589995622ef7d05397e6cb48324f4bf35790d2ea554b19"
+        },
+        {
+          "id": "S16-1--1-dowels",
+          "duration": 0.7,
+          "actionsHash": "035fa1e03200ed6a803ba831792d8d8097821d9cf7d002d2cb80a7516e844eaf"
+        },
+        {
+          "id": "S16-1-1-dowels",
+          "duration": 0.7,
+          "actionsHash": "d23aaf4c38bd7812f064d6a58c6db228ac1b55c72cdef66e6f1b34bfc7b52930"
+        },
+        {
+          "id": "S16--1-end-seat",
+          "duration": 1.2,
+          "actionsHash": "ad5096aa77cac91360a4ff51a449b8df7cc2a13253adc26efaf131606ea248fc"
+        },
+        {
+          "id": "S16-1-end-seat",
+          "duration": 1.2,
+          "actionsHash": "ecef0334f98494ec014fa696c3db2dc6f39df3097ac4205cdbbb99efb6a8a375"
+        },
+        {
+          "id": "S16--1--1-connect",
+          "duration": 2.4000000000000004,
+          "actionsHash": "4cf7051fd63af82cf490e780274dbf2e38370eb6915934207096c9090eb6bfd9"
+        },
+        {
+          "id": "S16--1-1-connect",
+          "duration": 1.25,
+          "actionsHash": "7afd7a7da18b405f084657cb2fbdab3a90287decdeba6139830b4167580bf624"
+        },
+        {
+          "id": "S16-1--1-connect",
+          "duration": 1.25,
+          "actionsHash": "f5ee3cfbe7a50d623b3100f8096bd4b82cc7c3fff345e458f6a897ffd062e192"
+        },
+        {
+          "id": "S16-1-1-connect",
+          "duration": 1.25,
+          "actionsHash": "78d3d5046ab0642d0c903a442aa30154f2d09389b3d9547f7ae378ac57e86905"
+        },
+        {
+          "id": "S16-square",
+          "duration": 0.75,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S16-complete",
+          "duration": 0.65,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 17,
+      "shots": [
+        {
+          "id": "S17-context",
+          "duration": 1.25,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S17-lift",
+          "duration": 1.65,
+          "actionsHash": "92b54d91648ce1f57db4aad9a37eee56d4455fb4d15a0b936803a935fd5c3ebf"
+        },
+        {
+          "id": "S17-above",
+          "duration": 1.65,
+          "actionsHash": "fac4c35dac51726b750564e07cedbd99235065fae755906a53bed47a4dde17b3"
+        },
+        {
+          "id": "S17-target",
+          "duration": 0.9,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S17-side--1--55-dowel",
+          "duration": 0.75,
+          "actionsHash": "4e32bd7382b869029e2092dc6029b3fec84ed56f12863448ecdb5043e7bba557"
+        },
+        {
+          "id": "S17-side--1-55-dowel",
+          "duration": 0.46,
+          "actionsHash": "911edc30f9700ea7f549aa3b268c5f648198c0100244da1faf1557e2510c2f78"
+        },
+        {
+          "id": "S17-side-1--55-dowel",
+          "duration": 0.46,
+          "actionsHash": "0a2bd64a4e6f49c8bc27fc9d33410da5d7552d9bf799c4059e6a26dd8539cfc1"
+        },
+        {
+          "id": "S17-side-1-55-dowel",
+          "duration": 0.46,
+          "actionsHash": "c175d7d569aebe9e8b32cd3d33c60c0a526c4a9db9c69bdc201b2b9da2cd59bc"
+        },
+        {
+          "id": "S17-end--1--80-dowel",
+          "duration": 0.46,
+          "actionsHash": "9ff874b1657c9f27dfc25f2df55e76dacf9b6abda80a376778d370b6dbc11d51"
+        },
+        {
+          "id": "S17-end--1-80-dowel",
+          "duration": 0.46,
+          "actionsHash": "2be64aed4b3997c83e1521f779e546c0772e65d6612f57045dcd89239f93e8bf"
+        },
+        {
+          "id": "S17-end-1--80-dowel",
+          "duration": 0.46,
+          "actionsHash": "2ad153a1f38f847b0c64570de15a383b1396bd75ebe21b62a8a673a0f24c7995"
+        },
+        {
+          "id": "S17-end-1-80-dowel",
+          "duration": 0.46,
+          "actionsHash": "747d5bc72c7a2ba728f6f8ed98219c089b1233f29659fa9c99d0038f2636f09e"
+        },
+        {
+          "id": "S17-lower",
+          "duration": 2,
+          "actionsHash": "e59bf5a338c86cfa82321e9ac6e8419439e1c3e84fc9b63c8afbf552b8506ead"
+        },
+        {
+          "id": "S17-seat",
+          "duration": 1.15,
+          "actionsHash": "d524007fa559d609d47f3d6da62d3a046a23265e72f1427d5c794460bd7e94ac"
+        },
+        {
+          "id": "S17-side--1--55-cam-seat",
+          "duration": 0.7000000000000001,
+          "actionsHash": "9eb319a6ae585f60c5b7ff579d74f9521911fd36557318240d898fe5814ca2bc"
+        },
+        {
+          "id": "S17-side--1--55-bolt-up",
+          "duration": 1.33,
+          "actionsHash": "4402c94e7fd462cea7479851849024744fedd97ad80a35df09cd2fb0edc4b7f4"
+        },
+        {
+          "id": "S17-side--1-55-cam-seat",
+          "duration": 0.39999999999999997,
+          "actionsHash": "49173dbb0e687bf7462d74f3c1ae0cdd9d94ed7c3720f32012a3f4119ff452a0"
+        },
+        {
+          "id": "S17-side--1-55-bolt-up",
+          "duration": 0.6799999999999999,
+          "actionsHash": "43891654b3db1fafee5a40deae9fb4569831f156a726ac05fdaace034488d19e"
+        },
+        {
+          "id": "S17-side-1--55-cam-seat",
+          "duration": 0.39999999999999997,
+          "actionsHash": "a75460dedd6f7baf86b619899ed789027955231a0dcd20aac9f576fd1220817c"
+        },
+        {
+          "id": "S17-side-1--55-bolt-up",
+          "duration": 0.6799999999999999,
+          "actionsHash": "7db51e01e5dd825641a96d3fac7713bd025fa7f55a567e695ff27f95ab48583e"
+        },
+        {
+          "id": "S17-side-1-55-cam-seat",
+          "duration": 0.39999999999999997,
+          "actionsHash": "508ca8a3c73e01b050b2ec1dd39d8149725823095a3c3ffc582e2e92b9b7a75c"
+        },
+        {
+          "id": "S17-side-1-55-bolt-up",
+          "duration": 0.6799999999999999,
+          "actionsHash": "3a4686421ff77dbf7e26574afb844bc52a01db4eef3265a9f082c2a5da829c7e"
+        },
+        {
+          "id": "S17-end--1--80-cam-seat",
+          "duration": 0.39999999999999997,
+          "actionsHash": "c9bcccccab277161d87e7d3947e560ad21d1b0c26de5703f54292c6b4f46669e"
+        },
+        {
+          "id": "S17-end--1--80-bolt-up",
+          "duration": 0.6799999999999999,
+          "actionsHash": "e2a998eec5496a27581c1dea984faa12866d3fc446db9539d910dc438a2bc598"
+        },
+        {
+          "id": "S17-end--1-80-cam-seat",
+          "duration": 0.39999999999999997,
+          "actionsHash": "df74621231daaa1d8435e2ab00985b190be596445e11dc423957245d573c421b"
+        },
+        {
+          "id": "S17-end--1-80-bolt-up",
+          "duration": 0.6799999999999999,
+          "actionsHash": "a843b76eff22cb6e6af59719342561adef481f8b763c3155f6cef8b89bfb53d1"
+        },
+        {
+          "id": "S17-end-1--80-cam-seat",
+          "duration": 0.39999999999999997,
+          "actionsHash": "47076d8b52ed10c4d8d71f6b40fe145f91a617c7289cb3f00469269c4e5319e0"
+        },
+        {
+          "id": "S17-end-1--80-bolt-up",
+          "duration": 0.6799999999999999,
+          "actionsHash": "53b046a67cc68770db1323997d9d20e85c8a6bc3748b97827de8730e41fd76b4"
+        },
+        {
+          "id": "S17-end-1-80-cam-seat",
+          "duration": 0.39999999999999997,
+          "actionsHash": "182a6fba81d4e7674484ce04dee4abfc31d5eeed387fe62515679ed55604d00d"
+        },
+        {
+          "id": "S17-end-1-80-bolt-up",
+          "duration": 0.6799999999999999,
+          "actionsHash": "b523425b6472a885bbffe4183ba5a67bbaadccb9e3f6f3ced811167b20e01321"
+        },
+        {
+          "id": "S17-complete",
+          "duration": 1,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 18,
+      "shots": [
+        {
+          "id": "S18-context",
+          "duration": 0.65,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S18-H20-0-seat",
+          "duration": 1,
+          "actionsHash": "2cd124bb48cddc062d913ecdee1f6e9d4241c8c861b2868ab7eda9733488cd02"
+        },
+        {
+          "id": "S18-H20-0-screws",
+          "duration": 2.74,
+          "actionsHash": "84e283aff07873232caad5b6dd0961a4331e2733ee44ce72bcebb427cb4db202"
+        },
+        {
+          "id": "S18-H20-1-seat",
+          "duration": 0.55,
+          "actionsHash": "0eff6118060b40467966382f1abc26980c1419c6b9dd22788b093b78318902fe"
+        },
+        {
+          "id": "S18-H20-1-screws",
+          "duration": 1.2600000000000002,
+          "actionsHash": "ddcb7a9584a1755e478074244a9e0eec1b0b98a6a89d189ab0ee23898a19987c"
+        },
+        {
+          "id": "S18-H20-2-seat",
+          "duration": 0.55,
+          "actionsHash": "de1f0dcad5ace93bba9655b6d94204e359335db3a6e558ac9d7e8f148921b3cc"
+        },
+        {
+          "id": "S18-H20-2-screws",
+          "duration": 1.2600000000000002,
+          "actionsHash": "0702047e4a468d9574f0b13d27788e035511c290501e32d6ed4115fcd90274e4"
+        },
+        {
+          "id": "S18-H20-3-seat",
+          "duration": 0.55,
+          "actionsHash": "16df963f039b9ea23ea12dc0412d9b2be127d9c662dd6fd8d21c2d81de9903bd"
+        },
+        {
+          "id": "S18-H20-3-screws",
+          "duration": 1.2600000000000002,
+          "actionsHash": "2e3b834479643da29eeeb6e1c55b5d39b91f8e17e7c93129335c62a447dc1a8c"
+        },
+        {
+          "id": "S18-H20-4-seat",
+          "duration": 0.55,
+          "actionsHash": "4c122cef8c011ae7bb58d982328015d2a6a8be382d225ec7370274870609a6ec"
+        },
+        {
+          "id": "S18-H20-4-screws",
+          "duration": 1.2600000000000002,
+          "actionsHash": "30eaff60fa91364e12621aa4ea6193ece9eaf6d7582517ac306f0580fc969213"
+        },
+        {
+          "id": "S18-H20-5-seat",
+          "duration": 0.55,
+          "actionsHash": "56971b0597dd5190f580b6668731b7a6b8a2bdc75a306fba9c3d7a6e690fb238"
+        },
+        {
+          "id": "S18-H20-5-screws",
+          "duration": 1.2600000000000002,
+          "actionsHash": "0c9a6f68b0b90b70c5828afd687ba08cffba247d31e0127bcfb7fa0cb0e03347"
+        },
+        {
+          "id": "S18-complete",
+          "duration": 0.8,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 19,
+      "shots": [
+        {
+          "id": "S19-context",
+          "duration": 0.65,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S19-H20-0-seat",
+          "duration": 0.55,
+          "actionsHash": "50bc059491b547715a81220b8b8a12c7ec0347f8badca9028bbab148b7dfe396"
+        },
+        {
+          "id": "S19-H20-0-screws",
+          "duration": 1.2600000000000002,
+          "actionsHash": "90ab8c58c861cb01b2c61f3d46f5988ca5eda277fd8c5bcde8d6a6853a2b0c32"
+        },
+        {
+          "id": "S19-H20-1-seat",
+          "duration": 0.55,
+          "actionsHash": "304e9388a28e356cc78fba5d4e6ede78527e35e73822e5bb7d9892a4960ff12f"
+        },
+        {
+          "id": "S19-H20-1-screws",
+          "duration": 1.2600000000000002,
+          "actionsHash": "b0100d382a65bc45dd4d2198da83ef055649cacccb2f37a4981bf08b0c0bcf3e"
+        },
+        {
+          "id": "S19-H20-2-seat",
+          "duration": 0.55,
+          "actionsHash": "d3251ef853355156c03e9651470e1a4d706dfc453624e549c8bcfc3a46f87f85"
+        },
+        {
+          "id": "S19-H20-2-screws",
+          "duration": 1.2600000000000002,
+          "actionsHash": "f78ee0fce295a1c407d68ec6b9a1da9134cf74cd94058145191c3e63d7d26d6f"
+        },
+        {
+          "id": "S19-H20-3-seat",
+          "duration": 0.55,
+          "actionsHash": "b8c9ef27b8d15313eb263db12c6448f26898c042ab850e8ec78b0148a14ec6c0"
+        },
+        {
+          "id": "S19-H20-3-screws",
+          "duration": 1.2600000000000002,
+          "actionsHash": "11ff75127e3318d22a242bc64e5f2b66feab00f6723037962d22dff41d7ad582"
+        },
+        {
+          "id": "S19-H20-4-seat",
+          "duration": 0.55,
+          "actionsHash": "cdf83a1a1905a7be530f8f79579e87bc6768e830e2df622ab738d43d385ea941"
+        },
+        {
+          "id": "S19-H20-4-screws",
+          "duration": 1.2600000000000002,
+          "actionsHash": "b3432e85cf10716b75b0d6c5555ea3ea9244de69e83cf126ad541d079a00eb09"
+        },
+        {
+          "id": "S19-H20-5-seat",
+          "duration": 0.55,
+          "actionsHash": "5f833b96802b92bf7e8bde5b5d34bf0bd5b020dcb676dbaf3d37de2bd9186c1d"
+        },
+        {
+          "id": "S19-H20-5-screws",
+          "duration": 1.2600000000000002,
+          "actionsHash": "39db49d0df53c298909b1e9ee76121bd372a86fb2085c3d5651ce2ca14a32a2e"
+        },
+        {
+          "id": "S19-complete",
+          "duration": 0.8,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 20,
+      "shots": [
+        {
+          "id": "S20-context",
+          "duration": 0.8,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S20-D2-0-seat",
+          "duration": 1.3,
+          "actionsHash": "3606e50d12cfceebfd8ced744667f8ae0669a14c5773c1a00e9a69a286181171"
+        },
+        {
+          "id": "S20-D2-0-first-screw",
+          "duration": 1.1,
+          "actionsHash": "ab2507a322f48d8fdc1c840b16a1040b9013c1f298ec61e4576fa709fa461bcc"
+        },
+        {
+          "id": "S20-D2-0-remaining-screws",
+          "duration": 1.42,
+          "actionsHash": "69482404068f783387279c34822b5f67b205762e9f84821ca95528fa5a7561e3"
+        },
+        {
+          "id": "S20-D2-1-seat",
+          "duration": 0.8,
+          "actionsHash": "a9925f269d07e0fbb2877d260cb49684e44557f332d3e2998365664b6d335982"
+        },
+        {
+          "id": "S20-D2-1-first-screw",
+          "duration": 0.39,
+          "actionsHash": "86d402bd732823b3b97ff2b51f8503dc6e5ebbdf97843fa8590dac86d50179f2"
+        },
+        {
+          "id": "S20-D2-1-remaining-screws",
+          "duration": 1.42,
+          "actionsHash": "36dd7477e551c18e6d3087c689243d8f1c6fcbfe60c4e7c2c0557c28dec76e25"
+        },
+        {
+          "id": "S20-D2-2-seat",
+          "duration": 0.8,
+          "actionsHash": "dd65f8abd4e25962ea41b7a63f433b7e5b9de2a4dfe5adb3c05cd3dc16ea95f9"
+        },
+        {
+          "id": "S20-D2-2-first-screw",
+          "duration": 0.39,
+          "actionsHash": "39aff18c607f6e78511917d454ab88a3295632507127df56476d603736d75eb6"
+        },
+        {
+          "id": "S20-D2-2-remaining-screws",
+          "duration": 1.42,
+          "actionsHash": "cde3d7a76170828fe5294e1e2f23a58c8028824ad953925b2f54e8226b68ac56"
+        },
+        {
+          "id": "S20-D2-3-seat",
+          "duration": 0.8,
+          "actionsHash": "1fc1e15f439463b9d8df95a260e1c52ada492f7db7f459af10ee200a772425fa"
+        },
+        {
+          "id": "S20-D2-3-first-screw",
+          "duration": 0.39,
+          "actionsHash": "17560c3b61f01e599e6b9c7a88ef0190a9bdbf1d52bab8811186aba6d214b205"
+        },
+        {
+          "id": "S20-D2-3-remaining-screws",
+          "duration": 1.42,
+          "actionsHash": "882c4f6118f26ebc6e22c9810ab61ee0718f7741f8d2316afff00b1fa5d04622"
+        },
+        {
+          "id": "S20-D2-4-seat",
+          "duration": 0.8,
+          "actionsHash": "c08784d39cdc73e6885299ad650ef1b3d1b18aa1a57ad542162a5e24f7916535"
+        },
+        {
+          "id": "S20-D2-4-first-screw",
+          "duration": 0.39,
+          "actionsHash": "cb23656e74fd51591274d6ebcca87fc96b9a831011bcc256ae3160579589faa3"
+        },
+        {
+          "id": "S20-D2-4-remaining-screws",
+          "duration": 1.42,
+          "actionsHash": "ee44db64d203afc360893e848363301d86f4e97ecd3bf9131f53a834ea3faf78"
+        },
+        {
+          "id": "S20-complete",
+          "duration": 1.2,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 21,
+      "shots": [
+        {
+          "id": "S21-context",
+          "duration": 1.8,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S21-introduce",
+          "duration": 1.5,
+          "actionsHash": "62dfc998068836ab39b0e069f036af68481625115669adf8f303da3c5f269848"
+        },
+        {
+          "id": "S21-target",
+          "duration": 1.3,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S21-seat",
+          "duration": 1.6,
+          "actionsHash": "2b6824210345db140b76e262039d39c1981be6dd3dbcb270e043cb2a3d255b21"
+        },
+        {
+          "id": "S21-first-screw",
+          "duration": 1.4,
+          "actionsHash": "4bed29441d58979a3ed2a3d2cea1ca5489ef9ecf4b15556c2b2a1450b8a2dfc4"
+        },
+        {
+          "id": "S21-remaining-screws",
+          "duration": 3.5,
+          "actionsHash": "d3c96fe95e8cfa346cebb69485863477c647a770805015fd3cb00343f77f1af0"
+        },
+        {
+          "id": "S21-complete",
+          "duration": 1,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 22,
+      "shots": [
+        {
+          "id": "S22-context",
+          "duration": 0.9,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S22-introduce",
+          "duration": 0.8,
+          "actionsHash": "ec6251210de565ec239743b938295b865d2098b2fe46da3fae4bc3b3740cd644"
+        },
+        {
+          "id": "S22-target",
+          "duration": 0.65,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S22-seat",
+          "duration": 1.1,
+          "actionsHash": "2e1ed8727ad0dbd26dda594c45b8ab2cb2408a4d93fce205853ad040a4a8ad57"
+        },
+        {
+          "id": "S22-first-screw",
+          "duration": 0.65,
+          "actionsHash": "8b97bca949af7b7356c9bcd038e34440ca70cb21a20aa652f2abd1ed431b3a63"
+        },
+        {
+          "id": "S22-remaining-screws",
+          "duration": 3.5,
+          "actionsHash": "137659d2247d25fd1d54436a3aaaff49774834c9c87e83d660832efdc342e834"
+        },
+        {
+          "id": "S22-complete",
+          "duration": 1,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 23,
+      "shots": [
+        {
+          "id": "S23-target",
+          "duration": 1.8,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S23-bearing-intro",
+          "duration": 1.25,
+          "actionsHash": "82d5328e28c001c4b4089ef8ff974e874a46adc89c1da491b16800adcf905743"
+        },
+        {
+          "id": "S23-bearing-seat",
+          "duration": 1.6,
+          "actionsHash": "7851334c59e3f2bbec8b58d1cd1cc16647b9b58484d28df5c6d1ae954c51da94"
+        },
+        {
+          "id": "S23-piston-intro",
+          "duration": 1.8,
+          "actionsHash": "27e81c885d969f18c641c4b70faa653d77692e07296e5ba3a0eda1dc03155ec6"
+        },
+        {
+          "id": "S23-eye-seat",
+          "duration": 1.7,
+          "actionsHash": "5ed1152b480f2043969b4d507854ee6e11f5869dbd1af99ff40c9acd60572dd9"
+        },
+        {
+          "id": "S23-retain",
+          "duration": 1.8,
+          "actionsHash": "e569e079769549dbaf78335dfd63fae0199a6e91d6b5c1c9a9cef0141f97c3d0"
+        },
+        {
+          "id": "S23-complete",
+          "duration": 1.7,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 24,
+      "shots": [
+        {
+          "id": "S24-target",
+          "duration": 1,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S24-bearing-intro",
+          "duration": 0.75,
+          "actionsHash": "6a995bf79ad219412f08ffb81a67ce8259eb05ca4ed2fb6e27d4e241906c95f0"
+        },
+        {
+          "id": "S24-bearing-seat",
+          "duration": 1.05,
+          "actionsHash": "632dcea47fb2bc7c8b92397a248cc5939092dadbd722a56a1c99dbffd3aa9b3a"
+        },
+        {
+          "id": "S24-piston-intro",
+          "duration": 1,
+          "actionsHash": "8348e01020263993f70621231a942da51d2ed4cd40c959d1c8980fb5454c5f4f"
+        },
+        {
+          "id": "S24-eye-seat",
+          "duration": 1.1,
+          "actionsHash": "4dac408064a2ad1ffa82856dd538365976476898ff1e9ef92502d326943f9109"
+        },
+        {
+          "id": "S24-retain",
+          "duration": 1.1,
+          "actionsHash": "2b0c8729fdea51e58e050b5e7772363c9af29bbb7bf1d9c482c51b839b57a720"
+        },
+        {
+          "id": "S24-complete",
+          "duration": 1.1,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 25,
+      "shots": [
+        {
+          "id": "S25-context",
+          "duration": 2.2,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S25-receivers",
+          "duration": 1.5,
+          "actionsHash": "8e586a8f4ad2a12d89bceb3a22724c6a6be8b8483c6c96897fd53081abcb2271"
+        },
+        {
+          "id": "S25-route-0",
+          "duration": 2,
+          "actionsHash": "bf7e8363e41e222ba1a8569c6719b7103dd1056e8c07f64010fdf386c5767223"
+        },
+        {
+          "id": "S25-route-1",
+          "duration": 2.4,
+          "actionsHash": "110585ebb37feb0191a2ae339d5220d17da1b08443b6c4511dc2c227d28ea923"
+        },
+        {
+          "id": "S25-route-2",
+          "duration": 2.9,
+          "actionsHash": "d59fac6111f2d89e545ccb8fa40863730907f7a6505e1e2ee598d6a8ea72e2ef"
+        },
+        {
+          "id": "S25-route-3",
+          "duration": 2.3000000000000003,
+          "actionsHash": "516d5391d84f20ab1b2964e6c628125393122939da56684d01ef23093d71d2d1"
+        },
+        {
+          "id": "S25-route-4",
+          "duration": 2.4,
+          "actionsHash": "9a6a146cd4f7023de143a7ecb2cdf311296e4de0fd623f953d20f9633dd58c9b"
+        },
+        {
+          "id": "S25-route-5",
+          "duration": 1.9000000000000001,
+          "actionsHash": "80152a6cc69f6fb82fc6226b636c241246e9ca8e49f47d53b00127eeaddbaac9"
+        },
+        {
+          "id": "S25-route-6",
+          "duration": 1.75,
+          "actionsHash": "219203a50392e97ce785ec670a070510430f653e87775ff59d1fbee0e8f7afa2"
+        },
+        {
+          "id": "S25--1-connection",
+          "duration": 1.7,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S25--1-retainer",
+          "duration": 1.8,
+          "actionsHash": "f3914656247fee64bbcce0a0390f49fa7c62110e1a173462bd5f552be86e3954"
+        },
+        {
+          "id": "S25-1-connection",
+          "duration": 1,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S25-1-retainer",
+          "duration": 1.15,
+          "actionsHash": "3a36e046287247ed7e389aee23da494f763ff4a5ca63de1aa5a69c9dff1b11fd"
+        },
+        {
+          "id": "S25-complete",
+          "duration": 1.5,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 26,
+      "shots": [
+        {
+          "id": "S26-supported-raise",
+          "duration": 2.3,
+          "actionsHash": "4f711e5bf9cba10cae748f7006b4ac8d870cc5d5b7d5ea0d3e5317dc758d0e5d"
+        },
+        {
+          "id": "S26-target",
+          "duration": 1.7,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S26-eye-align",
+          "duration": 2.2,
+          "actionsHash": "27c45f0b14a0f2b94b4c6ad7e5f3d2b00cd0578219eaa6a0d46a757cc38d3b76"
+        },
+        {
+          "id": "S26-retain",
+          "duration": 1.9,
+          "actionsHash": "47f78ddfe43596ad02847e5a1aadca6daf5f127045dceb6f8ab7b329ff71e3ee"
+        },
+        {
+          "id": "S26-verify",
+          "duration": 1.2,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 27,
+      "shots": [
+        {
+          "id": "S27-target",
+          "duration": 1,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S27-eye-align",
+          "duration": 1.5,
+          "actionsHash": "8de257beae4dbf2447fc691270d2c3f64286f9c970ca939c6db30794287ada76"
+        },
+        {
+          "id": "S27-retain",
+          "duration": 1.3,
+          "actionsHash": "f9802b13fb2ec3d61b5708faf26de5f309b35327da2ecd8f4d8a0b847ca193f2"
+        },
+        {
+          "id": "S27-verify",
+          "duration": 1.2,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S27-small-test-out",
+          "duration": 2,
+          "actionsHash": "d09d27bae1d90443ae9662638e5cdf674a68467e30ba78fa81c53c35bd7a3ec3"
+        },
+        {
+          "id": "S27-small-test-return",
+          "duration": 1.9,
+          "actionsHash": "dd98dd997b0129113b67666cf05d60ba5abb3cc488b9831d4d45fb5e55506cd8"
+        },
+        {
+          "id": "S27-complete",
+          "duration": 1.4,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 28,
+      "shots": [
+        {
+          "id": "S28-supported-work-pose",
+          "duration": 2.8,
+          "actionsHash": "82e5494d9eef2805b20db3ebe5177eee817903e0778d95413f9426a2f33f5225"
+        },
+        {
+          "id": "S28--1-intro",
+          "duration": 1.6,
+          "actionsHash": "da739b7239825d39f0ae5d217b6740516e4e8315adf17a911f4c6e30b19b9e0d"
+        },
+        {
+          "id": "S28--1-D7-inserts",
+          "duration": 1.6,
+          "actionsHash": "409c2d5b83e11723a9b4a4d791213978b592a5e870c4ce6ea82dc393fbff4981"
+        },
+        {
+          "id": "S28--1-D7-dowels",
+          "duration": 1.4,
+          "actionsHash": "d2df27fd65e68bb15c3ef101554a931b8949472c9afd2b118100a60b08654579"
+        },
+        {
+          "id": "S28--1-D7-join",
+          "duration": 1.2,
+          "actionsHash": "16ac6ebea428c1a358c6333d16efda27a147a734457d4f0075d53e2d89d640d3"
+        },
+        {
+          "id": "S28--1-D7-bolts",
+          "duration": 1.4,
+          "actionsHash": "4a77d1eab75b2843756ad2a34168882ae98dfa73a65c32f47dcfc6259b686c8e"
+        },
+        {
+          "id": "S28--1-D6-inserts",
+          "duration": 1.6,
+          "actionsHash": "8891468b73ff5a3cac295bdab8ea064b38b45fc70df8f0c4b921e06e716f1399"
+        },
+        {
+          "id": "S28--1-D6-dowels",
+          "duration": 1.4,
+          "actionsHash": "299b24013d39f33856151ceb7671f47f8a55a8dda44bcae981429328e96b86da"
+        },
+        {
+          "id": "S28--1-D6-join",
+          "duration": 1.2,
+          "actionsHash": "ad832354247e0b6f6f1bc827b941b294e229230af5ffccaf936da945d08df3b0"
+        },
+        {
+          "id": "S28--1-D6-bolts",
+          "duration": 1.4,
+          "actionsHash": "d6ba8c713f11feba64e047cd52ef0df2ca55ed88dd391a82dea74cb4fdfa5d60"
+        },
+        {
+          "id": "S28--1-complete",
+          "duration": 0.9,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S28-1-intro",
+          "duration": 0.9,
+          "actionsHash": "26b59b7467cea34f601de2be3f555975ee363c2700b061788a5c7e4eb341f1c0"
+        },
+        {
+          "id": "S28-1-D7-inserts",
+          "duration": 1.6,
+          "actionsHash": "867c1711c09639454a44e0f2363e463ef438f826aa7abea06cc3346b2bbc82d1"
+        },
+        {
+          "id": "S28-1-D7-dowels",
+          "duration": 1.4,
+          "actionsHash": "df31543093241f782d1ee39caad674abfaed8152379f0452eee8aa88a3da828a"
+        },
+        {
+          "id": "S28-1-D7-join",
+          "duration": 0.85,
+          "actionsHash": "ad109c80f916c6fb58f8bff2bf7dad90bf92d3db945e29f301683425a14a8297"
+        },
+        {
+          "id": "S28-1-D7-bolts",
+          "duration": 1.4,
+          "actionsHash": "40110973a1ce8a76f053e21530d011b0057e6c2fd562e6f8f6aa2874358f1fa4"
+        },
+        {
+          "id": "S28-1-D6-inserts",
+          "duration": 1.6,
+          "actionsHash": "568304af8cbeebedc7bfbe94192fbad5b9120c28dc57b4ac050fbcfb69a8baf8"
+        },
+        {
+          "id": "S28-1-D6-dowels",
+          "duration": 1.4,
+          "actionsHash": "310d6daf39fc1b04befff569f123c8e11508c357536f79dcca322e4c79433403"
+        },
+        {
+          "id": "S28-1-D6-join",
+          "duration": 0.85,
+          "actionsHash": "044e31921fe17f86a5f2f95405822c6502c6d339eab7030d3327ba10d8dd243b"
+        },
+        {
+          "id": "S28-1-D6-bolts",
+          "duration": 1.4,
+          "actionsHash": "ceacf9c22281be57b68d9bf7ba08fa38cfe0ea897c6ee08ff96303535a9dc9f8"
+        },
+        {
+          "id": "S28-1-complete",
+          "duration": 0.9,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 29,
+      "shots": [
+        {
+          "id": "S29-supported-open",
+          "duration": 2.8,
+          "actionsHash": "b144d102861d989b87e583e7c401f89141544eb9ca7f91e8c5025cd840b84afb"
+        },
+        {
+          "id": "S29--1-insert",
+          "duration": 0.8,
+          "actionsHash": "5f41448467309a4d1930075150cd6b55fab11066990cbb1896ed991bc0b26bee"
+        },
+        {
+          "id": "S29--1-washer",
+          "duration": 1.1,
+          "actionsHash": "a1d17f6459f6864f8ddd737f5d95afc0926b3ad5af59ca7491b27de6504db885"
+        },
+        {
+          "id": "S29--1-leg-approach",
+          "duration": 2,
+          "actionsHash": "20e4e2252fbf598bd4e5bd68e379f660237b2f2637e8536d4ab92caf4da2c75d"
+        },
+        {
+          "id": "S29--1-seat",
+          "duration": 1.25,
+          "actionsHash": "387bdf27098af32dffe4dd0abbef24beef1263edd784c51b99de4ad96566cd06"
+        },
+        {
+          "id": "S29--1-bolt",
+          "duration": 1.8,
+          "actionsHash": "c6f927622a10e85fa0f734c3f2bd2146c679961b54adf7a5f8605c6b450ffaf8"
+        },
+        {
+          "id": "S29-1-insert",
+          "duration": 0.8,
+          "actionsHash": "fd1f976b7f90dc96860b673b8211753d789545a93e1c5a096fc60f36dc0bd722"
+        },
+        {
+          "id": "S29-1-washer",
+          "duration": 1.1,
+          "actionsHash": "e1e3ad8e008f3b6f6cc384e86fcc14f7f5f769ab501725ad0919b1daf19d5716"
+        },
+        {
+          "id": "S29-1-leg-approach",
+          "duration": 2,
+          "actionsHash": "751549881a25508e282b4130de733341d1aa6711fa0250a6a858374e08f7ace8"
+        },
+        {
+          "id": "S29-1-seat",
+          "duration": 1.25,
+          "actionsHash": "573c3bbe39219561eeab6ee185e102c542fe6e6fbdf8ba64bedad4dceaac5b73"
+        },
+        {
+          "id": "S29-1-bolt",
+          "duration": 1.1,
+          "actionsHash": "7b6a374a223c72f1c12b93aef6b860e630481b415807eeb835cc53501e98a92b"
+        },
+        {
+          "id": "S29-support-lift",
+          "duration": 0.9,
+          "actionsHash": "54bd813ee22eac229480e49f9de1295ebb9b5f05358c287759f3d067eaceb631"
+        },
+        {
+          "id": "S29-fold-test",
+          "duration": 2,
+          "actionsHash": "b9b40779f6bbad604b4b96ae87a171ab5aabcc09fcc13ffdb1380b126a3b2927"
+        },
+        {
+          "id": "S29-unfold-test",
+          "duration": 1.9,
+          "actionsHash": "a76a063fffeb22b6ab1d8aa2494ccf337a30eafd6faf7ced7d57ad04ab5693ef"
+        },
+        {
+          "id": "S29-lower-support",
+          "duration": 0.9,
+          "actionsHash": "8c5556e721cf9b8c236e379a7597a2ab3efd4059b62cfb12fedad8736230da09"
+        },
+        {
+          "id": "S29-complete",
+          "duration": 1.4,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 30,
+      "shots": [
+        {
+          "id": "wall-position",
+          "duration": 2.3,
+          "actionsHash": "0212fd65a124a74b75868227d0f02c849ef811a41281b1256785535ab3b13648"
+        },
+        {
+          "id": "S30-0-target",
+          "duration": 1.6,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S30-0-bracket",
+          "duration": 1.35,
+          "actionsHash": "50c8feacfaad37a742139c2859991170c675663c2e9f8a0639cd023fdca47faa"
+        },
+        {
+          "id": "S30-0-cabinet-screws",
+          "duration": 2,
+          "actionsHash": "bf6474c3fbddbf1d45b7ace1020ae19a7816603504f5dd07f3ddb29843ef44f9"
+        },
+        {
+          "id": "S30-0-wall-screw",
+          "duration": 1.65,
+          "actionsHash": "d04da828ede3e649762de20341e4e9cffc993e6e2488197554a7dc08881169a9"
+        },
+        {
+          "id": "S30-0-secured",
+          "duration": 0.9,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S30-1-target",
+          "duration": 0.75,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S30-1-bracket",
+          "duration": 1.35,
+          "actionsHash": "490e1cb8a29d5ba4555fcbf7985225b2708afe7ab64575b8aa08dd4c9cb9ff8a"
+        },
+        {
+          "id": "S30-1-cabinet-screws",
+          "duration": 1.3,
+          "actionsHash": "ff907105ef3dcd13b3dc153bd1a695ede814638dff99b5d120d37dc9bc7a4eb2"
+        },
+        {
+          "id": "S30-1-wall-screw",
+          "duration": 1.15,
+          "actionsHash": "9214320ee05d0ab7ff736740e8f0f6b3e00db68eaf8343a62e879ffe1ca67a84"
+        },
+        {
+          "id": "S30-1-secured",
+          "duration": 0.9,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S30-complete",
+          "duration": 1.2,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "step": 31,
+      "shots": [
+        {
+          "id": "S31-0-target",
+          "duration": 0.75,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S31-0-bracket",
+          "duration": 1.35,
+          "actionsHash": "a84fa6d4ebd10fbe46e762873b7e2c5c51323670ec6e0993c03c0b2e72d9a432"
+        },
+        {
+          "id": "S31-0-cabinet-screws",
+          "duration": 1.3,
+          "actionsHash": "4245aa44dd468f150c604389970299dfaaf4de1225df570ebcf0274628f39a15"
+        },
+        {
+          "id": "S31-0-wall-screw",
+          "duration": 1.15,
+          "actionsHash": "ba5aef2e4dafaafd29b1ee7be4bb2f48ded49dde160e5a3c9b669380aa19d9b3"
+        },
+        {
+          "id": "S31-0-secured",
+          "duration": 0.9,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S31-1-target",
+          "duration": 0.75,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S31-1-bracket",
+          "duration": 1.35,
+          "actionsHash": "974685e45d6bea711be4a599f0e7262c73628da006a18cebbb048772e923ab2e"
+        },
+        {
+          "id": "S31-1-cabinet-screws",
+          "duration": 1.3,
+          "actionsHash": "d9f947de529894b01d67fff85cbca941830f9ee3f944b72328473a3f8f6191e1"
+        },
+        {
+          "id": "S31-1-wall-screw",
+          "duration": 1.15,
+          "actionsHash": "1f1feb561585614a681197e593ab54fd15f3ae85d44928e38e972afac8478fcb"
+        },
+        {
+          "id": "S31-1-secured",
+          "duration": 0.9,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "S31-complete",
+          "duration": 1.2,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "final-support-lift",
+          "duration": 0.9,
+          "actionsHash": "54bd813ee22eac229480e49f9de1295ebb9b5f05358c287759f3d067eaceb631"
+        },
+        {
+          "id": "final-fold-legs",
+          "duration": 1.4,
+          "actionsHash": "57feae09d44f0a32043cf3543e3d231dfde876f031d7dd89756d756e40b95630"
+        },
+        {
+          "id": "final-close",
+          "duration": 3,
+          "actionsHash": "a5cc8380fb30013954af636fd7d78ab75d5ce9f9faa96020e86261c2312c2e04"
+        },
+        {
+          "id": "final-closed",
+          "duration": 1.2,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "id": "final-open",
+          "duration": 3,
+          "actionsHash": "18f744eefa14db3ce36883fc5f6c35aaa73f463c06824fc762a3383e04f666d1"
+        },
+        {
+          "id": "final-deploy-legs",
+          "duration": 1.6,
+          "actionsHash": "b0e0f740b66f6805555d2993f47075c8f30ac529fb3f22e256d87e73fcfbe8a5"
+        },
+        {
+          "id": "final-lower-support",
+          "duration": 0.9,
+          "actionsHash": "8c5556e721cf9b8c236e379a7597a2ab3efd4059b62cfb12fedad8736230da09"
+        },
+        {
+          "id": "final-result",
+          "duration": 2,
+          "actionsHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    }
+  ],
+  "video": {
+    "background": "#eeece7",
+    "cameraPresets": {
+      "context": {
+        "target": [
+          0,
+          4,
+          0
+        ],
+        "position": [
+          27.742406452607838,
+          264.08506049319845,
+          190.7290443616789
+        ],
+        "fov": 32
+      },
+      "result": {
+        "target": [
+          0,
+          2.5,
+          0
+        ],
+        "position": [
+          20.42395473085432,
+          257.799434135679,
+          144.66967934355142
+        ],
+        "fov": 32
+      },
+      "panel": {
+        "target": [
+          -2,
+          7,
+          0
+        ],
+        "position": [
+          19.9815286758902,
+          260.6330231833484,
+          169.08868212223229
+        ],
+        "fov": 32
+      },
+      "dowel-view-0": {
+        "target": [
+          -107.5,
+          4,
+          -19.5
+        ],
+        "position": [
+          -84.57796801274932,
+          42.79113105534729,
+          -65.34406397450135
+        ],
+        "fov": 35
+      },
+      "dowel-view-1": {
+        "target": [
+          -58.5,
+          4,
+          -19.5
+        ],
+        "position": [
+          -35.577968012749324,
+          42.79113105534729,
+          -65.34406397450135
+        ],
+        "fov": 35
+      },
+      "dowel-view-2": {
+        "target": [
+          99,
+          4,
+          -19.5
+        ],
+        "position": [
+          121.92203198725068,
+          42.79113105534729,
+          -65.34406397450135
+        ],
+        "fov": 35
+      },
+      "dowel-view-3": {
+        "target": [
+          -107.5,
+          4,
+          19.5
+        ],
+        "position": [
+          -84.57796801274932,
+          42.79113105534729,
+          65.34406397450135
+        ],
+        "fov": 35
+      },
+      "dowel-view-4": {
+        "target": [
+          -58.5,
+          4,
+          19.5
+        ],
+        "position": [
+          -35.577968012749324,
+          42.79113105534729,
+          65.34406397450135
+        ],
+        "fov": 35
+      },
+      "dowel-view-5": {
+        "target": [
+          99,
+          4,
+          19.5
+        ],
+        "position": [
+          121.92203198725068,
+          42.79113105534729,
+          65.34406397450135
+        ],
+        "fov": 35
+      },
+      "rail-0": {
+        "target": [
+          -2,
+          4.5,
+          -26
+        ],
+        "position": [
+          10.379521803385211,
+          252.09043606770425,
+          -196.21842479654666
+        ],
+        "fov": 32
+      },
+      "rail-1": {
+        "target": [
+          -2,
+          4.5,
+          26
+        ],
+        "position": [
+          10.379521803385211,
+          252.09043606770425,
+          196.21842479654666
+        ],
+        "fov": 32
+      },
+      "joint-0": {
+        "target": [
+          -109,
+          5,
+          -22
+        ],
+        "position": [
+          -87.83559820599291,
+          38.258345676296855,
+          -64.32880358801418
+        ],
+        "fov": 35
+      },
+      "joint-1": {
+        "target": [
+          -60,
+          5,
+          -22
+        ],
+        "position": [
+          -38.83559820599291,
+          38.258345676296855,
+          -64.32880358801418
+        ],
+        "fov": 35
+      },
+      "joint-2": {
+        "target": [
+          -40,
+          5,
+          -22
+        ],
+        "position": [
+          -18.835598205992913,
+          38.258345676296855,
+          -64.32880358801418
+        ],
+        "fov": 35
+      },
+      "joint-3": {
+        "target": [
+          92,
+          5,
+          -22
+        ],
+        "position": [
+          113.16440179400709,
+          38.258345676296855,
+          -64.32880358801418
+        ],
+        "fov": 35
+      },
+      "joint-4": {
+        "target": [
+          -109,
+          5,
+          22
+        ],
+        "position": [
+          -87.83559820599291,
+          38.258345676296855,
+          64.32880358801418
+        ],
+        "fov": 35
+      },
+      "joint-5": {
+        "target": [
+          -60,
+          5,
+          22
+        ],
+        "position": [
+          -38.83559820599291,
+          38.258345676296855,
+          64.32880358801418
+        ],
+        "fov": 35
+      },
+      "joint-6": {
+        "target": [
+          -40,
+          5,
+          22
+        ],
+        "position": [
+          -18.835598205992913,
+          38.258345676296855,
+          64.32880358801418
+        ],
+        "fov": 35
+      },
+      "joint-7": {
+        "target": [
+          92,
+          5,
+          22
+        ],
+        "position": [
+          113.16440179400709,
+          38.258345676296855,
+          64.32880358801418
+        ],
+        "fov": 35
+      },
+      "R-context": {
+        "target": [
+          0,
+          4,
+          0
+        ],
+        "position": [
+          -27.742406452607838,
+          264.08506049319845,
+          190.7290443616789
+        ],
+        "fov": 32
+      },
+      "R-result": {
+        "target": [
+          0,
+          2.5,
+          0
+        ],
+        "position": [
+          -20.42395473085432,
+          257.799434135679,
+          144.66967934355142
+        ],
+        "fov": 32
+      },
+      "R-panel": {
+        "target": [
+          2,
+          7,
+          0
+        ],
+        "position": [
+          -19.9815286758902,
+          260.6330231833484,
+          169.08868212223229
+        ],
+        "fov": 32
+      },
+      "R-dowel-view-0": {
+        "target": [
+          107.5,
+          4,
+          -19.5
+        ],
+        "position": [
+          84.57796801274932,
+          42.79113105534729,
+          -65.34406397450135
+        ],
+        "fov": 35
+      },
+      "R-dowel-view-1": {
+        "target": [
+          58.5,
+          4,
+          -19.5
+        ],
+        "position": [
+          35.577968012749324,
+          42.79113105534729,
+          -65.34406397450135
+        ],
+        "fov": 35
+      },
+      "R-dowel-view-2": {
+        "target": [
+          -99,
+          4,
+          -19.5
+        ],
+        "position": [
+          -121.92203198725068,
+          42.79113105534729,
+          -65.34406397450135
+        ],
+        "fov": 35
+      },
+      "R-dowel-view-3": {
+        "target": [
+          107.5,
+          4,
+          19.5
+        ],
+        "position": [
+          84.57796801274932,
+          42.79113105534729,
+          65.34406397450135
+        ],
+        "fov": 35
+      },
+      "R-dowel-view-4": {
+        "target": [
+          58.5,
+          4,
+          19.5
+        ],
+        "position": [
+          35.577968012749324,
+          42.79113105534729,
+          65.34406397450135
+        ],
+        "fov": 35
+      },
+      "R-dowel-view-5": {
+        "target": [
+          -99,
+          4,
+          19.5
+        ],
+        "position": [
+          -121.92203198725068,
+          42.79113105534729,
+          65.34406397450135
+        ],
+        "fov": 35
+      },
+      "R-rail-0": {
+        "target": [
+          2,
+          4.5,
+          -26
+        ],
+        "position": [
+          -10.379521803385211,
+          252.09043606770425,
+          -196.21842479654666
+        ],
+        "fov": 32
+      },
+      "R-rail-1": {
+        "target": [
+          2,
+          4.5,
+          26
+        ],
+        "position": [
+          -10.379521803385211,
+          252.09043606770425,
+          196.21842479654666
+        ],
+        "fov": 32
+      },
+      "R-joint-0": {
+        "target": [
+          109,
+          5,
+          -22
+        ],
+        "position": [
+          87.83559820599291,
+          38.258345676296855,
+          -64.32880358801418
+        ],
+        "fov": 35
+      },
+      "R-joint-1": {
+        "target": [
+          60,
+          5,
+          -22
+        ],
+        "position": [
+          38.83559820599291,
+          38.258345676296855,
+          -64.32880358801418
+        ],
+        "fov": 35
+      },
+      "R-joint-2": {
+        "target": [
+          40,
+          5,
+          -22
+        ],
+        "position": [
+          18.835598205992913,
+          38.258345676296855,
+          -64.32880358801418
+        ],
+        "fov": 35
+      },
+      "R-joint-3": {
+        "target": [
+          -92,
+          5,
+          -22
+        ],
+        "position": [
+          -113.16440179400709,
+          38.258345676296855,
+          -64.32880358801418
+        ],
+        "fov": 35
+      },
+      "R-joint-4": {
+        "target": [
+          109,
+          5,
+          22
+        ],
+        "position": [
+          87.83559820599291,
+          38.258345676296855,
+          64.32880358801418
+        ],
+        "fov": 35
+      },
+      "R-joint-5": {
+        "target": [
+          60,
+          5,
+          22
+        ],
+        "position": [
+          38.83559820599291,
+          38.258345676296855,
+          64.32880358801418
+        ],
+        "fov": 35
+      },
+      "R-joint-6": {
+        "target": [
+          40,
+          5,
+          22
+        ],
+        "position": [
+          18.835598205992913,
+          38.258345676296855,
+          64.32880358801418
+        ],
+        "fov": 35
+      },
+      "R-joint-7": {
+        "target": [
+          -92,
+          5,
+          22
+        ],
+        "position": [
+          -113.16440179400709,
+          38.258345676296855,
+          64.32880358801418
+        ],
+        "fov": 35
+      },
+      "two-side-context": {
+        "target": [
+          -140,
+          7.5,
+          0
+        ],
+        "position": [
+          -104.50556172552916,
+          575.4110123915334,
+          372.6916018819438
+        ],
+        "fov": 32
+      },
+      "S3-context": {
+        "target": [
+          19,
+          114.5,
+          0
+        ],
+        "position": [
+          19,
+          316.3916542927584,
+          504.72913573189606
+        ],
+        "fov": 32
+      },
+      "S3-frame": {
+        "target": [
+          17,
+          40,
+          1
+        ],
+        "position": [
+          67.67170833196275,
+          247.2933522671203,
+          346.4889204452005
+        ],
+        "fov": 32
+      },
+      "S3-center": {
+        "target": [
+          6.5,
+          39.5,
+          19
+        ],
+        "position": [
+          33.83167118369471,
+          117.59048909627059,
+          175.18097819254118
+        ],
+        "fov": 35
+      },
+      "S3-result": {
+        "target": [
+          0,
+          46,
+          0
+        ],
+        "position": [
+          0,
+          221.0877499734454,
+          328.2895312002101
+        ],
+        "fov": 32
+      },
+      "S3-close-side": {
+        "target": [
+          128,
+          34.5,
+          1
+        ],
+        "position": [
+          223.16761463609672,
+          91.60056878165803,
+          181.81846780858373
+        ],
+        "fov": 35
+      },
+      "S3-E3--1": {
+        "target": [
+          -116,
+          5,
+          24
+        ],
+        "position": [
+          -146.96669879720812,
+          31.321693977626918,
+          82.83672771469546
+        ],
+        "fov": 35
+      },
+      "S3-E3--1-staged": {
+        "target": [
+          -102.5,
+          5.5,
+          21.5
+        ],
+        "position": [
+          -131.6416818023788,
+          37.55584998261668,
+          71.04085906404396
+        ],
+        "fov": 35
+      },
+      "S3-E3-1": {
+        "target": [
+          116,
+          5,
+          24
+        ],
+        "position": [
+          146.96669879720812,
+          31.321693977626918,
+          82.83672771469546
+        ],
+        "fov": 35
+      },
+      "S3-E3-1-staged": {
+        "target": [
+          130.5,
+          5.5,
+          21.5
+        ],
+        "position": [
+          159.6416818023788,
+          37.55584998261668,
+          71.04085906404396
+        ],
+        "fov": 35
+      },
+      "S3-B9--1": {
+        "target": [
+          -116,
+          5,
+          -12
+        ],
+        "position": [
+          -146.96669879720812,
+          31.321693977626918,
+          46.836727714695456
+        ],
+        "fov": 35
+      },
+      "S3-B9--1-staged": {
+        "target": [
+          -102.5,
+          5.5,
+          -14.5
+        ],
+        "position": [
+          -131.6416818023788,
+          37.55584998261668,
+          35.04085906404395
+        ],
+        "fov": 35
+      },
+      "S3-B9-1": {
+        "target": [
+          116,
+          5,
+          -12
+        ],
+        "position": [
+          146.96669879720812,
+          31.321693977626918,
+          46.836727714695456
+        ],
+        "fov": 35
+      },
+      "S3-B9-1-staged": {
+        "target": [
+          130.5,
+          5.5,
+          -14.5
+        ],
+        "position": [
+          159.6416818023788,
+          37.55584998261668,
+          35.04085906404395
+        ],
+        "fov": 35
+      },
+      "S3-D5--1": {
+        "target": [
+          -116,
+          57,
+          24
+        ],
+        "position": [
+          -146.96669879720812,
+          83.32169397762692,
+          82.83672771469546
+        ],
+        "fov": 35
+      },
+      "S3-D5--1-staged": {
+        "target": [
+          -102.5,
+          57.5,
+          21.5
+        ],
+        "position": [
+          -131.6416818023788,
+          89.55584998261668,
+          71.04085906404396
+        ],
+        "fov": 35
+      },
+      "S3-D5-1": {
+        "target": [
+          116,
+          57,
+          24
+        ],
+        "position": [
+          146.96669879720812,
+          83.32169397762692,
+          82.83672771469546
+        ],
+        "fov": 35
+      },
+      "S3-D5-1-staged": {
+        "target": [
+          130.5,
+          57.5,
+          21.5
+        ],
+        "position": [
+          159.6416818023788,
+          89.55584998261668,
+          71.04085906404396
+        ],
+        "fov": 35
+      },
+      "S4-context": {
+        "target": [
+          0,
+          85,
+          10
+        ],
+        "position": [
+          30.110725787013386,
+          175.33217736104015,
+          331.1810750614761
+        ],
+        "fov": 35
+      },
+      "S4-center": {
+        "target": [
+          0,
+          84,
+          26
+        ],
+        "position": [
+          16.78053939376385,
+          117.56107878752769,
+          177.02485454387465
+        ],
+        "fov": 35
+      },
+      "S4-D4-1--1": {
+        "target": [
+          -114,
+          110.5,
+          21
+        ],
+        "position": [
+          -141.27875024353256,
+          132.32300019482605,
+          72.82962546271185
+        ],
+        "fov": 35
+      },
+      "S4-D4-1-1": {
+        "target": [
+          118,
+          110.5,
+          21
+        ],
+        "position": [
+          145.27875024353256,
+          132.32300019482605,
+          72.82962546271185
+        ],
+        "fov": 35
+      },
+      "S5-context": {
+        "target": [
+          0,
+          140,
+          10
+        ],
+        "position": [
+          30.110725787013386,
+          230.33217736104015,
+          331.1810750614761
+        ],
+        "fov": 35
+      },
+      "S5-center": {
+        "target": [
+          0,
+          139,
+          26
+        ],
+        "position": [
+          16.78053939376385,
+          172.5610787875277,
+          177.02485454387465
+        ],
+        "fov": 35
+      },
+      "S5-D4-2--1": {
+        "target": [
+          -114,
+          165.5,
+          21
+        ],
+        "position": [
+          -141.27875024353256,
+          187.32300019482605,
+          72.82962546271185
+        ],
+        "fov": 35
+      },
+      "S5-D4-2-1": {
+        "target": [
+          118,
+          165.5,
+          21
+        ],
+        "position": [
+          145.27875024353256,
+          187.32300019482605,
+          72.82962546271185
+        ],
+        "fov": 35
+      },
+      "S6-context": {
+        "target": [
+          0,
+          196,
+          10
+        ],
+        "position": [
+          30.134962770855395,
+          286.4048883125662,
+          331.4396028891242
+        ],
+        "fov": 35
+      },
+      "S6-center": {
+        "target": [
+          0,
+          195,
+          26
+        ],
+        "position": [
+          17.19669625480292,
+          229.39339250960583,
+          180.77026629322626
+        ],
+        "fov": 35
+      },
+      "S6-B5--1": {
+        "target": [
+          -114,
+          222.5,
+          21
+        ],
+        "position": [
+          -141.27875024353256,
+          244.32300019482605,
+          72.82962546271185
+        ],
+        "fov": 35
+      },
+      "S6-B5-1": {
+        "target": [
+          118,
+          222.5,
+          21
+        ],
+        "position": [
+          145.27875024353256,
+          244.32300019482605,
+          72.82962546271185
+        ],
+        "fov": 35
+      },
+      "S6-B6--1": {
+        "target": [
+          -114,
+          222.5,
+          -15
+        ],
+        "position": [
+          -141.27875024353256,
+          244.32300019482605,
+          36.82962546271185
+        ],
+        "fov": 35
+      },
+      "S6-B6-1": {
+        "target": [
+          118,
+          222.5,
+          -15
+        ],
+        "position": [
+          145.27875024353256,
+          244.32300019482605,
+          36.82962546271185
+        ],
+        "fov": 35
+      },
+      "S7-bench": {
+        "target": [
+          0,
+          11,
+          84.5
+        ],
+        "position": [
+          20.015655339532856,
+          311.2348300929928,
+          276.31669700385646
+        ],
+        "fov": 35
+      },
+      "S7-center": {
+        "target": [
+          0,
+          6.5,
+          86.5
+        ],
+        "position": [
+          19.933143698430623,
+          66.29943109529185,
+          166.2325747937225
+        ],
+        "fov": 35
+      },
+      "S7-end": {
+        "target": [
+          116.5,
+          8.5,
+          85.5
+        ],
+        "position": [
+          183.27061880482614,
+          69.70640057109063,
+          168.96327350603266
+        ],
+        "fov": 35
+      },
+      "S7-left-end": {
+        "target": [
+          -116.5,
+          8.5,
+          85.5
+        ],
+        "position": [
+          -183.27061880482614,
+          69.70640057109063,
+          168.96327350603266
+        ],
+        "fov": 35
+      },
+      "S7-H13-0-macro": {
+        "target": [
+          -116.5,
+          5.5,
+          66.5
+        ],
+        "position": [
+          -97.81746754083204,
+          50.33807790200312,
+          -0.7571168530046748
+        ],
+        "fov": 35
+      },
+      "S7-H13-1-macro": {
+        "target": [
+          0,
+          5.5,
+          66.5
+        ],
+        "position": [
+          18.682532459167966,
+          50.33807790200312,
+          -0.7571168530046748
+        ],
+        "fov": 35
+      },
+      "S7-H13-2-macro": {
+        "target": [
+          116.5,
+          5.5,
+          66.5
+        ],
+        "position": [
+          135.18253245916796,
+          50.33807790200312,
+          -0.7571168530046748
+        ],
+        "fov": 35
+      },
+      "S7-H13-3-macro": {
+        "target": [
+          -116.5,
+          5.5,
+          103.5
+        ],
+        "position": [
+          -97.81746754083204,
+          50.33807790200312,
+          170.75711685300467
+        ],
+        "fov": 35
+      },
+      "S7-H13-4-macro": {
+        "target": [
+          0,
+          5.5,
+          103.5
+        ],
+        "position": [
+          18.682532459167966,
+          50.33807790200312,
+          170.75711685300467
+        ],
+        "fov": 35
+      },
+      "S7-H13-5-macro": {
+        "target": [
+          116.5,
+          5.5,
+          103.5
+        ],
+        "position": [
+          135.18253245916796,
+          50.33807790200312,
+          170.75711685300467
+        ],
+        "fov": 35
+      },
+      "S8-wide": {
+        "target": [
+          0,
+          132,
+          41
+        ],
+        "position": [
+          83.10205596084978,
+          471.9629562034764,
+          607.6049270057939
+        ],
+        "fov": 35
+      },
+      "S8-top": {
+        "target": [
+          0,
+          240,
+          0
+        ],
+        "position": [
+          55.83672119420105,
+          463.3468847768042,
+          239.30023368943307
+        ],
+        "fov": 35
+      },
+      "S8-dowel--1--18-macro": {
+        "target": [
+          -118.65,
+          229.5,
+          -20.5
+        ],
+        "position": [
+          -147.97213547145077,
+          266.15266933931343,
+          41.809537876832835
+        ],
+        "fov": 35
+      },
+      "S8-dowel--1-18-macro": {
+        "target": [
+          -118.65,
+          229.5,
+          20.5
+        ],
+        "position": [
+          -147.97213547145077,
+          266.15266933931343,
+          82.80953787683283
+        ],
+        "fov": 35
+      },
+      "S8-dowel-1--18-macro": {
+        "target": [
+          118.65,
+          229.5,
+          -20.5
+        ],
+        "position": [
+          147.97213547145077,
+          266.15266933931343,
+          41.809537876832835
+        ],
+        "fov": 35
+      },
+      "S8-dowel-1-18-macro": {
+        "target": [
+          118.65,
+          229.5,
+          20.5
+        ],
+        "position": [
+          147.97213547145077,
+          266.15266933931343,
+          82.80953787683283
+        ],
+        "fov": 35
+      },
+      "S8-H12--1-0-macro": {
+        "target": [
+          -105,
+          229.5,
+          -18.9
+        ],
+        "position": [
+          -90.12400737486882,
+          279.0866420837706,
+          24.075089805934503
+        ],
+        "fov": 35
+      },
+      "S8-H12--1-1-macro": {
+        "target": [
+          -60,
+          229.5,
+          -18.9
+        ],
+        "position": [
+          -45.124007374868825,
+          279.0866420837706,
+          24.075089805934503
+        ],
+        "fov": 35
+      },
+      "S8-H12--1-2-macro": {
+        "target": [
+          -7,
+          229.5,
+          -18.9
+        ],
+        "position": [
+          7.875992625131174,
+          279.0866420837706,
+          24.075089805934503
+        ],
+        "fov": 35
+      },
+      "S8-H12--1-3-macro": {
+        "target": [
+          60,
+          229.5,
+          -18.9
+        ],
+        "position": [
+          74.87599262513118,
+          279.0866420837706,
+          24.075089805934503
+        ],
+        "fov": 35
+      },
+      "S8-H12--1-4-macro": {
+        "target": [
+          105,
+          229.5,
+          -18.9
+        ],
+        "position": [
+          119.87599262513118,
+          279.0866420837706,
+          24.075089805934503
+        ],
+        "fov": 35
+      },
+      "S8-H12-1-0-macro": {
+        "target": [
+          -105,
+          229.5,
+          18.9
+        ],
+        "position": [
+          -90.12400737486882,
+          279.0866420837706,
+          61.8750898059345
+        ],
+        "fov": 35
+      },
+      "S8-H12-1-1-macro": {
+        "target": [
+          -60,
+          229.5,
+          18.9
+        ],
+        "position": [
+          -45.124007374868825,
+          279.0866420837706,
+          61.8750898059345
+        ],
+        "fov": 35
+      },
+      "S8-H12-1-2-macro": {
+        "target": [
+          7,
+          229.5,
+          18.9
+        ],
+        "position": [
+          21.875992625131175,
+          279.0866420837706,
+          61.8750898059345
+        ],
+        "fov": 35
+      },
+      "S8-H12-1-3-macro": {
+        "target": [
+          60,
+          229.5,
+          18.9
+        ],
+        "position": [
+          74.87599262513118,
+          279.0866420837706,
+          61.8750898059345
+        ],
+        "fov": 35
+      },
+      "S8-H12-1-4-macro": {
+        "target": [
+          105,
+          229.5,
+          18.9
+        ],
+        "position": [
+          119.87599262513118,
+          279.0866420837706,
+          61.8750898059345
+        ],
+        "fov": 35
+      },
+      "S10-result": {
+        "target": [
+          0,
+          116,
+          1.5
+        ],
+        "position": [
+          67.99317404285372,
+          285.9829351071343,
+          -492.99581122075443
+        ],
+        "fov": 35
+      },
+      "S9-interior": {
+        "target": [
+          116.35,
+          87,
+          1.5
+        ],
+        "position": [
+          -12.605140069846385,
+          122.82087224162399,
+          -70.14174448324799
+        ],
+        "fov": 35
+      },
+      "S9-bracket": {
+        "position": [
+          95,
+          212,
+          -5
+        ],
+        "target": [
+          116.4,
+          214,
+          15.3
+        ],
+        "fov": 35
+      },
+      "S9-side-result": {
+        "target": [
+          151.4055127546399,
+          138,
+          -53.08326913195984
+        ],
+        "position": [
+          -150.93908981919205,
+          196.7892282782451,
+          -254.64633751451447
+        ],
+        "fov": 35
+      },
+      "S9-H21-0-macro": {
+        "target": [
+          111.35,
+          110,
+          10.8
+        ],
+        "position": [
+          68.97035574655034,
+          126.48097276523042,
+          -12.744246807472031
+        ],
+        "fov": 35
+      },
+      "S9-H21-1-macro": {
+        "target": [
+          111.35,
+          110,
+          8.2
+        ],
+        "position": [
+          68.97035574655034,
+          126.48097276523042,
+          -15.344246807472032
+        ],
+        "fov": 35
+      },
+      "S9-H21-2-macro": {
+        "target": [
+          111.35,
+          107,
+          10.8
+        ],
+        "position": [
+          68.97035574655034,
+          123.48097276523042,
+          -12.744246807472031
+        ],
+        "fov": 35
+      },
+      "S9-H21-3-macro": {
+        "target": [
+          111.35,
+          107,
+          8.2
+        ],
+        "position": [
+          68.97035574655034,
+          123.48097276523042,
+          -15.344246807472032
+        ],
+        "fov": 35
+      },
+      "S9-H21-4-macro": {
+        "target": [
+          111.35,
+          84,
+          9.5
+        ],
+        "position": [
+          68.97035574655034,
+          100.48097276523042,
+          -14.044246807472032
+        ],
+        "fov": 35
+      },
+      "S9-H21-5-macro": {
+        "target": [
+          111.35,
+          61,
+          10.8
+        ],
+        "position": [
+          68.97035574655034,
+          77.48097276523042,
+          -12.744246807472031
+        ],
+        "fov": 35
+      },
+      "S9-H21-6-macro": {
+        "target": [
+          111.35,
+          61,
+          8.2
+        ],
+        "position": [
+          68.97035574655034,
+          77.48097276523042,
+          -15.344246807472032
+        ],
+        "fov": 35
+      },
+      "S9-H21-7-macro": {
+        "target": [
+          111.35,
+          60,
+          3
+        ],
+        "position": [
+          68.97035574655034,
+          76.48097276523042,
+          -20.54424680747203
+        ],
+        "fov": 35
+      },
+      "S9-H21-8-macro": {
+        "target": [
+          111.35,
+          60,
+          -3
+        ],
+        "position": [
+          68.97035574655034,
+          76.48097276523042,
+          -26.54424680747203
+        ],
+        "fov": 35
+      },
+      "S9-H21-9-macro": {
+        "target": [
+          111.35,
+          59.5,
+          -11
+        ],
+        "position": [
+          68.97035574655034,
+          75.98097276523042,
+          -34.544246807472035
+        ],
+        "fov": 35
+      },
+      "S10-interior": {
+        "target": [
+          -116.35,
+          87,
+          1.5
+        ],
+        "position": [
+          12.605140069846385,
+          122.82087224162399,
+          -70.14174448324799
+        ],
+        "fov": 35
+      },
+      "S10-bracket": {
+        "position": [
+          -95,
+          212,
+          -5
+        ],
+        "target": [
+          -116.4,
+          214,
+          15.3
+        ],
+        "fov": 35
+      },
+      "S10-side-result": {
+        "target": [
+          -81.2944872453601,
+          138,
+          55.08326913195984
+        ],
+        "position": [
+          221.05011532847183,
+          196.7892282782451,
+          -146.4797992505948
+        ],
+        "fov": 35
+      },
+      "S10-H21-0-macro": {
+        "target": [
+          -111.35,
+          110,
+          10.8
+        ],
+        "position": [
+          -68.97035574655034,
+          126.48097276523042,
+          -12.744246807472031
+        ],
+        "fov": 35
+      },
+      "S10-H21-1-macro": {
+        "target": [
+          -111.35,
+          110,
+          8.2
+        ],
+        "position": [
+          -68.97035574655034,
+          126.48097276523042,
+          -15.344246807472032
+        ],
+        "fov": 35
+      },
+      "S10-H21-2-macro": {
+        "target": [
+          -111.35,
+          107,
+          10.8
+        ],
+        "position": [
+          -68.97035574655034,
+          123.48097276523042,
+          -12.744246807472031
+        ],
+        "fov": 35
+      },
+      "S10-H21-3-macro": {
+        "target": [
+          -111.35,
+          107,
+          8.2
+        ],
+        "position": [
+          -68.97035574655034,
+          123.48097276523042,
+          -15.344246807472032
+        ],
+        "fov": 35
+      },
+      "S10-H21-4-macro": {
+        "target": [
+          -111.35,
+          84,
+          9.5
+        ],
+        "position": [
+          -68.97035574655034,
+          100.48097276523042,
+          -14.044246807472032
+        ],
+        "fov": 35
+      },
+      "S10-H21-5-macro": {
+        "target": [
+          -111.35,
+          61,
+          10.8
+        ],
+        "position": [
+          -68.97035574655034,
+          77.48097276523042,
+          -12.744246807472031
+        ],
+        "fov": 35
+      },
+      "S10-H21-6-macro": {
+        "target": [
+          -111.35,
+          61,
+          8.2
+        ],
+        "position": [
+          -68.97035574655034,
+          77.48097276523042,
+          -15.344246807472032
+        ],
+        "fov": 35
+      },
+      "S10-H21-7-macro": {
+        "target": [
+          -111.35,
+          60,
+          3
+        ],
+        "position": [
+          -68.97035574655034,
+          76.48097276523042,
+          -20.54424680747203
+        ],
+        "fov": 35
+      },
+      "S10-H21-8-macro": {
+        "target": [
+          -111.35,
+          60,
+          -3
+        ],
+        "position": [
+          -68.97035574655034,
+          76.48097276523042,
+          -26.54424680747203
+        ],
+        "fov": 35
+      },
+      "S10-H21-9-macro": {
+        "target": [
+          -111.35,
+          59.5,
+          -11
+        ],
+        "position": [
+          -68.97035574655034,
+          75.98097276523042,
+          -34.544246807472035
+        ],
+        "fov": 35
+      },
+      "S10-center": {
+        "target": [
+          0,
+          113,
+          6.5
+        ],
+        "position": [
+          26.936960157303062,
+          134.54956812584246,
+          -478.3652828314551
+        ],
+        "fov": 35
+      },
+      "S10-E5-bottom": {
+        "target": [
+          0,
+          20.5,
+          8
+        ],
+        "position": [
+          14.253462082800068,
+          37.60415449936008,
+          -94.6249269961605
+        ],
+        "fov": 35
+      },
+      "S10-H24-8-macro": {
+        "position": [
+          6,
+          223,
+          -10
+        ],
+        "target": [
+          0,
+          222,
+          15.3
+        ],
+        "fov": 35
+      },
+      "S10-H24-7-macro": {
+        "target": [
+          0,
+          193.5,
+          8
+        ],
+        "position": [
+          5.423530142427268,
+          211.1264729628886,
+          -38.10000621063177
+        ],
+        "fov": 35
+      },
+      "S10-H24-6-macro": {
+        "target": [
+          0,
+          165,
+          8
+        ],
+        "position": [
+          5.423530142427268,
+          182.6264729628886,
+          -38.10000621063177
+        ],
+        "fov": 35
+      },
+      "S10-H24-5-macro": {
+        "target": [
+          0,
+          137.5,
+          8
+        ],
+        "position": [
+          5.423530142427268,
+          155.1264729628886,
+          -38.10000621063177
+        ],
+        "fov": 35
+      },
+      "S10-H24-4-macro": {
+        "target": [
+          0,
+          110,
+          8
+        ],
+        "position": [
+          5.423530142427268,
+          127.62647296288861,
+          -38.10000621063177
+        ],
+        "fov": 35
+      },
+      "S10-H24-3-macro": {
+        "target": [
+          0,
+          82.5,
+          8
+        ],
+        "position": [
+          5.423530142427268,
+          100.12647296288861,
+          -38.10000621063177
+        ],
+        "fov": 35
+      },
+      "S10-H24-2-macro": {
+        "target": [
+          0,
+          56,
+          8
+        ],
+        "position": [
+          5.423530142427268,
+          73.62647296288861,
+          -38.10000621063177
+        ],
+        "fov": 35
+      },
+      "S10-H24-1-macro": {
+        "target": [
+          0,
+          34.4,
+          8
+        ],
+        "position": [
+          5.423530142427268,
+          52.02647296288862,
+          -38.10000621063177
+        ],
+        "fov": 35
+      },
+      "S10-H24-0-macro": {
+        "target": [
+          0,
+          4,
+          8
+        ],
+        "position": [
+          5.423530142427268,
+          21.62647296288862,
+          -38.10000621063177
+        ],
+        "fov": 35
+      },
+      "S11-face-wide": {
+        "target": [
+          -29.889771271629108,
+          17.237730319024745,
+          313.4965606768648
+        ],
+        "position": [
+          181.18131595948844,
+          471.8523797398933,
+          735.6387351390999
+        ],
+        "fov": 35
+      },
+      "S15-face-result": {
+        "target": [
+          -29.5002137956101,
+          18.580990415193643,
+          300.78554955319737
+        ],
+        "position": [
+          79.01319098929935,
+          476.74869950703345,
+          614.2687189318247
+        ],
+        "fov": 35
+      },
+      "S11-cabinet-and-face": {
+        "target": [
+          -63.831021067850955,
+          59.77704366993147,
+          230.09182238162592
+        ],
+        "position": [
+          177.56091072098906,
+          596.2035587562426,
+          1088.3742465197238
+        ],
+        "fov": 35
+      },
+      "S11-C4-left-macro": {
+        "target": [
+          -47.89024354920919,
+          36.42644101313911,
+          159.27406742941565
+        ],
+        "position": [
+          -14.237537391255751,
+          89.30926497563738,
+          77.54606676010013
+        ],
+        "fov": 35
+      },
+      "S12-layout": {
+        "target": [
+          -32.070918422164794,
+          13.31230561401016,
+          340.21326676167854
+        ],
+        "position": [
+          158.57067851696343,
+          537.5766971966127,
+          753.2700601297897
+        ],
+        "fov": 35
+      },
+      "S12-layer": {
+        "target": [
+          -19.578920171230493,
+          33.1035602587522,
+          177.1574300195552
+        ],
+        "position": [
+          12.379139820046667,
+          62.15634206900416,
+          72.56741550264812
+        ],
+        "fov": 35
+      },
+      "S12-C5-macro": {
+        "target": [
+          8.209756450790804,
+          36.42644101313911,
+          159.27406742941565
+        ],
+        "position": [
+          41.862462608744245,
+          89.30926497563738,
+          77.54606676010013
+        ],
+        "fov": 35
+      },
+      "S12-C4-right-macro": {
+        "target": [
+          64.3097564507908,
+          36.42644101313911,
+          159.27406742941565
+        ],
+        "position": [
+          97.96246260874425,
+          89.30926497563738,
+          77.54606676010013
+        ],
+        "fov": 35
+      },
+      "S13-C7-0-edge": {
+        "target": [
+          0.5948314333174425,
+          36.79452625324886,
+          205.336308707822
+        ],
+        "position": [
+          68.21356524064625,
+          99.9053444734224,
+          236.89171781790878
+        ],
+        "fov": 35
+      },
+      "S13-C7-0-underside": {
+        "target": [
+          -3.8114812576234556,
+          29.997635726740853,
+          202.36770964990893
+        ],
+        "position": [
+          70.80017902848934,
+          0.9819900599192133,
+          229.3108091976719
+        ],
+        "fov": 35,
+        "allowUnderside": true
+      },
+      "S13-C7-0-screw-top": {
+        "target": [
+          0.5948314333174425,
+          36.79452625324886,
+          205.336308707822
+        ],
+        "position": [
+          68.21356524064625,
+          99.9053444734224,
+          236.89171781790878
+        ],
+        "fov": 35
+      },
+      "S13-C7-1-edge": {
+        "target": [
+          0.5948314333174425,
+          36.79452625324886,
+          268.136308707822
+        ],
+        "position": [
+          68.21356524064625,
+          99.9053444734224,
+          299.6917178179088
+        ],
+        "fov": 35
+      },
+      "S13-C7-1-underside": {
+        "target": [
+          -3.8114812576234556,
+          29.997635726740853,
+          265.16770964990894
+        ],
+        "position": [
+          70.80017902848934,
+          0.9819900599192133,
+          292.11080919767187
+        ],
+        "fov": 35,
+        "allowUnderside": true
+      },
+      "S13-C7-1-screw-top": {
+        "target": [
+          0.5948314333174425,
+          36.79452625324886,
+          268.136308707822
+        ],
+        "position": [
+          68.21356524064625,
+          99.9053444734224,
+          299.6917178179088
+        ],
+        "fov": 35
+      },
+      "S13-C7-2-edge": {
+        "target": [
+          0.5948314333174425,
+          36.79452625324886,
+          330.93630870782204
+        ],
+        "position": [
+          68.21356524064625,
+          99.9053444734224,
+          362.4917178179088
+        ],
+        "fov": 35
+      },
+      "S13-C7-2-underside": {
+        "target": [
+          -3.8114812576234565,
+          29.997635726740853,
+          327.96770964990895
+        ],
+        "position": [
+          70.80017902848934,
+          0.9819900599192124,
+          354.91080919767194
+        ],
+        "fov": 35,
+        "allowUnderside": true
+      },
+      "S13-C7-2-screw-top": {
+        "target": [
+          0.5948314333174425,
+          36.79452625324886,
+          330.93630870782204
+        ],
+        "position": [
+          68.21356524064625,
+          99.9053444734224,
+          362.4917178179088
+        ],
+        "fov": 35
+      },
+      "S14-layout": {
+        "target": [
+          -32.070918422164794,
+          13.31230561401016,
+          340.21326676167854
+        ],
+        "position": [
+          158.57067851696343,
+          537.5766971966127,
+          753.2700601297897
+        ],
+        "fov": 35
+      },
+      "S14-layer": {
+        "target": [
+          -75.15194492820127,
+          33.16336385238965,
+          177.1517290087134
+        ],
+        "position": [
+          -43.47101442762764,
+          61.96420976200204,
+          73.46868373410877
+        ],
+        "fov": 35
+      },
+      "S14-C2-left-macro": {
+        "target": [
+          -103.9902435492092,
+          36.42644101313911,
+          159.27406742941565
+        ],
+        "position": [
+          -70.33753739125576,
+          89.30926497563738,
+          77.54606676010013
+        ],
+        "fov": 35
+      },
+      "S14-C2-right-macro": {
+        "target": [
+          120.40975645079081,
+          36.42644101313911,
+          159.27406742941565
+        ],
+        "position": [
+          154.06246260874423,
+          89.30926497563738,
+          77.54606676010013
+        ],
+        "fov": 35
+      },
+      "S15-C2-left-macro": {
+        "target": [
+          -117.87032424967667,
+          36.42644101313911,
+          366.4412599178357
+        ],
+        "position": [
+          -84.21761809172324,
+          89.30926497563738,
+          448.1692605871512
+        ],
+        "fov": 35
+      },
+      "S15-C4-left-macro": {
+        "target": [
+          -61.77032424967667,
+          36.42644101313911,
+          366.4412599178357
+        ],
+        "position": [
+          -28.11761809172323,
+          89.30926497563738,
+          448.1692605871512
+        ],
+        "fov": 35
+      },
+      "S15-C5-macro": {
+        "target": [
+          -5.670324249676673,
+          36.42644101313911,
+          366.4412599178357
+        ],
+        "position": [
+          27.982381908276764,
+          89.30926497563738,
+          448.1692605871512
+        ],
+        "fov": 35
+      },
+      "S15-C4-right-macro": {
+        "target": [
+          50.42967575032332,
+          36.42644101313911,
+          366.4412599178357
+        ],
+        "position": [
+          84.08238190827677,
+          89.30926497563738,
+          448.1692605871512
+        ],
+        "fov": 35
+      },
+      "S15-C2-right-macro": {
+        "target": [
+          106.52967575032334,
+          36.42644101313911,
+          366.4412599178357
+        ],
+        "position": [
+          140.18238190827677,
+          89.30926497563738,
+          448.1692605871512
+        ],
+        "fov": 35
+      },
+      "S16-separate-frame": {
+        "target": [
+          269.77323258367034,
+          21.240957615731695,
+          305.8193031786442
+        ],
+        "position": [
+          425.84635100797794,
+          503.6487781999551,
+          674.719401272462
+        ],
+        "fov": 35
+      },
+      "S16-two-assemblies": {
+        "target": [
+          104.95147361123325,
+          23.491799952493206,
+          304.4832012002347
+        ],
+        "position": [
+          185.81715066859266,
+          589.5515393540089,
+          757.3309927214472
+        ],
+        "fov": 35
+      },
+      "S16--1--1-macro": {
+        "target": [
+          193.35181831778328,
+          41.15952029451082,
+          164.25068045912693
+        ],
+        "position": [
+          225.55709830231694,
+          76.94316472177044,
+          103.41848493278555
+        ],
+        "fov": 35
+      },
+      "S16--1-1-macro": {
+        "target": [
+          183.35976640380608,
+          41.15952029451082,
+          361.03922937768453
+        ],
+        "position": [
+          215.56504638833974,
+          76.94316472177044,
+          421.8714249040259
+        ],
+        "fov": 35
+      },
+      "S16-1--1-macro": {
+        "target": [
+          416.6402335961939,
+          41.15952029451082,
+          158.96077062231544
+        ],
+        "position": [
+          384.43495361166026,
+          76.94316472177044,
+          98.12857509597409
+        ],
+        "fov": 35
+      },
+      "S16-1-1-macro": {
+        "target": [
+          406.6481816822167,
+          41.15952029451082,
+          355.74931954087305
+        ],
+        "position": [
+          374.44290169768306,
+          76.94316472177044,
+          416.5815150672144
+        ],
+        "fov": 35
+      },
+      "S17-mating-wide": {
+        "target": [
+          106.49722304332633,
+          31.999479850778965,
+          317.1216376410139
+        ],
+        "position": [
+          251.49350378514586,
+          684.4827431889668,
+          770.2350149591999
+        ],
+        "fov": 35
+      },
+      "S17-layer": {
+        "target": [
+          -27.499022903139817,
+          30.50233434187967,
+          280.83696915577593
+        ],
+        "position": [
+          125.40162639105021,
+          183.4029836360697,
+          680.7309750021191
+        ],
+        "fov": 35
+      },
+      "S17-combined": {
+        "target": [
+          -30.528283251623503,
+          20.893505641641813,
+          303.83205339528894
+        ],
+        "position": [
+          85.52893831782002,
+          510.9128856015145,
+          626.213224421521
+        ],
+        "fov": 35
+      },
+      "S17-side--1--55-dowel-macro": {
+        "target": [
+          -116.18237943972201,
+          41.365747030593226,
+          232.0483636381267
+        ],
+        "position": [
+          -98.73052538504096,
+          82.086739824849,
+          278.5866411172761
+        ],
+        "fov": 35
+      },
+      "S17-side--1-55-dowel-macro": {
+        "target": [
+          -116.18237943972201,
+          41.365747030593226,
+          296.04836363812666
+        ],
+        "position": [
+          -98.73052538504096,
+          82.086739824849,
+          342.5866411172761
+        ],
+        "fov": 35
+      },
+      "S17-side-1--55-dowel-macro": {
+        "target": [
+          109.217620560278,
+          41.365747030593226,
+          232.0483636381267
+        ],
+        "position": [
+          126.66947461495904,
+          82.086739824849,
+          278.5866411172761
+        ],
+        "fov": 35
+      },
+      "S17-side-1-55-dowel-macro": {
+        "target": [
+          109.217620560278,
+          41.365747030593226,
+          296.04836363812666
+        ],
+        "position": [
+          126.66947461495904,
+          82.086739824849,
+          342.5866411172761
+        ],
+        "fov": 35
+      },
+      "S17-end--1--80-dowel-macro": {
+        "target": [
+          -63.48237943972202,
+          41.365747030593226,
+          166.14836363812668
+        ],
+        "position": [
+          -46.03052538504097,
+          82.086739824849,
+          212.68664111727614
+        ],
+        "fov": 35
+      },
+      "S17-end--1-80-dowel-macro": {
+        "target": [
+          56.51762056027798,
+          41.365747030593226,
+          166.14836363812668
+        ],
+        "position": [
+          73.96947461495904,
+          82.086739824849,
+          212.68664111727614
+        ],
+        "fov": 35
+      },
+      "S17-end-1--80-dowel-macro": {
+        "target": [
+          -63.48237943972201,
+          41.365747030593226,
+          361.94836363812664
+        ],
+        "position": [
+          -46.03052538504096,
+          82.086739824849,
+          408.48664111727606
+        ],
+        "fov": 35
+      },
+      "S17-end-1-80-dowel-macro": {
+        "target": [
+          56.51762056027799,
+          41.365747030593226,
+          361.94836363812664
+        ],
+        "position": [
+          73.96947461495904,
+          82.086739824849,
+          408.48664111727606
+        ],
+        "fov": 35
+      },
+      "S17-side--1--55-cam-view": {
+        "target": [
+          -111.94663473258655,
+          41.16092694677712,
+          208.60985581563267
+        ],
+        "position": [
+          -66.79939714815252,
+          53.89476318854056,
+          220.18607058087215
+        ],
+        "fov": 35
+      },
+      "S17-side--1--55-underside": {
+        "target": [
+          -113.97160025052503,
+          33.16240782077815,
+          208.62356952979857
+        ],
+        "position": [
+          -62.87737749544082,
+          17.972233488185545,
+          222.4328189230646
+        ],
+        "fov": 35,
+        "allowUnderside": true
+      },
+      "S17-side--1-55-cam-view": {
+        "target": [
+          -111.94663473258655,
+          41.16092694677712,
+          318.60985581563267
+        ],
+        "position": [
+          -66.79939714815252,
+          53.89476318854056,
+          330.1860705808722
+        ],
+        "fov": 35
+      },
+      "S17-side--1-55-underside": {
+        "target": [
+          -113.97160025052503,
+          33.16240782077815,
+          318.6235695297986
+        ],
+        "position": [
+          -62.87737749544082,
+          17.972233488185545,
+          332.4328189230646
+        ],
+        "fov": 35,
+        "allowUnderside": true
+      },
+      "S17-side-1--55-cam-view": {
+        "target": [
+          109.88830311835963,
+          41.11441942209056,
+          201.81053892628717
+        ],
+        "position": [
+          64.57773461569103,
+          56.217942256313435,
+          215.54101423012614
+        ],
+        "fov": 35
+      },
+      "S17-side-1--55-underside": {
+        "target": [
+          111.82015544049575,
+          33.10969812759074,
+          200.71314980588664
+        ],
+        "position": [
+          60.65314144317855,
+          14.953660902736253,
+          217.218638192118
+        ],
+        "fov": 35,
+        "allowUnderside": true
+      },
+      "S17-side-1-55-cam-view": {
+        "target": [
+          109.88830311835963,
+          41.11441942209056,
+          311.81053892628717
+        ],
+        "position": [
+          64.57773461569103,
+          56.217942256313435,
+          325.5410142301261
+        ],
+        "fov": 35
+      },
+      "S17-side-1-55-underside": {
+        "target": [
+          111.82015544049575,
+          33.10969812759074,
+          310.71314980588664
+        ],
+        "position": [
+          60.65314144317855,
+          14.953660902736251,
+          327.218638192118
+        ],
+        "fov": 35,
+        "allowUnderside": true
+      },
+      "S17-end--1--80-cam-view": {
+        "target": [
+          -83.24445644722603,
+          41.3268455893557,
+          163.82474060562532
+        ],
+        "position": [
+          -80.38249656763801,
+          51.82069848117841,
+          207.70812542597486
+        ],
+        "fov": 35
+      },
+      "S17-end--1--80-underside": {
+        "target": [
+          -83.78670066891691,
+          33.35794069439494,
+          162.27266931011582
+        ],
+        "position": [
+          -80.39729515477902,
+          20.93012047588932,
+          211.98395018413828
+        ],
+        "fov": 35,
+        "allowUnderside": true
+      },
+      "S17-end--1-80-cam-view": {
+        "target": [
+          76.75554355277397,
+          41.3268455893557,
+          163.82474060562532
+        ],
+        "position": [
+          79.61750343236199,
+          51.82069848117841,
+          207.70812542597486
+        ],
+        "fov": 35
+      },
+      "S17-end--1-80-underside": {
+        "target": [
+          76.21329933108309,
+          33.35794069439494,
+          162.27266931011582
+        ],
+        "position": [
+          79.60270484522098,
+          20.93012047588932,
+          211.98395018413828
+        ],
+        "fov": 35,
+        "allowUnderside": true
+      },
+      "S17-end-1--80-cam-view": {
+        "target": [
+          -76.35688252040455,
+          41.28326031478704,
+          356.27866215005554
+        ],
+        "position": [
+          -71.23687754049685,
+          60.05661190778195,
+          311.90528565752214
+        ],
+        "fov": 35
+      },
+      "S17-end-1--80-underside": {
+        "target": [
+          -76.18237989487746,
+          33.327205541771086,
+          359.1313999731619
+        ],
+        "position": [
+          -69.94168483969315,
+          10.444657006095294,
+          309.20583953168745
+        ],
+        "fov": 35,
+        "allowUnderside": true
+      },
+      "S17-end-1-80-cam-view": {
+        "target": [
+          83.64311747959545,
+          41.28326031478704,
+          356.27866215005554
+        ],
+        "position": [
+          88.76312245950315,
+          60.05661190778195,
+          311.90528565752214
+        ],
+        "fov": 35
+      },
+      "S17-end-1-80-underside": {
+        "target": [
+          83.81762010512254,
+          33.327205541771086,
+          359.1313999731619
+        ],
+        "position": [
+          90.05831516030685,
+          10.444657006095294,
+          309.20583953168745
+        ],
+        "fov": 35,
+        "allowUnderside": true
+      },
+      "S18-H20-0-view": {
+        "target": [
+          -113.78426911783683,
+          41.06806302461821,
+          198.98981404623402
+        ],
+        "position": [
+          -90.71649737873601,
+          75.66972063326945,
+          239.35841458966047
+        ],
+        "fov": 35
+      },
+      "S18-H20-1-view": {
+        "target": [
+          -113.78426911783683,
+          41.06806302461821,
+          238.98981404623402
+        ],
+        "position": [
+          -90.71649737873601,
+          75.66972063326945,
+          279.35841458966047
+        ],
+        "fov": 35
+      },
+      "S18-H20-2-view": {
+        "target": [
+          -113.78426911783683,
+          41.06806302461821,
+          288.989814046234
+        ],
+        "position": [
+          -90.71649737873601,
+          75.66972063326945,
+          329.35841458966047
+        ],
+        "fov": 35
+      },
+      "S18-H20-3-view": {
+        "target": [
+          -113.78426911783683,
+          41.06806302461821,
+          328.989814046234
+        ],
+        "position": [
+          -90.71649737873601,
+          75.66972063326945,
+          369.35841458966047
+        ],
+        "fov": 35
+      },
+      "S18-H20-4-view": {
+        "target": [
+          -52.11018595376599,
+          41.06806302461821,
+          358.9842691178368
+        ],
+        "position": [
+          -11.741585410339582,
+          75.66972063326942,
+          335.916497378736
+        ],
+        "fov": 35
+      },
+      "S18-H20-5-view": {
+        "target": [
+          60.089814046234,
+          41.06806302461821,
+          358.9842691178368
+        ],
+        "position": [
+          100.45841458966042,
+          75.66972063326942,
+          335.916497378736
+        ],
+        "fov": 35
+      },
+      "S19-H20-0-view": {
+        "target": [
+          113.78426911783683,
+          41.06806302461821,
+          191.01018595376598
+        ],
+        "position": [
+          90.71649737873602,
+          75.66972063326943,
+          150.6415854103396
+        ],
+        "fov": 35
+      },
+      "S19-H20-1-view": {
+        "target": [
+          113.78426911783683,
+          41.06806302461821,
+          231.01018595376598
+        ],
+        "position": [
+          90.71649737873602,
+          75.66972063326943,
+          190.6415854103396
+        ],
+        "fov": 35
+      },
+      "S19-H20-2-view": {
+        "target": [
+          113.78426911783683,
+          41.06806302461821,
+          281.010185953766
+        ],
+        "position": [
+          90.71649737873602,
+          75.66972063326943,
+          240.6415854103396
+        ],
+        "fov": 35
+      },
+      "S19-H20-3-view": {
+        "target": [
+          113.78426911783683,
+          41.06806302461821,
+          321.010185953766
+        ],
+        "position": [
+          90.71649737873602,
+          75.66972063326943,
+          280.6415854103396
+        ],
+        "fov": 35
+      },
+      "S19-H20-4-view": {
+        "target": [
+          -60.089814046234,
+          41.06806302461821,
+          161.01573088216315
+        ],
+        "position": [
+          -100.45841458966044,
+          75.66972063326945,
+          184.083502621264
+        ],
+        "fov": 35
+      },
+      "S19-H20-5-view": {
+        "target": [
+          52.11018595376599,
+          41.06806302461821,
+          161.01573088216315
+        ],
+        "position": [
+          11.741585410339567,
+          75.66972063326942,
+          184.08350262126402
+        ],
+        "fov": 35
+      },
+      "S20-D2-0-edge": {
+        "target": [
+          -18.91130679287675,
+          27.058137585823914,
+          188.25754332674188
+        ],
+        "position": [
+          46.24919072300259,
+          142.89902205849828,
+          448.89953339025925
+        ],
+        "fov": 35
+      },
+      "S20-D2-0-screw": {
+        "target": [
+          -109.85850615847997,
+          40.57592816523869,
+          180.97491720014887
+        ],
+        "position": [
+          -76.75191778560796,
+          80.30383421268512,
+          224.0134820848825
+        ],
+        "fov": 35
+      },
+      "S20-D2-1-edge": {
+        "target": [
+          -18.91130679287675,
+          27.058137585823914,
+          230.25754332674188
+        ],
+        "position": [
+          46.24919072300259,
+          142.89902205849828,
+          490.89953339025925
+        ],
+        "fov": 35
+      },
+      "S20-D2-1-screw": {
+        "target": [
+          -109.85850615847997,
+          40.57592816523869,
+          222.97491720014887
+        ],
+        "position": [
+          -76.75191778560796,
+          80.30383421268512,
+          266.01348208488247
+        ],
+        "fov": 35
+      },
+      "S20-D2-2-edge": {
+        "target": [
+          -18.91130679287675,
+          27.058137585823914,
+          272.2575433267419
+        ],
+        "position": [
+          46.24919072300259,
+          142.89902205849828,
+          532.8995333902593
+        ],
+        "fov": 35
+      },
+      "S20-D2-2-screw": {
+        "target": [
+          -109.85850615847997,
+          40.57592816523869,
+          264.97491720014887
+        ],
+        "position": [
+          -76.75191778560796,
+          80.30383421268512,
+          308.01348208488247
+        ],
+        "fov": 35
+      },
+      "S20-D2-3-edge": {
+        "target": [
+          -18.91130679287675,
+          27.058137585823914,
+          314.2575433267419
+        ],
+        "position": [
+          46.24919072300259,
+          142.89902205849828,
+          574.8995333902593
+        ],
+        "fov": 35
+      },
+      "S20-D2-3-screw": {
+        "target": [
+          -109.85850615847997,
+          40.57592816523869,
+          306.97491720014887
+        ],
+        "position": [
+          -76.75191778560796,
+          80.30383421268512,
+          350.01348208488247
+        ],
+        "fov": 35
+      },
+      "S20-D2-4-edge": {
+        "target": [
+          -18.91130679287675,
+          27.058137585823914,
+          356.2575433267419
+        ],
+        "position": [
+          46.24919072300259,
+          142.89902205849828,
+          616.8995333902593
+        ],
+        "fov": 35
+      },
+      "S20-D2-4-screw": {
+        "target": [
+          -109.85850615847997,
+          40.57592816523869,
+          348.97491720014887
+        ],
+        "position": [
+          -76.75191778560796,
+          80.30383421268512,
+          392.01348208488247
+        ],
+        "fov": 35
+      },
+      "S21-bed-context": {
+        "target": [
+          -34.99519816059323,
+          49.49838430800127,
+          316.3837697547796
+        ],
+        "position": [
+          213.11961723521614,
+          545.72801509962,
+          777.1684269184256
+        ],
+        "fov": 35
+      },
+      "S29-open-context": {
+        "target": [
+          66.02947252607808,
+          71.92453135087544,
+          -77.14239528176323
+        ],
+        "position": [
+          209.81487826016948,
+          293.13284786486224,
+          -475.31736500693944
+        ],
+        "fov": 55
+      },
+      "S27-raised-context": {
+        "target": [
+          49.77191692212736,
+          79.33783418293262,
+          -7.009962641809597
+        ],
+        "position": [
+          241.14493940663823,
+          238.81535292002502,
+          -581.1290300953423
+        ],
+        "fov": 35
+      },
+      "S25-supported-route": {
+        "target": [
+          -68.05010607399149,
+          65.14547317440795,
+          261.4733816000355
+        ],
+        "position": [
+          -221.16459646419506,
+          324.2623030655217,
+          638.3705887143827
+        ],
+        "fov": 55
+      },
+      "S25-outbound": {
+        "target": [
+          88.14391918884434,
+          79.72288954196699,
+          299.1964321772822
+        ],
+        "position": [
+          167.8931185029236,
+          345.5535539222313,
+          751.1085616237316
+        ],
+        "fov": 55
+      },
+      "S25-outside-route": {
+        "target": [
+          352.11120525441595,
+          92.06342481827431,
+          128.3705287979556
+        ],
+        "position": [
+          692.476343080241,
+          568.5746177744295,
+          128.3705287979556
+        ],
+        "fov": 55
+      },
+      "S25-front-stage": {
+        "target": [
+          228.94420611970037,
+          65.52448863161463,
+          -148.90392361437958
+        ],
+        "position": [
+          287.2737103094005,
+          357.17200958011523,
+          -644.7047092268305
+        ],
+        "fov": 55
+      },
+      "S25-supported-lift": {
+        "target": [
+          80.43967459161817,
+          78.80802484241035,
+          -118.77699673653385
+        ],
+        "position": [
+          271.9078477051186,
+          285.0045189646416,
+          -648.9965530508427
+        ],
+        "fov": 55
+      },
+      "S25-supported-seat": {
+        "target": [
+          64.44401103273911,
+          79.3539435522394,
+          -52.97181141795863
+        ],
+        "position": [
+          281.9914429907419,
+          209.8824027270411,
+          -488.0666753339642
+        ],
+        "fov": 55
+      },
+      "S31-open-result": {
+        "target": [
+          66.02947252607808,
+          31.92453135087544,
+          -77.14239528176323
+        ],
+        "position": [
+          209.81487826016948,
+          253.13284786486224,
+          -475.31736500693944
+        ],
+        "fov": 55
+      },
+      "S21-plate": {
+        "target": [
+          -114.04994910962631,
+          40.67995634204568,
+          339.05979639459895
+        ],
+        "position": [
+          -179.04152867962145,
+          65.95445950815491,
+          317.3959365379339
+        ],
+        "fov": 35
+      },
+      "S21-screw": {
+        "target": [
+          -113.56577214302246,
+          40.31355626237702,
+          331.1930472297333
+        ],
+        "position": [
+          -145.4454681574364,
+          50.940121600515006,
+          322.3375761146183
+        ],
+        "fov": 35
+      },
+      "S22-plate": {
+        "target": [
+          117.6740814509417,
+          40.67995634204568,
+          349.93219341854507
+        ],
+        "position": [
+          182.66566102093682,
+          65.95445950815491,
+          328.26833356188
+        ],
+        "fov": 35
+      },
+      "S22-screw": {
+        "target": [
+          115.0255512017528,
+          40.31355626237702,
+          336.4482518411625
+        ],
+        "position": [
+          146.90524721616677,
+          50.940121600515006,
+          327.5927807260475
+        ],
+        "fov": 35
+      },
+      "S23-mechanism": {
+        "target": [
+          -113.80304487388521,
+          40.14833408151455,
+          338.50746870317016
+        ],
+        "position": [
+          -186.79245344333327,
+          64.47813693799725,
+          314.1776658466875
+        ],
+        "fov": 35
+      },
+      "S23-piston": {
+        "target": [
+          -107.06252814811963,
+          20.58492865143619,
+          324.0168234960489
+        ],
+        "position": [
+          -465.07344580786923,
+          83.76332588550964,
+          176.60056328321085
+        ],
+        "fov": 35
+      },
+      "S24-mechanism": {
+        "target": [
+          117.80795467720606,
+          40.14833408151455,
+          350.52219811313273
+        ],
+        "position": [
+          190.79736324665413,
+          64.47813693799725,
+          326.19239525665006
+        ],
+        "fov": 35
+      },
+      "S24-piston": {
+        "target": [
+          130.50533361979015,
+          20.58492865143619,
+          380.9493510701059
+        ],
+        "position": [
+          488.51625127953974,
+          83.76332588550964,
+          233.5330908572678
+        ],
+        "fov": 35
+      },
+      "S25-bearing-lowering-end": {
+        "position": [
+          -116.9,
+          36.9,
+          -13
+        ],
+        "target": [
+          -115.95,
+          35.9,
+          -9.2
+        ],
+        "fov": 75
+      },
+      "S25--1-pivot": {
+        "position": [
+          -116.9,
+          37.5,
+          -13
+        ],
+        "target": [
+          -115.95,
+          36.5,
+          -9.2
+        ],
+        "fov": 55
+      },
+      "S25--1-outside-retainer": {
+        "target": [
+          -115.77342832824054,
+          33.349064191025704,
+          -13.194333497607307
+        ],
+        "position": [
+          -161.89723587126977,
+          44.880016076783015,
+          -32.412586640536155
+        ],
+        "fov": 35
+      },
+      "S25-1-pivot": {
+        "position": [
+          116.9,
+          37.5,
+          -13
+        ],
+        "target": [
+          115.95,
+          36.5,
+          -9.2
+        ],
+        "fov": 55
+      },
+      "S25-1-outside-retainer": {
+        "target": [
+          118.86898219392604,
+          33.349064191025704,
+          -5.765004219962092
+        ],
+        "position": [
+          164.99278973695527,
+          44.880016076783015,
+          -24.98325736289094
+        ],
+        "fov": 35
+      },
+      "S26-cabinet-eye": {
+        "target": [
+          -109.73666946335138,
+          103.29596496036595,
+          15.794449580059482
+        ],
+        "position": [
+          -23.551404172302963,
+          117.66017584220735,
+          -46.45046424125327
+        ],
+        "fov": 35
+      },
+      "S27-cabinet-eye": {
+        "target": [
+          119.59469811417303,
+          103.29596496036595,
+          2.1448714481525757
+        ],
+        "position": [
+          33.40943282312462,
+          117.66017584220735,
+          -60.10004237316018
+        ],
+        "fov": 35
+      },
+      "S28--1-leg": {
+        "target": [
+          68.3760237087701,
+          33.95137162049596,
+          -450.5793893300265
+        ],
+        "position": [
+          0.7471839047581668,
+          61.00290754210073,
+          -558.7855330164456
+        ],
+        "fov": 35
+      },
+      "S28--1-D7": {
+        "target": [
+          64.91605180823177,
+          55.901801849319206,
+          -453.57099379742243
+        ],
+        "position": [
+          9.35257363630142,
+          71.3361013415221,
+          -469.0052932896253
+        ],
+        "fov": 35
+      },
+      "S28--1-D7-insert-face": {
+        "target": [
+          56.83969797641632,
+          56.78032758463706,
+          -452.417594267569
+        ],
+        "position": [
+          14.699602797156638,
+          68.48590957887585,
+          -464.12317626180777
+        ],
+        "fov": 35
+      },
+      "S28--1-D7-opposite-bolts": {
+        "target": [
+          66.26214171174935,
+          56.78032758463706,
+          -445.57097139017253
+        ],
+        "position": [
+          108.40223689100903,
+          68.48590957887586,
+          -457.27655338441133
+        ],
+        "fov": 35
+      },
+      "S28--1-D6": {
+        "target": [
+          64.91605180823177,
+          21.449082900286413,
+          -455.376584287804
+        ],
+        "position": [
+          9.35257363630142,
+          36.88338239248929,
+          -470.81088378000686
+        ],
+        "fov": 35
+      },
+      "S28--1-D6-insert-face": {
+        "target": [
+          56.83969797641632,
+          22.327608635604264,
+          -454.22318475795055
+        ],
+        "position": [
+          14.699602797156638,
+          34.03319062984306,
+          -465.92876675218935
+        ],
+        "fov": 35
+      },
+      "S28--1-D6-opposite-bolts": {
+        "target": [
+          66.26214171174935,
+          22.327608635604264,
+          -447.3765618805541
+        ],
+        "position": [
+          108.40223689100903,
+          34.03319062984306,
+          -459.0821438747929
+        ],
+        "fov": 35
+      },
+      "S28-1-leg": {
+        "target": [
+          308.9842351931912,
+          33.95137162049596,
+          -439.7292275163007
+        ],
+        "position": [
+          376.6130749972031,
+          61.00290754210073,
+          -547.9353712027198
+        ],
+        "fov": 35
+      },
+      "S28-1-D7": {
+        "target": [
+          297.59160337266854,
+          55.901801849319206,
+          -444.5434351461812
+        ],
+        "position": [
+          353.1550815445989,
+          71.3361013415221,
+          -459.97773463838405
+        ],
+        "fov": 35
+      },
+      "S28-1-D7-insert-face": {
+        "target": [
+          305.06214171174935,
+          56.78032758463706,
+          -445.57097139017253
+        ],
+        "position": [
+          347.202236891009,
+          68.48590957887586,
+          -457.27655338441133
+        ],
+        "fov": 35
+      },
+      "S28-1-D7-opposite-bolts": {
+        "target": [
+          295.6396979764163,
+          56.78032758463706,
+          -452.417594267569
+        ],
+        "position": [
+          253.49960279715663,
+          68.48590957887586,
+          -464.12317626180777
+        ],
+        "fov": 35
+      },
+      "S28-1-D6": {
+        "target": [
+          297.59160337266854,
+          21.449082900286413,
+          -446.34902563656277
+        ],
+        "position": [
+          353.1550815445989,
+          36.88338239248929,
+          -461.7833251287656
+        ],
+        "fov": 35
+      },
+      "S28-1-D6-insert-face": {
+        "target": [
+          305.06214171174935,
+          22.327608635604264,
+          -447.3765618805541
+        ],
+        "position": [
+          347.202236891009,
+          34.03319062984306,
+          -459.0821438747929
+        ],
+        "fov": 35
+      },
+      "S28-1-D6-opposite-bolts": {
+        "target": [
+          295.6396979764163,
+          22.327608635604264,
+          -454.22318475795055
+        ],
+        "position": [
+          253.49960279715663,
+          34.03319062984306,
+          -465.92876675218935
+        ],
+        "fov": 35
+      },
+      "S29--1-joint": {
+        "target": [
+          -114.83533040081294,
+          34.05212339426494,
+          -180.45940634033064
+        ],
+        "position": [
+          -150.30799935509503,
+          46.86169829442237,
+          -196.22503698667825
+        ],
+        "fov": 35
+      },
+      "S29--1-pivot-bolt": {
+        "target": [
+          -115.07891531833745,
+          35.10807863247253,
+          -179.05337664485683
+        ],
+        "position": [
+          -135.2495259467548,
+          42.3919102482899,
+          -188.018092479709
+        ],
+        "fov": 35
+      },
+      "S29--1-inside-canopy": {
+        "target": [
+          -108.8881258997862,
+          32.82767580509672,
+          -173.29454668287786
+        ],
+        "position": [
+          -55.67174229882949,
+          52.04470321655331,
+          -196.94627272774753
+        ],
+        "fov": 35
+      },
+      "S29-1-joint": {
+        "target": [
+          117.44096631501698,
+          34.05212339426494,
+          -174.5967255333715
+        ],
+        "position": [
+          152.9136352692991,
+          46.86169829442237,
+          -190.36235617971911
+        ],
+        "fov": 35
+      },
+      "S29-1-pivot-bolt": {
+        "target": [
+          116.56054241362502,
+          35.10807863247253,
+          -175.7197156804598
+        ],
+        "position": [
+          136.73115304204237,
+          42.3919102482899,
+          -184.68443151531199
+        ],
+        "fov": 35
+      },
+      "S29-1-inside-canopy": {
+        "target": [
+          112.79712187957625,
+          32.82767580509672,
+          -182.08978763740546
+        ],
+        "position": [
+          59.58073827861954,
+          52.04470321655331,
+          -205.74151368227513
+        ],
+        "fov": 35
+      },
+      "S30-0-anchor": {
+        "target": [
+          -126.90143064777155,
+          203.49368111181872,
+          13.351000247234332
+        ],
+        "position": [
+          -190.81817069038627,
+          223.0237961248399,
+          45.30937026854169
+        ],
+        "fov": 35
+      },
+      "S30-1-anchor": {
+        "target": [
+          -126.90143064777155,
+          27.493681111818717,
+          13.351000247234332
+        ],
+        "position": [
+          -190.81817069038627,
+          47.02379612483988,
+          45.30937026854169
+        ],
+        "fov": 35
+      },
+      "S31-0-anchor": {
+        "target": [
+          121.70165858645039,
+          203.49368111181872,
+          23.75054436987665
+        ],
+        "position": [
+          185.6183986290651,
+          223.0237961248399,
+          55.70891439118401
+        ],
+        "fov": 35
+      },
+      "S31-1-anchor": {
+        "target": [
+          121.70165858645039,
+          27.493681111818717,
+          23.75054436987665
+        ],
+        "position": [
+          185.6183986290651,
+          47.02379612483988,
+          55.70891439118401
+        ],
+        "fov": 35
+      },
+      "full-D8-interior": {
+        "target": [
+          -95.6728584417593,
+          49.70969920203842,
+          23.02154945986586
+        ],
+        "position": [
+          226.24134173944887,
+          139.13031036348514,
+          -173.7037950953169
+        ],
+        "fov": 35
+      },
+      "full-D9-interior": {
+        "target": [
+          127.40409853884049,
+          49.70969920203842,
+          -28.90229797172153
+        ],
+        "position": [
+          -194.5101016423677,
+          139.13031036348514,
+          -225.6276425269043
+        ],
+        "fov": 35
+      },
+      "full-S9-H21-0-install-receiver": {
+        "target": [
+          118.12744791499823,
+          106.92341327602598,
+          6.845260064491155
+        ],
+        "position": [
+          74.01057401831532,
+          120.40356918890132,
+          -13.987708164497993
+        ],
+        "fov": 35
+      },
+      "full-S9-H21-1-install-receiver": {
+        "target": [
+          118.12744791499823,
+          106.92341327602598,
+          4.245260064491154
+        ],
+        "position": [
+          74.01057401831532,
+          120.40356918890132,
+          -16.587708164497997
+        ],
+        "fov": 35
+      },
+      "full-S9-H21-2-install-receiver": {
+        "target": [
+          118.12744791499823,
+          103.92341327602598,
+          6.845260064491155
+        ],
+        "position": [
+          74.01057401831532,
+          117.40356918890132,
+          -13.987708164497993
+        ],
+        "fov": 35
+      },
+      "full-S9-H21-3-install-receiver": {
+        "target": [
+          118.12744791499823,
+          103.92341327602598,
+          4.245260064491154
+        ],
+        "position": [
+          74.01057401831532,
+          117.40356918890132,
+          -16.587708164497997
+        ],
+        "fov": 35
+      },
+      "full-S9-H21-4-install-receiver": {
+        "target": [
+          118.12744791499823,
+          80.92341327602598,
+          5.5452600644911545
+        ],
+        "position": [
+          74.01057401831532,
+          94.40356918890132,
+          -15.287708164497994
+        ],
+        "fov": 35
+      },
+      "full-S9-H21-5-install-receiver": {
+        "target": [
+          118.12744791499823,
+          57.923413276025975,
+          6.845260064491155
+        ],
+        "position": [
+          74.01057401831532,
+          71.40356918890132,
+          -13.987708164497993
+        ],
+        "fov": 35
+      },
+      "full-S9-H21-6-install-receiver": {
+        "target": [
+          118.12744791499823,
+          57.923413276025975,
+          4.245260064491154
+        ],
+        "position": [
+          74.01057401831532,
+          71.40356918890132,
+          -16.587708164497997
+        ],
+        "fov": 35
+      },
+      "full-S9-H21-7-install-receiver": {
+        "target": [
+          118.12744791499823,
+          56.923413276025975,
+          -0.9547399355088455
+        ],
+        "position": [
+          74.01057401831532,
+          70.40356918890132,
+          -21.787708164497992
+        ],
+        "fov": 35
+      },
+      "full-S9-H21-8-install-receiver": {
+        "target": [
+          118.12744791499823,
+          56.923413276025975,
+          -6.9547399355088455
+        ],
+        "position": [
+          74.01057401831532,
+          70.40356918890132,
+          -27.787708164497992
+        ],
+        "fov": 35
+      },
+      "full-S9-H21-9-install-receiver": {
+        "target": [
+          118.12744791499823,
+          56.423413276025975,
+          -14.954739935508846
+        ],
+        "position": [
+          74.01057401831532,
+          69.90356918890132,
+          -35.78770816449799
+        ],
+        "fov": 35
+      },
+      "full-S10-H21-0-install-receiver": {
+        "target": [
+          -114.73522925510434,
+          106.92341327602598,
+          14.028781932501726
+        ],
+        "position": [
+          -70.61835535842144,
+          120.40356918890132,
+          -6.804186296487423
+        ],
+        "fov": 35
+      },
+      "full-S10-H21-1-install-receiver": {
+        "target": [
+          -114.73522925510434,
+          106.92341327602598,
+          11.428781932501725
+        ],
+        "position": [
+          -70.61835535842144,
+          120.40356918890132,
+          -9.404186296487424
+        ],
+        "fov": 35
+      },
+      "full-S10-H21-2-install-receiver": {
+        "target": [
+          -114.73522925510434,
+          103.92341327602598,
+          14.028781932501726
+        ],
+        "position": [
+          -70.61835535842144,
+          117.40356918890132,
+          -6.804186296487423
+        ],
+        "fov": 35
+      },
+      "full-S10-H21-3-install-receiver": {
+        "target": [
+          -114.73522925510434,
+          103.92341327602598,
+          11.428781932501725
+        ],
+        "position": [
+          -70.61835535842144,
+          117.40356918890132,
+          -9.404186296487424
+        ],
+        "fov": 35
+      },
+      "full-S10-H21-4-install-receiver": {
+        "target": [
+          -114.73522925510434,
+          80.92341327602598,
+          12.728781932501725
+        ],
+        "position": [
+          -70.61835535842144,
+          94.40356918890132,
+          -8.104186296487423
+        ],
+        "fov": 35
+      },
+      "full-S10-H21-5-install-receiver": {
+        "target": [
+          -114.73522925510434,
+          57.923413276025975,
+          14.028781932501726
+        ],
+        "position": [
+          -70.61835535842144,
+          71.40356918890132,
+          -6.804186296487423
+        ],
+        "fov": 35
+      },
+      "full-S10-H21-6-install-receiver": {
+        "target": [
+          -114.73522925510434,
+          57.923413276025975,
+          11.428781932501725
+        ],
+        "position": [
+          -70.61835535842144,
+          71.40356918890132,
+          -9.404186296487424
+        ],
+        "fov": 35
+      },
+      "full-S10-H21-7-install-receiver": {
+        "target": [
+          -114.73522925510434,
+          56.923413276025975,
+          6.228781932501725
+        ],
+        "position": [
+          -70.61835535842144,
+          70.40356918890132,
+          -14.604186296487423
+        ],
+        "fov": 35
+      },
+      "full-S10-H21-8-install-receiver": {
+        "target": [
+          -114.73522925510434,
+          56.923413276025975,
+          0.2287819325017253
+        ],
+        "position": [
+          -70.61835535842144,
+          70.40356918890132,
+          -20.604186296487423
+        ],
+        "fov": 35
+      },
+      "full-S10-H21-9-install-receiver": {
+        "target": [
+          -114.73522925510434,
+          56.423413276025975,
+          -7.771218067498275
+        ],
+        "position": [
+          -70.61835535842144,
+          69.90356918890132,
+          -28.604186296487423
+        ],
+        "fov": 35
+      }
+    }
+  }
+}

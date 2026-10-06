@@ -1,0 +1,7 @@
+{
+  "decodedSamplePeakDbfs": -13.77066575549595,
+  "integratedLUFS": -33.1,
+  "truePeakDbTP": -13.8,
+  "summary": "\n\n  Integrated loudness:\n    I:         -33.1 LUFS\n    Threshold: -43.5 LUFS\n\n  Loudness range:\n    LRA:         9.5 LU\n    Threshold: -58.5 LUFS\n    LRA low:   -44.8 LUFS\n    LRA high:  -35.4 LUFS\n\n  True peak:\n    Peak:      -13.8 dBFS\n[out#0/null @ 0x158e14030] video:0KiB audio:98264KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:08:44.07 bitrate=N/A speed= 275x elapsed=0:00:01.90    \n",
+  "normalization": "None; restrained per-cue gains and fades. Intentional silent rests retained."
+}

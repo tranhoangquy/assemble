@@ -1,0 +1,101 @@
+[
+  {
+    "name": "A-intro",
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/review-clips/A-intro.mp4",
+    "requested_source_start": 0,
+    "requested_duration": 15,
+    "actual_container_duration": "15.087683",
+    "video_audio_stream_copy": true,
+    "full_decode": "PASS",
+    "sha256": "83638d82eda294dd65f81752a908e610fa0417cdabcd703d5baca278890ff402",
+    "note": "Review clip includes available GOP/AAC preroll because streams were copied. Review timestamps reset; final master untouched."
+  },
+  {
+    "name": "B-early-assembly",
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/review-clips/B-early-assembly.mp4",
+    "requested_source_start": 30,
+    "requested_duration": 20,
+    "actual_container_duration": "20.135677",
+    "video_audio_stream_copy": true,
+    "full_decode": "PASS",
+    "sha256": "3004ad3182791bdb24fae02458d6840335993d8f0952d344411eb74822426764",
+    "note": "Review clip includes available GOP/AAC preroll because streams were copied. Review timestamps reset; final master untouched."
+  },
+  {
+    "name": "C-transition-A-B",
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/review-clips/C-transition-A-B.mp4",
+    "requested_source_start": 182.515,
+    "requested_duration": 22.5,
+    "actual_container_duration": "22.977018",
+    "video_audio_stream_copy": true,
+    "full_decode": "PASS",
+    "sha256": "c1a04a2d0cbb7b4358bcd8588f234212c65e906b7851e8229f452729c46adfd0",
+    "note": "Review clip includes available GOP/AAC preroll because streams were copied. Review timestamps reset; final master untouched."
+  },
+  {
+    "name": "D-mid-assembly",
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/review-clips/D-mid-assembly.mp4",
+    "requested_source_start": 240,
+    "requested_duration": 20,
+    "actual_container_duration": "20.940690",
+    "video_audio_stream_copy": true,
+    "full_decode": "PASS",
+    "sha256": "7285887dec59c7afa6760bbc8e52e7d3ec40d93499229dcefd7ba77e7daaf968",
+    "note": "Review clip includes available GOP/AAC preroll because streams were copied. Review timestamps reset; final master untouched."
+  },
+  {
+    "name": "E-transition-B-C",
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/review-clips/E-transition-B-C.mp4",
+    "requested_source_start": 284.841125,
+    "requested_duration": 24,
+    "actual_container_duration": "24.282031",
+    "video_audio_stream_copy": true,
+    "full_decode": "PASS",
+    "sha256": "2732d8f5f939636c10f685e8e2aa0d536b7b1ee340d2362d30f29dff385828f1",
+    "note": "Review clip includes available GOP/AAC preroll because streams were copied. Review timestamps reset; final master untouched."
+  },
+  {
+    "name": "F-steps-25-27",
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/review-clips/F-steps-25-27.mp4",
+    "requested_source_start": 370.3036938888889,
+    "requested_duration": 40.5,
+    "actual_container_duration": "41.939649",
+    "video_audio_stream_copy": true,
+    "full_decode": "PASS",
+    "sha256": "8c0cd1eb0601a0eb6002893efdd2a271d8a2f314a3ca2852f3f02bed87c7a255",
+    "note": "Review clip includes available GOP/AAC preroll because streams were copied. Review timestamps reset; final master untouched."
+  },
+  {
+    "name": "G-late-assembly",
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/review-clips/G-late-assembly.mp4",
+    "requested_source_start": 467,
+    "requested_duration": 15,
+    "actual_container_duration": "19.111328",
+    "video_audio_stream_copy": true,
+    "full_decode": "PASS",
+    "sha256": "a6e10d93bddb02e6cebf70c43e060312e6c4d39a61be2a612411c37f789d3f56",
+    "note": "Review clip includes available GOP/AAC preroll because streams were copied. Review timestamps reset; final master untouched."
+  },
+  {
+    "name": "H-closed-open-showcase",
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/review-clips/H-closed-open-showcase.mp4",
+    "requested_source_start": 503,
+    "requested_duration": 14.253694,
+    "actual_container_duration": "16.148698",
+    "video_audio_stream_copy": true,
+    "full_decode": "PASS",
+    "sha256": "5dd2be6f28ba9b11e1aba521c0c3776e49a322f39f2892a5304e2a308e40dca5",
+    "note": "Review clip includes available GOP/AAC preroll because streams were copied. Review timestamps reset; final master untouched."
+  },
+  {
+    "name": "I-final-hero-fade",
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/review-clips/I-final-hero-fade.mp4",
+    "requested_source_start": 514.066667,
+    "requested_duration": 10,
+    "actual_container_duration": "14.370667",
+    "video_audio_stream_copy": true,
+    "full_decode": "PASS",
+    "sha256": "a378389570e6683984d7ad47c7d0f68df8b9403972c3046a26d8294600963e88",
+    "note": "Review clip includes available GOP/AAC preroll because streams were copied. Review timestamps reset; final master untouched."
+  }
+]

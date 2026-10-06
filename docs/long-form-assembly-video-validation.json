@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "frontmatterValidator": "Skill is valid! (system python3 with PyYAML 6.0.3)",
+  "localLinksChecked": 31,
+  "jsonTemplatesParsed": 4,
+  "templates": 10,
+  "checklists": 11,
+  "references": 5,
+  "genericCoreProductSpecificNameCheck": "PASS",
+  "masterImmutability": [
+    {
+      "path": "output/wf311613-standalone-murphy-bed/final/final-lofi-720p/WF311613-final-lofi-720p.mp4",
+      "sha256": "c42767184db43ce794aa165e9b60c6762c6551829833ed2f7ba60c7fdb42d457",
+      "status": "PASS"
+    },
+    {
+      "path": "output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/WF311613-lofi-mix-pass02.wav",
+      "sha256": "75b282e6e55a65923b00c152099f47e194b66c007f2e8053ccf6b9ec66690b2b",
+      "status": "PASS"
+    },
+    {
+      "path": "output/wf311613-standalone-murphy-bed/final/director-approved-full-720p-20261004/WF311613-director-approved-full-720p.mp4",
+      "sha256": "0d5d898cbfaecb4573f07e818ce722c6884cbd4dc67d7c51b7c6c724f404ba0a",
+      "status": "PASS"
+    }
+  ],
+  "applicationTestsLintBuild": "NOT RUN: documentation-only; no runtime/config/code changed",
+  "initialValidatorAttempt": "NOT RUN: bundled Python lacked yaml; retry with existing system Python passed; no dependencies installed",
+  "allPackageAndReportLocalLinksChecked": 81
+}

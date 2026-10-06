@@ -1,0 +1,106 @@
+{
+  holes: true,
+  fit: true,
+  symmetry: [
+    {
+      left: 'A1',
+      right: 'A4',
+      centerDelta: [Array],
+      sizeDelta: [Array],
+      holeRecords: [Array],
+      holeMirroredWorldWorst: 8.163514517232825e-14
+    },
+    {
+      left: 'A3',
+      right: 'A2',
+      centerDelta: [Array],
+      sizeDelta: [Array],
+      holeRecords: [Array],
+      holeMirroredWorldWorst: 8.163514517232825e-14
+    },
+    {
+      left: 'A5',
+      right: 'A6',
+      centerDelta: [Array],
+      sizeDelta: [Array],
+      holeRecords: [Array],
+      holeMirroredWorldWorst: 3.351623381340333e-14
+    },
+    {
+      left: 'A7',
+      right: 'A7-R',
+      centerDelta: [Array],
+      sizeDelta: [Array],
+      holeRecords: [Array],
+      holeMirroredWorldWorst: 1.8369701987210292e-16
+    },
+    {
+      left: 'A8',
+      right: 'A8-R',
+      centerDelta: [Array],
+      sizeDelta: [Array],
+      holeRecords: [Array],
+      holeMirroredWorldWorst: 1.3322676295501878e-15
+    },
+    {
+      left: 'A9',
+      right: 'A9-R',
+      centerDelta: [Array],
+      sizeDelta: [Array],
+      holeRecords: [Array],
+      holeMirroredWorldWorst: 1.7763568394002505e-15
+    },
+    {
+      left: 'D8',
+      right: 'D9',
+      centerDelta: [Array],
+      sizeDelta: [Array],
+      holeRecords: [Array],
+      holeMirroredWorldWorst: 0
+    },
+    {
+      left: 'E1--1',
+      right: 'E1-1',
+      centerDelta: [Array],
+      sizeDelta: [Array],
+      holeRecords: [Array],
+      holeMirroredWorldWorst: 0
+    },
+    {
+      left: 'E2--1',
+      right: 'E2-1',
+      centerDelta: [Array],
+      sizeDelta: [Array],
+      holeRecords: [Array],
+      holeMirroredWorldWorst: 0
+    },
+    {
+      left: 'leg--1',
+      right: 'leg-1',
+      centerDelta: [Array],
+      sizeDelta: [Array],
+      holeRecords: [Array],
+      holeMirroredWorldWorst: 0
+    },
+    {
+      left: 'S30-H15-0',
+      right: 'S31-H15-0',
+      centerDelta: [Array],
+      sizeDelta: [Array],
+      holeRecords: [Array],
+      holeMirroredWorldWorst: 0
+    },
+    {
+      left: 'S30-H15-1',
+      right: 'S31-H15-1',
+      centerDelta: [Array],
+      sizeDelta: [Array],
+      holeRecords: [Array],
+      holeMirroredWorldWorst: 0
+    }
+  ],
+  unused: []
+}
+(node:22962) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)

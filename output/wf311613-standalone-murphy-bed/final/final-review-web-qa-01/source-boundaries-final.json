@@ -1,0 +1,480 @@
+{
+  "valid": true,
+  "candidate": "wf311613-final-micro-pass",
+  "freezeFileCount": 214,
+  "currentFileCount": 226,
+  "fullFrozenFileSet": [
+    "AGENTS.md",
+    "eslint.config.mjs",
+    "next-env.d.ts",
+    "next.config.ts",
+    "package-lock.json",
+    "package.json",
+    "scripts/build-review-gallery.ts",
+    "scripts/inspect-camera-views.ts",
+    "scripts/mux-approved-music.ts",
+    "scripts/render-checkpoints.ts",
+    "scripts/render-mechanism-diagnostics.ts",
+    "scripts/render-video.ts",
+    "scripts/validate-assembly.ts",
+    "scripts/verify-prefix-review.ts",
+    "scripts/verify-presentation-checkpoints.ts",
+    "src/app/api/export/[jobId]/download/route.ts",
+    "src/app/api/export/[jobId]/route.ts",
+    "src/app/api/export/route.ts",
+    "src/app/globals.css",
+    "src/app/layout.tsx",
+    "src/app/page.tsx",
+    "src/app/render/page.tsx",
+    "src/components/animation/AnimationController.tsx",
+    "src/components/debug/AssemblyDebugVisualizer.tsx",
+    "src/components/export/ExportVideoModal.tsx",
+    "src/components/product/GhostRenderer.tsx",
+    "src/components/product/PartRenderer.tsx",
+    "src/components/product/ProductRenderer.tsx",
+    "src/components/product/ProductWorkspace.tsx",
+    "src/components/timeline/Timeline.tsx",
+    "src/components/timeline/TimelineControls.tsx",
+    "src/components/ui/AssemblyStateInspector.tsx",
+    "src/components/ui/ControlPanel.tsx",
+    "src/components/ui/DebugPanel.tsx",
+    "src/components/ui/PartsPanel.tsx",
+    "src/components/ui/ScenePanel.tsx",
+    "src/components/ui/ValidationPanel.tsx",
+    "src/components/viewer/CameraController.tsx",
+    "src/components/viewer/Ground.tsx",
+    "src/components/viewer/Lighting.tsx",
+    "src/components/viewer/ProductViewer.tsx",
+    "src/components/viewer/Scene.tsx",
+    "src/engine/animation/ActionExecutor.ts",
+    "src/engine/animation/AnimationEngine.test.ts",
+    "src/engine/animation/AnimationEngine.ts",
+    "src/engine/animation/MechanismSolver.test.ts",
+    "src/engine/animation/MechanismSolver.ts",
+    "src/engine/animation/PresentationAxis.test.ts",
+    "src/engine/animation/rotation-endpoints.test.ts",
+    "src/engine/assembly/AssemblyGraph.ts",
+    "src/engine/assembly/AssemblyState.ts",
+    "src/engine/assembly/AssemblyValidator.test.ts",
+    "src/engine/assembly/AssemblyValidator.ts",
+    "src/engine/assembly/DependencyGraph.ts",
+    "src/engine/camera/CameraEngine.ts",
+    "src/engine/camera/CameraSeek.test.ts",
+    "src/engine/camera/InstructionalFraming.ts",
+    "src/engine/director/DirectorPlanCompiler.ts",
+    "src/engine/director/HardwareRecipeBuilder.ts",
+    "src/engine/export/ExportJobManager.ts",
+    "src/engine/geometry/FaceBores.test.ts",
+    "src/engine/geometry/FaceBores.ts",
+    "src/engine/geometry/GeometryFactory.ts",
+    "src/engine/geometry/SolidSubtraction.ts",
+    "src/engine/installation/InstallationCollisionChecker.test.ts",
+    "src/engine/installation/InstallationCollisionChecker.ts",
+    "src/engine/installation/InstallationPath.ts",
+    "src/engine/installation/InstallationPathResolver.ts",
+    "src/engine/installation/ProductTransformIndex.ts",
+    "src/engine/materials/MaterialFactory.ts",
+    "src/engine/product/ObjectRegistry.ts",
+    "src/engine/product/ProductEngine.ts",
+    "src/engine/product/ProductManager.ts",
+    "src/engine/render/FrameRenderer.ts",
+    "src/engine/video/SceneEngine.ts",
+    "src/engine/video/VideoEngine.ts",
+    "src/presentation/audio/approved-music.test.ts",
+    "src/presentation/audio/approved-music.ts",
+    "src/presentation/environment/BedroomEnvironment.tsx",
+    "src/presentation/environment/bedroom-config.test.ts",
+    "src/presentation/environment/bedroom-config.ts",
+    "src/presentation/finished-bedroom/FinishedBedroom.tsx",
+    "src/presentation/finished-bedroom/ResidentialBedroom.tsx",
+    "src/presentation/intro/PrefixedVideoEngine.ts",
+    "src/presentation/intro/definition.ts",
+    "src/products/demo-cabinet/assembly.json",
+    "src/products/demo-cabinet/index.ts",
+    "src/products/demo-cabinet/product.json",
+    "src/products/demo-cabinet/video.json",
+    "src/products/export-manager.ts",
+    "src/products/manager.ts",
+    "src/products/merax-queen-film/assembly.json",
+    "src/products/merax-queen-film/index.ts",
+    "src/products/merax-queen-film/make-narration.mjs",
+    "src/products/merax-queen-film/product.json",
+    "src/products/merax-queen-film/qa-film.mjs",
+    "src/products/merax-queen-film/scene-blueprint.md",
+    "src/products/merax-queen-film/video.json",
+    "src/products/murphy-bed/assembly.json",
+    "src/products/murphy-bed/index.ts",
+    "src/products/murphy-bed/product.json",
+    "src/products/murphy-bed/reconstruction-audit.md",
+    "src/products/murphy-bed/video.json",
+    "src/products/registry.ts",
+    "src/products/tests/registry.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/assembly/assembly.ts",
+    "src/products/wf311613-standalone-murphy-bed/assembly/installationPaths.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/actionPacing.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/camera-distance-audit.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/directorPlan.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/final-micro-pass.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/final-opening-pacing.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/front-staging.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/grounded-workspace.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/pacing.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/polish-camera-overrides.json",
+    "src/products/wf311613-standalone-murphy-bed/director/polish-pass01.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/polish-pass02.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/polish-pass02b.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/polish-presentation-cameras.json",
+    "src/products/wf311613-standalone-murphy-bed/director/polish02-workspace-cameras.json",
+    "src/products/wf311613-standalone-murphy-bed/director/presentation-camera-fit.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/probe-grounded-workspace.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/run-camera-distance-audit.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/run-final-camera-audit.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/run-polish02-camera-audit.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/run-presentation-camera-fit.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/step01-paced.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/step01-v2.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/step02-paced.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/step03-corrected.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/steps04-10.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/steps11-20.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/steps21-31.ts",
+    "src/products/wf311613-standalone-murphy-bed/index.ts",
+    "src/products/wf311613-standalone-murphy-bed/legacy/hardwareCatalog.ts",
+    "src/products/wf311613-standalone-murphy-bed/legacy/package.ts",
+    "src/products/wf311613-standalone-murphy-bed/presentation/captions.ts",
+    "src/products/wf311613-standalone-murphy-bed/presentation/labels.ts",
+    "src/products/wf311613-standalone-murphy-bed/product/foot-corner-reconstruction.ts",
+    "src/products/wf311613-standalone-murphy-bed/product/mechanism-reconstruction.ts",
+    "src/products/wf311613-standalone-murphy-bed/product/parts-step01.ts",
+    "src/products/wf311613-standalone-murphy-bed/product/parts-step02.ts",
+    "src/products/wf311613-standalone-murphy-bed/product/parts-step03.ts",
+    "src/products/wf311613-standalone-murphy-bed/product/parts-step04-10.ts",
+    "src/products/wf311613-standalone-murphy-bed/product/parts-step11-20.ts",
+    "src/products/wf311613-standalone-murphy-bed/product/parts-step21-31.ts",
+    "src/products/wf311613-standalone-murphy-bed/product/product.ts",
+    "src/products/wf311613-standalone-murphy-bed/references/action-speed-checkpoint.md",
+    "src/products/wf311613-standalone-murphy-bed/references/action-speed-v2.md",
+    "src/products/wf311613-standalone-murphy-bed/references/b8-closed-face-checkpoint.md",
+    "src/products/wf311613-standalone-murphy-bed/references/director-plan-review.md",
+    "src/products/wf311613-standalone-murphy-bed/references/final-pass-blocked-checkpoint.md",
+    "src/products/wf311613-standalone-murphy-bed/references/foot-corner-integration-checkpoint.md",
+    "src/products/wf311613-standalone-murphy-bed/references/narrow-mechanism-correction-checkpoint.md",
+    "src/products/wf311613-standalone-murphy-bed/references/narrow-mechanism-validation.json",
+    "src/products/wf311613-standalone-murphy-bed/references/semantic-pacing-checkpoint.md",
+    "src/products/wf311613-standalone-murphy-bed/references/sources.ts",
+    "src/products/wf311613-standalone-murphy-bed/references/step01-v2-checkpoint.md",
+    "src/products/wf311613-standalone-murphy-bed/references/step03-axial-checkpoint.md",
+    "src/products/wf311613-standalone-murphy-bed/references/steps01-10-paced-checkpoint.md",
+    "src/products/wf311613-standalone-murphy-bed/references/steps01-20-paced-checkpoint.md",
+    "src/products/wf311613-standalone-murphy-bed/tests/action-pacing.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/tests/b8-closed-face.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/tests/camera-distance-polish.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/tests/final-micro-pass.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/tests/final-opening.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/tests/folding-leg-validation.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/tests/foot-corner-reconstruction.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/tests/front-staging.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/tests/instructional-pacing.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/tests/mechanism-locks.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/tests/pivot-validation.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/tests/polish-pass01.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/tests/polish-pass02.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/tests/polish-pass02b.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/tests/step01-v2.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/tests/step03-corrected.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/tests/steps04-10.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/tests/steps11-20.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/tests/whole-scene-reset.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/tools/audit-micro-camera.ts",
+    "src/products/wf311613-standalone-murphy-bed/tools/make-narration.mjs",
+    "src/products/wf311613-standalone-murphy-bed/tools/report-micro-pass.ts",
+    "src/products/wf311613-standalone-murphy-bed/tools/report-polish02.ts",
+    "src/products/wf311613-standalone-murphy-bed/tools/report-polish02b.ts",
+    "src/products/wf311613-standalone-murphy-bed/tools/snapshot-polish02b.ts",
+    "src/products/wf311613-standalone-murphy-bed/tools/validate-micro-pass.ts",
+    "src/products/wf311613-standalone-murphy-bed/tools/verify-polish02b-locks.ts",
+    "src/products/wf311613-standalone-murphy-bed/tools/verify-polish02b-props.ts",
+    "src/products/wf311613-standalone-murphy-bed/validation/b8-checkpoints.ts",
+    "src/products/wf311613-standalone-murphy-bed/validation/b8-validation.ts",
+    "src/products/wf311613-standalone-murphy-bed/validation/folding-leg-validation.ts",
+    "src/products/wf311613-standalone-murphy-bed/validation/front-staging-validation.ts",
+    "src/products/wf311613-standalone-murphy-bed/validation/full-checkpoints.ts",
+    "src/products/wf311613-standalone-murphy-bed/validation/full-validation.ts",
+    "src/products/wf311613-standalone-murphy-bed/validation/mechanism-clearance-report.ts",
+    "src/products/wf311613-standalone-murphy-bed/validation/mechanism-preview.tsx",
+    "src/products/wf311613-standalone-murphy-bed/validation/pivot-search.ts",
+    "src/products/wf311613-standalone-murphy-bed/validation/run-full-gates.ts",
+    "src/products/wf311613-standalone-murphy-bed/validation/run-polish-gates.ts",
+    "src/products/wf311613-standalone-murphy-bed/validation/run-polish02-gates.ts",
+    "src/products/wf311613-standalone-murphy-bed/validation/step28-access-validation.ts",
+    "src/products/wf311613-standalone-murphy-bed/validation/steps11-20-checkpoints.ts",
+    "src/products/wf311613-standalone-murphy-bed/validation/steps11-20-validation.ts",
+    "src/types/assembly.ts",
+    "src/types/debug.ts",
+    "src/types/director.ts",
+    "src/types/export.ts",
+    "src/types/presentation.ts",
+    "src/types/product-package.ts",
+    "src/types/product.ts",
+    "src/types/video.ts",
+    "tsconfig.json"
+  ],
+  "checks": {
+    "productHash": true,
+    "materialHash": true,
+    "assemblyHash": true,
+    "approvedPlanHash": true,
+    "microVideoHash": true,
+    "camerasSha256": true,
+    "productPackageBytes": true,
+    "originalAssemblyReference": true,
+    "originalPlanReference": true,
+    "allAssemblyShowcaseSceneReferences": true,
+    "presentationReference": true,
+    "introExact": true,
+    "approvedStep26CameraExact": true,
+    "exactDeterministicTimeline": true,
+    "noUnexpectedPathDelta": true,
+    "historyPreserved": true,
+    "silent": true
+  },
+  "dataHashes": {
+    "productHash": "4645bcf33682cbf377d84a2d0f8139674b6d80f5a5014a29505bf97287f82a45",
+    "materialHash": "d9a96203382d9d92eaaec1cab45a97f97da01ac13d5fbec739477c9f06514bcc",
+    "assemblyHash": "19df9d72004a93989fc5245d5cbf953c8a6289423f2587749584ee4c322ba184",
+    "approvedPlanHash": "bf43ecdb93c8a43dd50ea4a9e46306882902cbaf813e24438826f8585045e520",
+    "microVideoHash": "58fb308c0117e3c9116aefa09a9f2bee840216ca23aca7d30240fca529c8c22b",
+    "camerasSha256": "18228f58ddd0eaa07f3e2682c2a89dd6174444f02536e66d6ca7f6f06101d9bf"
+  },
+  "changed": [
+    {
+      "path": "scripts/render-checkpoints.ts",
+      "before": "e6445d10b7ead7658f5122007765e7fb944bb61305faf632325d7f10152dcb06",
+      "after": "ec4b31a2adbc8d96d07b66586c30785fb9a33acb75e91e584d95b665e66f3b08"
+    },
+    {
+      "path": "scripts/render-video.ts",
+      "before": "4ab71f14ffd10d69adc5678383f9e4fbff7117c08d02eaf4d9c8668d911afc23",
+      "after": "29a283bb133ba146bde4e6b1e3a996f05b967ba6c80cad80e792bb38a684e7d0"
+    },
+    {
+      "path": "src/app/api/export/[jobId]/download/route.ts",
+      "before": "802250aff720c72221d9861265e84bf3402ea4706ea197ebf9395ef721201ad4",
+      "after": "144db2bccf0f7b83c93c90054f06e3fc93394978a611fb0bd100e327168cb139"
+    },
+    {
+      "path": "src/app/api/export/route.ts",
+      "before": "72bc068ec230a7785b986bc24de6a3f6cdf683c411318833a2452586cfa794bd",
+      "after": "7cafba9091d9f3342e3956c070f4e2a24a771c0d2bc96c64fec8b18d0d62fc25"
+    },
+    {
+      "path": "src/app/globals.css",
+      "before": "47c31777c5965602b0f05e0f0c0052fd98111a0fc79562044281d4d596a0c6c7",
+      "after": "fc453592db76a091d67d9e6ef2f3fcecab10c4e9925e299bf21f4e85759281fe"
+    },
+    {
+      "path": "src/app/render/page.tsx",
+      "before": "915337c94e20b789bd5c23a441ae6468eaacd6a7d9f484937ec90de154f48fbd",
+      "after": "a2211ce85a177916c6d641b4a3f56b22eb1b9f89b32e7185ae6c5710a98ec02a"
+    },
+    {
+      "path": "src/components/export/ExportVideoModal.tsx",
+      "before": "0267436ba01e8d4dd30a4cdae7631330f7e4c0f6e75de7d54b64cf544fe3ca90",
+      "after": "84ad64b53210d3ec93a9ec5ca3bb758eca8c4a4cf9a8259d55f3ffb4b7e2f5af"
+    },
+    {
+      "path": "src/components/viewer/ProductViewer.tsx",
+      "before": "a8a0ade183153320d542290b0404666da07d8fbff03feed265cb2fc1dc364c79",
+      "after": "af825e87de9286461c298b13e2f8e35e3c89b4bf2094c940b087fbcf6b5f433f"
+    },
+    {
+      "path": "src/engine/export/ExportJobManager.ts",
+      "before": "db06a2038adf8aef8145ab6e410a28100e6f3997ffd82c24a6dadc94feda0f04",
+      "after": "b919594e488ec7ecad803b6ef0351fdf8fc5fd091f71a63a4e9b75ae981b7d2d"
+    },
+    {
+      "path": "src/engine/render/FrameRenderer.ts",
+      "before": "d8b65a39bc977380c8d2d302d0dade98a346e2ef6fe9ed37897a963291c4ceec",
+      "after": "33ebb17af483b287beb7dab7995d30679de90c14353208e1cd92294d6848b73e"
+    },
+    {
+      "path": "src/types/export.ts",
+      "before": "174eca64afb355500c125e21a736cf17abb1253c807cb0cfbe33176cf2dcbd20",
+      "after": "b810089d01d3abb278ef2dec45f8c2b27c2eb0a23c9d2419be2516da674c0b4e"
+    }
+  ],
+  "added": [
+    {
+      "path": "src/engine/export/ExportApi.test.ts",
+      "after": "0b38559eecc80e6a88dc475703cb204089b16adae4766a0b1c5c85bcd9ce1c78"
+    },
+    {
+      "path": "src/engine/export/ExportJobManager.test.ts",
+      "after": "3fe01176cfe8754cbcca88cfd74aee80e6d354f1f9c63186f62006f0c0367f59"
+    },
+    {
+      "path": "src/engine/export/FrameManifest.test.ts",
+      "after": "7b4265fc294ae4cc240e2f2a5acd94cef446c948207cfe932c55e497118cf2df"
+    },
+    {
+      "path": "src/engine/export/FrameManifest.ts",
+      "after": "ced0d546c5323dca9eaebd8d463622cc7686efd2735042d00d7504d50b9b6632"
+    },
+    {
+      "path": "src/engine/export/NativeSurface.test.ts",
+      "after": "aafcef04371ed59bf72e5917755f730ce23663072c000669a12c7f887f6a5b90"
+    },
+    {
+      "path": "src/engine/export/NativeSurface.ts",
+      "after": "5ba7130f45e6765c939d384ac0ed5196352a2fab021bb936467aea104e0abe46"
+    },
+    {
+      "path": "src/engine/export/RenderIdentity.test.ts",
+      "after": "a994814401560394f51ae60e403f3939319eab09c35c0a8b130fb1b55ae72ff8"
+    },
+    {
+      "path": "src/engine/export/RenderIdentity.ts",
+      "after": "c01d5e81d4d8cb7353dda1552af14512b4423cc1e66b6dcf5adea5a1946e811d"
+    },
+    {
+      "path": "src/engine/export/RenderProfiles.test.ts",
+      "after": "96643162e13f09b0575f160e2ddf370443d1d58a523b226c114978b59f85ff24"
+    },
+    {
+      "path": "src/engine/export/RenderProfiles.ts",
+      "after": "00c163c1279f8a4eb557c7838e07325b7ed6190d69c69d2cb13dbaa226cecf82"
+    },
+    {
+      "path": "src/engine/render/SceneDiagnostics.test.ts",
+      "after": "7a6f371d001104e7fa7fda2730021dd90a4d05aff7fcf69d5e7d3e53368f8fb9"
+    },
+    {
+      "path": "src/engine/render/SceneDiagnostics.ts",
+      "after": "b1292eb3ef9b0ab7dc1bc5cefc61c45c8c42f6c52b05e9def124ba48c6a3ed8e"
+    }
+  ],
+  "expectedGenericDeltas": [
+    {
+      "path": "scripts/render-checkpoints.ts",
+      "before": "e6445d10b7ead7658f5122007765e7fb944bb61305faf632325d7f10152dcb06",
+      "after": "ec4b31a2adbc8d96d07b66586c30785fb9a33acb75e91e584d95b665e66f3b08"
+    },
+    {
+      "path": "scripts/render-video.ts",
+      "before": "4ab71f14ffd10d69adc5678383f9e4fbff7117c08d02eaf4d9c8668d911afc23",
+      "after": "29a283bb133ba146bde4e6b1e3a996f05b967ba6c80cad80e792bb38a684e7d0"
+    },
+    {
+      "path": "src/app/api/export/[jobId]/download/route.ts",
+      "before": "802250aff720c72221d9861265e84bf3402ea4706ea197ebf9395ef721201ad4",
+      "after": "144db2bccf0f7b83c93c90054f06e3fc93394978a611fb0bd100e327168cb139"
+    },
+    {
+      "path": "src/app/api/export/route.ts",
+      "before": "72bc068ec230a7785b986bc24de6a3f6cdf683c411318833a2452586cfa794bd",
+      "after": "7cafba9091d9f3342e3956c070f4e2a24a771c0d2bc96c64fec8b18d0d62fc25"
+    },
+    {
+      "path": "src/app/globals.css",
+      "before": "47c31777c5965602b0f05e0f0c0052fd98111a0fc79562044281d4d596a0c6c7",
+      "after": "fc453592db76a091d67d9e6ef2f3fcecab10c4e9925e299bf21f4e85759281fe"
+    },
+    {
+      "path": "src/app/render/page.tsx",
+      "before": "915337c94e20b789bd5c23a441ae6468eaacd6a7d9f484937ec90de154f48fbd",
+      "after": "a2211ce85a177916c6d641b4a3f56b22eb1b9f89b32e7185ae6c5710a98ec02a"
+    },
+    {
+      "path": "src/components/export/ExportVideoModal.tsx",
+      "before": "0267436ba01e8d4dd30a4cdae7631330f7e4c0f6e75de7d54b64cf544fe3ca90",
+      "after": "84ad64b53210d3ec93a9ec5ca3bb758eca8c4a4cf9a8259d55f3ffb4b7e2f5af"
+    },
+    {
+      "path": "src/components/viewer/ProductViewer.tsx",
+      "before": "a8a0ade183153320d542290b0404666da07d8fbff03feed265cb2fc1dc364c79",
+      "after": "af825e87de9286461c298b13e2f8e35e3c89b4bf2094c940b087fbcf6b5f433f"
+    },
+    {
+      "path": "src/engine/export/ExportJobManager.ts",
+      "before": "db06a2038adf8aef8145ab6e410a28100e6f3997ffd82c24a6dadc94feda0f04",
+      "after": "b919594e488ec7ecad803b6ef0351fdf8fc5fd091f71a63a4e9b75ae981b7d2d"
+    },
+    {
+      "path": "src/engine/render/FrameRenderer.ts",
+      "before": "d8b65a39bc977380c8d2d302d0dade98a346e2ef6fe9ed37897a963291c4ceec",
+      "after": "33ebb17af483b287beb7dab7995d30679de90c14353208e1cd92294d6848b73e"
+    },
+    {
+      "path": "src/types/export.ts",
+      "before": "174eca64afb355500c125e21a736cf17abb1253c807cb0cfbe33176cf2dcbd20",
+      "after": "b810089d01d3abb278ef2dec45f8c2b27c2eb0a23c9d2419be2516da674c0b4e"
+    },
+    {
+      "path": "src/engine/export/ExportApi.test.ts",
+      "after": "0b38559eecc80e6a88dc475703cb204089b16adae4766a0b1c5c85bcd9ce1c78"
+    },
+    {
+      "path": "src/engine/export/ExportJobManager.test.ts",
+      "after": "3fe01176cfe8754cbcca88cfd74aee80e6d354f1f9c63186f62006f0c0367f59"
+    },
+    {
+      "path": "src/engine/export/FrameManifest.test.ts",
+      "after": "7b4265fc294ae4cc240e2f2a5acd94cef446c948207cfe932c55e497118cf2df"
+    },
+    {
+      "path": "src/engine/export/FrameManifest.ts",
+      "after": "ced0d546c5323dca9eaebd8d463622cc7686efd2735042d00d7504d50b9b6632"
+    },
+    {
+      "path": "src/engine/export/NativeSurface.test.ts",
+      "after": "aafcef04371ed59bf72e5917755f730ce23663072c000669a12c7f887f6a5b90"
+    },
+    {
+      "path": "src/engine/export/NativeSurface.ts",
+      "after": "5ba7130f45e6765c939d384ac0ed5196352a2fab021bb936467aea104e0abe46"
+    },
+    {
+      "path": "src/engine/export/RenderIdentity.test.ts",
+      "after": "a994814401560394f51ae60e403f3939319eab09c35c0a8b130fb1b55ae72ff8"
+    },
+    {
+      "path": "src/engine/export/RenderIdentity.ts",
+      "after": "c01d5e81d4d8cb7353dda1552af14512b4423cc1e66b6dcf5adea5a1946e811d"
+    },
+    {
+      "path": "src/engine/export/RenderProfiles.test.ts",
+      "after": "96643162e13f09b0575f160e2ddf370443d1d58a523b226c114978b59f85ff24"
+    },
+    {
+      "path": "src/engine/export/RenderProfiles.ts",
+      "after": "00c163c1279f8a4eb557c7838e07325b7ed6190d69c69d2cb13dbaa226cecf82"
+    },
+    {
+      "path": "src/engine/render/SceneDiagnostics.test.ts",
+      "after": "7a6f371d001104e7fa7fda2730021dd90a4d05aff7fcf69d5e7d3e53368f8fb9"
+    },
+    {
+      "path": "src/engine/render/SceneDiagnostics.ts",
+      "after": "b1292eb3ef9b0ab7dc1bc5cefc61c45c8c42f6c52b05e9def124ba48c6a3ed8e"
+    }
+  ],
+  "unexpectedDeltas": [],
+  "protectedProductChanges": [],
+  "historyChanged": [],
+  "allowedPathsArtifact": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/authorized-generic-resolution-paths.json",
+  "allowedPathSemantics": [
+    "Only profile selection, metadata, server validation, native raster configuration, caption screen-space scaling, frame/output isolation and generic export lifecycle may change.",
+    "No product-specific resolution logic; no WF311613 package data changes.",
+    "No animation, camera, geometry, material, mechanisms, paths, timing, lighting, caption wording or validator/test-threshold changes.",
+    "Existing profile IDs/default/dimensions remain backward compatible.",
+    "Approved 720p deterministic product/camera/lighting state must remain unchanged; native-resolution QA validates the host changes."
+  ],
+  "scopeOnly": "Path classification is not semantic approval. Review the actual diffs and native raster/UI tests separately; no native validation rule is modified.",
+  "historical92SourceChanges": [
+    "src/components/viewer/ProductViewer.tsx",
+    "src/engine/export/ExportJobManager.ts",
+    "src/engine/render/FrameRenderer.ts"
+  ],
+  "legacySourceGateNote": "Legacy validate-micro-pass.ts source branch permits only ProductViewer. Its 92-source manifest also includes ExportJobManager and FrameRenderer. New authorized export edits may trigger that historical byte lock even when all protected product data and unchanged mechanical gates pass; preserve the pre-infrastructure native micro PASS and report those deltas explicitly, never silently rewrite/relax the validator.",
+  "verifiedAt": "2026-10-03T23:34:08.571Z"
+}

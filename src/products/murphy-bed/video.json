@@ -1,0 +1,144 @@
+{
+  "id": "murphy-bed-reference-assembly-video",
+  "title": "Murphy Bed with Side Bookcase — Detailed Assembly",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "background": "#e9e6df",
+  "quickActions": [
+    { "id": "play-assembly", "label": "Play detailed assembly", "sceneId": "base-uprights", "primary": true },
+    { "id": "open-bed", "label": "Open bed", "sceneId": "open-bed" },
+    { "id": "close-bed", "label": "Close bed", "sceneId": "close-bed" }
+  ],
+  "cameraPresets": {
+    "closed-hero": { "position": [330,220,390], "target": [0,108,8], "fov": 34 },
+    "closed-front": { "position": [0,118,430], "target": [0,110,5], "fov": 32 },
+    "closed-left": { "position": [-300,190,350], "target": [-20,108,4], "fov": 34 },
+    "closed-right": { "position": [310,190,350], "target": [10,108,4], "fov": 34 },
+    "exploded": { "position": [390,270,500], "target": [0,108,35], "fov": 40 },
+    "base-wide": { "position": [310,120,360], "target": [0,55,5], "fov": 37 },
+    "base-close": { "position": [205,62,250], "target": [18,15,16], "fov": 29 },
+    "bookcase": { "position": [-260,160,285], "target": [-84,110,0], "fov": 31 },
+    "upper": { "position": [255,255,320], "target": [0,188,4], "fov": 31 },
+    "bed-frame": { "position": [275,220,500], "target": [31,22,150], "fov": 35 },
+    "bed-built": { "position": [255,165,330], "target": [28,102,20], "fov": 32 },
+    "bed-detail": { "position": [220,165,425], "target": [31,20,145], "fov": 31 },
+    "attach-bed": { "position": [300,160,455], "target": [31,82,105], "fov": 36 },
+    "left-pivot": { "position": [-150,67,170], "target": [-48,19,8], "fov": 25 },
+    "right-pivot": { "position": [235,67,170], "target": [111,19,8], "fov": 25 },
+    "assist-left": { "position": [-132,100,175], "target": [-45,48,-3], "fov": 27 },
+    "foot-detail": { "position": [205,188,255], "target": [31,190,4], "fov": 28 },
+    "open-hero": { "position": [335,165,430], "target": [10,65,100], "fov": 38 },
+    "open-front": { "position": [0,150,500], "target": [0,100,105], "fov": 39 },
+    "open-side": { "position": [470,135,110], "target": [35,110,100], "fov": 42 },
+    "final": { "position": [-335,215,405], "target": [0,108,8], "fov": 35 }
+  },
+  "scenes": [
+    {
+      "id": "hero", "title": "Murphy Bed with Side Bookcase", "subtitle": "Visual reconstruction from the supplied product references", "duration": 7, "camera": "closed-hero",
+      "callouts": ["94.2″ × 88.5″ × 15.7″ envelope", "Left bookcase configuration", "Estimated assembly — not manufacturer instructions"],
+      "actions": [{ "type": "camera", "from": "closed-hero", "to": "closed-left", "at": 0.8, "duration": 5.5, "ease": "power2.inOut" }]
+    },
+    {
+      "id": "exploded", "title": "83 Separate Parts", "subtitle": "Cabinet, bed frame, mechanism and 24 hardware objects", "duration": 9, "camera": "exploded",
+      "callouts": ["No monolithic bed object", "Connection-point driven installation", "Visible hardware remains in the finished model"],
+      "actions": [
+        { "type": "explode", "amount": 1, "at": 0.7, "duration": 2.4 },
+        { "type": "camera", "from": "exploded", "to": "closed-right", "at": 1.2, "duration": 3.2 },
+        { "type": "explode", "amount": 0, "at": 5.3, "duration": 2.3 },
+        { "type": "camera", "from": "closed-right", "to": "base-wide", "at": 5.2, "duration": 2.8 }
+      ]
+    },
+    {
+      "id": "base-uprights", "title": "Base and Uprights", "subtitle": "Align three full-height sides before tightening", "step": "STEP 01 · ESTIMATED", "duration": 14, "camera": "base-wide", "assemblyStep": "base-and-uprights", "partIntro": { "label": "structural parts", "count": 4, "hardware": "3 × base screws", "duration": 2 }, "completionAt": 12.3,
+      "actions": [{ "type": "camera", "from": "base-wide", "to": "base-close", "at": 6.6, "duration": 0.65, "ease": "power2.inOut" }]
+    },
+    {
+      "id": "bookcase", "title": "Build Side Bookcase", "subtitle": "Back panel, dowels and shelves installed individually", "step": "STEP 02 · ESTIMATED", "duration": 17, "camera": "bookcase", "assemblyStep": "bookcase", "partIntro": { "label": "bookcase panels", "count": 6, "hardware": "4 × visible dowels", "duration": 2.1 }, "completionAt": 15.2,
+      "actions": [{ "type": "camera", "from": "bookcase", "to": "closed-left", "at": 13.5, "duration": 1.3 }]
+    },
+    {
+      "id": "upper-structure", "title": "Complete Cabinet Opening", "subtitle": "Crossbars, inset panels and top cap", "step": "STEP 03 · ESTIMATED", "duration": 17, "camera": "upper", "assemblyStep": "upper-structure", "partIntro": { "label": "cabinet components", "count": 9, "hardware": "3 × top screws", "duration": 2.1 }, "completionAt": 15.2,
+      "actions": [{ "type": "camera", "from": "upper", "to": "closed-front", "at": 13.9, "duration": 1.15 }]
+    },
+    {
+      "id": "bed-frame", "title": "Assemble Bed Perimeter", "subtitle": "Four rails plus a central longitudinal support", "step": "STEP 04 · ESTIMATED", "duration": 11, "camera": "bed-frame", "assemblyStep": "bed-frame", "partIntro": { "label": "bed frame rails", "count": 5, "duration": 2 }, "completionAt": 9.2,
+      "actions": [
+        { "type": "move", "target": "bed_pivot", "to": [31.5,18,250], "at": 0.05, "duration": 0.01 },
+        { "type": "rotate", "target": "bed_pivot", "axis": "x", "from": 0, "to": -90, "unit": "deg", "at": 0.05, "duration": 0.01 },
+        { "type": "camera", "from": "bed-frame", "to": "bed-detail", "at": 7.8, "duration": 1.1 }
+      ]
+    },
+    {
+      "id": "bed-deck", "title": "Install Deck and Slats", "subtitle": "Steel support panels followed by five timber slats", "step": "STEP 05 · ESTIMATED", "duration": 12, "camera": "bed-detail", "assemblyStep": "bed-deck", "partIntro": { "label": "deck components", "count": 7, "duration": 2 }, "completionAt": 10.1,
+      "actions": [{ "type": "camera", "from": "bed-detail", "to": "bed-frame", "at": 8.8, "duration": 1.2 }]
+    },
+    {
+      "id": "attach-bed", "title": "Attach Bed Frame to Cabinet", "subtitle": "Stand the completed frame upright, move it to the cabinet, then seat the pivots", "step": "STEP 06 · FRAME CONNECTION", "duration": 11, "camera": "attach-bed", "completionAt": 9.8,
+      "callouts": ["1 · Stand frame upright", "2 · Move toward cabinet", "3 · Seat both pivot points"],
+      "actions": [
+        { "type": "focus", "targets": ["bed_left_rail","bed_right_rail","bed_head_rail","bed_foot_rail","bed_center_rail","deck_left","deck_right","slat_1","slat_2","slat_3","slat_4","slat_5"], "related": ["shelf_divider","right_post","base_plinth"], "at": 0.2, "duration": 0.35 },
+        { "type": "rotate", "target": "bed_pivot", "axis": "x", "from": -90, "to": 0, "unit": "deg", "at": 1.0, "duration": 3.0, "ease": "power2.inOut" },
+        { "type": "move", "target": "bed_pivot", "from": [31.5,18,250], "to": [31.5,18,50], "at": 4.2, "duration": 3.0, "ease": "power2.inOut" },
+        { "type": "move", "target": "bed_pivot", "from": [31.5,18,50], "to": [31.5,18,7], "at": 7.45, "duration": 1.35, "ease": "power2.inOut" },
+        { "type": "camera", "from": "attach-bed", "to": "bed-built", "at": 1.0, "duration": 7.8 },
+        { "type": "clearFocus", "at": 9.05, "duration": 0.45 }
+      ]
+    },
+    {
+      "id": "left-pivot", "title": "Install Left Pivot", "subtitle": "Open-frame access: bracket → screws → washer → bolt → nut", "step": "STEP 07 · LEFT SIDE", "duration": 14, "camera": "left-pivot", "assemblyStep": "left-pivot", "partIntro": { "label": "left pivot set", "count": 1, "hardware": "2 screws + washer + bolt + nut", "duration": 2.1 }, "completionAt": 11.9,
+      "callouts": ["Camera holds during tightening", "Fasteners translate and spin", "14° verification test"], "actions": []
+    },
+    {
+      "id": "right-pivot", "title": "Install Right Pivot", "subtitle": "Open-frame access on the opposite side", "step": "STEP 08 · RIGHT SIDE", "duration": 14, "camera": "right-pivot", "assemblyStep": "right-pivot", "partIntro": { "label": "right pivot set", "count": 1, "hardware": "2 screws + washer + bolt + nut", "duration": 2.1 }, "completionAt": 11.9,
+      "callouts": ["Opposite-side close-up", "One fastener at a time", "14° verification test"], "actions": []
+    },
+    {
+      "id": "assist", "title": "Add In-Plane Assist Bars", "subtitle": "Both supports align with the two bed sides before the facade closes", "step": "STEP 09 · ESTIMATED", "duration": 9, "camera": "assist-left", "assemblyStep": "assist-mechanism", "partIntro": { "label": "in-plane assist components", "count": 4, "duration": 2 }, "completionAt": 7.2,
+      "actions": [
+        { "type": "camera", "from": "assist-left", "to": "right-pivot", "at": 3.05, "duration": 0.8 },
+        { "type": "camera", "from": "right-pivot", "to": "bed-built", "at": 5.9, "duration": 1.0 }
+      ]
+    },
+    {
+      "id": "front-face", "title": "Build Closed Cabinet Face", "subtitle": "Close over the installed mechanism with six panels and framing", "step": "STEP 10 · ESTIMATED", "duration": 13, "camera": "closed-front", "assemblyStep": "front-face", "partIntro": { "label": "front-face parts", "count": 15, "duration": 2 }, "completionAt": 11.8,
+      "actions": [{ "type": "camera", "from": "closed-front", "to": "closed-right", "at": 9.8, "duration": 1.1 }]
+    },
+    {
+      "id": "legs-mattress", "title": "Legs and Mattress", "subtitle": "Finish the moving bed assembly", "step": "STEP 11 · ESTIMATED", "duration": 13, "camera": "foot-detail", "assemblyStep": "legs-and-mattress", "partIntro": { "label": "folding legs", "count": 2, "hardware": "2 pivot bolts + mattress", "duration": 2 }, "completionAt": 11.2,
+      "actions": [{ "type": "camera", "from": "foot-detail", "to": "bed-built", "at": 7.35, "duration": 0.9 }]
+    },
+    {
+      "id": "open-bed", "title": "Open the Bed", "subtitle": "Bed lowers about the cabinet pivots while both feet remain vertical", "step": "MECHANISM TEST", "duration": 10, "camera": "open-hero", "completionAt": 8.2,
+      "callouts": ["90° bed pivot", "Counter-rotating legs", "Assist bars remain coplanar with the bed"],
+      "actions": [
+        { "type": "focus", "targets": ["bed_left_rail","bed_right_rail","bed_head_rail","bed_foot_rail","mattress","left_leg","left_foot","right_leg","right_foot","left_gas_body","left_gas_rod","right_gas_body","right_gas_rod"], "related": ["left_pivot_bracket","right_pivot_bracket","shelf_divider","right_post"], "at": 0.2, "duration": 0.35, "dimOpacity": 0.32 },
+        { "type": "rotate", "target": "bed_pivot", "axis": "x", "from": 0, "to": 90, "unit": "deg", "at": 1.2, "duration": 5.3, "ease": "power2.inOut" },
+        { "type": "rotate", "target": "left_leg_pivot", "axis": "x", "from": 0, "to": -90, "unit": "deg", "at": 2.15, "duration": 4.35, "ease": "power2.inOut" },
+        { "type": "rotate", "target": "right_leg_pivot", "axis": "x", "from": 0, "to": -90, "unit": "deg", "at": 2.15, "duration": 4.35, "ease": "power2.inOut" },
+        { "type": "camera", "from": "open-hero", "to": "open-front", "at": 1.1, "duration": 5.6 },
+        { "type": "clearFocus", "at": 7.4, "duration": 0.5 }
+      ]
+    },
+    {
+      "id": "open-side", "title": "Open Configuration", "subtitle": "Side view verifies bed height, projection and folding feet", "duration": 7, "camera": "open-side",
+      "callouts": ["Open wall bay — no full back panel", "Five cross slats visible", "Bookcase remains fixed"],
+      "actions": [{ "type": "camera", "from": "open-side", "to": "open-hero", "at": 0.7, "duration": 5.2 }]
+    },
+    {
+      "id": "close-bed", "title": "Close the Bed", "subtitle": "Reverse the linked bed and leg motion into cabinet mode", "step": "MECHANISM TEST", "duration": 8, "camera": "open-hero", "completionAt": 6.8,
+      "actions": [
+        { "type": "rotate", "target": "bed_pivot", "axis": "x", "from": 90, "to": 0, "unit": "deg", "at": 0.8, "duration": 4.8, "ease": "power2.inOut" },
+        { "type": "rotate", "target": "left_leg_pivot", "axis": "x", "from": -90, "to": 0, "unit": "deg", "at": 0.8, "duration": 4.1, "ease": "power2.inOut" },
+        { "type": "rotate", "target": "right_leg_pivot", "axis": "x", "from": -90, "to": 0, "unit": "deg", "at": 0.8, "duration": 4.1, "ease": "power2.inOut" },
+        { "type": "camera", "from": "open-hero", "to": "closed-front", "at": 0.8, "duration": 5.2 }
+      ]
+    },
+    {
+      "id": "finished", "title": "Assembly Complete", "subtitle": "Reference-matched closed cabinet and operational fold-down bed", "duration": 7, "camera": "closed-front",
+      "callouts": ["83 modeled parts", "24 hardware objects", "Deterministic preview and export"],
+      "actions": [{ "type": "camera", "from": "closed-front", "to": "final", "at": 0.5, "duration": 5.6 }]
+    }
+  ],
+  "audio": { "voiceover": null, "music": null }
+}

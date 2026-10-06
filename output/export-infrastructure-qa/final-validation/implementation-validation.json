@@ -1,0 +1,78 @@
+{
+  "status": "PASS_WITH_RECORDED_TURBOPACK_BUILD_FAILURE",
+  "fullTests": {
+    "files": 43,
+    "passed": 236
+  },
+  "finalTargetedTests": {
+    "files": 9,
+    "passed": 75
+  },
+  "typecheck": "PASS",
+  "lint": "PASS",
+  "defaultTurbopackBuild": {
+    "status": "FAIL",
+    "exitCode": 137,
+    "cause": "NOT ESTABLISHED"
+  },
+  "webpackBuild": "PASS",
+  "skillValidation": "PASS",
+  "protectedFilesUnchanged": 136,
+  "native720pSmoke": "PASS",
+  "refreshRehydration": "PASS",
+  "native2160pSmoke": "PASS",
+  "nativeSmokeFramesPerJob": 4,
+  "chunkBoundaryIndices": [
+    1,
+    2
+  ],
+  "fullRender": "NOT RUN",
+  "full4k": "NOT RUN",
+  "existing60fpsProfileTests": "PASS",
+  "actual60fpsSmoke": "NOT RUN",
+  "files": {
+    "Rule/skill/routing": [
+      "rules/long-form-assembly-video.md",
+      ".agents/skills/long-form-assembly-video/SKILL.md",
+      ".agents/skills/long-form-assembly-video/references/resumable-export.md",
+      ".agents/skills/long-form-assembly-video/checklists/long-render-generate-file-qa.md",
+      ".agents/skills/long-form-assembly-video/references/stop-gates.md",
+      ".agents/skills/long-form-assembly-video/references/repository-adapter.md",
+      "AGENTS.md"
+    ],
+    "UI": [
+      "src/components/export/ExportVideoModal.tsx",
+      "src/components/export/ExportProgress.tsx",
+      "src/app/globals.css"
+    ],
+    "Backend/contracts": [
+      "src/engine/export/ExportJobManager.ts",
+      "src/engine/export/ExportCheckpoint.ts",
+      "src/engine/export/CreativeIdentity.ts",
+      "src/engine/export/ExportMedia.ts",
+      "src/app/api/export/route.ts",
+      "src/app/api/export/[jobId]/route.ts",
+      "src/products/export-manager.ts",
+      "src/types/export.ts",
+      "src/types/product-package.ts",
+      "src/engine/render/FrameRenderer.ts",
+      "src/components/viewer/ProductViewer.tsx"
+    ],
+    "Tests/smoke": [
+      "src/engine/export/ExportJobManager.test.ts",
+      "src/engine/export/ResumableExport.test.ts",
+      "src/engine/export/ExportActions.test.ts",
+      "src/components/export/ExportProgress.test.tsx",
+      "scripts/verify-resumable-export.ts"
+    ],
+    "Documentation": [
+      "README.md",
+      "docs/resumable-export.md",
+      "docs/resumable-export-implementation-review.md"
+    ]
+  },
+  "smokeReport": "output/export-infrastructure-qa/2026-10-05T09-24-04-256Z/smoke-report.json",
+  "allReviewRuleSkillLinksChecked": 78,
+  "rendererSourceFingerprintMatchesSmokeJobs": "PASS",
+  "initialTargetedFailures": "FAIL then corrected; complete initial log files unavailable; captured failure details in review report"
+}

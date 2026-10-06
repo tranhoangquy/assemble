@@ -1,0 +1,2822 @@
+{
+  "pdfPartNames": {
+    "A1": "Side Frame Rail",
+    "A2": "Side Frame Rail",
+    "A3": "Side Frame Rail",
+    "A4": "Side Frame Rail",
+    "A5": "Left Side Panel",
+    "A6": "Right Side Panel",
+    "A7": "Side Support Rail",
+    "A8": "Side Support Rail",
+    "A9": "Lower Side Panel",
+    "B1": "Top Frame Rail",
+    "B2": "Top Cross Rail",
+    "B3": "Top Center Support",
+    "B4": "Top Infill Panel",
+    "B5": "Upper Front Rail",
+    "B6": "Upper Rear Rail",
+    "B7": "Cabinet Center Support",
+    "B8": "Cabinet Back Panel",
+    "B9": "Bottom Rear Rail",
+    "C1": "Bed Face End Rail",
+    "C2": "Bed Face Side Rail",
+    "C3": "Bed Face Cross Rail",
+    "C4": "Bed Face Support Rail",
+    "C5": "Bed Face Center Rail",
+    "C6": "Bed Face Panel",
+    "C7": "Underside Support",
+    "C8": "Bed Frame Side Rail",
+    "C9": "Bed Frame End Rail",
+    "D1": "Bed Frame End Rail",
+    "D2": "Mattress Support Slat",
+    "D3": "Folding Leg",
+    "D4": "Cabinet Cross Rail",
+    "D5": "Lower Front Rail",
+    "D6": "Leg Foot",
+    "D7": "Leg Pivot Arm",
+    "D8": "Left Pivot Bracket",
+    "D9": "Right Pivot Bracket",
+    "E1": "Bed Mechanism Plate",
+    "E2": "Gas Piston",
+    "E3": "Bottom Front Rail",
+    "E4": "Lower Center Support",
+    "E5": "Cabinet Center Rail"
+  },
+  "hardwareNames": {
+    "1": "Bolt",
+    "2": "Bolt",
+    "3": "Bolt",
+    "4": "Bolt",
+    "5": "Long Bolt",
+    "6": "Wood Dowel",
+    "7": "Leg Dowel",
+    "8": "Cam Lock",
+    "9": "Threaded Cap",
+    "10": "Plastic Washer",
+    "11": "Assembly Tool",
+    "12": "Wood Screw",
+    "13": "Long Wood Screw",
+    "14": "Wood Screw",
+    "15": "Wall Bracket",
+    "16": "Slat Screw",
+    "17": "Nut",
+    "18": "Pivot Retainer Bolt",
+    "19": "Bearing",
+    "20": "Angle Bracket",
+    "21": "Wood Screw",
+    "22": "Long Bolt",
+    "23": "Wall Screw",
+    "24": "Wood Screw",
+    "25": "Inner Angle Bracket"
+  },
+  "instances": [
+    {
+      "id": "A5",
+      "pdfPart": "A5",
+      "hardwareNumber": null,
+      "presentationName": "Left Side Panel"
+    },
+    {
+      "id": "A7",
+      "pdfPart": "A7",
+      "hardwareNumber": null,
+      "presentationName": "Side Support Rail"
+    },
+    {
+      "id": "A8",
+      "pdfPart": "A8",
+      "hardwareNumber": null,
+      "presentationName": "Side Support Rail"
+    },
+    {
+      "id": "A9",
+      "pdfPart": "A9",
+      "hardwareNumber": null,
+      "presentationName": "Lower Side Panel"
+    },
+    {
+      "id": "A1",
+      "pdfPart": "A1",
+      "hardwareNumber": null,
+      "presentationName": "Side Frame Rail"
+    },
+    {
+      "id": "A3",
+      "pdfPart": "A3",
+      "hardwareNumber": null,
+      "presentationName": "Side Frame Rail"
+    },
+    {
+      "id": "dowel--1-0",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "dowel--1-1",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "dowel--1-2",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "dowel-1-0",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "dowel-1-1",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "dowel-1-2",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "cam--1-0",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "bolt--1-0",
+      "pdfPart": null,
+      "hardwareNumber": 5,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "cam--1-1",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "bolt--1-1",
+      "pdfPart": null,
+      "hardwareNumber": 5,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "cam--1-2",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "bolt--1-2",
+      "pdfPart": null,
+      "hardwareNumber": 5,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "cam--1-3",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "bolt--1-3",
+      "pdfPart": null,
+      "hardwareNumber": 5,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "cam-1-0",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "bolt-1-0",
+      "pdfPart": null,
+      "hardwareNumber": 5,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "cam-1-1",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "bolt-1-1",
+      "pdfPart": null,
+      "hardwareNumber": 5,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "cam-1-2",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "bolt-1-2",
+      "pdfPart": null,
+      "hardwareNumber": 5,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "cam-1-3",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "bolt-1-3",
+      "pdfPart": null,
+      "hardwareNumber": 5,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "A6",
+      "pdfPart": "A6",
+      "hardwareNumber": null,
+      "presentationName": "Right Side Panel"
+    },
+    {
+      "id": "A7-R",
+      "pdfPart": "A7",
+      "hardwareNumber": null,
+      "presentationName": "Side Support Rail"
+    },
+    {
+      "id": "A8-R",
+      "pdfPart": "A8",
+      "hardwareNumber": null,
+      "presentationName": "Side Support Rail"
+    },
+    {
+      "id": "A9-R",
+      "pdfPart": "A9",
+      "hardwareNumber": null,
+      "presentationName": "Lower Side Panel"
+    },
+    {
+      "id": "A2",
+      "pdfPart": "A2",
+      "hardwareNumber": null,
+      "presentationName": "Side Frame Rail"
+    },
+    {
+      "id": "A4",
+      "pdfPart": "A4",
+      "hardwareNumber": null,
+      "presentationName": "Side Frame Rail"
+    },
+    {
+      "id": "R-dowel--1-0",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "R-dowel--1-1",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "R-dowel--1-2",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "R-dowel-1-0",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "R-dowel-1-1",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "R-dowel-1-2",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "R-cam--1-0",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "R-bolt--1-0",
+      "pdfPart": null,
+      "hardwareNumber": 5,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "R-cam--1-1",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "R-bolt--1-1",
+      "pdfPart": null,
+      "hardwareNumber": 5,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "R-cam--1-2",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "R-bolt--1-2",
+      "pdfPart": null,
+      "hardwareNumber": 5,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "R-cam--1-3",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "R-bolt--1-3",
+      "pdfPart": null,
+      "hardwareNumber": 5,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "R-cam-1-0",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "R-bolt-1-0",
+      "pdfPart": null,
+      "hardwareNumber": 5,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "R-cam-1-1",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "R-bolt-1-1",
+      "pdfPart": null,
+      "hardwareNumber": 5,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "R-cam-1-2",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "R-bolt-1-2",
+      "pdfPart": null,
+      "hardwareNumber": 5,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "R-cam-1-3",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "R-bolt-1-3",
+      "pdfPart": null,
+      "hardwareNumber": 5,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "E3",
+      "pdfPart": "E3",
+      "hardwareNumber": null,
+      "presentationName": "Bottom Front Rail"
+    },
+    {
+      "id": "B9",
+      "pdfPart": "B9",
+      "hardwareNumber": null,
+      "presentationName": "Bottom Rear Rail"
+    },
+    {
+      "id": "D5",
+      "pdfPart": "D5",
+      "hardwareNumber": null,
+      "presentationName": "Lower Front Rail"
+    },
+    {
+      "id": "E4",
+      "pdfPart": "E4",
+      "hardwareNumber": null,
+      "presentationName": "Lower Center Support"
+    },
+    {
+      "id": "S3-E3--1-dowel",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S3-E3--1-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S3-E3--1-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 4,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S3-E3-1-dowel",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S3-E3-1-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S3-E3-1-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 4,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S3-B9--1-dowel",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S3-B9--1-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S3-B9--1-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 4,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S3-B9-1-dowel",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S3-B9-1-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S3-B9-1-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 4,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S3-D5--1-dowel",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S3-D5--1-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S3-D5--1-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 4,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S3-D5-1-dowel",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S3-D5-1-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S3-D5-1-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 4,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "B8-4--1",
+      "pdfPart": "B8",
+      "hardwareNumber": null,
+      "presentationName": "Cabinet Back Panel"
+    },
+    {
+      "id": "B8-4-1",
+      "pdfPart": "B8",
+      "hardwareNumber": null,
+      "presentationName": "Cabinet Back Panel"
+    },
+    {
+      "id": "B7-4",
+      "pdfPart": "B7",
+      "hardwareNumber": null,
+      "presentationName": "Cabinet Center Support"
+    },
+    {
+      "id": "D4-1",
+      "pdfPart": "D4",
+      "hardwareNumber": null,
+      "presentationName": "Cabinet Cross Rail"
+    },
+    {
+      "id": "S4-D4-1--1-dowel",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S4-D4-1--1-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S4-D4-1--1-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 4,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S4-D4-1-1-dowel",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S4-D4-1-1-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S4-D4-1-1-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 4,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "B8-5--1",
+      "pdfPart": "B8",
+      "hardwareNumber": null,
+      "presentationName": "Cabinet Back Panel"
+    },
+    {
+      "id": "B8-5-1",
+      "pdfPart": "B8",
+      "hardwareNumber": null,
+      "presentationName": "Cabinet Back Panel"
+    },
+    {
+      "id": "B7-5",
+      "pdfPart": "B7",
+      "hardwareNumber": null,
+      "presentationName": "Cabinet Center Support"
+    },
+    {
+      "id": "D4-2",
+      "pdfPart": "D4",
+      "hardwareNumber": null,
+      "presentationName": "Cabinet Cross Rail"
+    },
+    {
+      "id": "S5-D4-2--1-dowel",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S5-D4-2--1-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S5-D4-2--1-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 4,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S5-D4-2-1-dowel",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S5-D4-2-1-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S5-D4-2-1-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 4,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "B8-6--1",
+      "pdfPart": "B8",
+      "hardwareNumber": null,
+      "presentationName": "Cabinet Back Panel"
+    },
+    {
+      "id": "B8-6-1",
+      "pdfPart": "B8",
+      "hardwareNumber": null,
+      "presentationName": "Cabinet Back Panel"
+    },
+    {
+      "id": "B7-6",
+      "pdfPart": "B7",
+      "hardwareNumber": null,
+      "presentationName": "Cabinet Center Support"
+    },
+    {
+      "id": "B5",
+      "pdfPart": "B5",
+      "hardwareNumber": null,
+      "presentationName": "Upper Front Rail"
+    },
+    {
+      "id": "S6-B5--1-dowel",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S6-B5--1-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S6-B5--1-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 4,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S6-B5-1-dowel",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S6-B5-1-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S6-B5-1-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 4,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "B6",
+      "pdfPart": "B6",
+      "hardwareNumber": null,
+      "presentationName": "Upper Rear Rail"
+    },
+    {
+      "id": "S6-B6--1-dowel",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S6-B6--1-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S6-B6--1-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 4,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S6-B6-1-dowel",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S6-B6-1-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S6-B6-1-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 4,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "B1-rear",
+      "pdfPart": "B1",
+      "hardwareNumber": null,
+      "presentationName": "Top Frame Rail"
+    },
+    {
+      "id": "B1-front",
+      "pdfPart": "B1",
+      "hardwareNumber": null,
+      "presentationName": "Top Frame Rail"
+    },
+    {
+      "id": "B2-left",
+      "pdfPart": "B2",
+      "hardwareNumber": null,
+      "presentationName": "Top Cross Rail"
+    },
+    {
+      "id": "B3",
+      "pdfPart": "B3",
+      "hardwareNumber": null,
+      "presentationName": "Top Center Support"
+    },
+    {
+      "id": "B2-right",
+      "pdfPart": "B2",
+      "hardwareNumber": null,
+      "presentationName": "Top Cross Rail"
+    },
+    {
+      "id": "B4-left",
+      "pdfPart": "B4",
+      "hardwareNumber": null,
+      "presentationName": "Top Infill Panel"
+    },
+    {
+      "id": "B4-right",
+      "pdfPart": "B4",
+      "hardwareNumber": null,
+      "presentationName": "Top Infill Panel"
+    },
+    {
+      "id": "S7-H13-0",
+      "pdfPart": null,
+      "hardwareNumber": 13,
+      "presentationName": "Long Wood Screw"
+    },
+    {
+      "id": "S7-H13-1",
+      "pdfPart": null,
+      "hardwareNumber": 13,
+      "presentationName": "Long Wood Screw"
+    },
+    {
+      "id": "S7-H13-2",
+      "pdfPart": null,
+      "hardwareNumber": 13,
+      "presentationName": "Long Wood Screw"
+    },
+    {
+      "id": "S7-H13-3",
+      "pdfPart": null,
+      "hardwareNumber": 13,
+      "presentationName": "Long Wood Screw"
+    },
+    {
+      "id": "S7-H13-4",
+      "pdfPart": null,
+      "hardwareNumber": 13,
+      "presentationName": "Long Wood Screw"
+    },
+    {
+      "id": "S7-H13-5",
+      "pdfPart": null,
+      "hardwareNumber": 13,
+      "presentationName": "Long Wood Screw"
+    },
+    {
+      "id": "S8-dowel--1--18",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S8-dowel--1-18",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S8-dowel-1--18",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S8-dowel-1-18",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S8-H12--1-0",
+      "pdfPart": null,
+      "hardwareNumber": 12,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S8-H12--1-1",
+      "pdfPart": null,
+      "hardwareNumber": 12,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S8-H12--1-2",
+      "pdfPart": null,
+      "hardwareNumber": 12,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S8-H12--1-3",
+      "pdfPart": null,
+      "hardwareNumber": 12,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S8-H12--1-4",
+      "pdfPart": null,
+      "hardwareNumber": 12,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S8-H12-1-0",
+      "pdfPart": null,
+      "hardwareNumber": 12,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S8-H12-1-1",
+      "pdfPart": null,
+      "hardwareNumber": 12,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S8-H12-1-2",
+      "pdfPart": null,
+      "hardwareNumber": 12,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S8-H12-1-3",
+      "pdfPart": null,
+      "hardwareNumber": 12,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S8-H12-1-4",
+      "pdfPart": null,
+      "hardwareNumber": 12,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "D9",
+      "pdfPart": "D9",
+      "hardwareNumber": null,
+      "presentationName": "Right Pivot Bracket"
+    },
+    {
+      "id": "S9-H21-0",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S9-H21-1",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S9-H21-2",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S9-H21-3",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S9-H21-4",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S9-H21-5",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S9-H21-6",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S9-H21-7",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S9-H21-8",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S9-H21-9",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S9-H25",
+      "pdfPart": null,
+      "hardwareNumber": 25,
+      "presentationName": "Inner Angle Bracket"
+    },
+    {
+      "id": "S9-H25-bend",
+      "pdfPart": null,
+      "hardwareNumber": 25,
+      "presentationName": "Inner Angle Bracket"
+    },
+    {
+      "id": "S9-H14-0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S9-H14-1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "D8",
+      "pdfPart": "D8",
+      "hardwareNumber": null,
+      "presentationName": "Left Pivot Bracket"
+    },
+    {
+      "id": "S10-H21-0",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S10-H21-1",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S10-H21-2",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S10-H21-3",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S10-H21-4",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S10-H21-5",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S10-H21-6",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S10-H21-7",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S10-H21-8",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S10-H21-9",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S10-H25",
+      "pdfPart": null,
+      "hardwareNumber": 25,
+      "presentationName": "Inner Angle Bracket"
+    },
+    {
+      "id": "S10-H25-bend",
+      "pdfPart": null,
+      "hardwareNumber": 25,
+      "presentationName": "Inner Angle Bracket"
+    },
+    {
+      "id": "S10-H14-0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S10-H14-1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "E5",
+      "pdfPart": "E5",
+      "hardwareNumber": null,
+      "presentationName": "Cabinet Center Rail"
+    },
+    {
+      "id": "S10-H24-0",
+      "pdfPart": null,
+      "hardwareNumber": 24,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S10-H24-1",
+      "pdfPart": null,
+      "hardwareNumber": 24,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S10-H24-2",
+      "pdfPart": null,
+      "hardwareNumber": 24,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S10-H24-3",
+      "pdfPart": null,
+      "hardwareNumber": 24,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S10-H24-4",
+      "pdfPart": null,
+      "hardwareNumber": 24,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S10-H24-5",
+      "pdfPart": null,
+      "hardwareNumber": 24,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S10-H24-6",
+      "pdfPart": null,
+      "hardwareNumber": 24,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S10-H24-7",
+      "pdfPart": null,
+      "hardwareNumber": 24,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S10-H24-8",
+      "pdfPart": null,
+      "hardwareNumber": 24,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "C2-left",
+      "pdfPart": "C2",
+      "hardwareNumber": null,
+      "presentationName": "Bed Face Side Rail"
+    },
+    {
+      "id": "C4-left",
+      "pdfPart": "C4",
+      "hardwareNumber": null,
+      "presentationName": "Bed Face Support Rail"
+    },
+    {
+      "id": "C5",
+      "pdfPart": "C5",
+      "hardwareNumber": null,
+      "presentationName": "Bed Face Center Rail"
+    },
+    {
+      "id": "C4-right",
+      "pdfPart": "C4",
+      "hardwareNumber": null,
+      "presentationName": "Bed Face Support Rail"
+    },
+    {
+      "id": "C2-right",
+      "pdfPart": "C2",
+      "hardwareNumber": null,
+      "presentationName": "Bed Face Side Rail"
+    },
+    {
+      "id": "C1-start",
+      "pdfPart": "C1",
+      "hardwareNumber": null,
+      "presentationName": "Bed Face End Rail"
+    },
+    {
+      "id": "C1-close",
+      "pdfPart": "C1",
+      "hardwareNumber": null,
+      "presentationName": "Bed Face End Rail"
+    },
+    {
+      "id": "C3-0",
+      "pdfPart": "C3",
+      "hardwareNumber": null,
+      "presentationName": "Bed Face Cross Rail"
+    },
+    {
+      "id": "C6-0-first",
+      "pdfPart": "C6",
+      "hardwareNumber": null,
+      "presentationName": "Bed Face Panel"
+    },
+    {
+      "id": "C6-0-second",
+      "pdfPart": "C6",
+      "hardwareNumber": null,
+      "presentationName": "Bed Face Panel"
+    },
+    {
+      "id": "C3-1",
+      "pdfPart": "C3",
+      "hardwareNumber": null,
+      "presentationName": "Bed Face Cross Rail"
+    },
+    {
+      "id": "C6-1-first",
+      "pdfPart": "C6",
+      "hardwareNumber": null,
+      "presentationName": "Bed Face Panel"
+    },
+    {
+      "id": "C6-1-second",
+      "pdfPart": "C6",
+      "hardwareNumber": null,
+      "presentationName": "Bed Face Panel"
+    },
+    {
+      "id": "C3-2",
+      "pdfPart": "C3",
+      "hardwareNumber": null,
+      "presentationName": "Bed Face Cross Rail"
+    },
+    {
+      "id": "C6-2-first",
+      "pdfPart": "C6",
+      "hardwareNumber": null,
+      "presentationName": "Bed Face Panel"
+    },
+    {
+      "id": "C6-2-second",
+      "pdfPart": "C6",
+      "hardwareNumber": null,
+      "presentationName": "Bed Face Panel"
+    },
+    {
+      "id": "C3-3",
+      "pdfPart": "C3",
+      "hardwareNumber": null,
+      "presentationName": "Bed Face Cross Rail"
+    },
+    {
+      "id": "C6-3-first",
+      "pdfPart": "C6",
+      "hardwareNumber": null,
+      "presentationName": "Bed Face Panel"
+    },
+    {
+      "id": "C6-3-second",
+      "pdfPart": "C6",
+      "hardwareNumber": null,
+      "presentationName": "Bed Face Panel"
+    },
+    {
+      "id": "C7-0",
+      "pdfPart": "C7",
+      "hardwareNumber": null,
+      "presentationName": "Underside Support"
+    },
+    {
+      "id": "S13-H12-0-0",
+      "pdfPart": null,
+      "hardwareNumber": 12,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S13-H12-0-1",
+      "pdfPart": null,
+      "hardwareNumber": 12,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "C7-1",
+      "pdfPart": "C7",
+      "hardwareNumber": null,
+      "presentationName": "Underside Support"
+    },
+    {
+      "id": "S13-H12-1-0",
+      "pdfPart": null,
+      "hardwareNumber": 12,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S13-H12-1-1",
+      "pdfPart": null,
+      "hardwareNumber": 12,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "C7-2",
+      "pdfPart": "C7",
+      "hardwareNumber": null,
+      "presentationName": "Underside Support"
+    },
+    {
+      "id": "S13-H12-2-0",
+      "pdfPart": null,
+      "hardwareNumber": 12,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S13-H12-2-1",
+      "pdfPart": null,
+      "hardwareNumber": 12,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S14-C2-left-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S14-C2-left-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 22,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "S15-C2-left-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S15-C2-left-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 22,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "S11-C4-left-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S11-C4-left-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 22,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "S15-C4-left-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S15-C4-left-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 22,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "S12-C5-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S12-C5-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 22,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "S15-C5-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S15-C5-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 22,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "S12-C4-right-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S12-C4-right-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 22,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "S15-C4-right-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S15-C4-right-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 22,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "S14-C2-right-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S14-C2-right-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 22,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "S15-C2-right-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S15-C2-right-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 22,
+      "presentationName": "Long Bolt"
+    },
+    {
+      "id": "D2-0",
+      "pdfPart": "D2",
+      "hardwareNumber": null,
+      "presentationName": "Mattress Support Slat"
+    },
+    {
+      "id": "S20-H16-0-0",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "S20-H16-0-1",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "S20-H16-0-2",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "S20-H16-0-3",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "S20-H16-0-4",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "D2-1",
+      "pdfPart": "D2",
+      "hardwareNumber": null,
+      "presentationName": "Mattress Support Slat"
+    },
+    {
+      "id": "S20-H16-1-0",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "S20-H16-1-1",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "S20-H16-1-2",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "S20-H16-1-3",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "S20-H16-1-4",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "D2-2",
+      "pdfPart": "D2",
+      "hardwareNumber": null,
+      "presentationName": "Mattress Support Slat"
+    },
+    {
+      "id": "S20-H16-2-0",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "S20-H16-2-1",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "S20-H16-2-2",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "S20-H16-2-3",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "S20-H16-2-4",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "D2-3",
+      "pdfPart": "D2",
+      "hardwareNumber": null,
+      "presentationName": "Mattress Support Slat"
+    },
+    {
+      "id": "S20-H16-3-0",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "S20-H16-3-1",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "S20-H16-3-2",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "S20-H16-3-3",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "S20-H16-3-4",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "D2-4",
+      "pdfPart": "D2",
+      "hardwareNumber": null,
+      "presentationName": "Mattress Support Slat"
+    },
+    {
+      "id": "S20-H16-4-0",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "S20-H16-4-1",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "S20-H16-4-2",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "S20-H16-4-3",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "S20-H16-4-4",
+      "pdfPart": null,
+      "hardwareNumber": 16,
+      "presentationName": "Slat Screw"
+    },
+    {
+      "id": "C8-left",
+      "pdfPart": "C8",
+      "hardwareNumber": null,
+      "presentationName": "Bed Frame Side Rail"
+    },
+    {
+      "id": "C8-right",
+      "pdfPart": "C8",
+      "hardwareNumber": null,
+      "presentationName": "Bed Frame Side Rail"
+    },
+    {
+      "id": "C9",
+      "pdfPart": "C9",
+      "hardwareNumber": null,
+      "presentationName": "Bed Frame End Rail"
+    },
+    {
+      "id": "D1",
+      "pdfPart": "D1",
+      "hardwareNumber": null,
+      "presentationName": "Bed Frame End Rail"
+    },
+    {
+      "id": "S16--1--1-dowel-0",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S16--1--1-dowel-1",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S16--1--1-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S16--1--1-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 3,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S16--1-1-dowel-0",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S16--1-1-dowel-1",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S16--1-1-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S16--1-1-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 3,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S16-1--1-dowel-0",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S16-1--1-dowel-1",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S16-1--1-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S16-1--1-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 3,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S16-1-1-dowel-0",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S16-1-1-dowel-1",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S16-1-1-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S16-1-1-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 3,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S17-side--1--55-dowel",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S17-side--1--55-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S17-side--1--55-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 3,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S17-side--1-55-dowel",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S17-side--1-55-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S17-side--1-55-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 3,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S17-side-1--55-dowel",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S17-side-1--55-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S17-side-1--55-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 3,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S17-side-1-55-dowel",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S17-side-1-55-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S17-side-1-55-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 3,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S17-end--1--80-dowel",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S17-end--1--80-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S17-end--1--80-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 3,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S17-end--1-80-dowel",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S17-end--1-80-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S17-end--1-80-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 3,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S17-end-1--80-dowel",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S17-end-1--80-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S17-end-1--80-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 3,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S17-end-1-80-dowel",
+      "pdfPart": null,
+      "hardwareNumber": 6,
+      "presentationName": "Wood Dowel"
+    },
+    {
+      "id": "S17-end-1-80-cam",
+      "pdfPart": null,
+      "hardwareNumber": 8,
+      "presentationName": "Cam Lock"
+    },
+    {
+      "id": "S17-end-1-80-bolt",
+      "pdfPart": null,
+      "hardwareNumber": 3,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S18-H20-0",
+      "pdfPart": null,
+      "hardwareNumber": 20,
+      "presentationName": "Angle Bracket"
+    },
+    {
+      "id": "S18-H20-0-H14-v0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-0-H14-h0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-0-H14-v1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-0-H14-h1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-1",
+      "pdfPart": null,
+      "hardwareNumber": 20,
+      "presentationName": "Angle Bracket"
+    },
+    {
+      "id": "S18-H20-1-H14-v0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-1-H14-h0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-1-H14-v1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-1-H14-h1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-2",
+      "pdfPart": null,
+      "hardwareNumber": 20,
+      "presentationName": "Angle Bracket"
+    },
+    {
+      "id": "S18-H20-2-H14-v0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-2-H14-h0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-2-H14-v1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-2-H14-h1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-3",
+      "pdfPart": null,
+      "hardwareNumber": 20,
+      "presentationName": "Angle Bracket"
+    },
+    {
+      "id": "S18-H20-3-H14-v0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-3-H14-h0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-3-H14-v1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-3-H14-h1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-4",
+      "pdfPart": null,
+      "hardwareNumber": 20,
+      "presentationName": "Angle Bracket"
+    },
+    {
+      "id": "S18-H20-4-H14-v0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-4-H14-h0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-4-H14-v1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-4-H14-h1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-5",
+      "pdfPart": null,
+      "hardwareNumber": 20,
+      "presentationName": "Angle Bracket"
+    },
+    {
+      "id": "S18-H20-5-H14-v0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-5-H14-h0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-5-H14-v1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S18-H20-5-H14-h1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-0",
+      "pdfPart": null,
+      "hardwareNumber": 20,
+      "presentationName": "Angle Bracket"
+    },
+    {
+      "id": "S19-H20-0-H14-v0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-0-H14-h0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-0-H14-v1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-0-H14-h1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-1",
+      "pdfPart": null,
+      "hardwareNumber": 20,
+      "presentationName": "Angle Bracket"
+    },
+    {
+      "id": "S19-H20-1-H14-v0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-1-H14-h0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-1-H14-v1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-1-H14-h1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-2",
+      "pdfPart": null,
+      "hardwareNumber": 20,
+      "presentationName": "Angle Bracket"
+    },
+    {
+      "id": "S19-H20-2-H14-v0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-2-H14-h0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-2-H14-v1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-2-H14-h1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-3",
+      "pdfPart": null,
+      "hardwareNumber": 20,
+      "presentationName": "Angle Bracket"
+    },
+    {
+      "id": "S19-H20-3-H14-v0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-3-H14-h0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-3-H14-v1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-3-H14-h1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-4",
+      "pdfPart": null,
+      "hardwareNumber": 20,
+      "presentationName": "Angle Bracket"
+    },
+    {
+      "id": "S19-H20-4-H14-v0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-4-H14-h0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-4-H14-v1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-4-H14-h1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-5",
+      "pdfPart": null,
+      "hardwareNumber": 20,
+      "presentationName": "Angle Bracket"
+    },
+    {
+      "id": "S19-H20-5-H14-v0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-5-H14-h0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-5-H14-v1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S19-H20-5-H14-h1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "bed-motion-root",
+      "pdfPart": null,
+      "hardwareNumber": null,
+      "presentationName": "Bed Assembly"
+    },
+    {
+      "id": "E1--1",
+      "pdfPart": "E1",
+      "hardwareNumber": null,
+      "presentationName": "Bed Mechanism Plate"
+    },
+    {
+      "id": "S21-H21-0",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S21-H21-1",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S21-H21-2",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S21-H21-3",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S21-H21-4",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S21-H21-5",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S21-H21-6",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S21-H21-7",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S23-H19",
+      "pdfPart": null,
+      "hardwareNumber": 19,
+      "presentationName": "Bearing"
+    },
+    {
+      "id": "E2--1",
+      "pdfPart": "E2",
+      "hardwareNumber": null,
+      "presentationName": "Gas Piston"
+    },
+    {
+      "id": "E2--1-body",
+      "pdfPart": "E2",
+      "hardwareNumber": null,
+      "presentationName": "Gas Piston"
+    },
+    {
+      "id": "E2--1-rod",
+      "pdfPart": "E2",
+      "hardwareNumber": null,
+      "presentationName": "Gas Piston"
+    },
+    {
+      "id": "E2--1-neck",
+      "pdfPart": "E2",
+      "hardwareNumber": null,
+      "presentationName": "Gas Piston"
+    },
+    {
+      "id": "E2--1-eyeA",
+      "pdfPart": "E2",
+      "hardwareNumber": null,
+      "presentationName": "Gas Piston"
+    },
+    {
+      "id": "E2--1-eyeB",
+      "pdfPart": "E2",
+      "hardwareNumber": null,
+      "presentationName": "Gas Piston"
+    },
+    {
+      "id": "S23-H17",
+      "pdfPart": null,
+      "hardwareNumber": 17,
+      "presentationName": "Nut"
+    },
+    {
+      "id": "S25-H18--1",
+      "pdfPart": null,
+      "hardwareNumber": 18,
+      "presentationName": "Pivot Retainer Bolt"
+    },
+    {
+      "id": "S26-H17",
+      "pdfPart": null,
+      "hardwareNumber": 17,
+      "presentationName": "Nut"
+    },
+    {
+      "id": "E1-1",
+      "pdfPart": "E1",
+      "hardwareNumber": null,
+      "presentationName": "Bed Mechanism Plate"
+    },
+    {
+      "id": "S22-H21-0",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S22-H21-1",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S22-H21-2",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S22-H21-3",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S22-H21-4",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S22-H21-5",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S22-H21-6",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S22-H21-7",
+      "pdfPart": null,
+      "hardwareNumber": 21,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S24-H19",
+      "pdfPart": null,
+      "hardwareNumber": 19,
+      "presentationName": "Bearing"
+    },
+    {
+      "id": "E2-1",
+      "pdfPart": "E2",
+      "hardwareNumber": null,
+      "presentationName": "Gas Piston"
+    },
+    {
+      "id": "E2-1-body",
+      "pdfPart": "E2",
+      "hardwareNumber": null,
+      "presentationName": "Gas Piston"
+    },
+    {
+      "id": "E2-1-rod",
+      "pdfPart": "E2",
+      "hardwareNumber": null,
+      "presentationName": "Gas Piston"
+    },
+    {
+      "id": "E2-1-neck",
+      "pdfPart": "E2",
+      "hardwareNumber": null,
+      "presentationName": "Gas Piston"
+    },
+    {
+      "id": "E2-1-eyeA",
+      "pdfPart": "E2",
+      "hardwareNumber": null,
+      "presentationName": "Gas Piston"
+    },
+    {
+      "id": "E2-1-eyeB",
+      "pdfPart": "E2",
+      "hardwareNumber": null,
+      "presentationName": "Gas Piston"
+    },
+    {
+      "id": "S24-H17",
+      "pdfPart": null,
+      "hardwareNumber": 17,
+      "presentationName": "Nut"
+    },
+    {
+      "id": "S25-H18-1",
+      "pdfPart": null,
+      "hardwareNumber": 18,
+      "presentationName": "Pivot Retainer Bolt"
+    },
+    {
+      "id": "S27-H17",
+      "pdfPart": null,
+      "hardwareNumber": 17,
+      "presentationName": "Nut"
+    },
+    {
+      "id": "leg--1",
+      "pdfPart": null,
+      "hardwareNumber": null,
+      "presentationName": "Folding Leg Assembly"
+    },
+    {
+      "id": "D3--1",
+      "pdfPart": "D3",
+      "hardwareNumber": null,
+      "presentationName": "Folding Leg"
+    },
+    {
+      "id": "D7--1",
+      "pdfPart": "D7",
+      "hardwareNumber": null,
+      "presentationName": "Leg Pivot Arm"
+    },
+    {
+      "id": "S28--1-D7-H7-0",
+      "pdfPart": null,
+      "hardwareNumber": 7,
+      "presentationName": "Leg Dowel"
+    },
+    {
+      "id": "S28--1-D7-H9-0",
+      "pdfPart": null,
+      "hardwareNumber": 9,
+      "presentationName": "Threaded Cap"
+    },
+    {
+      "id": "S28--1-D7-H1-0",
+      "pdfPart": null,
+      "hardwareNumber": 1,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S28--1-D7-H7-1",
+      "pdfPart": null,
+      "hardwareNumber": 7,
+      "presentationName": "Leg Dowel"
+    },
+    {
+      "id": "S28--1-D7-H9-1",
+      "pdfPart": null,
+      "hardwareNumber": 9,
+      "presentationName": "Threaded Cap"
+    },
+    {
+      "id": "S28--1-D7-H1-1",
+      "pdfPart": null,
+      "hardwareNumber": 1,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "D6--1",
+      "pdfPart": "D6",
+      "hardwareNumber": null,
+      "presentationName": "Leg Foot"
+    },
+    {
+      "id": "S28--1-D6-H7-0",
+      "pdfPart": null,
+      "hardwareNumber": 7,
+      "presentationName": "Leg Dowel"
+    },
+    {
+      "id": "S28--1-D6-H9-0",
+      "pdfPart": null,
+      "hardwareNumber": 9,
+      "presentationName": "Threaded Cap"
+    },
+    {
+      "id": "S28--1-D6-H1-0",
+      "pdfPart": null,
+      "hardwareNumber": 1,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S28--1-D6-H7-1",
+      "pdfPart": null,
+      "hardwareNumber": 7,
+      "presentationName": "Leg Dowel"
+    },
+    {
+      "id": "S28--1-D6-H9-1",
+      "pdfPart": null,
+      "hardwareNumber": 9,
+      "presentationName": "Threaded Cap"
+    },
+    {
+      "id": "S28--1-D6-H1-1",
+      "pdfPart": null,
+      "hardwareNumber": 1,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S29--1-H10",
+      "pdfPart": null,
+      "hardwareNumber": 10,
+      "presentationName": "Plastic Washer"
+    },
+    {
+      "id": "S29--1-H9",
+      "pdfPart": null,
+      "hardwareNumber": 9,
+      "presentationName": "Threaded Cap"
+    },
+    {
+      "id": "S29--1-H2",
+      "pdfPart": null,
+      "hardwareNumber": 2,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "leg-1",
+      "pdfPart": null,
+      "hardwareNumber": null,
+      "presentationName": "Folding Leg Assembly"
+    },
+    {
+      "id": "D3-1",
+      "pdfPart": "D3",
+      "hardwareNumber": null,
+      "presentationName": "Folding Leg"
+    },
+    {
+      "id": "D7-1",
+      "pdfPart": "D7",
+      "hardwareNumber": null,
+      "presentationName": "Leg Pivot Arm"
+    },
+    {
+      "id": "S28-1-D7-H7-0",
+      "pdfPart": null,
+      "hardwareNumber": 7,
+      "presentationName": "Leg Dowel"
+    },
+    {
+      "id": "S28-1-D7-H9-0",
+      "pdfPart": null,
+      "hardwareNumber": 9,
+      "presentationName": "Threaded Cap"
+    },
+    {
+      "id": "S28-1-D7-H1-0",
+      "pdfPart": null,
+      "hardwareNumber": 1,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S28-1-D7-H7-1",
+      "pdfPart": null,
+      "hardwareNumber": 7,
+      "presentationName": "Leg Dowel"
+    },
+    {
+      "id": "S28-1-D7-H9-1",
+      "pdfPart": null,
+      "hardwareNumber": 9,
+      "presentationName": "Threaded Cap"
+    },
+    {
+      "id": "S28-1-D7-H1-1",
+      "pdfPart": null,
+      "hardwareNumber": 1,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "D6-1",
+      "pdfPart": "D6",
+      "hardwareNumber": null,
+      "presentationName": "Leg Foot"
+    },
+    {
+      "id": "S28-1-D6-H7-0",
+      "pdfPart": null,
+      "hardwareNumber": 7,
+      "presentationName": "Leg Dowel"
+    },
+    {
+      "id": "S28-1-D6-H9-0",
+      "pdfPart": null,
+      "hardwareNumber": 9,
+      "presentationName": "Threaded Cap"
+    },
+    {
+      "id": "S28-1-D6-H1-0",
+      "pdfPart": null,
+      "hardwareNumber": 1,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S28-1-D6-H7-1",
+      "pdfPart": null,
+      "hardwareNumber": 7,
+      "presentationName": "Leg Dowel"
+    },
+    {
+      "id": "S28-1-D6-H9-1",
+      "pdfPart": null,
+      "hardwareNumber": 9,
+      "presentationName": "Threaded Cap"
+    },
+    {
+      "id": "S28-1-D6-H1-1",
+      "pdfPart": null,
+      "hardwareNumber": 1,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S29-1-H10",
+      "pdfPart": null,
+      "hardwareNumber": 10,
+      "presentationName": "Plastic Washer"
+    },
+    {
+      "id": "S29-1-H9",
+      "pdfPart": null,
+      "hardwareNumber": 9,
+      "presentationName": "Threaded Cap"
+    },
+    {
+      "id": "S29-1-H2",
+      "pdfPart": null,
+      "hardwareNumber": 2,
+      "presentationName": "Bolt"
+    },
+    {
+      "id": "S30-H15-0",
+      "pdfPart": null,
+      "hardwareNumber": 15,
+      "presentationName": "Wall Bracket"
+    },
+    {
+      "id": "S30-H15-0-H14-0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S30-H15-0-H14-1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S30-H15-0-H23",
+      "pdfPart": null,
+      "hardwareNumber": 23,
+      "presentationName": "Wall Screw"
+    },
+    {
+      "id": "S30-H15-1",
+      "pdfPart": null,
+      "hardwareNumber": 15,
+      "presentationName": "Wall Bracket"
+    },
+    {
+      "id": "S30-H15-1-H14-0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S30-H15-1-H14-1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S30-H15-1-H23",
+      "pdfPart": null,
+      "hardwareNumber": 23,
+      "presentationName": "Wall Screw"
+    },
+    {
+      "id": "S31-H15-0",
+      "pdfPart": null,
+      "hardwareNumber": 15,
+      "presentationName": "Wall Bracket"
+    },
+    {
+      "id": "S31-H15-0-H14-0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S31-H15-0-H14-1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S31-H15-0-H23",
+      "pdfPart": null,
+      "hardwareNumber": 23,
+      "presentationName": "Wall Screw"
+    },
+    {
+      "id": "S31-H15-1",
+      "pdfPart": null,
+      "hardwareNumber": 15,
+      "presentationName": "Wall Bracket"
+    },
+    {
+      "id": "S31-H15-1-H14-0",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S31-H15-1-H14-1",
+      "pdfPart": null,
+      "hardwareNumber": 14,
+      "presentationName": "Wood Screw"
+    },
+    {
+      "id": "S31-H15-1-H23",
+      "pdfPart": null,
+      "hardwareNumber": 23,
+      "presentationName": "Wall Screw"
+    },
+    {
+      "id": "installation-wall",
+      "pdfPart": null,
+      "hardwareNumber": null,
+      "presentationName": "Room Wall"
+    }
+  ]
+}

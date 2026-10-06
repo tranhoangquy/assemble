@@ -1,0 +1,23 @@
+START assembly
+assembly {"valid":true,"errors":[]}
+START hardware
+hardware {"valid":true,"errors":[]}
+START structuralPaths
+structuralPaths {"valid":true,"errors":[]}
+START mechanics
+mechanics {"valid":true,"errors":[]}
+START step28
+step28 {"valid":true,"errors":[]}
+START foldingLegs
+foldingLegs {"valid":true,"errors":[]}
+START receiverPaths
+receiverPaths {"valid":true,"errors":[]}
+START pistons
+pistons {"valid":true,"errors":[]}
+START seekReset
+seekReset {"valid":true,"errors":[]}
+START b8
+b8 {"valid":true,"errors":[]}
+(node:46345) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)

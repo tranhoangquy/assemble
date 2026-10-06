@@ -1,0 +1,27 @@
+This is a visual reconstruction of the Merax Murphy bed with side storage. The product geometry is based on the supplied reference images and labeled dimensions. The assembly order is physically plausible, but it is not an official manufacturer procedure. [[slnc 900]]
+
+The reconstructed cabinet is approximately ninety-four point two inches wide, eighty-eight point five inches high, and fifteen point seven inches deep. The left storage bay, bed opening, closed facade, five slats, folding feet, and visible lower mechanism are all derived from the product photographs. [[slnc 1100]]
+
+Step one. Begin with the full-width base. Align the left bookcase side, the inner divider, and the right bed-bay post. Insert the representative base fasteners only after the three uprights are square. [[slnc 900]]
+
+Step two. Install the storage back and bottom shelf. Add the four shelf supports and place each shelf from bottom to top. Keep the front edges aligned. [[slnc 900]]
+
+Step three. Complete the fixed cabinet. Fit the rear brace and lower crossbar, install the upper bed header, then lower the full-width top cap into position. Tighten the visible top fasteners after checking the cabinet opening. [[slnc 1000]]
+
+Step four. Assemble the moving bed perimeter on an open work area. Join both side rails to the head and foot rails, then add the center longitudinal support. [[slnc 850]]
+
+Step five. Place both steel deck panels inside the perimeter. Install the five pale timber slats one at a time across the bed width. These supporting components must be in place before the mattress. [[slnc 1000]]
+
+Step six. Bring the completed bed frame to the cabinet and align both sides with the lower pivot region. Temporary human support is required until the pivot hardware is secured. [[slnc 900]]
+
+Steps seven and eight. On each side, position the pivot bracket, install its screws, then add the washer, pivot bolt, and nut. The animation shows representative hardware and access directions inferred from the visible product structure. [[slnc 1100]]
+
+Step nine. Add the paired in-plane assist components near the lower cabinet sides. Their exact internal specification is not visible in the references, so the model uses the minimum geometry necessary to explain the motion. [[slnc 900]]
+
+Step ten. Build the six-panel cabinet facade directly on the moving bed assembly. Add the outer stiles, panel fields, mullions, rails, and two vertical handles. The same facade rotates with the bed in both open and closed states. [[slnc 950]]
+
+Step eleven. Attach both folding legs and their feet at the foot rail. Secure the pivot bolts, then place the mattress on the completed support system. [[slnc 850]]
+
+Finally, test the mechanism slowly. The bed rotates about the cabinet pivots while both feet counter-rotate toward the floor. Check that the bed clears the fixed storage bay and cabinet sides. Raise the bed again and confirm that the facade closes evenly. [[slnc 900]]
+
+Before real-world use, the cabinet must be anchored to suitable structural wall framing or solid masonry with hardware selected for the wall construction. Recheck every connection and follow the manufacturer's safety information when it becomes available. The reconstructed assembly is complete.

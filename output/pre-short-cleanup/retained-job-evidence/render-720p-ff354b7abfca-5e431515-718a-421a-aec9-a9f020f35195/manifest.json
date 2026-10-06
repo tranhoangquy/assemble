@@ -1,0 +1,96 @@
+{
+  "version": 2,
+  "view": {
+    "id": "5e431515-718a-421a-aec9-a9f020f35195",
+    "productId": "demo-cabinet",
+    "productName": "Demo Cabinet",
+    "filename": "cabinet-assembly-720p.mp4",
+    "outputFilename": "cabinet-assembly-720p.mp4",
+    "outputPath": "/Users/quyth/development/three/POC/output/export-jobs/render-720p-ff354b7abfca-5e431515-718a-421a-aec9-a9f020f35195/final/cabinet-assembly-720p.mp4",
+    "frameDirectory": "/Users/quyth/development/three/POC/output/export-jobs/render-720p-ff354b7abfca-5e431515-718a-421a-aec9-a9f020f35195/frames",
+    "profileId": "720p",
+    "profileLabel": "720p — 1280×720",
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "videoId": "demo-cabinet-main",
+    "videoHash": "06cf60c89918287e5442d8dfaca61077ea6462d80b767a788af5aa8e111553a2",
+    "renderIdentity": "3152fb47e6216ac4fa221f6101089908a8fea2f4f2292b244ff442181e5f8e79",
+    "creativeHash": "b0e6b237d8ded693e79ed1b061c1a4106a2dddb66b4fe10744f3971ecb0eaff9",
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "duration": 34,
+    "timelineDuration": 34,
+    "frameLimit": 4,
+    "status": "completed",
+    "progress": 100,
+    "progressKind": "complete",
+    "currentFrame": 4,
+    "totalFrames": 4,
+    "message": "Generation complete. Ready to download.",
+    "createdAt": "2026-10-05T09:16:19.741Z",
+    "updatedAt": "2026-10-05T09:24:16.289Z",
+    "validFrames": 4,
+    "currentChunk": {
+      "index": 1,
+      "start": 2,
+      "end": 3,
+      "status": "completed",
+      "validFrames": 2,
+      "retries": 0
+    },
+    "sha256": "8ac31f644622e8666c996184704da365fbfaf42d4980c43986da5b2582724065",
+    "fileSize": 11150,
+    "outputDuration": 0.13333333333333333,
+    "downloadUrl": "/api/export/5e431515-718a-421a-aec9-a9f020f35195/download"
+  },
+  "profile": {
+    "id": "720p",
+    "label": "720p — 1280×720",
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "codec": "h264",
+    "encoder": "libx264",
+    "pixelFormat": "yuv420p",
+    "kind": "standard",
+    "supportedFps": [
+      30,
+      60
+    ]
+  },
+  "creativeHash": "b0e6b237d8ded693e79ed1b061c1a4106a2dddb66b4fe10744f3971ecb0eaff9",
+  "rendererSourceHash": "31e8340c8a7cbdeebfef3f9f3a0177fdbcf408f4fd1c62c0b7127c50de7ed755",
+  "identityHash": "ff354b7abfca0abc8766c09939205e01c48dd959f98416a4392860cc0e602b7d",
+  "chunkSize": 2,
+  "chunks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 1,
+      "status": "completed",
+      "validFrames": 2,
+      "retries": 0
+    },
+    {
+      "index": 1,
+      "start": 2,
+      "end": 3,
+      "status": "completed",
+      "validFrames": 2,
+      "retries": 0
+    }
+  ],
+  "frames": {
+    "0": "18428745bfe4351393f4b9867c680599420b453518db9d6bb51f47f74a7b51dc",
+    "1": "18428745bfe4351393f4b9867c680599420b453518db9d6bb51f47f74a7b51dc",
+    "2": "18428745bfe4351393f4b9867c680599420b453518db9d6bb51f47f74a7b51dc",
+    "3": "18428745bfe4351393f4b9867c680599420b453518db9d6bb51f47f74a7b51dc"
+  },
+  "missingFrames": [],
+  "invalidFrames": [],
+  "retries": 0,
+  "framePadding": 6,
+  "elapsedMs": 23653,
+  "lastError": "__EXPORT_CANCELLED__"
+}

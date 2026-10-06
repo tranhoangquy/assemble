@@ -1,0 +1,44 @@
+{
+  "templateVersion": "1.0",
+  "productId": null,
+  "revision": null,
+  "status": "NOT RUN",
+  "creativeFingerprints": {
+    "product": null,
+    "assembly": null,
+    "timeline": null,
+    "camera": null,
+    "materials": null,
+    "DirectorPlan": null
+  },
+  "files": [
+    {
+      "path": null,
+      "sha256": null,
+      "role": null
+    }
+  ],
+  "renderProfile": {
+    "width": null,
+    "height": null,
+    "fpsNumerator": null,
+    "fpsDenominator": null,
+    "durationSeconds": null,
+    "expectedFrameCount": null,
+    "frameCountRoundingPolicy": null,
+    "timestampFormula": "frameIndex / fps",
+    "native": true
+  },
+  "gates": [
+    {
+      "name": null,
+      "applicable": null,
+      "status": "NOT RUN",
+      "evidence": null,
+      "limitations": null
+    }
+  ],
+  "commandsAndToolVersions": [],
+  "outputRevisionDirectory": null,
+  "approvalEvidence": null
+}

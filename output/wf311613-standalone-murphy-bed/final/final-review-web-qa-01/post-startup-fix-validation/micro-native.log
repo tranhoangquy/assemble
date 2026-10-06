@@ -1,0 +1,120 @@
+Running unchanged approved gate: src/products/wf311613-standalone-murphy-bed/tools/validate-micro-pass.ts ; reports redirected to /Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/post-startup-fix-validation
+{
+  "valid": false,
+  "errors": [],
+  "unexpected": [
+    "src/engine/export/ExportJobManager.ts",
+    "src/engine/render/FrameRenderer.ts"
+  ],
+  "pairChecks": 214537,
+  "cameraChecks": [
+    {
+      "shot": "S26-target",
+      "p": 0.7,
+      "first": "E2--1-eyeB",
+      "eye": [
+        -115.1,
+        114.5,
+        -9.199999999999982
+      ],
+      "eyeNDC": [
+        0.07040422364860881,
+        0.7122172499321313,
+        0.918009903193313
+      ],
+      "mountNDC": [
+        -0.03449260793920453,
+        -0.35196277611160726,
+        0.789401799946674
+      ],
+      "polarAngle": 1.109135811410844
+    },
+    {
+      "shot": "S26-eye-align",
+      "p": 0.2,
+      "first": "E2--1-eyeB",
+      "eye": [
+        -115.11186527273185,
+        114.32202090902221,
+        -8.460397999714449
+      ],
+      "eyeNDC": [
+        0.06873563231783922,
+        0.6952893643234185,
+        0.9159641372450399
+      ],
+      "mountNDC": [
+        -0.03449260793920453,
+        -0.35196277611160726,
+        0.789401799946674
+      ],
+      "polarAngle": 1.109135811410844
+    },
+    {
+      "shot": "S26-eye-align",
+      "p": 0.5,
+      "first": "E2--1-eyeB",
+      "eye": [
+        -115.2805763161997,
+        111.7913552570045,
+        2.055923709781297
+      ],
+      "eyeNDC": [
+        0.03133426856186275,
+        0.3158519337220232,
+        0.8701084295112266
+      ],
+      "mountNDC": [
+        -0.03449260793920453,
+        -0.35196277611160726,
+        0.789401799946674
+      ],
+      "polarAngle": 1.109135811410844
+    },
+    {
+      "shot": "S26-eye-align",
+      "p": 0.9,
+      "first": "E2--1-eyeB",
+      "eye": [
+        -115.39995222358306,
+        110.00071664625412,
+        9.497021936677331
+      ],
+      "eyeNDC": [
+        -0.034450060019617236,
+        -0.35153112679018883,
+        0.789453965556944
+      ],
+      "mountNDC": [
+        -0.03449260793920453,
+        -0.35196277611160726,
+        0.789401799946674
+      ],
+      "polarAngle": 1.109135811410844
+    },
+    {
+      "shot": "S26-verify",
+      "p": 0.8,
+      "first": "E2--1-eyeB",
+      "eye": [
+        -115.39999999999999,
+        110,
+        9.500000000000004
+      ],
+      "eyeNDC": [
+        -0.03449260793920312,
+        -0.35196277611160726,
+        0.789401799946674
+      ],
+      "mountNDC": [
+        -0.03449260793920453,
+        -0.35196277611160726,
+        0.789401799946674
+      ],
+      "polarAngle": 1.109135811410844
+    }
+  ]
+}
+(node:8935) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)

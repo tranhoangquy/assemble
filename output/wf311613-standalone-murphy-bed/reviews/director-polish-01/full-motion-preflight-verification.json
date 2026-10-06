@@ -1,0 +1,187 @@
+{
+  "projectId": "wf311613-director-polish-01",
+  "method": "Video-export Chromium executable compared to QA-still default headless shell: small rasterization differences; candidate/preset identity checked separately, not inferred from pixel equality.",
+  "checkpoints": [
+    {
+      "name": "01-early-assembly.png",
+      "time": 10.631072500000002,
+      "byteIdentical": false,
+      "approvedStillSha256": "3abb32d69b7fcda7dde64ccf1e3758c3029a3f26611fb71cd2b6a3157f50551d",
+      "renderPreflightSha256": "98300c2c58a3d0d9da9b444816cb77ef1fdc36a12fdeb81ee3cd7d439b775358",
+      "meanAbsoluteChannelError": 0.14221860532407407,
+      "maxChannelError": 50
+    },
+    {
+      "name": "02-cabinet-working-medium.png",
+      "time": 73.0636938888888,
+      "byteIdentical": false,
+      "approvedStillSha256": "e2ce1a0140938da027e33e9042e84311b0d6f6dbb808c8ee394e0216b5352067",
+      "renderPreflightSha256": "0d641283cd61b15e2300f17114a3b0a34d933cbc3104b5165afc6d14d847126a",
+      "meanAbsoluteChannelError": 0.19713686342592593,
+      "maxChannelError": 61
+    },
+    {
+      "name": "03-after-distant-224s.png",
+      "time": 224,
+      "byteIdentical": false,
+      "approvedStillSha256": "d313eb578e52b43ebcc6af9dba8a89dc72ab3bf46dd8507fd02d82e5c92c5a1b",
+      "renderPreflightSha256": "1f7c4d50df5b61d3adfe01752aa620c4a85e63d9f65f8c1dc2b314693958dfd4",
+      "meanAbsoluteChannelError": 0.23627712673611112,
+      "maxChannelError": 60
+    },
+    {
+      "name": "04-step25-front-staging.png",
+      "time": 369.0636938888887,
+      "byteIdentical": false,
+      "approvedStillSha256": "a3100b2cfbb72e85104d672018409f8b078b92af83d9721ba0457cc9662e5f6f",
+      "renderPreflightSha256": "9336d17ec79fc27cbc1e495a5995da65ca62eff96f5a6ac67bb1da91d88bc96c",
+      "meanAbsoluteChannelError": 0.3325679976851852,
+      "maxChannelError": 99
+    },
+    {
+      "name": "05-step25-supported-approach.png",
+      "time": 372.4436938888887,
+      "byteIdentical": false,
+      "approvedStillSha256": "b5c153f1c67fc4817a76704257189c06ed718fac08d0c46f590c16ac332df6e1",
+      "renderPreflightSha256": "4756549fc1254fcb55467c1b78c991e307cb5d36832bfc9462740746d943267c",
+      "meanAbsoluteChannelError": 0.29054832175925926,
+      "maxChannelError": 78
+    },
+    {
+      "name": "06-step25-bearing-alignment.png",
+      "time": 375.15169388888864,
+      "byteIdentical": false,
+      "approvedStillSha256": "83bb4aadfb9888cf25db5abbc7e066955730504ebb88f21b98830c75e4414f8b",
+      "renderPreflightSha256": "5da49183d769ae9e7d6b1b785396558623695329c18e3d28a5734e8a124d49a1",
+      "meanAbsoluteChannelError": 0.27651222511574075,
+      "maxChannelError": 70
+    },
+    {
+      "name": "07-step25-seated-connection.png",
+      "time": 378.41369388888864,
+      "byteIdentical": false,
+      "approvedStillSha256": "c00f23d73677567911f37b47bde24b759f2a03333c67070c86afef6520369a6d",
+      "renderPreflightSha256": "1edd7454a565566d0d523924d83a35091250e5f069f64355c3206d3d7761ca54",
+      "meanAbsoluteChannelError": 0.176875,
+      "maxChannelError": 110
+    },
+    {
+      "name": "08-step28-leg-work.png",
+      "time": 412.13969388888853,
+      "byteIdentical": false,
+      "approvedStillSha256": "36a5d6d392055c15cdc396b0cbc07d5d5b1da13502faec0725543c7c7d303ada",
+      "renderPreflightSha256": "485d9e2b75b14a120f782245467511c51840232d8ce3638c2c305d7e38229662",
+      "meanAbsoluteChannelError": 0.13715313946759258,
+      "maxChannelError": 42
+    },
+    {
+      "name": "09-step30-wall-anchoring.png",
+      "time": 464.1911938888885,
+      "byteIdentical": false,
+      "approvedStillSha256": "f0dbeb33c2c9b8ca7a692be0885d340649eefc7e3ce22d181adde6c6494f2cf9",
+      "renderPreflightSha256": "9c8f3b8874f318a7a369d1394b6914e1d8f59a7b3fd143e1c1d19521b6dab189",
+      "meanAbsoluteChannelError": 0.10318250868055556,
+      "maxChannelError": 83
+    },
+    {
+      "name": "10-final-open-bedroom.png",
+      "time": 497.75369388888834,
+      "byteIdentical": false,
+      "approvedStillSha256": "e68491536525e8f4aff2f75b61683a9a2c44b43a89df5efb792109b2c259d9d3",
+      "renderPreflightSha256": "cf67b8fa85f88e96285ec7d7509f9a913a3c5603f8c504e9e149dda77ec47982",
+      "meanAbsoluteChannelError": 0.2951537181712963,
+      "maxChannelError": 91
+    },
+    {
+      "name": "11-final-closed-bedroom.png",
+      "time": 490.4536938888883,
+      "byteIdentical": false,
+      "approvedStillSha256": "b8ca83950507f1c1ed6fc23865b4333b7e7238ad9dbe519d1f95880abcda6f24",
+      "renderPreflightSha256": "be32316b4e141f42161b7357036d630536db8860aa05ae06b29725ac63a85117",
+      "meanAbsoluteChannelError": 0.2742795138888889,
+      "maxChannelError": 88
+    },
+    {
+      "name": "12-early-connection-macro.png",
+      "time": 15.951110000000003,
+      "byteIdentical": false,
+      "approvedStillSha256": "480431400b999ee3dbe03ebfd6ba3bcf0e7222b89a3cb723be6ee2eee0c23fb5",
+      "renderPreflightSha256": "af50ff306eb4037b53562c995e6317f642d8e5391bfa3c7c4836c874f4f8514e",
+      "meanAbsoluteChannelError": 0.11663736979166667,
+      "maxChannelError": 52
+    },
+    {
+      "name": "13-top-cap-installation.png",
+      "time": 140.51869388888863,
+      "byteIdentical": false,
+      "approvedStillSha256": "44226858102b0b112d67e01855db774cef400a8955547a77fbd797f382abfeb3",
+      "renderPreflightSha256": "f40c3224fea2975bf0e2e894477e5aa15cbf84d9f650599ad2625c01c3242b10",
+      "meanAbsoluteChannelError": 0.22242006655092592,
+      "maxChannelError": 61
+    },
+    {
+      "name": "14-carrier-and-face.png",
+      "time": 261.75369388888885,
+      "byteIdentical": false,
+      "approvedStillSha256": "1538e32c549ff4dc9044f7c3994e0b62cf0d449bfaf8553ef644093d87ca2e64",
+      "renderPreflightSha256": "744abe66f52f0ae30acdaf9db33db859adbe03fc69e0c545bf024ba73e885d01",
+      "meanAbsoluteChannelError": 0.28591507523148146,
+      "maxChannelError": 92
+    },
+    {
+      "name": "15-step25-bearing-lowering.png",
+      "time": 376.17869388888863,
+      "byteIdentical": false,
+      "approvedStillSha256": "b20a63c487610222d6a19b06f81b433795881c185884cbe12004844e28f122e5",
+      "renderPreflightSha256": "495a96ee291bec6f9f57b422910651662ad8426896a3d1a24e64df0d6235f8de",
+      "meanAbsoluteChannelError": 0.15211769386574073,
+      "maxChannelError": 100
+    },
+    {
+      "name": "16-step25-retainer-installation.png",
+      "time": 379.92369388888864,
+      "byteIdentical": false,
+      "approvedStillSha256": "ea8a81d12390a2b2104b0eccf09653699c1814e847b3ca97027cbfd692b5a41b",
+      "renderPreflightSha256": "de87550622e3dadaba7eab16bed04d4f0db11f9c205dce75b4c980d665e97d48",
+      "meanAbsoluteChannelError": 0.1783326099537037,
+      "maxChannelError": 66
+    },
+    {
+      "name": "17-pdf-left-D8-target.png",
+      "time": 168.32369388888878,
+      "byteIdentical": false,
+      "approvedStillSha256": "31b22be5f02b8cfb0adc7ae7e279ef38d58c6c51f72def2c7ed8269e865c7cc6",
+      "renderPreflightSha256": "c9caa7de8f2f8d57489ed322f8a877e76045f84c0d9e0f718de30625a00ff42c",
+      "meanAbsoluteChannelError": 0.16597330729166668,
+      "maxChannelError": 81
+    },
+    {
+      "name": "18-pdf-right-D9-seating.png",
+      "time": 153.41609388888872,
+      "byteIdentical": false,
+      "approvedStillSha256": "15e01f74f6e5b08133ba720d614abaaeb4af944fd417eda72ac33f868507a247",
+      "renderPreflightSha256": "835f7a3323a31f10747f83b3a9a690dff3e7a49bb99af81ba080c198d3b01c88",
+      "meanAbsoluteChannelError": 0.17221788194444446,
+      "maxChannelError": 61
+    },
+    {
+      "name": "19-step25-connected-pullback.png",
+      "time": 383.8286938888886,
+      "byteIdentical": false,
+      "approvedStillSha256": "3b69cf405d822c16e9392231cee99229cdd4995d163df362ffbd1218d36136cf",
+      "renderPreflightSha256": "6804288426889a8973288435b31b5c8b1863ba23f3c91c0df91849e5be3dbce3",
+      "meanAbsoluteChannelError": 0.27722041377314816,
+      "maxChannelError": 89
+    },
+    {
+      "name": "20-step29-leg-pivot.png",
+      "time": 448.3286938888885,
+      "byteIdentical": false,
+      "approvedStillSha256": "f189a3b2a694de905c970f8ddcbc775a413d7d4f8fbbd1749c49c9817eea556d",
+      "renderPreflightSha256": "6fed7ab0168198f1516413de7e859f9c33c55856f52b89c2a15e23fe94297f4d",
+      "meanAbsoluteChannelError": 0.11659939236111111,
+      "maxChannelError": 66
+    }
+  ],
+  "exactPngIdentity": false
+}

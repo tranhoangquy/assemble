@@ -1,0 +1,17 @@
+{
+  "found": true,
+  "result": [
+    {
+      "key": "fiber3.hook34.current",
+      "scene": true
+    },
+    {
+      "key": "fiber9.hook9.current",
+      "scene": true
+    }
+  ],
+  "keys": [
+    "__reactFiber$le3iiedrlk9",
+    "__reactProps$le3iiedrlk9"
+  ]
+}

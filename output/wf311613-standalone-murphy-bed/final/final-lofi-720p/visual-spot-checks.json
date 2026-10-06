@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "frames": [
+    {
+      "time": 0,
+      "reference": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/evidence/spot-0-reference.png",
+      "final": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/evidence/spot-0-final.png",
+      "decoded_frame_identity": "PASS"
+    },
+    {
+      "time": 195,
+      "reference": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/evidence/spot-1-reference.png",
+      "final": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/evidence/spot-1-final.png",
+      "decoded_frame_identity": "PASS"
+    },
+    {
+      "time": 297,
+      "reference": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/evidence/spot-2-reference.png",
+      "final": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/evidence/spot-2-final.png",
+      "decoded_frame_identity": "PASS"
+    },
+    {
+      "time": 467,
+      "reference": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/evidence/spot-3-reference.png",
+      "final": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/evidence/spot-3-final.png",
+      "decoded_frame_identity": "PASS"
+    },
+    {
+      "time": 503,
+      "reference": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/evidence/spot-4-reference.png",
+      "final": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/evidence/spot-4-final.png",
+      "decoded_frame_identity": "PASS"
+    },
+    {
+      "time": 517,
+      "reference": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/evidence/spot-5-reference.png",
+      "final": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/evidence/spot-5-final.png",
+      "decoded_frame_identity": "PASS"
+    },
+    {
+      "time": 523.8,
+      "reference": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/evidence/spot-6-reference.png",
+      "final": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/evidence/spot-6-final.png",
+      "decoded_frame_identity": "PASS"
+    }
+  ]
+}

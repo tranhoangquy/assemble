@@ -1,0 +1,205 @@
+{
+  "valid": true,
+  "verifiedAt": "2026-10-03T08:13:42.551Z",
+  "outputPath": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/director-polish-01/wf311613-director-polish-01-full-review.mp4",
+  "sha256": "70f131483e1baf4d1fe2b55f2824907221f1ab6af387802d26581080453bdcd9",
+  "bytes": 28391436,
+  "candidate": {
+    "projectId": "wf311613-director-polish-01",
+    "productHash": "4645bcf33682cbf377d84a2d0f8139674b6d80f5a5014a29505bf97287f82a45",
+    "planHash": "e40e3ba17aeab9ed26545fe17013cf90f5a21443d7a7d3434a73bff8b7d8f6d7",
+    "videoHash": "c7dcb91022b7eeb60b5fbac8767f241a18d0045a945b7b4dd7f013de8bea146d",
+    "assemblyHash": "27c5e70e0388550bf1ae66eb5e4010ec7a8ea3956cad7081039ecfc0576fdfc5",
+    "cameraPresetsHash": "d9a60f634250e3f493a33a8313d57c25b3d1e3ef79d9c87c7d63e1d455b450b4"
+  },
+  "candidateIdentityMatches": true,
+  "changedSourceFiles": [],
+  "additionalDirectingChanges": false,
+  "media": {
+    "valid": true,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "width": 1280,
+    "height": 720,
+    "fps": "30/1",
+    "frameCount": 14948,
+    "encodedDuration": 498.266667,
+    "timelineDuration": 498.2536938888889,
+    "audio": false
+  },
+  "frameSequence": {
+    "valid": true,
+    "directory": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/frames/director-polish-01-full-review",
+    "startIndex": 0,
+    "lastIndex": 14947,
+    "frames": 14948,
+    "missingIndices": [],
+    "method": "Fresh contiguous PNG sequence from time 0, frame i sampled at i/30 seconds. No cached prefix, historical MP4 input, or video concatenation."
+  },
+  "decode": {
+    "valid": true,
+    "method": "ffprobe counted every decoded frame; ffmpeg -xerror -err_detect explode decoded the complete MP4 to null with exit 0."
+  },
+  "gates": {
+    "valid": true,
+    "mechanicalGateCount": 11,
+    "baselineLockValid": true
+  },
+  "browserVerification": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/director-polish-01/full-motion-browser-verification.json",
+  "decodedFrames": [
+    {
+      "name": "01-early-assembly.png",
+      "requestedTime": 10.631072500000002,
+      "frameIndex": 319,
+      "encodedTime": 10.633333333333333,
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/director-polish-01/full-motion-verification/01-early-assembly.png",
+      "sourcePngSha256": "edff336f0f45db60f0b644c96211fe6251c03e1685637c3c84273190a6cd9e7e",
+      "decodedPngSha256": "e107ee472edf89417b25d826faa4c30dc8e94f46be8dadd7fdee761d2fc624ae",
+      "meanAbsoluteChannelError": 0.7992335792824075,
+      "psnrDb": 44.86912059444262
+    },
+    {
+      "name": "03-after-distant-224s.png",
+      "requestedTime": 224,
+      "frameIndex": 6720,
+      "encodedTime": 224,
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/director-polish-01/full-motion-verification/03-after-distant-224s.png",
+      "sourcePngSha256": "1f7c4d50df5b61d3adfe01752aa620c4a85e63d9f65f8c1dc2b314693958dfd4",
+      "decodedPngSha256": "b9fb5ecc535e78d7337b811720ded59220c51891b3b9e7e9fa612e5959752f62",
+      "meanAbsoluteChannelError": 0.957181712962963,
+      "psnrDb": 43.572777640637014
+    },
+    {
+      "name": "04-step25-front-staging.png",
+      "requestedTime": 369.0636938888887,
+      "frameIndex": 11072,
+      "encodedTime": 369.06666666666666,
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/director-polish-01/full-motion-verification/04-step25-front-staging.png",
+      "sourcePngSha256": "9336d17ec79fc27cbc1e495a5995da65ca62eff96f5a6ac67bb1da91d88bc96c",
+      "decodedPngSha256": "51ab07ddfe99d62adff35d65bbe5befe2b79f6e6d5ced77c51c4d8a1acdf22d1",
+      "meanAbsoluteChannelError": 0.9223773871527777,
+      "psnrDb": 45.16645536199189
+    },
+    {
+      "name": "05-step25-supported-approach.png",
+      "requestedTime": 372.4436938888887,
+      "frameIndex": 11173,
+      "encodedTime": 372.43333333333334,
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/director-polish-01/full-motion-verification/05-step25-supported-approach.png",
+      "sourcePngSha256": "0eadb54f151b5a042b933f531e4de8e56ff2c21b902f3be458473a005aadfe34",
+      "decodedPngSha256": "b5705ca9e65e0e31cb9229873e5fab0d89fdc22eed28299501bf6e764de7b36a",
+      "meanAbsoluteChannelError": 1.058150318287037,
+      "psnrDb": 42.54995089541514
+    },
+    {
+      "name": "06-step25-bearing-alignment.png",
+      "requestedTime": 375.15169388888864,
+      "frameIndex": 11255,
+      "encodedTime": 375.1666666666667,
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/director-polish-01/full-motion-verification/06-step25-bearing-alignment.png",
+      "sourcePngSha256": "a84ec3e71c962cca87704d223afb39c431d0727eb757f301396c5495eed4ba4f",
+      "decodedPngSha256": "499206e7a7ba82364e38adcf30b72282caedd7911c046c8848158213f81ac76d",
+      "meanAbsoluteChannelError": 1.0632552083333333,
+      "psnrDb": 43.0379157474361
+    },
+    {
+      "name": "15-step25-bearing-lowering.png",
+      "requestedTime": 376.17869388888863,
+      "frameIndex": 11285,
+      "encodedTime": 376.1666666666667,
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/director-polish-01/full-motion-verification/15-step25-bearing-lowering.png",
+      "sourcePngSha256": "e7344517611dfcfe03f090c944126efa4286ad1b46f2bab193f59b1b47bdff89",
+      "decodedPngSha256": "40aa693c007e74993ffcc825a93e8e7bd22c90f74221f4767c60f2825a94f9b1",
+      "meanAbsoluteChannelError": 0.8251092303240741,
+      "psnrDb": 45.355603472606575
+    },
+    {
+      "name": "07-step25-seated-connection.png",
+      "requestedTime": 378.41369388888864,
+      "frameIndex": 11352,
+      "encodedTime": 378.4,
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/director-polish-01/full-motion-verification/07-step25-seated-connection.png",
+      "sourcePngSha256": "1edd7454a565566d0d523924d83a35091250e5f069f64355c3206d3d7761ca54",
+      "decodedPngSha256": "56ce6535da9c40ed0f9ea1bf4ff82c4635da47b87ebc277ce57d9ea90d74043c",
+      "meanAbsoluteChannelError": 0.7812890625,
+      "psnrDb": 46.500379772615794
+    },
+    {
+      "name": "16-step25-retainer-installation.png",
+      "requestedTime": 379.92369388888864,
+      "frameIndex": 11398,
+      "encodedTime": 379.93333333333334,
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/director-polish-01/full-motion-verification/16-step25-retainer-installation.png",
+      "sourcePngSha256": "ace63311fdb703bb774de0477c9ef3c2358ef04da4772be53adc141fd7d64fbd",
+      "decodedPngSha256": "a0d96a13dad4e253005c1328138eaa50e9d74f7f34f75a35beec1f6ec6ad827d",
+      "meanAbsoluteChannelError": 1.102175564236111,
+      "psnrDb": 44.02652259653891
+    },
+    {
+      "name": "19-step25-connected-pullback.png",
+      "requestedTime": 383.8286938888886,
+      "frameIndex": 11515,
+      "encodedTime": 383.8333333333333,
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/director-polish-01/full-motion-verification/19-step25-connected-pullback.png",
+      "sourcePngSha256": "6804288426889a8973288435b31b5c8b1863ba23f3c91c0df91849e5be3dbce3",
+      "decodedPngSha256": "6726f269f90e87dfe7840f6969c9f0d5d34a9f70c726968d33a8af90375782e3",
+      "meanAbsoluteChannelError": 0.9771462673611111,
+      "psnrDb": 44.61646607015129
+    },
+    {
+      "name": "08-step28-leg-work.png",
+      "requestedTime": 412.13969388888853,
+      "frameIndex": 12364,
+      "encodedTime": 412.1333333333333,
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/director-polish-01/full-motion-verification/08-step28-leg-work.png",
+      "sourcePngSha256": "36287dabe96889bd4a0a325c9cbd126ae98422a3e3cd8e0bed5aacee04150163",
+      "decodedPngSha256": "9f693c1f5953fe29b91d4b45d4716f967b53a3b0dcd312e9f56f80d7140e8892",
+      "meanAbsoluteChannelError": 0.9403428819444445,
+      "psnrDb": 45.08146153281053
+    },
+    {
+      "name": "20-step29-leg-pivot.png",
+      "requestedTime": 448.3286938888885,
+      "frameIndex": 13450,
+      "encodedTime": 448.3333333333333,
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/director-polish-01/full-motion-verification/20-step29-leg-pivot.png",
+      "sourcePngSha256": "c1ea83cc35374b1ff80b0ff281cb5a4d191d48724d00a8014ba332089f9a883a",
+      "decodedPngSha256": "dea4f4ec67ef236572d922b2405dc472425c90b17ac35319f8dbf5d0679907a9",
+      "meanAbsoluteChannelError": 0.9514435040509259,
+      "psnrDb": 45.10961988381746
+    },
+    {
+      "name": "09-step30-wall-anchoring.png",
+      "requestedTime": 464.1911938888885,
+      "frameIndex": 13926,
+      "encodedTime": 464.2,
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/director-polish-01/full-motion-verification/09-step30-wall-anchoring.png",
+      "sourcePngSha256": "b2849380b552b4421749b9bf807457a15e7eb0d7eb5762536e9044cfcfe3fc56",
+      "decodedPngSha256": "77ad49043f651ef11253e683bb45e984932a23f6385d4c8d68e53b716aadd63f",
+      "meanAbsoluteChannelError": 1.1149084924768518,
+      "psnrDb": 44.464267432604345
+    },
+    {
+      "name": "11-final-closed-bedroom.png",
+      "requestedTime": 490.4536938888883,
+      "frameIndex": 14714,
+      "encodedTime": 490.46666666666664,
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/director-polish-01/full-motion-verification/11-final-closed-bedroom.png",
+      "sourcePngSha256": "be32316b4e141f42161b7357036d630536db8860aa05ae06b29725ac63a85117",
+      "decodedPngSha256": "12a5b35a9984896e97a9a44dd7ebfac9b46dd04b522d40cfea312c17ae9c196f",
+      "meanAbsoluteChannelError": 0.9970887586805556,
+      "psnrDb": 44.434158492864725
+    },
+    {
+      "name": "10-final-open-bedroom.png",
+      "requestedTime": 497.75369388888834,
+      "frameIndex": 14933,
+      "encodedTime": 497.76666666666665,
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/director-polish-01/full-motion-verification/10-final-open-bedroom.png",
+      "sourcePngSha256": "cf67b8fa85f88e96285ec7d7509f9a913a3c5603f8c504e9e149dda77ec47982",
+      "decodedPngSha256": "e3372f5a9b3dbcfc74d0eb98ea9b03f03bde61b4ae12e314a9c60946d22eb5eb",
+      "meanAbsoluteChannelError": 1.0300582320601852,
+      "psnrDb": 43.870086160403005
+    }
+  ]
+}

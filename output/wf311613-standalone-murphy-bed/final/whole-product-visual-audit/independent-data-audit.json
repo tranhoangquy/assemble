@@ -1,0 +1,236 @@
+{
+  "holeValid": true,
+  "fitValid": true,
+  "duplicateMeshCandidates": [],
+  "symmetry": [
+    {
+      "left": "A1",
+      "right": "A4",
+      "centerDelta": [
+        0,
+        0,
+        0
+      ],
+      "sizeDelta": [
+        0,
+        -5.684341886080802e-14,
+        2.842170943040401e-14
+      ],
+      "holeRecords": [
+        61,
+        61
+      ],
+      "holeMirroredWorldWorst": 8.163514517232825e-14
+    },
+    {
+      "left": "A3",
+      "right": "A2",
+      "centerDelta": [
+        0,
+        0,
+        0
+      ],
+      "sizeDelta": [
+        0,
+        -5.684341886080802e-14,
+        2.842170943040401e-14
+      ],
+      "holeRecords": [
+        21,
+        21
+      ],
+      "holeMirroredWorldWorst": 8.163514517232825e-14
+    },
+    {
+      "left": "A5",
+      "right": "A6",
+      "centerDelta": [
+        0,
+        0,
+        0
+      ],
+      "sizeDelta": [
+        0,
+        0,
+        2.1316282072803006e-14
+      ],
+      "holeRecords": [
+        24,
+        24
+      ],
+      "holeMirroredWorldWorst": 3.351623381340333e-14
+    },
+    {
+      "left": "A7",
+      "right": "A7-R",
+      "centerDelta": [
+        0,
+        0,
+        0
+      ],
+      "sizeDelta": [
+        0,
+        0,
+        0
+      ],
+      "holeRecords": [
+        4,
+        4
+      ],
+      "holeMirroredWorldWorst": 1.8369701987210292e-16
+    },
+    {
+      "left": "A8",
+      "right": "A8-R",
+      "centerDelta": [
+        0,
+        0,
+        0
+      ],
+      "sizeDelta": [
+        0,
+        0,
+        0
+      ],
+      "holeRecords": [
+        4,
+        4
+      ],
+      "holeMirroredWorldWorst": 1.3322676295501878e-15
+    },
+    {
+      "left": "A9",
+      "right": "A9-R",
+      "centerDelta": [
+        0,
+        0,
+        8.881784197001252e-16
+      ],
+      "sizeDelta": [
+        0,
+        0,
+        7.105427357601002e-15
+      ],
+      "holeRecords": [
+        1,
+        1
+      ],
+      "holeMirroredWorldWorst": 1.7763568394002505e-15
+    },
+    {
+      "left": "D8",
+      "right": "D9",
+      "centerDelta": [
+        0,
+        0,
+        0
+      ],
+      "sizeDelta": [
+        0,
+        0,
+        0
+      ],
+      "holeRecords": [
+        20,
+        20
+      ],
+      "holeMirroredWorldWorst": 0
+    },
+    {
+      "left": "E1--1",
+      "right": "E1-1",
+      "centerDelta": [
+        0,
+        0,
+        0
+      ],
+      "sizeDelta": [
+        0,
+        0,
+        0
+      ],
+      "holeRecords": [
+        9,
+        9
+      ],
+      "holeMirroredWorldWorst": 0
+    },
+    {
+      "left": "E2--1",
+      "right": "E2-1",
+      "centerDelta": [
+        0,
+        0,
+        0
+      ],
+      "sizeDelta": [
+        0,
+        0,
+        0
+      ],
+      "holeRecords": [
+        0,
+        0
+      ],
+      "holeMirroredWorldWorst": 0
+    },
+    {
+      "left": "leg--1",
+      "right": "leg-1",
+      "centerDelta": [
+        0,
+        0,
+        0
+      ],
+      "sizeDelta": [
+        0,
+        0,
+        0
+      ],
+      "holeRecords": [
+        0,
+        0
+      ],
+      "holeMirroredWorldWorst": 0
+    },
+    {
+      "left": "S30-H15-0",
+      "right": "S31-H15-0",
+      "centerDelta": [
+        0,
+        0,
+        0
+      ],
+      "sizeDelta": [
+        0,
+        0,
+        0
+      ],
+      "holeRecords": [
+        3,
+        3
+      ],
+      "holeMirroredWorldWorst": 0
+    },
+    {
+      "left": "S30-H15-1",
+      "right": "S31-H15-1",
+      "centerDelta": [
+        0,
+        0,
+        0
+      ],
+      "sizeDelta": [
+        0,
+        0,
+        0
+      ],
+      "holeRecords": [
+        3,
+        3
+      ],
+      "holeMirroredWorldWorst": 0
+    }
+  ],
+  "namedHelperCandidates": []
+}

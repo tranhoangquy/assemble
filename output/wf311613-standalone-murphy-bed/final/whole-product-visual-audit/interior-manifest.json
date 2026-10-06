@@ -1,0 +1,134 @@
+[
+  {
+    "id": "joint-pivot-interior-left",
+    "group": "closeups",
+    "time": 389.1836938888889,
+    "title": "pivot-interior left",
+    "partIds": [
+      "E1--1"
+    ],
+    "camera": {
+      "position": [
+        -75,
+        39.801536896070445,
+        10
+      ],
+      "target": [
+        -115.22499998509883,
+        31.801536896070445,
+        -7.48989928337167
+      ],
+      "fov": 65
+    }
+  },
+  {
+    "id": "joint-mechanism-interior-left",
+    "group": "closeups",
+    "time": 398.4836938888889,
+    "title": "mechanism-interior left",
+    "partIds": [
+      "E1--1"
+    ],
+    "camera": {
+      "position": [
+        -75,
+        39.5,
+        10
+      ],
+      "target": [
+        -115.22499998509883,
+        31.5,
+        -9.199999999999982
+      ],
+      "fov": 65
+    }
+  },
+  {
+    "id": "joint-piston-interior-left",
+    "group": "closeups",
+    "time": 408.78369388888893,
+    "title": "piston-interior left",
+    "partIds": [
+      "E2--1"
+    ],
+    "camera": {
+      "position": [
+        -75,
+        74.25,
+        10
+      ],
+      "target": [
+        -115.15867467555637,
+        66.25,
+        0.150000000000011
+      ],
+      "fov": 65
+    }
+  },
+  {
+    "id": "joint-pivot-interior-right",
+    "group": "closeups",
+    "time": 389.1836938888889,
+    "title": "pivot-interior right",
+    "partIds": [
+      "E1-1"
+    ],
+    "camera": {
+      "position": [
+        75,
+        39.801536896070445,
+        10
+      ],
+      "target": [
+        115.22499998509883,
+        31.801536896070445,
+        -7.48989928337167
+      ],
+      "fov": 65
+    }
+  },
+  {
+    "id": "joint-mechanism-interior-right",
+    "group": "closeups",
+    "time": 398.4836938888889,
+    "title": "mechanism-interior right",
+    "partIds": [
+      "E1-1"
+    ],
+    "camera": {
+      "position": [
+        75,
+        39.5,
+        10
+      ],
+      "target": [
+        115.22499998509883,
+        31.5,
+        -9.199999999999982
+      ],
+      "fov": 65
+    }
+  },
+  {
+    "id": "joint-piston-interior-right",
+    "group": "closeups",
+    "time": 408.78369388888893,
+    "title": "piston-interior right",
+    "partIds": [
+      "E2-1"
+    ],
+    "camera": {
+      "position": [
+        75,
+        74.25,
+        10
+      ],
+      "target": [
+        115.15867467555637,
+        66.25,
+        0.150000000000011
+      ],
+      "fov": 65
+    }
+  }
+]

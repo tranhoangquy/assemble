@@ -1,0 +1,13 @@
+{
+  "removedTaskOnlyFixtures": [
+    "9ae7f835-950a-40f8-af8a-f5400d5df684",
+    "332c0f18-deab-44b1-a9b2-b01fba3cc9a9",
+    "e7ec7bcb-3b0b-418c-825d-29bd79bc4da5",
+    "35a8ca39-fa0d-4852-b44b-49d0efbc96c6",
+    "d791f2a8-66b4-4631-a3c9-6512a9814719",
+    "b05e023d-3946-416d-8a48-e8d3afcaa416",
+    "1aeed3a9-f984-4b07-967b-b88b75bc3c20"
+  ],
+  "nativeSmokeEvidence": "retained",
+  "approvedMasters": "untouched"
+}

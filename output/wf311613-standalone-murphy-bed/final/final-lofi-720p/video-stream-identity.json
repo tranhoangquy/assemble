@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "packet_count": 15722,
+  "frame_count": 15722,
+  "comparison": "Every ordered packet PTS, DTS, duration, size, flags, side data and SHA256 payload matched",
+  "original_packet_sequence_sha256": "5b72815e5857ea738dbe0116583eca173f34f88291f33076a45683d6476f4671",
+  "final_packet_sequence_sha256": "5b72815e5857ea738dbe0116583eca173f34f88291f33076a45683d6476f4671",
+  "stream_fields": {
+    "codec_name": {
+      "original": "h264",
+      "final": "h264"
+    },
+    "profile": {
+      "original": "High",
+      "final": "High"
+    },
+    "width": {
+      "original": 1280,
+      "final": 1280
+    },
+    "height": {
+      "original": 720,
+      "final": 720
+    },
+    "pix_fmt": {
+      "original": "yuv420p",
+      "final": "yuv420p"
+    },
+    "r_frame_rate": {
+      "original": "30/1",
+      "final": "30/1"
+    },
+    "avg_frame_rate": {
+      "original": "30/1",
+      "final": "30/1"
+    },
+    "time_base": {
+      "original": "1/15360",
+      "final": "1/15360"
+    },
+    "start_pts": {
+      "original": 0,
+      "final": 0
+    },
+    "duration_ts": {
+      "original": 8049664,
+      "final": 8049664
+    },
+    "nb_frames": {
+      "original": "15722",
+      "final": "15722"
+    },
+    "extradata_hash": {
+      "original": "SHA256:74fa37c259963df3daeb3b666395c2a29a1e5dba30a14457c980b214a8561406",
+      "final": "SHA256:74fa37c259963df3daeb3b666395c2a29a1e5dba30a14457c980b214a8561406"
+    }
+  }
+}

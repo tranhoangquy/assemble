@@ -1,0 +1,12 @@
+{"kind":"read-only-readiness-milestone","label":"ready-wait-60s","requested":{"at":"2026-10-04T00:54:52.969Z","elapsedMs":72008.031},"received":{"at":"2026-10-04T00:54:56.972Z","elapsedMs":76010.686},"observationQueryError":{"message":"Read-only diagnostic utility query did not answer within 4 s.","stack":"Error: Read-only diagnostic utility query did not answer within 4 s.\n    at Timeout._onTimeout (file:///Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/diagnose-render-readiness.mjs:66:60)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"}}
+{"kind":"original-60-second-ready-gate","status":"FAIL","started":{"at":"2026-10-04T00:53:50.387Z","elapsedMs":9425.396},"timeoutMs":60000,"predicate":"window.__VIDEO_RENDERER__?.ready === true","finished":{"at":"2026-10-04T00:55:00.382Z","elapsedMs":79420.542},"error":{"message":"page.waitForFunction: Timeout 60000ms exceeded.","stack":"page.waitForFunction: Timeout 60000ms exceeded.\n    at /Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/diagnose-render-readiness.mjs:134:22"}}
+{"kind":"read-only-readiness-milestone","label":"ready-wait-90s","requested":{"at":"2026-10-04T00:55:20.905Z","elapsedMs":99943.91},"received":{"at":"2026-10-04T00:55:20.910Z","elapsedMs":99948.169},"rendererReady":true,"engineDebug":{"engineReady":true,"cameraReady":true,"registrySize":911,"productReadyVersion":1}}
+{"kind":"read-only-readiness-milestone","label":"ready-wait-120s","requested":{"at":"2026-10-04T00:55:51.085Z","elapsedMs":130123.164},"received":{"at":"2026-10-04T00:55:51.089Z","elapsedMs":130127.226},"rendererReady":true,"engineDebug":{"engineReady":true,"cameraReady":true,"registrySize":911,"productReadyVersion":1}}
+{
+  "directory": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/render-readiness-2026-10-04T00-53-40-961Z-1b9772c2",
+  "report": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/render-readiness-2026-10-04T00-53-40-961Z-1b9772c2/render-readiness-diagnostic.json",
+  "diagnosticComplete": true,
+  "original60SecondGate": "FAIL",
+  "eventualReady": true,
+  "readyPng": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/render-readiness-2026-10-04T00-53-40-961Z-1b9772c2/time-zero-ready.png"
+}

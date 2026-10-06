@@ -1,0 +1,14 @@
+{
+  "valid": true,
+  "packetsCompared": 15722,
+  "fieldsCompared": [
+    "pts_time",
+    "dts_time",
+    "duration_time",
+    "size",
+    "data_hash",
+    "flags"
+  ],
+  "orderedPacketDigestOriginal": "e1ba55b35b69c42dd14987b0e0b2438d31283f3c62ea66cbddf6c6e4b8151465",
+  "orderedPacketDigestOutput": "e1ba55b35b69c42dd14987b0e0b2438d31283f3c62ea66cbddf6c6e4b8151465"
+}

@@ -1,0 +1,8 @@
+{
+  "productId": "demo-cabinet",
+  "origin": "http://127.0.0.1:3027",
+  "fullRender": "NOT RUN",
+  "highResolution": "NOT RUN",
+  "status": "FAIL",
+  "error": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Download MP4', exact: true }) to be visible\u001b[22m\n"
+}

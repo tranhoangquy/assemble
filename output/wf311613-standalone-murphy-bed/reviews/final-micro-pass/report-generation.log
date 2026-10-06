@@ -1,0 +1,23 @@
+(node:58621) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{
+  "report": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/final-micro-pass/QA-REPORT.md",
+  "stills": 10,
+  "preview": {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/final-micro-pass/wf311613-intro-qa-5s.mp4",
+    "duration": 5,
+    "frames": 150,
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "size": 481229,
+    "sha256": "763a6a4b2eb2aa9e5e78a199e694f6e5b1f188b57f98591507dd6b3769fa773c",
+    "audioAbsent": true,
+    "completeDecode": "PASS",
+    "freshDeterministicFrames": true
+  },
+  "expectedRuntime": 524.0536938888888
+}

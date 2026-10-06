@@ -1,0 +1,699 @@
+{
+  "valid": true,
+  "musicDecision": "MUSIC_ASSET_REQUIRED",
+  "outputSha256": "dc31ddef1f7182e74999e6c0c7cc4207a054729371fa358e65f41218c9fec86f",
+  "silentMasterSha256Unchanged": "0d5d898cbfaecb4573f07e818ce722c6884cbd4dc67d7c51b7c6c724f404ba0a",
+  "duration": "524.066667",
+  "cueCount": 115,
+  "videoPacketsIdentical": true,
+  "loudness": {
+    "decodedSamplePeakDbfs": -13.77066575549595,
+    "integratedLUFS": -33.1,
+    "truePeakDbTP": -13.8,
+    "summary": "\n\n  Integrated loudness:\n    I:         -33.1 LUFS\n    Threshold: -43.5 LUFS\n\n  Loudness range:\n    LRA:         9.5 LU\n    Threshold: -58.5 LUFS\n    LRA low:   -44.8 LUFS\n    LRA high:  -35.4 LUFS\n\n  True peak:\n    Peak:      -13.8 dBFS\n[out#0/null @ 0x158e14030] video:0KiB audio:98264KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:08:44.07 bitrate=N/A speed= 275x elapsed=0:00:01.90    \n",
+    "normalization": "None; restrained per-cue gains and fades. Intentional silent rests retained."
+  },
+  "checks": [
+    {
+      "name": "container-duration-matches-master",
+      "pass": true,
+      "detail": {
+        "master": "524.066667",
+        "output": "524.066667"
+      }
+    },
+    {
+      "name": "all-video-packets-and-pts-dts-identical",
+      "pass": true,
+      "detail": {
+        "packets": 15722,
+        "expected": 15722
+      }
+    },
+    {
+      "name": "video-native720p-30fps",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "AAC48k-stereo-sync-start-zero",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "full-AV-decode-clean",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "decoded-audio-no-clipping",
+      "pass": true,
+      "detail": -13.77066575549595
+    },
+    {
+      "name": "C001-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C002-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C003-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C004-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C005-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C006-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C007-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C008-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C009-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C010-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C011-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C012-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C013-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C014-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C015-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C016-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C017-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C018-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C019-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C020-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C021-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C022-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C023-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C024-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C025-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C026-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C027-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C028-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C029-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C030-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C031-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C032-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C033-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C034-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C035-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C036-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C037-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C038-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C039-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C040-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C041-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C042-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C043-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C044-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C045-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C046-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C047-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C048-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C049-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C050-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C051-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C052-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C053-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C054-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C055-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C056-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C057-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C058-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C059-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C060-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C061-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C062-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C063-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C064-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C065-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C066-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C067-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C068-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C069-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C070-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C071-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C072-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C073-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C074-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C075-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C076-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C077-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C078-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C079-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C080-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C081-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C082-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C083-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C084-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C085-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C086-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C087-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C088-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C089-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C090-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C091-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C092-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C093-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C094-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C095-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C096-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C097-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C098-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C099-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C100-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C101-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C102-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C103-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C104-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C105-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C106-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C107-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C108-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C109-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C110-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C111-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C112-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C113-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C114-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C115-phase-and-decoded-energy",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "closed-open-movement-cues-present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no-intro-explosion-effects",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no-tail-truncation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "approved-source-files-unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "loudness-measurement-completed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "true-peak-headroom",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "A-review-clip-AV",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "B-review-clip-AV",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C-review-clip-AV",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "C2-review-clip-AV",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "D-review-clip-AV",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "E-review-clip-AV",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "F-review-clip-AV",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "G-review-clip-AV",
+      "pass": true,
+      "detail": null
+    }
+  ]
+}

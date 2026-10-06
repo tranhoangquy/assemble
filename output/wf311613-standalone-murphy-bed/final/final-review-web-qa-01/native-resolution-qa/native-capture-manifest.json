@@ -1,0 +1,159 @@
+{
+  "candidate": "wf311613-final-micro-pass",
+  "renderUrl": "http://127.0.0.1:3016",
+  "spec": {
+    "candidateId": "wf311613-final-micro-pass",
+    "duration": 524.0536938888888,
+    "profiles": [
+      {
+        "id": "720p",
+        "width": 1280,
+        "height": 720,
+        "fps": 30
+      },
+      {
+        "id": "1080p",
+        "width": 1920,
+        "height": 1080,
+        "fps": 30
+      },
+      {
+        "id": "1440p",
+        "width": 2560,
+        "height": 1440,
+        "fps": 30
+      },
+      {
+        "id": "2160p",
+        "width": 3840,
+        "height": 2160,
+        "fps": 30
+      }
+    ],
+    "checkpoints": [
+      {
+        "label": "01-intro-finished-hero",
+        "time": 0,
+        "shot": "micro-intro-finished",
+        "camera": "residential-closed",
+        "sourceLabel": "01-intro-finished-product"
+      },
+      {
+        "label": "02-intro-fully-exploded",
+        "time": 3.75,
+        "shot": "micro-intro-hold",
+        "camera": "micro-exploded-overview",
+        "sourceLabel": "03-intro-fully-exploded"
+      },
+      {
+        "label": "03-step1-exact-reset",
+        "time": 5,
+        "shot": "assembly-step1-zero",
+        "sourceLabel": "06-step1-exact-reset"
+      },
+      {
+        "label": "04-early-hardware-macro",
+        "shot": "bolt-macro",
+        "time": 20.951110000000003,
+        "camera": "joint-0",
+        "step": 1,
+        "sourceLabel": "08-first-hardware-closeup"
+      },
+      {
+        "label": "05-cabinet-medium",
+        "shot": "S4-D4-1-seat",
+        "time": 78.0636938888888,
+        "camera": "S4-context",
+        "step": 4,
+        "sourceLabel": "09-cabinet-construction"
+      },
+      {
+        "label": "06-b8-cabinet-face",
+        "shot": "S6-complete",
+        "time": 117.8536938888888,
+        "camera": "S6-context",
+        "step": 6
+      },
+      {
+        "label": "07-bed-face",
+        "shot": "S15-complete",
+        "time": 252.06369388888893,
+        "camera": "grounded-S15-complete",
+        "step": 15,
+        "sourceLabel": "10-bed-face-construction"
+      },
+      {
+        "label": "08-step25-connection",
+        "shot": "S25--1-connection",
+        "time": 383.41369388888864,
+        "camera": "S25--1-pivot",
+        "step": 25,
+        "sourceLabel": "14-step25-bearing-seating"
+      },
+      {
+        "label": "09-step26-corrected-active-connection",
+        "shot": "S26-eye-align",
+        "time": 395.1836938888886,
+        "camera": "S26-cabinet-eye",
+        "step": 26,
+        "sourceLabel": "17-step26-active-connection"
+      },
+      {
+        "label": "10-folding-legs",
+        "shot": "S28--1-D7-join",
+        "time": 417.13969388888853,
+        "camera": "S28--1-D7",
+        "step": 28,
+        "sourceLabel": "21-folding-leg-construction"
+      },
+      {
+        "label": "11-wall-anchoring",
+        "shot": "S30-0-wall-screw",
+        "time": 469.1911938888885,
+        "camera": "polish01-front-S30-0-anchor",
+        "step": 30,
+        "sourceLabel": "22-wall-anchoring"
+      },
+      {
+        "label": "12-final-bedroom-hero",
+        "shot": "showcase-hero",
+        "time": 523.4536938888888,
+        "camera": "residential-hero",
+        "sourceLabel": "29-final-hero"
+      }
+    ],
+    "proof": {
+      "start": 20.951110000000003,
+      "duration": 2,
+      "fps": 30,
+      "frameCount": 60
+    }
+  },
+  "profileRegistry": "src/engine/export/RenderProfiles.ts",
+  "withProofs": true,
+  "profiles": [
+    {
+      "profileId": "720p",
+      "manifest": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/manifest.json",
+      "finishedAt": "2026-10-03T23:46:03.439Z"
+    },
+    {
+      "profileId": "1080p",
+      "manifest": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/1080p/manifest.json",
+      "finishedAt": "2026-10-03T23:47:46.223Z"
+    },
+    {
+      "profileId": "1440p",
+      "manifest": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/1440p/manifest.json",
+      "finishedAt": "2026-10-03T23:49:35.469Z"
+    },
+    {
+      "profileId": "2160p",
+      "manifest": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/2160p/manifest.json",
+      "finishedAt": "2026-10-03T23:51:40.045Z"
+    }
+  ],
+  "complete": true,
+  "startedAt": "2026-10-03T23:44:26.917Z",
+  "finishedAt": "2026-10-03T23:51:40.045Z"
+}

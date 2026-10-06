@@ -1,0 +1,159 @@
+{
+  "startedAt": "2026-10-04T00:35:38.977Z",
+  "viewport": [
+    1280,
+    900
+  ],
+  "headed": true,
+  "actualProductionUI": true,
+  "apiMocked": false,
+  "sourceModified": false,
+  "pageErrors": [],
+  "operations": [
+    {
+      "id": "720p",
+      "elapsedMs": 41,
+      "selected": "720p",
+      "summary": "FORMAT\nMP4 · H.264\nDURATION\n8:44\nFRAMES\n15,722\nPROFILE\n720p — 1280×720\n720p\nNATIVE SIZE\n1280 × 720\nFRAME RATE\n30 FPS"
+    },
+    {
+      "id": "1080p",
+      "elapsedMs": 80,
+      "selected": "1080p",
+      "summary": "FORMAT\nMP4 · H.264\nDURATION\n8:44\nFRAMES\n15,722\nPROFILE\n1080p — 1920×1080\n1080p\nNATIVE SIZE\n1920 × 1080\nFRAME RATE\n30 FPS"
+    },
+    {
+      "id": "1440p",
+      "elapsedMs": 70,
+      "selected": "1440p",
+      "summary": "FORMAT\nMP4 · H.264\nDURATION\n8:44\nFRAMES\n15,722\nPROFILE\n2K / 1440p — 2560×1440\n1440p\nNATIVE SIZE\n2560 × 1440\nFRAME RATE\n30 FPS"
+    },
+    {
+      "id": "2160p",
+      "elapsedMs": 76,
+      "selected": "2160p",
+      "summary": "FORMAT\nMP4 · H.264\nDURATION\n8:44\nFRAMES\n15,722\nPROFILE\n4K / 2160p — 3840×2160\n2160p\nNATIVE SIZE\n3840 × 2160\nFRAME RATE\n30 FPS"
+    }
+  ],
+  "default": "1920x1080",
+  "valid": true,
+  "events": [
+    {
+      "type": "click",
+      "trusted": true,
+      "at": 82260,
+      "id": "720p",
+      "checked": true
+    },
+    {
+      "type": "input",
+      "trusted": true,
+      "at": 82261.30000001192,
+      "id": "720p",
+      "checked": true
+    },
+    {
+      "type": "change",
+      "trusted": true,
+      "at": 82261.30000001192,
+      "id": "720p",
+      "checked": true
+    },
+    {
+      "type": "click",
+      "trusted": true,
+      "at": 82681.20000001788,
+      "id": "1080p",
+      "checked": true
+    },
+    {
+      "type": "input",
+      "trusted": true,
+      "at": 82681.70000001788,
+      "id": "1080p",
+      "checked": true
+    },
+    {
+      "type": "change",
+      "trusted": true,
+      "at": 82681.70000001788,
+      "id": "1080p",
+      "checked": true
+    },
+    {
+      "type": "click",
+      "trusted": true,
+      "at": 82906.20000001788,
+      "id": "1440p",
+      "checked": true
+    },
+    {
+      "type": "input",
+      "trusted": true,
+      "at": 82906.70000001788,
+      "id": "1440p",
+      "checked": true
+    },
+    {
+      "type": "change",
+      "trusted": true,
+      "at": 82906.70000001788,
+      "id": "1440p",
+      "checked": true
+    },
+    {
+      "type": "click",
+      "trusted": true,
+      "at": 83157.70000001788,
+      "id": "2160p",
+      "checked": true
+    },
+    {
+      "type": "input",
+      "trusted": true,
+      "at": 83158.30000001192,
+      "id": "2160p",
+      "checked": true
+    },
+    {
+      "type": "change",
+      "trusted": true,
+      "at": 83158.30000001192,
+      "id": "2160p",
+      "checked": true
+    }
+  ],
+  "finalInputs": [
+    {
+      "id": "1280x720",
+      "checked": false,
+      "disabled": false
+    },
+    {
+      "id": "1920x1080",
+      "checked": false,
+      "disabled": false
+    },
+    {
+      "id": "720p",
+      "checked": false,
+      "disabled": false
+    },
+    {
+      "id": "1080p",
+      "checked": false,
+      "disabled": false
+    },
+    {
+      "id": "1440p",
+      "checked": false,
+      "disabled": false
+    },
+    {
+      "id": "2160p",
+      "checked": true,
+      "disabled": false
+    }
+  ],
+  "finishedAt": "2026-10-04T00:37:03.162Z"
+}

@@ -1,0 +1,187 @@
+[
+  {
+    "id": "A",
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/audio-pass01/review-clips/A-early-assembly.mp4",
+    "requestedRange": [
+      5,
+      33.17
+    ],
+    "sourceKeyframeRange": [
+      4.633333,
+      35.633333
+    ],
+    "duration": "31.134701",
+    "videoStreamCopy": true,
+    "audioStreamCopy": true,
+    "includedCueIds": [
+      "C001",
+      "C002",
+      "C003",
+      "C004",
+      "C005",
+      "C006",
+      "C007"
+    ]
+  },
+  {
+    "id": "B",
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/audio-pass01/review-clips/B-cam-dowel.mp4",
+    "requestedRange": [
+      10,
+      24.8
+    ],
+    "sourceKeyframeRange": [
+      9.366667,
+      26.0
+    ],
+    "duration": "16.786719",
+    "videoStreamCopy": true,
+    "audioStreamCopy": true,
+    "includedCueIds": [
+      "C002",
+      "C003",
+      "C004",
+      "C005",
+      "C006"
+    ]
+  },
+  {
+    "id": "C",
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/audio-pass01/review-clips/C-screw-bolt.mp4",
+    "requestedRange": [
+      118,
+      135.55
+    ],
+    "sourceKeyframeRange": [
+      117.2,
+      135.566667
+    ],
+    "duration": "18.513346",
+    "videoStreamCopy": true,
+    "audioStreamCopy": true,
+    "includedCueIds": [
+      "C032",
+      "C033"
+    ]
+  },
+  {
+    "id": "C2",
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/audio-pass01/review-clips/C2-bolt-tightening.mp4",
+    "requestedRange": [
+      383.7,
+      388.9
+    ],
+    "sourceKeyframeRange": [
+      382.066667,
+      389.233333
+    ],
+    "duration": "7.305338",
+    "videoStreamCopy": true,
+    "audioStreamCopy": true,
+    "includedCueIds": [
+      "C080"
+    ]
+  },
+  {
+    "id": "D",
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/audio-pass01/review-clips/D-steps25-27-mechanism.mp4",
+    "requestedRange": [
+      372.3,
+      408.8
+    ],
+    "sourceKeyframeRange": [
+      369.033333,
+      408.833333
+    ],
+    "duration": "39.940039",
+    "videoStreamCopy": true,
+    "audioStreamCopy": true,
+    "includedCueIds": [
+      "C077",
+      "C078",
+      "C079",
+      "C080",
+      "C081",
+      "C082",
+      "C083",
+      "C084",
+      "C085"
+    ]
+  },
+  {
+    "id": "E",
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/audio-pass01/review-clips/E-folding-legs.mp4",
+    "requestedRange": [
+      437.6,
+      460.7
+    ],
+    "sourceKeyframeRange": [
+      436.733333,
+      461.966667
+    ],
+    "duration": "25.382682",
+    "videoStreamCopy": true,
+    "audioStreamCopy": true,
+    "includedCueIds": [
+      "C090",
+      "C091",
+      "C092",
+      "C093",
+      "C094",
+      "C095",
+      "C096"
+    ]
+  },
+  {
+    "id": "F",
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/audio-pass01/review-clips/F-wall-anchors.mp4",
+    "requestedRange": [
+      460.7,
+      489.25
+    ],
+    "sourceKeyframeRange": [
+      453.633333,
+      491.566667
+    ],
+    "duration": "38.120052",
+    "videoStreamCopy": true,
+    "audioStreamCopy": true,
+    "includedCueIds": [
+      "C095",
+      "C096",
+      "C097",
+      "C098",
+      "C099",
+      "C100",
+      "C101",
+      "C102",
+      "C103",
+      "C104"
+    ]
+  },
+  {
+    "id": "G",
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/audio-pass01/review-clips/G-close-open-showcase.mp4",
+    "requestedRange": [
+      503.25,
+      517.25
+    ],
+    "sourceKeyframeRange": [
+      501.266667,
+      517.266667
+    ],
+    "duration": "16.149349",
+    "videoStreamCopy": true,
+    "audioStreamCopy": true,
+    "includedCueIds": [
+      "C108",
+      "C109",
+      "C110",
+      "C111",
+      "C112",
+      "C113",
+      "C114",
+      "C115"
+    ]
+  }
+]

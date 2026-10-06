@@ -1,0 +1,5533 @@
+{
+  "kind": "read-only actual production render-route cold-start observation",
+  "startedAt": "2026-10-04T00:53:40.961Z",
+  "url": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+  "origin": "http://127.0.0.1:3016",
+  "headed": false,
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "deviceScaleFactor": 1,
+  "sourceModified": false,
+  "apiMocked": false,
+  "timeRetimed": false,
+  "originalReadyTimeoutMs": 60000,
+  "laterObservationsSeconds": [
+    90,
+    120
+  ],
+  "navigation": {
+    "started": {
+      "at": "2026-10-04T00:53:41.211Z",
+      "elapsedMs": 249.392
+    },
+    "waitUntil": "domcontentloaded",
+    "timeoutMs": 60000,
+    "completed": {
+      "at": "2026-10-04T00:53:50.387Z",
+      "elapsedMs": 9425.381
+    },
+    "status": 200,
+    "ok": true,
+    "success": true
+  },
+  "readyGate60s": {
+    "status": "FAIL",
+    "started": {
+      "at": "2026-10-04T00:53:50.387Z",
+      "elapsedMs": 9425.396
+    },
+    "timeoutMs": 60000,
+    "predicate": "window.__VIDEO_RENDERER__?.ready === true",
+    "finished": {
+      "at": "2026-10-04T00:55:00.382Z",
+      "elapsedMs": 79420.542
+    },
+    "error": {
+      "message": "page.waitForFunction: Timeout 60000ms exceeded.",
+      "stack": "page.waitForFunction: Timeout 60000ms exceeded.\n    at /Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/diagnose-render-readiness.mjs:134:22"
+    }
+  },
+  "console": [
+    {
+      "type": "warning",
+      "text": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+      "location": {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/bd904a5c-c73a00c7d46f8d71.js",
+        "line": 0,
+        "column": 7836,
+        "lineNumber": 0,
+        "columnNumber": 7836
+      },
+      "at": "2026-10-04T00:53:51.964Z",
+      "elapsedMs": 11002.305
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x10400447a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+      "location": {
+        "url": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "at": "2026-10-04T00:55:00.386Z",
+      "elapsedMs": 79424.379
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x10400447a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+      "location": {
+        "url": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "at": "2026-10-04T00:55:06.728Z",
+      "elapsedMs": 85767.026
+    }
+  ],
+  "pageErrors": [],
+  "requestFailures": [],
+  "responses": [
+    {
+      "url": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "status": 200,
+      "resourceType": "document",
+      "timing": {
+        "startTime": 1791075221213.82,
+        "domainLookupStart": 0.966,
+        "domainLookupEnd": 1.423,
+        "connectStart": 1.423,
+        "secureConnectionStart": -1,
+        "connectEnd": 1.581,
+        "requestStart": 1.685,
+        "responseStart": 7.475,
+        "responseEnd": 8.98
+      },
+      "at": "2026-10-04T00:53:41.223Z",
+      "elapsedMs": 261.849
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/css/24044264c614ec24.css",
+      "status": 200,
+      "resourceType": "stylesheet",
+      "timing": {
+        "startTime": 1791075221229.466,
+        "domainLookupStart": -1,
+        "domainLookupEnd": -1,
+        "connectStart": -1,
+        "secureConnectionStart": -1,
+        "connectEnd": -1,
+        "requestStart": 0.215,
+        "responseStart": 1.746,
+        "responseEnd": 5.089
+      },
+      "at": "2026-10-04T00:53:41.233Z",
+      "elapsedMs": 272.081
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/chunks/webpack-52d428ccd66bfe75.js",
+      "status": 200,
+      "resourceType": "script",
+      "timing": {
+        "startTime": 1791075221229.0579,
+        "domainLookupStart": 0.022,
+        "domainLookupEnd": 0.026,
+        "connectStart": 0.026,
+        "secureConnectionStart": -1,
+        "connectEnd": 0.176,
+        "requestStart": 0.201,
+        "responseStart": 1.472,
+        "responseEnd": 3.839
+      },
+      "at": "2026-10-04T00:53:41.234Z",
+      "elapsedMs": 272.485
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/chunks/4bd1b696-92152b0f5947070d.js",
+      "status": 200,
+      "resourceType": "script",
+      "timing": {
+        "startTime": 1791075221232.99,
+        "domainLookupStart": -1,
+        "domainLookupEnd": -1,
+        "connectStart": -1,
+        "secureConnectionStart": -1,
+        "connectEnd": -1,
+        "requestStart": 0.058,
+        "responseStart": 4.046,
+        "responseEnd": 13.2
+      },
+      "at": "2026-10-04T00:53:41.241Z",
+      "elapsedMs": 280.07
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/chunks/main-app-930b60979e6a9a5d.js",
+      "status": 200,
+      "resourceType": "script",
+      "timing": {
+        "startTime": 1791075221236.645,
+        "domainLookupStart": 0.038,
+        "domainLookupEnd": 0.041,
+        "connectStart": 0.041,
+        "secureConnectionStart": -1,
+        "connectEnd": 0.447,
+        "requestStart": 1.17,
+        "responseStart": 3.825,
+        "responseEnd": 13.458
+      },
+      "at": "2026-10-04T00:53:41.241Z",
+      "elapsedMs": 280.152
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/chunks/794-a3c6349e754e6fcd.js",
+      "status": 200,
+      "resourceType": "script",
+      "timing": {
+        "startTime": 1791075221233.479,
+        "domainLookupStart": -1,
+        "domainLookupEnd": -1,
+        "connectStart": -1,
+        "secureConnectionStart": -1,
+        "connectEnd": -1,
+        "requestStart": 0.051,
+        "responseStart": 3.423,
+        "responseEnd": 13.929
+      },
+      "at": "2026-10-04T00:53:41.242Z",
+      "elapsedMs": 281.182
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/chunks/c15bf2b0-0b7ccb01d0221f08.js",
+      "status": 200,
+      "resourceType": "script",
+      "timing": {
+        "startTime": 1791075221240.1118,
+        "domainLookupStart": -1,
+        "domainLookupEnd": -1,
+        "connectStart": -1,
+        "secureConnectionStart": -1,
+        "connectEnd": -1,
+        "requestStart": 0.053,
+        "responseStart": 3.097,
+        "responseEnd": 17.347
+      },
+      "at": "2026-10-04T00:53:41.261Z",
+      "elapsedMs": 299.906
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/chunks/app/render/page-c81a696291d37c33.js",
+      "status": 200,
+      "resourceType": "script",
+      "timing": {
+        "startTime": 1791075221244.575,
+        "domainLookupStart": -1,
+        "domainLookupEnd": -1,
+        "connectStart": -1,
+        "secureConnectionStart": -1,
+        "connectEnd": -1,
+        "requestStart": 0.069,
+        "responseStart": 2.482,
+        "responseEnd": 20.022
+      },
+      "at": "2026-10-04T00:53:41.262Z",
+      "elapsedMs": 300.525
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/chunks/f5ef5e1c-2da34c5fc26fb3fa.js",
+      "status": 200,
+      "resourceType": "script",
+      "timing": {
+        "startTime": 1791075221237.155,
+        "domainLookupStart": 0.026,
+        "domainLookupEnd": 0.027,
+        "connectStart": 0.027,
+        "secureConnectionStart": -1,
+        "connectEnd": 0.163,
+        "requestStart": 0.708,
+        "responseStart": 4.754,
+        "responseEnd": 20.415
+      },
+      "at": "2026-10-04T00:53:41.262Z",
+      "elapsedMs": 300.627
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/chunks/21-028361b39af033f0.js",
+      "status": 200,
+      "resourceType": "script",
+      "timing": {
+        "startTime": 1791075221240.619,
+        "domainLookupStart": -1,
+        "domainLookupEnd": -1,
+        "connectStart": -1,
+        "secureConnectionStart": -1,
+        "connectEnd": -1,
+        "requestStart": 0.031,
+        "responseStart": 3.156,
+        "responseEnd": 20.656
+      },
+      "at": "2026-10-04T00:53:41.262Z",
+      "elapsedMs": 300.736
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/chunks/b536a0f1-4357ad16972f68f4.js",
+      "status": 200,
+      "resourceType": "script",
+      "timing": {
+        "startTime": 1791075221237.239,
+        "domainLookupStart": 0.018,
+        "domainLookupEnd": 0.018,
+        "connectStart": 0.018,
+        "secureConnectionStart": -1,
+        "connectEnd": 0.254,
+        "requestStart": 0.647,
+        "responseStart": 4.789,
+        "responseEnd": 24.081
+      },
+      "at": "2026-10-04T00:53:41.262Z",
+      "elapsedMs": 301.076
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/chunks/bd904a5c-c73a00c7d46f8d71.js",
+      "status": 200,
+      "resourceType": "script",
+      "timing": {
+        "startTime": 1791075221237.012,
+        "domainLookupStart": 0.026,
+        "domainLookupEnd": 0.028,
+        "connectStart": 0.028,
+        "secureConnectionStart": -1,
+        "connectEnd": 0.269,
+        "requestStart": 0.831,
+        "responseStart": 5.066,
+        "responseEnd": 24.72
+      },
+      "at": "2026-10-04T00:53:41.262Z",
+      "elapsedMs": 301.112
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/chunks/619-f3925e9cf17aa314.js",
+      "status": 200,
+      "resourceType": "script",
+      "timing": {
+        "startTime": 1791075221241.0889,
+        "domainLookupStart": -1,
+        "domainLookupEnd": -1,
+        "connectStart": -1,
+        "secureConnectionStart": -1,
+        "connectEnd": -1,
+        "requestStart": 0.028,
+        "responseStart": 3.129,
+        "responseEnd": 26.214
+      },
+      "at": "2026-10-04T00:53:41.262Z",
+      "elapsedMs": 301.315
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap",
+      "status": 200,
+      "resourceType": "stylesheet",
+      "timing": {
+        "startTime": 1791075221234.5632,
+        "domainLookupStart": 1.637,
+        "domainLookupEnd": 76.158,
+        "connectStart": 76.229,
+        "secureConnectionStart": 101.756,
+        "connectEnd": 165.592,
+        "requestStart": 165.805,
+        "responseStart": 213.883,
+        "responseEnd": 214.86
+      },
+      "at": "2026-10-04T00:53:50.373Z",
+      "elapsedMs": 9411.635
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBK6PYK0.woff2",
+      "status": 200,
+      "resourceType": "font",
+      "timing": {
+        "startTime": 1791075231895.03,
+        "domainLookupStart": 0.037,
+        "domainLookupEnd": 197.171,
+        "connectStart": 197.273,
+        "secureConnectionStart": 227.353,
+        "connectEnd": 377.014,
+        "requestStart": 377.1,
+        "responseStart": 535.321,
+        "responseEnd": 538.044
+      },
+      "at": "2026-10-04T00:55:00.258Z",
+      "elapsedMs": 79296.199
+    }
+  ],
+  "lifecycle": [
+    {
+      "event": "browser-launch-start",
+      "at": "2026-10-04T00:53:40.962Z",
+      "elapsedMs": 0.884
+    },
+    {
+      "event": "browser-launch-complete",
+      "at": "2026-10-04T00:53:41.130Z",
+      "elapsedMs": 168.492
+    },
+    {
+      "event": "page-created",
+      "at": "2026-10-04T00:53:41.209Z",
+      "elapsedMs": 247.627
+    },
+    {
+      "event": "domcontentloaded",
+      "at": "2026-10-04T00:53:50.387Z",
+      "elapsedMs": 9425.349
+    },
+    {
+      "event": "load",
+      "at": "2026-10-04T00:53:50.387Z",
+      "elapsedMs": 9426.151
+    },
+    {
+      "event": "browser-disconnected",
+      "at": "2026-10-04T00:55:51.110Z",
+      "elapsedMs": 130148.78
+    }
+  ],
+  "snapshots": [
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:53:50.387Z",
+        "elapsedMs": 9425.81
+      },
+      "received": {
+        "at": "2026-10-04T00:53:51.915Z",
+        "elapsedMs": 10953.403
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": false,
+      "rendererReady": false,
+      "engineDebug": {
+        "engineReady": false,
+        "cameraReady": false,
+        "registrySize": 0,
+        "productReadyVersion": 0
+      },
+      "canvas": {
+        "width": 300,
+        "height": 150,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": null,
+      "camera": null,
+      "loading": "Building deterministic scene…",
+      "bodyText": "Building deterministic scene…",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 1528.0110000000004
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:53:52.917Z",
+        "elapsedMs": 11955.628
+      },
+      "received": {
+        "at": "2026-10-04T00:53:56.920Z",
+        "elapsedMs": 15958.508
+      },
+      "observationQueryError": {
+        "message": "Read-only diagnostic utility query did not answer within 4 s.",
+        "stack": "Error: Read-only diagnostic utility query did not answer within 4 s.\n    at Timeout._onTimeout (file:///Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/diagnose-render-readiness.mjs:66:60)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+      },
+      "relativeToReadyWaitMs": 6533.116
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:53:57.922Z",
+        "elapsedMs": 16960.676
+      },
+      "received": {
+        "at": "2026-10-04T00:54:01.925Z",
+        "elapsedMs": 20963.311
+      },
+      "observationQueryError": {
+        "message": "Read-only diagnostic utility query did not answer within 4 s.",
+        "stack": "Error: Read-only diagnostic utility query did not answer within 4 s.\n    at Timeout._onTimeout (file:///Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/diagnose-render-readiness.mjs:66:60)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+      },
+      "relativeToReadyWaitMs": 11537.919000000002
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:54:02.927Z",
+        "elapsedMs": 21965.575
+      },
+      "received": {
+        "at": "2026-10-04T00:54:06.929Z",
+        "elapsedMs": 25968.221
+      },
+      "observationQueryError": {
+        "message": "Read-only diagnostic utility query did not answer within 4 s.",
+        "stack": "Error: Read-only diagnostic utility query did not answer within 4 s.\n    at Timeout._onTimeout (file:///Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/diagnose-render-readiness.mjs:66:60)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+      },
+      "relativeToReadyWaitMs": 16542.829
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:54:07.930Z",
+        "elapsedMs": 26968.423
+      },
+      "received": {
+        "at": "2026-10-04T00:54:11.931Z",
+        "elapsedMs": 30970.12
+      },
+      "observationQueryError": {
+        "message": "Read-only diagnostic utility query did not answer within 4 s.",
+        "stack": "Error: Read-only diagnostic utility query did not answer within 4 s.\n    at Timeout._onTimeout (file:///Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/diagnose-render-readiness.mjs:66:60)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+      },
+      "relativeToReadyWaitMs": 21544.728
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:54:12.934Z",
+        "elapsedMs": 31972.285
+      },
+      "received": {
+        "at": "2026-10-04T00:54:16.935Z",
+        "elapsedMs": 35974.077
+      },
+      "observationQueryError": {
+        "message": "Read-only diagnostic utility query did not answer within 4 s.",
+        "stack": "Error: Read-only diagnostic utility query did not answer within 4 s.\n    at Timeout._onTimeout (file:///Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/diagnose-render-readiness.mjs:66:60)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+      },
+      "relativeToReadyWaitMs": 26548.684999999998
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:54:17.938Z",
+        "elapsedMs": 36976.228
+      },
+      "received": {
+        "at": "2026-10-04T00:54:21.940Z",
+        "elapsedMs": 40978.304
+      },
+      "observationQueryError": {
+        "message": "Read-only diagnostic utility query did not answer within 4 s.",
+        "stack": "Error: Read-only diagnostic utility query did not answer within 4 s.\n    at Timeout._onTimeout (file:///Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/diagnose-render-readiness.mjs:66:60)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+      },
+      "relativeToReadyWaitMs": 31552.911999999997
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:54:22.942Z",
+        "elapsedMs": 41980.53
+      },
+      "received": {
+        "at": "2026-10-04T00:54:26.945Z",
+        "elapsedMs": 45983.487
+      },
+      "observationQueryError": {
+        "message": "Read-only diagnostic utility query did not answer within 4 s.",
+        "stack": "Error: Read-only diagnostic utility query did not answer within 4 s.\n    at Timeout._onTimeout (file:///Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/diagnose-render-readiness.mjs:66:60)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+      },
+      "relativeToReadyWaitMs": 36558.095
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:54:27.947Z",
+        "elapsedMs": 46985.655
+      },
+      "received": {
+        "at": "2026-10-04T00:54:31.948Z",
+        "elapsedMs": 50986.83
+      },
+      "observationQueryError": {
+        "message": "Read-only diagnostic utility query did not answer within 4 s.",
+        "stack": "Error: Read-only diagnostic utility query did not answer within 4 s.\n    at Timeout._onTimeout (file:///Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/diagnose-render-readiness.mjs:66:60)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+      },
+      "relativeToReadyWaitMs": 41561.438
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:54:32.950Z",
+        "elapsedMs": 51989.024
+      },
+      "received": {
+        "at": "2026-10-04T00:54:36.953Z",
+        "elapsedMs": 55991.87
+      },
+      "observationQueryError": {
+        "message": "Read-only diagnostic utility query did not answer within 4 s.",
+        "stack": "Error: Read-only diagnostic utility query did not answer within 4 s.\n    at Timeout._onTimeout (file:///Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/diagnose-render-readiness.mjs:66:60)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+      },
+      "relativeToReadyWaitMs": 46566.478
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:54:37.955Z",
+        "elapsedMs": 56994.012
+      },
+      "received": {
+        "at": "2026-10-04T00:54:41.958Z",
+        "elapsedMs": 60996.764
+      },
+      "observationQueryError": {
+        "message": "Read-only diagnostic utility query did not answer within 4 s.",
+        "stack": "Error: Read-only diagnostic utility query did not answer within 4 s.\n    at Timeout._onTimeout (file:///Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/diagnose-render-readiness.mjs:66:60)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+      },
+      "relativeToReadyWaitMs": 51571.372
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:54:42.960Z",
+        "elapsedMs": 61998.921
+      },
+      "received": {
+        "at": "2026-10-04T00:54:46.963Z",
+        "elapsedMs": 66001.521
+      },
+      "observationQueryError": {
+        "message": "Read-only diagnostic utility query did not answer within 4 s.",
+        "stack": "Error: Read-only diagnostic utility query did not answer within 4 s.\n    at Timeout._onTimeout (file:///Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/diagnose-render-readiness.mjs:66:60)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+      },
+      "relativeToReadyWaitMs": 56576.12899999999
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:54:47.965Z",
+        "elapsedMs": 67003.663
+      },
+      "received": {
+        "at": "2026-10-04T00:54:51.967Z",
+        "elapsedMs": 71005.851
+      },
+      "observationQueryError": {
+        "message": "Read-only diagnostic utility query did not answer within 4 s.",
+        "stack": "Error: Read-only diagnostic utility query did not answer within 4 s.\n    at Timeout._onTimeout (file:///Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/diagnose-render-readiness.mjs:66:60)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+      },
+      "relativeToReadyWaitMs": 61580.458999999995
+    },
+    {
+      "label": "ready-wait-60s",
+      "requested": {
+        "at": "2026-10-04T00:54:52.969Z",
+        "elapsedMs": 72008.031
+      },
+      "received": {
+        "at": "2026-10-04T00:54:56.972Z",
+        "elapsedMs": 76010.686
+      },
+      "observationQueryError": {
+        "message": "Read-only diagnostic utility query did not answer within 4 s.",
+        "stack": "Error: Read-only diagnostic utility query did not answer within 4 s.\n    at Timeout._onTimeout (file:///Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/diagnose-render-readiness.mjs:66:60)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+      },
+      "relativeToReadyWaitMs": 66585.294
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:54:57.974Z",
+        "elapsedMs": 77012.747
+      },
+      "received": {
+        "at": "2026-10-04T00:55:00.383Z",
+        "elapsedMs": 79421.111
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": false,
+      "rendererReady": false,
+      "engineDebug": {
+        "engineReady": false,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 0
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": null,
+      "camera": null,
+      "loading": "Building deterministic scene…",
+      "bodyText": "Building deterministic scene…",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 69995.71900000001
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:01.385Z",
+        "elapsedMs": 80423.181
+      },
+      "received": {
+        "at": "2026-10-04T00:55:01.392Z",
+        "elapsedMs": 80430.426
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 71005.03400000001
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:07.824Z",
+        "elapsedMs": 86862.697
+      },
+      "received": {
+        "at": "2026-10-04T00:55:07.828Z",
+        "elapsedMs": 86866.359
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 77440.967
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:08.830Z",
+        "elapsedMs": 87868.639
+      },
+      "received": {
+        "at": "2026-10-04T00:55:08.836Z",
+        "elapsedMs": 87874.41
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 78449.01800000001
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:09.838Z",
+        "elapsedMs": 88876.302
+      },
+      "received": {
+        "at": "2026-10-04T00:55:09.841Z",
+        "elapsedMs": 88879.802
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 79454.41
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:10.843Z",
+        "elapsedMs": 89881.102
+      },
+      "received": {
+        "at": "2026-10-04T00:55:10.846Z",
+        "elapsedMs": 89884.889
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 80459.497
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:11.849Z",
+        "elapsedMs": 90887.772
+      },
+      "received": {
+        "at": "2026-10-04T00:55:11.854Z",
+        "elapsedMs": 90892.555
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 81467.163
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:12.856Z",
+        "elapsedMs": 91894.802
+      },
+      "received": {
+        "at": "2026-10-04T00:55:12.860Z",
+        "elapsedMs": 91898.599
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 82473.207
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:13.862Z",
+        "elapsedMs": 92900.794
+      },
+      "received": {
+        "at": "2026-10-04T00:55:13.865Z",
+        "elapsedMs": 92903.159
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 83477.76699999999
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:14.867Z",
+        "elapsedMs": 93905.404
+      },
+      "received": {
+        "at": "2026-10-04T00:55:14.871Z",
+        "elapsedMs": 93909.235
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 84483.843
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:15.873Z",
+        "elapsedMs": 94911.548
+      },
+      "received": {
+        "at": "2026-10-04T00:55:15.879Z",
+        "elapsedMs": 94917.327
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 85491.935
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:16.881Z",
+        "elapsedMs": 95919.311
+      },
+      "received": {
+        "at": "2026-10-04T00:55:16.885Z",
+        "elapsedMs": 95923.517
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 86498.125
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:17.887Z",
+        "elapsedMs": 96925.115
+      },
+      "received": {
+        "at": "2026-10-04T00:55:17.890Z",
+        "elapsedMs": 96928.482
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 87503.09
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:18.892Z",
+        "elapsedMs": 97930.66
+      },
+      "received": {
+        "at": "2026-10-04T00:55:18.896Z",
+        "elapsedMs": 97934.773
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 88509.381
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:19.897Z",
+        "elapsedMs": 98935.721
+      },
+      "received": {
+        "at": "2026-10-04T00:55:19.903Z",
+        "elapsedMs": 98941.644
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 89516.25200000001
+    },
+    {
+      "label": "ready-wait-90s",
+      "requested": {
+        "at": "2026-10-04T00:55:20.905Z",
+        "elapsedMs": 99943.91
+      },
+      "received": {
+        "at": "2026-10-04T00:55:20.910Z",
+        "elapsedMs": 99948.169
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 90522.777
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:21.912Z",
+        "elapsedMs": 100950.862
+      },
+      "received": {
+        "at": "2026-10-04T00:55:21.917Z",
+        "elapsedMs": 100955.27
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 91529.878
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:22.917Z",
+        "elapsedMs": 101955.895
+      },
+      "received": {
+        "at": "2026-10-04T00:55:22.922Z",
+        "elapsedMs": 101960.463
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 92535.071
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:23.925Z",
+        "elapsedMs": 102963.199
+      },
+      "received": {
+        "at": "2026-10-04T00:55:23.929Z",
+        "elapsedMs": 102967.652
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 93542.26000000001
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:24.930Z",
+        "elapsedMs": 103968.947
+      },
+      "received": {
+        "at": "2026-10-04T00:55:24.935Z",
+        "elapsedMs": 103973.074
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 94547.682
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:25.937Z",
+        "elapsedMs": 104975.236
+      },
+      "received": {
+        "at": "2026-10-04T00:55:25.941Z",
+        "elapsedMs": 104979.572
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 95554.18
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:26.943Z",
+        "elapsedMs": 105981.747
+      },
+      "received": {
+        "at": "2026-10-04T00:55:26.947Z",
+        "elapsedMs": 105985.441
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 96560.049
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:27.949Z",
+        "elapsedMs": 106987.71
+      },
+      "received": {
+        "at": "2026-10-04T00:55:27.953Z",
+        "elapsedMs": 106991.734
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 97566.342
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:28.954Z",
+        "elapsedMs": 107992.858
+      },
+      "received": {
+        "at": "2026-10-04T00:55:28.957Z",
+        "elapsedMs": 107995.662
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 98570.26999999999
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:29.959Z",
+        "elapsedMs": 108997.114
+      },
+      "received": {
+        "at": "2026-10-04T00:55:29.963Z",
+        "elapsedMs": 109001.326
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 99575.93400000001
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:30.964Z",
+        "elapsedMs": 110001.999
+      },
+      "received": {
+        "at": "2026-10-04T00:55:30.968Z",
+        "elapsedMs": 110006.172
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 100580.78
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:31.970Z",
+        "elapsedMs": 111008.479
+      },
+      "received": {
+        "at": "2026-10-04T00:55:31.975Z",
+        "elapsedMs": 111012.976
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 101587.584
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:32.977Z",
+        "elapsedMs": 112015.292
+      },
+      "received": {
+        "at": "2026-10-04T00:55:32.981Z",
+        "elapsedMs": 112019.55
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 102594.158
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:33.983Z",
+        "elapsedMs": 113021.607
+      },
+      "received": {
+        "at": "2026-10-04T00:55:33.987Z",
+        "elapsedMs": 113025.473
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 103600.081
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:34.989Z",
+        "elapsedMs": 114027.129
+      },
+      "received": {
+        "at": "2026-10-04T00:55:34.993Z",
+        "elapsedMs": 114031.737
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 104606.345
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:35.996Z",
+        "elapsedMs": 115034.017
+      },
+      "received": {
+        "at": "2026-10-04T00:55:35.999Z",
+        "elapsedMs": 115037.631
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 105612.239
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:37.002Z",
+        "elapsedMs": 116039.941
+      },
+      "received": {
+        "at": "2026-10-04T00:55:37.006Z",
+        "elapsedMs": 116044.868
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 106619.476
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:38.007Z",
+        "elapsedMs": 117045.381
+      },
+      "received": {
+        "at": "2026-10-04T00:55:38.012Z",
+        "elapsedMs": 117050.257
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 107624.86499999999
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:39.014Z",
+        "elapsedMs": 118052.721
+      },
+      "received": {
+        "at": "2026-10-04T00:55:39.019Z",
+        "elapsedMs": 118056.994
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 108631.60200000001
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:40.021Z",
+        "elapsedMs": 119059.223
+      },
+      "received": {
+        "at": "2026-10-04T00:55:40.024Z",
+        "elapsedMs": 119062.462
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 109637.07
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:41.025Z",
+        "elapsedMs": 120063.689
+      },
+      "received": {
+        "at": "2026-10-04T00:55:41.028Z",
+        "elapsedMs": 120066.192
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 110640.79999999999
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:42.030Z",
+        "elapsedMs": 121068.078
+      },
+      "received": {
+        "at": "2026-10-04T00:55:42.034Z",
+        "elapsedMs": 121072.102
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 111646.70999999999
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:43.034Z",
+        "elapsedMs": 122072.85
+      },
+      "received": {
+        "at": "2026-10-04T00:55:43.039Z",
+        "elapsedMs": 122077.114
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 112651.72200000001
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:44.040Z",
+        "elapsedMs": 123078.807
+      },
+      "received": {
+        "at": "2026-10-04T00:55:44.045Z",
+        "elapsedMs": 123083.582
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 113658.19
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:45.048Z",
+        "elapsedMs": 124085.887
+      },
+      "received": {
+        "at": "2026-10-04T00:55:45.052Z",
+        "elapsedMs": 124090.522
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 114665.13
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:46.053Z",
+        "elapsedMs": 125091.101
+      },
+      "received": {
+        "at": "2026-10-04T00:55:46.057Z",
+        "elapsedMs": 125095.738
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 115670.34599999999
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:47.060Z",
+        "elapsedMs": 126097.89
+      },
+      "received": {
+        "at": "2026-10-04T00:55:47.063Z",
+        "elapsedMs": 126101.506
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 116676.114
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:48.065Z",
+        "elapsedMs": 127103.754
+      },
+      "received": {
+        "at": "2026-10-04T00:55:48.070Z",
+        "elapsedMs": 127108.351
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 117682.959
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:49.072Z",
+        "elapsedMs": 128110.66
+      },
+      "received": {
+        "at": "2026-10-04T00:55:49.077Z",
+        "elapsedMs": 128115.194
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 118689.802
+    },
+    {
+      "label": "poll",
+      "requested": {
+        "at": "2026-10-04T00:55:50.078Z",
+        "elapsedMs": 129116.495
+      },
+      "received": {
+        "at": "2026-10-04T00:55:50.083Z",
+        "elapsedMs": 129120.863
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 119695.47099999999
+    },
+    {
+      "label": "ready-wait-120s",
+      "requested": {
+        "at": "2026-10-04T00:55:51.085Z",
+        "elapsedMs": 130123.164
+      },
+      "received": {
+        "at": "2026-10-04T00:55:51.089Z",
+        "elapsedMs": 130127.226
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 120701.834
+    }
+  ],
+  "milestones": [
+    {
+      "label": "ready-wait-60s",
+      "requested": {
+        "at": "2026-10-04T00:54:52.969Z",
+        "elapsedMs": 72008.031
+      },
+      "received": {
+        "at": "2026-10-04T00:54:56.972Z",
+        "elapsedMs": 76010.686
+      },
+      "observationQueryError": {
+        "message": "Read-only diagnostic utility query did not answer within 4 s.",
+        "stack": "Error: Read-only diagnostic utility query did not answer within 4 s.\n    at Timeout._onTimeout (file:///Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/diagnose-render-readiness.mjs:66:60)\n    at listOnTimeout (node:internal/timers:581:17)\n    at process.processTimers (node:internal/timers:519:7)"
+      },
+      "relativeToReadyWaitMs": 66585.294
+    },
+    {
+      "label": "ready-wait-90s",
+      "requested": {
+        "at": "2026-10-04T00:55:20.905Z",
+        "elapsedMs": 99943.91
+      },
+      "received": {
+        "at": "2026-10-04T00:55:20.910Z",
+        "elapsedMs": 99948.169
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 90522.777
+    },
+    {
+      "label": "ready-wait-120s",
+      "requested": {
+        "at": "2026-10-04T00:55:51.085Z",
+        "elapsedMs": 130123.164
+      },
+      "received": {
+        "at": "2026-10-04T00:55:51.089Z",
+        "elapsedMs": 130127.226
+      },
+      "documentReadyState": "complete",
+      "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+      "documentTitle": "Furniture Video Engine",
+      "rendererPresent": true,
+      "rendererReady": true,
+      "rendererFps": 30,
+      "duration": 524.0536938888888,
+      "engineDebug": {
+        "engineReady": true,
+        "cameraReady": true,
+        "registrySize": 911,
+        "productReadyVersion": 1
+      },
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "top": 0,
+          "right": 1280,
+          "bottom": 720,
+          "left": 0
+        }
+      },
+      "surface": {
+        "profileId": "720p",
+        "width": 1280,
+        "height": 720,
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "deviceScaleFactor": 1
+      },
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "loading": null,
+      "bodyText": "",
+      "lifecycle": [
+        {
+          "event": "page-init",
+          "performanceMs": 17.69999998807907,
+          "at": "2026-10-04T00:53:41.230Z"
+        },
+        {
+          "event": "DOMContentLoaded",
+          "performanceMs": 9173.5,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "window-load",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z"
+        },
+        {
+          "event": "pageshow",
+          "performanceMs": 9173.699999988079,
+          "at": "2026-10-04T00:53:50.386Z",
+          "persisted": false
+        },
+        {
+          "event": "canvas-attached",
+          "performanceMs": 10682.09999999404,
+          "at": "2026-10-04T00:53:51.894Z"
+        }
+      ],
+      "relativeToReadyWaitMs": 120701.834
+    }
+  ],
+  "readyObservation": {
+    "label": "poll",
+    "requested": {
+      "at": "2026-10-04T00:55:01.385Z",
+      "elapsedMs": 80423.181
+    },
+    "received": {
+      "at": "2026-10-04T00:55:01.392Z",
+      "elapsedMs": 80430.426
+    },
+    "documentReadyState": "complete",
+    "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+    "documentTitle": "Furniture Video Engine",
+    "rendererPresent": true,
+    "rendererReady": true,
+    "rendererFps": 30,
+    "duration": 524.0536938888888,
+    "engineDebug": {
+      "engineReady": true,
+      "cameraReady": true,
+      "registrySize": 911,
+      "productReadyVersion": 1
+    },
+    "canvas": {
+      "width": 1280,
+      "height": 720,
+      "css": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "top": 0,
+        "right": 1280,
+        "bottom": 720,
+        "left": 0
+      }
+    },
+    "surface": {
+      "profileId": "720p",
+      "width": 1280,
+      "height": 720,
+      "drawingBuffer": [
+        1280,
+        720
+      ],
+      "deviceScaleFactor": 1
+    },
+    "camera": {
+      "position": [
+        -264.9999999999999,
+        181.00000000000003,
+        -405
+      ],
+      "direction": [
+        0.5463441404320304,
+        -0.14637899611575167,
+        0.8246704006521215
+      ],
+      "target": [
+        0,
+        110,
+        -5
+      ],
+      "fov": 35
+    },
+    "loading": null,
+    "bodyText": "",
+    "lifecycle": [
+      {
+        "event": "page-init",
+        "performanceMs": 17.69999998807907,
+        "at": "2026-10-04T00:53:41.230Z"
+      },
+      {
+        "event": "DOMContentLoaded",
+        "performanceMs": 9173.5,
+        "at": "2026-10-04T00:53:50.386Z"
+      },
+      {
+        "event": "window-load",
+        "performanceMs": 9173.699999988079,
+        "at": "2026-10-04T00:53:50.386Z"
+      },
+      {
+        "event": "pageshow",
+        "performanceMs": 9173.699999988079,
+        "at": "2026-10-04T00:53:50.386Z",
+        "persisted": false
+      },
+      {
+        "event": "canvas-attached",
+        "performanceMs": 10682.09999999404,
+        "at": "2026-10-04T00:53:51.894Z"
+      }
+    ],
+    "relativeToReadyWaitMs": 71005.03400000001
+  },
+  "readyPng": {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/render-readiness-2026-10-04T00-53-40-961Z-1b9772c2/time-zero-ready.png",
+    "time": 0,
+    "width": 1280,
+    "height": 720,
+    "native": true,
+    "capturedAt": {
+      "at": "2026-10-04T00:55:06.821Z",
+      "elapsedMs": 85859.507
+    }
+  },
+  "timeZeroAfterCapture": {
+    "label": "after-one-time-zero-frame",
+    "requested": {
+      "at": "2026-10-04T00:55:06.821Z",
+      "elapsedMs": 85859.511
+    },
+    "received": {
+      "at": "2026-10-04T00:55:06.822Z",
+      "elapsedMs": 85860.488
+    },
+    "documentReadyState": "complete",
+    "href": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+    "documentTitle": "Furniture Video Engine",
+    "rendererPresent": true,
+    "rendererReady": true,
+    "rendererFps": 30,
+    "duration": 524.0536938888888,
+    "engineDebug": {
+      "engineReady": true,
+      "cameraReady": true,
+      "registrySize": 911,
+      "productReadyVersion": 1
+    },
+    "canvas": {
+      "width": 1280,
+      "height": 720,
+      "css": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720,
+        "top": 0,
+        "right": 1280,
+        "bottom": 720,
+        "left": 0
+      }
+    },
+    "surface": {
+      "profileId": "720p",
+      "width": 1280,
+      "height": 720,
+      "drawingBuffer": [
+        1280,
+        720
+      ],
+      "deviceScaleFactor": 1
+    },
+    "camera": {
+      "position": [
+        -264.9999999999999,
+        181.00000000000003,
+        -405
+      ],
+      "direction": [
+        0.5463441404320304,
+        -0.14637899611575167,
+        0.8246704006521215
+      ],
+      "target": [
+        0,
+        110,
+        -5
+      ],
+      "fov": 35
+    },
+    "loading": null,
+    "bodyText": "",
+    "lifecycle": [
+      {
+        "event": "page-init",
+        "performanceMs": 17.69999998807907,
+        "at": "2026-10-04T00:53:41.230Z"
+      },
+      {
+        "event": "DOMContentLoaded",
+        "performanceMs": 9173.5,
+        "at": "2026-10-04T00:53:50.386Z"
+      },
+      {
+        "event": "window-load",
+        "performanceMs": 9173.699999988079,
+        "at": "2026-10-04T00:53:50.386Z"
+      },
+      {
+        "event": "pageshow",
+        "performanceMs": 9173.699999988079,
+        "at": "2026-10-04T00:53:50.386Z",
+        "persisted": false
+      },
+      {
+        "event": "canvas-attached",
+        "performanceMs": 10682.09999999404,
+        "at": "2026-10-04T00:53:51.894Z"
+      }
+    ]
+  },
+  "diagnosticComplete": true,
+  "rendererReadyEventually": true,
+  "original60SecondGatePassed": false,
+  "interpretation": "The original 60 s ready gate is NOT PASS. Later readiness, if observed, is separate diagnostic evidence and does not change source, validators or timeout thresholds.",
+  "finishedAt": "2026-10-04T00:55:51.196Z"
+}

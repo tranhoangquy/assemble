@@ -1,0 +1,66 @@
+{
+  "valid": true,
+  "candidate": "wf311613-director-polish-02b",
+  "output": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/wf311613-polish-02b-visual-master-720p.mp4",
+  "duration": 519.066667,
+  "timelineDuration": 519.0536938888888,
+  "frameCount": 15572,
+  "sourceFrameCount": 15572,
+  "sourceSequenceContiguous": true,
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": "30/1",
+  "codec": "h264",
+  "pixelFormat": "yuv420p",
+  "fileSizeBytes": 29730233,
+  "sha256": "76804a7076908bac33220f785d87940bc6128fb764e8105892284804431724a2",
+  "sourceFilesUnchanged": 198,
+  "modifiedSources": [],
+  "approvedCandidateIdentity": true,
+  "approvedCameraIdentity": true,
+  "completeDecode": true,
+  "unexpectedBlackIntervals": 0,
+  "audioStreams": 0,
+  "historicalVideoOrFramesUsed": false,
+  "freshFrameDirectory": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/frames/wf311613-polish-02b-visual-master-new-d0SrbS",
+  "spotCheckCount": 18,
+  "validation": {
+    "locks": true,
+    "props": true,
+    "mechanicalGates": true,
+    "presentationSeekReset": true,
+    "typecheck": true,
+    "lint": true,
+    "tests": {
+      "passed": 146,
+      "files": 29
+    },
+    "productionBuild": true
+  },
+  "warnings": [
+    "(node:90203) [THREE_CJS_DEPRECATED] DeprecationWarning: `require(\"three\")` is deprecated and will be removed.",
+    "(Use `node --trace-deprecation ...` to show where the warning was created)",
+    "[browser:warning] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "Existing broad file-pattern build warning; build passed",
+    "One startup HTTP 404 console entry, not reproduced by subsequent resource audit"
+  ],
+  "verifiedAt": "2026-10-03T12:22:48.763Z",
+  "visualInspection": "18 decoded spot frames inspected; retained S26-eye-align bed-face occlusion recorded in report.md, no candidate edits",
+  "visualObservations": [
+    {
+      "shot": "S26-eye-align",
+      "camera": "S26-cabinet-eye",
+      "frame": 11705,
+      "time": 390.1666666666667,
+      "observation": "Bed-face panel occludes piston connection in approved view",
+      "sourceFrameConfirmed": true,
+      "modified": false
+    }
+  ],
+  "resourceAudit": {
+    "responses": [],
+    "errors": []
+  }
+}

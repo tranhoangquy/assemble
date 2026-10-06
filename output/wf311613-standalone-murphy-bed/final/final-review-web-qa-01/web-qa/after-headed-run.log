@@ -1,0 +1,4 @@
+Error: Actual export ended error: waiting for deterministic WebGL renderer ready: The native render stage timed out: page.waitForFunction: Timeout 60000ms exceeded.
+    at waitJob (file:///Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/audit-production-ui-headed.mjs:110:60)
+    at async main (file:///Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/audit-production-ui-headed.mjs:273:21)
+    at async file:///Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/audit-production-ui-headed.mjs:319:3

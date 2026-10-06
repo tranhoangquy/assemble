@@ -1,0 +1,208 @@
+{
+  "valid": true,
+  "method": "Actual manual-render camera state compared against selected deterministic plan preset; direction compared with normalized target-minus-position. Includes backward seeks in capture order.",
+  "width": 1280,
+  "height": 720,
+  "checkpoints": [
+    {
+      "name": "01-early-assembly.png",
+      "time": 10.631072500000002,
+      "shot": "rail-seat-0",
+      "step": 1,
+      "positionError": 2.0345333950899658e-7,
+      "targetError": 0,
+      "directionError": 6.445850728176161e-10,
+      "fovError": 0
+    },
+    {
+      "name": "02-cabinet-working-medium.png",
+      "time": 73.0636938888888,
+      "shot": "S4-D4-1-seat",
+      "step": 4,
+      "positionError": 3.6104017908655806e-7,
+      "targetError": 0,
+      "directionError": 9.673407630472752e-10,
+      "fovError": 0
+    },
+    {
+      "name": "03-after-distant-224s.png",
+      "time": 224,
+      "shot": "S14-C2-right-seat",
+      "step": 14,
+      "positionError": 3.4915026958515227e-7,
+      "targetError": 4.92968847964903e-7,
+      "directionError": 5.332166930216431e-10,
+      "fovError": 0
+    },
+    {
+      "name": "04-step25-front-staging.png",
+      "time": 369.0636938888887,
+      "shot": "S25-context",
+      "step": 25,
+      "positionError": 4.968761686541256e-7,
+      "targetError": 2.5284936100433697e-7,
+      "directionError": 4.0208342211300874e-10,
+      "fovError": 0
+    },
+    {
+      "name": "05-step25-supported-approach.png",
+      "time": 372.4436938888887,
+      "shot": "S25-route-4",
+      "step": 25,
+      "positionError": 3.6408201253834704e-7,
+      "targetError": 4.756786609050323e-7,
+      "directionError": 5.484085963125551e-10,
+      "fovError": 0
+    },
+    {
+      "name": "06-step25-bearing-alignment.png",
+      "time": 375.15169388888864,
+      "shot": "S25-route-5",
+      "step": 25,
+      "positionError": 4.4937920051779656e-7,
+      "targetError": 4.0945732138197855e-7,
+      "directionError": 1.3649087415856798e-9,
+      "fovError": 0
+    },
+    {
+      "name": "07-step25-seated-connection.png",
+      "time": 378.41369388888864,
+      "shot": "S25--1-connection",
+      "step": 25,
+      "positionError": 0,
+      "targetError": 0,
+      "directionError": 2.220446049250313e-16,
+      "fovError": 0
+    },
+    {
+      "name": "08-step28-leg-work.png",
+      "time": 412.13969388888853,
+      "shot": "S28--1-D7-join",
+      "step": 28,
+      "positionError": 3.63698591243633e-7,
+      "targetError": 2.025775529546081e-7,
+      "directionError": 6.449680178821637e-9,
+      "fovError": 0
+    },
+    {
+      "name": "09-step30-wall-anchoring.png",
+      "time": 464.1911938888885,
+      "shot": "S30-0-wall-screw",
+      "step": 30,
+      "positionError": 3.0961373909121903e-7,
+      "targetError": 3.5222845440330275e-7,
+      "directionError": 2.7755575615628914e-16,
+      "fovError": 0
+    },
+    {
+      "name": "10-final-open-bedroom.png",
+      "time": 497.75369388888834,
+      "shot": "final-result",
+      "step": 31,
+      "positionError": 3.902983678472083e-7,
+      "targetError": 4.301721645560974e-7,
+      "directionError": 1.270947236342579e-10,
+      "fovError": 0
+    },
+    {
+      "name": "11-final-closed-bedroom.png",
+      "time": 490.4536938888883,
+      "shot": "final-closed",
+      "step": 31,
+      "positionError": 4.653227563267137e-7,
+      "targetError": 4.433152867022727e-7,
+      "directionError": 1.7914122685258604e-9,
+      "fovError": 0
+    },
+    {
+      "name": "12-early-connection-macro.png",
+      "time": 15.951110000000003,
+      "shot": "bolt-macro",
+      "step": 1,
+      "positionError": 4.1198583744517236e-7,
+      "targetError": 0,
+      "directionError": 3.3306690738754696e-16,
+      "fovError": 0
+    },
+    {
+      "name": "13-top-cap-installation.png",
+      "time": 140.51869388888863,
+      "shot": "S8-cap-seat",
+      "step": 8,
+      "positionError": 3.1056697480380535e-7,
+      "targetError": 0,
+      "directionError": 7.57646723137384e-10,
+      "fovError": 0
+    },
+    {
+      "name": "14-carrier-and-face.png",
+      "time": 261.75369388888885,
+      "shot": "S16-complete",
+      "step": 16,
+      "positionError": 4.5929249381515547e-7,
+      "targetError": 4.0443728721584193e-7,
+      "directionError": 1.370566410363594e-9,
+      "fovError": 0
+    },
+    {
+      "name": "15-step25-bearing-lowering.png",
+      "time": 376.17869388888863,
+      "shot": "S25-route-6",
+      "step": 25,
+      "positionError": 0,
+      "targetError": 0,
+      "directionError": 2.220446049250313e-16,
+      "fovError": 0
+    },
+    {
+      "name": "16-step25-retainer-installation.png",
+      "time": 379.92369388888864,
+      "shot": "S25--1-retainer",
+      "step": 25,
+      "positionError": 3.5946384713270163e-7,
+      "targetError": 4.976073064710818e-7,
+      "directionError": 1.1174452640982935e-8,
+      "fovError": 0
+    },
+    {
+      "name": "17-pdf-left-D8-target.png",
+      "time": 168.32369388888878,
+      "shot": "S10-target",
+      "step": 10,
+      "positionError": 4.71021095904689e-7,
+      "targetError": 4.407944942386166e-7,
+      "directionError": 1.2193568377227848e-9,
+      "fovError": 0
+    },
+    {
+      "name": "18-pdf-right-D9-seating.png",
+      "time": 153.41609388888872,
+      "shot": "S9-seat-link",
+      "step": 9,
+      "positionError": 2.460993897557273e-7,
+      "targetError": 2.1587278808965493e-7,
+      "directionError": 1.2193568377227848e-9,
+      "fovError": 0
+    },
+    {
+      "name": "19-step25-connected-pullback.png",
+      "time": 383.8286938888886,
+      "shot": "S25-complete",
+      "step": 25,
+      "positionError": 3.079642283410067e-7,
+      "targetError": 4.6538214348856854e-7,
+      "directionError": 1.4344748722194822e-9,
+      "fovError": 0
+    },
+    {
+      "name": "20-step29-leg-pivot.png",
+      "time": 448.3286938888885,
+      "shot": "S29-1-bolt",
+      "step": 29,
+      "positionError": 4.846880017339572e-7,
+      "targetError": 4.1362501690400677e-7,
+      "directionError": 2.909813295870478e-8,
+      "fovError": 0
+    }
+  ]
+}

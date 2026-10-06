@@ -1,0 +1,33 @@
+{
+  "kind": "read-only actual production render-route cold-start observation",
+  "startedAt": "2026-10-04T00:53:40.961Z",
+  "url": "http://127.0.0.1:3016/render?product=wf311613-final-micro-pass&profile=720p&fps=30",
+  "origin": "http://127.0.0.1:3016",
+  "headed": false,
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "deviceScaleFactor": 1,
+  "sourceModified": false,
+  "apiMocked": false,
+  "timeRetimed": false,
+  "originalReadyTimeoutMs": 60000,
+  "laterObservationsSeconds": [
+    90,
+    120
+  ],
+  "navigation": {},
+  "readyGate60s": {
+    "status": "NOT_STARTED"
+  },
+  "console": [],
+  "pageErrors": [],
+  "requestFailures": [],
+  "responses": [],
+  "lifecycle": [],
+  "snapshots": [],
+  "milestones": [],
+  "readyObservation": null,
+  "readyPng": null
+}

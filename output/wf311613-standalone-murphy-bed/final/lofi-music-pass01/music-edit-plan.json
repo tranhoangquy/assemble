@@ -1,0 +1,118 @@
+{
+  "status": "PROVISIONAL_REVIEW_CANDIDATE_LISTENING_REQUIRED",
+  "created_at": "2026-10-05T03:29:12.955400+00:00",
+  "preferred_order": [
+    "A",
+    "B",
+    "C"
+  ],
+  "sample_rate": 48000,
+  "samples_per_channel": 25155200,
+  "duration_seconds": 524.0666666666667,
+  "segments": [
+    {
+      "track_id": "A",
+      "title": "And So It Begins",
+      "artist": "Artificial.Music",
+      "source_filename": "A-director-supplied.mp3",
+      "source_path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/sources/A-director-supplied.mp3",
+      "source_sha256": "419442217a6d6300803a3d552eb7b4451a156a6fe671e19a449cdef55698a132",
+      "source_in": 0.0,
+      "source_out": 199.5205,
+      "global_in": 0.0,
+      "global_out": 199.5205,
+      "gain_db": -10.41,
+      "selected_segment_measured_lufs": -9.59,
+      "fade_in_seconds": 0,
+      "fade_out_seconds": 4,
+      "crossfade_curve": "sin/cos equal-power",
+      "processing": [
+        "constant gain",
+        "fade only"
+      ],
+      "source_in_reason": "Retain natural opening",
+      "source_out_reason": "Leave before measured end fade/sparse tail; provisional 4-beat grid",
+      "transition_reason": "Provisional overlap at body regions, not full-source ending; 4-second candidate remains unapproved by listening."
+    },
+    {
+      "track_id": "B",
+      "title": "Herbal Tea",
+      "artist": "Artificial.Music",
+      "source_filename": "B-director-supplied.mp3",
+      "source_path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/sources/B-director-supplied.mp3",
+      "source_sha256": "d2685ec597c6fbefe73afcf134827b8692d5a12730787cf5f692c04aa54a3e80",
+      "source_in": 35.241125,
+      "source_out": 147.481125,
+      "global_in": 195.5205,
+      "global_out": 307.7605,
+      "gain_db": -10.79,
+      "selected_segment_measured_lufs": -9.21,
+      "fade_in_seconds": 4,
+      "fade_out_seconds": 4,
+      "crossfade_curve": "sin/cos equal-power",
+      "processing": [
+        "constant gain",
+        "fade only"
+      ],
+      "source_in_reason": "Technical energy profile suggests normal body has started; nearest provisional 4-beat grid. Actual intro/phrase identification pending listening.",
+      "source_out_reason": "Leave before measured end fade/sparse tail; provisional 4-beat grid",
+      "transition_reason": "Provisional overlap at body regions, not full-source ending; 4-second candidate remains unapproved by listening."
+    },
+    {
+      "track_id": "C",
+      "title": "Way Home",
+      "artist": "Tokyo Music Walker",
+      "source_filename": "C-director-supplied.mp3",
+      "source_path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/sources/C-director-supplied.mp3",
+      "source_sha256": "dc5daba50f889602e26207c1cc3ddb22e5f6b5d352235621f6e9c445f07caf5d",
+      "source_in": 26.143104166666667,
+      "source_out": 246.44927083333334,
+      "global_in": 303.7605,
+      "global_out": 524.0666666666667,
+      "gain_db": -9.88,
+      "selected_segment_measured_lufs": -10.12,
+      "fade_in_seconds": 4,
+      "fade_out_seconds": 0,
+      "crossfade_curve": "sin/cos equal-power",
+      "processing": [
+        "constant gain",
+        "fade only"
+      ],
+      "source_in_reason": "Technical energy profile suggests normal body has started; nearest provisional 4-beat grid. Actual intro/phrase identification pending listening.",
+      "source_out_reason": "Exact locked remaining sample count, inside measured normal body, ending supported by gentle master fade. Musical resolution pending listening.",
+      "transition_reason": "Provisional overlap at body regions, not full-source ending; 4-second candidate remains unapproved by listening."
+    }
+  ],
+  "transitions": [
+    {
+      "id": "A-B",
+      "global_start": 195.5205,
+      "global_end": 199.5205,
+      "duration": 4,
+      "curve": "sin/cos equal-power",
+      "listening_status": "NOT_PERFORMED"
+    },
+    {
+      "id": "B-C",
+      "global_start": 303.7605,
+      "global_end": 307.7605,
+      "duration": 4,
+      "curve": "sin/cos equal-power",
+      "listening_status": "NOT_PERFORMED"
+    }
+  ],
+  "master_fade_in": {
+    "start": 0,
+    "duration": 1.5,
+    "curve": "half cosine"
+  },
+  "master_fade_out": {
+    "start": 518.0666666666667,
+    "duration": 6,
+    "curve": "half cosine"
+  },
+  "looping": false,
+  "tempo_pitch_processing": false,
+  "actual_listening_status": "NOT_PERFORMED",
+  "important_limit": "Technical timing/gain choices are audition proposals, not musical or perceptual QA approval. Do not mux until actual source, transitions and full mix listening review passes."
+}

@@ -1,0 +1,1540 @@
+[
+  {
+    "id": "step-01",
+    "group": "assembly",
+    "time": 33.143390000000004,
+    "step": 1,
+    "title": "Assemble the Left Side",
+    "camera": {
+      "position": [
+        -327.92969571095426,
+        380.7821703535338,
+        -376.54949285159046
+      ],
+      "target": [
+        0,
+        25.525,
+        170
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-02",
+    "group": "assembly",
+    "time": 49.56768277777778,
+    "step": 2,
+    "title": "Assemble the Right Side",
+    "camera": {
+      "position": [
+        -601.7558663603872,
+        527.9542718775051,
+        -602.9681105807771
+      ],
+      "target": [
+        -137.97500001192094,
+        25.525,
+        170
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-03",
+    "group": "assembly",
+    "time": 71.15369388888891,
+    "step": 3,
+    "title": "Join the Cabinet Base",
+    "camera": {
+      "position": [
+        -366.5509005291339,
+        509.62181043244067,
+        -440.91816754855654
+      ],
+      "target": [
+        0,
+        112.52500152587889,
+        170
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-04",
+    "group": "assembly",
+    "time": 84.7036938888889,
+    "step": 4,
+    "title": "Build the Lower Cabinet",
+    "camera": {
+      "position": [
+        -366.5509005291339,
+        509.62181043244067,
+        -440.91816754855654
+      ],
+      "target": [
+        0,
+        112.52500152587889,
+        170
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-05",
+    "group": "assembly",
+    "time": 98.2536938888889,
+    "step": 5,
+    "title": "Build the Middle Cabinet",
+    "camera": {
+      "position": [
+        -366.5509005291339,
+        509.62181043244067,
+        -440.91816754855654
+      ],
+      "target": [
+        0,
+        112.52500152587889,
+        170
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-06",
+    "group": "assembly",
+    "time": 118.0036938888889,
+    "step": 6,
+    "title": "Complete the Cabinet Frame",
+    "camera": {
+      "position": [
+        -366.5509005291339,
+        509.62181043244067,
+        -440.91816754855654
+      ],
+      "target": [
+        0,
+        112.52500152587889,
+        170
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-07",
+    "group": "assembly",
+    "time": 135.5336938888889,
+    "step": 7,
+    "title": "Assemble the Top",
+    "camera": {
+      "position": [
+        -366.5509005291339,
+        509.62181043244067,
+        -440.91816754855654
+      ],
+      "target": [
+        0,
+        112.52500152587889,
+        170
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-08",
+    "group": "assembly",
+    "time": 154.7136938888889,
+    "step": 8,
+    "title": "Fit the Top",
+    "camera": {
+      "position": [
+        -367.5233848337915,
+        512.1753335699408,
+        -442.5389747229858
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        170
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-09",
+    "group": "assembly",
+    "time": 170.8436938888889,
+    "step": 9,
+    "title": "Install the Right Pivot Bracket",
+    "camera": {
+      "position": [
+        -367.5233848337915,
+        512.1753335699408,
+        -442.5389747229858
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        170
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-10",
+    "group": "assembly",
+    "time": 198.8136938888889,
+    "step": 10,
+    "title": "Install the Left Pivot Bracket",
+    "camera": {
+      "position": [
+        -367.5233848337915,
+        512.1753335699408,
+        -442.5389747229858
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        170
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-11",
+    "group": "assembly",
+    "time": 206.4136938888889,
+    "step": 11,
+    "title": "Begin the Bed Face",
+    "camera": {
+      "position": [
+        -361.6226650604712,
+        492.03288714884377,
+        -758.1819418246725
+      ],
+      "target": [
+        0,
+        100.275,
+        -155.47750005722045
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-12",
+    "group": "assembly",
+    "time": 218.4336938888889,
+    "step": 12,
+    "title": "Build the Center Frame",
+    "camera": {
+      "position": [
+        -361.6226650604712,
+        492.03288714884377,
+        -758.1819418246725
+      ],
+      "target": [
+        0,
+        100.275,
+        -155.47750005722045
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-13",
+    "group": "assembly",
+    "time": 226.4436938888889,
+    "step": 13,
+    "title": "Fit the Underside Supports",
+    "camera": {
+      "position": [
+        -360.51410628697573,
+        492.33194847755703,
+        -756.3343438688468
+      ],
+      "target": [
+        0,
+        101.775,
+        -155.47750005722045
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-14",
+    "group": "assembly",
+    "time": 238.4636938888889,
+    "step": 14,
+    "title": "Complete the Side Frame",
+    "camera": {
+      "position": [
+        -360.51410628697573,
+        492.33194847755703,
+        -756.3343438688468
+      ],
+      "target": [
+        0,
+        101.775,
+        -155.47750005722045
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-15",
+    "group": "assembly",
+    "time": 252.2136938888889,
+    "step": 15,
+    "title": "Close the Bed Face",
+    "camera": {
+      "position": [
+        -360.51410628697573,
+        492.33194847755703,
+        -756.3343438688468
+      ],
+      "target": [
+        0,
+        101.775,
+        -155.47750005722045
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-16",
+    "group": "assembly",
+    "time": 266.8636938888889,
+    "step": 16,
+    "title": "Assemble the Bed Frame",
+    "camera": {
+      "position": [
+        -352.34805809462625,
+        642.9818546645006,
+        -988.1034303102982
+      ],
+      "target": [
+        147.22750005722045,
+        101.775,
+        -155.47750005722045
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-17",
+    "group": "assembly",
+    "time": 290.0236938888889,
+    "step": 17,
+    "title": "Join the Two Bed Frames",
+    "camera": {
+      "position": [
+        -360.51410628697573,
+        492.33194847755703,
+        -756.3343438688468
+      ],
+      "target": [
+        0,
+        101.775,
+        -155.47750005722045
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-18",
+    "group": "assembly",
+    "time": 304.2636938888889,
+    "step": 18,
+    "title": "Reinforce the First Corners",
+    "camera": {
+      "position": [
+        -360.51410628697573,
+        492.33194847755703,
+        -756.3343438688468
+      ],
+      "target": [
+        0,
+        101.775,
+        -155.47750005722045
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-19",
+    "group": "assembly",
+    "time": 316.5736938888889,
+    "step": 19,
+    "title": "Reinforce the Opposite Corners",
+    "camera": {
+      "position": [
+        -360.51410628697573,
+        492.33194847755703,
+        -756.3343438688468
+      ],
+      "target": [
+        0,
+        101.775,
+        -155.47750005722045
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-20",
+    "group": "assembly",
+    "time": 332.8336938888889,
+    "step": 20,
+    "title": "Fit the Support Slats",
+    "camera": {
+      "position": [
+        -360.51410628697573,
+        492.33194847755703,
+        -756.3343438688468
+      ],
+      "target": [
+        0,
+        101.775,
+        -155.47750005722045
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-21",
+    "group": "assembly",
+    "time": 344.9336938888889,
+    "step": 21,
+    "title": "Fit the First Mechanism Plate",
+    "camera": {
+      "position": [
+        -360.51410628697573,
+        492.33194847755703,
+        -756.3343438688468
+      ],
+      "target": [
+        0,
+        101.775,
+        -155.47750005722045
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-22",
+    "group": "assembly",
+    "time": 353.53369388888893,
+    "step": 22,
+    "title": "Fit the Opposite Mechanism Plate",
+    "camera": {
+      "position": [
+        -360.51410628697573,
+        492.33194847755703,
+        -756.3343438688468
+      ],
+      "target": [
+        0,
+        101.775,
+        -155.47750005722045
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-23",
+    "group": "assembly",
+    "time": 365.1836938888889,
+    "step": 23,
+    "title": "Attach the First Gas Piston",
+    "camera": {
+      "position": [
+        -360.51410628697573,
+        492.33194847755703,
+        -756.3343438688468
+      ],
+      "target": [
+        0,
+        101.775,
+        -155.47750005722045
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-24",
+    "group": "assembly",
+    "time": 372.28369388888893,
+    "step": 24,
+    "title": "Attach the Opposite Gas Piston",
+    "camera": {
+      "position": [
+        -360.51410628697573,
+        492.33194847755703,
+        -756.3343438688468
+      ],
+      "target": [
+        0,
+        101.775,
+        -155.47750005722045
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-25",
+    "group": "assembly",
+    "time": 389.1836938888889,
+    "step": 25,
+    "title": "Connect Bed and Cabinet",
+    "camera": {
+      "position": [
+        -257.53765350909885,
+        393.02412463485706,
+        -472.04040838867354
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        -42.81098587350873
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-26",
+    "group": "assembly",
+    "time": 398.4836938888889,
+    "step": 26,
+    "title": "Connect the First Gas Piston",
+    "camera": {
+      "position": [
+        -244.66163822587683,
+        379.0751080780332,
+        -419.4968971003485
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        -11.727500057220471
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-27",
+    "group": "assembly",
+    "time": 408.78369388888893,
+    "step": 27,
+    "title": "Connect the Opposite Gas Piston",
+    "camera": {
+      "position": [
+        -244.66163822587683,
+        379.0751080780332,
+        -419.4968971003485
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        -11.727500057220471
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-28",
+    "group": "assembly",
+    "time": 437.58369388888894,
+    "step": 28,
+    "title": "Assemble the Folding Legs",
+    "camera": {
+      "position": [
+        -398.726135824049,
+        641.7476888584608,
+        -1027.6099959425153
+      ],
+      "target": [
+        88.40250004529952,
+        114.02499999999999,
+        -215.72893616026778
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-29",
+    "group": "assembly",
+    "time": 460.6836938888889,
+    "step": 29,
+    "title": "Attach the Folding Legs",
+    "camera": {
+      "position": [
+        -287.70042270753373,
+        425.70045793316154,
+        -567.0782045697767
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        -87.57750005722045
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-30",
+    "group": "assembly",
+    "time": 477.1336938888889,
+    "step": 30,
+    "title": "Secure Cabinet to Wall",
+    "camera": {
+      "position": [
+        -292.9162890538068,
+        428.82952130965384,
+        -570.8396481686982
+      ],
+      "target": [
+        -2.327500152587888,
+        114.02499999999999,
+        -86.52499999999999
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "step-31",
+    "group": "assembly",
+    "time": 503.2336938888889,
+    "step": 31,
+    "title": "Complete Wall Attachment",
+    "camera": {
+      "position": [
+        -292.65500522045573,
+        431.06792232216037,
+        -574.2833420340929
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        -86.52499999999999
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "closed-front",
+    "group": "closed",
+    "time": 509.5,
+    "title": "closed / front",
+    "camera": {
+      "position": [
+        0,
+        157.97293464460196,
+        -551.8741830575248
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        -2.525000000000002
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "closed-front-left",
+    "group": "closed",
+    "time": 509.5,
+    "title": "closed / front-left",
+    "camera": {
+      "position": [
+        -332.0926174895272,
+        259.3155201516681,
+        -417.64077186190895
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        -2.525000000000002
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "closed-front-right",
+    "group": "closed",
+    "time": 509.5,
+    "title": "closed / front-right",
+    "camera": {
+      "position": [
+        332.0926174895272,
+        259.3155201516681,
+        -417.64077186190895
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        -2.525000000000002
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "closed-left",
+    "group": "closed",
+    "time": 509.5,
+    "title": "closed / left",
+    "camera": {
+      "position": [
+        -546.6400769756086,
+        168.68900769756087,
+        -46.2562061580487
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        -2.525000000000002
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "closed-right",
+    "group": "closed",
+    "time": 509.5,
+    "title": "closed / right",
+    "camera": {
+      "position": [
+        546.6400769756086,
+        168.68900769756087,
+        -46.2562061580487
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        -2.525000000000002
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "closed-upper",
+    "group": "closed",
+    "time": 509.5,
+    "title": "closed / upper",
+    "camera": {
+      "position": [
+        -120.26081693463391,
+        595.0682677385356,
+        -243.04663386926782
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        -2.525000000000002
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "closed-lower",
+    "group": "closed",
+    "time": 509.5,
+    "title": "closed / lower",
+    "camera": {
+      "position": [
+        -155.53059377980813,
+        10.337937480127891,
+        -520.9603125993605
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        -2.525000000000002
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "closed-interior",
+    "group": "closed",
+    "time": 509.5,
+    "title": "closed / interior",
+    "camera": {
+      "position": [
+        152.1997882181166,
+        266.2247882181166,
+        -509.85762739372194
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        -2.525000000000002
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "open-front",
+    "group": "open",
+    "time": 516.8,
+    "title": "open / front",
+    "camera": {
+      "position": [
+        0,
+        165.95569656552522,
+        -735.6587070690651
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        -86.52499999999999
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "open-front-left",
+    "group": "open",
+    "time": 516.8,
+    "title": "open / front-left",
+    "camera": {
+      "position": [
+        -392.4143669085466,
+        285.7062855224891,
+        -577.0429586356832
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        -86.52499999999999
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "open-front-right",
+    "group": "open",
+    "time": 516.8,
+    "title": "open / front-right",
+    "camera": {
+      "position": [
+        392.4143669085466,
+        285.7062855224891,
+        -577.0429586356832
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        -86.52499999999999
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "open-left",
+    "group": "open",
+    "time": 516.8,
+    "title": "open / left",
+    "camera": {
+      "position": [
+        -645.9325153170181,
+        178.6182515317018,
+        -138.19960122536145
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        -86.52499999999999
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "open-right",
+    "group": "open",
+    "time": 516.8,
+    "title": "open / right",
+    "camera": {
+      "position": [
+        645.9325153170181,
+        178.6182515317018,
+        -138.19960122536145
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        -86.52499999999999
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "open-upper",
+    "group": "open",
+    "time": 516.8,
+    "title": "open / upper",
+    "camera": {
+      "position": [
+        -142.105153369744,
+        682.4456134789759,
+        -370.73530673948795
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        -86.52499999999999
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "open-lower",
+    "group": "open",
+    "time": 516.8,
+    "title": "open / lower",
+    "camera": {
+      "position": [
+        -183.78137988851392,
+        -8.495919925675977,
+        -699.1295996283798
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        -86.52499999999999
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "open-interior",
+    "group": "open",
+    "time": 516.8,
+    "title": "open / interior",
+    "camera": {
+      "position": [
+        179.84556232753528,
+        293.87056232753525,
+        -686.0102077584509
+      ],
+      "target": [
+        0,
+        114.02499999999999,
+        -86.52499999999999
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-early-cams-front",
+    "group": "details",
+    "time": 49.56768277777778,
+    "step": 2,
+    "title": "early-cams / front",
+    "partIds": [
+      "A1",
+      "A3",
+      "A5"
+    ],
+    "camera": {
+      "position": [
+        -382.10646324775723,
+        103.68146477363614,
+        -340.4382159121204
+      ],
+      "target": [
+        -279.9749984741211,
+        1.5499999999999998,
+        0
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-early-cams-reverse",
+    "group": "details",
+    "time": 49.56768277777778,
+    "step": 2,
+    "title": "early-cams / reverse",
+    "partIds": [
+      "A1",
+      "A3",
+      "A5"
+    ],
+    "camera": {
+      "position": [
+        -184.13469833881592,
+        161.28383355884196,
+        319.4676671176839
+      ],
+      "target": [
+        -279.9749984741211,
+        1.5499999999999998,
+        0
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-early-mirror-front",
+    "group": "details",
+    "time": 71.15369388888891,
+    "step": 3,
+    "title": "early-mirror / front",
+    "partIds": [
+      "A2",
+      "A4",
+      "A6"
+    ],
+    "camera": {
+      "position": [
+        15.868535226363846,
+        214.65646629951505,
+        -340.4382159121205
+      ],
+      "target": [
+        118,
+        112.52500152587889,
+        0
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-early-mirror-reverse",
+    "group": "details",
+    "time": 71.15369388888891,
+    "step": 3,
+    "title": "early-mirror / reverse",
+    "partIds": [
+      "A2",
+      "A4",
+      "A6"
+    ],
+    "camera": {
+      "position": [
+        213.8403001353052,
+        272.2588350847209,
+        319.46766711768396
+      ],
+      "target": [
+        118,
+        112.52500152587889,
+        0
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-B8-B7-front",
+    "group": "details",
+    "time": 198.8136938888889,
+    "step": 10,
+    "title": "B8-B7 / front",
+    "partIds": [
+      "B8-6--1",
+      "B8-6-1",
+      "B7-6",
+      "B7-5",
+      "B7-4"
+    ],
+    "camera": {
+      "position": [
+        -126.43973692781846,
+        264.93973692781844,
+        -403.46578975939485
+      ],
+      "target": [
+        0,
+        138.5,
+        18
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-B8-B7-reverse",
+    "group": "details",
+    "time": 198.8136938888889,
+    "step": 10,
+    "title": "B8-B7 / reverse",
+    "partIds": [
+      "B8-6--1",
+      "B8-6-1",
+      "B7-6",
+      "B7-5",
+      "B7-4"
+    ],
+    "camera": {
+      "position": [
+        118.65121452090692,
+        336.2520242015115,
+        413.5040484030231
+      ],
+      "target": [
+        0,
+        138.5,
+        18
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-cabinet-upper-front",
+    "group": "details",
+    "time": 198.8136938888889,
+    "step": 10,
+    "title": "cabinet-upper / front",
+    "partIds": [
+      "A5",
+      "B2-left",
+      "A6",
+      "B2-right"
+    ],
+    "camera": {
+      "position": [
+        -132.19019752046182,
+        273.96519752046186,
+        -440.6339917348727
+      ],
+      "target": [
+        0,
+        141.775,
+        0
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-cabinet-upper-reverse",
+    "group": "details",
+    "time": 198.8136938888889,
+    "step": 10,
+    "title": "cabinet-upper / reverse",
+    "partIds": [
+      "A5",
+      "B2-left",
+      "A6",
+      "B2-right"
+    ],
+    "camera": {
+      "position": [
+        124.04745426285811,
+        348.52075710476356,
+        413.49151420952705
+      ],
+      "target": [
+        0,
+        141.775,
+        0
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-bed-face-grid-front",
+    "group": "details",
+    "time": 290.0236938888889,
+    "step": 17,
+    "title": "bed-face-grid / front",
+    "partIds": [
+      "C1-start",
+      "C1-close",
+      "C2-left",
+      "C2-right",
+      "C4-left",
+      "C4-right",
+      "C5",
+      "C6-0-first"
+    ],
+    "camera": {
+      "position": [
+        -137.5888776780414,
+        142.0888776780414,
+        -683.629592260138
+      ],
+      "target": [
+        0,
+        4.5,
+        -225
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-bed-face-grid-reverse",
+    "group": "details",
+    "time": 290.0236938888889,
+    "step": 17,
+    "title": "bed-face-grid / reverse",
+    "partIds": [
+      "C1-start",
+      "C1-close",
+      "C2-left",
+      "C2-right",
+      "C4-left",
+      "C4-right",
+      "C5",
+      "C6-0-first"
+    ],
+    "camera": {
+      "position": [
+        129.1135827844037,
+        219.68930464067282,
+        205.37860928134563
+      ],
+      "target": [
+        0,
+        4.5,
+        -225
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-carrier-front",
+    "group": "details",
+    "time": 332.8336938888889,
+    "step": 20,
+    "title": "carrier / front",
+    "partIds": [
+      "C8-left",
+      "C8-right",
+      "C9",
+      "D1"
+    ],
+    "camera": {
+      "position": [
+        -134.9567646478324,
+        146.9567646478324,
+        -674.8558821594413
+      ],
+      "target": [
+        0,
+        12,
+        -225
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-carrier-reverse",
+    "group": "details",
+    "time": 332.8336938888889,
+    "step": 20,
+    "title": "carrier / reverse",
+    "partIds": [
+      "C8-left",
+      "C8-right",
+      "C9",
+      "D1"
+    ],
+    "camera": {
+      "position": [
+        126.64360447395457,
+        223.07267412325763,
+        197.14534824651525
+      ],
+      "target": [
+        0,
+        12,
+        -225
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-pivots-front",
+    "group": "details",
+    "time": 389.1836938888889,
+    "step": 25,
+    "title": "pivots / front",
+    "partIds": [
+      "D8",
+      "D9",
+      "E1--1",
+      "E1-1"
+    ],
+    "camera": {
+      "position": [
+        -112.53356708856862,
+        177.6422932148441,
+        -376.9593561101032
+      ],
+      "target": [
+        0,
+        65.10872612627549,
+        -1.8474658148745
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-pivots-reverse",
+    "group": "details",
+    "time": 389.1836938888889,
+    "step": 25,
+    "title": "pivots / reverse",
+    "partIds": [
+      "D8",
+      "D9",
+      "E1--1",
+      "E1-1"
+    ],
+    "camera": {
+      "position": [
+        105.6016465539715,
+        241.11147038289468,
+        350.1580226983639
+      ],
+      "target": [
+        0,
+        65.10872612627549,
+        -1.8474658148745
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-mechanism-front",
+    "group": "details",
+    "time": 398.4836938888889,
+    "step": 26,
+    "title": "mechanism / front",
+    "partIds": [
+      "E1--1",
+      "E1-1",
+      "E2--1",
+      "E2-1"
+    ],
+    "camera": {
+      "position": [
+        -112.63016820536417,
+        179.4801681994037,
+        -376.8684266201517
+      ],
+      "target": [
+        0,
+        66.84999999403954,
+        -1.43453260227116
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-mechanism-reverse",
+    "group": "details",
+    "time": 398.4836938888889,
+    "step": 26,
+    "title": "mechanism / reverse",
+    "partIds": [
+      "E1--1",
+      "E1-1",
+      "E2--1",
+      "E2-1"
+    ],
+    "camera": {
+      "position": [
+        105.69229716833028,
+        243.00382860792337,
+        350.87312462549653
+      ],
+      "target": [
+        0,
+        66.84999999403954,
+        -1.43453260227116
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-pistons-front",
+    "group": "details",
+    "time": 408.78369388888893,
+    "step": 27,
+    "title": "pistons / front",
+    "partIds": [
+      "E2--1",
+      "E2-1"
+    ],
+    "camera": {
+      "position": [
+        -111.00167521686603,
+        177.25167521686603,
+        -369.85558405622004
+      ],
+      "target": [
+        0,
+        66.25,
+        0.150000000000011
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-pistons-reverse",
+    "group": "details",
+    "time": 408.78369388888893,
+    "step": 27,
+    "title": "pistons / reverse",
+    "partIds": [
+      "E2--1",
+      "E2-1"
+    ],
+    "camera": {
+      "position": [
+        104.16411721779471,
+        239.85686202965786,
+        347.36372405931576
+      ],
+      "target": [
+        0,
+        66.25,
+        0.150000000000011
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-legs-front",
+    "group": "details",
+    "time": 460.6836938888889,
+    "step": 29,
+    "title": "legs / front",
+    "partIds": [
+      "leg--1",
+      "leg-1"
+    ],
+    "camera": {
+      "position": [
+        -105.68007185929112,
+        124.93007185929112,
+        -538.5669058161673
+      ],
+      "target": [
+        0,
+        19.25,
+        -186.29999961853025
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-legs-reverse",
+    "group": "details",
+    "time": 460.6836938888889,
+    "step": 29,
+    "title": "legs / reverse",
+    "partIds": [
+      "leg--1",
+      "leg-1"
+    ],
+    "camera": {
+      "position": [
+        99.17031766619283,
+        184.53386277698806,
+        144.26772593544587
+      ],
+      "target": [
+        0,
+        19.25,
+        -186.29999961853025
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-wall-left-front",
+    "group": "details",
+    "time": 477.1336938888889,
+    "step": 30,
+    "title": "wall-left / front",
+    "partIds": [
+      "S30-H15-0",
+      "A1"
+    ],
+    "camera": {
+      "position": [
+        -220.77789342626022,
+        212.82789333089278,
+        -316.426311102976
+      ],
+      "target": [
+        -120.45000009536741,
+        112.5,
+        18
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-wall-left-reverse",
+    "group": "details",
+    "time": 477.1336938888889,
+    "step": 30,
+    "title": "wall-left / reverse",
+    "partIds": [
+      "S30-H15-0",
+      "A1"
+    ],
+    "camera": {
+      "position": [
+        -26.302173761070605,
+        269.4130438904947,
+        331.8260877809894
+      ],
+      "target": [
+        -120.45000009536741,
+        112.5,
+        18
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-wall-right-front",
+    "group": "details",
+    "time": 503.2336938888889,
+    "step": 31,
+    "title": "wall-right / front",
+    "partIds": [
+      "S31-H15-0",
+      "A4"
+    ],
+    "camera": {
+      "position": [
+        20.12210676447458,
+        212.82789333089283,
+        -316.42631110297606
+      ],
+      "target": [
+        120.45000009536741,
+        112.5,
+        18
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "detail-wall-right-reverse",
+    "group": "details",
+    "time": 503.2336938888889,
+    "step": 31,
+    "title": "wall-right / reverse",
+    "partIds": [
+      "S31-H15-0",
+      "A4"
+    ],
+    "camera": {
+      "position": [
+        214.59782642966425,
+        269.41304389049475,
+        331.8260877809895
+      ],
+      "target": [
+        120.45000009536741,
+        112.5,
+        18
+      ],
+      "fov": 38
+    }
+  }
+]

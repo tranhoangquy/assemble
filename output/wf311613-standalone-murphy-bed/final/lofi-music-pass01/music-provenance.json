@@ -1,0 +1,386 @@
+{
+  "project": "WF311613",
+  "status": "AUDIO_REVIEW_CANDIDATE_READY_LISTENING_REQUIRED",
+  "verified_at": "2026-10-05T03:10:06.828948+00:00",
+  "visual_master": {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/director-approved-full-720p-20261004/WF311613-director-approved-full-720p.mp4",
+    "sha256": "0d5d898cbfaecb4573f07e818ce722c6884cbd4dc67d7c51b7c6c724f404ba0a",
+    "expected_sha256": "0d5d898cbfaecb4573f07e818ce722c6884cbd4dc67d7c51b7c6c724f404ba0a",
+    "identity": "PASS",
+    "duration_seconds": 524.066667
+  },
+  "approved_product_sha256": "29ef4258730c3e3691c84223d98e240d9a25854d079402377f97489ace5f9fb5",
+  "track_order": [
+    "A",
+    "B",
+    "C"
+  ],
+  "tracks": [
+    {
+      "track_id": "A",
+      "title": "And So It Begins",
+      "artist": "Artificial.Music",
+      "director_url": "https://www.youtube.com/watch?v=BH-SnQ8J1VU&list=PLfP6i5T0-DkIMLNRwmJpRBs4PJvxfgwBg&index=1",
+      "official_source_page": "https://breakingcopyright.com/song/artificialmusic-and-so-it-begins",
+      "official_audio_url": "https://files.breakingcopyright.com/song/artificialmusic-and-so-it-begins.mp3",
+      "source_filename": "A-director-supplied.mp3",
+      "source_sha256": "419442217a6d6300803a3d552eb7b4451a156a6fe671e19a449cdef55698a132",
+      "stated_license": "YouTube Free license",
+      "license_url": null,
+      "youtube_use": "Explicitly allowed with credits",
+      "commercial_use": "Not independently verified; track A page FAQ says yes subject to license terms, with generic CC explanation",
+      "editing_permission": "Not separately stated in inspected YouTube-specific terms",
+      "attribution_required": true,
+      "required_credit_text": "Song: And So It Begins\nComposer: Artificial.Music\nWebsite: https://www.youtube.com/channel/UCC49uNuUk7pY77NoVMlNYDA\nLicense: Free To Use YouTube license youtube-free\nMusic powered by BreakingCopyright: https://breakingcopyright.com",
+      "content_id": "Registration in copyright detection systems prohibited. No no-claim/no-Content-ID guarantee established.",
+      "restrictions": [
+        "Attribution required",
+        "Do not claim authorship or register original track in copyright detection systems",
+        "Official per-track page requires artist contact for use outside YouTube"
+      ],
+      "verified_at": "2026-10-05T03:10:06.828948+00:00",
+      "evidence_path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/A-verified-source.json",
+      "acquisition_status": "PASS_DIRECTOR_SUPPLIED_LOCAL_ASSET",
+      "http_status": 403,
+      "source_path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/sources/A-director-supplied.mp3",
+      "director_supplied_original_path": "/Users/quyth/Downloads/YTSave_YouTube_Media_BH-SnQ8J1VU_No-Copyright-Music-Artificial-Music-And-So-It-Begins-Lo-fi_008_128k.mp3",
+      "production_asset_origin": "Director manually supplied local file; not an official publisher download",
+      "audio_metadata": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "mp3",
+            "codec_long_name": "MP3 (MPEG audio layer 3)",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "mime_codec_string": "mp4a.40.34",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/14112000",
+            "start_pts": 353600,
+            "start_time": "0.025057",
+            "duration_ts": 2939944960,
+            "duration": "208.329433",
+            "bit_rate": "179119",
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "encoder": "Lavc62.11"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/sources/A-director-supplied.mp3",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mp3",
+          "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+          "start_time": "0.025057",
+          "duration": "208.329433",
+          "size": "4665707",
+          "bit_rate": "179166",
+          "probe_score": 51,
+          "tags": {
+            "major_brand": "dash",
+            "minor_version": "0",
+            "compatible_brands": "iso6mp41",
+            "encoder": "Lavf62.3.100"
+          }
+        }
+      },
+      "identity_verification": {
+        "director_supplied_assignment": "PASS",
+        "filename_video_id": "PASS",
+        "duration_consistent_with_observed_youtube": "PASS",
+        "independent_audio_fingerprint_or_listening": "NOT_PERFORMED"
+      }
+    },
+    {
+      "track_id": "B",
+      "title": "Herbal Tea",
+      "artist": "Artificial.Music",
+      "director_url": "https://www.youtube.com/watch?v=6ukEy6FOxZE&list=PLfP6i5T0-DkIMLNRwmJpRBs4PJvxfgwBg&index=6",
+      "official_source_page": "https://breakingcopyright.com/song/artificialmusic-herbal-tea",
+      "official_audio_url": "https://files.breakingcopyright.com/song/artificialmusic-herbal-tea.mp3",
+      "source_filename": "B-director-supplied.mp3",
+      "source_sha256": "d2685ec597c6fbefe73afcf134827b8692d5a12730787cf5f692c04aa54a3e80",
+      "stated_license": "Creative Commons Attribution 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "youtube_use": "Explicitly allowed with credits",
+      "commercial_use": "Not independently reviewed beyond stated per-track license",
+      "editing_permission": "CC BY 3.0 stated; governing license text not independently retrieved this run",
+      "attribution_required": true,
+      "required_credit_text": "Song: Herbal Tea\nComposer: Artificial.Music\nWebsite: https://www.youtube.com/channel/UCC49uNuUk7pY77NoVMlNYDA\nLicense: Creative Commons (BY 3.0) https://creativecommons.org/licenses/by/3.0/\nMusic powered by BreakingCopyright: https://breakingcopyright.com",
+      "content_id": "Registration in copyright detection systems prohibited. No no-claim/no-Content-ID guarantee established.",
+      "restrictions": [
+        "Attribution required",
+        "Do not claim authorship or register original track in copyright detection systems"
+      ],
+      "verified_at": "2026-10-05T03:10:06.828948+00:00",
+      "evidence_path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/B-verified-source.json",
+      "acquisition_status": "PASS_DIRECTOR_SUPPLIED_LOCAL_ASSET",
+      "http_status": 403,
+      "source_path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/sources/B-director-supplied.mp3",
+      "director_supplied_original_path": "/Users/quyth/Downloads/YTSave_YouTube_Media_6ukEy6FOxZE_Non-Copyrighted-Music-SmartToaster-Herbal-Tea-Lo-fi_008_128k.mp3",
+      "production_asset_origin": "Director manually supplied local file; not an official publisher download",
+      "audio_metadata": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "mp3",
+            "codec_long_name": "MP3 (MPEG audio layer 3)",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "mime_codec_string": "mp4a.40.34",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/14112000",
+            "start_pts": 353600,
+            "start_time": "0.025057",
+            "duration_ts": 2607677440,
+            "duration": "184.784399",
+            "bit_rate": "166874",
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "encoder": "Lavc62.28"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/sources/B-director-supplied.mp3",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mp3",
+          "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+          "start_time": "0.025057",
+          "duration": "184.784399",
+          "size": "3855269",
+          "bit_rate": "166908",
+          "probe_score": 51,
+          "tags": {
+            "major_brand": "dash",
+            "minor_version": "0",
+            "compatible_brands": "iso6mp41",
+            "encoder": "Lavf62.12.100"
+          }
+        }
+      },
+      "identity_verification": {
+        "director_supplied_assignment": "PASS",
+        "filename_video_id": "PASS",
+        "duration_consistent_with_observed_youtube": "PASS",
+        "independent_audio_fingerprint_or_listening": "NOT_PERFORMED"
+      }
+    },
+    {
+      "track_id": "C",
+      "title": "Way Home",
+      "artist": "Tokyo Music Walker",
+      "director_url": "https://www.youtube.com/watch?v=Q7HjxOAU5Kc&list=PLfP6i5T0-DkIMLNRwmJpRBs4PJvxfgwBg&index=7",
+      "official_source_page": "https://breakingcopyright.com/song/tokyo-music-walker-way-home",
+      "official_audio_url": "https://files.breakingcopyright.com/song/tokyo-music-walker-way-home.mp3",
+      "source_filename": "C-director-supplied.mp3",
+      "source_sha256": "dc5daba50f889602e26207c1cc3ddb22e5f6b5d352235621f6e9c445f07caf5d",
+      "stated_license": "YouTube Free license",
+      "license_url": null,
+      "youtube_use": "Explicitly allowed with credits",
+      "commercial_use": "Not independently reviewed beyond stated per-track license",
+      "editing_permission": "Not separately stated in inspected YouTube-specific terms",
+      "attribution_required": true,
+      "required_credit_text": "Song: Way Home\nComposer: Tokyo Music Walker\nWebsite: https://www.youtube.com/channel/UC3lLfvhpPGtwd5qD25cMDcA\nLicense: Free To Use YouTube license youtube-free\nMusic powered by BreakingCopyright: https://breakingcopyright.com",
+      "content_id": "Registration in copyright detection systems prohibited. No no-claim/no-Content-ID guarantee established.",
+      "restrictions": [
+        "Attribution required",
+        "Do not claim authorship or register original track in copyright detection systems",
+        "Official per-track page requires artist contact for use outside YouTube"
+      ],
+      "verified_at": "2026-10-05T03:10:06.828948+00:00",
+      "evidence_path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/C-verified-source.json",
+      "acquisition_status": "PASS_DIRECTOR_SUPPLIED_LOCAL_ASSET",
+      "http_status": 403,
+      "source_path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/sources/C-director-supplied.mp3",
+      "director_supplied_original_path": "/Users/quyth/Downloads/YTSave_YouTube_Media_Q7HjxOAU5Kc_Copyright-Free-Chill-Background-Music-Way-Home-by-tokyowalker4038_009_128k.mp3",
+      "production_asset_origin": "Director manually supplied local file; not an official publisher download",
+      "audio_metadata": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "mp3",
+            "codec_long_name": "MP3 (MPEG audio layer 3)",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "mime_codec_string": "mp4a.40.34",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/14112000",
+            "start_pts": 353600,
+            "start_time": "0.025057",
+            "duration_ts": 3925934080,
+            "duration": "278.198277",
+            "bit_rate": "190715",
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "encoder": "Lavc62.28"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/sources/C-director-supplied.mp3",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mp3",
+          "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+          "start_time": "0.025057",
+          "duration": "278.198277",
+          "size": "6632976",
+          "bit_rate": "190740",
+          "probe_score": 51,
+          "tags": {
+            "major_brand": "dash",
+            "minor_version": "0",
+            "compatible_brands": "iso6mp41",
+            "encoder": "Lavf62.12.100"
+          }
+        }
+      },
+      "identity_verification": {
+        "director_supplied_assignment": "PASS",
+        "filename_video_id": "PASS",
+        "duration_consistent_with_observed_youtube": "PASS",
+        "independent_audio_fingerprint_or_listening": "NOT_PERFORMED"
+      }
+    }
+  ],
+  "final_mix_created": false,
+  "final_mux_created": false,
+  "actual_listening_qa": "NOT_PERFORMED; director listening input required before mux",
+  "scope": "Only isolated provenance/evidence output created; visual master and historical SFX outputs untouched",
+  "latest_retry": {
+    "time": "2026-10-05T03:15:20.440378+00:00",
+    "youtube_identities_rechecked": true,
+    "official_downloads": [
+      {
+        "track": "A",
+        "http_status": "403",
+        "error": "",
+        "bytes": 159,
+        "path": null,
+        "time": "2026-10-05T03:13:15.935131+00:00",
+        "error_body_path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/retry-A-403.html",
+        "audio_asset_acquired": false
+      },
+      {
+        "track": "B",
+        "http_status": "403",
+        "error": "",
+        "bytes": 159,
+        "path": null,
+        "time": "2026-10-05T03:13:15.848448+00:00",
+        "error_body_path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/retry-B-403.html",
+        "audio_asset_acquired": false
+      },
+      {
+        "track": "C",
+        "http_status": "403",
+        "error": "",
+        "bytes": 159,
+        "path": null,
+        "time": "2026-10-05T03:13:16.038314+00:00",
+        "error_body_path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/retry-C-403.html",
+        "audio_asset_acquired": false
+      }
+    ],
+    "browser_retry_A": "Official publisher player exposed same MP3 URL; browser download returned timeout with no file",
+    "conclusion": "OFFICIAL_AUDIO_ASSET_REQUIRED; error is HTTP 403 HTML, not MP3. No evidence of unavailable or invalid YouTube links."
+  },
+  "acquisition_authorization": "Director explicitly authorized these three supplied local files as production assets; no new downloads",
+  "updated_at": "2026-10-05T03:31:07.831758+00:00",
+  "asset_analysis": "Technical source analysis completed; listening still required",
+  "audio_review_candidate_created": true,
+  "candidate_wav": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/WF311613-lofi-mix-pass01.wav",
+  "candidate_wav_sha256": "ffc5725e8581d0803d574a4fc5e4f899c62d906c2796a121c279ae57f5530fac",
+  "candidate_preview": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/WF311613-lofi-mix-pass01-preview.m4a"
+}

@@ -1,0 +1,37 @@
+// New render orchestration only; the approved renderer/candidate remain frozen.
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import {spawn} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
+import {getProductPackage} from '../../../../src/products/registry.ts';
+
+const evidence=path.dirname(fileURLToPath(import.meta.url));
+const previous=path.resolve(evidence,'../final-micro-pass-visual-master-verification');
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
+const identity=read(path.join(previous,'pre-render-identity.json'));
+const frozen=read(path.join(previous,'frozen-source-hashes.json'));
+const sequential=read(path.join(previous,'sequential-pre-render-retry-01/sequential-report.json'));
+if(!sequential.valid)throw Error('Approved sequential verification not PASS');
+for(const [file,hash]of Object.entries(frozen.hashes))if(sha(fs.readFileSync(file))!==hash)throw Error('Frozen source changed: '+file);
+const entry=getProductPackage(identity.candidate);
+for(const [key,value]of [['productHash',entry.product],['materialHash',entry.product.materials],['assemblyHash',entry.assembly],['planSha256',entry.directorPlan],['videoSha256',entry.video],['camerasSha256',entry.video.cameraPresets]])if(sha(JSON.stringify(value))!==identity[key])throw Error('Approved identity mismatch: '+key);
+const duration=entry.video.scenes.reduce((n,s)=>n+s.duration,0);
+if(Math.abs(duration-524.053693888889)>1e-9)throw Error('Approved duration changed');
+const output=path.resolve(evidence,'../wf311613-final-micro-pass-review-720p.mp4');
+if(fs.existsSync(output)||fs.existsSync(path.join(evidence,'render-provenance.json')))throw Error('Refusing to overwrite existing review render/evidence');
+fs.writeFileSync(path.join(evidence,'pre-render-identity.json'),JSON.stringify(identity,null,2));
+const frames=fs.mkdtempSync(path.resolve('output/wf311613-standalone-murphy-bed/frames/wf311613-final-review-720p-fresh-'));
+const env={...process.env,PROJECT_ID:entry.id,RENDER_URL:'http://127.0.0.1:3016',OUTPUT_FILE:output,FRAMES_DIR:frames,OUTPUT_FPS:'30',OUTPUT_WIDTH:'1280',OUTPUT_HEIGHT:'720',START_TIME:'0',RESUME_FROM_FRAME:'0',FRAME_LIMIT:'Infinity'};
+delete env.CHECKPOINTS_DIR;
+const provenance={candidate:entry.id,startedAt:new Date().toISOString(),output,frames,frameSource:'NEW deterministic frames from t=0; no old MP4/PNG inputs',resumeFromFrame:0,expectedFrames:Math.ceil(duration*30),timelineDuration:duration,videoSha256:identity.videoSha256,planSha256:identity.planSha256,camerasSha256:identity.camerasSha256,renderer:'scripts/render-video.ts',rendererSha256:frozen.hashes['scripts/render-video.ts'],profile:{width:1280,height:720,fps:30,codec:'h264',pixelFormat:'yuv420p'},audio:false,approvedSequentialVerification:path.join(previous,'sequential-pre-render-retry-01/sequential-report.json')};
+fs.writeFileSync(path.join(evidence,'render-provenance.json'),JSON.stringify(provenance,null,2));
+console.log(JSON.stringify(provenance,null,2));
+const log=fs.openSync(path.join(evidence,'render.log'),'wx');
+const child=spawn(process.execPath,['--import','tsx','scripts/render-video.ts'],{env,stdio:['ignore',log,log]});
+const result=await new Promise(resolve=>{child.on('error',error=>resolve({code:1,signal:null,error:String(error)}));child.on('exit',(code,signal)=>resolve({code,signal}));});
+fs.closeSync(log);
+fs.writeFileSync(path.join(evidence,'render-exit.json'),JSON.stringify({...result,endedAt:new Date().toISOString()},null,2));
+console.log(JSON.stringify(result));
+process.exitCode=result.code??1;

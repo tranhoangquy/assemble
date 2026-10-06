@@ -1,0 +1,14 @@
+{"at":"2026-10-05T09:24:16.292Z","status":"preparing","message":"Preparing generation and validating saved work…","validFrames":0,"retries":0}
+{"at":"2026-10-05T09:24:16.298Z","status":"rendering","message":"Rendering missing or invalid frames…","validFrames":0,"retries":0}
+{"at":"2026-10-05T09:24:16.302Z","status":"rendering","message":"Rendering work chunk 1 of 2…","validFrames":0,"retries":0}
+{"at":"2026-10-05T09:24:26.616Z","status":"cancelled","message":"Generation cancelled. Valid frames kept.","validFrames":1,"retries":0,"lastError":"__EXPORT_CANCELLED__"}
+{"at":"2026-10-05T09:24:26.631Z","status":"cancelled","message":"Generation cancelled. Checkpoint and valid frames kept.","validFrames":1,"retries":0,"lastError":"__EXPORT_CANCELLED__"}
+{"at":"2026-10-05T09:24:50.149Z","status":"queued","message":"Resume queued. Existing frames will be validated.","validFrames":1,"retries":0,"lastError":"__EXPORT_CANCELLED__"}
+{"at":"2026-10-05T09:24:50.163Z","status":"preparing","message":"Preparing generation and validating saved work…","validFrames":1,"retries":0,"lastError":"__EXPORT_CANCELLED__"}
+{"at":"2026-10-05T09:24:50.178Z","status":"rendering","message":"Rendering missing or invalid frames…","validFrames":1,"retries":0,"lastError":"__EXPORT_CANCELLED__"}
+{"at":"2026-10-05T09:24:50.186Z","status":"rendering","message":"Rendering work chunk 1 of 2…","validFrames":1,"retries":0,"lastError":"__EXPORT_CANCELLED__"}
+{"at":"2026-10-05T09:25:00.897Z","status":"rendering","message":"Rendering work chunk 2 of 2…","validFrames":2,"retries":0,"lastError":"__EXPORT_CANCELLED__"}
+{"at":"2026-10-05T09:25:11.653Z","status":"validating_frames","message":"Validating the complete frame sequence…","validFrames":4,"retries":0,"lastError":"__EXPORT_CANCELLED__"}
+{"at":"2026-10-05T09:25:11.679Z","status":"encoding","message":"Encoding validated frames…","validFrames":4,"retries":0,"lastError":"__EXPORT_CANCELLED__"}
+{"at":"2026-10-05T09:25:11.839Z","status":"verifying","message":"Verifying final video…","validFrames":4,"retries":0,"lastError":"__EXPORT_CANCELLED__"}
+{"at":"2026-10-05T09:25:12.003Z","status":"completed","message":"Generation complete. Ready to download.","validFrames":4,"retries":0,"lastError":"__EXPORT_CANCELLED__"}

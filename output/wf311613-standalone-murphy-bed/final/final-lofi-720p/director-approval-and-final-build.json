@@ -1,0 +1,29 @@
+{
+  "status": "DIRECTOR_APPROVED_FINAL_MUX_COMPLETE",
+  "source_approval_package": "/Users/quyth/.codex/attachments/90bc9e8b-1914-46c4-a4c7-284285d2808e/Pasted text.txt",
+  "director_listening": {
+    "complete_Pass02": "PASS",
+    "AB": "PASS_LOCKED",
+    "BC": "PASS_LOCKED",
+    "ending": "PASS_LOCKED",
+    "voice_spoken_content": "PASS_FOR_DIRECTOR_REVIEW_NO_OBJECTIONABLE_CONTENT_IDENTIFIED"
+  },
+  "audio_master": {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/WF311613-lofi-mix-pass02.wav",
+    "sha256": "75b282e6e55a65923b00c152099f47e194b66c007f2e8053ccf6b9ec66690b2b",
+    "identity": "PASS"
+  },
+  "visual_master": {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/director-approved-full-720p-20261004/WF311613-director-approved-full-720p.mp4",
+    "sha256": "0d5d898cbfaecb4573f07e818ce722c6884cbd4dc67d7c51b7c6c724f404ba0a",
+    "identity": "PASS"
+  },
+  "final_MP4": {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/WF311613-final-lofi-720p.mp4",
+    "sha256": "c42767184db43ce794aa165e9b60c6762c6551829833ed2f7ba60c7fdb42d457",
+    "size_bytes": 47279961,
+    "duration": "524.066667"
+  },
+  "original_provenance_preserved": "Copied byte-identically; historical pending-listening status superseded by this director approval record",
+  "created_at": "2026-10-05T04:42:33.309943+00:00"
+}

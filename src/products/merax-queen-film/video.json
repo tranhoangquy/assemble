@@ -1,0 +1,270 @@
+{
+  "id": "merax-queen-new-assembly-film",
+  "title": "Merax Queen Murphy Bed — 16-Scene Assembly Film",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "background": "#efede7",
+  "quickActions": [
+    { "id": "play-new-film", "label": "Play new 16-scene film", "sceneId": "function-preview", "primary": true },
+    { "id": "start-assembly", "label": "Start assembly", "sceneId": "base-uprights" },
+    { "id": "mechanism-test", "label": "Mechanism test", "sceneId": "motion-validation" }
+  ],
+  "cameraPresets": {
+    "room-closed": { "position": [335,180,410], "target": [0,105,35], "fov": 36 },
+    "room-open": { "position": [335,165,430], "target": [10,65,100], "fov": 38 },
+    "exploded-wide": { "position": [390,270,500], "target": [0,108,35], "fov": 40 },
+    "parts-top": { "position": [0,480,220], "target": [0,90,35], "fov": 39 },
+    "base-wide": { "position": [385,225,515], "target": [0,105,0], "fov": 38 },
+    "base-close": { "position": [210,72,255], "target": [18,16,16], "fov": 29 },
+    "bookcase-wide": { "position": [-365,205,430], "target": [-82,108,0], "fov": 34 },
+    "cabinet-upper": { "position": [265,250,330], "target": [0,165,0], "fov": 32 },
+    "anchor-rear": { "position": [260,255,-320], "target": [0,185,-8], "fov": 32 },
+    "bed-top": { "position": [275,320,500], "target": [31,45,190], "fov": 36 },
+    "bed-detail": { "position": [220,165,425], "target": [31,20,145], "fov": 31 },
+    "foot-detail": { "position": [210,92,330], "target": [31,22,235], "fov": 28 },
+    "left-pivot": { "position": [-2,52,72], "target": [-48,19,8], "fov": 22 },
+    "right-pivot": { "position": [68,52,72], "target": [111,19,8], "fov": 22 },
+    "left-pivot-rear": { "position": [-108,48,70], "target": [-52,18,7], "fov": 22 },
+    "right-pivot-rear": { "position": [171,48,70], "target": [115,18,7], "fov": 22 },
+    "mate-wide": { "position": [300,160,455], "target": [31,82,105], "fov": 36 },
+    "assist-left": { "position": [8,82,78], "target": [-43,48,7], "fov": 22 },
+    "assist-right": { "position": [56,82,78], "target": [106,48,7], "fov": 22 },
+    "mattress-open": { "position": [265,210,405], "target": [31,35,132], "fov": 34 },
+    "face-front": { "position": [0,125,430], "target": [0,110,8], "fov": 31 },
+    "final-orbit": { "position": [-335,215,405], "target": [0,108,8], "fov": 35 }
+  },
+  "scenes": [
+    {
+      "id": "function-preview",
+      "title": "Merax Queen Murphy Bed",
+      "subtitle": "Adjustable side storage · dual-piston fold-away system",
+      "step": "FUNCTION PREVIEW",
+      "duration": 10,
+      "camera": "room-closed",
+      "callouts": ["94.2 in overall width", "88.5 in overall height", "15.7 in closed depth"],
+      "actions": [
+        { "type": "rotate", "target": "bed_pivot", "axis": "x", "from": 0, "to": 90, "unit": "deg", "at": 1.6, "duration": 3.2, "ease": "power2.inOut" },
+        { "type": "rotate", "target": "left_leg_pivot", "axis": "x", "from": 0, "to": -90, "unit": "deg", "at": 2.1, "duration": 2.7 },
+        { "type": "rotate", "target": "right_leg_pivot", "axis": "x", "from": 0, "to": -90, "unit": "deg", "at": 2.1, "duration": 2.7 },
+        { "type": "camera", "from": "room-closed", "to": "room-open", "at": 1.4, "duration": 3.5 },
+        { "type": "rotate", "target": "bed_pivot", "axis": "x", "from": 90, "to": 0, "unit": "deg", "at": 6, "duration": 3 },
+        { "type": "rotate", "target": "left_leg_pivot", "axis": "x", "from": -90, "to": 0, "unit": "deg", "at": 6, "duration": 2.5 },
+        { "type": "rotate", "target": "right_leg_pivot", "axis": "x", "from": -90, "to": 0, "unit": "deg", "at": 6, "duration": 2.5 },
+        { "type": "camera", "from": "room-open", "to": "room-closed", "at": 6, "duration": 3 }
+      ]
+    },
+    {
+      "id": "exploded-systems",
+      "title": "Four Functional Systems",
+      "subtitle": "Cabinet · side storage · bed platform · lift mechanism",
+      "step": "PRODUCT OVERVIEW",
+      "duration": 7,
+      "camera": "exploded-wide",
+      "callouts": ["83 separate modeled objects", "No monolithic bed object", "Image-based reconstruction"],
+      "actions": [
+        { "type": "explode", "amount": 1, "at": 0.5, "duration": 2.2 },
+        { "type": "camera", "from": "exploded-wide", "to": "parts-top", "at": 2.8, "duration": 3.2 }
+      ]
+    },
+    {
+      "id": "parts-identification",
+      "title": "Panels, Rails and Hardware",
+      "subtitle": "Large structural parts first; hardware follows its host part",
+      "step": "PARTS IDENTIFICATION",
+      "duration": 8,
+      "camera": "parts-top",
+      "callouts": ["Fixed cabinet and five-level storage", "Moving Queen platform", "Pivot, legs and dual assist bars"],
+      "actions": [
+        { "type": "explode", "amount": 0.68, "at": 0.2, "duration": 1.5 },
+        { "type": "camera", "from": "parts-top", "to": "exploded-wide", "at": 1, "duration": 4.8 },
+        { "type": "explode", "amount": 0, "at": 5.7, "duration": 1.8 }
+      ]
+    },
+    {
+      "id": "base-uprights",
+      "title": "Base and Vertical Uprights",
+      "subtitle": "Establish the fixed cabinet geometry before tightening",
+      "step": "STEP 01 · ESTIMATED",
+      "duration": 17,
+      "camera": "base-wide",
+      "assemblyStep": "base-and-uprights",
+      "partIntro": { "label": "structural cabinet parts", "count": 4, "hardware": "3 × representative base screws", "duration": 2 },
+      "completionAt": 13.2,
+      "actions": [{ "type": "camera", "from": "base-wide", "to": "base-close", "at": 8, "duration": 1 }]
+    },
+    {
+      "id": "side-storage",
+      "title": "Build the Side Storage",
+      "subtitle": "Back panel, bottom shelf and four adjustable shelves",
+      "step": "STEP 02 · ESTIMATED",
+      "duration": 16,
+      "camera": "bookcase-wide",
+      "assemblyStep": "bookcase",
+      "partIntro": { "label": "side-storage components", "count": 6, "hardware": "4 × representative shelf dowels", "duration": 2 },
+      "completionAt": 13.5,
+      "actions": []
+    },
+    {
+      "id": "fixed-cabinet",
+      "title": "Complete the Fixed Cabinet",
+      "subtitle": "Rear brace, crossbars, header and full-width top cap",
+      "step": "STEP 03 · ESTIMATED",
+      "duration": 17,
+      "camera": "cabinet-upper",
+      "assemblyStep": "upper-structure",
+      "partIntro": { "label": "upper cabinet components", "count": 9, "hardware": "3 × representative top screws", "duration": 2 },
+      "completionAt": 14.2,
+      "actions": []
+    },
+    {
+      "id": "wall-anchor",
+      "title": "Anchor Cabinet to Structure",
+      "subtitle": "Use the official manual and fasten into structural framing",
+      "step": "SAFETY STEP",
+      "duration": 8,
+      "camera": "anchor-rear",
+      "callouts": ["Anchor hardware varies by wall type", "Do not operate an unsecured wall bed", "Verify level and square"],
+      "actions": [
+        { "type": "highlight", "target": "top_cap", "color": "#ef6f3d", "at": 0.6, "duration": 5.6 },
+        { "type": "highlight", "target": "left_outer_post", "color": "#ef6f3d", "at": 1, "duration": 4.8 },
+        { "type": "highlight", "target": "right_post", "color": "#ef6f3d", "at": 1, "duration": 4.8 }
+      ]
+    },
+    {
+      "id": "bed-perimeter",
+      "title": "Assemble the Bed Perimeter",
+      "subtitle": "Four rails plus a longitudinal center support",
+      "step": "STEP 04 · ESTIMATED",
+      "duration": 15,
+      "camera": "bed-top",
+      "assemblyStep": "bed-frame",
+      "partIntro": { "label": "bed-frame rails", "count": 5, "duration": 2 },
+      "completionAt": 11.8,
+      "actions": [
+        { "type": "move", "target": "bed_pivot", "to": [31.5,18,50], "at": 0.05, "duration": 0.01 },
+        { "type": "rotate", "target": "bed_pivot", "axis": "x", "from": 0, "to": 90, "unit": "deg", "at": 0.05, "duration": 0.01 },
+        { "type": "camera", "from": "bed-top", "to": "bed-detail", "at": 9.5, "duration": 1.2 }
+      ]
+    },
+    {
+      "id": "deck-slats",
+      "title": "Install Cross Slats and Deck",
+      "subtitle": "Five horizontal supports first, then the two large panels",
+      "step": "STEP 05 · ESTIMATED",
+      "duration": 13,
+      "camera": "bed-detail",
+      "assemblyStep": "bed-deck",
+      "partIntro": { "label": "cross supports and deck panels", "count": 7, "duration": 2 },
+      "completionAt": 10.2,
+      "actions": [{ "type": "camera", "from": "bed-detail", "to": "bed-top", "at": 8.8, "duration": 1.2 }]
+    },
+    {
+      "id": "folding-legs",
+      "title": "Install the Folding Legs",
+      "subtitle": "Fit both feet and verify the independent hinge travel",
+      "step": "STEP 06 · ESTIMATED",
+      "duration": 11,
+      "camera": "foot-detail",
+      "assemblyStep": "folding-legs",
+      "partIntro": { "label": "folding leg sets", "count": 2, "hardware": "2 × representative pivot bolts", "duration": 2 },
+      "completionAt": 9.2,
+      "actions": []
+    },
+    {
+      "id": "pivot-hardware",
+      "title": "Install Both Pivot Sets",
+      "subtitle": "Insert each bolt inside, then secure its hex locknut from the opposite face",
+      "step": "STEP 07 · TWO-SIDED CLOSE-UP",
+      "duration": 15,
+      "camera": "left-pivot",
+      "assemblyStep": "pivot-hardware",
+      "partIntro": { "label": "pivot bracket sets", "count": 2, "hardware": "screws + washers + bolts + locknuts", "duration": 1.5 },
+      "completionAt": 13.1,
+      "actions": [
+        { "type": "camera", "from": "left-pivot", "to": "left-pivot-rear", "at": 5.05, "duration": 0.4 },
+        { "type": "camera", "from": "left-pivot-rear", "to": "right-pivot", "at": 6.2, "duration": 0.7 },
+        { "type": "camera", "from": "right-pivot", "to": "right-pivot-rear", "at": 11.3, "duration": 0.4 }
+      ]
+    },
+    {
+      "id": "mate-platform",
+      "title": "Mate Platform to Cabinet",
+      "subtitle": "Stand the moving frame upright and seat both pivot points",
+      "step": "STEP 08 · FRAME CONNECTION",
+      "duration": 12,
+      "camera": "mate-wide",
+      "completionAt": 10.2,
+      "callouts": ["1 · Stand platform upright", "2 · Align both pivot axes", "3 · Seat the moving frame"],
+      "actions": [
+        { "type": "focus", "targets": ["bed_left_rail","bed_right_rail","bed_head_rail","bed_foot_rail","bed_center_rail","deck_left","deck_right","slat_1","slat_2","slat_3","slat_4","slat_5","left_leg","left_foot","right_leg","right_foot"], "related": ["shelf_divider","right_post"], "at": 0.2, "duration": 0.35 },
+        { "type": "rotate", "target": "bed_pivot", "axis": "x", "from": 90, "to": 0, "unit": "deg", "at": 1, "duration": 3.2 },
+        { "type": "move", "target": "bed_pivot", "from": [31.5,18,50], "to": [31.5,18,7], "at": 4.4, "duration": 3 },
+        { "type": "clearFocus", "at": 7.8, "duration": 0.4 }
+      ]
+    },
+    {
+      "id": "dual-pistons",
+      "title": "Install the Dual Pistons",
+      "subtitle": "Mount each assist assembly against the inner cabinet side",
+      "step": "STEP 09 · ESTIMATED",
+      "duration": 11,
+      "camera": "assist-left",
+      "assemblyStep": "assist-mechanism",
+      "partIntro": { "label": "assist components", "count": 4, "duration": 1.7 },
+      "completionAt": 8.3,
+      "callouts": ["Do not infer piston preload", "Follow official orientation markings"],
+      "actions": [{ "type": "camera", "from": "assist-left", "to": "assist-right", "at": 3.2, "duration": 0.8 }]
+    },
+    {
+      "id": "cabinet-face",
+      "title": "Build the Cabinet Face",
+      "subtitle": "Six panels, perimeter framing, mullions and two handles",
+      "step": "STEP 10 · ESTIMATED",
+      "duration": 14,
+      "camera": "face-front",
+      "assemblyStep": "front-face",
+      "partIntro": { "label": "facade components", "count": 15, "duration": 1.6 },
+      "completionAt": 12,
+      "actions": []
+    },
+    {
+      "id": "motion-validation",
+      "title": "Lower the Bed and Install Mattress",
+      "subtitle": "Deploy both feet, verify clearance, then place the mattress flat",
+      "step": "MECHANISM TEST + MATTRESS",
+      "duration": 10,
+      "camera": "room-open",
+      "assemblyStep": "mattress-final",
+      "completionAt": 7,
+      "callouts": ["90° platform travel", "Both feet contact the floor", "Install mattress while bed is horizontal"],
+      "actions": [
+        { "type": "rotate", "target": "bed_pivot", "axis": "x", "from": 0, "to": 90, "unit": "deg", "at": 0.8, "duration": 3.5 },
+        { "type": "rotate", "target": "left_leg_pivot", "axis": "x", "from": 0, "to": -90, "unit": "deg", "at": 1.2, "duration": 3.1 },
+        { "type": "rotate", "target": "right_leg_pivot", "axis": "x", "from": 0, "to": -90, "unit": "deg", "at": 1.2, "duration": 3.1 },
+        { "type": "camera", "from": "room-open", "to": "mattress-open", "at": 4.1, "duration": 0.8 }
+      ]
+    },
+    {
+      "id": "mattress-final",
+      "title": "Final Open and Close Demonstration",
+      "subtitle": "Queen mattress · maximum 8 inch thickness",
+      "step": "FINAL CHECK",
+      "duration": 11,
+      "camera": "room-open",
+      "completionAt": 9.5,
+      "callouts": ["One complete open cycle", "One complete close cycle", "Consult the official manual before installation"],
+      "actions": [
+        { "type": "rotate", "target": "bed_pivot", "axis": "x", "from": 90, "to": 0, "unit": "deg", "at": 0.8, "duration": 2.8 },
+        { "type": "rotate", "target": "left_leg_pivot", "axis": "x", "from": -90, "to": 0, "unit": "deg", "at": 0.8, "duration": 2.4 },
+        { "type": "rotate", "target": "right_leg_pivot", "axis": "x", "from": -90, "to": 0, "unit": "deg", "at": 0.8, "duration": 2.4 },
+        { "type": "camera", "from": "room-open", "to": "room-closed", "at": 0.7, "duration": 3 },
+        { "type": "rotate", "target": "bed_pivot", "axis": "x", "from": 0, "to": 90, "unit": "deg", "at": 5.1, "duration": 2.8 },
+        { "type": "rotate", "target": "left_leg_pivot", "axis": "x", "from": 0, "to": -90, "unit": "deg", "at": 5.4, "duration": 2.4 },
+        { "type": "rotate", "target": "right_leg_pivot", "axis": "x", "from": 0, "to": -90, "unit": "deg", "at": 5.4, "duration": 2.4 },
+        { "type": "camera", "from": "room-closed", "to": "final-orbit", "at": 5, "duration": 3.2 }
+      ]
+    }
+  ],
+  "audio": { "voiceover": null, "music": null }
+}

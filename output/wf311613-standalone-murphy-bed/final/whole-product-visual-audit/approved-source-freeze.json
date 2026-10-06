@@ -1,0 +1,95 @@
+{
+  "files": {
+    "src/lib/format-duration.ts": {
+      "approvedSHA256": "982c975140d13623a0b3c34f1f51ee5c93a2b24aaca490bdfbe3f7abcfbf1597",
+      "currentSHA256": "982c975140d13623a0b3c34f1f51ee5c93a2b24aaca490bdfbe3f7abcfbf1597"
+    },
+    "src/products/registry.ts": {
+      "approvedSHA256": "5a8cefe5e59793e222ce4eca1b2267a9dbeefe3fa3f2c160818acd3c50b600e0",
+      "currentSHA256": "5a8cefe5e59793e222ce4eca1b2267a9dbeefe3fa3f2c160818acd3c50b600e0"
+    },
+    "src/app/page.tsx": {
+      "approvedSHA256": "8e5f43b4111449bab9bd7044722861a24410d36a445d21bd37902cd0b07c63df",
+      "currentSHA256": "8e5f43b4111449bab9bd7044722861a24410d36a445d21bd37902cd0b07c63df"
+    },
+    "src/components/product/ProductWorkspace.tsx": {
+      "approvedSHA256": "3db7e6f940bcfcd22de32c2ac13a54a6185412a9baf8d75fbc75dba7c8d32b25",
+      "currentSHA256": "3db7e6f940bcfcd22de32c2ac13a54a6185412a9baf8d75fbc75dba7c8d32b25"
+    },
+    "src/components/viewer/ProductViewer.tsx": {
+      "approvedSHA256": "a24236f4bcccb2a8df16588818b7bf4cb71160cf01fdf309a65076e6abe3303a",
+      "currentSHA256": "a24236f4bcccb2a8df16588818b7bf4cb71160cf01fdf309a65076e6abe3303a"
+    },
+    "src/components/ui/ControlPanel.tsx": {
+      "approvedSHA256": "c6faf93f1355df178f2aae0a7b42993bb81c1258b6400f7552af17f50bf75f61",
+      "currentSHA256": "c6faf93f1355df178f2aae0a7b42993bb81c1258b6400f7552af17f50bf75f61"
+    },
+    "src/components/ui/ScenePanel.tsx": {
+      "approvedSHA256": "ac332c2a37e01aeb4548b2e51de67810f6bfeaceea7b8c1e1d4865a9fa2a5b1a",
+      "currentSHA256": "ac332c2a37e01aeb4548b2e51de67810f6bfeaceea7b8c1e1d4865a9fa2a5b1a"
+    },
+    "src/components/timeline/TimelineControls.tsx": {
+      "approvedSHA256": "b8d8dc8531bef026b42c40294802d29e752a98079b828ced1659302fa584ecf1",
+      "currentSHA256": "b8d8dc8531bef026b42c40294802d29e752a98079b828ced1659302fa584ecf1"
+    },
+    "src/components/export/ExportVideoModal.tsx": {
+      "approvedSHA256": "d7e4f9038ed2bb055277e773bcb8d2df9c2bbf1bef1e8972f69a18d93b8199e9",
+      "currentSHA256": "d7e4f9038ed2bb055277e773bcb8d2df9c2bbf1bef1e8972f69a18d93b8199e9"
+    },
+    "src/components/ui/production-ui.test.tsx": {
+      "approvedSHA256": "870f1e07c5c440e3f907c1dfd5bc8dce3c329aa88bec1e3f438dcc20cdbd8721",
+      "currentSHA256": "870f1e07c5c440e3f907c1dfd5bc8dce3c329aa88bec1e3f438dcc20cdbd8721"
+    },
+    "src/products/production-selection.test.ts": {
+      "approvedSHA256": "823db992d6fc3995e894cc0bca6b30a82902e0e721b0808b18802a0ebc9b0400",
+      "currentSHA256": "823db992d6fc3995e894cc0bca6b30a82902e0e721b0808b18802a0ebc9b0400"
+    },
+    "src/products/wf311613-standalone-murphy-bed/product/parts-step21-31.ts": {
+      "approvedSHA256": "2a2d2493d3e37b42406e229c83cf43c65639647655de70b07eda8be13fe3a9e2",
+      "currentSHA256": "2a2d2493d3e37b42406e229c83cf43c65639647655de70b07eda8be13fe3a9e2"
+    },
+    "src/products/wf311613-standalone-murphy-bed/product/fit-hole-correction.ts": {
+      "approvedSHA256": "ccf7259ff8c57017f5b35cde143357b3ab20425d4f654d012ce244cad39325bb",
+      "currentSHA256": "ccf7259ff8c57017f5b35cde143357b3ab20425d4f654d012ce244cad39325bb"
+    },
+    "src/products/wf311613-standalone-murphy-bed/validation/product-fit-audit.ts": {
+      "approvedSHA256": "ee1bdca9546a0912750f2b3c285925615c31c97926ecfcd558ed831c2395a75c",
+      "currentSHA256": "ee1bdca9546a0912750f2b3c285925615c31c97926ecfcd558ed831c2395a75c"
+    },
+    "src/products/wf311613-standalone-murphy-bed/validation/product-hole-audit.ts": {
+      "approvedSHA256": "14937f39a0e12a2737fe137250252d44f81c6b580c3b0f27d24b9885604db8fe",
+      "currentSHA256": "14937f39a0e12a2737fe137250252d44f81c6b580c3b0f27d24b9885604db8fe"
+    },
+    "src/products/wf311613-standalone-murphy-bed/validation/run-polish02-gates.ts": {
+      "approvedSHA256": "fdac523d3c5952e59ca8b728d5b0a0942c39c7ee2a2b950fdf9d536dc22d810b",
+      "currentSHA256": "fdac523d3c5952e59ca8b728d5b0a0942c39c7ee2a2b950fdf9d536dc22d810b"
+    },
+    "src/products/wf311613-standalone-murphy-bed/tests/product-fit-hole-audit.test.ts": {
+      "approvedSHA256": "c3e5f6be5ece5381532f6052982397cb80946c7d3c3b4209572ef70d477606c2",
+      "currentSHA256": "c3e5f6be5ece5381532f6052982397cb80946c7d3c3b4209572ef70d477606c2"
+    },
+    "src/products/wf311613-standalone-murphy-bed/tests/mechanism-locks.test.ts": {
+      "approvedSHA256": "865efd2b24b02bfb98a062e5a9b70179fa163486286c33bc75ec8fd1817c0225",
+      "currentSHA256": "865efd2b24b02bfb98a062e5a9b70179fa163486286c33bc75ec8fd1817c0225"
+    },
+    "src/products/wf311613-standalone-murphy-bed/tests/polish-pass01.test.ts": {
+      "approvedSHA256": "2d01d55bab8b43a865453033d4b9ca7cf91fda084ecaafdff355d7b80cd4747f",
+      "currentSHA256": "2d01d55bab8b43a865453033d4b9ca7cf91fda084ecaafdff355d7b80cd4747f"
+    },
+    "src/products/wf311613-standalone-murphy-bed/tests/polish-pass02.test.ts": {
+      "approvedSHA256": "63a82670fdcc93e560ec84d20006963a22069e7676a37e30af646f06e3a36ef2",
+      "currentSHA256": "63a82670fdcc93e560ec84d20006963a22069e7676a37e30af646f06e3a36ef2"
+    },
+    "src/products/wf311613-standalone-murphy-bed/tests/polish-pass02b.test.ts": {
+      "approvedSHA256": "3ffb9687275747594e39058dbb955ab7c41338da66142bbfbbd015b119741643",
+      "currentSHA256": "3ffb9687275747594e39058dbb955ab7c41338da66142bbfbbd015b119741643"
+    },
+    "src/products/wf311613-standalone-murphy-bed/tests/final-micro-pass.test.ts": {
+      "approvedSHA256": "d6cbcb6a60b16fe19972ae8e793b7a36a9e368857c4cb07854683c3b9068cd70",
+      "currentSHA256": "d6cbcb6a60b16fe19972ae8e793b7a36a9e368857c4cb07854683c3b9068cd70"
+    }
+  },
+  "sourceFilesChangedThisGate": [],
+  "allApprovedFilesUnchanged": true,
+  "rendererUnchanged": true
+}

@@ -1,0 +1,422 @@
+{
+  "candidate": "wf311613-final-micro-pass",
+  "retry": 1,
+  "valid": true,
+  "results": {
+    "sourceDataIdentity": true,
+    "mechanicalGates": true,
+    "finalMicroValidation": true,
+    "presentationChecker": true,
+    "typecheck": true,
+    "lint": true,
+    "fullTests": true,
+    "productionBuild": true,
+    "sourceAfter": true,
+    "historyAfter": true,
+    "vitestConfigUnchanged": true,
+    "noRenderOutput": true,
+    "sequentialNoOverlap": true
+  },
+  "executionOrder": [
+    {
+      "name": "1 frozen source/data identity",
+      "command": [
+        "/Users/quyth/.nvm/versions/node/v20.19.6/bin/node",
+        "--import",
+        "tsx",
+        "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/check-frozen-identity.mjs",
+        "before"
+      ],
+      "log": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/identity.log",
+      "startedAt": "2026-10-03T17:41:29.622Z",
+      "status": "PASS",
+      "code": 0,
+      "signal": null,
+      "elapsedMs": 262,
+      "endedAt": "2026-10-03T17:41:29.884Z"
+    },
+    {
+      "name": "2 native approved mechanical gates",
+      "command": [
+        "/Users/quyth/.nvm/versions/node/v20.19.6/bin/node",
+        "--import",
+        "tsx",
+        "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/run-approved-gate.mjs",
+        "mechanical"
+      ],
+      "log": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/gates.log",
+      "startedAt": "2026-10-03T17:41:29.884Z",
+      "status": "PASS",
+      "code": 0,
+      "signal": null,
+      "elapsedMs": 342483,
+      "endedAt": "2026-10-03T17:47:12.367Z"
+    },
+    {
+      "name": "3 native final-micro-pass validation",
+      "command": [
+        "/Users/quyth/.nvm/versions/node/v20.19.6/bin/node",
+        "--import",
+        "tsx",
+        "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/run-approved-gate.mjs",
+        "micro"
+      ],
+      "log": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/micro-native.log",
+      "startedAt": "2026-10-03T17:47:12.368Z",
+      "status": "PASS",
+      "code": 0,
+      "signal": null,
+      "elapsedMs": 13381,
+      "endedAt": "2026-10-03T17:47:25.749Z"
+    },
+    {
+      "name": "4 Polish 02B presentation checker",
+      "command": [
+        "/Users/quyth/.nvm/versions/node/v20.19.6/bin/node",
+        "--import",
+        "tsx",
+        "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/run-approved-gate.mjs",
+        "props"
+      ],
+      "log": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/props.log",
+      "startedAt": "2026-10-03T17:47:25.750Z",
+      "status": "PASS",
+      "code": 0,
+      "signal": null,
+      "elapsedMs": 14103,
+      "endedAt": "2026-10-03T17:47:39.853Z"
+    },
+    {
+      "name": "5 typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "log": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/typecheck.log",
+      "startedAt": "2026-10-03T17:47:39.853Z",
+      "status": "PASS",
+      "code": 0,
+      "signal": null,
+      "elapsedMs": 1683,
+      "endedAt": "2026-10-03T17:47:41.536Z"
+    },
+    {
+      "name": "6 application-source lint",
+      "command": [
+        "npm",
+        "run",
+        "lint",
+        "--",
+        "--ignore-pattern",
+        "output/**"
+      ],
+      "log": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/lint.log",
+      "startedAt": "2026-10-03T17:47:41.536Z",
+      "status": "PASS",
+      "code": 0,
+      "signal": null,
+      "elapsedMs": 3489,
+      "endedAt": "2026-10-03T17:47:45.025Z"
+    },
+    {
+      "name": "7 complete test suite",
+      "command": [
+        "npm",
+        "run",
+        "test",
+        "--",
+        "--reporter=default",
+        "--reporter=json",
+        "--outputFile.json=/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/tests-results.json"
+      ],
+      "log": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/tests.log",
+      "startedAt": "2026-10-03T17:47:45.026Z",
+      "status": "PASS",
+      "code": 0,
+      "signal": null,
+      "elapsedMs": 70805,
+      "endedAt": "2026-10-03T17:48:55.831Z"
+    },
+    {
+      "name": "8 production build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "log": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/build.log",
+      "startedAt": "2026-10-03T17:48:55.832Z",
+      "status": "PASS",
+      "code": 0,
+      "signal": null,
+      "elapsedMs": 113249,
+      "endedAt": "2026-10-03T17:50:49.081Z"
+    },
+    {
+      "name": "post-run byte/history identity",
+      "command": [
+        "/Users/quyth/.nvm/versions/node/v20.19.6/bin/node",
+        "--import",
+        "tsx",
+        "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/check-frozen-identity.mjs",
+        "after"
+      ],
+      "log": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/identity-after.log",
+      "startedAt": "2026-10-03T17:50:49.083Z",
+      "status": "PASS",
+      "code": 0,
+      "signal": null,
+      "elapsedMs": 379,
+      "endedAt": "2026-10-03T17:50:49.462Z"
+    }
+  ],
+  "tests": {
+    "total": 148,
+    "passed": 148,
+    "failed": 0,
+    "files": 30,
+    "suites": 59
+  },
+  "previousTimeoutTests": [
+    {
+      "title": "passes the existing assembly validator with all 355 operations",
+      "existingTimeoutMs": 5000,
+      "previousMeasuredMs": 27424,
+      "status": "passed",
+      "measuredMs": 3182.310208,
+      "failureMessages": []
+    },
+    {
+      "title": "clears actual solid meshes along every new structural path and large carrier sweep",
+      "existingTimeoutMs": 60000,
+      "previousMeasuredMs": 66360,
+      "status": "passed",
+      "measuredMs": 33590.049834,
+      "failureMessages": []
+    }
+  ],
+  "mechanicalGateResults": [
+    {
+      "name": "locks",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "assembly",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "structuralPaths",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "groundedFloor",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "frontStaging",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "mechanics",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "hardware",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "step28",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "foldingLegs",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "receiverPaths",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "pistons",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "seekReset",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "b8",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "presentationFit",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "captions",
+      "valid": true,
+      "errors": []
+    }
+  ],
+  "presentationResult": {
+    "valid": true,
+    "errors": [],
+    "authority": "PRESENTATION ESTIMATE",
+    "mattress": {
+      "center": [
+        0,
+        41.8,
+        -89.2
+      ],
+      "size": [
+        217,
+        19,
+        182
+      ],
+      "radius": 1.6
+    },
+    "duvetBounds": {
+      "min": [
+        -107,
+        51.73000000074506,
+        -174.73999633789063
+      ],
+      "max": [
+        107,
+        56.47914951324463,
+        -40.06000366210938
+      ]
+    },
+    "pipingBounds": {
+      "min": [
+        -108.54330444335938,
+        7.449999809265137,
+        -91.04330444335938
+      ],
+      "max": [
+        108.54330444335938,
+        7.550000190734863,
+        91.04330444335938
+      ]
+    },
+    "roomXClearances": {
+      "table": 145.5,
+      "plant": 147,
+      "curtains": 152.5,
+      "art": 156
+    }
+  },
+  "identity": {
+    "productHash": "4645bcf33682cbf377d84a2d0f8139674b6d80f5a5014a29505bf97287f82a45",
+    "materialHash": "d9a96203382d9d92eaaec1cab45a97f97da01ac13d5fbec739477c9f06514bcc",
+    "assemblyHash": "19df9d72004a93989fc5245d5cbf953c8a6289423f2587749584ee4c322ba184",
+    "approvedPlanHash": "bf43ecdb93c8a43dd50ea4a9e46306882902cbaf813e24438826f8585045e520",
+    "microVideoHash": "58fb308c0117e3c9116aefa09a9f2bee840216ca23aca7d30240fca529c8c22b"
+  },
+  "introUnchanged": true,
+  "step26CameraUnchanged": true,
+  "sourceAudit": {
+    "sourceFiles": 214,
+    "historyFiles": 126,
+    "changedSources": [],
+    "changedHistory": [],
+    "fileSets": {
+      "source": {
+        "added": [],
+        "removed": []
+      },
+      "history": {
+        "added": [],
+        "removed": []
+      }
+    },
+    "testConfigUnchanged": true,
+    "postIdentity": true
+  },
+  "orchestration": {
+    "newEvidenceDirectories": [
+      "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/approved-mechanical-gates",
+      "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/micro-native",
+      "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/polish02b-presentation"
+    ],
+    "presentationDirectoryCreatedBeforeChecker": true,
+    "checkerSourceUnchanged": true,
+    "gateRedirectionRunnerByteIdentical": true,
+    "reportersOnly": "Default + JSON reporters were selected solely to record per-test duration. No timeout, pool, workers, scheduling, assertion, sample count or build config overrides used."
+  },
+  "interpretation": "Both previously failing tests passed unchanged under sequential job load. Prior timeouts are consistent with resource contention, which is the likely explanation; this does not prove causation.",
+  "warnings": [
+    "(node:84212) [THREE_CJS_DEPRECATED] DeprecationWarning: `require(\"three\")` is deprecated and will be removed.",
+    "(node:84214) [THREE_CJS_DEPRECATED] DeprecationWarning: `require(\"three\")` is deprecated and will be removed.",
+    "(node:86300) [THREE_CJS_DEPRECATED] DeprecationWarning: `require(\"three\")` is deprecated and will be removed.",
+    "(node:86390) [THREE_CJS_DEPRECATED] DeprecationWarning: `require(\"three\")` is deprecated and will be removed.",
+    "(node:86584) [THREE_CJS_DEPRECATED] DeprecationWarning: `require(\"three\")` is deprecated and will be removed.",
+    "(node:86583) [THREE_CJS_DEPRECATED] DeprecationWarning: `require(\"three\")` is deprecated and will be removed.",
+    "(node:86587) [THREE_CJS_DEPRECATED] DeprecationWarning: `require(\"three\")` is deprecated and will be removed.",
+    "(node:86590) [THREE_CJS_DEPRECATED] DeprecationWarning: `require(\"three\")` is deprecated and will be removed.",
+    "(node:86585) [THREE_CJS_DEPRECATED] DeprecationWarning: `require(\"three\")` is deprecated and will be removed.",
+    "(node:86586) [THREE_CJS_DEPRECATED] DeprecationWarning: `require(\"three\")` is deprecated and will be removed.",
+    "(node:86607) [THREE_CJS_DEPRECATED] DeprecationWarning: `require(\"three\")` is deprecated and will be removed.",
+    "Turbopack build encountered 1 warning:",
+    "Warning: The file pattern (<dynamic> '/frames' | <dynamic> 'frames') matches 72856 files in [project]/",
+    "(node:87740) [THREE_CJS_DEPRECATED] DeprecationWarning: `require(\"three\")` is deprecated and will be removed."
+  ],
+  "logs": [
+    {
+      "check": "1 frozen source/data identity",
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/identity.log"
+    },
+    {
+      "check": "2 native approved mechanical gates",
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/gates.log"
+    },
+    {
+      "check": "3 native final-micro-pass validation",
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/micro-native.log"
+    },
+    {
+      "check": "4 Polish 02B presentation checker",
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/props.log"
+    },
+    {
+      "check": "5 typecheck",
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/typecheck.log"
+    },
+    {
+      "check": "6 application-source lint",
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/lint.log"
+    },
+    {
+      "check": "7 complete test suite",
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/tests.log"
+    },
+    {
+      "check": "8 production build",
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/build.log"
+    },
+    {
+      "check": "post-run byte/history identity",
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/identity-after.log"
+    }
+  ],
+  "noFullFramesOrMasterRendered": true,
+  "testTimeoutsUnchanged": true,
+  "validatorThresholdsUnchanged": true,
+  "stopBoundary": "Sequential pre-render report only. Await new authorization before rendering the full master.",
+  "reportedAt": "2026-10-03T17:56:07.958Z"
+}

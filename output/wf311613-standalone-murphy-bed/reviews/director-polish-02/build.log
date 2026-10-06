@@ -1,0 +1,51 @@
+
+> furniture-video-engine@0.2.0 build
+> next build
+
+▲ Next.js 16.3.6 (Turbopack)
+✓ Running next.config.ts took 34ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 45s
+  Running TypeScript ...
+  Finished TypeScript in 5.6s ...
+  Collecting page data using 8 workers ...
+  Generating static pages using 8 workers (0/4) ...
+  Generating static pages using 8 workers (1/4) 
+  Generating static pages using 8 workers (2/4) 
+  Generating static pages using 8 workers (3/4) 
+✓ Generating static pages using 8 workers (4/4) in 19.6s
+Turbopack build encountered 1 warning:
+./src/engine/export/ExportJobManager.ts:112:31
+Warning: The file pattern (<dynamic> '/frames' | <dynamic> 'frames') matches 57134 files in [project]/
+  [90m110 |[0m   [36mprivate[0m [36masync[0m run(job: [33mInternalJob[0m, origin: string): [33mPromise[0m<[36mvoid[0m> {
+  [90m111 |[0m     [36mtry[0m {
+[33m[1m>[0m [90m112 |[0m       [36mconst[0m framesDirectory = path.join(job.directory, [32m'frames'[0m);
+  [90m    |[0m                               [33m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m113 |[0m       [36mawait[0m mkdir(framesDirectory, { recursive: [36mtrue[0m });
+  [90m114 |[0m       [36mthis[0m.assertActive(job);
+  [90m115 |[0m       job.status = [32m'rendering'[0m;
+
+Overly broad patterns can lead to build performance issues and over bundling.
+
+Import trace:
+  App Route:
+    ./src/engine/export/ExportJobManager.ts
+    ./src/products/export-manager.ts
+    ./src/app/api/export/[jobId]/download/route.ts
+
+
+  Finalizing page optimization ...
+
+Route (app)
+┌ ƒ /
+├ ○ /_not-found
+├ ƒ /api/export
+├ ƒ /api/export/[jobId]
+├ ƒ /api/export/[jobId]/download
+└ ○ /render
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

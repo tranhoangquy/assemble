@@ -1,0 +1,1830 @@
+{
+  "profile": {
+    "id": "720p",
+    "label": "720p — 1280×720",
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "codec": "h264",
+    "encoder": "libx264",
+    "pixelFormat": "yuv420p",
+    "kind": "standard",
+    "supportedFps": [
+      30,
+      60
+    ]
+  },
+  "startedAt": "2026-10-03T23:44:26.918Z",
+  "checkpoints": [
+    {
+      "label": "01-intro-finished-hero",
+      "time": 0,
+      "shot": "micro-intro-finished",
+      "camera": "residential-closed",
+      "sourceLabel": "01-intro-finished-product",
+      "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/stills/01-intro-finished-hero.png",
+      "png": {
+        "width": 1280,
+        "height": 720,
+        "bytes": 597439,
+        "sha256": "29a4b04a023c741458f334ae68ba54165666bbc49ed4a0729ea9bdafd3bc7089"
+      },
+      "stateFile": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/01-intro-finished-hero-state.json",
+      "stateSha256": "479b1932cf2770f2805726d8510a1cfd83bdfe14c737c06a9843a91531a16fa1",
+      "cameraSha256": "23d88a5f7ec8009618aa8270f35514cb74fe292f24a23949bb40fb2a1318e3b7",
+      "surface": {
+        "deviceScaleFactor": 1,
+        "viewport": [
+          1280,
+          720
+        ],
+        "canvas": [
+          1280,
+          720
+        ],
+        "canvasCss": [
+          1280,
+          720
+        ],
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "maxTextureSize": 16384,
+        "maxRenderbufferSize": 16384
+      },
+      "captions": []
+    },
+    {
+      "label": "02-intro-fully-exploded",
+      "time": 3.75,
+      "shot": "micro-intro-hold",
+      "camera": "micro-exploded-overview",
+      "sourceLabel": "03-intro-fully-exploded",
+      "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/stills/02-intro-fully-exploded.png",
+      "png": {
+        "width": 1280,
+        "height": 720,
+        "bytes": 526132,
+        "sha256": "1e2912249cc91cb59d19dabef4001f9010b35770374ff1ac302f786e1b0d3084"
+      },
+      "stateFile": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/02-intro-fully-exploded-state.json",
+      "stateSha256": "63f8d3a21e904f3271d090ed8804436333e5b9ab73a06c4805cced8337540497",
+      "cameraSha256": "0cdd566472571ecaff981ab1a71baf41e53b2f1afef8852085e3b2b86467a9c2",
+      "surface": {
+        "deviceScaleFactor": 1,
+        "viewport": [
+          1280,
+          720
+        ],
+        "canvas": [
+          1280,
+          720
+        ],
+        "canvasCss": [
+          1280,
+          720
+        ],
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "maxTextureSize": 16384,
+        "maxRenderbufferSize": 16384
+      },
+      "captions": []
+    },
+    {
+      "label": "03-step1-exact-reset",
+      "time": 5,
+      "shot": "assembly-step1-zero",
+      "sourceLabel": "06-step1-exact-reset",
+      "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/stills/03-step1-exact-reset.png",
+      "png": {
+        "width": 1280,
+        "height": 720,
+        "bytes": 588117,
+        "sha256": "84a1d48a637a6328541b33ad7ebbd013909879bee59219b46557e0d2c4002766"
+      },
+      "stateFile": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/03-step1-exact-reset-state.json",
+      "stateSha256": "976e75f93f75e09feec0eab405a0d691d5b707dac98eef922e85fc8ac78986bb",
+      "cameraSha256": "fe5c9bc1aac0b62afa0885d9102b388d8f8c8cfd3ebc982dfea8f4f1db5d881e",
+      "surface": {
+        "deviceScaleFactor": 1,
+        "viewport": [
+          1280,
+          720
+        ],
+        "canvas": [
+          1280,
+          720
+        ],
+        "canvasCss": [
+          1280,
+          720
+        ],
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "maxTextureSize": 16384,
+        "maxRenderbufferSize": 16384
+      },
+      "captions": []
+    },
+    {
+      "label": "04-early-hardware-macro",
+      "shot": "bolt-macro",
+      "time": 20.951110000000003,
+      "camera": "joint-0",
+      "step": 1,
+      "sourceLabel": "08-first-hardware-closeup",
+      "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/stills/04-early-hardware-macro.png",
+      "png": {
+        "width": 1280,
+        "height": 720,
+        "bytes": 469129,
+        "sha256": "f448cbf848eb7c326cb825385439a24e587e73a188496d42ac7372fe0b175cee"
+      },
+      "stateFile": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/04-early-hardware-macro-state.json",
+      "stateSha256": "a40e2133e6a4d46fae88fe8e290f46557e1be08767ad67180d7837cb9cb26da2",
+      "cameraSha256": "3c2425132c6443f0763cc48e09c93661f4eda0cd4646f7081a14ec66eb4040f0",
+      "surface": {
+        "deviceScaleFactor": 1,
+        "viewport": [
+          1280,
+          720
+        ],
+        "canvas": [
+          1280,
+          720
+        ],
+        "canvasCss": [
+          1280,
+          720
+        ],
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "maxTextureSize": 16384,
+        "maxRenderbufferSize": 16384
+      },
+      "captions": [
+        {
+          "tag": "DIV",
+          "className": "video-overlay director-review-caption",
+          "text": "Step 1 / 31Fit the long bolt.",
+          "x": 0.025,
+          "y": 0.8660590277777778,
+          "width": 0.14053955078125,
+          "height": 0.10338541666666666,
+          "fontSize": 0.022222222222222223,
+          "lineHeight": "normal",
+          "padding": [
+            0.016666666666666666,
+            0.025,
+            0.016666666666666666,
+            0.025
+          ],
+          "borderWidth": [
+            0,
+            0,
+            0,
+            0.004166666666666667
+          ],
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "className": "",
+          "text": "Step 1 / 31",
+          "x": 0.04140625,
+          "y": 0.8827256944444445,
+          "width": 0.11007080078125,
+          "height": 0.016666666666666666,
+          "fontSize": 0.013888888888888888,
+          "lineHeight": "normal",
+          "padding": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderWidth": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "H2",
+          "className": "",
+          "text": "Fit the long bolt.",
+          "x": 0.04140625,
+          "y": 0.9105034722222223,
+          "width": 0.11007080078125,
+          "height": 0.03671875,
+          "fontSize": 0.03194444444444444,
+          "lineHeight": 0.03673611111111111,
+          "padding": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderWidth": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "opacity": "1",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "label": "05-cabinet-medium",
+      "shot": "S4-D4-1-seat",
+      "time": 78.0636938888888,
+      "camera": "S4-context",
+      "step": 4,
+      "sourceLabel": "09-cabinet-construction",
+      "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/stills/05-cabinet-medium.png",
+      "png": {
+        "width": 1280,
+        "height": 720,
+        "bytes": 524733,
+        "sha256": "ab96dff9a09a418d2d00a62d545176b348f042700c65bbbcee93f987ba18c347"
+      },
+      "stateFile": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/05-cabinet-medium-state.json",
+      "stateSha256": "34dd47891206b3d1e17f44a834c8f0385669a61709d003fc6e9666808034dbff",
+      "cameraSha256": "ef62c8d995f6cca91751a209fec46460b81e923944b36e390abd4adaf6b75238",
+      "surface": {
+        "deviceScaleFactor": 1,
+        "viewport": [
+          1280,
+          720
+        ],
+        "canvas": [
+          1280,
+          720
+        ],
+        "canvasCss": [
+          1280,
+          720
+        ],
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "maxTextureSize": 16384,
+        "maxRenderbufferSize": 16384
+      },
+      "captions": [
+        {
+          "tag": "DIV",
+          "className": "video-overlay director-review-caption",
+          "text": "Step 4 / 31Fit the cabinet cross rail.",
+          "x": 0.025,
+          "y": 0.8646701388888889,
+          "width": 0.208837890625,
+          "height": 0.10477430555555556,
+          "fontSize": 0.022222222222222223,
+          "lineHeight": "normal",
+          "padding": [
+            0.016666666666666666,
+            0.025,
+            0.016666666666666666,
+            0.025
+          ],
+          "borderWidth": [
+            0,
+            0,
+            0,
+            0.004166666666666667
+          ],
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "className": "",
+          "text": "Step 4 / 31",
+          "x": 0.04140625,
+          "y": 0.8813368055555556,
+          "width": 0.178369140625,
+          "height": 0.018055555555555554,
+          "fontSize": 0.013888888888888888,
+          "lineHeight": "normal",
+          "padding": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderWidth": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "H2",
+          "className": "",
+          "text": "Fit the cabinet cross rail.",
+          "x": 0.04140625,
+          "y": 0.9105034722222223,
+          "width": 0.178369140625,
+          "height": 0.03671875,
+          "fontSize": 0.03194444444444444,
+          "lineHeight": 0.03673611111111111,
+          "padding": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderWidth": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "opacity": "1",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "label": "06-b8-cabinet-face",
+      "shot": "S6-complete",
+      "time": 117.8536938888888,
+      "camera": "S6-context",
+      "step": 6,
+      "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/stills/06-b8-cabinet-face.png",
+      "png": {
+        "width": 1280,
+        "height": 720,
+        "bytes": 579322,
+        "sha256": "195dbd88665c6e18fdf890245c9745d24bd948a5fad8b61788cda723a4ebc14b"
+      },
+      "stateFile": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/06-b8-cabinet-face-state.json",
+      "stateSha256": "04214e7fbc52e9fbc9fb1464e717ae0c14b44321e64979292a3e9ae0c318f277",
+      "cameraSha256": "266fb2ff27b1c4a931c63c42af36b409539241430e41304939eb83fd396f4d15",
+      "surface": {
+        "deviceScaleFactor": 1,
+        "viewport": [
+          1280,
+          720
+        ],
+        "canvas": [
+          1280,
+          720
+        ],
+        "canvasCss": [
+          1280,
+          720
+        ],
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "maxTextureSize": 16384,
+        "maxRenderbufferSize": 16384
+      },
+      "captions": []
+    },
+    {
+      "label": "07-bed-face",
+      "shot": "S15-complete",
+      "time": 252.06369388888893,
+      "camera": "grounded-S15-complete",
+      "step": 15,
+      "sourceLabel": "10-bed-face-construction",
+      "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/stills/07-bed-face.png",
+      "png": {
+        "width": 1280,
+        "height": 720,
+        "bytes": 737211,
+        "sha256": "d9699b1a12eb8912444998f9c6964d27a67351af929f62f29f3f9eee85223a65"
+      },
+      "stateFile": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/07-bed-face-state.json",
+      "stateSha256": "5f9ef1f2f82979d225426ea5e2a8c583aa6602327afb9cf7435db22f56046653",
+      "cameraSha256": "017e8f9d07d60803515df25d845f9ad4cd7bd2db13b94bc572a4731539d300d9",
+      "surface": {
+        "deviceScaleFactor": 1,
+        "viewport": [
+          1280,
+          720
+        ],
+        "canvas": [
+          1280,
+          720
+        ],
+        "canvasCss": [
+          1280,
+          720
+        ],
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "maxTextureSize": 16384,
+        "maxRenderbufferSize": 16384
+      },
+      "captions": []
+    },
+    {
+      "label": "08-step25-connection",
+      "shot": "S25--1-connection",
+      "time": 383.41369388888864,
+      "camera": "S25--1-pivot",
+      "step": 25,
+      "sourceLabel": "14-step25-bearing-seating",
+      "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/stills/08-step25-connection.png",
+      "png": {
+        "width": 1280,
+        "height": 720,
+        "bytes": 304743,
+        "sha256": "6ff0a4dcff5a779a4f0cce4790af97257b86abee9d745a7870fc543bcb6552fb"
+      },
+      "stateFile": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/08-step25-connection-state.json",
+      "stateSha256": "5a2cddd716b9f47ad1c324f06bb338ebb663049713da438f8cd4ea1e54e2f78b",
+      "cameraSha256": "96679ab19c6869aa6fbc23ed4237e05458189f44cf6d8e229c8a263632996eb3",
+      "surface": {
+        "deviceScaleFactor": 1,
+        "viewport": [
+          1280,
+          720
+        ],
+        "canvas": [
+          1280,
+          720
+        ],
+        "canvasCss": [
+          1280,
+          720
+        ],
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "maxTextureSize": 16384,
+        "maxRenderbufferSize": 16384
+      },
+      "captions": []
+    },
+    {
+      "label": "09-step26-corrected-active-connection",
+      "shot": "S26-eye-align",
+      "time": 395.1836938888886,
+      "camera": "S26-cabinet-eye",
+      "step": 26,
+      "sourceLabel": "17-step26-active-connection",
+      "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/stills/09-step26-corrected-active-connection.png",
+      "png": {
+        "width": 1280,
+        "height": 720,
+        "bytes": 598922,
+        "sha256": "1d058aa0b3de1dd72c4ae791db4c1de5f1451603d4dbffc7d4f978739edfba67"
+      },
+      "stateFile": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/09-step26-corrected-active-connection-state.json",
+      "stateSha256": "03c8149559199ffa57ab077de21d7a0e4e529f5d9a93bd18116af363b84d2fa5",
+      "cameraSha256": "b14099804fe2de8a266ff081cfb7316377c03d01b97c58602bef0612c4a08dbf",
+      "surface": {
+        "deviceScaleFactor": 1,
+        "viewport": [
+          1280,
+          720
+        ],
+        "canvas": [
+          1280,
+          720
+        ],
+        "canvasCss": [
+          1280,
+          720
+        ],
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "maxTextureSize": 16384,
+        "maxRenderbufferSize": 16384
+      },
+      "captions": []
+    },
+    {
+      "label": "10-folding-legs",
+      "shot": "S28--1-D7-join",
+      "time": 417.13969388888853,
+      "camera": "S28--1-D7",
+      "step": 28,
+      "sourceLabel": "21-folding-leg-construction",
+      "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/stills/10-folding-legs.png",
+      "png": {
+        "width": 1280,
+        "height": 720,
+        "bytes": 338287,
+        "sha256": "9ec23c2d9d5331e9afc5127827a609ff9f3ec47e22023a41c7bb4bcd4884549e"
+      },
+      "stateFile": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/10-folding-legs-state.json",
+      "stateSha256": "97bef3aed3eee59149caff40e44813d3c15c85de9a9e55b34e7dbb7b32192427",
+      "cameraSha256": "ffbc6c39f6667ddc20b74d5298398a559f2df8abe0621eac104e4675d37a1285",
+      "surface": {
+        "deviceScaleFactor": 1,
+        "viewport": [
+          1280,
+          720
+        ],
+        "canvas": [
+          1280,
+          720
+        ],
+        "canvasCss": [
+          1280,
+          720
+        ],
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "maxTextureSize": 16384,
+        "maxRenderbufferSize": 16384
+      },
+      "captions": [
+        {
+          "tag": "DIV",
+          "className": "video-overlay director-review-caption",
+          "text": "Step 28 / 31Fit the leg pivot arm.",
+          "x": 0.025,
+          "y": 0.8646701388888889,
+          "width": 0.178564453125,
+          "height": 0.10477430555555556,
+          "fontSize": 0.022222222222222223,
+          "lineHeight": "normal",
+          "padding": [
+            0.016666666666666666,
+            0.025,
+            0.016666666666666666,
+            0.025
+          ],
+          "borderWidth": [
+            0,
+            0,
+            0,
+            0.004166666666666667
+          ],
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "className": "",
+          "text": "Step 28 / 31",
+          "x": 0.04140625,
+          "y": 0.8813368055555556,
+          "width": 0.148095703125,
+          "height": 0.018055555555555554,
+          "fontSize": 0.013888888888888888,
+          "lineHeight": "normal",
+          "padding": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderWidth": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "H2",
+          "className": "",
+          "text": "Fit the leg pivot arm.",
+          "x": 0.04140625,
+          "y": 0.9105034722222223,
+          "width": 0.148095703125,
+          "height": 0.03671875,
+          "fontSize": 0.03194444444444444,
+          "lineHeight": 0.03673611111111111,
+          "padding": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderWidth": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "opacity": "1",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "label": "11-wall-anchoring",
+      "shot": "S30-0-wall-screw",
+      "time": 469.1911938888885,
+      "camera": "polish01-front-S30-0-anchor",
+      "step": 30,
+      "sourceLabel": "22-wall-anchoring",
+      "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/stills/11-wall-anchoring.png",
+      "png": {
+        "width": 1280,
+        "height": 720,
+        "bytes": 442144,
+        "sha256": "63193f4c154a6d6bad76c85a734011321cd7ef31d2183998dd057645938cb6ed"
+      },
+      "stateFile": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/11-wall-anchoring-state.json",
+      "stateSha256": "da7b2c70b0ab428f88998ff8aaf444eee70dc086afa14ea2793727650d9cf759",
+      "cameraSha256": "81d3c468e1281b80a80466eb55faf7d1d8daa0565e7563e4d17b039150186a32",
+      "surface": {
+        "deviceScaleFactor": 1,
+        "viewport": [
+          1280,
+          720
+        ],
+        "canvas": [
+          1280,
+          720
+        ],
+        "canvasCss": [
+          1280,
+          720
+        ],
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "maxTextureSize": 16384,
+        "maxRenderbufferSize": 16384
+      },
+      "captions": [
+        {
+          "tag": "DIV",
+          "className": "video-overlay director-review-caption",
+          "text": "Step 30 / 31Fit the wall screw.",
+          "x": 0.025,
+          "y": 0.8646701388888889,
+          "width": 0.15870361328125,
+          "height": 0.10477430555555556,
+          "fontSize": 0.022222222222222223,
+          "lineHeight": "normal",
+          "padding": [
+            0.016666666666666666,
+            0.025,
+            0.016666666666666666,
+            0.025
+          ],
+          "borderWidth": [
+            0,
+            0,
+            0,
+            0.004166666666666667
+          ],
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "SPAN",
+          "className": "",
+          "text": "Step 30 / 31",
+          "x": 0.04140625,
+          "y": 0.8813368055555556,
+          "width": 0.12823486328125,
+          "height": 0.018055555555555554,
+          "fontSize": 0.013888888888888888,
+          "lineHeight": "normal",
+          "padding": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderWidth": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "opacity": "1",
+          "transform": "none"
+        },
+        {
+          "tag": "H2",
+          "className": "",
+          "text": "Fit the wall screw.",
+          "x": 0.04140625,
+          "y": 0.9105034722222223,
+          "width": 0.12823486328125,
+          "height": 0.03671875,
+          "fontSize": 0.03194444444444444,
+          "lineHeight": 0.03673611111111111,
+          "padding": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderWidth": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "opacity": "1",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "label": "12-final-bedroom-hero",
+      "shot": "showcase-hero",
+      "time": 523.4536938888888,
+      "camera": "residential-hero",
+      "sourceLabel": "29-final-hero",
+      "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/stills/12-final-bedroom-hero.png",
+      "png": {
+        "width": 1280,
+        "height": 720,
+        "bytes": 463444,
+        "sha256": "c15686120c86a79c4b47403455147916830683770410eb098b736902229158b2"
+      },
+      "stateFile": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/12-final-bedroom-hero-state.json",
+      "stateSha256": "0927d745c56b33cef72158a37f800205deec58d8453efe7d2bce6e4136e3932d",
+      "cameraSha256": "8bb0f77c7b226be3ddaead95b9fc18092b18ef20516ebe9df4665ca7250113ff",
+      "surface": {
+        "deviceScaleFactor": 1,
+        "viewport": [
+          1280,
+          720
+        ],
+        "canvas": [
+          1280,
+          720
+        ],
+        "canvasCss": [
+          1280,
+          720
+        ],
+        "drawingBuffer": [
+          1280,
+          720
+        ],
+        "maxTextureSize": 16384,
+        "maxRenderbufferSize": 16384
+      },
+      "captions": []
+    }
+  ],
+  "proof": {
+    "start": 20.951110000000003,
+    "duration": 2,
+    "fps": 30,
+    "frameCount": 60,
+    "profileId": "720p",
+    "frames": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames",
+    "output": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/wf311613-final-micro-pass-native-proof-720p.mp4",
+    "captureMethod": "Actual current renderFrame API; fresh native viewport/drawing buffer; DSF=1; no historical frame use; no scaling filters",
+    "nativeFrames": [
+      {
+        "frame": 0,
+        "time": 20.951110000000003,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000000.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 469129,
+        "sha256": "f448cbf848eb7c326cb825385439a24e587e73a188496d42ac7372fe0b175cee"
+      },
+      {
+        "frame": 1,
+        "time": 20.98444333333334,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000001.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 469362,
+        "sha256": "71b1f168ae562f90c9d0b6aabe5039703f9a63e33cb82fbf6ec12b4affcafc14"
+      },
+      {
+        "frame": 2,
+        "time": 21.01777666666667,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000002.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 469407,
+        "sha256": "4ab17b89ea4bb19a3f1a9889d69a8e216b369d76616e1d0f1b717844dc93ba43"
+      },
+      {
+        "frame": 3,
+        "time": 21.051110000000005,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000003.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 469140,
+        "sha256": "03deb34349836d5b0a99cd3240b0ca678014b3f6f49846f9c3c4fb64722a4c85"
+      },
+      {
+        "frame": 4,
+        "time": 21.084443333333336,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000004.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 469059,
+        "sha256": "720adcb006ac15da27538ec18791e7af4f8220557668c3f2c65544cda1033f29"
+      },
+      {
+        "frame": 5,
+        "time": 21.11777666666667,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000005.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 468992,
+        "sha256": "b7d9745d04661ece8ed3db60f6a69064cdad9bd63de6aa22fbccde7453cd8d20"
+      },
+      {
+        "frame": 6,
+        "time": 21.151110000000003,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000006.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 468901,
+        "sha256": "015516973238209f7c80197a595481a9eb2e25ef5258002e4e585791ec026710"
+      },
+      {
+        "frame": 7,
+        "time": 21.184443333333338,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000007.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 468880,
+        "sha256": "d3da8f88ee3e484cd948d81cb7c3f2c5a93f21959237a234d49339034a3732ef"
+      },
+      {
+        "frame": 8,
+        "time": 21.21777666666667,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000008.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 468917,
+        "sha256": "409e53ee52019959dfecad09f2e685c5c081a79ca8257aafa360316dd810d5f0"
+      },
+      {
+        "frame": 9,
+        "time": 21.251110000000004,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000009.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 468856,
+        "sha256": "59b0e93bbf63dc7ed6b360768e39e1e27cc30ee6d2319ddade62610c92384979"
+      },
+      {
+        "frame": 10,
+        "time": 21.284443333333336,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000010.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 469056,
+        "sha256": "74e897847b4e78b7b9a4012289d5691e826b6eb5dcc8ba389f1de075f0b59ec1"
+      },
+      {
+        "frame": 11,
+        "time": 21.31777666666667,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000011.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 469072,
+        "sha256": "7b2bae74856b3b963ce2dbff6bf249f6e0c0e660ede4cc9deabc478275844d0f"
+      },
+      {
+        "frame": 12,
+        "time": 21.351110000000002,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000012.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 468853,
+        "sha256": "b07ac4f4e111f484a26558e2043cd90ec8e9c6ad50ec7586f50519278ebff904"
+      },
+      {
+        "frame": 13,
+        "time": 21.384443333333337,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000013.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 468853,
+        "sha256": "b07ac4f4e111f484a26558e2043cd90ec8e9c6ad50ec7586f50519278ebff904"
+      },
+      {
+        "frame": 14,
+        "time": 21.41777666666667,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000014.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 468853,
+        "sha256": "b07ac4f4e111f484a26558e2043cd90ec8e9c6ad50ec7586f50519278ebff904"
+      },
+      {
+        "frame": 15,
+        "time": 21.451110000000003,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000015.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 469429,
+        "sha256": "653a32ba0161b874dccad9e727a94fe7d524bded1532dfd100223e67401749de"
+      },
+      {
+        "frame": 16,
+        "time": 21.48444333333334,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000016.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 469440,
+        "sha256": "244d135e355ad3d2e91696a2b6bd229af1bde2aabac8db603b860da224718a6e"
+      },
+      {
+        "frame": 17,
+        "time": 21.51777666666667,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000017.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 469995,
+        "sha256": "d2ed295d1f5ccb934cc6be45f1dd17e42917846f0d27625b904d71cf790a706d"
+      },
+      {
+        "frame": 18,
+        "time": 21.551110000000005,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000018.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 469707,
+        "sha256": "8f3304448907cde569b39e8ad7c6247cf2a43585f490ae209d1fd5ecc0659776"
+      },
+      {
+        "frame": 19,
+        "time": 21.584443333333336,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000019.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 469658,
+        "sha256": "2428405a9ee097543cac1cec1569ea805d1f1245b1c970126d8a4b5be49fa9fb"
+      },
+      {
+        "frame": 20,
+        "time": 21.61777666666667,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000020.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 469165,
+        "sha256": "75ab40ce47aa2ea42eab6ec9b44f0fff40e2a8312175c42b27b85a8428dfa66c"
+      },
+      {
+        "frame": 21,
+        "time": 21.651110000000003,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000021.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 469192,
+        "sha256": "f1847304bff3d1d23b115ad55830ed519c2dd76a33c345bfa1b10ad01d3e4c26"
+      },
+      {
+        "frame": 22,
+        "time": 21.684443333333338,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000022.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 469122,
+        "sha256": "c348e5099f495661b0a4c7c8a2e5f5fec7986b4d7975a929400a1cd8e3ada1e9"
+      },
+      {
+        "frame": 23,
+        "time": 21.71777666666667,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000023.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 469459,
+        "sha256": "705bd1737eb2c00cd544aab60b590662bba9ea5968fda37e8b8e950c7e997cdc"
+      },
+      {
+        "frame": 24,
+        "time": 21.751110000000004,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000024.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 627441,
+        "sha256": "5c15d71bb6609177706dd99d7ef509a31f3eee451db6539feca7213f1f175fb1"
+      },
+      {
+        "frame": 25,
+        "time": 21.784443333333336,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000025.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 627441,
+        "sha256": "5c15d71bb6609177706dd99d7ef509a31f3eee451db6539feca7213f1f175fb1"
+      },
+      {
+        "frame": 26,
+        "time": 21.81777666666667,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000026.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 627441,
+        "sha256": "5c15d71bb6609177706dd99d7ef509a31f3eee451db6539feca7213f1f175fb1"
+      },
+      {
+        "frame": 27,
+        "time": 21.851110000000002,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000027.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 628376,
+        "sha256": "74d4bef4ee8b324990509e4dd29987ccdedd2110bd8a66f71c461f8718c5ebb3"
+      },
+      {
+        "frame": 28,
+        "time": 21.884443333333337,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000028.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 627973,
+        "sha256": "8d922bf3d976e331274947c564628e5f3758ebda31f59de2cc80de5265c4b1fc"
+      },
+      {
+        "frame": 29,
+        "time": 21.91777666666667,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000029.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 627618,
+        "sha256": "d1b8992467c8bd096c6b8c64929c92e0c156a20e6ef11151d3c006f5d02200da"
+      },
+      {
+        "frame": 30,
+        "time": 21.951110000000003,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000030.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 627593,
+        "sha256": "8666b7f9853fda248c46d3b4de5164c70411b3f725b10a334cf25c847be59015"
+      },
+      {
+        "frame": 31,
+        "time": 21.98444333333334,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000031.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 627594,
+        "sha256": "b317645dee75bccb7b116b7361d1fa16dcbb734ce2a63feb6c1bca0053acd0b0"
+      },
+      {
+        "frame": 32,
+        "time": 22.01777666666667,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000032.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 627635,
+        "sha256": "ea5198f1a3fb21cf1896b27b439c0ef2c85fef157af7fb99806d8df91677e4fe"
+      },
+      {
+        "frame": 33,
+        "time": 22.051110000000005,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000033.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 627634,
+        "sha256": "712b0496a05dadcde943c3b785c2bc161e9654c880c3d54100333f6510eff160"
+      },
+      {
+        "frame": 34,
+        "time": 22.084443333333336,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000034.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 627586,
+        "sha256": "aebf216df84cd4bc69d2451b3618526a845e8bbe44b2065845af07819e6828bb"
+      },
+      {
+        "frame": 35,
+        "time": 22.11777666666667,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000035.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 627599,
+        "sha256": "559d8b2bb9e4bfcab13e9ca890c88ae0251fafed1b6a69103d5e3d822390c644"
+      },
+      {
+        "frame": 36,
+        "time": 22.151110000000003,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000036.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 627543,
+        "sha256": "632af0e2e3642b62682fd7770102f1b0ef1d6e892b055890a9de96201f85c87d"
+      },
+      {
+        "frame": 37,
+        "time": 22.184443333333338,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000037.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 627522,
+        "sha256": "29f58dc1ee4b045f47f1c3f2962c0dc6e6566df76317a45bf9a2b10a17e514b4"
+      },
+      {
+        "frame": 38,
+        "time": 22.21777666666667,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000038.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 627397,
+        "sha256": "fd7168466f45bde71f41d82a190ea608675c93db49863bb742bee5498744a735"
+      },
+      {
+        "frame": 39,
+        "time": 22.251110000000004,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000039.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 627408,
+        "sha256": "6d7359c850e8b2f9a2a2aa06d43a34ac12b23bf0c0a5b6e4a2517e6e69d6be6a"
+      },
+      {
+        "frame": 40,
+        "time": 22.284443333333336,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000040.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 643098,
+        "sha256": "1e109e212f3c52e1550031bb78105ede4d4d1e8716d01d4ac74de8d4617ed7c3"
+      },
+      {
+        "frame": 41,
+        "time": 22.31777666666667,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000041.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 642275,
+        "sha256": "af9d356b7705bedccffa4c88300c9cfc6546db006491d53b5600c33cc2705ea5"
+      },
+      {
+        "frame": 42,
+        "time": 22.351110000000002,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000042.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 637864,
+        "sha256": "830f5c2b1ec85c47c204eb091e58a547b25542a196b15bbe59bdf80860e63a17"
+      },
+      {
+        "frame": 43,
+        "time": 22.384443333333337,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000043.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 632096,
+        "sha256": "ce1144d0d75fd8b37ee0829607e53093b60909b2abbe116b9fd7f3130f2dc9f3"
+      },
+      {
+        "frame": 44,
+        "time": 22.41777666666667,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000044.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 630771,
+        "sha256": "2d724da4f52f89352f7e44493ac055a3ac35aa4fa9ebbd3a5ce7ea98bd5ec4bb"
+      },
+      {
+        "frame": 45,
+        "time": 22.451110000000003,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000045.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 630709,
+        "sha256": "3fd2cbfca0a39473a4bf502d896183c0a044710c8e53265c8d97c3f7c55b81ef"
+      },
+      {
+        "frame": 46,
+        "time": 22.48444333333334,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000046.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 630475,
+        "sha256": "db7da0271cde3081e53c32ffca578efb478292055fbcaa00ba99d3034317dda4"
+      },
+      {
+        "frame": 47,
+        "time": 22.51777666666667,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000047.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 630108,
+        "sha256": "88e46a3ca9645212889741f18af5ab05c27c259d924a92d8b822681749232934"
+      },
+      {
+        "frame": 48,
+        "time": 22.551110000000005,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000048.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 630069,
+        "sha256": "a0432706eae792fb7c5847662e962e5d541197ae7a401443689c83d65c82a26e"
+      },
+      {
+        "frame": 49,
+        "time": 22.584443333333336,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000049.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 629839,
+        "sha256": "ba8ff07232fe5399230760b790bceeb8828942f2b24f9b0c0083a118ae26d1dd"
+      },
+      {
+        "frame": 50,
+        "time": 22.61777666666667,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000050.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 629657,
+        "sha256": "038d252cfc7474631390c37de8686b7e92fd12ba0ca80c2947da38c10b71c998"
+      },
+      {
+        "frame": 51,
+        "time": 22.651110000000003,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000051.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 629468,
+        "sha256": "b1a5d1efa6d3c8fe8df5d9a92a95d865db713dbf6d106a151330c62a0da9c03b"
+      },
+      {
+        "frame": 52,
+        "time": 22.684443333333338,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000052.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 629269,
+        "sha256": "28bedde1c9cc86128bd2ecd42b93cde62b4539a4bd4d0de881fa01aef060e698"
+      },
+      {
+        "frame": 53,
+        "time": 22.71777666666667,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000053.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 628859,
+        "sha256": "f5c072bfd39ada3c2c40e347a34e1d7ce694f0dfe37365053359f8b112338d7e"
+      },
+      {
+        "frame": 54,
+        "time": 22.751110000000004,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000054.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 629063,
+        "sha256": "323c9644dd60ec4405724d445019c822e378b202dd60db8c7a0618687d6a63aa"
+      },
+      {
+        "frame": 55,
+        "time": 22.784443333333336,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000055.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 628693,
+        "sha256": "83baa79282051624801424a43f50b98024ae363140b271b9964c1b179f51c66a"
+      },
+      {
+        "frame": 56,
+        "time": 22.81777666666667,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000056.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 628626,
+        "sha256": "353355c2a58033312fa6cef9ebc0f3be0d3dbf216feaab132a70b93bb3d10a0f"
+      },
+      {
+        "frame": 57,
+        "time": 22.851110000000002,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000057.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 628550,
+        "sha256": "7e1e225d46ccc5e06fc01509a2064070b27fbac1b99e0d67d1ab0b5cb03b33d6"
+      },
+      {
+        "frame": 58,
+        "time": 22.884443333333337,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000058.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 628480,
+        "sha256": "890e030fb290e6a2343e5b8ce2a379e7053bb3d6472428f9d603d8187506bda4"
+      },
+      {
+        "frame": 59,
+        "time": 22.91777666666667,
+        "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-000059.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 628315,
+        "sha256": "bcca592ee8c2adf1a2ca4823edae3ef7b44fefbd56a2214dac1740261666aaaf"
+      }
+    ],
+    "rendererExitedNormally": true,
+    "encoderArgs": [
+      "-hide_banner",
+      "-nostdin",
+      "-v",
+      "warning",
+      "-n",
+      "-framerate",
+      "30",
+      "-start_number",
+      "0",
+      "-i",
+      "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames/frame-%06d.png",
+      "-an",
+      "-c:v",
+      "libx264",
+      "-pix_fmt",
+      "yuv420p",
+      "-movflags",
+      "+faststart",
+      "-r",
+      "30",
+      "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/wf311613-final-micro-pass-native-proof-720p.mp4"
+    ]
+  },
+  "pageErrors": [],
+  "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "consoleRecords": [
+    {
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://127.0.0.1:3016/favicon.ico",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "project": "wf311613-final-micro-pass:720p"
+    }
+  ],
+  "warnings": [
+    "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "Observed optional favicon.ico GET 404; no application resource failure: http://127.0.0.1:3016/favicon.ico"
+  ],
+  "responses": [
+    {
+      "url": "http://127.0.0.1:3016/render?project=wf311613-final-micro-pass&profile=720p",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "document",
+      "project": "wf311613-final-micro-pass:720p"
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/css/24044264c614ec24.css",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "project": "wf311613-final-micro-pass:720p"
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/chunks/webpack-52d428ccd66bfe75.js",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "script",
+      "project": "wf311613-final-micro-pass:720p"
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/chunks/main-app-930b60979e6a9a5d.js",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "script",
+      "project": "wf311613-final-micro-pass:720p"
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/chunks/c15bf2b0-0b7ccb01d0221f08.js",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "script",
+      "project": "wf311613-final-micro-pass:720p"
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/chunks/4bd1b696-92152b0f5947070d.js",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "script",
+      "project": "wf311613-final-micro-pass:720p"
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/chunks/794-a3c6349e754e6fcd.js",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "script",
+      "project": "wf311613-final-micro-pass:720p"
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/chunks/f5ef5e1c-2da34c5fc26fb3fa.js",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "script",
+      "project": "wf311613-final-micro-pass:720p"
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/chunks/app/render/page-c81a696291d37c33.js",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "script",
+      "project": "wf311613-final-micro-pass:720p"
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/chunks/b536a0f1-4357ad16972f68f4.js",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "script",
+      "project": "wf311613-final-micro-pass:720p"
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/chunks/21-028361b39af033f0.js",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "script",
+      "project": "wf311613-final-micro-pass:720p"
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/chunks/bd904a5c-c73a00c7d46f8d71.js",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "script",
+      "project": "wf311613-final-micro-pass:720p"
+    },
+    {
+      "url": "http://127.0.0.1:3016/_next/static/chunks/619-f3925e9cf17aa314.js",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "script",
+      "project": "wf311613-final-micro-pass:720p"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "project": "wf311613-final-micro-pass:720p"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBK6PYK0.woff2",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "font",
+      "project": "wf311613-final-micro-pass:720p"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvumzEYOtbYf-Vlg.woff2",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "font",
+      "project": "wf311613-final-micro-pass:720p"
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSvfedN4.woff2",
+      "status": 200,
+      "method": "GET",
+      "resourceType": "font",
+      "project": "wf311613-final-micro-pass:720p"
+    }
+  ],
+  "failedRequests": [],
+  "httpFailures": [],
+  "networkAudit": {
+    "valid": true,
+    "responses": [
+      {
+        "url": "http://127.0.0.1:3016/render?project=wf311613-final-micro-pass&profile=720p",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "document",
+        "project": "wf311613-final-micro-pass:720p"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/css/24044264c614ec24.css",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "stylesheet",
+        "project": "wf311613-final-micro-pass:720p"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/webpack-52d428ccd66bfe75.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-final-micro-pass:720p"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/main-app-930b60979e6a9a5d.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-final-micro-pass:720p"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/c15bf2b0-0b7ccb01d0221f08.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-final-micro-pass:720p"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/4bd1b696-92152b0f5947070d.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-final-micro-pass:720p"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/794-a3c6349e754e6fcd.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-final-micro-pass:720p"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/f5ef5e1c-2da34c5fc26fb3fa.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-final-micro-pass:720p"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/app/render/page-c81a696291d37c33.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-final-micro-pass:720p"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/b536a0f1-4357ad16972f68f4.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-final-micro-pass:720p"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/21-028361b39af033f0.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-final-micro-pass:720p"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/bd904a5c-c73a00c7d46f8d71.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-final-micro-pass:720p"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/619-f3925e9cf17aa314.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-final-micro-pass:720p"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "stylesheet",
+        "project": "wf311613-final-micro-pass:720p"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBK6PYK0.woff2",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "font",
+        "project": "wf311613-final-micro-pass:720p"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvumzEYOtbYf-Vlg.woff2",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "font",
+        "project": "wf311613-final-micro-pass:720p"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSvfedN4.woff2",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "font",
+        "project": "wf311613-final-micro-pass:720p"
+      },
+      {
+        "url": "http://127.0.0.1:3016/favicon.ico",
+        "status": 404,
+        "method": "GET",
+        "resourceType": "explicit-diagnostic-HTTP-probe",
+        "project": "wf311613-final-micro-pass:720p",
+        "source": "Read-only Playwright API GET of exact console.location URL absent from page.response",
+        "headers": {
+          "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1, 1",
+          "x-nextjs-stale-time": "300",
+          "x-powered-by": "Next.js",
+          "etag": "\"1252rbe37n04ky\"",
+          "content-type": "text/html; charset=utf-8",
+          "content-encoding": "gzip",
+          "date": "Sat, 03 Oct 2026 23:46:03 GMT",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=5",
+          "transfer-encoding": "chunked"
+        },
+        "bodyBytes": 5938,
+        "consoleLocation": {
+          "url": "http://127.0.0.1:3016/favicon.ico",
+          "line": 0,
+          "column": 0,
+          "lineNumber": 0,
+          "columnNumber": 0
+        },
+        "confirmedAt": "2026-10-03T23:46:03.146Z"
+      }
+    ],
+    "requestFailures": [],
+    "optionalFavicon404": [
+      {
+        "url": "http://127.0.0.1:3016/favicon.ico",
+        "status": 404,
+        "method": "GET",
+        "resourceType": "explicit-diagnostic-HTTP-probe",
+        "project": "wf311613-final-micro-pass:720p",
+        "source": "Read-only Playwright API GET of exact console.location URL absent from page.response",
+        "headers": {
+          "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1, 1",
+          "x-nextjs-stale-time": "300",
+          "x-powered-by": "Next.js",
+          "etag": "\"1252rbe37n04ky\"",
+          "content-type": "text/html; charset=utf-8",
+          "content-encoding": "gzip",
+          "date": "Sat, 03 Oct 2026 23:46:03 GMT",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=5",
+          "transfer-encoding": "chunked"
+        },
+        "bodyBytes": 5938,
+        "consoleLocation": {
+          "url": "http://127.0.0.1:3016/favicon.ico",
+          "line": 0,
+          "column": 0,
+          "lineNumber": 0,
+          "columnNumber": 0
+        },
+        "confirmedAt": "2026-10-03T23:46:03.146Z"
+      }
+    ],
+    "unexplainedHttpFailures": [],
+    "knownNoncriticalConsole": [
+      {
+        "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "location": {
+          "url": "http://127.0.0.1:3016/favicon.ico",
+          "line": 0,
+          "column": 0,
+          "lineNumber": 0,
+          "columnNumber": 0
+        },
+        "project": "wf311613-final-micro-pass:720p",
+        "response": {
+          "url": "http://127.0.0.1:3016/favicon.ico",
+          "status": 404,
+          "method": "GET",
+          "resourceType": "explicit-diagnostic-HTTP-probe",
+          "project": "wf311613-final-micro-pass:720p",
+          "source": "Read-only Playwright API GET of exact console.location URL absent from page.response",
+          "headers": {
+            "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+            "x-nextjs-cache": "HIT",
+            "x-nextjs-prerender": "1, 1",
+            "x-nextjs-stale-time": "300",
+            "x-powered-by": "Next.js",
+            "etag": "\"1252rbe37n04ky\"",
+            "content-type": "text/html; charset=utf-8",
+            "content-encoding": "gzip",
+            "date": "Sat, 03 Oct 2026 23:46:03 GMT",
+            "connection": "keep-alive",
+            "keep-alive": "timeout=5",
+            "transfer-encoding": "chunked"
+          },
+          "bodyBytes": 5938,
+          "consoleLocation": {
+            "url": "http://127.0.0.1:3016/favicon.ico",
+            "line": 0,
+            "column": 0,
+            "lineNumber": 0,
+            "columnNumber": 0
+          },
+          "confirmedAt": "2026-10-03T23:46:03.146Z"
+        },
+        "classification": "Observed optional favicon.ico GET 404; no application resource failure"
+      }
+    ],
+    "fatalConsoleErrors": []
+  },
+  "resetExcursions": [
+    {
+      "label": "12-final-bedroom-hero",
+      "time": 523.4536938888888,
+      "stateEqual": true,
+      "cameraEqual": true
+    },
+    {
+      "label": "02-intro-fully-exploded",
+      "time": 3.75,
+      "stateEqual": true,
+      "cameraEqual": true
+    },
+    {
+      "label": "03-step1-exact-reset",
+      "time": 5,
+      "stateEqual": true,
+      "cameraEqual": true
+    },
+    {
+      "label": "09-step26-corrected-active-connection",
+      "time": 395.1836938888886,
+      "stateEqual": true,
+      "cameraEqual": true
+    },
+    {
+      "label": "01-intro-finished-hero",
+      "time": 0,
+      "stateEqual": true,
+      "cameraEqual": true
+    },
+    {
+      "label": "03-step1-exact-reset",
+      "time": 5,
+      "stateEqual": true,
+      "cameraEqual": true
+    }
+  ],
+  "faviconConfirmations": [
+    {
+      "url": "http://127.0.0.1:3016/favicon.ico",
+      "status": 404,
+      "method": "GET",
+      "resourceType": "explicit-diagnostic-HTTP-probe",
+      "project": "wf311613-final-micro-pass:720p",
+      "source": "Read-only Playwright API GET of exact console.location URL absent from page.response",
+      "headers": {
+        "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+        "x-nextjs-cache": "HIT",
+        "x-nextjs-prerender": "1, 1",
+        "x-nextjs-stale-time": "300",
+        "x-powered-by": "Next.js",
+        "etag": "\"1252rbe37n04ky\"",
+        "content-type": "text/html; charset=utf-8",
+        "content-encoding": "gzip",
+        "date": "Sat, 03 Oct 2026 23:46:03 GMT",
+        "connection": "keep-alive",
+        "keep-alive": "timeout=5",
+        "transfer-encoding": "chunked"
+      },
+      "bodyBytes": 5938,
+      "consoleLocation": {
+        "url": "http://127.0.0.1:3016/favicon.ico",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "confirmedAt": "2026-10-03T23:46:03.146Z"
+    }
+  ],
+  "finishedAt": "2026-10-03T23:46:03.439Z"
+}

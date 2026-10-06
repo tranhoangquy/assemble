@@ -1,0 +1,824 @@
+[
+  {
+    "id": "joint-left-early-panel-top",
+    "group": "closeups",
+    "time": 33.143390000000004,
+    "title": "joint-left-early-panel-top",
+    "partIds": [
+      "A5"
+    ],
+    "camera": {
+      "position": [
+        27.775001525878906,
+        286.29516406698264,
+        5.694903281339652
+      ],
+      "target": [
+        27.775001525878906,
+        1.5499999999999998,
+        0
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-A1-early-cams",
+    "group": "closeups",
+    "time": 33.143390000000004,
+    "title": "joint-A1-early-cams",
+    "partIds": [
+      "A1"
+    ],
+    "camera": {
+      "position": [
+        0,
+        367.4133574420744,
+        36.879503616311155
+      ],
+      "target": [
+        0,
+        1.5499999999999998,
+        -18
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-A3-early-cams",
+    "group": "closeups",
+    "time": 33.143390000000004,
+    "title": "joint-A3-early-cams",
+    "partIds": [
+      "A3"
+    ],
+    "camera": {
+      "position": [
+        0,
+        367.4133574420744,
+        72.87950361631115
+      ],
+      "target": [
+        0,
+        1.5499999999999998,
+        18
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-right-early-panel-top",
+    "group": "closeups",
+    "time": 49.56768277777778,
+    "title": "joint-right-early-panel-top",
+    "partIds": [
+      "A6"
+    ],
+    "camera": {
+      "position": [
+        -27.775001525878906,
+        286.29516406698264,
+        5.694903281339652
+      ],
+      "target": [
+        -27.775001525878906,
+        1.5499999999999998,
+        0
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-A2-early-cams",
+    "group": "closeups",
+    "time": 49.56768277777778,
+    "title": "joint-A2-early-cams",
+    "partIds": [
+      "A2"
+    ],
+    "camera": {
+      "position": [
+        0,
+        367.4133574420744,
+        36.879503616311155
+      ],
+      "target": [
+        0,
+        1.5499999999999998,
+        -18
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-A4-early-cams",
+    "group": "closeups",
+    "time": 49.56768277777778,
+    "title": "joint-A4-early-cams",
+    "partIds": [
+      "A4"
+    ],
+    "camera": {
+      "position": [
+        0,
+        367.4133574420744,
+        72.87950361631115
+      ],
+      "target": [
+        0,
+        1.5499999999999998,
+        18
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-B8-4-left",
+    "group": "closeups",
+    "time": 198.8136938888889,
+    "title": "joint-B8-4-left",
+    "partIds": [
+      "B8-4--1"
+    ],
+    "camera": {
+      "position": [
+        134.08627952871842,
+        150.28144783505144,
+        -98.19676771723105
+      ],
+      "target": [
+        -59.575,
+        82.5,
+        18
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-B8-5-left",
+    "group": "closeups",
+    "time": 198.8136938888889,
+    "title": "joint-B8-5-left",
+    "partIds": [
+      "B8-5--1"
+    ],
+    "camera": {
+      "position": [
+        134.08627952871842,
+        205.28144783505144,
+        -98.19676771723105
+      ],
+      "target": [
+        -59.575,
+        137.5,
+        18
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-B8-6-left",
+    "group": "closeups",
+    "time": 198.8136938888889,
+    "title": "joint-B8-6-left",
+    "partIds": [
+      "B8-6--1"
+    ],
+    "camera": {
+      "position": [
+        135.27817129404644,
+        261.6986099529163,
+        -98.91190277642788
+      ],
+      "target": [
+        -59.575,
+        193.5,
+        18
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-bearing-left",
+    "group": "closeups",
+    "time": 365.1836938888889,
+    "title": "joint-bearing-left",
+    "partIds": [
+      "S23-H19"
+    ],
+    "camera": {
+      "position": [
+        -72.41435525603163,
+        27.23747566038893,
+        -171.12138684638103
+      ],
+      "target": [
+        -115.95,
+        12,
+        -145
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-pivot25-left",
+    "group": "closeups",
+    "time": 389.1836938888889,
+    "title": "joint-pivot25-left",
+    "partIds": [
+      "E1--1"
+    ],
+    "camera": {
+      "position": [
+        -44.18474536808057,
+        56.665626012026834,
+        -50.114052053582625
+      ],
+      "target": [
+        -115.22499998509883,
+        31.801536896070445,
+        -7.48989928337167
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-mechanism26-left",
+    "group": "closeups",
+    "time": 398.4836938888889,
+    "title": "joint-mechanism26-left",
+    "partIds": [
+      "E1--1"
+    ],
+    "camera": {
+      "position": [
+        -51.137014372909476,
+        53.93079496426627,
+        -47.65279136731359
+      ],
+      "target": [
+        -115.22499998509883,
+        31.5,
+        -9.199999999999982
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-piston27-left",
+    "group": "closeups",
+    "time": 408.78369388888893,
+    "title": "joint-piston27-left",
+    "partIds": [
+      "E2--1"
+    ],
+    "camera": {
+      "position": [
+        23.040179875231388,
+        114.61959909277572,
+        -82.76931273047265
+      ],
+      "target": [
+        -115.15867467555637,
+        66.25,
+        0.150000000000011
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-piston-open-left",
+    "group": "closeups",
+    "time": 516.8,
+    "title": "joint-piston-open-left",
+    "partIds": [
+      "E2--1"
+    ],
+    "camera": {
+      "position": [
+        0.43070299704157833,
+        113.71069488524901,
+        -62.211191231855466
+      ],
+      "target": [
+        -115.1712823893842,
+        73.25,
+        7.150000000000007
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-leg29-left",
+    "group": "closeups",
+    "time": 460.6836938888889,
+    "title": "joint-leg29-left",
+    "partIds": [
+      "leg--1"
+    ],
+    "camera": {
+      "position": [
+        -36.503589270529545,
+        46.84274375030787,
+        -233.60184604762946
+      ],
+      "target": [
+        -115.33999998569489,
+        19.25,
+        -186.29999961853025
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-leg-open-left",
+    "group": "closeups",
+    "time": 516.8,
+    "title": "joint-leg-open-left",
+    "partIds": [
+      "leg--1"
+    ],
+    "camera": {
+      "position": [
+        -36.503589270529545,
+        46.84274375030787,
+        -233.60184604762946
+      ],
+      "target": [
+        -115.33999998569489,
+        19.25,
+        -186.29999961853025
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-wall-left-0",
+    "group": "closeups",
+    "time": 503.2336938888889,
+    "title": "joint-wall-left-0",
+    "partIds": [
+      "S30-H15-0"
+    ],
+    "camera": {
+      "position": [
+        -184.9581348421878,
+        226.90244042426963,
+        -32.756507845736074
+      ],
+      "target": [
+        -121.95000009462237,
+        208,
+        17.649999952316286
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-wall-left-1",
+    "group": "closeups",
+    "time": 503.2336938888889,
+    "title": "joint-wall-left-1",
+    "partIds": [
+      "S30-H15-1"
+    ],
+    "camera": {
+      "position": [
+        -184.9581348421878,
+        50.90244042426963,
+        -32.756507845736074
+      ],
+      "target": [
+        -121.95000009462237,
+        32,
+        17.649999952316286
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-side-left-outer",
+    "group": "closeups",
+    "time": 503.2336938888889,
+    "title": "joint-side-left-outer",
+    "partIds": [
+      "A5"
+    ],
+    "camera": {
+      "position": [
+        -398.2839106848291,
+        182.31758812860326,
+        -28.028391068482915
+      ],
+      "target": [
+        -118,
+        140.2750015258789,
+        0
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-side-left-inner",
+    "group": "closeups",
+    "time": 516.8,
+    "title": "joint-side-left-inner",
+    "partIds": [
+      "A5"
+    ],
+    "camera": {
+      "position": [
+        152.0182938170674,
+        180.77774559843903,
+        -81.00548814512022
+      ],
+      "target": [
+        -118,
+        140.2750015258789,
+        0
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-B8-4-right",
+    "group": "closeups",
+    "time": 198.8136938888889,
+    "title": "joint-B8-4-right",
+    "partIds": [
+      "B8-4-1"
+    ],
+    "camera": {
+      "position": [
+        -134.08627952871842,
+        150.28144783505144,
+        -98.19676771723105
+      ],
+      "target": [
+        59.575,
+        82.5,
+        18
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-B8-5-right",
+    "group": "closeups",
+    "time": 198.8136938888889,
+    "title": "joint-B8-5-right",
+    "partIds": [
+      "B8-5-1"
+    ],
+    "camera": {
+      "position": [
+        -134.08627952871842,
+        205.28144783505144,
+        -98.19676771723105
+      ],
+      "target": [
+        59.575,
+        137.5,
+        18
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-B8-6-right",
+    "group": "closeups",
+    "time": 198.8136938888889,
+    "title": "joint-B8-6-right",
+    "partIds": [
+      "B8-6-1"
+    ],
+    "camera": {
+      "position": [
+        -135.27817129404644,
+        261.6986099529163,
+        -98.91190277642788
+      ],
+      "target": [
+        59.575,
+        193.5,
+        18
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-bearing-right",
+    "group": "closeups",
+    "time": 372.28369388888893,
+    "title": "joint-bearing-right",
+    "partIds": [
+      "S24-H19"
+    ],
+    "camera": {
+      "position": [
+        72.41435525603163,
+        27.23747566038893,
+        -171.12138684638103
+      ],
+      "target": [
+        115.95,
+        12,
+        -145
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-pivot25-right",
+    "group": "closeups",
+    "time": 389.1836938888889,
+    "title": "joint-pivot25-right",
+    "partIds": [
+      "E1-1"
+    ],
+    "camera": {
+      "position": [
+        44.18474536808057,
+        56.665626012026834,
+        -50.114052053582625
+      ],
+      "target": [
+        115.22499998509883,
+        31.801536896070445,
+        -7.48989928337167
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-mechanism26-right",
+    "group": "closeups",
+    "time": 398.4836938888889,
+    "title": "joint-mechanism26-right",
+    "partIds": [
+      "E1-1"
+    ],
+    "camera": {
+      "position": [
+        51.137014372909476,
+        53.93079496426627,
+        -47.65279136731359
+      ],
+      "target": [
+        115.22499998509883,
+        31.5,
+        -9.199999999999982
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-piston27-right",
+    "group": "closeups",
+    "time": 408.78369388888893,
+    "title": "joint-piston27-right",
+    "partIds": [
+      "E2-1"
+    ],
+    "camera": {
+      "position": [
+        -23.040179875231388,
+        114.61959909277572,
+        -82.76931273047265
+      ],
+      "target": [
+        115.15867467555637,
+        66.25,
+        0.150000000000011
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-piston-open-right",
+    "group": "closeups",
+    "time": 516.8,
+    "title": "joint-piston-open-right",
+    "partIds": [
+      "E2-1"
+    ],
+    "camera": {
+      "position": [
+        -0.43070299704157833,
+        113.71069488524901,
+        -62.211191231855466
+      ],
+      "target": [
+        115.1712823893842,
+        73.25,
+        7.150000000000007
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-leg29-right",
+    "group": "closeups",
+    "time": 460.6836938888889,
+    "title": "joint-leg29-right",
+    "partIds": [
+      "leg-1"
+    ],
+    "camera": {
+      "position": [
+        36.503589270529545,
+        46.84274375030787,
+        -233.60184604762946
+      ],
+      "target": [
+        115.33999998569489,
+        19.25,
+        -186.29999961853025
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-leg-open-right",
+    "group": "closeups",
+    "time": 516.8,
+    "title": "joint-leg-open-right",
+    "partIds": [
+      "leg-1"
+    ],
+    "camera": {
+      "position": [
+        36.503589270529545,
+        46.84274375030787,
+        -233.60184604762946
+      ],
+      "target": [
+        115.33999998569489,
+        19.25,
+        -186.29999961853025
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-wall-right-0",
+    "group": "closeups",
+    "time": 503.2336938888889,
+    "title": "joint-wall-right-0",
+    "partIds": [
+      "S31-H15-0"
+    ],
+    "camera": {
+      "position": [
+        184.9581348421878,
+        226.90244042426963,
+        -32.756507845736074
+      ],
+      "target": [
+        121.95000009462237,
+        208,
+        17.649999952316286
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-wall-right-1",
+    "group": "closeups",
+    "time": 503.2336938888889,
+    "title": "joint-wall-right-1",
+    "partIds": [
+      "S31-H15-1"
+    ],
+    "camera": {
+      "position": [
+        184.9581348421878,
+        50.90244042426963,
+        -32.756507845736074
+      ],
+      "target": [
+        121.95000009462237,
+        32,
+        17.649999952316286
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-side-right-outer",
+    "group": "closeups",
+    "time": 503.2336938888889,
+    "title": "joint-side-right-outer",
+    "partIds": [
+      "A6"
+    ],
+    "camera": {
+      "position": [
+        398.2839106848291,
+        182.31758812860326,
+        -28.028391068482915
+      ],
+      "target": [
+        118,
+        140.2750015258789,
+        0
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-side-right-inner",
+    "group": "closeups",
+    "time": 516.8,
+    "title": "joint-side-right-inner",
+    "partIds": [
+      "A6"
+    ],
+    "camera": {
+      "position": [
+        -152.0182938170674,
+        180.77774559843903,
+        -81.00548814512022
+      ],
+      "target": [
+        118,
+        140.2750015258789,
+        0
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-grid-top",
+    "group": "closeups",
+    "time": 290.0236938888889,
+    "title": "joint-grid-top",
+    "partIds": [
+      "C1-start",
+      "C1-close",
+      "C2-left",
+      "C2-right"
+    ],
+    "camera": {
+      "position": [
+        0,
+        511.8035263671583,
+        -214.85392947265683
+      ],
+      "target": [
+        0,
+        4.5,
+        -225
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-carrier-top",
+    "group": "closeups",
+    "time": 332.8336938888889,
+    "title": "joint-carrier-top",
+    "partIds": [
+      "C8-left",
+      "C8-right",
+      "C9",
+      "D1"
+    ],
+    "camera": {
+      "position": [
+        0,
+        509.9550757275928,
+        -215.04089848544814
+      ],
+      "target": [
+        0,
+        12,
+        -225
+      ],
+      "fov": 38
+    }
+  },
+  {
+    "id": "joint-ties-top",
+    "group": "closeups",
+    "time": 316.5736938888889,
+    "title": "joint-ties-top",
+    "partIds": [
+      "C7-0",
+      "C7-1",
+      "C7-2"
+    ],
+    "camera": {
+      "position": [
+        0,
+        307.84877177029307,
+        -218.87302456459415
+      ],
+      "target": [
+        0,
+        1.5,
+        -225
+      ],
+      "fov": 38
+    }
+  }
+]

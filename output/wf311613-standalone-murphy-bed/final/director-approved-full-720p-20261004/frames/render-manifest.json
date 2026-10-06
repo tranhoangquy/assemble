@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "version": 1,
+    "productId": "wf311613-final-micro-pass",
+    "videoId": "wf311613-final-micro-pass",
+    "videoHash": "58fb308c0117e3c9116aefa09a9f2bee840216ca23aca7d30240fca529c8c22b",
+    "profileId": "720p",
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "startTime": 0
+  },
+  "identityHash": "e7987c79fad4548ff71bb36f13902381cb82585d53941c4743411faa9c382ef5",
+  "frameDirectory": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/director-approved-full-720p-20261004/frames",
+  "outputPath": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/director-approved-full-720p-20261004/WF311613-director-approved-full-720p.mp4",
+  "totalFrames": 15722,
+  "timelineDuration": 524.0536938888888,
+  "createdAt": "2026-10-04T16:07:56.698Z"
+}

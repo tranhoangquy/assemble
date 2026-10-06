@@ -1,0 +1,51 @@
+{
+  "startedAt": "2026-10-04T00:30:16.932Z",
+  "viewport": [
+    1280,
+    900
+  ],
+  "actualProductionUI": true,
+  "apiMocked": false,
+  "sourceModified": false,
+  "pageErrors": [],
+  "operations": [],
+  "valid": false,
+  "error": {
+    "message": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Export video', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <button class=\"export-action\">Export video</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\u001b[2m    - click action done\u001b[22m\n\u001b[2m    - waiting for scheduled navigations to finish\u001b[22m\n",
+    "stack": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Export video', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <button class=\"export-action\">Export video</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\u001b[2m    - click action done\u001b[22m\n\u001b[2m    - waiting for scheduled navigations to finish\u001b[22m\n\n    at /Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/web-qa/diagnose-profile-selection.mjs:23:67"
+  },
+  "events": [],
+  "finalInputs": [
+    {
+      "id": "1280x720",
+      "checked": false,
+      "disabled": false
+    },
+    {
+      "id": "1920x1080",
+      "checked": true,
+      "disabled": false
+    },
+    {
+      "id": "720p",
+      "checked": false,
+      "disabled": false
+    },
+    {
+      "id": "1080p",
+      "checked": false,
+      "disabled": false
+    },
+    {
+      "id": "1440p",
+      "checked": false,
+      "disabled": false
+    },
+    {
+      "id": "2160p",
+      "checked": false,
+      "disabled": false
+    }
+  ],
+  "finishedAt": "2026-10-04T00:32:20.378Z"
+}

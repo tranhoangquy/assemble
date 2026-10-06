@@ -1,0 +1,23 @@
+{
+  "status": "TECHNICAL_CHECKS_ONLY_LISTENING_PENDING",
+  "samples_per_channel": 25155200,
+  "duration_seconds": 524.0666666666667,
+  "sample_rate": 48000,
+  "channels": 2,
+  "wav_codec": "pcm_s24le",
+  "candidate_sample_peak_dbfs": -7.687831296895501,
+  "all_samples_finite": true,
+  "clipping": "PASS_NO_ADDED_SAMPLE_CLIPPING",
+  "interior_100ms_windows_below_minus70_dbfs": [],
+  "rms_left_right": [
+    0.08589258278246668,
+    0.08489164870895786
+  ],
+  "rms_channel_difference_db": 0.10181387786611963,
+  "source_mp3_true_peak_warning": "Source decoder true peaks exceeded 0 dBTP in technical measurements; gain reduction used for final candidate headroom. Existing source damage cannot be ruled out by metrics.",
+  "musical_phrase_validation": "NOT_PERFORMED",
+  "perceptual_loudness_matching": "NOT_PERFORMED",
+  "transition_flams_bass_harmonic_collision_pops": "LISTENING_REQUIRED",
+  "full_8m44_listening": "NOT_PERFORMED",
+  "final_mux": "NOT_CREATED_DUE_TO_LISTENING_GATE"
+}

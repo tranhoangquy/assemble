@@ -1,0 +1,25 @@
+# Music analysis, review and final mux
+## Acquisition and analysis
+First identify intended use/platform and verify per-track rights, credits and source evidence. Obtain director-approved official/source assets or explicitly supplied local production files. If supplied files are authorized, do not download again or substitute mirrors/versions. Hash originals/copies; probe codec, sample rate, channels, bitrate, duration. Compare intended track identity against authoritative URLs/credits, file metadata and listening/fingerprint evidence when available. A filename or hash alone does not establish musical identity; record the method and uncertainty.
+
+Decode approved sources to a consistent working rate/channel layout. Inspect waveform, energy and phrase/bar structure; listen when capability exists. Record intro/body/outro, tentative tempo/bar boundaries, confidence and chosen natural source IN/OUT. Trim obvious fresh-song intros/outros where useful, avoid complete-song concatenation or blind loops. Candidate crossfades often begin around 2–6 seconds; choose by listening, not a mandatory numeric rule. Complementary half-cosine keeps gain sums constant; equal-power sin/cos suits other texture relationships but can emphasize correlated overlap. Record the chosen curves, length and reason. Perceptually match gains; metrics support rather than replace hearing.
+
+## Sample-accurate timeline
+Use integer working-sample indices and explicit rounding. For clips without retiming:
+`globalEnd[i] = globalStart[i] + sourceOut[i] - sourceIn[i]`;
+`globalStart[i+1] = globalEnd[i] - overlap[i]`.
+Transition interval is `[globalStart[i+1], globalEnd[i]]`. Recompute every downstream global point after upstream changes while preserving approved source relationships. Derive final source OUT from locked video length; ensure available source covers it without blind looping. Report requested and quantized source/global seconds and samples. Record any final endpoint mismatch and remedy; do not retime video.
+
+Keep approved gains provisionally when only a transition changes; do not normalize again without evidence/authorization. Render a lossless WAV first at exact required duration, with intentional intro and final musical ending/fade. Save a versioned edit plan rather than overwriting history. Analyze decode integrity, integrated LUFS, LRA, true/sample peaks, finite samples, internal silence/dropouts and duration. Loudness/peak limits come from brief/platform, not inherited values from a prior product. Maintain headroom and verify compressed preview peaks too.
+
+## Listening package
+Produce complete compressed preview plus final transition, intro and ending excerpts from the actual rebuilt mix. Include context on both sides of transitions. Listen to the complete mix if capable; record who listened, tool/capability, coverage and observations (clashes, phasing, jumps, beat discontinuity, voice, repeated sections, ending). Without capability, mark agent listening NOT RUN and return director clips/full preview. No-voice compliance requires hearing, not tags or metrics. Director transition choices are locked until a later full listening review reveals a problem; whole-track approval is a separate gate.
+
+## Locked-master mux
+Only after complete visual/audio approvals and within authorized final scope:
+1. Hash both inputs before mux, use fresh final path, map only locked video and approved audio. Prefer `-c:v copy`; encode audio per approved output profile. Record exact command; no unapproved gains/fades/EQ/limiting. For music-only trace audio inputs/filters to prove zero SFX, narration or ambience.
+2. Verify after mux every ordered video packet's payload hash, PTS/DTS, duration, size, flags/side data, plus codec/extradata/timebase/frame count. If container conversion prevents literal identity, report exact exception and verify applicable bitstream/decoded-frame equivalence; never silently claim identical. Hash inputs again.
+3. Fully decode final A/V; probe native dimensions, frame rate, codec, sample rate, channels, actual bitrate, durations and frame count. Compare audio alignment against approved WAV at beginning, each transition, middle, late assembly/showcase and fade/end. Numeric correlation is technical evidence, not listening approval.
+4. AAC priming/padding/edit lists can round declared endpoints. Check decoded sample counts, last packets, declared stream duration and intended fade tail separately. Use a suitable movie timescale if needed to preserve audio endpoint precision; do not truncate approved tail with a blind `-shortest`. Report padding/rounding honestly.
+5. Measure final encoded loudness/peaks/clipping, finite samples and internal silence; verify faststart (`moov` before `mdat`) if required. Final hash/size, credits, approvals and all evidence belong in final QA package. Stream-copy review excerpts may include GOP/audio preroll: record requested versus actual range.
+6. Final director approval plus technical QA locks the final revision. Return for review if final creative approval is pending. Do not upload automatically.

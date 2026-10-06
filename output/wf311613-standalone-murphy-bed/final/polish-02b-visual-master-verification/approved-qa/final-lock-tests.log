@@ -1,0 +1,13 @@
+
+> furniture-video-engine@0.2.0 test
+> vitest run --maxWorkers=2 src/products/wf311613-standalone-murphy-bed/tests/polish-pass02b.test.ts
+
+
+ RUN  v4.1.11 /Users/quyth/development/three/POC
+
+
+ Test Files  1 passed (1)
+      Tests  2 passed (2)
+   Start at  17:59:59
+   Duration  1.45s (transform 299ms, setup 0ms, import 520ms, tests 41ms, environment 0ms)
+

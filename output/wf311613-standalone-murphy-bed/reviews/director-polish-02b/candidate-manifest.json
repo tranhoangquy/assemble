@@ -1,0 +1,20 @@
+{
+  "candidate": "wf311613-director-polish-02b",
+  "planSha256": "bf43ecdb93c8a43dd50ea4a9e46306882902cbaf813e24438826f8585045e520",
+  "videoSha256": "f222e140bea7131b36003150b450372689458972b69d4705d3caee7345b76882",
+  "presentationHashes": {
+    "src/presentation/finished-bedroom/FinishedBedroom.tsx": "f372b33c0afc34b61c1c5178f8fb16cebea432520a3ea4486cad19c0b8abb4d5",
+    "src/presentation/finished-bedroom/ResidentialBedroom.tsx": "6a915783c8afcc8c970e3f8a667cfa27f364510661e389cae66da8a2624f2b98",
+    "src/types/presentation.ts": "165a62918f7e0f84f85855b09f744a245701dc412024c32981911d31bcd7960f",
+    "src/products/wf311613-standalone-murphy-bed/director/polish-pass02b.ts": "ad6dd62ef9d5437a2b159fdf65de680fb44498f434f851c38d8d1aecdc3a5a27"
+  },
+  "stillHashes": {
+    "01-finished-closed.png": "29a4b04a023c741458f334ae68ba54165666bbc49ed4a0729ea9bdafd3bc7089",
+    "02-finished-open-bare.png": "42ec8bd3728bce45fb9e709c687115a668529c158140ad78c4d1b533636a4d28",
+    "03-mattress-fit-medium.png": "738ec5e8762e311c417a07fdb194c71c030987a786d30d77e89dcdcc0e4a896b",
+    "04-mattress-bedding.png": "c15686120c86a79c4b47403455147916830683770410eb098b736902229158b2",
+    "05-final-hero.png": "c15686120c86a79c4b47403455147916830683770410eb098b736902229158b2"
+  },
+  "fullMp4Rendered": false,
+  "audioApproved": false
+}

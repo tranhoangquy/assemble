@@ -1,0 +1,222 @@
+[
+  {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/frames/director-polish-01-full-review",
+    "classification": "SAFE_TO_DELETE",
+    "category": "superseded historical raw frame cache",
+    "reason": "Superseded by hash-verified director-approved full master; no checkpoint/production resumable job; review outputs and audit evidence retained.",
+    "files": 14948,
+    "bytes": 8667141846,
+    "allocatedBytes": 8698994688,
+    "directories": 1,
+    "mode": "directory"
+  },
+  {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/frames/wf311613-final-micro-pass-Shtv30",
+    "classification": "SAFE_TO_DELETE",
+    "category": "superseded historical raw frame cache",
+    "reason": "Superseded by hash-verified director-approved full master; no checkpoint/production resumable job; review outputs and audit evidence retained.",
+    "files": 150,
+    "bytes": 77317925,
+    "allocatedBytes": 77574144,
+    "directories": 1,
+    "mode": "directory"
+  },
+  {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/frames/wf311613-final-review-720p-fresh-ZmTrlx",
+    "classification": "SAFE_TO_DELETE",
+    "category": "superseded historical raw frame cache",
+    "reason": "Superseded by hash-verified director-approved full master; no checkpoint/production resumable job; review outputs and audit evidence retained.",
+    "files": 15722,
+    "bytes": 8955467709,
+    "allocatedBytes": 8987594752,
+    "directories": 1,
+    "mode": "directory"
+  },
+  {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/frames/wf311613-full-assembly-LJw3Qy",
+    "classification": "SAFE_TO_DELETE",
+    "category": "superseded historical raw frame cache",
+    "reason": "Superseded by hash-verified director-approved full master; no checkpoint/production resumable job; review outputs and audit evidence retained.",
+    "files": 12,
+    "bytes": 3938242,
+    "allocatedBytes": 3940352,
+    "directories": 1,
+    "mode": "directory"
+  },
+  {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/frames/wf311613-full-assembly-qt7qcW",
+    "classification": "SAFE_TO_DELETE",
+    "category": "superseded historical raw frame cache",
+    "reason": "Superseded by hash-verified director-approved full master; no checkpoint/production resumable job; review outputs and audit evidence retained.",
+    "files": 15236,
+    "bytes": 5641439811,
+    "allocatedBytes": 5672771584,
+    "directories": 1,
+    "mode": "directory"
+  },
+  {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/frames/wf311613-polish-02b-visual-master-new-d0SrbS",
+    "classification": "SAFE_TO_DELETE",
+    "category": "superseded historical raw frame cache",
+    "reason": "Superseded by hash-verified director-approved full master; no checkpoint/production resumable job; review outputs and audit evidence retained.",
+    "files": 15572,
+    "bytes": 8875268190,
+    "allocatedBytes": 8906985472,
+    "directories": 1,
+    "mode": "directory"
+  },
+  {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/frames/wf311613-steps01-03-action-speed-Ikf7wS",
+    "classification": "SAFE_TO_DELETE",
+    "category": "superseded historical raw frame cache",
+    "reason": "Superseded by hash-verified director-approved full master; no checkpoint/production resumable job; review outputs and audit evidence retained.",
+    "files": 2948,
+    "bytes": 1017699422,
+    "allocatedBytes": 1023848448,
+    "directories": 1,
+    "mode": "directory"
+  },
+  {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/frames/wf311613-steps01-03-action-speed-PuHFnX",
+    "classification": "SAFE_TO_DELETE",
+    "category": "superseded historical raw frame cache",
+    "reason": "Superseded by hash-verified director-approved full master; no checkpoint/production resumable job; review outputs and audit evidence retained.",
+    "files": 3776,
+    "bytes": 1321239389,
+    "allocatedBytes": 1329078272,
+    "directories": 1,
+    "mode": "directory"
+  },
+  {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/frames/wf311613-steps01-10-paced-hc5TUQ",
+    "classification": "SAFE_TO_DELETE",
+    "category": "superseded historical raw frame cache",
+    "reason": "Superseded by hash-verified director-approved full master; no checkpoint/production resumable job; review outputs and audit evidence retained.",
+    "files": 6778,
+    "bytes": 3017029493,
+    "allocatedBytes": 3030994944,
+    "directories": 1,
+    "mode": "directory"
+  },
+  {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/frames/wf311613-steps01-20-paced-Bv12AW",
+    "classification": "SAFE_TO_DELETE",
+    "category": "superseded historical raw frame cache",
+    "reason": "Superseded by hash-verified director-approved full master; no checkpoint/production resumable job; review outputs and audit evidence retained.",
+    "files": 10799,
+    "bytes": 4675371304,
+    "allocatedBytes": 4697980928,
+    "directories": 1,
+    "mode": "directory"
+  },
+  {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/frames/wf311613-steps01-20-paced-MT91D3",
+    "classification": "SAFE_TO_DELETE",
+    "category": "superseded historical raw frame cache",
+    "reason": "Superseded by hash-verified director-approved full master; no checkpoint/production resumable job; review outputs and audit evidence retained.",
+    "files": 60,
+    "bytes": 24309590,
+    "allocatedBytes": 24346624,
+    "directories": 1,
+    "mode": "directory"
+  },
+  {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/frames/wf311613-steps01-20-paced-un2DsQ",
+    "classification": "SAFE_TO_DELETE",
+    "category": "superseded historical raw frame cache",
+    "reason": "Superseded by hash-verified director-approved full master; no checkpoint/production resumable job; review outputs and audit evidence retained.",
+    "files": 2573,
+    "bytes": 894300277,
+    "allocatedBytes": 899616768,
+    "directories": 1,
+    "mode": "directory"
+  },
+  {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/director-approved-full-720p-20261004/frames",
+    "classification": "SAFE_TO_DELETE",
+    "category": "completed approved render raw frames only",
+    "reason": "Master full decode verified; retain render-manifest.json/native-surface.json and all decoded QA/approval evidence.",
+    "mode": "explicit_files",
+    "files": 15722,
+    "bytes": 8946240021,
+    "allocatedBytes": 8979021824,
+    "directories": 0
+  },
+  {
+    "path": "/Users/quyth/development/three/POC/output/export-jobs/render-2160p-28b64adbfab9-7c272aa6-c7f7-41a8-a7dc-6227e2c863ce",
+    "classification": "SAFE_TO_DELETE",
+    "category": "completed development smoke jobs",
+    "reason": "Known four-frame Demo Cabinet QA runs; archive manifest/log evidence before removal.",
+    "mode": "directory",
+    "files": 10,
+    "bytes": 1473217,
+    "allocatedBytes": 1499136,
+    "directories": 4
+  },
+  {
+    "path": "/Users/quyth/development/three/POC/output/export-jobs/render-720p-ff354b7abfca-5e431515-718a-421a-aec9-a9f020f35195",
+    "classification": "SAFE_TO_DELETE",
+    "category": "completed development smoke jobs",
+    "reason": "Known four-frame Demo Cabinet QA runs; archive manifest/log evidence before removal.",
+    "mode": "directory",
+    "files": 10,
+    "bytes": 351862,
+    "allocatedBytes": 368640,
+    "directories": 4
+  },
+  {
+    "path": "/Users/quyth/development/three/POC/output/export-jobs/render-720p-ff354b7abfca-6f748ebb-425c-446d-8c72-0670c9feaa2a",
+    "classification": "SAFE_TO_DELETE",
+    "category": "completed development smoke jobs",
+    "reason": "Known four-frame Demo Cabinet QA runs; archive manifest/log evidence before removal.",
+    "mode": "directory",
+    "files": 10,
+    "bytes": 352052,
+    "allocatedBytes": 368640,
+    "directories": 4
+  },
+  {
+    "path": "/Users/quyth/development/three/POC/output/export-infrastructure-qa/2026-10-05T09-16-07-566Z/01-resumable-ui.png",
+    "classification": "SAFE_TO_DELETE",
+    "category": "disposable automated UI smoke screenshots",
+    "reason": "Final/failed smoke JSON reports and all validation logs retained.",
+    "mode": "file",
+    "files": 1,
+    "bytes": 141647,
+    "allocatedBytes": 143360,
+    "directories": 0
+  },
+  {
+    "path": "/Users/quyth/development/three/POC/output/export-infrastructure-qa/2026-10-05T09-16-07-566Z/02-completed-ui.png",
+    "classification": "SAFE_TO_DELETE",
+    "category": "disposable automated UI smoke screenshots",
+    "reason": "Final/failed smoke JSON reports and all validation logs retained.",
+    "mode": "file",
+    "files": 1,
+    "bytes": 137608,
+    "allocatedBytes": 139264,
+    "directories": 0
+  },
+  {
+    "path": "/Users/quyth/development/three/POC/output/export-infrastructure-qa/2026-10-05T09-24-04-256Z/01-resumable-ui.png",
+    "classification": "SAFE_TO_DELETE",
+    "category": "disposable automated UI smoke screenshots",
+    "reason": "Final/failed smoke JSON reports and all validation logs retained.",
+    "mode": "file",
+    "files": 1,
+    "bytes": 142405,
+    "allocatedBytes": 143360,
+    "directories": 0
+  },
+  {
+    "path": "/Users/quyth/development/three/POC/output/export-infrastructure-qa/2026-10-05T09-24-04-256Z/02-completed-ui.png",
+    "classification": "SAFE_TO_DELETE",
+    "category": "disposable automated UI smoke screenshots",
+    "reason": "Final/failed smoke JSON reports and all validation logs retained.",
+    "mode": "file",
+    "files": 1,
+    "bytes": 137597,
+    "allocatedBytes": 139264,
+    "directories": 0
+  }
+]

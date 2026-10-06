@@ -1,0 +1,39 @@
+{
+  "status": "PASS_MUSIC_ONLY_PASS02_GRAPH",
+  "inputs": [
+    {
+      "track_id": "A",
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/sources/A-director-supplied.mp3",
+      "sha256": "419442217a6d6300803a3d552eb7b4451a156a6fe671e19a449cdef55698a132"
+    },
+    {
+      "track_id": "B",
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/sources/B-director-supplied.mp3",
+      "sha256": "d2685ec597c6fbefe73afcf134827b8692d5a12730787cf5f692c04aa54a3e80"
+    },
+    {
+      "track_id": "C",
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/sources/C-director-supplied.mp3",
+      "sha256": "dc5daba50f889602e26207c1cc3ddb22e5f6b5d352235621f6e9c445f07caf5d"
+    }
+  ],
+  "SFX_used": false,
+  "AudioCuePlan_applied": false,
+  "procedural_assets_used": false,
+  "narration_used": false,
+  "workshop_ambience_used": false,
+  "hidden_additional_layer": false,
+  "operations": [
+    "decode/resample to 48kHz stereo",
+    "source trims",
+    "fixed gains unchanged",
+    "approved AB crossfade",
+    "baseline BC crossfade",
+    "baseline master fades"
+  ],
+  "AB_locked_candidate_bit_exact": "PASS",
+  "BC_baseline_review_bit_exact": "PASS",
+  "intro_baseline_bit_exact": "PASS",
+  "video_input_used": false,
+  "final_mux_created": false
+}

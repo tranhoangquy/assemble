@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "codec": "AAC LC",
+  "sample_rate": 48000,
+  "channels": 2,
+  "bitrate_bps": 253582,
+  "duration_seconds": 524.066667,
+  "integrated_lufs": -20.0,
+  "true_peak_dbtp": -7.1,
+  "decoded_sample_peak_dbfs": -7.095001,
+  "loudness_range_lu": 7.3,
+  "clipping": "PASS",
+  "measurement_rounding": "ebur128 summary LUFS/LRA/TP rounded to 0.1"
+}

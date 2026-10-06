@@ -1,0 +1,612 @@
+{
+  "candidate": "wf311613-final-micro-pass",
+  "status": "QA ready for director review — not director approval",
+  "introDuration": 5,
+  "timings": {
+    "finishedHero": 1.25,
+    "separation": 2.5,
+    "explodedHold": 0.875,
+    "editorialTransition": 0.375
+  },
+  "groups": [
+    {
+      "id": "cabinet-left-with-mechanism",
+      "targets": [
+        "A1",
+        "A3",
+        "A5",
+        "A7",
+        "A8",
+        "A9",
+        "D8",
+        "E1--1",
+        "S23-H19",
+        "E2--1"
+      ],
+      "worldOffset": [
+        -36,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "cabinet-right-with-mechanism",
+      "targets": [
+        "A2",
+        "A4",
+        "A6",
+        "A7-R",
+        "A8-R",
+        "A9-R",
+        "D9",
+        "E1-1",
+        "S24-H19",
+        "E2-1"
+      ],
+      "worldOffset": [
+        36,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "complete-top-cap",
+      "targets": [
+        "B1-rear",
+        "B1-front",
+        "B2-left",
+        "B3",
+        "B2-right",
+        "B4-left",
+        "B4-right"
+      ],
+      "worldOffset": [
+        0,
+        34,
+        0
+      ]
+    },
+    {
+      "id": "cabinet-back-face",
+      "targets": [
+        "B8-4--1",
+        "B8-4-1",
+        "B7-4",
+        "D4-1",
+        "B8-5--1",
+        "B8-5-1",
+        "B7-5",
+        "D4-2",
+        "B8-6--1",
+        "B8-6-1",
+        "B7-6",
+        "B5",
+        "B6"
+      ],
+      "worldOffset": [
+        0,
+        0,
+        -20
+      ]
+    },
+    {
+      "id": "cabinet-cross-members-and-center-bracket",
+      "targets": [
+        "E3",
+        "B9",
+        "D5",
+        "E4",
+        "E5"
+      ],
+      "worldOffset": [
+        0,
+        0,
+        -35
+      ]
+    },
+    {
+      "id": "bed-carrier-perimeter",
+      "targets": [
+        "C8-left",
+        "C8-right",
+        "C9",
+        "D1"
+      ],
+      "worldOffset": [
+        0,
+        0,
+        -55
+      ]
+    },
+    {
+      "id": "mattress-support-slats",
+      "targets": [
+        "D2-0",
+        "D2-1",
+        "D2-2",
+        "D2-3",
+        "D2-4"
+      ],
+      "worldOffset": [
+        0,
+        0,
+        -78
+      ]
+    },
+    {
+      "id": "complete-bed-face-grid",
+      "targets": [
+        "C2-left",
+        "C4-left",
+        "C5",
+        "C4-right",
+        "C2-right",
+        "C1-start",
+        "C1-close",
+        "C3-0",
+        "C6-0-first",
+        "C6-0-second",
+        "C3-1",
+        "C6-1-first",
+        "C6-1-second",
+        "C3-2",
+        "C6-2-first",
+        "C6-2-second",
+        "C3-3",
+        "C6-3-first",
+        "C6-3-second"
+      ],
+      "worldOffset": [
+        0,
+        0,
+        -105
+      ]
+    },
+    {
+      "id": "underside-cross-ties",
+      "targets": [
+        "C7-0",
+        "C7-1",
+        "C7-2"
+      ],
+      "worldOffset": [
+        0,
+        0,
+        -165
+      ]
+    },
+    {
+      "id": "folded-leg-left",
+      "targets": [
+        "leg--1"
+      ],
+      "worldOffset": [
+        -16,
+        0,
+        -190
+      ]
+    },
+    {
+      "id": "folded-leg-right",
+      "targets": [
+        "leg-1"
+      ],
+      "worldOffset": [
+        16,
+        0,
+        -190
+      ]
+    }
+  ],
+  "derivedFrom": {
+    "baseline": "wf311613-director-polish-02b",
+    "assembledTimestamp": 504.51369388888884,
+    "method": "Completed product ObjectRegistry snapshot; deterministic eased world-axis offsets converted to original parent-local coordinates. No assembly reversal, no reparenting, no mechanical changes."
+  },
+  "propsExcluded": true,
+  "assemblyOrderUnchanged": true,
+  "assemblyActionsAndDurationsUnchanged": true,
+  "presentationUnchanged": true,
+  "step1Reset": {
+    "numerical": {
+      "valid": true,
+      "comparisons": 5,
+      "objects": 458
+    },
+    "pixel": {
+      "pngIdentical": true,
+      "approved": {
+        "sha256": "84a1d48a637a6328541b33ad7ebbd013909879bee59219b46557e0d2c4002766",
+        "camera": {
+          "position": [
+            27.742406000000003,
+            264.08506,
+            190.72904400000002
+          ],
+          "direction": [
+            -0.08570007519381982,
+            -0.8034382165263221,
+            -0.5891880254526363
+          ],
+          "target": [
+            0,
+            4,
+            0
+          ],
+          "fov": 32
+        }
+      },
+      "afterIntro": {
+        "sha256": "84a1d48a637a6328541b33ad7ebbd013909879bee59219b46557e0d2c4002766",
+        "camera": {
+          "position": [
+            27.742406000000003,
+            264.08506,
+            190.72904400000002
+          ],
+          "direction": [
+            -0.08570007519381982,
+            -0.8034382165263221,
+            -0.5891880254526363
+          ],
+          "target": [
+            0,
+            4,
+            0
+          ],
+          "fov": 32
+        }
+      }
+    },
+    "pngReplay": [
+      {
+        "name": "10-step26-secured.png",
+        "identical": true
+      },
+      {
+        "name": "09-step26-active-connection.png",
+        "identical": true
+      },
+      {
+        "name": "08-step26-alignment.png",
+        "identical": true
+      },
+      {
+        "name": "06-step1-reset.png",
+        "identical": true
+      },
+      {
+        "name": "05-before-step1-transition.png",
+        "identical": true
+      },
+      {
+        "name": "04-exploded-hold.png",
+        "identical": true
+      },
+      {
+        "name": "03-fully-exploded.png",
+        "identical": true
+      },
+      {
+        "name": "02-exploded-50-percent.png",
+        "identical": true
+      },
+      {
+        "name": "01-intro-finished.png",
+        "identical": true
+      }
+    ]
+  },
+  "step26": {
+    "oldCamera": {
+      "target": [
+        -109.73666946335138,
+        103.29596496036595,
+        15.794449580059482
+      ],
+      "position": [
+        -23.551404172302963,
+        117.66017584220735,
+        -46.45046424125327
+      ],
+      "fov": 35
+    },
+    "newCamera": {
+      "position": [
+        -114.3,
+        116,
+        17
+      ],
+      "target": [
+        -115.3,
+        111,
+        7
+      ],
+      "fov": 62
+    },
+    "affected": [
+      {
+        "id": "S26-target",
+        "type": "SHOW_TARGET",
+        "duration": 1.7,
+        "stepLocalStart": 2.3000000000000114,
+        "baselineGlobalStart": 386.5036938888886,
+        "prefixedGlobalStart": 391.5036938888886
+      },
+      {
+        "id": "S26-eye-align",
+        "type": "ALIGN_CONNECTION",
+        "duration": 2.2,
+        "stepLocalStart": 4,
+        "baselineGlobalStart": 388.2036938888886,
+        "prefixedGlobalStart": 393.2036938888886
+      },
+      {
+        "id": "S26-retain",
+        "type": "INSTALL_HARDWARE",
+        "duration": 1.9,
+        "stepLocalStart": 6.199999999999989,
+        "baselineGlobalStart": 390.4036938888886,
+        "prefixedGlobalStart": 395.4036938888886
+      },
+      {
+        "id": "S26-verify",
+        "type": "VERIFY_CONNECTION",
+        "duration": 1.2,
+        "stepLocalStart": 8.099999999999966,
+        "baselineGlobalStart": 392.3036938888886,
+        "prefixedGlobalStart": 397.3036938888886
+      }
+    ],
+    "mechanicsUnchanged": true,
+    "visibilityChecks": [
+      {
+        "shot": "S26-target",
+        "p": 0.7,
+        "first": "E2--1-eyeB",
+        "eye": [
+          -115.1,
+          114.5,
+          -9.199999999999982
+        ],
+        "eyeNDC": [
+          0.07040422364860881,
+          0.7122172499321313,
+          0.918009903193313
+        ],
+        "mountNDC": [
+          -0.03449260793920453,
+          -0.35196277611160726,
+          0.789401799946674
+        ],
+        "polarAngle": 1.109135811410844
+      },
+      {
+        "shot": "S26-eye-align",
+        "p": 0.2,
+        "first": "E2--1-eyeB",
+        "eye": [
+          -115.11186527273185,
+          114.32202090902221,
+          -8.460397999714449
+        ],
+        "eyeNDC": [
+          0.06873563231783922,
+          0.6952893643234185,
+          0.9159641372450399
+        ],
+        "mountNDC": [
+          -0.03449260793920453,
+          -0.35196277611160726,
+          0.789401799946674
+        ],
+        "polarAngle": 1.109135811410844
+      },
+      {
+        "shot": "S26-eye-align",
+        "p": 0.5,
+        "first": "E2--1-eyeB",
+        "eye": [
+          -115.2805763161997,
+          111.7913552570045,
+          2.055923709781297
+        ],
+        "eyeNDC": [
+          0.03133426856186275,
+          0.3158519337220232,
+          0.8701084295112266
+        ],
+        "mountNDC": [
+          -0.03449260793920453,
+          -0.35196277611160726,
+          0.789401799946674
+        ],
+        "polarAngle": 1.109135811410844
+      },
+      {
+        "shot": "S26-eye-align",
+        "p": 0.9,
+        "first": "E2--1-eyeB",
+        "eye": [
+          -115.39995222358306,
+          110.00071664625412,
+          9.497021936677331
+        ],
+        "eyeNDC": [
+          -0.034450060019617236,
+          -0.35153112679018883,
+          0.789453965556944
+        ],
+        "mountNDC": [
+          -0.03449260793920453,
+          -0.35196277611160726,
+          0.789401799946674
+        ],
+        "polarAngle": 1.109135811410844
+      },
+      {
+        "shot": "S26-verify",
+        "p": 0.8,
+        "first": "E2--1-eyeB",
+        "eye": [
+          -115.39999999999999,
+          110,
+          9.500000000000004
+        ],
+        "eyeNDC": [
+          -0.03449260793920312,
+          -0.35196277611160726,
+          0.789401799946674
+        ],
+        "mountNDC": [
+          -0.03449260793920453,
+          -0.35196277611160726,
+          0.789401799946674
+        ],
+        "polarAngle": 1.109135811410844
+      }
+    ]
+  },
+  "gates": [
+    {
+      "name": "locks",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "assembly",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "structuralPaths",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "groundedFloor",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "frontStaging",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "mechanics",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "hardware",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "step28",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "foldingLegs",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "receiverPaths",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "pistons",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "seekReset",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "b8",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "presentationFit",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "name": "captions",
+      "valid": true,
+      "errors": []
+    }
+  ],
+  "typecheck": "PASS",
+  "lint": {
+    "result": "PASS",
+    "command": "npm run lint -- --ignore-pattern 'output/**'",
+    "note": "Generated historical output helpers excluded, not application source. No lint configuration/rules changed."
+  },
+  "tests": {
+    "files": 30,
+    "passed": 148
+  },
+  "build": "PASS",
+  "paths": {
+    "samples": 61,
+    "pairChecks": 214537,
+    "initialCompletedStateContacts": [
+      "D5/B7-4"
+    ],
+    "newPenetrations": []
+  },
+  "sourceDelta": {
+    "baselineFilesCompared": 198,
+    "existingChanged": [
+      "src/components/animation/AnimationController.tsx",
+      "src/components/viewer/ProductViewer.tsx",
+      "src/products/tests/registry.test.ts",
+      "src/products/wf311613-standalone-murphy-bed/index.ts",
+      "src/types/video.ts"
+    ],
+    "mechanicalSourceLocksUnchanged": true,
+    "unexpected": []
+  },
+  "expectedFullRuntime": 524.0536938888888,
+  "stills": [
+    "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/final-micro-pass/stills/01-intro-finished.png",
+    "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/final-micro-pass/stills/02-exploded-50-percent.png",
+    "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/final-micro-pass/stills/03-fully-exploded.png",
+    "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/final-micro-pass/stills/04-exploded-hold.png",
+    "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/final-micro-pass/stills/05-before-step1-transition.png",
+    "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/final-micro-pass/stills/06-step1-reset.png",
+    "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/final-micro-pass/stills/07-before-occluded-step26.png",
+    "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/final-micro-pass/stills/08-step26-alignment.png",
+    "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/final-micro-pass/stills/09-step26-active-connection.png",
+    "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/final-micro-pass/stills/10-step26-secured.png"
+  ],
+  "contactSheet": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/final-micro-pass/contact-sheet.png",
+  "preview": {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/reviews/final-micro-pass/wf311613-intro-qa-5s.mp4",
+    "duration": 5,
+    "frames": 150,
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "size": 481229,
+    "sha256": "763a6a4b2eb2aa9e5e78a199e694f6e5b1f188b57f98591507dd6b3769fa773c",
+    "audioAbsent": true,
+    "completeDecode": "PASS",
+    "freshDeterministicFrames": true
+  },
+  "warnings": [
+    "Existing THREE CommonJS and THREE.Clock deprecation warnings.",
+    "Existing Turbopack generated-frame glob warning; production build passes."
+  ],
+  "stopBoundary": "No full micro-pass master rendered. No audio. No other creative/mechanical changes. Await director review."
+}

@@ -1,0 +1,140 @@
+{
+  "valid": true,
+  "candidate": "wf311613-final-micro-pass",
+  "method": "Fresh production 720p PNGs after generic infrastructure changes vs frozen original production PNGs at the same approved semantic checkpoints. Exact timestamp identity is reported per point (B8 has floating-point accumulation roundoff); pixel comparison remains strict byte identity, with no resizing, tolerances or image transformations",
+  "points": [
+    {
+      "label": "01-intro-finished-hero",
+      "time": 0,
+      "baselineTime": 0,
+      "timeDifference": 0,
+      "timestampExactlyEqual": true,
+      "baselineLabel": "01-intro-finished-product",
+      "baselineSha256": "29a4b04a023c741458f334ae68ba54165666bbc49ed4a0729ea9bdafd3bc7089",
+      "currentSha256": "29a4b04a023c741458f334ae68ba54165666bbc49ed4a0729ea9bdafd3bc7089",
+      "pngByteIdentical": true
+    },
+    {
+      "label": "02-intro-fully-exploded",
+      "time": 3.75,
+      "baselineTime": 3.75,
+      "timeDifference": 0,
+      "timestampExactlyEqual": true,
+      "baselineLabel": "03-intro-fully-exploded",
+      "baselineSha256": "1e2912249cc91cb59d19dabef4001f9010b35770374ff1ac302f786e1b0d3084",
+      "currentSha256": "1e2912249cc91cb59d19dabef4001f9010b35770374ff1ac302f786e1b0d3084",
+      "pngByteIdentical": true
+    },
+    {
+      "label": "03-step1-exact-reset",
+      "time": 5,
+      "baselineTime": 5,
+      "timeDifference": 0,
+      "timestampExactlyEqual": true,
+      "baselineLabel": "06-step1-exact-reset",
+      "baselineSha256": "84a1d48a637a6328541b33ad7ebbd013909879bee59219b46557e0d2c4002766",
+      "currentSha256": "84a1d48a637a6328541b33ad7ebbd013909879bee59219b46557e0d2c4002766",
+      "pngByteIdentical": true
+    },
+    {
+      "label": "04-early-hardware-macro",
+      "time": 20.951110000000003,
+      "baselineTime": 20.951110000000003,
+      "timeDifference": 0,
+      "timestampExactlyEqual": true,
+      "baselineLabel": "08-first-hardware-closeup",
+      "baselineSha256": "f448cbf848eb7c326cb825385439a24e587e73a188496d42ac7372fe0b175cee",
+      "currentSha256": "f448cbf848eb7c326cb825385439a24e587e73a188496d42ac7372fe0b175cee",
+      "pngByteIdentical": true
+    },
+    {
+      "label": "05-cabinet-medium",
+      "time": 78.0636938888888,
+      "baselineTime": 78.0636938888888,
+      "timeDifference": 0,
+      "timestampExactlyEqual": true,
+      "baselineLabel": "09-cabinet-construction",
+      "baselineSha256": "ab96dff9a09a418d2d00a62d545176b348f042700c65bbbcee93f987ba18c347",
+      "currentSha256": "ab96dff9a09a418d2d00a62d545176b348f042700c65bbbcee93f987ba18c347",
+      "pngByteIdentical": true
+    },
+    {
+      "label": "06-b8-cabinet-face",
+      "time": 117.8536938888888,
+      "baselineTime": 117.85369388888876,
+      "timeDifference": 4.263256414560601e-14,
+      "timestampExactlyEqual": false,
+      "baselineLabel": "09b-B8-complete-cabinet-face",
+      "baselineSha256": "195dbd88665c6e18fdf890245c9745d24bd948a5fad8b61788cda723a4ebc14b",
+      "currentSha256": "195dbd88665c6e18fdf890245c9745d24bd948a5fad8b61788cda723a4ebc14b",
+      "pngByteIdentical": true
+    },
+    {
+      "label": "07-bed-face",
+      "time": 252.06369388888893,
+      "baselineTime": 252.06369388888893,
+      "timeDifference": 0,
+      "timestampExactlyEqual": true,
+      "baselineLabel": "10-bed-face-construction",
+      "baselineSha256": "d9699b1a12eb8912444998f9c6964d27a67351af929f62f29f3f9eee85223a65",
+      "currentSha256": "d9699b1a12eb8912444998f9c6964d27a67351af929f62f29f3f9eee85223a65",
+      "pngByteIdentical": true
+    },
+    {
+      "label": "08-step25-connection",
+      "time": 383.41369388888864,
+      "baselineTime": 383.41369388888864,
+      "timeDifference": 0,
+      "timestampExactlyEqual": true,
+      "baselineLabel": "14-step25-bearing-seating",
+      "baselineSha256": "6ff0a4dcff5a779a4f0cce4790af97257b86abee9d745a7870fc543bcb6552fb",
+      "currentSha256": "6ff0a4dcff5a779a4f0cce4790af97257b86abee9d745a7870fc543bcb6552fb",
+      "pngByteIdentical": true
+    },
+    {
+      "label": "09-step26-corrected-active-connection",
+      "time": 395.1836938888886,
+      "baselineTime": 395.1836938888886,
+      "timeDifference": 0,
+      "timestampExactlyEqual": true,
+      "baselineLabel": "17-step26-active-connection",
+      "baselineSha256": "1d058aa0b3de1dd72c4ae791db4c1de5f1451603d4dbffc7d4f978739edfba67",
+      "currentSha256": "1d058aa0b3de1dd72c4ae791db4c1de5f1451603d4dbffc7d4f978739edfba67",
+      "pngByteIdentical": true
+    },
+    {
+      "label": "10-folding-legs",
+      "time": 417.13969388888853,
+      "baselineTime": 417.13969388888853,
+      "timeDifference": 0,
+      "timestampExactlyEqual": true,
+      "baselineLabel": "21-folding-leg-construction",
+      "baselineSha256": "9ec23c2d9d5331e9afc5127827a609ff9f3ec47e22023a41c7bb4bcd4884549e",
+      "currentSha256": "9ec23c2d9d5331e9afc5127827a609ff9f3ec47e22023a41c7bb4bcd4884549e",
+      "pngByteIdentical": true
+    },
+    {
+      "label": "11-wall-anchoring",
+      "time": 469.1911938888885,
+      "baselineTime": 469.1911938888885,
+      "timeDifference": 0,
+      "timestampExactlyEqual": true,
+      "baselineLabel": "22-wall-anchoring",
+      "baselineSha256": "63193f4c154a6d6bad76c85a734011321cd7ef31d2183998dd057645938cb6ed",
+      "currentSha256": "63193f4c154a6d6bad76c85a734011321cd7ef31d2183998dd057645938cb6ed",
+      "pngByteIdentical": true
+    },
+    {
+      "label": "12-final-bedroom-hero",
+      "time": 523.4536938888888,
+      "baselineTime": 523.4536938888888,
+      "timeDifference": 0,
+      "timestampExactlyEqual": true,
+      "baselineLabel": "29-final-hero",
+      "baselineSha256": "c15686120c86a79c4b47403455147916830683770410eb098b736902229158b2",
+      "currentSha256": "c15686120c86a79c4b47403455147916830683770410eb098b736902229158b2",
+      "pngByteIdentical": true
+    }
+  ],
+  "testedAt": "2026-10-03T23:49:07.111Z"
+}

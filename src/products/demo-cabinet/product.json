@@ -1,0 +1,28 @@
+{
+  "id": "demo-cabinet",
+  "name": "Demo Cabinet",
+  "unit": "cm",
+  "sourceNote": "Architecture validation product built from simple BoxGeometry parts.",
+  "materials": {
+    "body": { "type": "standard", "color": "#7a8581", "roughness": 0.7, "metalness": 0.04 },
+    "inside": { "type": "standard", "color": "#a9b1aa", "roughness": 0.76, "metalness": 0.02 },
+    "door": { "type": "standard", "color": "#65716d", "roughness": 0.62, "metalness": 0.05 },
+    "metal": { "type": "standard", "color": "#c7cbc7", "roughness": 0.24, "metalness": 0.82 }
+  },
+  "parts": [
+    { "id": "cabinet_root", "name": "Cabinet Root", "type": "group", "position": [0, 0, 0], "category": "cabinet" },
+    { "id": "left_side", "name": "Left Side", "type": "mesh", "parent": "cabinet_root", "geometry": { "type": "box", "size": [6, 180, 48], "bevel": 1 }, "position": [-67, 90, 0], "material": "body", "explodeOffset": [-55, 0, 0], "category": "cabinet" },
+    { "id": "right_side", "name": "Right Side", "type": "mesh", "parent": "cabinet_root", "geometry": { "type": "box", "size": [6, 180, 48], "bevel": 1 }, "position": [67, 90, 0], "material": "body", "explodeOffset": [55, 0, 0], "category": "cabinet" },
+    { "id": "cabinet_top", "name": "Top", "type": "mesh", "parent": "cabinet_root", "geometry": { "type": "box", "size": [140, 6, 48], "bevel": 1 }, "position": [0, 177, 0], "material": "body", "explodeOffset": [0, 45, 0], "category": "cabinet" },
+    { "id": "cabinet_bottom", "name": "Bottom", "type": "mesh", "parent": "cabinet_root", "geometry": { "type": "box", "size": [140, 6, 48], "bevel": 1 }, "position": [0, 3, 0], "material": "body", "explodeOffset": [0, -35, 0], "category": "cabinet" },
+    { "id": "cabinet_back", "name": "Back", "type": "mesh", "parent": "cabinet_root", "geometry": { "type": "box", "size": [128, 168, 3] }, "position": [0, 90, -22], "material": "inside", "explodeOffset": [0, 0, -55], "category": "cabinet" },
+    { "id": "shelf_a", "name": "Upper Shelf", "type": "mesh", "parent": "cabinet_root", "geometry": { "type": "box", "size": [128, 4, 44], "bevel": 0.6 }, "position": [0, 121, 0], "material": "inside", "explodeOffset": [0, 20, 50], "category": "cabinet" },
+    { "id": "shelf_b", "name": "Lower Shelf", "type": "mesh", "parent": "cabinet_root", "geometry": { "type": "box", "size": [128, 4, 44], "bevel": 0.6 }, "position": [0, 62, 0], "material": "inside", "explodeOffset": [0, -15, 50], "category": "cabinet" },
+    { "id": "door_left_pivot", "name": "Left Door Pivot", "type": "group", "parent": "cabinet_root", "position": [-64, 90, 25], "category": "mechanism" },
+    { "id": "door_left", "name": "Left Door", "type": "mesh", "parent": "door_left_pivot", "geometry": { "type": "box", "size": [62, 166, 4], "bevel": 1 }, "position": [31, 0, 0], "material": "door", "explodeOffset": [-25, 0, 60], "category": "cabinet" },
+    { "id": "door_right_pivot", "name": "Right Door Pivot", "type": "group", "parent": "cabinet_root", "position": [64, 90, 25], "category": "mechanism" },
+    { "id": "door_right", "name": "Right Door", "type": "mesh", "parent": "door_right_pivot", "geometry": { "type": "box", "size": [62, 166, 4], "bevel": 1 }, "position": [-31, 0, 0], "material": "door", "explodeOffset": [25, 0, 60], "category": "cabinet" },
+    { "id": "handle_left", "name": "Left Handle", "type": "mesh", "parent": "door_left", "geometry": { "type": "box", "size": [3, 30, 3], "bevel": 0.5 }, "position": [24, 0, 4], "material": "metal", "explodeOffset": [0, 0, 35], "category": "hardware" },
+    { "id": "handle_right", "name": "Right Handle", "type": "mesh", "parent": "door_right", "geometry": { "type": "box", "size": [3, 30, 3], "bevel": 0.5 }, "position": [-24, 0, 4], "material": "metal", "explodeOffset": [0, 0, 35], "category": "hardware" }
+  ]
+}

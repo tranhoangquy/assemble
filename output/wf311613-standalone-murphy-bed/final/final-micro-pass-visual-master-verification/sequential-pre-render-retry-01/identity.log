@@ -1,0 +1,56 @@
+{
+  "candidate": "wf311613-final-micro-pass",
+  "phase": "before",
+  "valid": true,
+  "checks": {
+    "sourceBytes": true,
+    "historyBytes": true,
+    "productHash": true,
+    "materialHash": true,
+    "assemblyHash": true,
+    "approvedPlanHash": true,
+    "microVideoHash": true,
+    "introIdentity": true,
+    "step26Camera": true,
+    "assemblyReference": true,
+    "planReference": true,
+    "scenesUnchanged": true,
+    "presentationUnchanged": true,
+    "otherCamerasUnchanged": true,
+    "silent": true,
+    "gateRunnerUnchanged": true
+  },
+  "hashes": {
+    "productHash": "4645bcf33682cbf377d84a2d0f8139674b6d80f5a5014a29505bf97287f82a45",
+    "materialHash": "d9a96203382d9d92eaaec1cab45a97f97da01ac13d5fbec739477c9f06514bcc",
+    "assemblyHash": "19df9d72004a93989fc5245d5cbf953c8a6289423f2587749584ee4c322ba184",
+    "approvedPlanHash": "bf43ecdb93c8a43dd50ea4a9e46306882902cbaf813e24438826f8585045e520",
+    "microVideoHash": "58fb308c0117e3c9116aefa09a9f2bee840216ca23aca7d30240fca529c8c22b"
+  },
+  "sourceFiles": 214,
+  "historyFiles": 126,
+  "changedSources": [],
+  "changedHistory": [],
+  "step26Camera": {
+    "position": [
+      -114.3,
+      116,
+      17
+    ],
+    "target": [
+      -115.3,
+      111,
+      7
+    ],
+    "fov": 62
+  },
+  "extraEvidence": {
+    "vitestConfigSha256": "82006bd7a711f879da7d3f92c2bff038951c251c5dbec6100dd6c48b9b5f90ac",
+    "gateRunnerSha256": "5bbdbc83c69930279db5462a06eb3b9ef339f15677b7b6afd15c3fb7a6c5765f",
+    "originalGateRunnerSha256": "5bbdbc83c69930279db5462a06eb3b9ef339f15677b7b6afd15c3fb7a6c5765f"
+  },
+  "checkedAt": "2026-10-03T17:41:29.878Z"
+}
+(node:84212) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)

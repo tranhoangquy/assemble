@@ -1,0 +1,127 @@
+{
+  "valid": true,
+  "candidate": "wf311613-final-micro-pass",
+  "output": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/wf311613-final-micro-pass-review-720p.mp4",
+  "encodedDuration": 524.066667,
+  "timelineDuration": 524.0536938888888,
+  "finalFrameRoundingDifference": 0.012973111111250546,
+  "introDuration": 5,
+  "frameCount": 15722,
+  "sourceFrameCount": 15722,
+  "sourceSequenceContiguous": true,
+  "sourceFrameSequenceSha256": "02628f292fa6b976cd36e3ed06371059fcdeab3c8bb2a912b2f6ba57f0733608",
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": "30/1",
+  "constantFrameRate": true,
+  "codec": "h264",
+  "pixelFormat": "yuv420p",
+  "fileSizeBytes": 30236460,
+  "sha256": "6eccea437aa9829dfd78cbf13755c5b4433fd9afb859ad3e2d5129153866be14",
+  "audioStreams": 0,
+  "completeDecode": true,
+  "unexpectedBlackIntervals": 0,
+  "rendererPageErrors": [],
+  "rendererConsoleErrors": [
+    "[browser:error] Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "fatalRendererConsoleErrors": [],
+  "knownNoncriticalRendererWarnings": [
+    {
+      "message": "[browser:error] Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "classification": "Only generic 404 resource message; actual frozen application network audit identifies sole failed resource as optional /favicon.ico",
+      "evidenceReport": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/whole-scene-seek-verification.json",
+      "observedResources": [
+        {
+          "url": "http://127.0.0.1:3016/favicon.ico",
+          "status": 404,
+          "method": "GET",
+          "resourceType": "explicit-diagnostic-HTTP-probe",
+          "project": "wf311613-director-polish-02b",
+          "source": "Read-only Playwright API GET of exact console.location URL absent from page.response",
+          "headers": {
+            "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+            "x-nextjs-cache": "HIT",
+            "x-nextjs-prerender": "1, 1",
+            "x-nextjs-stale-time": "300",
+            "x-powered-by": "Next.js",
+            "etag": "\"10sphgqutif60n\"",
+            "content-type": "text/html; charset=utf-8",
+            "content-encoding": "gzip",
+            "date": "Sat, 03 Oct 2026 19:02:32 GMT",
+            "connection": "keep-alive",
+            "keep-alive": "timeout=5",
+            "transfer-encoding": "chunked"
+          },
+          "bodyBytes": 7799,
+          "consoleLocation": {
+            "url": "http://127.0.0.1:3016/favicon.ico",
+            "line": 0,
+            "column": 0,
+            "lineNumber": 0,
+            "columnNumber": 0
+          },
+          "confirmedAt": "2026-10-03T19:02:32.115Z"
+        }
+      ]
+    }
+  ],
+  "missingOrEmptyFrames": 0,
+  "frozenSourceCount": 214,
+  "modifiedSources": [],
+  "preservedHistoryCount": 126,
+  "changedHistory": [],
+  "approvedIdentity": {
+    "product": "4645bcf33682cbf377d84a2d0f8139674b6d80f5a5014a29505bf97287f82a45",
+    "material": "d9a96203382d9d92eaaec1cab45a97f97da01ac13d5fbec739477c9f06514bcc",
+    "assembly": "19df9d72004a93989fc5245d5cbf953c8a6289423f2587749584ee4c322ba184",
+    "plan": "bf43ecdb93c8a43dd50ea4a9e46306882902cbaf813e24438826f8585045e520",
+    "video": "58fb308c0117e3c9116aefa09a9f2bee840216ca23aca7d30240fca529c8c22b",
+    "cameras": "18228f58ddd0eaa07f3e2682c2a89dd6174444f02536e66d6ca7f6f06101d9bf",
+    "intro": "045092692f4f182974118b06c248ec0b98246c8dd5bdf56d3c49c219820d2ea7"
+  },
+  "assemblyAndDirectorPlanUnchanged": true,
+  "introTimingUnchanged": true,
+  "approvedStep26Camera": {
+    "position": [
+      -114.3,
+      116,
+      17
+    ],
+    "target": [
+      -115.3,
+      111,
+      7
+    ],
+    "fov": 62
+  },
+  "wholeSceneSeekReset": true,
+  "wholeSceneVerification": {
+    "originalStrictReportValid": false,
+    "cameraJsonReplayExact": false,
+    "wholeScenePngReplayExact": true,
+    "supplementUsed": true,
+    "adjacentBinary64Only": true,
+    "strictStep1Reset": true,
+    "rawEvidence": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/whole-scene-seek-verification.json",
+    "supplementEvidence": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/whole-scene-supplementary-verification.json",
+    "nativeValidatorThresholdsUnchanged": true
+  },
+  "exactStep1ResetSourcePng": true,
+  "noHistoricalMp4OrFramesUsed": true,
+  "freshFrameDirectory": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/frames/wf311613-final-review-720p-fresh-ZmTrlx",
+  "renderedFromTimeZero": true,
+  "resumeFromFrame": 0,
+  "decodedSpotCheckCount": 30,
+  "decodedContactSheet": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/decoded-contact-sheet.png",
+  "warnings": [
+    "(node:97902) [THREE_CJS_DEPRECATED] DeprecationWarning: `require(\"three\")` is deprecated and will be removed.",
+    "(Use `node --trace-deprecation ...` to show where the warning was created)",
+    "[browser:warning] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+  ],
+  "verifiedAt": "2026-10-03T19:04:06.251Z",
+  "visualInspection": "Pending inspection of decoded PNGs by director/root; technical verification does not imply creative approval"
+}

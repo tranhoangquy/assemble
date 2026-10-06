@@ -1,0 +1,164 @@
+[
+  {
+    "label": "01-early-assembly",
+    "shot": "rail-seat-0",
+    "time": 10.631072500000002,
+    "camera": "rail-0",
+    "frame": 318,
+    "encodedTime": 10.6,
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/polish-02b-visual-master-verification/decoded-spot-checks/01-early-assembly.png"
+  },
+  {
+    "label": "02-first-hardware-closeup",
+    "shot": "bolt-macro",
+    "time": 15.951110000000003,
+    "camera": "joint-0",
+    "frame": 478,
+    "encodedTime": 15.933333333333334,
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/polish-02b-visual-master-verification/decoded-spot-checks/02-first-hardware-closeup.png"
+  },
+  {
+    "label": "03-cabinet-assembly",
+    "shot": "S4-D4-1-seat",
+    "time": 73.0636938888888,
+    "camera": "S4-context",
+    "frame": 2191,
+    "encodedTime": 73.03333333333333,
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/polish-02b-visual-master-verification/decoded-spot-checks/03-cabinet-assembly.png"
+  },
+  {
+    "label": "04-bed-face-assembly",
+    "shot": "S15-complete",
+    "time": 247.06369388888893,
+    "camera": "grounded-S15-complete",
+    "frame": 7411,
+    "encodedTime": 247.03333333333333,
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/polish-02b-visual-master-verification/decoded-spot-checks/04-bed-face-assembly.png"
+  },
+  {
+    "label": "05-carrier-assembly",
+    "shot": "S16-complete",
+    "time": 261.75369388888885,
+    "camera": "grounded-S16-complete",
+    "frame": 7852,
+    "encodedTime": 261.73333333333335,
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/polish-02b-visual-master-verification/decoded-spot-checks/05-carrier-assembly.png"
+  },
+  {
+    "label": "06-step25-front-context",
+    "shot": "S25-context",
+    "time": 369.0636938888887,
+    "camera": "polish01-actual-front-context",
+    "frame": 11071,
+    "encodedTime": 369.03333333333336,
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/polish-02b-visual-master-verification/decoded-spot-checks/06-step25-front-context.png"
+  },
+  {
+    "label": "07-step25-supported-approach",
+    "shot": "S25-route-4",
+    "time": 372.4436938888887,
+    "camera": "polish01-actual-front-orient",
+    "frame": 11173,
+    "encodedTime": 372.43333333333334,
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/polish-02b-visual-master-verification/decoded-spot-checks/07-step25-supported-approach.png"
+  },
+  {
+    "label": "08-step25-bearing-seating",
+    "shot": "S25--1-connection",
+    "time": 378.41369388888864,
+    "camera": "S25--1-pivot",
+    "frame": 11352,
+    "encodedTime": 378.4,
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/polish-02b-visual-master-verification/decoded-spot-checks/08-step25-bearing-seating.png"
+  },
+  {
+    "label": "09-step25-connected-pullback",
+    "shot": "S25-complete",
+    "time": 383.8286938888886,
+    "camera": "polish01-actual-front-connected",
+    "frame": 11514,
+    "encodedTime": 383.8,
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/polish-02b-visual-master-verification/decoded-spot-checks/09-step25-connected-pullback.png"
+  },
+  {
+    "label": "10-gas-piston-mechanism",
+    "shot": "S26-eye-align",
+    "time": 390.1836938888886,
+    "camera": "S26-cabinet-eye",
+    "frame": 11705,
+    "encodedTime": 390.1666666666667,
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/polish-02b-visual-master-verification/decoded-spot-checks/10-gas-piston-mechanism.png"
+  },
+  {
+    "label": "11-folding-legs",
+    "shot": "S28--1-D7-join",
+    "time": 412.13969388888853,
+    "camera": "S28--1-D7",
+    "frame": 12364,
+    "encodedTime": 412.1333333333333,
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/polish-02b-visual-master-verification/decoded-spot-checks/11-folding-legs.png"
+  },
+  {
+    "label": "12-wall-anchoring",
+    "shot": "S30-0-wall-screw",
+    "time": 464.1911938888885,
+    "camera": "polish01-front-S30-0-anchor",
+    "frame": 13925,
+    "encodedTime": 464.1666666666667,
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/polish-02b-visual-master-verification/decoded-spot-checks/12-wall-anchoring.png"
+  },
+  {
+    "label": "13-assembly-complete",
+    "shot": "final-result",
+    "time": 497.85369388888836,
+    "camera": "polish01-actual-final-open",
+    "frame": 14935,
+    "encodedTime": 497.8333333333333,
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/polish-02b-visual-master-verification/decoded-spot-checks/13-assembly-complete.png"
+  },
+  {
+    "label": "14-finished-closed",
+    "shot": "showcase-final-closed",
+    "time": 504.51369388888884,
+    "camera": "residential-closed",
+    "frame": 15135,
+    "encodedTime": 504.5,
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/polish-02b-visual-master-verification/decoded-spot-checks/14-finished-closed.png"
+  },
+  {
+    "label": "15-finished-opening",
+    "shot": "showcase-final-open",
+    "time": 506.4036938888888,
+    "camera": "residential-hero",
+    "frame": 15192,
+    "encodedTime": 506.4,
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/polish-02b-visual-master-verification/decoded-spot-checks/15-finished-opening.png"
+  },
+  {
+    "label": "16-mattress",
+    "shot": "showcase-mattress",
+    "time": 513.6936938888889,
+    "camera": "residential-mattress",
+    "frame": 15410,
+    "encodedTime": 513.6666666666666,
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/polish-02b-visual-master-verification/decoded-spot-checks/16-mattress.png"
+  },
+  {
+    "label": "17-bedding",
+    "shot": "showcase-bedding",
+    "time": 515.6536938888888,
+    "camera": "residential-hero",
+    "frame": 15469,
+    "encodedTime": 515.6333333333333,
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/polish-02b-visual-master-verification/decoded-spot-checks/17-bedding.png"
+  },
+  {
+    "label": "18-final-hero",
+    "shot": "showcase-hero",
+    "time": 518.4536938888888,
+    "camera": "residential-hero",
+    "frame": 15553,
+    "encodedTime": 518.4333333333333,
+    "file": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/polish-02b-visual-master-verification/decoded-spot-checks/18-final-hero.png"
+  }
+]

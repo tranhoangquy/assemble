@@ -1,0 +1,221 @@
+
+ RUN  v4.1.11 /Users/quyth/development/three/POC
+
+(node:41881) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/pivot-validation.test.ts (4 tests) 36076ms
+     ✓ clears every locked timber over a quarter-degree complete articulation sweep  10460ms
+     ✓ detects the legacy pivot contradiction rather than waiving cabinet contacts  12998ms
+     ✓ keeps both attached E2 ends and actual cylinder/rod solids clear across the entire articulation  12613ms
+(node:42275) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/folding-leg-validation.test.ts (4 tests) 42742ms
+     ✓ rejects a coarse sampling request and validates the complete connected function at quarter-degree resolution  42720ms
+(node:42699) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ❯ src/products/wf311613-standalone-murphy-bed/tests/mechanism-locks.test.ts (6 tests | 1 failed) 34013ms
+     ✓ preserves every Step 4–20 shot and action duration 5ms
+     × keeps B8, other locked wood and materials unchanged 7ms
+     ✓ retains handed L receivers and ten PDF mounting screws on each side 1ms
+     ✓ passes an actual-mesh full sweep and detects the rejected reconstruction  23664ms
+     ✓ keeps the last E1 screw pair clear of the actual installed head dowels  10215ms
+     ✓ replays mechanism-owned transforms, visibility and variants after reverse seeks and reset 120ms
+(node:43052) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/front-staging.test.ts (4 tests) 36288ms
+     ✓ validates the supplied candidate path on actual meshes rather than the accepted baseline  36262ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/steps11-20.test.ts (10 tests) 19212ms
+     ✓ generates finite physical geometry and preserves routed channel openings after drilling  1456ms
+     ✓ passes the existing assembly validator with all 355 operations  1218ms
+     ✓ clears actual solid meshes along every new structural path and large carrier sweep  16322ms
+(node:43645) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/whole-scene-reset.test.ts (1 test) 10327ms
+     ✓ preserves every part, parent, local transform and actual render descendant across reverse seeks and repeated resets  10326ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/b8-closed-face.test.ts (5 tests) 9514ms
+     ✓ has no daylight rays, no generated-mesh penetration, clear actual insertion paths and aligned receivers  9510ms
+(node:43844) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/product-fit-hole-audit.test.ts (4 tests) 10515ms
+   ✓ seats the screenshot side-board and all side mating surfaces in assembled, closed and open states  10291ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/step03-corrected.test.ts (6 tests) 2039ms
+     ✓ uses exactly four PDF wood parts and six of each required hardware  1981ms
+(node:43968) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/foot-corner-reconstruction.test.ts (6 tests) 1006ms
+     ✓ changes only the authorized local foot-corner material, preserving all nonlocal profile samples  925ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/step01-v2.test.ts (5 tests) 401ms
+     ✓ creates physically distinct bores, dowel flutes, socket recess and bolt threads  381ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/steps04-10.test.ts (8 tests) 374ms
+(node:43993) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/final-micro-pass.test.ts (2 tests) 242ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/action-pacing.test.ts (6 tests) 83ms
+ ✓ src/engine/geometry/FaceBores.test.ts (8 tests) 73ms
+ ✓ src/engine/export/FrameManifest.test.ts (3 tests) 8ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/instructional-pacing.test.ts (4 tests) 32ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/polish-pass01.test.ts (3 tests) 17ms
+ ✓ src/engine/render/SceneDiagnostics.test.ts (5 tests) 18ms
+ ✓ src/engine/animation/AnimationEngine.test.ts (5 tests) 18ms
+ ✓ src/engine/export/ExportJobManager.test.ts (7 tests) 9ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/polish-pass02.test.ts (3 tests) 13ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/polish-pass02b.test.ts (2 tests) 11ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/final-opening.test.ts (4 tests) 8ms
+ ✓ src/engine/export/ExportApi.test.ts (6 tests) 15ms
+ ✓ src/engine/animation/MechanismSolver.test.ts (14 tests) 10ms
+stderr | src/engine/assembly/AssemblyValidator.test.ts > Physical Assembly System V2 validation scenarios > D: reports a moving AABB intersecting an installed blocker
+[ASSEMBLY COLLISION] {
+  movingPart: 'moving',
+  blockedBy: 'blocker',
+  segment: 'START -> PRE_INSTALL',
+  step: 'install'
+}
+
+ ✓ src/engine/assembly/AssemblyValidator.test.ts (7 tests) 6ms
+ ✓ src/products/tests/registry.test.ts (15 tests) 11ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/camera-distance-polish.test.ts (3 tests) 5ms
+ ✓ src/engine/animation/rotation-endpoints.test.ts (2 tests) 4ms
+ ✓ src/engine/export/RenderIdentity.test.ts (4 tests) 4ms
+ ✓ src/engine/installation/InstallationCollisionChecker.test.ts (3 tests) 5ms
+ ✓ src/engine/camera/CameraSeek.test.ts (1 test) 5ms
+ ✓ src/presentation/environment/bedroom-config.test.ts (4 tests) 3ms
+ ✓ src/components/ui/production-ui.test.tsx (2 tests) 13ms
+ ✓ src/engine/animation/PresentationAxis.test.ts (1 test) 2ms
+ ✓ src/engine/export/RenderProfiles.test.ts (9 tests) 4ms
+ ✓ src/presentation/audio/approved-music.test.ts (2 tests) 2ms
+ ✓ src/engine/export/NativeSurface.test.ts (5 tests) 3ms
+ ✓ src/products/production-selection.test.ts (3 tests) 2ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/products/wf311613-standalone-murphy-bed/tests/mechanism-locks.test.ts > Authorized narrow pivot reconstruction > keeps B8, other locked wood and materials unchanged
+AssertionError: expected { type: 'compound', …(2) } to deeply equal { type: 'bored-panel', …(3) }
+
+- Expected
++ Received
+
+  {
++   "pieces": [
++     {
++       "geometry": {
+          "edgeBores": [
+            {
+              "radius": 0.35,
+-       "x": -65.5,
++             "x": -67.775,
+            },
+            {
+              "radius": 0.35,
+-       "x": 66.5,
++             "x": 64.225,
+            },
+            {
+              "radius": 0.42,
+-       "x": 73.5,
++             "x": 71.225,
+            },
+          ],
+-   "holes": [
++         "faceBores": [
+            {
++             "axis": "y",
++             "depth": 1.3,
++             "face": "positive",
++             "position": [
++               -67.775,
++               0,
++               -12,
++             ],
+              "radius": 0.8,
+-       "x": -65.5,
+-       "z": -12,
+            },
+            {
++             "axis": "y",
++             "depth": 1.3,
++             "face": "positive",
++             "position": [
++               64.225,
++               0,
++               -12,
++             ],
+              "radius": 0.8,
+-       "x": 66.5,
+-       "z": -12,
+            },
+            {
++             "axis": "y",
++             "depth": 1.3,
++             "face": "positive",
++             "position": [
++               -67.775,
++               0,
++               12,
++             ],
+              "radius": 0.8,
+-       "x": -65.5,
+-       "z": 12,
+            },
+            {
++             "axis": "y",
++             "depth": 1.3,
++             "face": "positive",
++             "position": [
++               64.225,
++               0,
++               12,
++             ],
+              "radius": 0.8,
+-       "x": 66.5,
+-       "z": 12,
+            },
+          ],
++         "holes": [],
+          "size": [
+-     165,
++           169.55,
+            3,
+            28,
+          ],
+          "type": "bored-panel",
++       },
++       "position": [
++         2.275,
++         0,
++         0,
++       ],
++     },
++   ],
++   "size": [
++     169.55,
++     3,
++     28,
++   ],
++   "type": "compound",
+  }
+
+ ❯ src/products/wf311613-standalone-murphy-bed/tests/mechanism-locks.test.ts:35:55
+     33|       if(part.type==='mesh'&&now.type==='mesh'){
+     34|         expect(now.material).toBe(part.material);
+     35|         if(!allowed.has(part.id))expect(now.geometry).toEqual(part.geo…
+       |                                                       ^
+     36|         if(['C1-start','C2-left','C2-right'].includes(part.id)){
+     37|           const expected=correctedCorners.find(p=>p.id===part.id)!;
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 39 passed (40)
+      Tests  1 failed | 195 passed (196)
+   Start at  18:21:58
+   Duration  220.34s (transform 546ms, setup 0ms, import 14.52s, tests 203.13s, environment 3ms)
+
+JSON report written to /Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/product-fit-hole-audit/full-tests-results.json

@@ -1,0 +1,8 @@
+{
+  "valid": true,
+  "frameCount": 15722,
+  "first": 0,
+  "last": 524.033333,
+  "cadence": "Each decoded timestamp equals n / 30 within ffprobe six-decimal serialization accuracy",
+  "maxTimestampError": 3.333333467026023e-7
+}

@@ -1,0 +1,233 @@
+[
+  {
+    "track": "A",
+    "path": "/Users/quyth/Downloads/YTSave_YouTube_Media_BH-SnQ8J1VU_No-Copyright-Music-Artificial-Music-And-So-It-Begins-Lo-fi_008_128k.mp3",
+    "exists": true,
+    "bytes": 4665707,
+    "sha256": "419442217a6d6300803a3d552eb7b4451a156a6fe671e19a449cdef55698a132",
+    "ffprobe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "mp3",
+          "codec_long_name": "MP3 (MPEG audio layer 3)",
+          "codec_type": "audio",
+          "codec_tag_string": "[0][0][0][0]",
+          "codec_tag": "0x0000",
+          "mime_codec_string": "mp4a.40.34",
+          "sample_fmt": "fltp",
+          "sample_rate": "44100",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/14112000",
+          "start_pts": 353600,
+          "start_time": "0.025057",
+          "duration_ts": 2939944960,
+          "duration": "208.329433",
+          "bit_rate": "179119",
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "encoder": "Lavc62.11"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/quyth/Downloads/YTSave_YouTube_Media_BH-SnQ8J1VU_No-Copyright-Music-Artificial-Music-And-So-It-Begins-Lo-fi_008_128k.mp3",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mp3",
+        "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+        "start_time": "0.025057",
+        "duration": "208.329433",
+        "size": "4665707",
+        "bit_rate": "179166",
+        "probe_score": 51,
+        "tags": {
+          "major_brand": "dash",
+          "minor_version": "0",
+          "compatible_brands": "iso6mp41",
+          "encoder": "Lavf62.3.100"
+        }
+      }
+    }
+  },
+  {
+    "track": "B",
+    "path": "/Users/quyth/Downloads/YTSave_YouTube_Media_6ukEy6FOxZE_Non-Copyrighted-Music-SmartToaster-Herbal-Tea-Lo-fi_008_128k.mp3",
+    "exists": true,
+    "bytes": 3855269,
+    "sha256": "d2685ec597c6fbefe73afcf134827b8692d5a12730787cf5f692c04aa54a3e80",
+    "ffprobe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "mp3",
+          "codec_long_name": "MP3 (MPEG audio layer 3)",
+          "codec_type": "audio",
+          "codec_tag_string": "[0][0][0][0]",
+          "codec_tag": "0x0000",
+          "mime_codec_string": "mp4a.40.34",
+          "sample_fmt": "fltp",
+          "sample_rate": "44100",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/14112000",
+          "start_pts": 353600,
+          "start_time": "0.025057",
+          "duration_ts": 2607677440,
+          "duration": "184.784399",
+          "bit_rate": "166874",
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "encoder": "Lavc62.28"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/quyth/Downloads/YTSave_YouTube_Media_6ukEy6FOxZE_Non-Copyrighted-Music-SmartToaster-Herbal-Tea-Lo-fi_008_128k.mp3",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mp3",
+        "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+        "start_time": "0.025057",
+        "duration": "184.784399",
+        "size": "3855269",
+        "bit_rate": "166908",
+        "probe_score": 51,
+        "tags": {
+          "major_brand": "dash",
+          "minor_version": "0",
+          "compatible_brands": "iso6mp41",
+          "encoder": "Lavf62.12.100"
+        }
+      }
+    }
+  },
+  {
+    "track": "C",
+    "path": "/Users/quyth/Downloads/YTSave_YouTube_Media_Q7HjxOAU5Kc_Copyright-Free-Chill-Background-Music-Way-Home-by-tokyowalker4038_009_128k.mp3",
+    "exists": true,
+    "bytes": 6632976,
+    "sha256": "dc5daba50f889602e26207c1cc3ddb22e5f6b5d352235621f6e9c445f07caf5d",
+    "ffprobe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "mp3",
+          "codec_long_name": "MP3 (MPEG audio layer 3)",
+          "codec_type": "audio",
+          "codec_tag_string": "[0][0][0][0]",
+          "codec_tag": "0x0000",
+          "mime_codec_string": "mp4a.40.34",
+          "sample_fmt": "fltp",
+          "sample_rate": "44100",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/14112000",
+          "start_pts": 353600,
+          "start_time": "0.025057",
+          "duration_ts": 3925934080,
+          "duration": "278.198277",
+          "bit_rate": "190715",
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "encoder": "Lavc62.28"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/quyth/Downloads/YTSave_YouTube_Media_Q7HjxOAU5Kc_Copyright-Free-Chill-Background-Music-Way-Home-by-tokyowalker4038_009_128k.mp3",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mp3",
+        "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+        "start_time": "0.025057",
+        "duration": "278.198277",
+        "size": "6632976",
+        "bit_rate": "190740",
+        "probe_score": 51,
+        "tags": {
+          "major_brand": "dash",
+          "minor_version": "0",
+          "compatible_brands": "iso6mp41",
+          "encoder": "Lavf62.12.100"
+        }
+      }
+    }
+  }
+]

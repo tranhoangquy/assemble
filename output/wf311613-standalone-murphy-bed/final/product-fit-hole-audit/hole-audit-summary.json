@@ -1,0 +1,17 @@
+{
+  "variantFeatureRecords": 1043,
+  "deduplicatedFeatureRecords": 747,
+  "categoryCounts": {
+    "REQUIRED_HARDWARE": 423,
+    "REQUIRED_CAM_DOWEL": 154,
+    "REQUIRED_WALL_ANCHOR": 20,
+    "ASSEMBLY_ACCESS": 116,
+    "REQUIRED_CONNECTION": 8,
+    "REQUIRED_PIVOT": 16,
+    "REQUIRED_BEARING": 6,
+    "REQUIRED_PISTON": 4
+  },
+  "unjustified": 0,
+  "structurallyJustifiedUnused": 0,
+  "note": "Variants and compound bores are listed explicitly; deduplication uses part, axis, position, radius, face and depth, not a claim that records equal physical holes."
+}

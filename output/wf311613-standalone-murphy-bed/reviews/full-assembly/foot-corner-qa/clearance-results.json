@@ -1,0 +1,19 @@
+{
+  "supportedLegFootCorner": {
+    "cm": 0.12999999523162842,
+    "moving": "S28--1-D7-H1-1",
+    "fixed": "C1-start",
+    "angle": -40.5
+  },
+  "storedLegCabinet": {
+    "cm": 0.09999999999995013,
+    "moving": "D7-1",
+    "fixed": "A6",
+    "angle": 88.25
+  },
+  "minSupportedTimberFloorCm": 3.5756670092506084,
+  "angularIncrement": 0.25,
+  "legSamples": 361,
+  "closingSamples": 349,
+  "note": "Actual generated triangle surface distances, rigid world-space transforms. Joint contact is separately tested as a solid penetration, not accepted by a minimum-distance rule. Scene centimetres, not manufacturer tolerances."
+}

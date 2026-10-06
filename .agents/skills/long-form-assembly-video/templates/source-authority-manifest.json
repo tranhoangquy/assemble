@@ -1,0 +1,30 @@
+{
+  "templateVersion": "1.0",
+  "productId": null,
+  "revision": null,
+  "status": "DRAFT",
+  "defaultPriority": [
+    "official-manual",
+    "approved-product-data",
+    "approved-mechanical-relationships",
+    "DirectorPlan",
+    "approved-visual-material-reference",
+    "documented-inference"
+  ],
+  "sources": [
+    {
+      "id": null,
+      "role": null,
+      "authorityRank": null,
+      "path": null,
+      "url": null,
+      "sha256": null,
+      "pagesOrSections": [],
+      "approvedBy": null,
+      "approvalEvidence": null
+    }
+  ],
+  "conflicts": [],
+  "inferences": [],
+  "scopeDecisionEvidence": null
+}

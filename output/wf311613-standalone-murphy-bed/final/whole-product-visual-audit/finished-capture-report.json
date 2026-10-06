@@ -1,0 +1,85 @@
+{
+  "readinessBudget": 90000,
+  "productionCamerasChanged": false,
+  "pageErrors": [],
+  "captures": [
+    {
+      "id": "finished-open-front",
+      "group": "finished",
+      "time": 523.9,
+      "title": "Finished bedroom open / front",
+      "camera": {
+        "position": [
+          0,
+          165.95569656552522,
+          -735.6587070690651
+        ],
+        "target": [
+          0,
+          114.02499999999999,
+          -86.52499999999999
+        ],
+        "fov": 38
+      }
+    },
+    {
+      "id": "finished-open-front-left",
+      "group": "finished",
+      "time": 523.9,
+      "title": "Finished bedroom open / front-left",
+      "camera": {
+        "position": [
+          -392.4143669085466,
+          285.7062855224891,
+          -577.0429586356832
+        ],
+        "target": [
+          0,
+          114.02499999999999,
+          -86.52499999999999
+        ],
+        "fov": 38
+      }
+    },
+    {
+      "id": "finished-open-front-right",
+      "group": "finished",
+      "time": 523.9,
+      "title": "Finished bedroom open / front-right",
+      "camera": {
+        "position": [
+          392.4143669085466,
+          285.7062855224891,
+          -577.0429586356832
+        ],
+        "target": [
+          0,
+          114.02499999999999,
+          -86.52499999999999
+        ],
+        "fov": 38
+      }
+    },
+    {
+      "id": "finished-open-upper",
+      "group": "finished",
+      "time": 523.9,
+      "title": "Finished bedroom open / upper",
+      "camera": {
+        "position": [
+          -142.105153369744,
+          682.4456134789759,
+          -370.73530673948795
+        ],
+        "target": [
+          0,
+          114.02499999999999,
+          -86.52499999999999
+        ],
+        "fov": 38
+      }
+    }
+  ],
+  "readinessMs": 66623,
+  "valid": true
+}

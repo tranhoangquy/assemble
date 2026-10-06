@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "boxes": [
+    {
+      "type": "ftyp",
+      "offset": 0,
+      "size": 32
+    },
+    {
+      "type": "moov",
+      "offset": 32,
+      "size": 577800
+    },
+    {
+      "type": "free",
+      "offset": 577832,
+      "size": 8
+    },
+    {
+      "type": "mdat",
+      "offset": 577840,
+      "size": 46702121
+    }
+  ]
+}

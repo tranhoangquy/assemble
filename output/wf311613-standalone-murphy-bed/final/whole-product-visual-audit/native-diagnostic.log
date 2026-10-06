@@ -1,0 +1,8 @@
+{
+  found: true,
+  result: [
+    { key: 'fiber3.hook34.current', scene: true },
+    { key: 'fiber9.hook9.current', scene: true }
+  ],
+  keys: [ '__reactFiber$p7pu1g16rk', '__reactProps$p7pu1g16rk' ]
+}

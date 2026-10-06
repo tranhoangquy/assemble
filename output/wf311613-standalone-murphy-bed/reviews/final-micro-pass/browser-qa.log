@@ -1,0 +1,13 @@
+(node:53893) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+QA 01-intro-finished.png 0
+QA 02-exploded-50-percent.png 2.5
+QA 03-fully-exploded.png 3.75
+QA 04-exploded-hold.png 4.125
+QA 05-before-step1-transition.png 4.591666666666667
+QA 06-step1-reset.png 5
+QA 08-step26-alignment.png 392.6936938888886
+QA 09-step26-active-connection.png 395.1666666666667
+QA 10-step26-secured.png 398.26369388888855
+{"valid":true,"errors":[],"step1ResetIdentical":true,"replay":[{"name":"10-step26-secured.png","identical":true},{"name":"09-step26-active-connection.png","identical":true},{"name":"08-step26-alignment.png","identical":true},{"name":"06-step1-reset.png","identical":true},{"name":"05-before-step1-transition.png","identical":true},{"name":"04-exploded-hold.png","identical":true},{"name":"03-fully-exploded.png","identical":true},{"name":"02-exploded-50-percent.png","identical":true},{"name":"01-intro-finished.png","identical":true}]}

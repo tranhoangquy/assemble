@@ -1,0 +1,163 @@
+{
+  "candidate": "wf311613-final-micro-pass",
+  "retry": 1,
+  "sequential": true,
+  "noRenderAuthorized": true,
+  "startedAt": "2026-10-03T17:41:29.622Z",
+  "commands": [
+    {
+      "name": "1 frozen source/data identity",
+      "command": [
+        "/Users/quyth/.nvm/versions/node/v20.19.6/bin/node",
+        "--import",
+        "tsx",
+        "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/check-frozen-identity.mjs",
+        "before"
+      ],
+      "log": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/identity.log",
+      "startedAt": "2026-10-03T17:41:29.622Z",
+      "status": "PASS",
+      "code": 0,
+      "signal": null,
+      "elapsedMs": 262,
+      "endedAt": "2026-10-03T17:41:29.884Z"
+    },
+    {
+      "name": "2 native approved mechanical gates",
+      "command": [
+        "/Users/quyth/.nvm/versions/node/v20.19.6/bin/node",
+        "--import",
+        "tsx",
+        "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/run-approved-gate.mjs",
+        "mechanical"
+      ],
+      "log": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/gates.log",
+      "startedAt": "2026-10-03T17:41:29.884Z",
+      "status": "PASS",
+      "code": 0,
+      "signal": null,
+      "elapsedMs": 342483,
+      "endedAt": "2026-10-03T17:47:12.367Z"
+    },
+    {
+      "name": "3 native final-micro-pass validation",
+      "command": [
+        "/Users/quyth/.nvm/versions/node/v20.19.6/bin/node",
+        "--import",
+        "tsx",
+        "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/run-approved-gate.mjs",
+        "micro"
+      ],
+      "log": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/micro-native.log",
+      "startedAt": "2026-10-03T17:47:12.368Z",
+      "status": "PASS",
+      "code": 0,
+      "signal": null,
+      "elapsedMs": 13381,
+      "endedAt": "2026-10-03T17:47:25.749Z"
+    },
+    {
+      "name": "4 Polish 02B presentation checker",
+      "command": [
+        "/Users/quyth/.nvm/versions/node/v20.19.6/bin/node",
+        "--import",
+        "tsx",
+        "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/run-approved-gate.mjs",
+        "props"
+      ],
+      "log": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/props.log",
+      "startedAt": "2026-10-03T17:47:25.750Z",
+      "status": "PASS",
+      "code": 0,
+      "signal": null,
+      "elapsedMs": 14103,
+      "endedAt": "2026-10-03T17:47:39.853Z"
+    },
+    {
+      "name": "5 typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "log": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/typecheck.log",
+      "startedAt": "2026-10-03T17:47:39.853Z",
+      "status": "PASS",
+      "code": 0,
+      "signal": null,
+      "elapsedMs": 1683,
+      "endedAt": "2026-10-03T17:47:41.536Z"
+    },
+    {
+      "name": "6 application-source lint",
+      "command": [
+        "npm",
+        "run",
+        "lint",
+        "--",
+        "--ignore-pattern",
+        "output/**"
+      ],
+      "log": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/lint.log",
+      "startedAt": "2026-10-03T17:47:41.536Z",
+      "status": "PASS",
+      "code": 0,
+      "signal": null,
+      "elapsedMs": 3489,
+      "endedAt": "2026-10-03T17:47:45.025Z"
+    },
+    {
+      "name": "7 complete test suite",
+      "command": [
+        "npm",
+        "run",
+        "test",
+        "--",
+        "--reporter=default",
+        "--reporter=json",
+        "--outputFile.json=/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/tests-results.json"
+      ],
+      "log": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/tests.log",
+      "startedAt": "2026-10-03T17:47:45.026Z",
+      "status": "PASS",
+      "code": 0,
+      "signal": null,
+      "elapsedMs": 70805,
+      "endedAt": "2026-10-03T17:48:55.831Z"
+    },
+    {
+      "name": "8 production build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "log": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/build.log",
+      "startedAt": "2026-10-03T17:48:55.832Z",
+      "status": "PASS",
+      "code": 0,
+      "signal": null,
+      "elapsedMs": 113249,
+      "endedAt": "2026-10-03T17:50:49.081Z"
+    },
+    {
+      "name": "post-run byte/history identity",
+      "command": [
+        "/Users/quyth/.nvm/versions/node/v20.19.6/bin/node",
+        "--import",
+        "tsx",
+        "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/check-frozen-identity.mjs",
+        "after"
+      ],
+      "log": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-micro-pass-visual-master-verification/sequential-pre-render-retry-01/identity-after.log",
+      "startedAt": "2026-10-03T17:50:49.083Z",
+      "status": "PASS",
+      "code": 0,
+      "signal": null,
+      "elapsedMs": 379,
+      "endedAt": "2026-10-03T17:50:49.462Z"
+    }
+  ],
+  "valid": true,
+  "endedAt": "2026-10-03T17:50:49.463Z"
+}

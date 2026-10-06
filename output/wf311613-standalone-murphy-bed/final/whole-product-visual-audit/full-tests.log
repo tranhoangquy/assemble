@@ -1,0 +1,107 @@
+
+> furniture-video-engine@0.2.0 test
+> vitest run --reporter=default --reporter=json --outputFile=output/wf311613-standalone-murphy-bed/final/whole-product-visual-audit/full-tests.json
+
+
+ RUN  v4.1.11 /Users/quyth/development/three/POC
+
+(node:23278) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:23272) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:23273) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:23279) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:23281) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:23275) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:23274) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/foot-corner-reconstruction.test.ts (6 tests) 2560ms
+     ✓ changes only the authorized local foot-corner material, preserving all nonlocal profile samples  2306ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/step01-v2.test.ts (5 tests) 1206ms
+     ✓ creates physically distinct bores, dowel flutes, socket recess and bolt threads  1151ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/steps04-10.test.ts (8 tests) 1115ms
+     ✓ has physical feed/rotation for every fastener, no pop-in, and no actions outside their shot  397ms
+     ✓ creates non-empty routed rails and mirrored metal profiles without invalid vertices  522ms
+(node:23334) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/final-micro-pass.test.ts (2 tests) 1171ms
+   ✓ intro/reset wrapper preserves complete registry, geometry variants, camera and local timing  1131ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/step03-corrected.test.ts (6 tests) 7751ms
+     ✓ uses exactly four PDF wood parts and six of each required hardware  7616ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/action-pacing.test.ts (6 tests) 239ms
+ ✓ src/engine/geometry/FaceBores.test.ts (8 tests) 166ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/instructional-pacing.test.ts (4 tests) 72ms
+ ✓ src/engine/animation/AnimationEngine.test.ts (5 tests) 34ms
+ ✓ src/engine/export/ExportApi.test.ts (6 tests) 29ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/polish-pass01.test.ts (3 tests) 34ms
+ ✓ src/components/ui/production-ui.test.tsx (2 tests) 12ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/polish-pass02.test.ts (3 tests) 33ms
+ ✓ src/engine/render/SceneDiagnostics.test.ts (5 tests) 23ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/polish-pass02b.test.ts (2 tests) 22ms
+ ✓ src/engine/animation/MechanismSolver.test.ts (14 tests) 20ms
+ ✓ src/engine/export/ExportJobManager.test.ts (7 tests) 23ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/final-opening.test.ts (4 tests) 16ms
+ ✓ src/engine/export/FrameManifest.test.ts (3 tests) 46ms
+stderr | src/engine/assembly/AssemblyValidator.test.ts > Physical Assembly System V2 validation scenarios > D: reports a moving AABB intersecting an installed blocker
+[ASSEMBLY COLLISION] {
+  movingPart: 'moving',
+  blockedBy: 'blocker',
+  segment: 'START -> PRE_INSTALL',
+  step: 'install'
+}
+
+ ✓ src/engine/assembly/AssemblyValidator.test.ts (7 tests) 10ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/camera-distance-polish.test.ts (3 tests) 7ms
+ ✓ src/engine/installation/InstallationCollisionChecker.test.ts (3 tests) 15ms
+ ✓ src/engine/camera/CameraSeek.test.ts (1 test) 9ms
+ ✓ src/engine/animation/rotation-endpoints.test.ts (2 tests) 11ms
+ ✓ src/engine/export/RenderProfiles.test.ts (9 tests) 14ms
+ ✓ src/engine/export/RenderIdentity.test.ts (4 tests) 8ms
+ ✓ src/products/production-selection.test.ts (3 tests) 5ms
+ ✓ src/engine/export/NativeSurface.test.ts (5 tests) 7ms
+ ✓ src/presentation/environment/bedroom-config.test.ts (4 tests) 4ms
+ ✓ src/engine/animation/PresentationAxis.test.ts (1 test) 7ms
+ ✓ src/presentation/audio/approved-music.test.ts (2 tests) 3ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/b8-closed-face.test.ts (5 tests) 32655ms
+     ✓ has no daylight rays, no generated-mesh penetration, clear actual insertion paths and aligned receivers  32648ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/whole-scene-reset.test.ts (1 test) 35370ms
+     ✓ preserves every part, parent, local transform and actual render descendant across reverse seeks and repeated resets  35368ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/product-fit-hole-audit.test.ts (4 tests) 36456ms
+   ✓ seats the screenshot side-board and all side mating surfaces in assembled, closed and open states  35742ms
+   ✓ rejects an independently generated decorative hole  444ms
+ ✓ src/products/tests/registry.test.ts (15 tests) 17ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/steps11-20.test.ts (10 tests) 49569ms
+     ✓ restores all deterministic transforms/visibility/rotation on backward seeks and reset  529ms
+     ✓ generates finite physical geometry and preserves routed channel openings after drilling  6098ms
+     ✓ passes the existing assembly validator with all 355 operations  3815ms
+     ✓ clears actual solid meshes along every new structural path and large carrier sweep  38849ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/front-staging.test.ts (4 tests) 64332ms
+     ✓ validates the supplied candidate path on actual meshes rather than the accepted baseline  64291ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/mechanism-locks.test.ts (6 tests) 68635ms
+     ✓ passes an actual-mesh full sweep and detects the rejected reconstruction  54705ms
+     ✓ keeps the last E1 screw pair clear of the actual installed head dowels  13722ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/pivot-validation.test.ts (4 tests) 70852ms
+     ✓ clears every locked timber over a quarter-degree complete articulation sweep  35818ms
+     ✓ detects the legacy pivot contradiction rather than waiving cabinet contacts  18872ms
+     ✓ keeps both attached E2 ends and actual cylinder/rod solids clear across the entire articulation  16156ms
+ ✓ src/products/wf311613-standalone-murphy-bed/tests/folding-leg-validation.test.ts (4 tests) 74481ms
+     ✓ rejects a coarse sampling request and validates the complete connected function at quarter-degree resolution  74425ms
+
+ Test Files  40 passed (40)
+      Tests  196 passed (196)
+   Start at  20:31:03
+   Duration  75.06s (transform 3.18s, setup 0ms, import 41.29s, tests 447.04s, environment 3ms)
+
+JSON report written to /Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/whole-product-visual-audit/full-tests.json

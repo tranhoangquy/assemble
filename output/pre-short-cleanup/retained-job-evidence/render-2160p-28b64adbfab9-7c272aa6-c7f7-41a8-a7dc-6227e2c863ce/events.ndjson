@@ -1,0 +1,8 @@
+{"at":"2026-10-05T09:25:37.054Z","status":"preparing","message":"Preparing generation and validating saved work…","validFrames":0,"retries":0}
+{"at":"2026-10-05T09:25:37.060Z","status":"rendering","message":"Rendering missing or invalid frames…","validFrames":0,"retries":0}
+{"at":"2026-10-05T09:25:37.065Z","status":"rendering","message":"Rendering work chunk 1 of 2…","validFrames":0,"retries":0}
+{"at":"2026-10-05T09:25:51.148Z","status":"rendering","message":"Rendering work chunk 2 of 2…","validFrames":2,"retries":0}
+{"at":"2026-10-05T09:26:02.918Z","status":"validating_frames","message":"Validating the complete frame sequence…","validFrames":4,"retries":0}
+{"at":"2026-10-05T09:26:03.044Z","status":"encoding","message":"Encoding validated frames…","validFrames":4,"retries":0}
+{"at":"2026-10-05T09:26:03.320Z","status":"verifying","message":"Verifying final video…","validFrames":4,"retries":0}
+{"at":"2026-10-05T09:26:03.587Z","status":"completed","message":"Generation complete. Ready to download.","validFrames":4,"retries":0}

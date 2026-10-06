@@ -1,0 +1,77 @@
+{
+  "retrieved_at": "2026-10-05T03:10:06.828948+00:00",
+  "source_url": "https://breakingcopyright.com/song/tokyo-music-walker-way-home",
+  "required_credit_text": "Song: Way Home\nComposer: Tokyo Music Walker\nWebsite: https://www.youtube.com/channel/UC3lLfvhpPGtwd5qD25cMDcA\nLicense: Free To Use YouTube license youtube-free\nMusic powered by BreakingCopyright: https://breakingcopyright.com",
+  "structured_data": [
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicRecording",
+      "datePublished": "2026-08-02",
+      "name": "Way Home",
+      "byArtist": [
+        {
+          "@type": "Person",
+          "name": "Tokyo Music Walker",
+          "url": "https://breakingcopyright.com/artist/tokyo-music-walker"
+        }
+      ],
+      "genre": "R&B",
+      "audio": {
+        "@type": "AudioObject",
+        "contentUrl": "https://files.breakingcopyright.com/song/tokyo-music-walker-way-home.mp3",
+        "encodingFormat": "audio/mpeg"
+      },
+      "keywords": "R&B music, Chill music, R&B mp3 download, royalty-free music, free download",
+      "video": {
+        "@type": "VideoObject",
+        "name": "R&B & Chill (Royalty Free Music) - \"Way Home\" by Tokyo Music Walker",
+        "description": "R&B royalty-free music for videos. Chill instrumental music to use on YouTube and social media",
+        "uploadDate": "2026-08-02",
+        "thumbnailUrl": "https://img.youtube.com/vi/Q7HjxOAU5Kc/maxresdefault.jpg",
+        "contentUrl": "https://www.youtube.com/watch?v=Q7HjxOAU5Kc",
+        "embedUrl": "https://www.youtube.com/embed/Q7HjxOAU5Kc"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://breakingcopyright.com//"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Music",
+          "item": "https://breakingcopyright.com//royalty-free-music"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Way Home"
+        }
+      ]
+    }
+  ],
+  "youtube_description_observation": {
+    "exact_video_id": "Q7HjxOAU5Kc",
+    "artist": "Tokyo Music Walker",
+    "title": "Way Home",
+    "stated_license": "YouTube Free license",
+    "permission": "Free to use on YouTube and social media with required credits",
+    "official_download_page": "https://breakingcopyright.com/song/tokyo-music-walker-way-home",
+    "restriction": "Do not register song on Spotify, iTunes, or copyright detection systems",
+    "method": "Expanded exact director-supplied YouTube description inspected via browser accessibility/DOM; not a remembered third-party claim"
+  },
+  "download_attempt": {
+    "official_audio_url": "https://files.breakingcopyright.com/song/tokyo-music-walker-way-home.mp3",
+    "http_status": 403,
+    "result": "No audio asset acquired",
+    "methods": [
+      "HTTPS curl with referring official track page"
+    ]
+  }
+}

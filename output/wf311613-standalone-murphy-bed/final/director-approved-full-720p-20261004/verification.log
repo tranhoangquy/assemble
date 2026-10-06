@@ -1,0 +1,29 @@
+{
+  "valid": true,
+  "productSha256": "29ef4258730c3e3691c84223d98e240d9a25854d079402377f97489ace5f9fb5",
+  "videoSha256": "0d5d898cbfaecb4573f07e818ce722c6884cbd4dc67d7c51b7c6c724f404ba0a",
+  "bytes": 30278285,
+  "profile": "720p",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "frames": 15722,
+  "encodedDuration": 524.066667,
+  "timelineDuration": 524.0536938888888,
+  "fullDecode": "PASS",
+  "freshSequenceFromFrameZero": true,
+  "audioStreams": 0,
+  "sourcesUnchanged": true,
+  "decodedSpotFrameIndices": [
+    0,
+    2400,
+    6000,
+    9000,
+    13125,
+    14010,
+    15090,
+    15300,
+    15510,
+    15700
+  ]
+}

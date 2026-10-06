@@ -1,0 +1,444 @@
+{
+  "valid": true,
+  "source": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/whole-scene-seek-verification.json",
+  "sourceSha256": "506b6047a225d20f7f87a8b28bfc761beb27132a779e59f4fd19283cc707a507",
+  "originalStrictReportValid": false,
+  "originalReportUnchanged": true,
+  "strictCameraJsonReplayPass": false,
+  "wholeScenePngReplayExact": true,
+  "exactStep1Reset": {
+    "pngIdentical": true,
+    "cameraIdentical": true,
+    "baseline": {
+      "sha256": "84a1d48a637a6328541b33ad7ebbd013909879bee59219b46557e0d2c4002766",
+      "camera": {
+        "position": [
+          27.742406000000003,
+          264.08506,
+          190.72904400000002
+        ],
+        "direction": [
+          -0.08570007519381982,
+          -0.8034382165263221,
+          -0.5891880254526363
+        ],
+        "target": [
+          0,
+          4,
+          0
+        ],
+        "fov": 32
+      }
+    },
+    "afterIntro": {
+      "sha256": "84a1d48a637a6328541b33ad7ebbd013909879bee59219b46557e0d2c4002766",
+      "camera": {
+        "position": [
+          27.742406000000003,
+          264.08506,
+          190.72904400000002
+        ],
+        "direction": [
+          -0.08570007519381982,
+          -0.8034382165263221,
+          -0.5891880254526363
+        ],
+        "target": [
+          0,
+          4,
+          0
+        ],
+        "fov": 32
+      }
+    }
+  },
+  "excursionsExact": true,
+  "interpretation": "Two camera JSON comparisons differ only by adjacent IEEE-754 binary64 representations in position/direction. All 30 whole-scene PNGs, target/FOV, Step1 reset and six excursions remain exact. Strict JSON failure remains recorded; no candidate/native-validator threshold is changed.",
+  "allFindings": [
+    {
+      "label": "29-final-hero",
+      "time": 523.4536938888888,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "28-bedding",
+      "time": 520.6536938888888,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "27-mattress",
+      "time": 518.6936938888889,
+      "pngIdentical": true,
+      "cameraJsonIdentical": false,
+      "targetAndFovExact": true,
+      "differences": [
+        {
+          "field": "camera.position.1",
+          "first": 161.99999999999994,
+          "again": 161.99999999999997,
+          "delta": 2.842170943040401e-14,
+          "absoluteDelta": 2.842170943040401e-14,
+          "binary64UlpDistance": "1",
+          "adjacentBinary64": true
+        },
+        {
+          "field": "camera.direction.0",
+          "first": 0.6443947399546872,
+          "again": 0.6443947399546871,
+          "delta": -1.1102230246251565e-16,
+          "absoluteDelta": 1.1102230246251565e-16,
+          "binary64UlpDistance": "1",
+          "adjacentBinary64": true
+        },
+        {
+          "field": "camera.direction.1",
+          "first": -0.41739204747064945,
+          "again": -0.4173920474706495,
+          "delta": -5.551115123125783e-17,
+          "absoluteDelta": 5.551115123125783e-17,
+          "binary64UlpDistance": "1",
+          "adjacentBinary64": true
+        }
+      ],
+      "representationEquivalent": true
+    },
+    {
+      "label": "26-finished-open-bare",
+      "time": 516.8536938888889,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "25-finished-opening",
+      "time": 511.4036938888888,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "24-finished-closed-bedroom",
+      "time": 509.51369388888884,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "23-assembly-complete",
+      "time": 502.85369388888836,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "22-wall-anchoring",
+      "time": 469.1911938888885,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "21-folding-leg-construction",
+      "time": 417.13969388888853,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "20-piston-mechanism-verification",
+      "time": 405.1036938888886,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "19-step26-secured",
+      "time": 398.26369388888855,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "18-step26-retainer-installation",
+      "time": 396.7336938888886,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "17-step26-active-connection",
+      "time": 395.1836938888886,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "16-step26-corrected-alignment",
+      "time": 392.6936938888886,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "15-step25-connected-pullback",
+      "time": 388.8286938888886,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "14-step25-bearing-seating",
+      "time": 383.41369388888864,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "13-step25-supported-approach",
+      "time": 377.4436938888887,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "12-step25-front-staging",
+      "time": 374.0636938888887,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "11-carrier-construction",
+      "time": 266.75369388888885,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "10-bed-face-construction",
+      "time": 252.06369388888893,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "09b-B8-complete-cabinet-face",
+      "time": 117.85369388888876,
+      "pngIdentical": true,
+      "cameraJsonIdentical": false,
+      "targetAndFovExact": true,
+      "differences": [
+        {
+          "field": "camera.position.0",
+          "first": 30.134963000000013,
+          "again": 30.13496300000001,
+          "delta": -3.552713678800501e-15,
+          "absoluteDelta": 3.552713678800501e-15,
+          "binary64UlpDistance": "1",
+          "adjacentBinary64": true
+        },
+        {
+          "field": "camera.position.2",
+          "first": 331.43960300000015,
+          "again": 331.4396030000001,
+          "delta": -5.684341886080802e-14,
+          "absoluteDelta": 5.684341886080802e-14,
+          "binary64UlpDistance": "1",
+          "adjacentBinary64": true
+        }
+      ],
+      "representationEquivalent": true
+    },
+    {
+      "label": "09-cabinet-construction",
+      "time": 78.0636938888888,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "08-first-hardware-closeup",
+      "time": 20.951110000000003,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "07-early-assembly",
+      "time": 15.631072500000002,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "06-step1-exact-reset",
+      "time": 5,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "05-editorial-cut-step1-state",
+      "time": 4.633333333333333,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "04-intro-last-exploded-before-cut",
+      "time": 4.6,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "03-intro-fully-exploded",
+      "time": 3.75,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "02-intro-mid-explosion",
+      "time": 2.5,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    },
+    {
+      "label": "01-intro-finished-product",
+      "time": 0,
+      "pngIdentical": true,
+      "cameraJsonIdentical": true,
+      "targetAndFovExact": true,
+      "differences": [],
+      "representationEquivalent": true
+    }
+  ],
+  "differingFindings": [
+    {
+      "label": "27-mattress",
+      "time": 518.6936938888889,
+      "pngIdentical": true,
+      "cameraJsonIdentical": false,
+      "targetAndFovExact": true,
+      "differences": [
+        {
+          "field": "camera.position.1",
+          "first": 161.99999999999994,
+          "again": 161.99999999999997,
+          "delta": 2.842170943040401e-14,
+          "absoluteDelta": 2.842170943040401e-14,
+          "binary64UlpDistance": "1",
+          "adjacentBinary64": true
+        },
+        {
+          "field": "camera.direction.0",
+          "first": 0.6443947399546872,
+          "again": 0.6443947399546871,
+          "delta": -1.1102230246251565e-16,
+          "absoluteDelta": 1.1102230246251565e-16,
+          "binary64UlpDistance": "1",
+          "adjacentBinary64": true
+        },
+        {
+          "field": "camera.direction.1",
+          "first": -0.41739204747064945,
+          "again": -0.4173920474706495,
+          "delta": -5.551115123125783e-17,
+          "absoluteDelta": 5.551115123125783e-17,
+          "binary64UlpDistance": "1",
+          "adjacentBinary64": true
+        }
+      ],
+      "representationEquivalent": true
+    },
+    {
+      "label": "09b-B8-complete-cabinet-face",
+      "time": 117.85369388888876,
+      "pngIdentical": true,
+      "cameraJsonIdentical": false,
+      "targetAndFovExact": true,
+      "differences": [
+        {
+          "field": "camera.position.0",
+          "first": 30.134963000000013,
+          "again": 30.13496300000001,
+          "delta": -3.552713678800501e-15,
+          "absoluteDelta": 3.552713678800501e-15,
+          "binary64UlpDistance": "1",
+          "adjacentBinary64": true
+        },
+        {
+          "field": "camera.position.2",
+          "first": 331.43960300000015,
+          "again": 331.4396030000001,
+          "delta": -5.684341886080802e-14,
+          "absoluteDelta": 5.684341886080802e-14,
+          "binary64UlpDistance": "1",
+          "adjacentBinary64": true
+        }
+      ],
+      "representationEquivalent": true
+    }
+  ],
+  "verifiedAt": "2026-10-03T18:59:28.885Z"
+}

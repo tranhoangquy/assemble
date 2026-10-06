@@ -1,0 +1,832 @@
+{
+  "generatedAtUtc": "2026-10-02T08:45:53.482Z",
+  "status": "MECHANISM_CORRECTED_FOLDING_LEG_BLOCKED",
+  "finalCheckpointVerifiedOn": "2026-10-02",
+  "exportReady": false,
+  "fullPlanRegistered": false,
+  "wholeSceneSeekReset": {
+    "valid": false,
+    "errors": [
+      "Seek/reset mismatch: A9 at 0.000000 s",
+      "Seek/reset mismatch: A1 at 0.000000 s",
+      "Seek/reset mismatch: A3 at 0.000000 s"
+    ],
+    "comparisons": 5496,
+    "note": "Mechanism-owned replay regression passes; whole-scene reset does not. This failure is not waived."
+  },
+  "codeChecks": {
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "tests": { "valid": true, "passed": 93, "files": 13 },
+    "productionBuild": "PASS_WITH_EXISTING_EXPORT_GLOB_WARNING"
+  },
+  "assemblyChecks": {
+    "approvedSteps01To20": { "valid": true, "steps": 20, "operations": 355, "errors": 0, "warnings": 0 },
+    "draftSteps01To31": { "valid": false, "steps": 31, "operations": 433, "errors": 16, "warnings": 0, "note": "Step 28 installation/tool-access flags remain unresolved. They have not been waived as false positives." }
+  },
+  "lastE1HolePair": {
+    "previousLocalZ": 10.5,
+    "correctedLocalZ": 9,
+    "worldSourceZ": 354,
+    "conservativeInstallationZClearanceCm": 0.4999938,
+    "note": "All travel/feed/rotation is along X. Positive Z separation from the actual installed Step 16 head dowels conservatively clears the entire motion. Hole count remains eight per E1."
+  },
+  "units": "centimeters",
+  "pivot": {
+    "height": 36.5,
+    "bedLocalZ": 80,
+    "valid": true,
+    "errors": [],
+    "firstHits": [],
+    "hitCount": 0,
+    "meshPairs": 0,
+    "angularIncrement": 0.25,
+    "minFloorClearance": 12.730271399574912,
+    "topClearance": 0.46000008583069985,
+    "rearClearance": 2.460000061988831,
+    "cabWidthClearance": 0.4599730644959834,
+    "open": {
+      "min": [
+        -116,
+        24.5,
+        -191.19999995231626
+      ],
+      "max": [
+        116,
+        42.5,
+        12.799999952316284
+      ]
+    },
+    "closed": {
+      "min": [
+        -116,
+        14.500000047683727,
+        -21.200000000000024
+      ],
+      "max": [
+        116,
+        218.49999995231627,
+        -3.1999999999999815
+      ]
+    },
+    "estimated": true,
+    "method": "Actual generated meshes, bidirectional mesh-to-material-cell intersection; 0.05 mm contact tolerance. Timber cells conserve routed profiles; bores are not used to waive structural intersections.",
+    "partCount": 458
+  },
+  "pistons": {
+    "valid": true,
+    "errors": [],
+    "angularIncrement": 0.25,
+    "minLength": 73.65072979950708,
+    "maxLength": 89.47642147515735,
+    "bodyLength": 33,
+    "maximumLength": 92,
+    "cylinderChecks": 101080
+  },
+  "bearingPaths": {
+    "valid": true,
+    "errors": [],
+    "firstHits": [],
+    "sampledPoses": 1183,
+    "method": "Actual bearing meshes against the actual receiver planar material profile; open cradle contact is checked, not waived."
+  },
+  "hardware": {
+    "valid": false,
+    "metadataFitValid": true,
+    "actualAperturesValid": false,
+    "errors": [
+      "Actual receiver aperture blocked: S29--1-H9/C8-left",
+      "Actual receiver aperture blocked: S29--1-H2/D7--1",
+      "Actual receiver aperture blocked: S28-1-D7-H7-0/D7-1",
+      "Actual receiver aperture blocked: S29-1-H9/C8-right",
+      "Actual receiver aperture blocked: S29-1-H2/D7-1"
+    ],
+    "axesChecked": 64,
+    "receiversChecked": 58,
+    "actualApertureRays": 290,
+    "apertureHits": [
+      {
+        "id": "S29--1-H9",
+        "host": "C8-left",
+        "point": [
+          1.0600000619887737,
+          0,
+          -92
+        ],
+        "distance": -0.26000006198876235
+      },
+      {
+        "id": "S29--1-H9",
+        "host": "C8-left",
+        "point": [
+          1.0600000619887737,
+          0,
+          -92
+        ],
+        "distance": -0.26000006198876235
+      },
+      {
+        "id": "S29--1-H9",
+        "host": "C8-left",
+        "point": [
+          1.0600000619887737,
+          0,
+          -92
+        ],
+        "distance": -0.26000006198876235
+      },
+      {
+        "id": "S29--1-H9",
+        "host": "C8-left",
+        "point": [
+          1.0600000619887737,
+          0,
+          -92
+        ],
+        "distance": -0.26000006198876235
+      },
+      {
+        "id": "S29--1-H9",
+        "host": "C8-left",
+        "point": [
+          1.0600000619887737,
+          0,
+          -92
+        ],
+        "distance": -0.26000006198876235
+      },
+      {
+        "id": "S29--1-H2",
+        "host": "D7--1",
+        "point": [
+          -0.1999999880791279,
+          0,
+          -10
+        ],
+        "distance": -1.9999999880791393
+      },
+      {
+        "id": "S29--1-H2",
+        "host": "D7--1",
+        "point": [
+          -0.19999998807907104,
+          0,
+          -10.269875000000013
+        ],
+        "distance": -1.9999999880790824
+      },
+      {
+        "id": "S29--1-H2",
+        "host": "D7--1",
+        "point": [
+          -0.19999998807907104,
+          0,
+          -9.730124999999987
+        ],
+        "distance": -1.9999999880790824
+      },
+      {
+        "id": "S29--1-H2",
+        "host": "D7--1",
+        "point": [
+          -0.1999999880791279,
+          -0.269874999999999,
+          -10
+        ],
+        "distance": -1.9999999880791393
+      },
+      {
+        "id": "S29--1-H2",
+        "host": "D7--1",
+        "point": [
+          -0.1999999880791279,
+          0.269874999999999,
+          -10
+        ],
+        "distance": -1.9999999880791393
+      },
+      {
+        "id": "S28-1-D7-H7-0",
+        "host": "D7-1",
+        "point": [
+          1,
+          -0.509999999999998,
+          0
+        ],
+        "distance": -0.9999999999999432
+      },
+      {
+        "id": "S29-1-H9",
+        "host": "C8-right",
+        "point": [
+          -1.0600000619888874,
+          0,
+          -92
+        ],
+        "distance": -0.26000006198887604
+      },
+      {
+        "id": "S29-1-H9",
+        "host": "C8-right",
+        "point": [
+          -1.0600000619888874,
+          0,
+          -92
+        ],
+        "distance": -0.26000006198887604
+      },
+      {
+        "id": "S29-1-H9",
+        "host": "C8-right",
+        "point": [
+          -1.0600000619888874,
+          0,
+          -92
+        ],
+        "distance": -0.26000006198887604
+      },
+      {
+        "id": "S29-1-H9",
+        "host": "C8-right",
+        "point": [
+          -1.0600000619888874,
+          0,
+          -92
+        ],
+        "distance": -0.26000006198887604
+      },
+      {
+        "id": "S29-1-H9",
+        "host": "C8-right",
+        "point": [
+          -1.0600000619888874,
+          0,
+          -92
+        ],
+        "distance": -0.26000006198887604
+      },
+      {
+        "id": "S29-1-H2",
+        "host": "D7-1",
+        "point": [
+          0.1999999880791279,
+          0,
+          -10
+        ],
+        "distance": -1.9999999880791393
+      },
+      {
+        "id": "S29-1-H2",
+        "host": "D7-1",
+        "point": [
+          0.19999998807907104,
+          0,
+          -9.730124999999987
+        ],
+        "distance": -1.9999999880790824
+      },
+      {
+        "id": "S29-1-H2",
+        "host": "D7-1",
+        "point": [
+          0.19999998807907104,
+          0,
+          -10.269875000000013
+        ],
+        "distance": -1.9999999880790824
+      },
+      {
+        "id": "S29-1-H2",
+        "host": "D7-1",
+        "point": [
+          0.1999999880791279,
+          -0.269874999999999,
+          -10
+        ],
+        "distance": -1.9999999880791393
+      },
+      {
+        "id": "S29-1-H2",
+        "host": "D7-1",
+        "point": [
+          0.1999999880791279,
+          0.269874999999999,
+          -10
+        ],
+        "distance": -1.9999999880791393
+      }
+    ]
+  },
+  "receiverHosts": [
+    {
+      "hardware": "S25-H18--1",
+      "axisPoint": [
+        -116.65,
+        36.5,
+        -9.2
+      ],
+      "nominalHosts": [
+        {
+          "id": "A9",
+          "min": [
+            -118.60000702609024,
+            5.9999949541826005,
+            -14.000007447818673
+          ],
+          "max": [
+            -117.39999297390976,
+            49.0000050458174,
+            14.000007447818673
+          ],
+          "axisThickness": 1.200014052180478
+        }
+      ]
+    },
+    {
+      "hardware": "S25-H18-1",
+      "axisPoint": [
+        116.65,
+        36.5,
+        -9.2
+      ],
+      "nominalHosts": [
+        {
+          "id": "A9-R",
+          "min": [
+            117.39999297390975,
+            5.999999803924208,
+            -14
+          ],
+          "max": [
+            118.60000702609025,
+            49.00000019607579,
+            14
+          ],
+          "axisThickness": 1.2000140521805065
+        }
+      ]
+    },
+    {
+      "hardware": "S10-H21-7",
+      "axisPoint": [
+        -117.2,
+        60,
+        3
+      ],
+      "nominalHosts": [
+        {
+          "id": "A5",
+          "min": [
+            -119.50002696057888,
+            55.499994660074094,
+            -14.000028578841379
+          ],
+          "max": [
+            -116.49997303942112,
+            220.5000053399259,
+            14.000028578841379
+          ],
+          "axisThickness": 3.0000539211577575
+        }
+      ]
+    },
+    {
+      "hardware": "S10-H21-8",
+      "axisPoint": [
+        -117.2,
+        60,
+        -3
+      ],
+      "nominalHosts": [
+        {
+          "id": "A5",
+          "min": [
+            -119.50002696057888,
+            55.499994660074094,
+            -14.000028578841379
+          ],
+          "max": [
+            -116.49997303942112,
+            220.5000053399259,
+            14.000028578841379
+          ],
+          "axisThickness": 3.0000539211577575
+        }
+      ]
+    },
+    {
+      "hardware": "S10-H21-9",
+      "axisPoint": [
+        -117.2,
+        59.5,
+        -11
+      ],
+      "nominalHosts": [
+        {
+          "id": "A5",
+          "min": [
+            -119.50002696057888,
+            55.499994660074094,
+            -14.000028578841379
+          ],
+          "max": [
+            -116.49997303942112,
+            220.5000053399259,
+            14.000028578841379
+          ],
+          "axisThickness": 3.0000539211577575
+        }
+      ]
+    },
+    {
+      "hardware": "S9-H21-7",
+      "axisPoint": [
+        117.2,
+        60,
+        3
+      ],
+      "nominalHosts": [
+        {
+          "id": "A6",
+          "min": [
+            116.4999730394211,
+            55.499999509812056,
+            -14
+          ],
+          "max": [
+            119.5000269605789,
+            220.50000049018794,
+            14
+          ],
+          "axisThickness": 3.000053921157786
+        }
+      ]
+    },
+    {
+      "hardware": "S9-H21-8",
+      "axisPoint": [
+        117.2,
+        60,
+        -3
+      ],
+      "nominalHosts": [
+        {
+          "id": "A6",
+          "min": [
+            116.4999730394211,
+            55.499999509812056,
+            -14
+          ],
+          "max": [
+            119.5000269605789,
+            220.50000049018794,
+            14
+          ],
+          "axisThickness": 3.000053921157786
+        }
+      ]
+    },
+    {
+      "hardware": "S9-H21-9",
+      "axisPoint": [
+        117.2,
+        59.5,
+        -11
+      ],
+      "nominalHosts": [
+        {
+          "id": "A6",
+          "min": [
+            116.4999730394211,
+            55.499999509812056,
+            -14
+          ],
+          "max": [
+            119.5000269605789,
+            220.50000049018794,
+            14
+          ],
+          "axisThickness": 3.000053921157786
+        }
+      ]
+    }
+  ],
+  "retainers": [
+    {
+      "id": "S25-H18--1",
+      "host": "A9",
+      "headUnderSurface": 118.62500002384186,
+      "actualHostOuterSurface": 118.6000070499321,
+      "headGap": 0.024992973909760963,
+      "actualHostThickness": 1.2000140998642053
+    },
+    {
+      "id": "S25-H18-1",
+      "host": "A9-R",
+      "headUnderSurface": 118.62500002384186,
+      "actualHostOuterSurface": 118.6000070499321,
+      "headGap": 0.024992973909760963,
+      "actualHostThickness": 1.2000140998642053
+    }
+  ],
+  "timeline": {
+    "valid": false,
+    "errors": [
+      "S29-fold-test: D3--1 crosses C2-left",
+      "S29-fold-test: D3-1 crosses C2-right",
+      "S29-fold-test: D6--1 crosses C2-left",
+      "S29-fold-test: D6-1 crosses C2-right",
+      "S29-unfold-test: D6--1 crosses C2-left",
+      "S29-unfold-test: D6-1 crosses C2-right",
+      "S29-unfold-test: D3--1 crosses C2-left",
+      "S29-unfold-test: D3-1 crosses C2-right",
+      "final-fold-legs: D3--1 crosses C2-left",
+      "final-fold-legs: D3-1 crosses C2-right",
+      "final-fold-legs: D6--1 crosses C2-left",
+      "final-fold-legs: D6-1 crosses C2-right",
+      "final-deploy-legs: D6--1 crosses C2-left",
+      "final-deploy-legs: D6-1 crosses C2-right",
+      "final-deploy-legs: D3--1 crosses C2-left",
+      "final-deploy-legs: D3-1 crosses C2-right"
+    ],
+    "rigidChecks": 125762,
+    "pivotChecks": 920,
+    "pistonChecks": 1382,
+    "pistonSolidChecks": 195680,
+    "structuralPoses": 21421,
+    "legChecks": 1656
+  },
+  "foldingLegs": {
+    "valid": false,
+    "errors": [
+      "D3--1 crosses C2-left",
+      "D3-1 crosses C2-right",
+      "D6--1 crosses C2-left",
+      "D6-1 crosses C2-right"
+    ],
+    "firstHits": [
+      {
+        "angle": 0,
+        "moving": "D3--1",
+        "fixed": "C2-left"
+      },
+      {
+        "angle": 0,
+        "moving": "D3-1",
+        "fixed": "C2-right"
+      },
+      {
+        "angle": -0.5,
+        "moving": "D3--1",
+        "fixed": "C2-left"
+      },
+      {
+        "angle": -0.5,
+        "moving": "D3-1",
+        "fixed": "C2-right"
+      },
+      {
+        "angle": -1,
+        "moving": "D3--1",
+        "fixed": "C2-left"
+      },
+      {
+        "angle": -1,
+        "moving": "D3-1",
+        "fixed": "C2-right"
+      },
+      {
+        "angle": -1.5,
+        "moving": "D3--1",
+        "fixed": "C2-left"
+      },
+      {
+        "angle": -1.5,
+        "moving": "D3-1",
+        "fixed": "C2-right"
+      },
+      {
+        "angle": -2,
+        "moving": "D3--1",
+        "fixed": "C2-left"
+      },
+      {
+        "angle": -2,
+        "moving": "D3-1",
+        "fixed": "C2-right"
+      },
+      {
+        "angle": -2.5,
+        "moving": "D3--1",
+        "fixed": "C2-left"
+      },
+      {
+        "angle": -2.5,
+        "moving": "D3-1",
+        "fixed": "C2-right"
+      },
+      {
+        "angle": -3,
+        "moving": "D3--1",
+        "fixed": "C2-left"
+      },
+      {
+        "angle": -3,
+        "moving": "D3-1",
+        "fixed": "C2-right"
+      },
+      {
+        "angle": -3.5,
+        "moving": "D3--1",
+        "fixed": "C2-left"
+      },
+      {
+        "angle": -3.5,
+        "moving": "D3-1",
+        "fixed": "C2-right"
+      },
+      {
+        "angle": -4,
+        "moving": "D3--1",
+        "fixed": "C2-left"
+      },
+      {
+        "angle": -4,
+        "moving": "D3-1",
+        "fixed": "C2-right"
+      },
+      {
+        "angle": -4.5,
+        "moving": "D3--1",
+        "fixed": "C2-left"
+      },
+      {
+        "angle": -4.5,
+        "moving": "D3-1",
+        "fixed": "C2-right"
+      },
+      {
+        "angle": -5,
+        "moving": "D3--1",
+        "fixed": "C2-left"
+      },
+      {
+        "angle": -5,
+        "moving": "D3-1",
+        "fixed": "C2-right"
+      },
+      {
+        "angle": -5.5,
+        "moving": "D3--1",
+        "fixed": "C2-left"
+      },
+      {
+        "angle": -5.5,
+        "moving": "D3-1",
+        "fixed": "C2-right"
+      }
+    ],
+    "hitCount": 422,
+    "samples": 181,
+    "angularIncrement": 0.5,
+    "pockets": [
+      {
+        "pair": "D3--1/C2-left",
+        "partLocalMin": [
+          -3.8000000000000007,
+          -1.5000000000000195,
+          -85
+        ],
+        "partLocalMax": [
+          -2.25,
+          1.5000000000000149,
+          -53.72463308485806
+        ],
+        "extent": [
+          1.5500000000000007,
+          3.0000000000000346,
+          31.275366915141937
+        ]
+      },
+      {
+        "pair": "D3-1/C2-right",
+        "partLocalMin": [
+          2.25,
+          -1.5000000000000195,
+          -85
+        ],
+        "partLocalMax": [
+          3.8000000000000007,
+          1.5000000000000149,
+          -53.72463308485806
+        ],
+        "extent": [
+          1.5500000000000007,
+          3.0000000000000346,
+          31.275366915141937
+        ]
+      },
+      {
+        "pair": "D6--1/C2-left",
+        "partLocalMin": [
+          -3.8,
+          -1.5000000000000009,
+          -60.7700817904202
+        ],
+        "partLocalMax": [
+          -2.25,
+          1.5000000000000009,
+          -52.00728496911184
+        ],
+        "extent": [
+          1.5499999999999998,
+          3.0000000000000018,
+          8.762796821308356
+        ]
+      },
+      {
+        "pair": "D6-1/C2-right",
+        "partLocalMin": [
+          2.25,
+          -1.5000000000000009,
+          -60.7700817904202
+        ],
+        "partLocalMax": [
+          3.8,
+          1.5000000000000009,
+          -52.00728496911184
+        ],
+        "extent": [
+          1.5499999999999998,
+          3.0000000000000018,
+          8.762796821308356
+        ]
+      }
+    ],
+    "unionPockets": [
+      {
+        "pair": "C2-left",
+        "partLocalMin": [
+          -3.8000000000000007,
+          -1.5000000000000195,
+          -85
+        ],
+        "partLocalMax": [
+          -2.25,
+          1.5000000000000149,
+          -52.00728496911184
+        ],
+        "extent": [
+          1.5500000000000007,
+          3.0000000000000346,
+          32.99271503088816
+        ],
+        "openWorldMin": [
+          -116,
+          27.49999999999998,
+          -174.2
+        ],
+        "openWorldMax": [
+          -114.45,
+          30.500000000000014,
+          -141.20728496911184
+        ]
+      },
+      {
+        "pair": "C2-right",
+        "partLocalMin": [
+          2.25,
+          -1.5000000000000195,
+          -85
+        ],
+        "partLocalMax": [
+          3.8000000000000007,
+          1.5000000000000149,
+          -52.00728496911184
+        ],
+        "extent": [
+          1.5500000000000007,
+          3.0000000000000346,
+          32.99271503088816
+        ],
+        "openWorldMin": [
+          114.45,
+          27.49999999999998,
+          -174.2
+        ],
+        "openWorldMax": [
+          116,
+          30.500000000000014,
+          -141.20728496911184
+        ]
+      }
+    ],
+    "note": "Diagnostic sampled intersection envelopes, NOT proposed machining dimensions. D3 uses exact OBB material cells; D6 uses generated mesh surface clipped to actual routed C2 material cells. Additional clearance and engineering review would be required before any relief. No rail relief, mesh omission or collision waiver is applied."
+  },
+  "uncompletedValidation": [
+    "Parent-aware actual hardware installation-path adjudication of static AABB warnings",
+    "Complete final visual QA",
+    "Final MP4 export"
+  ],
+  "authorityNote": "No locked B8/C2 material was removed; intersections remain errors. Pocket bounds are sampled diagnostic envelopes, not proposed machining dimensions."
+}

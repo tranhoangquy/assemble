@@ -1,0 +1,52 @@
+{
+  "templateVersion": "1.0",
+  "productId": null,
+  "revision": null,
+  "status": "NOT RUN",
+  "intendedUse": {
+    "platform": null,
+    "commercial": null
+  },
+  "tracks": [
+    {
+      "id": null,
+      "title": null,
+      "artist": null,
+      "authoritativeSourceUrl": null,
+      "identityVerification": {
+        "method": null,
+        "evidence": null,
+        "status": "NOT RUN",
+        "limitations": null
+      },
+      "license": {
+        "name": null,
+        "url": null,
+        "evidencePath": null,
+        "youtubeUseStatus": null,
+        "commercialUseStatus": null,
+        "contentIdInformation": null,
+        "limitations": null,
+        "exactAttribution": null
+      },
+      "localProductionAsset": {
+        "path": null,
+        "sha256": null,
+        "acquisitionMethod": null,
+        "directorAuthorizationEvidence": null,
+        "codec": null,
+        "sampleRateHz": null,
+        "channels": null,
+        "bitrateBps": null,
+        "durationSeconds": null
+      },
+      "voiceListening": {
+        "status": "NOT RUN",
+        "listener": null,
+        "evidence": null
+      }
+    }
+  ],
+  "creditsPath": null,
+  "gateDecisionEvidence": null
+}

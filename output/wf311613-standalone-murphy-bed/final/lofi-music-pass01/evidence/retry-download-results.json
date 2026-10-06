@@ -1,0 +1,32 @@
+[
+  {
+    "track": "A",
+    "http_status": "403",
+    "error": "",
+    "bytes": 159,
+    "path": null,
+    "time": "2026-10-05T03:13:15.935131+00:00",
+    "error_body_path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/retry-A-403.html",
+    "audio_asset_acquired": false
+  },
+  {
+    "track": "B",
+    "http_status": "403",
+    "error": "",
+    "bytes": 159,
+    "path": null,
+    "time": "2026-10-05T03:13:15.848448+00:00",
+    "error_body_path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/retry-B-403.html",
+    "audio_asset_acquired": false
+  },
+  {
+    "track": "C",
+    "http_status": "403",
+    "error": "",
+    "bytes": 159,
+    "path": null,
+    "time": "2026-10-05T03:13:16.038314+00:00",
+    "error_body_path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/retry-C-403.html",
+    "audio_asset_acquired": false
+  }
+]

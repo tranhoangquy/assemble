@@ -1,0 +1,4 @@
+(node:89018) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"valid":true,"errors":[],"checks":[{"name":"05-final-hero.png","identical":true},{"name":"04-mattress-bedding.png","identical":true},{"name":"03-mattress-fit-medium.png","identical":true},{"name":"02-finished-open-bare.png","identical":true},{"name":"01-finished-closed.png","identical":true}]}

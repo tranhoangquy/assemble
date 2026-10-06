@@ -1,0 +1,1064 @@
+{
+  "valid": true,
+  "scope": "Exact executable-action phase bounds and PCM sample onset; post-encode decoded cue energy. AAC is perceptually coded; sample-exact encoded waveform identity is not claimed.",
+  "cueChecks": [
+    {
+      "cueId": "C001",
+      "timestamp": 9.0,
+      "semantic": "PART_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -16.97863908809674,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C002",
+      "timestamp": 11.966666666666667,
+      "semantic": "DOWEL_INSERT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.269567204467814,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C003",
+      "timestamp": 15.7,
+      "semantic": "PART_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -20.023357741986803,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C004",
+      "timestamp": 19.8,
+      "semantic": "CAM_INSERT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.275719773974625,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C005",
+      "timestamp": 20.5928125,
+      "semantic": "BOLT_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0024999999936881068,
+      "decodedPeakDbfs": -17.27181331425538,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C006",
+      "timestamp": 21.462104166666666,
+      "semantic": "CAM_TURN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.014166666659320981,
+      "decodedPeakDbfs": -16.269009201401623,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C007",
+      "timestamp": 35.4,
+      "semantic": "PART_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -16.96928433260115,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C008",
+      "timestamp": 35.93333333333333,
+      "semantic": "DOWEL_INSERT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.27110493831941,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C009",
+      "timestamp": 40.63333333333333,
+      "semantic": "CAM_INSERT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.26495563566394,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C010",
+      "timestamp": 41.74252083333333,
+      "semantic": "BOLT_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.01085555553714812,
+      "decodedPeakDbfs": -17.320354234362025,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C011",
+      "timestamp": 46.9239375,
+      "semantic": "CAM_TURN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.014722222218210845,
+      "decodedPeakDbfs": -16.327861608241005,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C012",
+      "timestamp": 53.56666666666667,
+      "semantic": "PART_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -17.01052083043272,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C013",
+      "timestamp": 55.13333333333333,
+      "semantic": "DOWEL_INSERT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.27110493831941,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C014",
+      "timestamp": 62.96666666666667,
+      "semantic": "CAM_INSERT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.228150963485632,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C015",
+      "timestamp": 64.08035416666667,
+      "semantic": "BOLT_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0031577777974689525,
+      "decodedPeakDbfs": -17.300905301833723,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C016",
+      "timestamp": 68.935375,
+      "semantic": "CAM_TURN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0011111111177797284,
+      "decodedPeakDbfs": -16.42742945757917,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C017",
+      "timestamp": 74.46666666666667,
+      "semantic": "PART_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -16.480295656313114,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C018",
+      "timestamp": 79.06666666666666,
+      "semantic": "DOWEL_INSERT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.225090935397589,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C019",
+      "timestamp": 79.56666666666666,
+      "semantic": "CAM_INSERT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.26495563566394,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C020",
+      "timestamp": 81.86077083333333,
+      "semantic": "BOLT_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0019444444205873879,
+      "decodedPeakDbfs": -17.31840738023798,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C021",
+      "timestamp": 83.3433125,
+      "semantic": "CAM_TURN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.01861111108780733,
+      "decodedPeakDbfs": -16.29665478555322,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C022",
+      "timestamp": 88.03333333333333,
+      "semantic": "PART_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -16.528151918630922,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C023",
+      "timestamp": 92.63333333333334,
+      "semantic": "DOWEL_INSERT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.269567204467814,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C024",
+      "timestamp": 93.1,
+      "semantic": "CAM_INSERT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.269567204467814,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C025",
+      "timestamp": 95.41077083333333,
+      "semantic": "BOLT_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0019444444205873879,
+      "decodedPeakDbfs": -17.361339296901964,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C026",
+      "timestamp": 96.8933125,
+      "semantic": "CAM_TURN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.01861111108780733,
+      "decodedPeakDbfs": -16.301848142741157,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C027",
+      "timestamp": 101.56666666666666,
+      "semantic": "PART_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -16.513944776411225,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C028",
+      "timestamp": 107.56666666666666,
+      "semantic": "DOWEL_INSERT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.269567204467814,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C029",
+      "timestamp": 108.06666666666666,
+      "semantic": "CAM_INSERT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.288038002790598,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C030",
+      "timestamp": 110.36077083333333,
+      "semantic": "BOLT_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0019444444205873879,
+      "decodedPeakDbfs": -17.34375058423347,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C031",
+      "timestamp": 115.9233125,
+      "semantic": "CAM_TURN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.018611111102018185,
+      "decodedPeakDbfs": -16.310510644344824,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C032",
+      "timestamp": 121.26666666666667,
+      "semantic": "PART_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -16.971154477863635,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C033",
+      "timestamp": 129.7928125,
+      "semantic": "SCREW_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.018611111102018185,
+      "decodedPeakDbfs": -17.77808551865177,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C034",
+      "timestamp": 140.76666666666668,
+      "semantic": "DOWEL_INSERT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.241934446364438,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C035",
+      "timestamp": 146.17285416666667,
+      "semantic": "SCREW_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.010277777789724496,
+      "decodedPeakDbfs": -17.304791605987177,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C036",
+      "timestamp": 158.56666666666666,
+      "semantic": "BRACKET_PLACE",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.73056577173717,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C037",
+      "timestamp": 159.19285416666668,
+      "semantic": "SCREW_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.010277777761302787,
+      "decodedPeakDbfs": -17.846081206435564,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C038",
+      "timestamp": 168.16666666666666,
+      "semantic": "PART_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -16.952471120180135,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C039",
+      "timestamp": 174.66666666666666,
+      "semantic": "BRACKET_PLACE",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.787501294886958,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C040",
+      "timestamp": 175.1494375,
+      "semantic": "SCREW_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.018611111102018185,
+      "decodedPeakDbfs": -17.776033329714153,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C041",
+      "timestamp": 194.2,
+      "semantic": "PART_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -16.96180777553262,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C042",
+      "timestamp": 203.23333333333332,
+      "semantic": "PART_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -17.018039454263423,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C043",
+      "timestamp": 204.0,
+      "semantic": "CAM_INSERT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.787501294886958,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C044",
+      "timestamp": 204.7720625,
+      "semantic": "BOLT_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.018611111073596476,
+      "decodedPeakDbfs": -17.792464433480134,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C045",
+      "timestamp": 208.16666666666666,
+      "semantic": "PART_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -16.98613015336319,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C046",
+      "timestamp": 215.66666666666666,
+      "semantic": "CAM_INSERT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.787501294886958,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C047",
+      "timestamp": 217.15077083333333,
+      "semantic": "BOLT_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.001944444363743969,
+      "decodedPeakDbfs": -17.829548458854433,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C048",
+      "timestamp": 220.16666666666666,
+      "semantic": "PART_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -17.019920127571208,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C049",
+      "timestamp": 220.70570833333332,
+      "semantic": "SCREW_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.014444444417449631,
+      "decodedPeakDbfs": -17.763730367829936,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C050",
+      "timestamp": 228.2,
+      "semantic": "PART_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -16.97302502587088,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C051",
+      "timestamp": 235.7,
+      "semantic": "CAM_INSERT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.741923058769789,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C052",
+      "timestamp": 237.18077083333333,
+      "semantic": "BOLT_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.001944444363743969,
+      "decodedPeakDbfs": -17.79863411976161,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C053",
+      "timestamp": 240.1,
+      "semantic": "PART_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -17.018039454263423,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C054",
+      "timestamp": 245.56666666666666,
+      "semantic": "CAM_INSERT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.754921025487278,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C055",
+      "timestamp": 247.03077083333332,
+      "semantic": "BOLT_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0019444444205873879,
+      "decodedPeakDbfs": -17.78835374261398,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C056",
+      "timestamp": 254.1,
+      "semantic": "DOWEL_INSERT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.261882616124343,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C057",
+      "timestamp": 258.03333333333336,
+      "semantic": "PART_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -17.019920127571208,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C058",
+      "timestamp": 260.0,
+      "semantic": "CAM_INSERT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.288038002790598,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C059",
+      "timestamp": 260.7720625,
+      "semantic": "BOLT_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.018611111102018185,
+      "decodedPeakDbfs": -17.28925681152546,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C060",
+      "timestamp": 273.0,
+      "semantic": "DOWEL_INSERT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.261882616124343,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C061",
+      "timestamp": 280.1333333333333,
+      "semantic": "CAM_INSERT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.255739836774918,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C062",
+      "timestamp": 280.74495833333333,
+      "semantic": "BOLT_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.014444444673245016,
+      "decodedPeakDbfs": -17.328146017470832,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C063",
+      "timestamp": 291.6,
+      "semantic": "BRACKET_PLACE",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.787501294886958,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C064",
+      "timestamp": 292.58077083333336,
+      "semantic": "SCREW_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0019444444774308067,
+      "decodedPeakDbfs": -17.835744552070267,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C065",
+      "timestamp": 305.43333333333334,
+      "semantic": "BRACKET_PLACE",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.741923058769789,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C066",
+      "timestamp": 305.8508958333333,
+      "semantic": "SCREW_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0019444444205873879,
+      "decodedPeakDbfs": -17.877165182010003,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C067",
+      "timestamp": 318.6,
+      "semantic": "PART_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -16.971154477863635,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C068",
+      "timestamp": 319.14570833333335,
+      "semantic": "SCREW_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.01444444444587134,
+      "decodedPeakDbfs": -17.800691656106196,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C069",
+      "timestamp": 338.93333333333334,
+      "semantic": "BRACKET_PLACE",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.288038002790598,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C070",
+      "timestamp": 339.5962083333333,
+      "semantic": "SCREW_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.014444444389027922,
+      "decodedPeakDbfs": -17.74326407740407,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C071",
+      "timestamp": 348.3,
+      "semantic": "BRACKET_PLACE",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.228150963485632,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C072",
+      "timestamp": 349.1713125,
+      "semantic": "SCREW_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.018611111158861604,
+      "decodedPeakDbfs": -17.316460962383772,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C073",
+      "timestamp": 358.06666666666666,
+      "semantic": "BEARING_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.787501294886958,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C074",
+      "timestamp": 361.53333333333336,
+      "semantic": "PISTON_ATTACH",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.301916923940198,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C075",
+      "timestamp": 362.4275,
+      "semantic": "NUT_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0061111110767342325,
+      "decodedPeakDbfs": -17.773981625526496,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C076",
+      "timestamp": 367.9,
+      "semantic": "BEARING_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.767938472117212,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C077",
+      "timestamp": 369.96666666666664,
+      "semantic": "PISTON_ATTACH",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.272642944456775,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C078",
+      "timestamp": 370.4908125,
+      "semantic": "NUT_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.018611111045174766,
+      "decodedPeakDbfs": -17.782191351693513,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C079",
+      "timestamp": 381.96666666666664,
+      "semantic": "BEARING_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -13.77066575549595,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C080",
+      "timestamp": 384.4355,
+      "semantic": "BOLT_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.006111111133577651,
+      "decodedPeakDbfs": -17.29896280162702,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C081",
+      "timestamp": 395.26666666666665,
+      "semantic": "PISTON_ATTACH",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -14.286414947600276,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C082",
+      "timestamp": 396.1373125,
+      "semantic": "NUT_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.018611111102018185,
+      "decodedPeakDbfs": -17.769879670485413,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C083",
+      "timestamp": 400.8666666666667,
+      "semantic": "PISTON_ATTACH",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -14.312542079327963,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C084",
+      "timestamp": 401.45239583333336,
+      "semantic": "NUT_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0019444444774308067,
+      "decodedPeakDbfs": -17.769879670485413,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C085",
+      "timestamp": 403.5437083333333,
+      "semantic": "MECHANISM_MOVEMENT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.014444444389027922,
+      "decodedPeakDbfs": -23.75364890113978,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C086",
+      "timestamp": 413.43539583333336,
+      "semantic": "NUT_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.001944444363743969,
+      "decodedPeakDbfs": -17.277623921878522,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C087",
+      "timestamp": 415.3666666666667,
+      "semantic": "DOWEL_INSERT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.268029742805588,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C088",
+      "timestamp": 417.26666666666665,
+      "semantic": "PART_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -16.480295656313114,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C089",
+      "timestamp": 417.6095,
+      "semantic": "BOLT_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0061111110767342325,
+      "decodedPeakDbfs": -17.304791605987177,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C090",
+      "timestamp": 437.64370833333334,
+      "semantic": "BED_OPEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.014444444389027922,
+      "decodedPeakDbfs": -23.757733495448797,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C091",
+      "timestamp": 440.63539583333335,
+      "semantic": "NUT_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.001944444363743969,
+      "decodedPeakDbfs": -17.277623921878522,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C092",
+      "timestamp": 445.43333333333334,
+      "semantic": "LEG_ATTACH",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.26495563566394,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C093",
+      "timestamp": 446.2775,
+      "semantic": "BOLT_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.006111111019890814,
+      "decodedPeakDbfs": -17.304791605987177,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C094",
+      "timestamp": 452.3666666666667,
+      "semantic": "LEG_ATTACH",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -18.322256039344577,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C095",
+      "timestamp": 454.5437083333333,
+      "semantic": "LEG_MOVEMENT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.014444444275341084,
+      "decodedPeakDbfs": -24.284056926470132,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C096",
+      "timestamp": 456.3666666666667,
+      "semantic": "MECHANISM_CLICK",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -20.26865440265141,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C097",
+      "timestamp": 465.8333333333333,
+      "semantic": "BRACKET_PLACE",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.754921025487278,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C098",
+      "timestamp": 466.27289583333334,
+      "semantic": "SCREW_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.001944444363743969,
+      "decodedPeakDbfs": -17.7575854155835,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C099",
+      "timestamp": 468.58370833333333,
+      "semantic": "WALL_ANCHOR",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.014444444389027922,
+      "decodedPeakDbfs": -17.802749679960883,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C100",
+      "timestamp": 479.1333333333333,
+      "semantic": "BRACKET_PLACE",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -15.787501294886958,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C101",
+      "timestamp": 480.02770833333335,
+      "semantic": "SCREW_TIGHTEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.01444444444587134,
+      "decodedPeakDbfs": -17.27181331425538,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C102",
+      "timestamp": 480.92470833333334,
+      "semantic": "WALL_ANCHOR",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.01444444444587134,
+      "decodedPeakDbfs": -17.759633250000167,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C103",
+      "timestamp": 490.19370833333335,
+      "semantic": "LEG_MOVEMENT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.01444444450271476,
+      "decodedPeakDbfs": -24.258051249444645,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C104",
+      "timestamp": 491.43333333333334,
+      "semantic": "MECHANISM_CLICK",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -20.2631881408989,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C105",
+      "timestamp": 491.5937083333333,
+      "semantic": "BED_CLOSE",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.01444444450271476,
+      "decodedPeakDbfs": -23.786379564978468,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C106",
+      "timestamp": 494.43333333333334,
+      "semantic": "PART_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -20.00477261263832,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C107",
+      "timestamp": 495.7937083333333,
+      "semantic": "BED_OPEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.01444444450271476,
+      "decodedPeakDbfs": -23.716973732063984,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C108",
+      "timestamp": 503.26666666666665,
+      "semantic": "FINAL_SOFT_CONFIRMATION",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -23.75364890113978,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C109",
+      "timestamp": 504.19370833333335,
+      "semantic": "LEG_MOVEMENT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.01444444444587134,
+      "decodedPeakDbfs": -24.266711160070336,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C110",
+      "timestamp": 505.43333333333334,
+      "semantic": "MECHANISM_CLICK",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -20.26865440265141,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C111",
+      "timestamp": 505.5937083333333,
+      "semantic": "BED_CLOSE",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.01444444444587134,
+      "decodedPeakDbfs": -23.757733495448797,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C112",
+      "timestamp": 508.43333333333334,
+      "semantic": "PART_SEAT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -19.95452680251965,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C113",
+      "timestamp": 509.7937083333333,
+      "semantic": "BED_OPEN",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.01444444444587134,
+      "decodedPeakDbfs": -23.76590845100573,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C114",
+      "timestamp": 512.7937083333334,
+      "semantic": "LEG_MOVEMENT",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.014444444559558178,
+      "decodedPeakDbfs": -24.36692569620923,
+      "assetPathValid": true
+    },
+    {
+      "cueId": "C115",
+      "timestamp": 514.2333333333333,
+      "semantic": "MECHANISM_CLICK",
+      "phaseSyncPass": true,
+      "onsetQuantizationMs": 0.0,
+      "decodedPeakDbfs": -20.331764919336678,
+      "assetPathValid": true
+    }
+  ],
+  "countsByType": {
+    "PART_SEAT": 20,
+    "DOWEL_INSERT": 10,
+    "CAM_INSERT": 12,
+    "BOLT_TIGHTEN": 15,
+    "CAM_TURN": 6,
+    "SCREW_TIGHTEN": 12,
+    "BRACKET_PLACE": 8,
+    "BEARING_SEAT": 3,
+    "PISTON_ATTACH": 4,
+    "NUT_TIGHTEN": 6,
+    "MECHANISM_MOVEMENT": 1,
+    "BED_OPEN": 3,
+    "LEG_ATTACH": 2,
+    "LEG_MOVEMENT": 4,
+    "MECHANISM_CLICK": 4,
+    "WALL_ANCHOR": 2,
+    "BED_CLOSE": 2,
+    "FINAL_SOFT_CONFIRMATION": 1
+  },
+  "selected": 115,
+  "candidates": 514,
+  "omitted": 399
+}

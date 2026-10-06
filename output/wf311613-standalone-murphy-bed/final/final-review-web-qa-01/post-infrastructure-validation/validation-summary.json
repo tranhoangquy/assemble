@@ -1,0 +1,25 @@
+{
+  "valid": true,
+  "method": "Recorded actual exit statuses from the completed sequential exec tool runs; not inferred from quiet logs. Required successful checks are distinguished from retained failed attempts.",
+  "heavyChecksRanSequentially": true,
+  "validatorThresholdsUnchanged": true,
+  "existingTestTimeoutsUnchanged": true,
+  "commands": [
+    { "name": "mechanical", "command": "node --import tsx run-approved-gate.mjs mechanical", "exitCode": 0, "log": "mechanical.log", "result": "15/15 unchanged approved gates PASS" },
+    { "name": "props-initial", "command": "node --import tsx run-approved-gate.mjs props", "exitCode": 1, "log": "props.log", "result": "Evidence output-directory ENOENT; retained, not a validation assertion failure" },
+    { "name": "props", "command": "node --import tsx run-approved-gate.mjs props", "exitCode": 0, "log": "props-retry.log", "result": "Unchanged checker PASS after creating only the new evidence directory" },
+    { "name": "profile-tests", "exitCode": 0, "log": "profile-tests.log", "tests": 38, "files": 7 },
+    { "name": "full-tests", "command": "npm test", "exitCode": 0, "log": "full-tests.log", "tests": 186, "files": 37 },
+    { "name": "typecheck", "command": "npm run typecheck", "exitCode": 0, "log": "typecheck.log" },
+    { "name": "lint", "command": "npm run lint -- --ignore-pattern 'output/**'", "exitCode": 0, "log": "lint.log", "note": "Generated evidence artifacts excluded; application source linted" },
+    { "name": "build-turbopack-initial", "command": "npm run build", "exitCode": 137, "log": "build.log" },
+    { "name": "build-turbopack-retry", "command": "npm run build", "exitCode": 137, "log": "build-retry-01.log" },
+    { "name": "build-webpack", "command": "npm run build -- --webpack", "exitCode": 0, "log": "build-webpack.log", "note": "Documented Next CLI backend only; no config/package changes, no validation skips" },
+    { "name": "micro-native", "command": "node --import tsx run-approved-gate.mjs micro", "exitCode": 1, "log": "micro-post-infrastructure.log", "result": "Physical checks PASS; historical aggregate byte-lock rejects only the two authorized generic engine file changes. Native aggregate remains FAIL." }
+  ],
+  "notClaimed": [
+    "All historical native aggregate validators PASS",
+    "Default Turbopack build PASS",
+    "Original strict camera JSON replay PASS"
+  ]
+}

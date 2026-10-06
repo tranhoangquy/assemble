@@ -1,0 +1,2912 @@
+{
+  "valid": true,
+  "candidate": "wf311613-final-micro-pass",
+  "baseline": "wf311613-director-polish-02b",
+  "renderUrl": "http://127.0.0.1:3016",
+  "runtime": 524.0536938888888,
+  "introDuration": 5,
+  "errors": [],
+  "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "consoleRecords": [
+    {
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "location": {
+        "url": "http://127.0.0.1:3016/favicon.ico",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "project": "wf311613-director-polish-02b"
+    }
+  ],
+  "networkAudit": {
+    "valid": true,
+    "responses": [
+      {
+        "url": "http://127.0.0.1:3016/render?project=wf311613-director-polish-02b",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "document",
+        "project": "wf311613-director-polish-02b"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/01ijwvfu-jsfv.css",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "stylesheet",
+        "project": "wf311613-director-polish-02b"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/310vm2bl3xxpt.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-director-polish-02b"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/089cv_5n2ifmm.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-director-polish-02b"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/0jw4jivscv1ye.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-director-polish-02b"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/turbopack-3ny-1x_zz2tty.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-director-polish-02b"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/3fntmmi971322.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-director-polish-02b"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/0h2zcjh9n5agl.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-director-polish-02b"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/1mk2vwf00unkp.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-director-polish-02b"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/34wvn5zw0a69w.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-director-polish-02b"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/2wiw_nwf-7l80.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-director-polish-02b"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "stylesheet",
+        "project": "wf311613-director-polish-02b"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBK6PYK0.woff2",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "font",
+        "project": "wf311613-director-polish-02b"
+      },
+      {
+        "url": "http://127.0.0.1:3016/render?project=wf311613-final-micro-pass",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "document",
+        "project": "wf311613-final-micro-pass"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/01ijwvfu-jsfv.css",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "stylesheet",
+        "project": "wf311613-final-micro-pass"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/310vm2bl3xxpt.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-final-micro-pass"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/089cv_5n2ifmm.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-final-micro-pass"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/1mk2vwf00unkp.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-final-micro-pass"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/34wvn5zw0a69w.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-final-micro-pass"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/0jw4jivscv1ye.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-final-micro-pass"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/turbopack-3ny-1x_zz2tty.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-final-micro-pass"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/3fntmmi971322.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-final-micro-pass"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/0h2zcjh9n5agl.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-final-micro-pass"
+      },
+      {
+        "url": "http://127.0.0.1:3016/_next/static/chunks/2wiw_nwf-7l80.js",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "script",
+        "project": "wf311613-final-micro-pass"
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "stylesheet",
+        "project": "wf311613-final-micro-pass"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBK6PYK0.woff2",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "font",
+        "project": "wf311613-final-micro-pass"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvumzEYOtbYf-Vlg.woff2",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "font",
+        "project": "wf311613-final-micro-pass"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSvfedN4.woff2",
+        "status": 200,
+        "method": "GET",
+        "resourceType": "font",
+        "project": "wf311613-final-micro-pass"
+      },
+      {
+        "url": "http://127.0.0.1:3016/favicon.ico",
+        "status": 404,
+        "method": "GET",
+        "resourceType": "explicit-diagnostic-HTTP-probe",
+        "project": "wf311613-director-polish-02b",
+        "source": "Read-only Playwright API GET of exact console.location URL absent from page.response",
+        "headers": {
+          "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1, 1",
+          "x-nextjs-stale-time": "300",
+          "x-powered-by": "Next.js",
+          "etag": "\"10sphgqutif60n\"",
+          "content-type": "text/html; charset=utf-8",
+          "content-encoding": "gzip",
+          "date": "Sat, 03 Oct 2026 19:02:32 GMT",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=5",
+          "transfer-encoding": "chunked"
+        },
+        "bodyBytes": 7799,
+        "consoleLocation": {
+          "url": "http://127.0.0.1:3016/favicon.ico",
+          "line": 0,
+          "column": 0,
+          "lineNumber": 0,
+          "columnNumber": 0
+        },
+        "confirmedAt": "2026-10-03T19:02:32.115Z"
+      }
+    ],
+    "requestFailures": [],
+    "optionalFavicon404": [
+      {
+        "url": "http://127.0.0.1:3016/favicon.ico",
+        "status": 404,
+        "method": "GET",
+        "resourceType": "explicit-diagnostic-HTTP-probe",
+        "project": "wf311613-director-polish-02b",
+        "source": "Read-only Playwright API GET of exact console.location URL absent from page.response",
+        "headers": {
+          "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1, 1",
+          "x-nextjs-stale-time": "300",
+          "x-powered-by": "Next.js",
+          "etag": "\"10sphgqutif60n\"",
+          "content-type": "text/html; charset=utf-8",
+          "content-encoding": "gzip",
+          "date": "Sat, 03 Oct 2026 19:02:32 GMT",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=5",
+          "transfer-encoding": "chunked"
+        },
+        "bodyBytes": 7799,
+        "consoleLocation": {
+          "url": "http://127.0.0.1:3016/favicon.ico",
+          "line": 0,
+          "column": 0,
+          "lineNumber": 0,
+          "columnNumber": 0
+        },
+        "confirmedAt": "2026-10-03T19:02:32.115Z"
+      }
+    ],
+    "unexplainedHttpFailures": [],
+    "knownNoncriticalConsole": [
+      {
+        "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "location": {
+          "url": "http://127.0.0.1:3016/favicon.ico",
+          "line": 0,
+          "column": 0,
+          "lineNumber": 0,
+          "columnNumber": 0
+        },
+        "project": "wf311613-director-polish-02b",
+        "response": {
+          "url": "http://127.0.0.1:3016/favicon.ico",
+          "status": 404,
+          "method": "GET",
+          "resourceType": "explicit-diagnostic-HTTP-probe",
+          "project": "wf311613-director-polish-02b",
+          "source": "Read-only Playwright API GET of exact console.location URL absent from page.response",
+          "headers": {
+            "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+            "x-nextjs-cache": "HIT",
+            "x-nextjs-prerender": "1, 1",
+            "x-nextjs-stale-time": "300",
+            "x-powered-by": "Next.js",
+            "etag": "\"10sphgqutif60n\"",
+            "content-type": "text/html; charset=utf-8",
+            "content-encoding": "gzip",
+            "date": "Sat, 03 Oct 2026 19:02:32 GMT",
+            "connection": "keep-alive",
+            "keep-alive": "timeout=5",
+            "transfer-encoding": "chunked"
+          },
+          "bodyBytes": 7799,
+          "consoleLocation": {
+            "url": "http://127.0.0.1:3016/favicon.ico",
+            "line": 0,
+            "column": 0,
+            "lineNumber": 0,
+            "columnNumber": 0
+          },
+          "confirmedAt": "2026-10-03T19:02:32.115Z"
+        },
+        "classification": "Observed optional favicon.ico GET 404; no application resource failure"
+      }
+    ],
+    "fatalConsoleErrors": []
+  },
+  "warnings": [
+    "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."
+  ],
+  "exactStep1Reset": {
+    "pngIdentical": true,
+    "cameraIdentical": true,
+    "baseline": {
+      "sha256": "84a1d48a637a6328541b33ad7ebbd013909879bee59219b46557e0d2c4002766",
+      "camera": {
+        "position": [
+          27.742406000000003,
+          264.08506,
+          190.72904400000002
+        ],
+        "direction": [
+          -0.08570007519381982,
+          -0.8034382165263221,
+          -0.5891880254526363
+        ],
+        "target": [
+          0,
+          4,
+          0
+        ],
+        "fov": 32
+      }
+    },
+    "afterIntro": {
+      "sha256": "84a1d48a637a6328541b33ad7ebbd013909879bee59219b46557e0d2c4002766",
+      "camera": {
+        "position": [
+          27.742406000000003,
+          264.08506,
+          190.72904400000002
+        ],
+        "direction": [
+          -0.08570007519381982,
+          -0.8034382165263221,
+          -0.5891880254526363
+        ],
+        "target": [
+          0,
+          4,
+          0
+        ],
+        "fov": 32
+      }
+    }
+  },
+  "wholeSceneIncludes": "Actual 1280x720 renderer PNGs include product, geometry variants, hardware, lighting, captions, room, props, mattress and bedding; no inspection-camera override.",
+  "checkpoints": [
+    {
+      "label": "01-intro-finished-product",
+      "time": 0,
+      "shot": "micro-intro-finished",
+      "camera": {
+        "position": [
+          -264.9999999999999,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "sha256": "29a4b04a023c741458f334ae68ba54165666bbc49ed4a0729ea9bdafd3bc7089"
+    },
+    {
+      "label": "02-intro-mid-explosion",
+      "time": 2.5,
+      "shot": "micro-intro-explode",
+      "camera": {
+        "position": [
+          -340,
+          235.00000000000003,
+          -399.99999999999994
+        ],
+        "direction": [
+          0.689609776657084,
+          -0.2210807813400652,
+          0.6896097766570839
+        ],
+        "target": [
+          0,
+          126,
+          -60
+        ],
+        "fov": 42
+      },
+      "sha256": "0e31bc6752b89d19a5eff4bf2235211495eb9df60ad9bc9959a3760ab4fb9f29"
+    },
+    {
+      "label": "03-intro-fully-exploded",
+      "time": 3.75,
+      "shot": "micro-intro-hold",
+      "camera": {
+        "position": [
+          -340,
+          235.00000000000003,
+          -399.99999999999994
+        ],
+        "direction": [
+          0.689609776657084,
+          -0.2210807813400652,
+          0.6896097766570839
+        ],
+        "target": [
+          0,
+          126,
+          -60
+        ],
+        "fov": 42
+      },
+      "sha256": "1e2912249cc91cb59d19dabef4001f9010b35770374ff1ac302f786e1b0d3084"
+    },
+    {
+      "label": "04-intro-last-exploded-before-cut",
+      "time": 4.6,
+      "shot": "micro-intro-hold",
+      "camera": {
+        "position": [
+          -340,
+          235.00000000000003,
+          -399.99999999999994
+        ],
+        "direction": [
+          0.689609776657084,
+          -0.2210807813400652,
+          0.6896097766570839
+        ],
+        "target": [
+          0,
+          126,
+          -60
+        ],
+        "fov": 42
+      },
+      "sha256": "1e2912249cc91cb59d19dabef4001f9010b35770374ff1ac302f786e1b0d3084"
+    },
+    {
+      "label": "05-editorial-cut-step1-state",
+      "time": 4.633333333333333,
+      "shot": "micro-intro-cut",
+      "sha256": "84a1d48a637a6328541b33ad7ebbd013909879bee59219b46557e0d2c4002766",
+      "camera": {
+        "position": [
+          27.742406000000003,
+          264.08506,
+          190.72904400000002
+        ],
+        "direction": [
+          -0.08570007519381982,
+          -0.8034382165263221,
+          -0.5891880254526363
+        ],
+        "target": [
+          0,
+          4,
+          0
+        ],
+        "fov": 32
+      }
+    },
+    {
+      "label": "06-step1-exact-reset",
+      "time": 5,
+      "shot": "assembly-step1-zero",
+      "sha256": "84a1d48a637a6328541b33ad7ebbd013909879bee59219b46557e0d2c4002766",
+      "camera": {
+        "position": [
+          27.742406000000003,
+          264.08506,
+          190.72904400000002
+        ],
+        "direction": [
+          -0.08570007519381982,
+          -0.8034382165263221,
+          -0.5891880254526363
+        ],
+        "target": [
+          0,
+          4,
+          0
+        ],
+        "fov": 32
+      }
+    },
+    {
+      "label": "07-early-assembly",
+      "shot": "rail-seat-0",
+      "time": 15.631072500000002,
+      "camera": {
+        "position": [
+          10.379522000000005,
+          252.090436,
+          -196.218425
+        ],
+        "direction": [
+          -0.04116716871754763,
+          -0.8233433610492531,
+          0.5660485615527173
+        ],
+        "target": [
+          -2,
+          4.5,
+          -26
+        ],
+        "fov": 32
+      },
+      "step": 1,
+      "sha256": "fdf78962c744dba0ff06c9fc873027b039ca3d05172b5c957ecc2974b7075cfa"
+    },
+    {
+      "label": "08-first-hardware-closeup",
+      "shot": "bolt-macro",
+      "time": 20.951110000000003,
+      "camera": {
+        "position": [
+          -87.835598,
+          38.258346,
+          -64.32880400000002
+        ],
+        "direction": [
+          -0.36589586144252156,
+          -0.5749792108382482,
+          0.7317917228850437
+        ],
+        "target": [
+          -109,
+          5,
+          -22
+        ],
+        "fov": 35
+      },
+      "step": 1,
+      "sha256": "f448cbf848eb7c326cb825385439a24e587e73a188496d42ac7372fe0b175cee"
+    },
+    {
+      "label": "09-cabinet-construction",
+      "shot": "S4-D4-1-seat",
+      "time": 78.0636938888888,
+      "camera": {
+        "position": [
+          30.110726000000003,
+          175.33217699999997,
+          331.1810750000001
+        ],
+        "direction": [
+          -0.0898832283293801,
+          -0.2696496820030501,
+          -0.9587544285481777
+        ],
+        "target": [
+          0,
+          85,
+          10
+        ],
+        "fov": 35
+      },
+      "step": 4,
+      "sha256": "ab96dff9a09a418d2d00a62d545176b348f042700c65bbbcee93f987ba18c347"
+    },
+    {
+      "label": "09b-B8-complete-cabinet-face",
+      "shot": "S6-complete",
+      "time": 117.85369388888876,
+      "camera": {
+        "position": [
+          30.134963000000013,
+          286.404888,
+          331.43960300000015
+        ],
+        "direction": [
+          -0.08988322832883915,
+          -0.2696496820038282,
+          -0.9587544285480094
+        ],
+        "target": [
+          0,
+          196,
+          10
+        ],
+        "fov": 35
+      },
+      "step": 6,
+      "sha256": "195dbd88665c6e18fdf890245c9745d24bd948a5fad8b61788cda723a4ebc14b"
+    },
+    {
+      "label": "10-bed-face-construction",
+      "shot": "S15-complete",
+      "time": 252.06369388888893,
+      "camera": {
+        "position": [
+          111.99959400000006,
+          297.69113,
+          -459.56167500000004
+        ],
+        "direction": [
+          -0.19183704961481937,
+          -0.8099786570617558,
+          0.5541959233876734
+        ],
+        "target": [
+          37.150087,
+          -18.340123,
+          -243.329765
+        ],
+        "fov": 50
+      },
+      "step": 15,
+      "sha256": "d9699b1a12eb8912444998f9c6964d27a67351af929f62f29f3f9eee85223a65"
+    },
+    {
+      "label": "11-carrier-construction",
+      "shot": "S16-complete",
+      "time": 266.75369388888885,
+      "camera": {
+        "position": [
+          236.44883899999996,
+          308.678698,
+          -514.279068
+        ],
+        "direction": [
+          -0.11086501616905681,
+          -0.7760551226654796,
+          0.6208440986064878
+        ],
+        "target": [
+          189.680618,
+          -18.698853,
+          -252.377027
+        ],
+        "fov": 55
+      },
+      "step": 16,
+      "sha256": "b286a512ae575114acdfd1c12e3e5693504ba050bf3d149b473cbe4c9cc87e21"
+    },
+    {
+      "label": "12-step25-front-staging",
+      "shot": "S25-context",
+      "time": 374.0636938888887,
+      "camera": {
+        "position": [
+          194.99685899999997,
+          279.095459,
+          -602.846173
+        ],
+        "direction": [
+          -0.27973661966458807,
+          -0.4099588391965215,
+          0.8681481289407185
+        ],
+        "target": [
+          48.40399,
+          64.261082,
+          -147.902787
+        ],
+        "fov": 55
+      },
+      "step": 25,
+      "sha256": "694350f3aa1ed8ec408f8ddfcdde6b0dabd68da164273e1c04cd38d9ccf7a00f"
+    },
+    {
+      "label": "13-step25-supported-approach",
+      "shot": "S25-route-4",
+      "time": 377.4436938888887,
+      "camera": {
+        "position": [
+          200.49288399999995,
+          247.44751699999998,
+          -618.8278620000001
+        ],
+        "direction": [
+          -0.29003988267769465,
+          -0.32504469649613604,
+          0.9001237757864438
+        ],
+        "target": [
+          47.341458,
+          75.812298,
+          -143.530332
+        ],
+        "fov": 55
+      },
+      "step": 25,
+      "sha256": "a11ce909bbffdabc98f3df2192486f89a60301bd4f76cad5ea22292cefa92dcc"
+    },
+    {
+      "label": "14-step25-bearing-seating",
+      "shot": "S25--1-connection",
+      "time": 383.41369388888864,
+      "camera": {
+        "position": [
+          -116.9,
+          37.5,
+          -13
+        ],
+        "direction": [
+          0.23499810407419122,
+          -0.2473664253412532,
+          0.9399924162967623
+        ],
+        "target": [
+          -115.95,
+          36.5,
+          -9.2
+        ],
+        "fov": 55
+      },
+      "step": 25,
+      "sha256": "6ff0a4dcff5a779a4f0cce4790af97257b86abee9d745a7870fc543bcb6552fb"
+    },
+    {
+      "label": "15-step25-connected-pullback",
+      "shot": "S25-complete",
+      "time": 388.8286938888886,
+      "camera": {
+        "position": [
+          151.65049700000003,
+          175.22859500000004,
+          -392.20208799999995
+        ],
+        "direction": [
+          -0.29650553676602237,
+          -0.25560822361988195,
+          0.9201896014870965
+        ],
+        "target": [
+          34.536557,
+          74.268301,
+          -28.745031
+        ],
+        "fov": 55
+      },
+      "step": 25,
+      "sha256": "0fcc5e1e74235e1ba9ee5d5ef7daef5f1f01d574fb47f6a1258b6bbc0bea5cc5"
+    },
+    {
+      "label": "16-step26-corrected-alignment",
+      "shot": "S26-target",
+      "time": 392.6936938888886,
+      "camera": {
+        "position": [
+          -114.3,
+          116,
+          17
+        ],
+        "direction": [
+          -0.0890870806374748,
+          -0.44543540318737396,
+          -0.8908708063747479
+        ],
+        "target": [
+          -115.3,
+          111,
+          7
+        ],
+        "fov": 62
+      },
+      "step": 26,
+      "sha256": "5231f7ceee2a19a065b567f536447a410b3ec81c36897923a617a6a9fa334ec0"
+    },
+    {
+      "label": "17-step26-active-connection",
+      "shot": "S26-eye-align",
+      "time": 395.1836938888886,
+      "camera": {
+        "position": [
+          -114.3,
+          116,
+          17
+        ],
+        "direction": [
+          -0.0890870806374748,
+          -0.44543540318737396,
+          -0.8908708063747479
+        ],
+        "target": [
+          -115.3,
+          111,
+          7
+        ],
+        "fov": 62
+      },
+      "step": 26,
+      "sha256": "1d058aa0b3de1dd72c4ae791db4c1de5f1451603d4dbffc7d4f978739edfba67"
+    },
+    {
+      "label": "18-step26-retainer-installation",
+      "shot": "S26-retain",
+      "time": 396.7336938888886,
+      "camera": {
+        "position": [
+          -114.3,
+          116,
+          17
+        ],
+        "direction": [
+          -0.0890870806374748,
+          -0.44543540318737396,
+          -0.8908708063747479
+        ],
+        "target": [
+          -115.3,
+          111,
+          7
+        ],
+        "fov": 62
+      },
+      "step": 26,
+      "sha256": "f7363f110a626873b052e13f04c7637d7a9e9dcb68b408d43f5d06db8bbc5d5a"
+    },
+    {
+      "label": "19-step26-secured",
+      "shot": "S26-verify",
+      "time": 398.26369388888855,
+      "camera": {
+        "position": [
+          -114.3,
+          116,
+          17
+        ],
+        "direction": [
+          -0.0890870806374748,
+          -0.44543540318737396,
+          -0.8908708063747479
+        ],
+        "target": [
+          -115.3,
+          111,
+          7
+        ],
+        "fov": 62
+      },
+      "step": 26,
+      "sha256": "3108e985f0c2e5a8bd4701222141005b4ee35ce4ff6547233ec651eb9d1bd37a"
+    },
+    {
+      "label": "20-piston-mechanism-verification",
+      "shot": "S27-small-test-out",
+      "time": 405.1036938888886,
+      "camera": {
+        "position": [
+          160.85118799999998,
+          162.067415,
+          -470.57752600000003
+        ],
+        "direction": [
+          -0.2993989587994248,
+          -0.21680614332286435,
+          0.9291691771078538
+        ],
+        "target": [
+          35.957891,
+          71.627441,
+          -82.977641
+        ],
+        "fov": 55
+      },
+      "step": 27,
+      "sha256": "0b13f75359d5d4d7e48767537f3df425f776dc926c1f4078344c7f84fb86268f"
+    },
+    {
+      "label": "21-folding-leg-construction",
+      "shot": "S28--1-D7-join",
+      "time": 417.13969388888853,
+      "camera": {
+        "position": [
+          9.352574000000011,
+          71.33610100000001,
+          -469.005293
+        ],
+        "direction": [
+          0.9307578455741897,
+          -0.25854383854782964,
+          0.25854383854783
+        ],
+        "target": [
+          64.916052,
+          55.901802,
+          -453.570994
+        ],
+        "fov": 35
+      },
+      "step": 28,
+      "sha256": "9ec23c2d9d5331e9afc5127827a609ff9f3ec47e22023a41c7bb4bcd4884549e"
+    },
+    {
+      "label": "22-wall-anchoring",
+      "shot": "S30-0-wall-screw",
+      "time": 469.1911938888885,
+      "camera": {
+        "position": [
+          -190.818171,
+          223.023796,
+          -18.607369999999996
+        ],
+        "direction": [
+          0.8627860512589344,
+          -0.26362907121800766,
+          0.43139302562946746
+        ],
+        "target": [
+          -126.901431,
+          203.493681,
+          13.351
+        ],
+        "fov": 35
+      },
+      "step": 30,
+      "sha256": "63193f4c154a6d6bad76c85a734011321cd7ef31d2183998dd057645938cb6ed"
+    },
+    {
+      "label": "23-assembly-complete",
+      "shot": "final-result",
+      "time": 502.85369388888836,
+      "camera": {
+        "position": [
+          191.78568800000005,
+          276.377111,
+          -542.801612
+        ],
+        "direction": [
+          -0.2797366193716076,
+          -0.4099588386673487,
+          0.8681481292850104
+        ],
+        "target": [
+          47.606882,
+          65.080585,
+          -95.350145
+        ],
+        "fov": 55
+      },
+      "step": 31,
+      "sha256": "c2b79917e7ba343fb9e0ec667a99ec731f8c8a9a2631bafc397f641d0a77cdd0"
+    },
+    {
+      "label": "24-finished-closed-bedroom",
+      "shot": "showcase-final-closed",
+      "time": 509.51369388888884,
+      "camera": {
+        "position": [
+          -264.99999999999983,
+          181.00000000000003,
+          -405
+        ],
+        "direction": [
+          0.5463441404320304,
+          -0.14637899611575167,
+          0.8246704006521215
+        ],
+        "target": [
+          0,
+          110,
+          -5
+        ],
+        "fov": 35
+      },
+      "sha256": "29a4b04a023c741458f334ae68ba54165666bbc49ed4a0729ea9bdafd3bc7089"
+    },
+    {
+      "label": "25-finished-opening",
+      "shot": "showcase-final-open",
+      "time": 511.4036938888888,
+      "camera": {
+        "position": [
+          -320.00000000000006,
+          215,
+          -412.99999999999994
+        ],
+        "direction": [
+          0.6553388067066518,
+          -0.2559917213697858,
+          0.7106330185225254
+        ],
+        "target": [
+          0,
+          90,
+          -66
+        ],
+        "fov": 46
+      },
+      "sha256": "f5b9fa4b5eae00f25b03acc00e251b5bf7b03d49c5b174daf0bb9564b5313270"
+    },
+    {
+      "label": "26-finished-open-bare",
+      "shot": "showcase-final-result",
+      "time": 516.8536938888889,
+      "camera": {
+        "position": [
+          -320.00000000000006,
+          215,
+          -412.99999999999994
+        ],
+        "direction": [
+          0.6553388067066518,
+          -0.2559917213697858,
+          0.7106330185225254
+        ],
+        "target": [
+          0,
+          90,
+          -66
+        ],
+        "fov": 46
+      },
+      "sha256": "42ec8bd3728bce45fb9e709c687115a668529c158140ad78c4d1b533636a4d28"
+    },
+    {
+      "label": "27-mattress",
+      "shot": "showcase-mattress",
+      "time": 518.6936938888889,
+      "camera": {
+        "position": [
+          -176.00000000000003,
+          161.99999999999994,
+          -260
+        ],
+        "direction": [
+          0.6443947399546872,
+          -0.41739204747064945,
+          0.6407334062049445
+        ],
+        "target": [
+          0,
+          48,
+          -85
+        ],
+        "fov": 46
+      },
+      "sha256": "738ec5e8762e311c417a07fdb194c71c030987a786d30d77e89dcdcc0e4a896b"
+    },
+    {
+      "label": "28-bedding",
+      "shot": "showcase-bedding",
+      "time": 520.6536938888888,
+      "camera": {
+        "position": [
+          -320.00000000000006,
+          215,
+          -412.99999999999994
+        ],
+        "direction": [
+          0.6553388067066518,
+          -0.2559917213697858,
+          0.7106330185225254
+        ],
+        "target": [
+          0,
+          90,
+          -66
+        ],
+        "fov": 46
+      },
+      "sha256": "c15686120c86a79c4b47403455147916830683770410eb098b736902229158b2"
+    },
+    {
+      "label": "29-final-hero",
+      "shot": "showcase-hero",
+      "time": 523.4536938888888,
+      "camera": {
+        "position": [
+          -320.00000000000006,
+          215,
+          -412.99999999999994
+        ],
+        "direction": [
+          0.6553388067066518,
+          -0.2559917213697858,
+          0.7106330185225254
+        ],
+        "target": [
+          0,
+          90,
+          -66
+        ],
+        "fov": 46
+      },
+      "sha256": "c15686120c86a79c4b47403455147916830683770410eb098b736902229158b2"
+    }
+  ],
+  "reverseReplay": [
+    {
+      "label": "29-final-hero",
+      "time": 523.4536938888888,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "c15686120c86a79c4b47403455147916830683770410eb098b736902229158b2",
+        "camera": {
+          "position": [
+            -320.00000000000006,
+            215,
+            -412.99999999999994
+          ],
+          "direction": [
+            0.6553388067066518,
+            -0.2559917213697858,
+            0.7106330185225254
+          ],
+          "target": [
+            0,
+            90,
+            -66
+          ],
+          "fov": 46
+        }
+      },
+      "again": {
+        "sha256": "c15686120c86a79c4b47403455147916830683770410eb098b736902229158b2",
+        "camera": {
+          "position": [
+            -320.00000000000006,
+            215,
+            -412.99999999999994
+          ],
+          "direction": [
+            0.6553388067066518,
+            -0.2559917213697858,
+            0.7106330185225254
+          ],
+          "target": [
+            0,
+            90,
+            -66
+          ],
+          "fov": 46
+        }
+      }
+    },
+    {
+      "label": "28-bedding",
+      "time": 520.6536938888888,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "c15686120c86a79c4b47403455147916830683770410eb098b736902229158b2",
+        "camera": {
+          "position": [
+            -320.00000000000006,
+            215,
+            -412.99999999999994
+          ],
+          "direction": [
+            0.6553388067066518,
+            -0.2559917213697858,
+            0.7106330185225254
+          ],
+          "target": [
+            0,
+            90,
+            -66
+          ],
+          "fov": 46
+        }
+      },
+      "again": {
+        "sha256": "c15686120c86a79c4b47403455147916830683770410eb098b736902229158b2",
+        "camera": {
+          "position": [
+            -320.00000000000006,
+            215,
+            -412.99999999999994
+          ],
+          "direction": [
+            0.6553388067066518,
+            -0.2559917213697858,
+            0.7106330185225254
+          ],
+          "target": [
+            0,
+            90,
+            -66
+          ],
+          "fov": 46
+        }
+      }
+    },
+    {
+      "label": "27-mattress",
+      "time": 518.6936938888889,
+      "pngIdentical": true,
+      "cameraIdentical": false,
+      "first": {
+        "sha256": "738ec5e8762e311c417a07fdb194c71c030987a786d30d77e89dcdcc0e4a896b",
+        "camera": {
+          "position": [
+            -176.00000000000003,
+            161.99999999999994,
+            -260
+          ],
+          "direction": [
+            0.6443947399546872,
+            -0.41739204747064945,
+            0.6407334062049445
+          ],
+          "target": [
+            0,
+            48,
+            -85
+          ],
+          "fov": 46
+        }
+      },
+      "again": {
+        "sha256": "738ec5e8762e311c417a07fdb194c71c030987a786d30d77e89dcdcc0e4a896b",
+        "camera": {
+          "position": [
+            -176.00000000000003,
+            161.99999999999997,
+            -260
+          ],
+          "direction": [
+            0.6443947399546871,
+            -0.4173920474706495,
+            0.6407334062049445
+          ],
+          "target": [
+            0,
+            48,
+            -85
+          ],
+          "fov": 46
+        }
+      }
+    },
+    {
+      "label": "26-finished-open-bare",
+      "time": 516.8536938888889,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "42ec8bd3728bce45fb9e709c687115a668529c158140ad78c4d1b533636a4d28",
+        "camera": {
+          "position": [
+            -320.00000000000006,
+            215,
+            -412.99999999999994
+          ],
+          "direction": [
+            0.6553388067066518,
+            -0.2559917213697858,
+            0.7106330185225254
+          ],
+          "target": [
+            0,
+            90,
+            -66
+          ],
+          "fov": 46
+        }
+      },
+      "again": {
+        "sha256": "42ec8bd3728bce45fb9e709c687115a668529c158140ad78c4d1b533636a4d28",
+        "camera": {
+          "position": [
+            -320.00000000000006,
+            215,
+            -412.99999999999994
+          ],
+          "direction": [
+            0.6553388067066518,
+            -0.2559917213697858,
+            0.7106330185225254
+          ],
+          "target": [
+            0,
+            90,
+            -66
+          ],
+          "fov": 46
+        }
+      }
+    },
+    {
+      "label": "25-finished-opening",
+      "time": 511.4036938888888,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "f5b9fa4b5eae00f25b03acc00e251b5bf7b03d49c5b174daf0bb9564b5313270",
+        "camera": {
+          "position": [
+            -320.00000000000006,
+            215,
+            -412.99999999999994
+          ],
+          "direction": [
+            0.6553388067066518,
+            -0.2559917213697858,
+            0.7106330185225254
+          ],
+          "target": [
+            0,
+            90,
+            -66
+          ],
+          "fov": 46
+        }
+      },
+      "again": {
+        "sha256": "f5b9fa4b5eae00f25b03acc00e251b5bf7b03d49c5b174daf0bb9564b5313270",
+        "camera": {
+          "position": [
+            -320.00000000000006,
+            215,
+            -412.99999999999994
+          ],
+          "direction": [
+            0.6553388067066518,
+            -0.2559917213697858,
+            0.7106330185225254
+          ],
+          "target": [
+            0,
+            90,
+            -66
+          ],
+          "fov": 46
+        }
+      }
+    },
+    {
+      "label": "24-finished-closed-bedroom",
+      "time": 509.51369388888884,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "29a4b04a023c741458f334ae68ba54165666bbc49ed4a0729ea9bdafd3bc7089",
+        "camera": {
+          "position": [
+            -264.99999999999983,
+            181.00000000000003,
+            -405
+          ],
+          "direction": [
+            0.5463441404320304,
+            -0.14637899611575167,
+            0.8246704006521215
+          ],
+          "target": [
+            0,
+            110,
+            -5
+          ],
+          "fov": 35
+        }
+      },
+      "again": {
+        "sha256": "29a4b04a023c741458f334ae68ba54165666bbc49ed4a0729ea9bdafd3bc7089",
+        "camera": {
+          "position": [
+            -264.99999999999983,
+            181.00000000000003,
+            -405
+          ],
+          "direction": [
+            0.5463441404320304,
+            -0.14637899611575167,
+            0.8246704006521215
+          ],
+          "target": [
+            0,
+            110,
+            -5
+          ],
+          "fov": 35
+        }
+      }
+    },
+    {
+      "label": "23-assembly-complete",
+      "time": 502.85369388888836,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "c2b79917e7ba343fb9e0ec667a99ec731f8c8a9a2631bafc397f641d0a77cdd0",
+        "camera": {
+          "position": [
+            191.78568800000005,
+            276.377111,
+            -542.801612
+          ],
+          "direction": [
+            -0.2797366193716076,
+            -0.4099588386673487,
+            0.8681481292850104
+          ],
+          "target": [
+            47.606882,
+            65.080585,
+            -95.350145
+          ],
+          "fov": 55
+        }
+      },
+      "again": {
+        "sha256": "c2b79917e7ba343fb9e0ec667a99ec731f8c8a9a2631bafc397f641d0a77cdd0",
+        "camera": {
+          "position": [
+            191.78568800000005,
+            276.377111,
+            -542.801612
+          ],
+          "direction": [
+            -0.2797366193716076,
+            -0.4099588386673487,
+            0.8681481292850104
+          ],
+          "target": [
+            47.606882,
+            65.080585,
+            -95.350145
+          ],
+          "fov": 55
+        }
+      }
+    },
+    {
+      "label": "22-wall-anchoring",
+      "time": 469.1911938888885,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "63193f4c154a6d6bad76c85a734011321cd7ef31d2183998dd057645938cb6ed",
+        "camera": {
+          "position": [
+            -190.818171,
+            223.023796,
+            -18.607369999999996
+          ],
+          "direction": [
+            0.8627860512589344,
+            -0.26362907121800766,
+            0.43139302562946746
+          ],
+          "target": [
+            -126.901431,
+            203.493681,
+            13.351
+          ],
+          "fov": 35
+        }
+      },
+      "again": {
+        "sha256": "63193f4c154a6d6bad76c85a734011321cd7ef31d2183998dd057645938cb6ed",
+        "camera": {
+          "position": [
+            -190.818171,
+            223.023796,
+            -18.607369999999996
+          ],
+          "direction": [
+            0.8627860512589344,
+            -0.26362907121800766,
+            0.43139302562946746
+          ],
+          "target": [
+            -126.901431,
+            203.493681,
+            13.351
+          ],
+          "fov": 35
+        }
+      }
+    },
+    {
+      "label": "21-folding-leg-construction",
+      "time": 417.13969388888853,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "9ec23c2d9d5331e9afc5127827a609ff9f3ec47e22023a41c7bb4bcd4884549e",
+        "camera": {
+          "position": [
+            9.352574000000011,
+            71.33610100000001,
+            -469.005293
+          ],
+          "direction": [
+            0.9307578455741897,
+            -0.25854383854782964,
+            0.25854383854783
+          ],
+          "target": [
+            64.916052,
+            55.901802,
+            -453.570994
+          ],
+          "fov": 35
+        }
+      },
+      "again": {
+        "sha256": "9ec23c2d9d5331e9afc5127827a609ff9f3ec47e22023a41c7bb4bcd4884549e",
+        "camera": {
+          "position": [
+            9.352574000000011,
+            71.33610100000001,
+            -469.005293
+          ],
+          "direction": [
+            0.9307578455741897,
+            -0.25854383854782964,
+            0.25854383854783
+          ],
+          "target": [
+            64.916052,
+            55.901802,
+            -453.570994
+          ],
+          "fov": 35
+        }
+      }
+    },
+    {
+      "label": "20-piston-mechanism-verification",
+      "time": 405.1036938888886,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "0b13f75359d5d4d7e48767537f3df425f776dc926c1f4078344c7f84fb86268f",
+        "camera": {
+          "position": [
+            160.85118799999998,
+            162.067415,
+            -470.57752600000003
+          ],
+          "direction": [
+            -0.2993989587994248,
+            -0.21680614332286435,
+            0.9291691771078538
+          ],
+          "target": [
+            35.957891,
+            71.627441,
+            -82.977641
+          ],
+          "fov": 55
+        }
+      },
+      "again": {
+        "sha256": "0b13f75359d5d4d7e48767537f3df425f776dc926c1f4078344c7f84fb86268f",
+        "camera": {
+          "position": [
+            160.85118799999998,
+            162.067415,
+            -470.57752600000003
+          ],
+          "direction": [
+            -0.2993989587994248,
+            -0.21680614332286435,
+            0.9291691771078538
+          ],
+          "target": [
+            35.957891,
+            71.627441,
+            -82.977641
+          ],
+          "fov": 55
+        }
+      }
+    },
+    {
+      "label": "19-step26-secured",
+      "time": 398.26369388888855,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "3108e985f0c2e5a8bd4701222141005b4ee35ce4ff6547233ec651eb9d1bd37a",
+        "camera": {
+          "position": [
+            -114.3,
+            116,
+            17
+          ],
+          "direction": [
+            -0.0890870806374748,
+            -0.44543540318737396,
+            -0.8908708063747479
+          ],
+          "target": [
+            -115.3,
+            111,
+            7
+          ],
+          "fov": 62
+        }
+      },
+      "again": {
+        "sha256": "3108e985f0c2e5a8bd4701222141005b4ee35ce4ff6547233ec651eb9d1bd37a",
+        "camera": {
+          "position": [
+            -114.3,
+            116,
+            17
+          ],
+          "direction": [
+            -0.0890870806374748,
+            -0.44543540318737396,
+            -0.8908708063747479
+          ],
+          "target": [
+            -115.3,
+            111,
+            7
+          ],
+          "fov": 62
+        }
+      }
+    },
+    {
+      "label": "18-step26-retainer-installation",
+      "time": 396.7336938888886,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "f7363f110a626873b052e13f04c7637d7a9e9dcb68b408d43f5d06db8bbc5d5a",
+        "camera": {
+          "position": [
+            -114.3,
+            116,
+            17
+          ],
+          "direction": [
+            -0.0890870806374748,
+            -0.44543540318737396,
+            -0.8908708063747479
+          ],
+          "target": [
+            -115.3,
+            111,
+            7
+          ],
+          "fov": 62
+        }
+      },
+      "again": {
+        "sha256": "f7363f110a626873b052e13f04c7637d7a9e9dcb68b408d43f5d06db8bbc5d5a",
+        "camera": {
+          "position": [
+            -114.3,
+            116,
+            17
+          ],
+          "direction": [
+            -0.0890870806374748,
+            -0.44543540318737396,
+            -0.8908708063747479
+          ],
+          "target": [
+            -115.3,
+            111,
+            7
+          ],
+          "fov": 62
+        }
+      }
+    },
+    {
+      "label": "17-step26-active-connection",
+      "time": 395.1836938888886,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "1d058aa0b3de1dd72c4ae791db4c1de5f1451603d4dbffc7d4f978739edfba67",
+        "camera": {
+          "position": [
+            -114.3,
+            116,
+            17
+          ],
+          "direction": [
+            -0.0890870806374748,
+            -0.44543540318737396,
+            -0.8908708063747479
+          ],
+          "target": [
+            -115.3,
+            111,
+            7
+          ],
+          "fov": 62
+        }
+      },
+      "again": {
+        "sha256": "1d058aa0b3de1dd72c4ae791db4c1de5f1451603d4dbffc7d4f978739edfba67",
+        "camera": {
+          "position": [
+            -114.3,
+            116,
+            17
+          ],
+          "direction": [
+            -0.0890870806374748,
+            -0.44543540318737396,
+            -0.8908708063747479
+          ],
+          "target": [
+            -115.3,
+            111,
+            7
+          ],
+          "fov": 62
+        }
+      }
+    },
+    {
+      "label": "16-step26-corrected-alignment",
+      "time": 392.6936938888886,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "5231f7ceee2a19a065b567f536447a410b3ec81c36897923a617a6a9fa334ec0",
+        "camera": {
+          "position": [
+            -114.3,
+            116,
+            17
+          ],
+          "direction": [
+            -0.0890870806374748,
+            -0.44543540318737396,
+            -0.8908708063747479
+          ],
+          "target": [
+            -115.3,
+            111,
+            7
+          ],
+          "fov": 62
+        }
+      },
+      "again": {
+        "sha256": "5231f7ceee2a19a065b567f536447a410b3ec81c36897923a617a6a9fa334ec0",
+        "camera": {
+          "position": [
+            -114.3,
+            116,
+            17
+          ],
+          "direction": [
+            -0.0890870806374748,
+            -0.44543540318737396,
+            -0.8908708063747479
+          ],
+          "target": [
+            -115.3,
+            111,
+            7
+          ],
+          "fov": 62
+        }
+      }
+    },
+    {
+      "label": "15-step25-connected-pullback",
+      "time": 388.8286938888886,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "0fcc5e1e74235e1ba9ee5d5ef7daef5f1f01d574fb47f6a1258b6bbc0bea5cc5",
+        "camera": {
+          "position": [
+            151.65049700000003,
+            175.22859500000004,
+            -392.20208799999995
+          ],
+          "direction": [
+            -0.29650553676602237,
+            -0.25560822361988195,
+            0.9201896014870965
+          ],
+          "target": [
+            34.536557,
+            74.268301,
+            -28.745031
+          ],
+          "fov": 55
+        }
+      },
+      "again": {
+        "sha256": "0fcc5e1e74235e1ba9ee5d5ef7daef5f1f01d574fb47f6a1258b6bbc0bea5cc5",
+        "camera": {
+          "position": [
+            151.65049700000003,
+            175.22859500000004,
+            -392.20208799999995
+          ],
+          "direction": [
+            -0.29650553676602237,
+            -0.25560822361988195,
+            0.9201896014870965
+          ],
+          "target": [
+            34.536557,
+            74.268301,
+            -28.745031
+          ],
+          "fov": 55
+        }
+      }
+    },
+    {
+      "label": "14-step25-bearing-seating",
+      "time": 383.41369388888864,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "6ff0a4dcff5a779a4f0cce4790af97257b86abee9d745a7870fc543bcb6552fb",
+        "camera": {
+          "position": [
+            -116.9,
+            37.5,
+            -13
+          ],
+          "direction": [
+            0.23499810407419122,
+            -0.2473664253412532,
+            0.9399924162967623
+          ],
+          "target": [
+            -115.95,
+            36.5,
+            -9.2
+          ],
+          "fov": 55
+        }
+      },
+      "again": {
+        "sha256": "6ff0a4dcff5a779a4f0cce4790af97257b86abee9d745a7870fc543bcb6552fb",
+        "camera": {
+          "position": [
+            -116.9,
+            37.5,
+            -13
+          ],
+          "direction": [
+            0.23499810407419122,
+            -0.2473664253412532,
+            0.9399924162967623
+          ],
+          "target": [
+            -115.95,
+            36.5,
+            -9.2
+          ],
+          "fov": 55
+        }
+      }
+    },
+    {
+      "label": "13-step25-supported-approach",
+      "time": 377.4436938888887,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "a11ce909bbffdabc98f3df2192486f89a60301bd4f76cad5ea22292cefa92dcc",
+        "camera": {
+          "position": [
+            200.49288399999995,
+            247.44751699999998,
+            -618.8278620000001
+          ],
+          "direction": [
+            -0.29003988267769465,
+            -0.32504469649613604,
+            0.9001237757864438
+          ],
+          "target": [
+            47.341458,
+            75.812298,
+            -143.530332
+          ],
+          "fov": 55
+        }
+      },
+      "again": {
+        "sha256": "a11ce909bbffdabc98f3df2192486f89a60301bd4f76cad5ea22292cefa92dcc",
+        "camera": {
+          "position": [
+            200.49288399999995,
+            247.44751699999998,
+            -618.8278620000001
+          ],
+          "direction": [
+            -0.29003988267769465,
+            -0.32504469649613604,
+            0.9001237757864438
+          ],
+          "target": [
+            47.341458,
+            75.812298,
+            -143.530332
+          ],
+          "fov": 55
+        }
+      }
+    },
+    {
+      "label": "12-step25-front-staging",
+      "time": 374.0636938888887,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "694350f3aa1ed8ec408f8ddfcdde6b0dabd68da164273e1c04cd38d9ccf7a00f",
+        "camera": {
+          "position": [
+            194.99685899999997,
+            279.095459,
+            -602.846173
+          ],
+          "direction": [
+            -0.27973661966458807,
+            -0.4099588391965215,
+            0.8681481289407185
+          ],
+          "target": [
+            48.40399,
+            64.261082,
+            -147.902787
+          ],
+          "fov": 55
+        }
+      },
+      "again": {
+        "sha256": "694350f3aa1ed8ec408f8ddfcdde6b0dabd68da164273e1c04cd38d9ccf7a00f",
+        "camera": {
+          "position": [
+            194.99685899999997,
+            279.095459,
+            -602.846173
+          ],
+          "direction": [
+            -0.27973661966458807,
+            -0.4099588391965215,
+            0.8681481289407185
+          ],
+          "target": [
+            48.40399,
+            64.261082,
+            -147.902787
+          ],
+          "fov": 55
+        }
+      }
+    },
+    {
+      "label": "11-carrier-construction",
+      "time": 266.75369388888885,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "b286a512ae575114acdfd1c12e3e5693504ba050bf3d149b473cbe4c9cc87e21",
+        "camera": {
+          "position": [
+            236.44883899999996,
+            308.678698,
+            -514.279068
+          ],
+          "direction": [
+            -0.11086501616905681,
+            -0.7760551226654796,
+            0.6208440986064878
+          ],
+          "target": [
+            189.680618,
+            -18.698853,
+            -252.377027
+          ],
+          "fov": 55
+        }
+      },
+      "again": {
+        "sha256": "b286a512ae575114acdfd1c12e3e5693504ba050bf3d149b473cbe4c9cc87e21",
+        "camera": {
+          "position": [
+            236.44883899999996,
+            308.678698,
+            -514.279068
+          ],
+          "direction": [
+            -0.11086501616905681,
+            -0.7760551226654796,
+            0.6208440986064878
+          ],
+          "target": [
+            189.680618,
+            -18.698853,
+            -252.377027
+          ],
+          "fov": 55
+        }
+      }
+    },
+    {
+      "label": "10-bed-face-construction",
+      "time": 252.06369388888893,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "d9699b1a12eb8912444998f9c6964d27a67351af929f62f29f3f9eee85223a65",
+        "camera": {
+          "position": [
+            111.99959400000006,
+            297.69113,
+            -459.56167500000004
+          ],
+          "direction": [
+            -0.19183704961481937,
+            -0.8099786570617558,
+            0.5541959233876734
+          ],
+          "target": [
+            37.150087,
+            -18.340123,
+            -243.329765
+          ],
+          "fov": 50
+        }
+      },
+      "again": {
+        "sha256": "d9699b1a12eb8912444998f9c6964d27a67351af929f62f29f3f9eee85223a65",
+        "camera": {
+          "position": [
+            111.99959400000006,
+            297.69113,
+            -459.56167500000004
+          ],
+          "direction": [
+            -0.19183704961481937,
+            -0.8099786570617558,
+            0.5541959233876734
+          ],
+          "target": [
+            37.150087,
+            -18.340123,
+            -243.329765
+          ],
+          "fov": 50
+        }
+      }
+    },
+    {
+      "label": "09b-B8-complete-cabinet-face",
+      "time": 117.85369388888876,
+      "pngIdentical": true,
+      "cameraIdentical": false,
+      "first": {
+        "sha256": "195dbd88665c6e18fdf890245c9745d24bd948a5fad8b61788cda723a4ebc14b",
+        "camera": {
+          "position": [
+            30.134963000000013,
+            286.404888,
+            331.43960300000015
+          ],
+          "direction": [
+            -0.08988322832883915,
+            -0.2696496820038282,
+            -0.9587544285480094
+          ],
+          "target": [
+            0,
+            196,
+            10
+          ],
+          "fov": 35
+        }
+      },
+      "again": {
+        "sha256": "195dbd88665c6e18fdf890245c9745d24bd948a5fad8b61788cda723a4ebc14b",
+        "camera": {
+          "position": [
+            30.13496300000001,
+            286.404888,
+            331.4396030000001
+          ],
+          "direction": [
+            -0.08988322832883915,
+            -0.2696496820038282,
+            -0.9587544285480094
+          ],
+          "target": [
+            0,
+            196,
+            10
+          ],
+          "fov": 35
+        }
+      }
+    },
+    {
+      "label": "09-cabinet-construction",
+      "time": 78.0636938888888,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "ab96dff9a09a418d2d00a62d545176b348f042700c65bbbcee93f987ba18c347",
+        "camera": {
+          "position": [
+            30.110726000000003,
+            175.33217699999997,
+            331.1810750000001
+          ],
+          "direction": [
+            -0.0898832283293801,
+            -0.2696496820030501,
+            -0.9587544285481777
+          ],
+          "target": [
+            0,
+            85,
+            10
+          ],
+          "fov": 35
+        }
+      },
+      "again": {
+        "sha256": "ab96dff9a09a418d2d00a62d545176b348f042700c65bbbcee93f987ba18c347",
+        "camera": {
+          "position": [
+            30.110726000000003,
+            175.33217699999997,
+            331.1810750000001
+          ],
+          "direction": [
+            -0.0898832283293801,
+            -0.2696496820030501,
+            -0.9587544285481777
+          ],
+          "target": [
+            0,
+            85,
+            10
+          ],
+          "fov": 35
+        }
+      }
+    },
+    {
+      "label": "08-first-hardware-closeup",
+      "time": 20.951110000000003,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "f448cbf848eb7c326cb825385439a24e587e73a188496d42ac7372fe0b175cee",
+        "camera": {
+          "position": [
+            -87.835598,
+            38.258346,
+            -64.32880400000002
+          ],
+          "direction": [
+            -0.36589586144252156,
+            -0.5749792108382482,
+            0.7317917228850437
+          ],
+          "target": [
+            -109,
+            5,
+            -22
+          ],
+          "fov": 35
+        }
+      },
+      "again": {
+        "sha256": "f448cbf848eb7c326cb825385439a24e587e73a188496d42ac7372fe0b175cee",
+        "camera": {
+          "position": [
+            -87.835598,
+            38.258346,
+            -64.32880400000002
+          ],
+          "direction": [
+            -0.36589586144252156,
+            -0.5749792108382482,
+            0.7317917228850437
+          ],
+          "target": [
+            -109,
+            5,
+            -22
+          ],
+          "fov": 35
+        }
+      }
+    },
+    {
+      "label": "07-early-assembly",
+      "time": 15.631072500000002,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "fdf78962c744dba0ff06c9fc873027b039ca3d05172b5c957ecc2974b7075cfa",
+        "camera": {
+          "position": [
+            10.379522000000005,
+            252.090436,
+            -196.218425
+          ],
+          "direction": [
+            -0.04116716871754763,
+            -0.8233433610492531,
+            0.5660485615527173
+          ],
+          "target": [
+            -2,
+            4.5,
+            -26
+          ],
+          "fov": 32
+        }
+      },
+      "again": {
+        "sha256": "fdf78962c744dba0ff06c9fc873027b039ca3d05172b5c957ecc2974b7075cfa",
+        "camera": {
+          "position": [
+            10.379522000000005,
+            252.090436,
+            -196.218425
+          ],
+          "direction": [
+            -0.04116716871754763,
+            -0.8233433610492531,
+            0.5660485615527173
+          ],
+          "target": [
+            -2,
+            4.5,
+            -26
+          ],
+          "fov": 32
+        }
+      }
+    },
+    {
+      "label": "06-step1-exact-reset",
+      "time": 5,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "84a1d48a637a6328541b33ad7ebbd013909879bee59219b46557e0d2c4002766",
+        "camera": {
+          "position": [
+            27.742406000000003,
+            264.08506,
+            190.72904400000002
+          ],
+          "direction": [
+            -0.08570007519381982,
+            -0.8034382165263221,
+            -0.5891880254526363
+          ],
+          "target": [
+            0,
+            4,
+            0
+          ],
+          "fov": 32
+        }
+      },
+      "again": {
+        "sha256": "84a1d48a637a6328541b33ad7ebbd013909879bee59219b46557e0d2c4002766",
+        "camera": {
+          "position": [
+            27.742406000000003,
+            264.08506,
+            190.72904400000002
+          ],
+          "direction": [
+            -0.08570007519381982,
+            -0.8034382165263221,
+            -0.5891880254526363
+          ],
+          "target": [
+            0,
+            4,
+            0
+          ],
+          "fov": 32
+        }
+      }
+    },
+    {
+      "label": "05-editorial-cut-step1-state",
+      "time": 4.633333333333333,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "84a1d48a637a6328541b33ad7ebbd013909879bee59219b46557e0d2c4002766",
+        "camera": {
+          "position": [
+            27.742406000000003,
+            264.08506,
+            190.72904400000002
+          ],
+          "direction": [
+            -0.08570007519381982,
+            -0.8034382165263221,
+            -0.5891880254526363
+          ],
+          "target": [
+            0,
+            4,
+            0
+          ],
+          "fov": 32
+        }
+      },
+      "again": {
+        "sha256": "84a1d48a637a6328541b33ad7ebbd013909879bee59219b46557e0d2c4002766",
+        "camera": {
+          "position": [
+            27.742406000000003,
+            264.08506,
+            190.72904400000002
+          ],
+          "direction": [
+            -0.08570007519381982,
+            -0.8034382165263221,
+            -0.5891880254526363
+          ],
+          "target": [
+            0,
+            4,
+            0
+          ],
+          "fov": 32
+        }
+      }
+    },
+    {
+      "label": "04-intro-last-exploded-before-cut",
+      "time": 4.6,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "1e2912249cc91cb59d19dabef4001f9010b35770374ff1ac302f786e1b0d3084",
+        "camera": {
+          "position": [
+            -340,
+            235.00000000000003,
+            -399.99999999999994
+          ],
+          "direction": [
+            0.689609776657084,
+            -0.2210807813400652,
+            0.6896097766570839
+          ],
+          "target": [
+            0,
+            126,
+            -60
+          ],
+          "fov": 42
+        }
+      },
+      "again": {
+        "sha256": "1e2912249cc91cb59d19dabef4001f9010b35770374ff1ac302f786e1b0d3084",
+        "camera": {
+          "position": [
+            -340,
+            235.00000000000003,
+            -399.99999999999994
+          ],
+          "direction": [
+            0.689609776657084,
+            -0.2210807813400652,
+            0.6896097766570839
+          ],
+          "target": [
+            0,
+            126,
+            -60
+          ],
+          "fov": 42
+        }
+      }
+    },
+    {
+      "label": "03-intro-fully-exploded",
+      "time": 3.75,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "1e2912249cc91cb59d19dabef4001f9010b35770374ff1ac302f786e1b0d3084",
+        "camera": {
+          "position": [
+            -340,
+            235.00000000000003,
+            -399.99999999999994
+          ],
+          "direction": [
+            0.689609776657084,
+            -0.2210807813400652,
+            0.6896097766570839
+          ],
+          "target": [
+            0,
+            126,
+            -60
+          ],
+          "fov": 42
+        }
+      },
+      "again": {
+        "sha256": "1e2912249cc91cb59d19dabef4001f9010b35770374ff1ac302f786e1b0d3084",
+        "camera": {
+          "position": [
+            -340,
+            235.00000000000003,
+            -399.99999999999994
+          ],
+          "direction": [
+            0.689609776657084,
+            -0.2210807813400652,
+            0.6896097766570839
+          ],
+          "target": [
+            0,
+            126,
+            -60
+          ],
+          "fov": 42
+        }
+      }
+    },
+    {
+      "label": "02-intro-mid-explosion",
+      "time": 2.5,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "0e31bc6752b89d19a5eff4bf2235211495eb9df60ad9bc9959a3760ab4fb9f29",
+        "camera": {
+          "position": [
+            -340,
+            235.00000000000003,
+            -399.99999999999994
+          ],
+          "direction": [
+            0.689609776657084,
+            -0.2210807813400652,
+            0.6896097766570839
+          ],
+          "target": [
+            0,
+            126,
+            -60
+          ],
+          "fov": 42
+        }
+      },
+      "again": {
+        "sha256": "0e31bc6752b89d19a5eff4bf2235211495eb9df60ad9bc9959a3760ab4fb9f29",
+        "camera": {
+          "position": [
+            -340,
+            235.00000000000003,
+            -399.99999999999994
+          ],
+          "direction": [
+            0.689609776657084,
+            -0.2210807813400652,
+            0.6896097766570839
+          ],
+          "target": [
+            0,
+            126,
+            -60
+          ],
+          "fov": 42
+        }
+      }
+    },
+    {
+      "label": "01-intro-finished-product",
+      "time": 0,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "29a4b04a023c741458f334ae68ba54165666bbc49ed4a0729ea9bdafd3bc7089",
+        "camera": {
+          "position": [
+            -264.9999999999999,
+            181.00000000000003,
+            -405
+          ],
+          "direction": [
+            0.5463441404320304,
+            -0.14637899611575167,
+            0.8246704006521215
+          ],
+          "target": [
+            0,
+            110,
+            -5
+          ],
+          "fov": 35
+        }
+      },
+      "again": {
+        "sha256": "29a4b04a023c741458f334ae68ba54165666bbc49ed4a0729ea9bdafd3bc7089",
+        "camera": {
+          "position": [
+            -264.9999999999999,
+            181.00000000000003,
+            -405
+          ],
+          "direction": [
+            0.5463441404320304,
+            -0.14637899611575167,
+            0.8246704006521215
+          ],
+          "target": [
+            0,
+            110,
+            -5
+          ],
+          "fov": 35
+        }
+      }
+    }
+  ],
+  "introShowcaseMechanismResetExcursions": [
+    {
+      "label": "01-intro-finished-product",
+      "time": 0,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "29a4b04a023c741458f334ae68ba54165666bbc49ed4a0729ea9bdafd3bc7089",
+        "camera": {
+          "position": [
+            -264.9999999999999,
+            181.00000000000003,
+            -405
+          ],
+          "direction": [
+            0.5463441404320304,
+            -0.14637899611575167,
+            0.8246704006521215
+          ],
+          "target": [
+            0,
+            110,
+            -5
+          ],
+          "fov": 35
+        }
+      },
+      "again": {
+        "sha256": "29a4b04a023c741458f334ae68ba54165666bbc49ed4a0729ea9bdafd3bc7089",
+        "camera": {
+          "position": [
+            -264.9999999999999,
+            181.00000000000003,
+            -405
+          ],
+          "direction": [
+            0.5463441404320304,
+            -0.14637899611575167,
+            0.8246704006521215
+          ],
+          "target": [
+            0,
+            110,
+            -5
+          ],
+          "fov": 35
+        }
+      }
+    },
+    {
+      "label": "06-step1-exact-reset",
+      "time": 5,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "84a1d48a637a6328541b33ad7ebbd013909879bee59219b46557e0d2c4002766",
+        "camera": {
+          "position": [
+            27.742406000000003,
+            264.08506,
+            190.72904400000002
+          ],
+          "direction": [
+            -0.08570007519381982,
+            -0.8034382165263221,
+            -0.5891880254526363
+          ],
+          "target": [
+            0,
+            4,
+            0
+          ],
+          "fov": 32
+        }
+      },
+      "again": {
+        "sha256": "84a1d48a637a6328541b33ad7ebbd013909879bee59219b46557e0d2c4002766",
+        "camera": {
+          "position": [
+            27.742406000000003,
+            264.08506,
+            190.72904400000002
+          ],
+          "direction": [
+            -0.08570007519381982,
+            -0.8034382165263221,
+            -0.5891880254526363
+          ],
+          "target": [
+            0,
+            4,
+            0
+          ],
+          "fov": 32
+        }
+      }
+    },
+    {
+      "label": "29-final-hero",
+      "time": 523.4536938888888,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "c15686120c86a79c4b47403455147916830683770410eb098b736902229158b2",
+        "camera": {
+          "position": [
+            -320.00000000000006,
+            215,
+            -412.99999999999994
+          ],
+          "direction": [
+            0.6553388067066518,
+            -0.2559917213697858,
+            0.7106330185225254
+          ],
+          "target": [
+            0,
+            90,
+            -66
+          ],
+          "fov": 46
+        }
+      },
+      "again": {
+        "sha256": "c15686120c86a79c4b47403455147916830683770410eb098b736902229158b2",
+        "camera": {
+          "position": [
+            -320.00000000000006,
+            215,
+            -412.99999999999994
+          ],
+          "direction": [
+            0.6553388067066518,
+            -0.2559917213697858,
+            0.7106330185225254
+          ],
+          "target": [
+            0,
+            90,
+            -66
+          ],
+          "fov": 46
+        }
+      }
+    },
+    {
+      "label": "17-step26-active-connection",
+      "time": 395.1836938888886,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "1d058aa0b3de1dd72c4ae791db4c1de5f1451603d4dbffc7d4f978739edfba67",
+        "camera": {
+          "position": [
+            -114.3,
+            116,
+            17
+          ],
+          "direction": [
+            -0.0890870806374748,
+            -0.44543540318737396,
+            -0.8908708063747479
+          ],
+          "target": [
+            -115.3,
+            111,
+            7
+          ],
+          "fov": 62
+        }
+      },
+      "again": {
+        "sha256": "1d058aa0b3de1dd72c4ae791db4c1de5f1451603d4dbffc7d4f978739edfba67",
+        "camera": {
+          "position": [
+            -114.3,
+            116,
+            17
+          ],
+          "direction": [
+            -0.0890870806374748,
+            -0.44543540318737396,
+            -0.8908708063747479
+          ],
+          "target": [
+            -115.3,
+            111,
+            7
+          ],
+          "fov": 62
+        }
+      }
+    },
+    {
+      "label": "02-intro-mid-explosion",
+      "time": 2.5,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "0e31bc6752b89d19a5eff4bf2235211495eb9df60ad9bc9959a3760ab4fb9f29",
+        "camera": {
+          "position": [
+            -340,
+            235.00000000000003,
+            -399.99999999999994
+          ],
+          "direction": [
+            0.689609776657084,
+            -0.2210807813400652,
+            0.6896097766570839
+          ],
+          "target": [
+            0,
+            126,
+            -60
+          ],
+          "fov": 42
+        }
+      },
+      "again": {
+        "sha256": "0e31bc6752b89d19a5eff4bf2235211495eb9df60ad9bc9959a3760ab4fb9f29",
+        "camera": {
+          "position": [
+            -340,
+            235.00000000000003,
+            -399.99999999999994
+          ],
+          "direction": [
+            0.689609776657084,
+            -0.2210807813400652,
+            0.6896097766570839
+          ],
+          "target": [
+            0,
+            126,
+            -60
+          ],
+          "fov": 42
+        }
+      }
+    },
+    {
+      "label": "06-step1-exact-reset",
+      "time": 5,
+      "pngIdentical": true,
+      "cameraIdentical": true,
+      "first": {
+        "sha256": "84a1d48a637a6328541b33ad7ebbd013909879bee59219b46557e0d2c4002766",
+        "camera": {
+          "position": [
+            27.742406000000003,
+            264.08506,
+            190.72904400000002
+          ],
+          "direction": [
+            -0.08570007519381982,
+            -0.8034382165263221,
+            -0.5891880254526363
+          ],
+          "target": [
+            0,
+            4,
+            0
+          ],
+          "fov": 32
+        }
+      },
+      "again": {
+        "sha256": "84a1d48a637a6328541b33ad7ebbd013909879bee59219b46557e0d2c4002766",
+        "camera": {
+          "position": [
+            27.742406000000003,
+            264.08506,
+            190.72904400000002
+          ],
+          "direction": [
+            -0.08570007519381982,
+            -0.8034382165263221,
+            -0.5891880254526363
+          ],
+          "target": [
+            0,
+            4,
+            0
+          ],
+          "fov": 32
+        }
+      }
+    }
+  ],
+  "verifiedAt": "2026-10-03T19:02:32.116Z",
+  "originalStrictReportValid": false,
+  "originalReportPath": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/whole-scene-seek-verification.json",
+  "originalReportSha256": "506b6047a225d20f7f87a8b28bfc761beb27132a779e59f4fd19283cc707a507",
+  "originalReportUnchanged": true,
+  "supplementalEvidence": {
+    "cameraAudit": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/camera-replay-numeric-audit.json",
+    "cameraAuditSha256": "8ddd99a24966d324081ef3bb8f4ec5cf3f0eccc67da10bf3ff1ecd641b62d666",
+    "strictCameraJsonReplayPass": false,
+    "wholeScenePngReplayExact": true,
+    "adjacentBinary64RepresentationOnly": true,
+    "explicitReadOnlyFaviconConfirmations": [
+      {
+        "url": "http://127.0.0.1:3016/favicon.ico",
+        "status": 404,
+        "method": "GET",
+        "resourceType": "explicit-diagnostic-HTTP-probe",
+        "project": "wf311613-director-polish-02b",
+        "source": "Read-only Playwright API GET of exact console.location URL absent from page.response",
+        "headers": {
+          "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+          "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+          "x-nextjs-cache": "HIT",
+          "x-nextjs-prerender": "1, 1",
+          "x-nextjs-stale-time": "300",
+          "x-powered-by": "Next.js",
+          "etag": "\"10sphgqutif60n\"",
+          "content-type": "text/html; charset=utf-8",
+          "content-encoding": "gzip",
+          "date": "Sat, 03 Oct 2026 19:02:32 GMT",
+          "connection": "keep-alive",
+          "keep-alive": "timeout=5",
+          "transfer-encoding": "chunked"
+        },
+        "bodyBytes": 7799,
+        "consoleLocation": {
+          "url": "http://127.0.0.1:3016/favicon.ico",
+          "line": 0,
+          "column": 0,
+          "lineNumber": 0,
+          "columnNumber": 0
+        },
+        "confirmedAt": "2026-10-03T19:02:32.115Z"
+      }
+    ],
+    "candidateSourcesUnchanged": 214,
+    "nativeValidationRulesUnchanged": true
+  }
+}

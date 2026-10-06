@@ -1,0 +1,217 @@
+{
+  "valid": true,
+  "errors": [],
+  "contacts": [
+    {
+      "state": "regression-467",
+      "a": "A5",
+      "b": "B2-left",
+      "gap": -0.0000030517578011313162
+    },
+    {
+      "state": "regression-467",
+      "a": "A6",
+      "b": "B2-right",
+      "gap": -0.0000030517578011313162
+    },
+    {
+      "state": "regression-467",
+      "a": "A8",
+      "b": "A9",
+      "gap": -1.7763568394002505e-15
+    },
+    {
+      "state": "regression-467",
+      "a": "A9",
+      "b": "A7",
+      "gap": 0
+    },
+    {
+      "state": "regression-467",
+      "a": "A8-R",
+      "b": "A9-R",
+      "gap": -5.329070518200751e-15
+    },
+    {
+      "state": "regression-467",
+      "a": "A9-R",
+      "b": "A7-R",
+      "gap": 0
+    },
+    {
+      "state": "regression-467",
+      "a": "A7",
+      "b": "A5",
+      "gap": 0
+    },
+    {
+      "state": "regression-467",
+      "a": "A7-R",
+      "b": "A6",
+      "gap": -1.4210854715202004e-14
+    },
+    {
+      "state": "assembled",
+      "a": "A5",
+      "b": "B2-left",
+      "gap": -0.0000030517578011313162
+    },
+    {
+      "state": "assembled",
+      "a": "A6",
+      "b": "B2-right",
+      "gap": -0.0000030517578011313162
+    },
+    {
+      "state": "assembled",
+      "a": "A8",
+      "b": "A9",
+      "gap": -1.7763568394002505e-15
+    },
+    {
+      "state": "assembled",
+      "a": "A9",
+      "b": "A7",
+      "gap": 0
+    },
+    {
+      "state": "assembled",
+      "a": "A8-R",
+      "b": "A9-R",
+      "gap": -5.329070518200751e-15
+    },
+    {
+      "state": "assembled",
+      "a": "A9-R",
+      "b": "A7-R",
+      "gap": 0
+    },
+    {
+      "state": "assembled",
+      "a": "A7",
+      "b": "A5",
+      "gap": 0
+    },
+    {
+      "state": "assembled",
+      "a": "A7-R",
+      "b": "A6",
+      "gap": -1.4210854715202004e-14
+    },
+    {
+      "state": "closed",
+      "a": "A5",
+      "b": "B2-left",
+      "gap": -0.0000030517578011313162
+    },
+    {
+      "state": "closed",
+      "a": "A6",
+      "b": "B2-right",
+      "gap": -0.0000030517578011313162
+    },
+    {
+      "state": "closed",
+      "a": "A8",
+      "b": "A9",
+      "gap": -1.7763568394002505e-15
+    },
+    {
+      "state": "closed",
+      "a": "A9",
+      "b": "A7",
+      "gap": 0
+    },
+    {
+      "state": "closed",
+      "a": "A8-R",
+      "b": "A9-R",
+      "gap": -5.329070518200751e-15
+    },
+    {
+      "state": "closed",
+      "a": "A9-R",
+      "b": "A7-R",
+      "gap": 0
+    },
+    {
+      "state": "closed",
+      "a": "A7",
+      "b": "A5",
+      "gap": 0
+    },
+    {
+      "state": "closed",
+      "a": "A7-R",
+      "b": "A6",
+      "gap": -1.4210854715202004e-14
+    },
+    {
+      "state": "open",
+      "a": "A5",
+      "b": "B2-left",
+      "gap": -0.0000030517578011313162
+    },
+    {
+      "state": "open",
+      "a": "A6",
+      "b": "B2-right",
+      "gap": -0.0000030517578011313162
+    },
+    {
+      "state": "open",
+      "a": "A8",
+      "b": "A9",
+      "gap": -1.7763568394002505e-15
+    },
+    {
+      "state": "open",
+      "a": "A9",
+      "b": "A7",
+      "gap": 0
+    },
+    {
+      "state": "open",
+      "a": "A8-R",
+      "b": "A9-R",
+      "gap": -5.329070518200751e-15
+    },
+    {
+      "state": "open",
+      "a": "A9-R",
+      "b": "A7-R",
+      "gap": 0
+    },
+    {
+      "state": "open",
+      "a": "A7",
+      "b": "A5",
+      "gap": 0
+    },
+    {
+      "state": "open",
+      "a": "A7-R",
+      "b": "A6",
+      "gap": -1.4210854715202004e-14
+    }
+  ],
+  "states": [
+    {
+      "state": "regression-467",
+      "globalTime": 467
+    },
+    {
+      "state": "assembled",
+      "globalTime": 503.25
+    },
+    {
+      "state": "closed",
+      "globalTime": 509.5
+    },
+    {
+      "state": "open",
+      "globalTime": 516.8
+    }
+  ],
+  "numericTolerance": 0.0001
+}

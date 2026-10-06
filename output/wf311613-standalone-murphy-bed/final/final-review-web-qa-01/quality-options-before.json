@@ -1,0 +1,125 @@
+{
+  "auditKind": "read-only source inventory before export infrastructure changes",
+  "auditedAt": "2026-10-03T18:27:17Z",
+  "approvedCandidate": "wf311613-final-micro-pass",
+  "sourceUnmodifiedByAudit": true,
+  "nativeProfilesAlreadyRegistered": false,
+  "existingResolutionOptions": [
+    {
+      "id": "1280x720",
+      "idSemantics": "client selection state; server previously receives dimensions rather than this string",
+      "label": "720p",
+      "dimensionLabel": "1280 × 720",
+      "width": 1280,
+      "height": 720,
+      "allowedFps": [30, 60],
+      "fpsEncodedInResolutionOption": false,
+      "codecEncodedInResolutionOption": false,
+      "presetEncodedInResolutionOption": false
+    },
+    {
+      "id": "1920x1080",
+      "idSemantics": "client selection state; server previously receives dimensions rather than this string",
+      "label": "1080p",
+      "dimensionLabel": "1920 × 1080",
+      "width": 1920,
+      "height": 1080,
+      "allowedFps": [30, 60],
+      "fpsEncodedInResolutionOption": false,
+      "codecEncodedInResolutionOption": false,
+      "presetEncodedInResolutionOption": false
+    }
+  ],
+  "existingFrameRateOptions": [
+    { "fps": 30, "label": "30 FPS", "detailLabel": "YouTube" },
+    { "fps": 60, "label": "60 FPS", "detailLabel": "High motion" }
+  ],
+  "webDefaults": {
+    "resolutionId": "1920x1080",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "definitionSource": "src/components/export/ExportVideoModal.tsx:14-15"
+  },
+  "codecPipeline": {
+    "container": "MP4",
+    "codec": "H.264",
+    "encoder": "libx264",
+    "pixelFormat": "yuv420p",
+    "movflags": "+faststart",
+    "explicitPreset": null,
+    "explicitCrf": null,
+    "scaleFilter": null,
+    "audioInputOrMuxStage": false
+  },
+  "cliDefaultsAndOverrides": {
+    "script": "scripts/render-video.ts",
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "overrides": ["OUTPUT_WIDTH", "OUTPUT_HEIGHT", "OUTPUT_FPS", "FRAMES_DIR", "OUTPUT_FILE", "START_TIME", "FRAME_LIMIT", "RESUME_FROM_FRAME", "PROJECT_ID", "PRODUCT_ID", "RENDER_URL"],
+    "customDimensionsSupportedPreviously": true,
+    "customDimensionsHaveRegistryValidation": false
+  },
+  "storageCompatibility": {
+    "resolutionSelection": "React component state retained while modal stays mounted",
+    "fpsSelection": "React component state",
+    "localStorageOrSessionStorageFound": false,
+    "persistedSettingsFound": false,
+    "renderJobs": "in-memory Map on singleton ExportJobManager",
+    "jobPersistenceFound": false,
+    "legacyRequestFields": ["productId", "videoId", "width", "height", "fps", "exportAnyway"],
+    "legacyJobFields": ["id", "productId", "productName", "filename", "width", "height", "fps", "duration", "status", "progress", "currentFrame", "totalFrames", "message", "error", "downloadUrl", "createdAt"],
+    "videoIdUsedByServer": false,
+    "legacyWidthHeightRequestCompatibilityRequired": true,
+    "legacyResolutionIdsMustBePreserved": ["1280x720", "1920x1080"],
+    "legacyDefaultMustBePreserved": "1920x1080"
+  },
+  "pipeline": [
+    { "layer": "UI", "source": "src/components/export/ExportVideoModal.tsx", "behavior": "two dimension-string radio options and separate 30/60 FPS; splits dimension string into width and height" },
+    { "layer": "API", "source": "src/app/api/export/route.ts", "behavior": "passes productId, numeric width/height/FPS and origin to manager; no profileId" },
+    { "layer": "job", "source": "src/engine/export/ExportJobManager.ts", "behavior": "validates allowed sizes 1280x720/1920x1080 and FPS30/60; no authoritative profile snapshot" },
+    { "layer": "viewport", "source": "src/engine/export/ExportJobManager.ts", "behavior": "native viewport equals job dimensions; deviceScaleFactor1" },
+    { "layer": "render surface", "source": "src/components/viewer/ProductViewer.tsx", "behavior": "render Canvas DPR1 and full viewport dimensions; no product-specific resolution logic" },
+    { "layer": "PNG capture", "source": "src/engine/export/ExportJobManager.ts", "behavior": "one native page screenshot written at a time; no complete video PNG buffer retained in RAM" },
+    { "layer": "frame isolation", "source": "src/engine/export/ExportJobManager.ts", "behavior": "per-job UUID temp directory with frames child; profile not in path" },
+    { "layer": "FFmpeg", "source": "src/engine/export/ExportJobManager.ts", "behavior": "encodes PNG inputs with libx264/yuv420p at job FPS, no scaling" },
+    { "layer": "output", "source": "src/engine/export/ExportJobManager.ts", "behavior": "physical output.mp4; download filename inherited from product package without resolution suffix" },
+    { "layer": "completed UI", "source": "src/components/export/ExportVideoModal.tsx", "behavior": "product snapshot/filename, format/duration/frame count, status/message and Download MP4; lacks selected profile/dimensions/FPS/path display" }
+  ],
+  "cliResume": {
+    "manifestIdentityFound": false,
+    "requiresOriginalFrameDirectory": true,
+    "requiresTimeZeroTimeline": true,
+    "contiguousPrefixCheck": true,
+    "exactSamplePngComparisons": 4,
+    "requiredNewIdentityFields": ["product/project ID", "video definition hash", "profile ID", "width", "height", "fps", "startTime"]
+  },
+  "overlayAudit": {
+    "source": "src/app/globals.css:154-163",
+    "issue": "render overlays contain fixed pixel fonts, max-widths, padding, margins, offsets and borders; proportions become smaller at higher native resolution",
+    "approved720pReference": { "captionLeft": 32, "captionBottom": 22, "captionMaxWidth": 760, "headingFontSize": 23, "noteFontSize": 14, "spanFontSize": 10, "borderWidth": 3 },
+    "minimalCorrection": "generic render-only screen presentation scaling based on width/1280; keep exact scale1 at720p and preserve all caption wording/camera/scene state"
+  },
+  "sourceOnlyWebFindingsRequireActualBrowserConfirmation": [
+    { "provisionalSeverity": "P1", "finding": "catalog default is approved older Polish02B QA-only entry, not current micro-pass; root should select explicit current product URL without modifying frozen package", "source": "src/products/registry.ts; src/products/wf311613-standalone-murphy-bed/index.ts" },
+    { "provisionalSeverity": "P2", "finding": "Debug assembly, POC marker and diagnostic panels appear unconditionally in regular UI", "source": "src/components/viewer/ProductViewer.tsx" },
+    { "provisionalSeverity": "P1", "finding": "completed metadata cannot clearly identify selected resolution/profile/path", "source": "src/components/export/ExportVideoModal.tsx" },
+    { "provisionalSeverity": "P2", "finding": "encoding progress92 is fixed, not measured encoder progress", "source": "src/engine/export/ExportJobManager.ts:154-156" }
+  ],
+  "minimalSharedInfrastructureProposal": {
+    "registry": "src/engine/render/RenderProfiles.ts or equivalent shared infrastructure",
+    "preserveExistingIds": ["1280x720", "1920x1080"],
+    "addStandardIds": ["720p", "1080p", "1440p", "2160p"],
+    "newStandardDimensions": { "720p": [1280, 720], "1080p": [1920, 1080], "1440p": [2560, 1440], "2160p": [3840, 2160] },
+    "newProfileDefaultFps": 30,
+    "server": "resolve one known immutable profile; preserve old width/height requests through explicit legacy mapping; reject unknown or conflicting profile and dimension claims",
+    "job": "carry profile ID/label/width/height/FPS/codec/pixelFormat, video identity and isolated profile/job paths",
+    "renderer": "pass resolved profile to render route and configure viewport before native capture; verify surface and captured PNG dimensions",
+    "output": "include profile ID in filename/path and completed metadata; no upscaling",
+    "resume": "manifest identity includes project/video/profile/dimensions/FPS and rejects cross-profile reuse",
+    "productSpecificSourceChangesRequired": false
+  },
+  "existingExportProfileRegressionTestsFound": false,
+  "auditLimits": "Source inventory only. No actual browser workflow inspection, render, validation suite, build or candidate modification performed by this audit."
+}

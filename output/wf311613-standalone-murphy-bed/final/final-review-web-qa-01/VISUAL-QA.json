@@ -1,0 +1,26 @@
+{
+  "valid": true,
+  "candidate": "wf311613-final-micro-pass",
+  "scope": "Technical visual regression review of actual decoded MP4 frames, native-resolution checkpoint comparisons and actual production UI screenshots; not director motion or final creative approval.",
+  "directorApprovalClaimed": false,
+  "appOrProductSourceChangedDuringInspection": false,
+  "inspectedEvidence": [
+    {"path":"decoded-contact-sheet.png","observation":"All 30 decoded representative frames inspected. Intro separation and Step 1 reset, cabinet and bed face, Step25/26 mechanisms, legs, anchoring and finished bedroom retain the frozen presentation. No unexpected black frame or newly visible overlay/crop regression in this sample."},
+    {"path":"native-resolution-qa/native-comparison-contact-sheet.png","observation":"Twelve rows across all four native profiles inspected. Camera composition and apparent product state remain consistent; captions remain in the same proportional screen area. Source native PNGs are unmodified."},
+    {"path":"web-qa/after-headed-02/screenshots/02-current-product-viewer.png","observation":"Actual selected candidate, preview, timeline and Export video button are visible. Existing diagnostic/QA UI and raw decimal scene durations remain unrelated findings."},
+    {"path":"web-qa/after-headed-02/screenshots/08-quality-settings-current-default.png","observation":"Legacy720p/1080p choices and the selected legacy1080p/30FPS default are present. Four standard native choices are separately labeled with dimensions; footer/start action is visible."},
+    {"path":"web-qa/after-headed-02/screenshots/09-profile-2160p-selected.png","observation":"Selected native4K/2160p and3840x2160 metadata match; other legacy/new choices remain present. No horizontal overflow or clipped export footer in the inspected desktop screenshot."},
+    {"path":"web-qa/after-headed-02/screenshots/11-actual-render-status.png","observation":"Actual renderer status identifies720p/native1280x720/30FPS, filename/path and silent encoding. Server-limited60-frame proof is expressly distinguished from full8:44 timeline."},
+    {"path":"web-qa/after-headed-02/screenshots/12-completed-output-metadata.png","observation":"Actual completed state shows0:02/60frames,720p/native1280x720/30FPS,H264/yuv420p/silent, filename/path and DownloadMP4 action. Full timeline is distinguished from short proof."}
+  ],
+  "supportingInspections": ["DECODED-VISUAL-OBSERVATIONS.md", "native-resolution-qa/VISUAL-QA.md", "web-qa/after-headed-02/AFTER-WEB-VISUAL-OBSERVATIONS.md"],
+  "technicalEvidence": ["technical-verification.json", "native-resolution-qa/native-verification.json", "720p-infrastructure-preservation.json", "source-boundaries-delivery.json", "web-qa/after-headed-02/web-qa-report.json", "web-qa/after-headed-02/web-qa-reviewed.json", "web-qa/after-headed-02/download-network-supplement.json"],
+  "webRawAggregateValid": false,
+  "webReviewedNetworkValid": true,
+  "webRawAggregateCaveat": "Raw34/35 workflow aggregate remains FAIL for its one network check. The exact completed HTTP200 attachment-download navigation emitted ERR_ABORTED. A separate strict supplement binds that event to the actual saved, independently re-probed and completely decoded2-second proof. The raw event/report and unchanged classifier remain preserved; no other failure was ignored.",
+  "unrelatedFindings": [
+    {"severity":"P2","summary":"Scene-duration labels expose long floating-point decimals instead of human-readable precision.","evidence":"web-qa/after-headed-02/screenshots/02-current-product-viewer.png","status":"Reported; no unrelated source correction"}
+  ],
+  "limitations": ["Stills do not establish whole-video pacing or director motion approval.", "Some approved B8 and mechanism macro views intentionally crop whole-product context; no camera refit was performed.", "Desktop browser screenshots do not establish responsive/mobile behavior.", "Historical micro aggregate byte-lock and original strict camera-JSON replay failures remain separately reported; this inspection does not rename them PASS."],
+  "conclusion": "No visible resolution/export regression requiring a frozen product, material, camera or presentation change was identified in the inspected evidence. Deliver for director review and stop."
+}

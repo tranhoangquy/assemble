@@ -1,0 +1,1044 @@
+Part	Variant/piece	Feature	Class	Axis	Radius(cm)	Face	Depth(cm)	Hardware/connection	Reason
+A5	baseline.pieces.0	edgeBores.0	REQUIRED_HARDWARE	z	0.35	both		bolt--1-2	Coaxial hardware bolt--1-2; PDF assembly operation retained
+A5	baseline.pieces.0	edgeBores.1	REQUIRED_HARDWARE	z	0.35	both		bolt-1-3	Coaxial hardware bolt-1-3; PDF assembly operation retained
+A5	baseline.pieces.0	edgeBores.2	REQUIRED_CAM_DOWEL	z	0.42	both		dowel-1-2	Coaxial hardware dowel-1-2; PDF assembly operation retained
+A5	baseline.pieces.0	faceBores.0	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	cam--1-2	Coaxial hardware cam--1-2; PDF assembly operation retained
+A5	baseline.pieces.0	faceBores.1	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	cam--1-3	Coaxial hardware cam--1-3; PDF assembly operation retained
+A5	baseline.pieces.0	faceBores.2	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	cam-1-2	Coaxial hardware cam-1-2; PDF assembly operation retained
+A5	baseline.pieces.0	faceBores.3	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	cam-1-3	Coaxial hardware cam-1-3; PDF assembly operation retained
+A5	receivers.pieces.0	edgeBores.0	REQUIRED_HARDWARE	z	0.35	both		bolt--1-2	Coaxial hardware bolt--1-2; PDF assembly operation retained
+A5	receivers.pieces.0	edgeBores.1	REQUIRED_HARDWARE	z	0.35	both		bolt-1-3	Coaxial hardware bolt-1-3; PDF assembly operation retained
+A5	receivers.pieces.0	edgeBores.2	REQUIRED_CAM_DOWEL	z	0.42	both		dowel-1-2	Coaxial hardware dowel-1-2; PDF assembly operation retained
+A5	receivers.pieces.0	faceBores.0	REQUIRED_HARDWARE	y	0.16	positive	1.8	S10-H21-0	Coaxial hardware S10-H21-0; PDF assembly operation retained
+A5	receivers.pieces.0	faceBores.1	REQUIRED_HARDWARE	y	0.16	positive	1.8	S10-H21-1	Coaxial hardware S10-H21-1; PDF assembly operation retained
+A5	receivers.pieces.0	faceBores.2	REQUIRED_HARDWARE	y	0.16	positive	1.8	S10-H21-2	Coaxial hardware S10-H21-2; PDF assembly operation retained
+A5	receivers.pieces.0	faceBores.3	REQUIRED_HARDWARE	y	0.16	positive	1.8	S10-H21-3	Coaxial hardware S10-H21-3; PDF assembly operation retained
+A5	receivers.pieces.0	faceBores.4	REQUIRED_HARDWARE	y	0.16	positive	1.8	S10-H21-4	Coaxial hardware S10-H21-4; PDF assembly operation retained
+A5	receivers.pieces.0	faceBores.5	REQUIRED_HARDWARE	y	0.16	positive	1.8	S10-H21-5	Coaxial hardware S10-H21-5; PDF assembly operation retained
+A5	receivers.pieces.0	faceBores.6	REQUIRED_HARDWARE	y	0.16	positive	1.8	S10-H21-6	Coaxial hardware S10-H21-6; PDF assembly operation retained
+A5	receivers.pieces.0	faceBores.7	REQUIRED_HARDWARE	y	0.16	positive	1.8	S10-H21-7	Coaxial hardware S10-H21-7; PDF assembly operation retained
+A5	receivers.pieces.0	faceBores.8	REQUIRED_HARDWARE	y	0.16	positive	1.8	S10-H21-8	Coaxial hardware S10-H21-8; PDF assembly operation retained
+A5	receivers.pieces.0	faceBores.9	REQUIRED_HARDWARE	y	0.16	positive	1.8	S10-H21-9	Coaxial hardware S10-H21-9; PDF assembly operation retained
+A5	receivers.pieces.0	faceBores.10	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	cam--1-2	Coaxial hardware cam--1-2; PDF assembly operation retained
+A5	receivers.pieces.0	faceBores.11	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	cam--1-3	Coaxial hardware cam--1-3; PDF assembly operation retained
+A5	receivers.pieces.0	faceBores.12	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	cam-1-2	Coaxial hardware cam-1-2; PDF assembly operation retained
+A5	receivers.pieces.0	faceBores.13	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	cam-1-3	Coaxial hardware cam-1-3; PDF assembly operation retained
+A7	baseline	edgeBores.0	REQUIRED_HARDWARE	z	0.35	both		bolt--1-1	Coaxial hardware bolt--1-1; PDF assembly operation retained
+A7	baseline	edgeBores.1	REQUIRED_CAM_DOWEL	z	0.42	both		dowel--1-1	Coaxial hardware dowel--1-1; PDF assembly operation retained
+A7	baseline	faceBores.0	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	cam--1-1	Coaxial hardware cam--1-1; PDF assembly operation retained
+A7	baseline	faceBores.1	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	cam-1-1	Coaxial hardware cam-1-1; PDF assembly operation retained
+A8	baseline	edgeBores.0	REQUIRED_HARDWARE	z	0.35	both		bolt--1-0	Coaxial hardware bolt--1-0; PDF assembly operation retained
+A8	baseline	edgeBores.1	REQUIRED_CAM_DOWEL	z	0.42	both		dowel--1-0	Coaxial hardware dowel--1-0; PDF assembly operation retained
+A8	baseline	faceBores.0	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	cam--1-0	Coaxial hardware cam--1-0; PDF assembly operation retained
+A8	baseline	faceBores.1	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	cam-1-0	Coaxial hardware cam-1-0; PDF assembly operation retained
+A9	pivotReceiver.pieces.0	faceBores.0	REQUIRED_HARDWARE	y	0.5	both		S25-H18--1	Coaxial hardware S25-H18--1; PDF assembly operation retained
+A1	baseline	holes.0	REQUIRED_HARDWARE	z	0.35	both		bolt--1-0	Coaxial hardware bolt--1-0; PDF assembly operation retained
+A1	baseline	holes.1	REQUIRED_HARDWARE	z	0.35	both		bolt--1-1	Coaxial hardware bolt--1-1; PDF assembly operation retained
+A1	baseline	holes.2	REQUIRED_HARDWARE	z	0.35	both		bolt--1-2	Coaxial hardware bolt--1-2; PDF assembly operation retained
+A1	baseline	holes.3	REQUIRED_HARDWARE	z	0.35	both		bolt-1-3	Coaxial hardware bolt-1-3; PDF assembly operation retained
+A1	baseline	faceBores.0	REQUIRED_HARDWARE	y	0.35	both		S3-E3--1-bolt	Coaxial hardware S3-E3--1-bolt; PDF assembly operation retained
+A1	baseline	faceBores.1	REQUIRED_CAM_DOWEL	y	0.42	positive	1.5	S3-E3--1-dowel	Coaxial hardware S3-E3--1-dowel; PDF assembly operation retained
+A1	baseline	faceBores.2	REQUIRED_HARDWARE	y	0.35	both		S3-D5--1-bolt	Coaxial hardware S3-D5--1-bolt; PDF assembly operation retained
+A1	baseline	faceBores.3	REQUIRED_CAM_DOWEL	y	0.42	positive	1.5	S3-D5--1-dowel	Coaxial hardware S3-D5--1-dowel; PDF assembly operation retained
+A1	baseline	faceBores.4	REQUIRED_WALL_ANCHOR	y	0.16	negative	1.3	S30-H15-0-H14-0	Coaxial hardware S30-H15-0-H14-0; PDF assembly operation retained
+A1	baseline	faceBores.5	REQUIRED_WALL_ANCHOR	y	0.16	negative	1.3	S30-H15-0-H14-1	Coaxial hardware S30-H15-0-H14-1; PDF assembly operation retained
+A1	baseline	faceBores.6	REQUIRED_WALL_ANCHOR	y	0.16	negative	1.3	S30-H15-1-H14-0	Coaxial hardware S30-H15-1-H14-0; PDF assembly operation retained
+A1	baseline	faceBores.7	REQUIRED_WALL_ANCHOR	y	0.16	negative	1.3	S30-H15-1-H14-1	Coaxial hardware S30-H15-1-H14-1; PDF assembly operation retained
+A1	baseline	faceBores.8	REQUIRED_CAM_DOWEL	z	0.42	positive	1.5	dowel--1-0	Coaxial hardware dowel--1-0; PDF assembly operation retained
+A1	baseline	faceBores.9	REQUIRED_CAM_DOWEL	z	0.42	positive	1.5	dowel--1-1	Coaxial hardware dowel--1-1; PDF assembly operation retained
+A1	baseline	faceBores.10	REQUIRED_CAM_DOWEL	z	0.42	positive	1.5	dowel-1-2	Coaxial hardware dowel-1-2; PDF assembly operation retained
+A1	receivers	holes.0	REQUIRED_HARDWARE	z	0.35	both		bolt--1-0	Coaxial hardware bolt--1-0; PDF assembly operation retained
+A1	receivers	holes.1	REQUIRED_HARDWARE	z	0.35	both		bolt--1-1	Coaxial hardware bolt--1-1; PDF assembly operation retained
+A1	receivers	holes.2	REQUIRED_HARDWARE	z	0.35	both		bolt--1-2	Coaxial hardware bolt--1-2; PDF assembly operation retained
+A1	receivers	holes.3	REQUIRED_HARDWARE	z	0.35	both		bolt-1-3	Coaxial hardware bolt-1-3; PDF assembly operation retained
+A1	receivers	faceBores.0	REQUIRED_HARDWARE	y	0.35	both		S3-E3--1-bolt	Coaxial hardware S3-E3--1-bolt; PDF assembly operation retained
+A1	receivers	faceBores.1	REQUIRED_CAM_DOWEL	y	0.42	positive	1.5	S3-E3--1-dowel	Coaxial hardware S3-E3--1-dowel; PDF assembly operation retained
+A1	receivers	faceBores.2	REQUIRED_HARDWARE	y	0.35	both		S3-D5--1-bolt	Coaxial hardware S3-D5--1-bolt; PDF assembly operation retained
+A1	receivers	faceBores.3	REQUIRED_CAM_DOWEL	y	0.42	positive	1.5	S3-D5--1-dowel	Coaxial hardware S3-D5--1-dowel; PDF assembly operation retained
+A1	receivers	faceBores.4	REQUIRED_HARDWARE	y	0.35	both		S4-D4-1--1-bolt	Coaxial hardware S4-D4-1--1-bolt; PDF assembly operation retained
+A1	receivers	faceBores.5	REQUIRED_CAM_DOWEL	y	0.42	positive	1.5	S4-D4-1--1-dowel	Coaxial hardware S4-D4-1--1-dowel; PDF assembly operation retained
+A1	receivers	faceBores.6	REQUIRED_HARDWARE	y	0.35	both		S5-D4-2--1-bolt	Coaxial hardware S5-D4-2--1-bolt; PDF assembly operation retained
+A1	receivers	faceBores.7	REQUIRED_CAM_DOWEL	y	0.42	positive	1.5	S5-D4-2--1-dowel	Coaxial hardware S5-D4-2--1-dowel; PDF assembly operation retained
+A1	receivers	faceBores.8	REQUIRED_HARDWARE	y	0.35	both		S6-B5--1-bolt	Coaxial hardware S6-B5--1-bolt; PDF assembly operation retained
+A1	receivers	faceBores.9	REQUIRED_CAM_DOWEL	y	0.42	positive	1.5	S6-B5--1-dowel	Coaxial hardware S6-B5--1-dowel; PDF assembly operation retained
+A1	receivers	faceBores.10	REQUIRED_CAM_DOWEL	x	0.42	positive	1.5	S8-dowel--1-18	Coaxial hardware S8-dowel--1-18; PDF assembly operation retained
+A1	receivers	faceBores.11	REQUIRED_WALL_ANCHOR	y	0.16	negative	1.3	S30-H15-0-H14-0	Coaxial hardware S30-H15-0-H14-0; PDF assembly operation retained
+A1	receivers	faceBores.12	REQUIRED_WALL_ANCHOR	y	0.16	negative	1.3	S30-H15-0-H14-1	Coaxial hardware S30-H15-0-H14-1; PDF assembly operation retained
+A1	receivers	faceBores.13	REQUIRED_WALL_ANCHOR	y	0.16	negative	1.3	S30-H15-1-H14-0	Coaxial hardware S30-H15-1-H14-0; PDF assembly operation retained
+A1	receivers	faceBores.14	REQUIRED_WALL_ANCHOR	y	0.16	negative	1.3	S30-H15-1-H14-1	Coaxial hardware S30-H15-1-H14-1; PDF assembly operation retained
+A1	receivers	faceBores.15	REQUIRED_CAM_DOWEL	z	0.42	positive	1.5	dowel--1-0	Coaxial hardware dowel--1-0; PDF assembly operation retained
+A1	receivers	faceBores.16	REQUIRED_CAM_DOWEL	z	0.42	positive	1.5	dowel--1-1	Coaxial hardware dowel--1-1; PDF assembly operation retained
+A1	receivers	faceBores.17	REQUIRED_CAM_DOWEL	z	0.42	positive	1.5	dowel-1-2	Coaxial hardware dowel-1-2; PDF assembly operation retained
+A1	bracketReceivers	holes.0	REQUIRED_HARDWARE	z	0.35	both		bolt--1-0	Coaxial hardware bolt--1-0; PDF assembly operation retained
+A1	bracketReceivers	holes.1	REQUIRED_HARDWARE	z	0.35	both		bolt--1-1	Coaxial hardware bolt--1-1; PDF assembly operation retained
+A1	bracketReceivers	holes.2	REQUIRED_HARDWARE	z	0.35	both		bolt--1-2	Coaxial hardware bolt--1-2; PDF assembly operation retained
+A1	bracketReceivers	holes.3	REQUIRED_HARDWARE	z	0.35	both		bolt-1-3	Coaxial hardware bolt-1-3; PDF assembly operation retained
+A1	bracketReceivers	faceBores.0	REQUIRED_HARDWARE	y	0.35	both		S3-E3--1-bolt	Coaxial hardware S3-E3--1-bolt; PDF assembly operation retained
+A1	bracketReceivers	faceBores.1	REQUIRED_CAM_DOWEL	y	0.42	positive	1.5	S3-E3--1-dowel	Coaxial hardware S3-E3--1-dowel; PDF assembly operation retained
+A1	bracketReceivers	faceBores.2	REQUIRED_HARDWARE	y	0.35	both		S3-D5--1-bolt	Coaxial hardware S3-D5--1-bolt; PDF assembly operation retained
+A1	bracketReceivers	faceBores.3	REQUIRED_CAM_DOWEL	y	0.42	positive	1.5	S3-D5--1-dowel	Coaxial hardware S3-D5--1-dowel; PDF assembly operation retained
+A1	bracketReceivers	faceBores.4	REQUIRED_HARDWARE	y	0.35	both		S4-D4-1--1-bolt	Coaxial hardware S4-D4-1--1-bolt; PDF assembly operation retained
+A1	bracketReceivers	faceBores.5	REQUIRED_CAM_DOWEL	y	0.42	positive	1.5	S4-D4-1--1-dowel	Coaxial hardware S4-D4-1--1-dowel; PDF assembly operation retained
+A1	bracketReceivers	faceBores.6	REQUIRED_HARDWARE	y	0.35	both		S5-D4-2--1-bolt	Coaxial hardware S5-D4-2--1-bolt; PDF assembly operation retained
+A1	bracketReceivers	faceBores.7	REQUIRED_CAM_DOWEL	y	0.42	positive	1.5	S5-D4-2--1-dowel	Coaxial hardware S5-D4-2--1-dowel; PDF assembly operation retained
+A1	bracketReceivers	faceBores.8	REQUIRED_HARDWARE	y	0.35	both		S6-B5--1-bolt	Coaxial hardware S6-B5--1-bolt; PDF assembly operation retained
+A1	bracketReceivers	faceBores.9	REQUIRED_CAM_DOWEL	y	0.42	positive	1.5	S6-B5--1-dowel	Coaxial hardware S6-B5--1-dowel; PDF assembly operation retained
+A1	bracketReceivers	faceBores.10	REQUIRED_CAM_DOWEL	x	0.42	positive	1.5	S8-dowel--1-18	Coaxial hardware S8-dowel--1-18; PDF assembly operation retained
+A1	bracketReceivers	faceBores.11	REQUIRED_HARDWARE	y	0.16	both		S10-H14-0	Coaxial hardware S10-H14-0; PDF assembly operation retained
+A1	bracketReceivers	faceBores.12	REQUIRED_HARDWARE	y	0.16	both		S10-H14-1	Coaxial hardware S10-H14-1; PDF assembly operation retained
+A1	bracketReceivers	faceBores.13	REQUIRED_WALL_ANCHOR	y	0.16	negative	1.3	S30-H15-0-H14-0	Coaxial hardware S30-H15-0-H14-0; PDF assembly operation retained
+A1	bracketReceivers	faceBores.14	REQUIRED_WALL_ANCHOR	y	0.16	negative	1.3	S30-H15-0-H14-1	Coaxial hardware S30-H15-0-H14-1; PDF assembly operation retained
+A1	bracketReceivers	faceBores.15	REQUIRED_WALL_ANCHOR	y	0.16	negative	1.3	S30-H15-1-H14-0	Coaxial hardware S30-H15-1-H14-0; PDF assembly operation retained
+A1	bracketReceivers	faceBores.16	REQUIRED_WALL_ANCHOR	y	0.16	negative	1.3	S30-H15-1-H14-1	Coaxial hardware S30-H15-1-H14-1; PDF assembly operation retained
+A1	bracketReceivers	faceBores.17	REQUIRED_CAM_DOWEL	z	0.42	positive	1.5	dowel--1-0	Coaxial hardware dowel--1-0; PDF assembly operation retained
+A1	bracketReceivers	faceBores.18	REQUIRED_CAM_DOWEL	z	0.42	positive	1.5	dowel--1-1	Coaxial hardware dowel--1-1; PDF assembly operation retained
+A1	bracketReceivers	faceBores.19	REQUIRED_CAM_DOWEL	z	0.42	positive	1.5	dowel-1-2	Coaxial hardware dowel-1-2; PDF assembly operation retained
+A3	baseline	holes.0	REQUIRED_HARDWARE	z	0.35	both		bolt--1-0	Coaxial hardware bolt--1-0; PDF assembly operation retained
+A3	baseline	holes.1	REQUIRED_HARDWARE	z	0.35	both		bolt--1-1	Coaxial hardware bolt--1-1; PDF assembly operation retained
+A3	baseline	holes.2	REQUIRED_HARDWARE	z	0.35	both		bolt--1-2	Coaxial hardware bolt--1-2; PDF assembly operation retained
+A3	baseline	holes.3	REQUIRED_HARDWARE	z	0.35	both		bolt-1-3	Coaxial hardware bolt-1-3; PDF assembly operation retained
+A3	baseline	faceBores.0	REQUIRED_HARDWARE	y	0.35	both		S3-B9--1-bolt	Coaxial hardware S3-B9--1-bolt; PDF assembly operation retained
+A3	baseline	faceBores.1	REQUIRED_CAM_DOWEL	y	0.42	positive	1.5	S3-B9--1-dowel	Coaxial hardware S3-B9--1-dowel; PDF assembly operation retained
+A3	baseline	faceBores.2	REQUIRED_CAM_DOWEL	z	0.42	negative	1.5	dowel--1-0	Coaxial hardware dowel--1-0; PDF assembly operation retained
+A3	baseline	faceBores.3	REQUIRED_CAM_DOWEL	z	0.42	negative	1.5	dowel--1-1	Coaxial hardware dowel--1-1; PDF assembly operation retained
+A3	baseline	faceBores.4	REQUIRED_CAM_DOWEL	z	0.42	negative	1.5	dowel-1-2	Coaxial hardware dowel-1-2; PDF assembly operation retained
+A3	receivers	holes.0	REQUIRED_HARDWARE	z	0.35	both		bolt--1-0	Coaxial hardware bolt--1-0; PDF assembly operation retained
+A3	receivers	holes.1	REQUIRED_HARDWARE	z	0.35	both		bolt--1-1	Coaxial hardware bolt--1-1; PDF assembly operation retained
+A3	receivers	holes.2	REQUIRED_HARDWARE	z	0.35	both		bolt--1-2	Coaxial hardware bolt--1-2; PDF assembly operation retained
+A3	receivers	holes.3	REQUIRED_HARDWARE	z	0.35	both		bolt-1-3	Coaxial hardware bolt-1-3; PDF assembly operation retained
+A3	receivers	faceBores.0	REQUIRED_HARDWARE	y	0.35	both		S3-B9--1-bolt	Coaxial hardware S3-B9--1-bolt; PDF assembly operation retained
+A3	receivers	faceBores.1	REQUIRED_CAM_DOWEL	y	0.42	positive	1.5	S3-B9--1-dowel	Coaxial hardware S3-B9--1-dowel; PDF assembly operation retained
+A3	receivers	faceBores.2	REQUIRED_HARDWARE	y	0.35	both		S6-B6--1-bolt	Coaxial hardware S6-B6--1-bolt; PDF assembly operation retained
+A3	receivers	faceBores.3	REQUIRED_CAM_DOWEL	y	0.42	positive	1.5	S6-B6--1-dowel	Coaxial hardware S6-B6--1-dowel; PDF assembly operation retained
+A3	receivers	faceBores.4	REQUIRED_CAM_DOWEL	x	0.42	positive	1.5	S8-dowel--1--18	Coaxial hardware S8-dowel--1--18; PDF assembly operation retained
+A3	receivers	faceBores.5	REQUIRED_CAM_DOWEL	z	0.42	negative	1.5	dowel--1-0	Coaxial hardware dowel--1-0; PDF assembly operation retained
+A3	receivers	faceBores.6	REQUIRED_CAM_DOWEL	z	0.42	negative	1.5	dowel--1-1	Coaxial hardware dowel--1-1; PDF assembly operation retained
+A3	receivers	faceBores.7	REQUIRED_CAM_DOWEL	z	0.42	negative	1.5	dowel-1-2	Coaxial hardware dowel-1-2; PDF assembly operation retained
+cam--1-0	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+bolt--1-0	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+cam--1-1	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+bolt--1-1	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+cam--1-2	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+bolt--1-2	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+cam--1-3	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+bolt--1-3	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+cam-1-0	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+bolt-1-0	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+cam-1-1	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+bolt-1-1	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+cam-1-2	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+bolt-1-2	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+cam-1-3	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+bolt-1-3	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+A6	baseline.pieces.0	edgeBores.0	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-2	Coaxial hardware R-bolt--1-2; PDF assembly operation retained
+A6	baseline.pieces.0	edgeBores.1	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-3	Coaxial hardware R-bolt--1-3; PDF assembly operation retained
+A6	baseline.pieces.0	edgeBores.2	REQUIRED_CAM_DOWEL	z	0.42	both		R-dowel--1-2	Coaxial hardware R-dowel--1-2; PDF assembly operation retained
+A6	baseline.pieces.0	faceBores.0	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	R-cam--1-2	Coaxial hardware R-cam--1-2; PDF assembly operation retained
+A6	baseline.pieces.0	faceBores.1	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	R-cam--1-3	Coaxial hardware R-cam--1-3; PDF assembly operation retained
+A6	baseline.pieces.0	faceBores.2	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	R-cam-1-2	Coaxial hardware R-cam-1-2; PDF assembly operation retained
+A6	baseline.pieces.0	faceBores.3	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	R-cam-1-3	Coaxial hardware R-cam-1-3; PDF assembly operation retained
+A6	receivers.pieces.0	edgeBores.0	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-2	Coaxial hardware R-bolt--1-2; PDF assembly operation retained
+A6	receivers.pieces.0	edgeBores.1	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-3	Coaxial hardware R-bolt--1-3; PDF assembly operation retained
+A6	receivers.pieces.0	edgeBores.2	REQUIRED_CAM_DOWEL	z	0.42	both		R-dowel--1-2	Coaxial hardware R-dowel--1-2; PDF assembly operation retained
+A6	receivers.pieces.0	faceBores.0	REQUIRED_HARDWARE	y	0.16	negative	1.8	S9-H21-0	Coaxial hardware S9-H21-0; PDF assembly operation retained
+A6	receivers.pieces.0	faceBores.1	REQUIRED_HARDWARE	y	0.16	negative	1.8	S9-H21-1	Coaxial hardware S9-H21-1; PDF assembly operation retained
+A6	receivers.pieces.0	faceBores.2	REQUIRED_HARDWARE	y	0.16	negative	1.8	S9-H21-2	Coaxial hardware S9-H21-2; PDF assembly operation retained
+A6	receivers.pieces.0	faceBores.3	REQUIRED_HARDWARE	y	0.16	negative	1.8	S9-H21-3	Coaxial hardware S9-H21-3; PDF assembly operation retained
+A6	receivers.pieces.0	faceBores.4	REQUIRED_HARDWARE	y	0.16	negative	1.8	S9-H21-4	Coaxial hardware S9-H21-4; PDF assembly operation retained
+A6	receivers.pieces.0	faceBores.5	REQUIRED_HARDWARE	y	0.16	negative	1.8	S9-H21-5	Coaxial hardware S9-H21-5; PDF assembly operation retained
+A6	receivers.pieces.0	faceBores.6	REQUIRED_HARDWARE	y	0.16	negative	1.8	S9-H21-6	Coaxial hardware S9-H21-6; PDF assembly operation retained
+A6	receivers.pieces.0	faceBores.7	REQUIRED_HARDWARE	y	0.16	negative	1.8	S9-H21-7	Coaxial hardware S9-H21-7; PDF assembly operation retained
+A6	receivers.pieces.0	faceBores.8	REQUIRED_HARDWARE	y	0.16	negative	1.8	S9-H21-8	Coaxial hardware S9-H21-8; PDF assembly operation retained
+A6	receivers.pieces.0	faceBores.9	REQUIRED_HARDWARE	y	0.16	negative	1.8	S9-H21-9	Coaxial hardware S9-H21-9; PDF assembly operation retained
+A6	receivers.pieces.0	faceBores.10	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	R-cam--1-2	Coaxial hardware R-cam--1-2; PDF assembly operation retained
+A6	receivers.pieces.0	faceBores.11	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	R-cam--1-3	Coaxial hardware R-cam--1-3; PDF assembly operation retained
+A6	receivers.pieces.0	faceBores.12	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	R-cam-1-2	Coaxial hardware R-cam-1-2; PDF assembly operation retained
+A6	receivers.pieces.0	faceBores.13	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	R-cam-1-3	Coaxial hardware R-cam-1-3; PDF assembly operation retained
+A7-R	baseline	edgeBores.0	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-1	Coaxial hardware R-bolt--1-1; PDF assembly operation retained
+A7-R	baseline	edgeBores.1	REQUIRED_CAM_DOWEL	z	0.42	both		R-dowel--1-1	Coaxial hardware R-dowel--1-1; PDF assembly operation retained
+A7-R	baseline	faceBores.0	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	R-cam--1-1	Coaxial hardware R-cam--1-1; PDF assembly operation retained
+A7-R	baseline	faceBores.1	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	R-cam-1-1	Coaxial hardware R-cam-1-1; PDF assembly operation retained
+A8-R	baseline	edgeBores.0	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-0	Coaxial hardware R-bolt--1-0; PDF assembly operation retained
+A8-R	baseline	edgeBores.1	REQUIRED_CAM_DOWEL	z	0.42	both		R-dowel--1-0	Coaxial hardware R-dowel--1-0; PDF assembly operation retained
+A8-R	baseline	faceBores.0	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	R-cam--1-0	Coaxial hardware R-cam--1-0; PDF assembly operation retained
+A8-R	baseline	faceBores.1	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	R-cam-1-0	Coaxial hardware R-cam-1-0; PDF assembly operation retained
+A9-R	pivotReceiver.pieces.0	faceBores.0	REQUIRED_HARDWARE	y	0.5	both		S25-H18-1	Coaxial hardware S25-H18-1; PDF assembly operation retained
+A2	baseline	holes.0	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-0	Coaxial hardware R-bolt--1-0; PDF assembly operation retained
+A2	baseline	holes.1	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-1	Coaxial hardware R-bolt--1-1; PDF assembly operation retained
+A2	baseline	holes.2	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-2	Coaxial hardware R-bolt--1-2; PDF assembly operation retained
+A2	baseline	holes.3	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-3	Coaxial hardware R-bolt--1-3; PDF assembly operation retained
+A2	baseline	faceBores.0	REQUIRED_HARDWARE	y	0.35	both		S3-B9-1-bolt	Coaxial hardware S3-B9-1-bolt; PDF assembly operation retained
+A2	baseline	faceBores.1	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S3-B9-1-dowel	Coaxial hardware S3-B9-1-dowel; PDF assembly operation retained
+A2	baseline	faceBores.2	REQUIRED_CAM_DOWEL	z	0.42	positive	1.5	R-dowel--1-0	Coaxial hardware R-dowel--1-0; PDF assembly operation retained
+A2	baseline	faceBores.3	REQUIRED_CAM_DOWEL	z	0.42	positive	1.5	R-dowel--1-1	Coaxial hardware R-dowel--1-1; PDF assembly operation retained
+A2	baseline	faceBores.4	REQUIRED_CAM_DOWEL	z	0.42	positive	1.5	R-dowel--1-2	Coaxial hardware R-dowel--1-2; PDF assembly operation retained
+A2	receivers	holes.0	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-0	Coaxial hardware R-bolt--1-0; PDF assembly operation retained
+A2	receivers	holes.1	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-1	Coaxial hardware R-bolt--1-1; PDF assembly operation retained
+A2	receivers	holes.2	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-2	Coaxial hardware R-bolt--1-2; PDF assembly operation retained
+A2	receivers	holes.3	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-3	Coaxial hardware R-bolt--1-3; PDF assembly operation retained
+A2	receivers	faceBores.0	REQUIRED_HARDWARE	y	0.35	both		S3-B9-1-bolt	Coaxial hardware S3-B9-1-bolt; PDF assembly operation retained
+A2	receivers	faceBores.1	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S3-B9-1-dowel	Coaxial hardware S3-B9-1-dowel; PDF assembly operation retained
+A2	receivers	faceBores.2	REQUIRED_HARDWARE	y	0.35	both		S6-B6-1-bolt	Coaxial hardware S6-B6-1-bolt; PDF assembly operation retained
+A2	receivers	faceBores.3	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S6-B6--1-dowel	Coaxial hardware S6-B6--1-dowel; PDF assembly operation retained
+A2	receivers	faceBores.4	REQUIRED_CAM_DOWEL	x	0.42	negative	1.5	S8-dowel-1--18	Coaxial hardware S8-dowel-1--18; PDF assembly operation retained
+A2	receivers	faceBores.5	REQUIRED_CAM_DOWEL	z	0.42	positive	1.5	R-dowel--1-0	Coaxial hardware R-dowel--1-0; PDF assembly operation retained
+A2	receivers	faceBores.6	REQUIRED_CAM_DOWEL	z	0.42	positive	1.5	R-dowel--1-1	Coaxial hardware R-dowel--1-1; PDF assembly operation retained
+A2	receivers	faceBores.7	REQUIRED_CAM_DOWEL	z	0.42	positive	1.5	R-dowel--1-2	Coaxial hardware R-dowel--1-2; PDF assembly operation retained
+A4	baseline	holes.0	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-0	Coaxial hardware R-bolt--1-0; PDF assembly operation retained
+A4	baseline	holes.1	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-1	Coaxial hardware R-bolt--1-1; PDF assembly operation retained
+A4	baseline	holes.2	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-2	Coaxial hardware R-bolt--1-2; PDF assembly operation retained
+A4	baseline	holes.3	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-3	Coaxial hardware R-bolt--1-3; PDF assembly operation retained
+A4	baseline	faceBores.0	REQUIRED_HARDWARE	y	0.35	both		S3-E3-1-bolt	Coaxial hardware S3-E3-1-bolt; PDF assembly operation retained
+A4	baseline	faceBores.1	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S3-E3-1-dowel	Coaxial hardware S3-E3-1-dowel; PDF assembly operation retained
+A4	baseline	faceBores.2	REQUIRED_HARDWARE	y	0.35	both		S3-D5-1-bolt	Coaxial hardware S3-D5-1-bolt; PDF assembly operation retained
+A4	baseline	faceBores.3	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S3-D5-1-dowel	Coaxial hardware S3-D5-1-dowel; PDF assembly operation retained
+A4	baseline	faceBores.4	REQUIRED_WALL_ANCHOR	y	0.16	positive	1.3	S31-H15-0-H14-0	Coaxial hardware S31-H15-0-H14-0; PDF assembly operation retained
+A4	baseline	faceBores.5	REQUIRED_WALL_ANCHOR	y	0.16	positive	1.3	S30-H15-0-H14-1	Coaxial hardware S30-H15-0-H14-1; PDF assembly operation retained
+A4	baseline	faceBores.6	REQUIRED_WALL_ANCHOR	y	0.16	positive	1.3	S31-H15-1-H14-0	Coaxial hardware S31-H15-1-H14-0; PDF assembly operation retained
+A4	baseline	faceBores.7	REQUIRED_WALL_ANCHOR	y	0.16	positive	1.3	S31-H15-1-H14-1	Coaxial hardware S31-H15-1-H14-1; PDF assembly operation retained
+A4	baseline	faceBores.8	REQUIRED_CAM_DOWEL	z	0.42	negative	1.5	R-dowel--1-0	Coaxial hardware R-dowel--1-0; PDF assembly operation retained
+A4	baseline	faceBores.9	REQUIRED_CAM_DOWEL	z	0.42	negative	1.5	R-dowel--1-1	Coaxial hardware R-dowel--1-1; PDF assembly operation retained
+A4	baseline	faceBores.10	REQUIRED_CAM_DOWEL	z	0.42	negative	1.5	R-dowel--1-2	Coaxial hardware R-dowel--1-2; PDF assembly operation retained
+A4	receivers	holes.0	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-0	Coaxial hardware R-bolt--1-0; PDF assembly operation retained
+A4	receivers	holes.1	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-1	Coaxial hardware R-bolt--1-1; PDF assembly operation retained
+A4	receivers	holes.2	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-2	Coaxial hardware R-bolt--1-2; PDF assembly operation retained
+A4	receivers	holes.3	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-3	Coaxial hardware R-bolt--1-3; PDF assembly operation retained
+A4	receivers	faceBores.0	REQUIRED_HARDWARE	y	0.35	both		S3-E3-1-bolt	Coaxial hardware S3-E3-1-bolt; PDF assembly operation retained
+A4	receivers	faceBores.1	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S3-E3-1-dowel	Coaxial hardware S3-E3-1-dowel; PDF assembly operation retained
+A4	receivers	faceBores.2	REQUIRED_HARDWARE	y	0.35	both		S3-D5-1-bolt	Coaxial hardware S3-D5-1-bolt; PDF assembly operation retained
+A4	receivers	faceBores.3	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S3-D5-1-dowel	Coaxial hardware S3-D5-1-dowel; PDF assembly operation retained
+A4	receivers	faceBores.4	REQUIRED_HARDWARE	y	0.35	both		S4-D4-1-1-bolt	Coaxial hardware S4-D4-1-1-bolt; PDF assembly operation retained
+A4	receivers	faceBores.5	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S4-D4-1-1-dowel	Coaxial hardware S4-D4-1-1-dowel; PDF assembly operation retained
+A4	receivers	faceBores.6	REQUIRED_HARDWARE	y	0.35	both		S5-D4-2-1-bolt	Coaxial hardware S5-D4-2-1-bolt; PDF assembly operation retained
+A4	receivers	faceBores.7	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S5-D4-2--1-dowel	Coaxial hardware S5-D4-2--1-dowel; PDF assembly operation retained
+A4	receivers	faceBores.8	REQUIRED_HARDWARE	y	0.35	both		S6-B5-1-bolt	Coaxial hardware S6-B5-1-bolt; PDF assembly operation retained
+A4	receivers	faceBores.9	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S6-B5--1-dowel	Coaxial hardware S6-B5--1-dowel; PDF assembly operation retained
+A4	receivers	faceBores.10	REQUIRED_CAM_DOWEL	x	0.42	negative	1.5	S8-dowel-1-18	Coaxial hardware S8-dowel-1-18; PDF assembly operation retained
+A4	receivers	faceBores.11	REQUIRED_WALL_ANCHOR	y	0.16	positive	1.3	S31-H15-0-H14-0	Coaxial hardware S31-H15-0-H14-0; PDF assembly operation retained
+A4	receivers	faceBores.12	REQUIRED_WALL_ANCHOR	y	0.16	positive	1.3	S30-H15-0-H14-1	Coaxial hardware S30-H15-0-H14-1; PDF assembly operation retained
+A4	receivers	faceBores.13	REQUIRED_WALL_ANCHOR	y	0.16	positive	1.3	S31-H15-1-H14-0	Coaxial hardware S31-H15-1-H14-0; PDF assembly operation retained
+A4	receivers	faceBores.14	REQUIRED_WALL_ANCHOR	y	0.16	positive	1.3	S31-H15-1-H14-1	Coaxial hardware S31-H15-1-H14-1; PDF assembly operation retained
+A4	receivers	faceBores.15	REQUIRED_CAM_DOWEL	z	0.42	negative	1.5	R-dowel--1-0	Coaxial hardware R-dowel--1-0; PDF assembly operation retained
+A4	receivers	faceBores.16	REQUIRED_CAM_DOWEL	z	0.42	negative	1.5	R-dowel--1-1	Coaxial hardware R-dowel--1-1; PDF assembly operation retained
+A4	receivers	faceBores.17	REQUIRED_CAM_DOWEL	z	0.42	negative	1.5	R-dowel--1-2	Coaxial hardware R-dowel--1-2; PDF assembly operation retained
+A4	bracketReceivers	holes.0	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-0	Coaxial hardware R-bolt--1-0; PDF assembly operation retained
+A4	bracketReceivers	holes.1	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-1	Coaxial hardware R-bolt--1-1; PDF assembly operation retained
+A4	bracketReceivers	holes.2	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-2	Coaxial hardware R-bolt--1-2; PDF assembly operation retained
+A4	bracketReceivers	holes.3	REQUIRED_HARDWARE	z	0.35	both		R-bolt--1-3	Coaxial hardware R-bolt--1-3; PDF assembly operation retained
+A4	bracketReceivers	faceBores.0	REQUIRED_HARDWARE	y	0.35	both		S3-E3-1-bolt	Coaxial hardware S3-E3-1-bolt; PDF assembly operation retained
+A4	bracketReceivers	faceBores.1	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S3-E3-1-dowel	Coaxial hardware S3-E3-1-dowel; PDF assembly operation retained
+A4	bracketReceivers	faceBores.2	REQUIRED_HARDWARE	y	0.35	both		S3-D5-1-bolt	Coaxial hardware S3-D5-1-bolt; PDF assembly operation retained
+A4	bracketReceivers	faceBores.3	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S3-D5-1-dowel	Coaxial hardware S3-D5-1-dowel; PDF assembly operation retained
+A4	bracketReceivers	faceBores.4	REQUIRED_HARDWARE	y	0.35	both		S4-D4-1-1-bolt	Coaxial hardware S4-D4-1-1-bolt; PDF assembly operation retained
+A4	bracketReceivers	faceBores.5	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S4-D4-1-1-dowel	Coaxial hardware S4-D4-1-1-dowel; PDF assembly operation retained
+A4	bracketReceivers	faceBores.6	REQUIRED_HARDWARE	y	0.35	both		S5-D4-2-1-bolt	Coaxial hardware S5-D4-2-1-bolt; PDF assembly operation retained
+A4	bracketReceivers	faceBores.7	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S5-D4-2--1-dowel	Coaxial hardware S5-D4-2--1-dowel; PDF assembly operation retained
+A4	bracketReceivers	faceBores.8	REQUIRED_HARDWARE	y	0.35	both		S6-B5-1-bolt	Coaxial hardware S6-B5-1-bolt; PDF assembly operation retained
+A4	bracketReceivers	faceBores.9	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S6-B5--1-dowel	Coaxial hardware S6-B5--1-dowel; PDF assembly operation retained
+A4	bracketReceivers	faceBores.10	REQUIRED_CAM_DOWEL	x	0.42	negative	1.5	S8-dowel-1-18	Coaxial hardware S8-dowel-1-18; PDF assembly operation retained
+A4	bracketReceivers	faceBores.11	REQUIRED_HARDWARE	y	0.16	both		S10-H14-0	Coaxial hardware S10-H14-0; PDF assembly operation retained
+A4	bracketReceivers	faceBores.12	REQUIRED_HARDWARE	y	0.16	both		S10-H14-1	Coaxial hardware S10-H14-1; PDF assembly operation retained
+A4	bracketReceivers	faceBores.13	REQUIRED_WALL_ANCHOR	y	0.16	positive	1.3	S31-H15-0-H14-0	Coaxial hardware S31-H15-0-H14-0; PDF assembly operation retained
+A4	bracketReceivers	faceBores.14	REQUIRED_WALL_ANCHOR	y	0.16	positive	1.3	S30-H15-0-H14-1	Coaxial hardware S30-H15-0-H14-1; PDF assembly operation retained
+A4	bracketReceivers	faceBores.15	REQUIRED_WALL_ANCHOR	y	0.16	positive	1.3	S31-H15-1-H14-0	Coaxial hardware S31-H15-1-H14-0; PDF assembly operation retained
+A4	bracketReceivers	faceBores.16	REQUIRED_WALL_ANCHOR	y	0.16	positive	1.3	S31-H15-1-H14-1	Coaxial hardware S31-H15-1-H14-1; PDF assembly operation retained
+A4	bracketReceivers	faceBores.17	REQUIRED_CAM_DOWEL	z	0.42	negative	1.5	R-dowel--1-0	Coaxial hardware R-dowel--1-0; PDF assembly operation retained
+A4	bracketReceivers	faceBores.18	REQUIRED_CAM_DOWEL	z	0.42	negative	1.5	R-dowel--1-1	Coaxial hardware R-dowel--1-1; PDF assembly operation retained
+A4	bracketReceivers	faceBores.19	REQUIRED_CAM_DOWEL	z	0.42	negative	1.5	R-dowel--1-2	Coaxial hardware R-dowel--1-2; PDF assembly operation retained
+R-cam--1-0	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+R-bolt--1-0	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+R-cam--1-1	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+R-bolt--1-1	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+R-cam--1-2	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+R-bolt--1-2	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+R-cam--1-3	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+R-bolt--1-3	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+R-cam-1-0	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+R-bolt-1-0	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+R-cam-1-1	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+R-bolt-1-1	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+R-cam-1-2	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+R-bolt-1-2	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+R-cam-1-3	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+R-bolt-1-3	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+E3	baseline	faceBores.0	REQUIRED_HARDWARE	x	0.35	negative	6	S3-E3--1-bolt	Coaxial hardware S3-E3--1-bolt; PDF assembly operation retained
+E3	baseline	faceBores.1	REQUIRED_CAM_DOWEL	x	0.42	negative	1.6	S3-E3--1-dowel	Coaxial hardware S3-E3--1-dowel; PDF assembly operation retained
+E3	baseline	faceBores.2	REQUIRED_HARDWARE	x	0.35	positive	6	S3-E3--1-bolt	Coaxial hardware S3-E3--1-bolt; PDF assembly operation retained
+E3	baseline	faceBores.3	REQUIRED_CAM_DOWEL	x	0.42	positive	1.6	S3-E3--1-dowel	Coaxial hardware S3-E3--1-dowel; PDF assembly operation retained
+E3	baseline	faceBores.4	REQUIRED_CONNECTION	y	1.3	positive	1.1	S8-H12-1-2	PDF Steps 3–6: integral E4/B7 end tongue receiver
+E3	baseline	faceBores.5	REQUIRED_CAM_DOWEL	z	0.8	positive	1.3	S3-E3--1-cam	Coaxial hardware S3-E3--1-cam; PDF assembly operation retained
+E3	baseline	faceBores.6	REQUIRED_CAM_DOWEL	z	0.8	positive	1.3	S3-E3-1-cam	Coaxial hardware S3-E3-1-cam; PDF assembly operation retained
+B9	baseline	faceBores.0	REQUIRED_HARDWARE	x	0.35	negative	6	S3-B9--1-bolt	Coaxial hardware S3-B9--1-bolt; PDF assembly operation retained
+B9	baseline	faceBores.1	REQUIRED_CAM_DOWEL	x	0.42	negative	1.6	S3-B9--1-dowel	Coaxial hardware S3-B9--1-dowel; PDF assembly operation retained
+B9	baseline	faceBores.2	REQUIRED_HARDWARE	x	0.35	positive	6	S3-B9--1-bolt	Coaxial hardware S3-B9--1-bolt; PDF assembly operation retained
+B9	baseline	faceBores.3	REQUIRED_CAM_DOWEL	x	0.42	positive	1.6	S3-B9--1-dowel	Coaxial hardware S3-B9--1-dowel; PDF assembly operation retained
+B9	baseline	faceBores.4	REQUIRED_CAM_DOWEL	z	0.8	positive	1.3	S3-E3--1-cam	Coaxial hardware S3-E3--1-cam; PDF assembly operation retained
+B9	baseline	faceBores.5	REQUIRED_CAM_DOWEL	z	0.8	positive	1.3	S3-E3-1-cam	Coaxial hardware S3-E3-1-cam; PDF assembly operation retained
+D5	baseline	faceBores.0	REQUIRED_HARDWARE	x	0.35	negative	6	S3-D5--1-bolt	Coaxial hardware S3-D5--1-bolt; PDF assembly operation retained
+D5	baseline	faceBores.1	REQUIRED_CAM_DOWEL	x	0.42	negative	1.6	S3-D5--1-dowel	Coaxial hardware S3-D5--1-dowel; PDF assembly operation retained
+D5	baseline	faceBores.2	REQUIRED_HARDWARE	x	0.35	positive	6	S3-D5--1-bolt	Coaxial hardware S3-D5--1-bolt; PDF assembly operation retained
+D5	baseline	faceBores.3	REQUIRED_CAM_DOWEL	x	0.42	positive	1.6	S3-D5--1-dowel	Coaxial hardware S3-D5--1-dowel; PDF assembly operation retained
+D5	baseline	faceBores.4	REQUIRED_CONNECTION	y	1.3	negative	1.1	S8-H12-1-2	PDF Steps 3–6: integral E4/B7 end tongue receiver
+D5	baseline	faceBores.5	REQUIRED_CAM_DOWEL	z	0.8	positive	1.3	S3-D5--1-cam	Coaxial hardware S3-D5--1-cam; PDF assembly operation retained
+D5	baseline	faceBores.6	REQUIRED_CAM_DOWEL	z	0.8	positive	1.3	S3-D5-1-cam	Coaxial hardware S3-D5-1-cam; PDF assembly operation retained
+D5	receivers	faceBores.0	REQUIRED_HARDWARE	x	0.35	negative	6	S3-D5--1-bolt	Coaxial hardware S3-D5--1-bolt; PDF assembly operation retained
+D5	receivers	faceBores.1	REQUIRED_CAM_DOWEL	x	0.42	negative	1.6	S3-D5--1-dowel	Coaxial hardware S3-D5--1-dowel; PDF assembly operation retained
+D5	receivers	faceBores.2	REQUIRED_HARDWARE	x	0.35	positive	6	S3-D5--1-bolt	Coaxial hardware S3-D5--1-bolt; PDF assembly operation retained
+D5	receivers	faceBores.3	REQUIRED_CAM_DOWEL	x	0.42	positive	1.6	S3-D5--1-dowel	Coaxial hardware S3-D5--1-dowel; PDF assembly operation retained
+D5	receivers	faceBores.4	REQUIRED_CONNECTION	y	1.3	negative	1.1	S8-H12-1-2	PDF Steps 3–6: integral E4/B7 end tongue receiver
+D5	receivers	faceBores.5	REQUIRED_CONNECTION	y	1.25	positive	0.65	S8-H12-1-2	PDF Steps 3–6: integral E4/B7 end tongue receiver
+D5	receivers	faceBores.6	REQUIRED_CAM_DOWEL	z	0.8	positive	1.3	S3-D5--1-cam	Coaxial hardware S3-D5--1-cam; PDF assembly operation retained
+D5	receivers	faceBores.7	REQUIRED_CAM_DOWEL	z	0.8	positive	1.3	S3-D5-1-cam	Coaxial hardware S3-D5-1-cam; PDF assembly operation retained
+S3-E3--1-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S3-E3--1-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S3-E3-1-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S3-E3-1-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S3-B9--1-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S3-B9--1-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S3-B9-1-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S3-B9-1-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S3-D5--1-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S3-D5--1-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S3-D5-1-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S3-D5-1-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+D4-1	baseline	faceBores.0	REQUIRED_HARDWARE	x	0.35	negative	6	S4-D4-1--1-bolt	Coaxial hardware S4-D4-1--1-bolt; PDF assembly operation retained
+D4-1	baseline	faceBores.1	REQUIRED_CAM_DOWEL	x	0.42	negative	1.6	S4-D4-1--1-dowel	Coaxial hardware S4-D4-1--1-dowel; PDF assembly operation retained
+D4-1	baseline	faceBores.2	REQUIRED_HARDWARE	x	0.35	positive	6	S4-D4-1--1-bolt	Coaxial hardware S4-D4-1--1-bolt; PDF assembly operation retained
+D4-1	baseline	faceBores.3	REQUIRED_CAM_DOWEL	x	0.42	positive	1.6	S4-D4-1--1-dowel	Coaxial hardware S4-D4-1--1-dowel; PDF assembly operation retained
+D4-1	baseline	faceBores.4	REQUIRED_CONNECTION	y	1.25	negative	0.65	S8-H12-1-2	PDF Steps 3–6: integral E4/B7 end tongue receiver
+D4-1	baseline	faceBores.5	REQUIRED_CONNECTION	y	1.25	positive	0.65	S8-H12-1-2	PDF Steps 3–6: integral E4/B7 end tongue receiver
+D4-1	baseline	faceBores.6	REQUIRED_CAM_DOWEL	z	0.8	positive	1.3	S4-D4-1--1-cam	Coaxial hardware S4-D4-1--1-cam; PDF assembly operation retained
+D4-1	baseline	faceBores.7	REQUIRED_CAM_DOWEL	z	0.8	positive	1.3	S4-D4-1-1-cam	Coaxial hardware S4-D4-1-1-cam; PDF assembly operation retained
+S4-D4-1--1-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S4-D4-1--1-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S4-D4-1-1-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S4-D4-1-1-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+D4-2	baseline	faceBores.0	REQUIRED_HARDWARE	x	0.35	negative	6	S5-D4-2--1-bolt	Coaxial hardware S5-D4-2--1-bolt; PDF assembly operation retained
+D4-2	baseline	faceBores.1	REQUIRED_CAM_DOWEL	x	0.42	negative	1.6	S5-D4-2--1-dowel	Coaxial hardware S5-D4-2--1-dowel; PDF assembly operation retained
+D4-2	baseline	faceBores.2	REQUIRED_HARDWARE	x	0.35	positive	6	S5-D4-2--1-bolt	Coaxial hardware S5-D4-2--1-bolt; PDF assembly operation retained
+D4-2	baseline	faceBores.3	REQUIRED_CAM_DOWEL	x	0.42	positive	1.6	S5-D4-2--1-dowel	Coaxial hardware S5-D4-2--1-dowel; PDF assembly operation retained
+D4-2	baseline	faceBores.4	REQUIRED_CONNECTION	y	1.25	negative	0.65	S8-H12-1-2	PDF Steps 3–6: integral E4/B7 end tongue receiver
+D4-2	baseline	faceBores.5	REQUIRED_CONNECTION	y	1.25	positive	0.65	S8-H12-1-2	PDF Steps 3–6: integral E4/B7 end tongue receiver
+D4-2	baseline	faceBores.6	REQUIRED_CAM_DOWEL	z	0.8	positive	1.3	S5-D4-2--1-cam	Coaxial hardware S5-D4-2--1-cam; PDF assembly operation retained
+D4-2	baseline	faceBores.7	REQUIRED_CAM_DOWEL	z	0.8	positive	1.3	S5-D4-2-1-cam	Coaxial hardware S5-D4-2-1-cam; PDF assembly operation retained
+S5-D4-2--1-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S5-D4-2--1-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S5-D4-2-1-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S5-D4-2-1-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+B5	baseline	faceBores.0	REQUIRED_HARDWARE	x	0.35	negative	6	S6-B5--1-bolt	Coaxial hardware S6-B5--1-bolt; PDF assembly operation retained
+B5	baseline	faceBores.1	REQUIRED_CAM_DOWEL	x	0.42	negative	1.6	S6-B5--1-dowel	Coaxial hardware S6-B5--1-dowel; PDF assembly operation retained
+B5	baseline	faceBores.2	REQUIRED_HARDWARE	x	0.35	positive	6	S6-B5--1-bolt	Coaxial hardware S6-B5--1-bolt; PDF assembly operation retained
+B5	baseline	faceBores.3	REQUIRED_CAM_DOWEL	x	0.42	positive	1.6	S6-B5--1-dowel	Coaxial hardware S6-B5--1-dowel; PDF assembly operation retained
+B5	baseline	faceBores.4	REQUIRED_CONNECTION	y	1.25	negative	0.65	S8-H12-1-2	PDF Steps 3–6: integral E4/B7 end tongue receiver
+B5	baseline	faceBores.5	REQUIRED_HARDWARE	y	0.22	positive	3.7	S8-H12-1-0	Coaxial hardware S8-H12-1-0; PDF assembly operation retained
+B5	baseline	faceBores.6	REQUIRED_HARDWARE	y	0.22	positive	3.7	S8-H12-1-1	Coaxial hardware S8-H12-1-1; PDF assembly operation retained
+B5	baseline	faceBores.7	REQUIRED_HARDWARE	y	0.22	positive	3.7	S8-H12-1-2	Coaxial hardware S8-H12-1-2; PDF assembly operation retained
+B5	baseline	faceBores.8	REQUIRED_HARDWARE	y	0.22	positive	3.7	S8-H12-1-3	Coaxial hardware S8-H12-1-3; PDF assembly operation retained
+B5	baseline	faceBores.9	REQUIRED_HARDWARE	y	0.22	positive	3.7	S8-H12-1-4	Coaxial hardware S8-H12-1-4; PDF assembly operation retained
+B5	baseline	faceBores.10	REQUIRED_CAM_DOWEL	z	0.8	positive	1.3	S6-B5--1-cam	Coaxial hardware S6-B5--1-cam; PDF assembly operation retained
+B5	baseline	faceBores.11	REQUIRED_CAM_DOWEL	z	0.8	positive	1.3	S6-B5-1-cam	Coaxial hardware S6-B5-1-cam; PDF assembly operation retained
+S6-B5--1-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S6-B5--1-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S6-B5-1-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S6-B5-1-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+B6	baseline	faceBores.0	REQUIRED_HARDWARE	x	0.35	negative	6	S6-B6--1-bolt	Coaxial hardware S6-B6--1-bolt; PDF assembly operation retained
+B6	baseline	faceBores.1	REQUIRED_CAM_DOWEL	x	0.42	negative	1.6	S6-B6--1-dowel	Coaxial hardware S6-B6--1-dowel; PDF assembly operation retained
+B6	baseline	faceBores.2	REQUIRED_HARDWARE	x	0.35	positive	6	S6-B6--1-bolt	Coaxial hardware S6-B6--1-bolt; PDF assembly operation retained
+B6	baseline	faceBores.3	REQUIRED_CAM_DOWEL	x	0.42	positive	1.6	S6-B6--1-dowel	Coaxial hardware S6-B6--1-dowel; PDF assembly operation retained
+B6	baseline	faceBores.4	REQUIRED_HARDWARE	y	0.22	positive	3.7	S8-H12--1-0	Coaxial hardware S8-H12--1-0; PDF assembly operation retained
+B6	baseline	faceBores.5	REQUIRED_HARDWARE	y	0.22	positive	3.7	S8-H12--1-1	Coaxial hardware S8-H12--1-1; PDF assembly operation retained
+B6	baseline	faceBores.6	REQUIRED_HARDWARE	y	0.22	positive	3.7	S8-H12--1-2	Coaxial hardware S8-H12--1-2; PDF assembly operation retained
+B6	baseline	faceBores.7	REQUIRED_HARDWARE	y	0.22	positive	3.7	S8-H12--1-3	Coaxial hardware S8-H12--1-3; PDF assembly operation retained
+B6	baseline	faceBores.8	REQUIRED_HARDWARE	y	0.22	positive	3.7	S8-H12--1-4	Coaxial hardware S8-H12--1-4; PDF assembly operation retained
+B6	baseline	faceBores.9	REQUIRED_CAM_DOWEL	z	0.8	positive	1.3	S6-B5--1-cam	Coaxial hardware S6-B5--1-cam; PDF assembly operation retained
+B6	baseline	faceBores.10	REQUIRED_CAM_DOWEL	z	0.8	positive	1.3	S6-B5-1-cam	Coaxial hardware S6-B5-1-cam; PDF assembly operation retained
+S6-B6--1-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S6-B6--1-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S6-B6-1-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S6-B6-1-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+B1-rear	baseline	faceBores.0	REQUIRED_HARDWARE	y	0.34	both		S8-H12--1-0	Coaxial hardware S8-H12--1-0; PDF assembly operation retained
+B1-rear	baseline	faceBores.1	REQUIRED_HARDWARE	y	0.34	both		S8-H12--1-1	Coaxial hardware S8-H12--1-1; PDF assembly operation retained
+B1-rear	baseline	faceBores.2	REQUIRED_HARDWARE	y	0.34	both		S8-H12--1-2	Coaxial hardware S8-H12--1-2; PDF assembly operation retained
+B1-rear	baseline	faceBores.3	REQUIRED_HARDWARE	y	0.34	both		S8-H12--1-3	Coaxial hardware S8-H12--1-3; PDF assembly operation retained
+B1-rear	baseline	faceBores.4	REQUIRED_HARDWARE	y	0.34	both		S8-H12--1-4	Coaxial hardware S8-H12--1-4; PDF assembly operation retained
+B1-rear	baseline	faceBores.5	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S8-dowel--1--18	Coaxial hardware S8-dowel--1--18; PDF assembly operation retained
+B1-rear	baseline	faceBores.6	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S8-dowel-1--18	Coaxial hardware S8-dowel-1--18; PDF assembly operation retained
+B1-rear	baseline	faceBores.7	REQUIRED_HARDWARE	z	0.34	negative	2.3	S7-H13-0	Coaxial hardware S7-H13-0; PDF assembly operation retained
+B1-rear	baseline	faceBores.8	REQUIRED_HARDWARE	z	0.34	negative	2.3	S7-H13-1	Coaxial hardware S7-H13-1; PDF assembly operation retained
+B1-rear	baseline	faceBores.9	REQUIRED_HARDWARE	z	0.34	negative	2.3	S7-H13-2	Coaxial hardware S7-H13-2; PDF assembly operation retained
+B1-front	baseline	faceBores.0	REQUIRED_HARDWARE	y	0.34	both		S8-H12-1-0	Coaxial hardware S8-H12-1-0; PDF assembly operation retained
+B1-front	baseline	faceBores.1	REQUIRED_HARDWARE	y	0.34	both		S8-H12-1-1	Coaxial hardware S8-H12-1-1; PDF assembly operation retained
+B1-front	baseline	faceBores.2	REQUIRED_HARDWARE	y	0.34	both		S8-H12-1-2	Coaxial hardware S8-H12-1-2; PDF assembly operation retained
+B1-front	baseline	faceBores.3	REQUIRED_HARDWARE	y	0.34	both		S8-H12-1-3	Coaxial hardware S8-H12-1-3; PDF assembly operation retained
+B1-front	baseline	faceBores.4	REQUIRED_HARDWARE	y	0.34	both		S8-H12-1-4	Coaxial hardware S8-H12-1-4; PDF assembly operation retained
+B1-front	baseline	faceBores.5	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S8-dowel--1-18	Coaxial hardware S8-dowel--1-18; PDF assembly operation retained
+B1-front	baseline	faceBores.6	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S8-dowel-1-18	Coaxial hardware S8-dowel-1-18; PDF assembly operation retained
+B1-front	baseline	faceBores.7	REQUIRED_HARDWARE	z	0.34	positive	2.3	S7-H13-0	Coaxial hardware S7-H13-0; PDF assembly operation retained
+B1-front	baseline	faceBores.8	REQUIRED_HARDWARE	z	0.34	positive	2.3	S7-H13-1	Coaxial hardware S7-H13-1; PDF assembly operation retained
+B1-front	baseline	faceBores.9	REQUIRED_HARDWARE	z	0.34	positive	2.3	S7-H13-2	Coaxial hardware S7-H13-2; PDF assembly operation retained
+B2-left	baseline	edgeBores.0	REQUIRED_HARDWARE	z	0.24	both		S7-H13-0	Coaxial hardware S7-H13-0; PDF assembly operation retained
+B3	baseline	edgeBores.0	REQUIRED_HARDWARE	z	0.24	both		S7-H13-1	Coaxial hardware S7-H13-1; PDF assembly operation retained
+B2-right	baseline	edgeBores.0	REQUIRED_HARDWARE	z	0.24	both		S7-H13-2	Coaxial hardware S7-H13-2; PDF assembly operation retained
+D9	baseline	holes.0	REQUIRED_HARDWARE	x	0.23	both		S9-H21-0	Coaxial hardware S9-H21-0; PDF assembly operation retained
+D9	baseline	holes.1	REQUIRED_HARDWARE	x	0.23	both		S9-H21-1	Coaxial hardware S9-H21-1; PDF assembly operation retained
+D9	baseline	holes.2	REQUIRED_HARDWARE	x	0.23	both		S9-H21-2	Coaxial hardware S9-H21-2; PDF assembly operation retained
+D9	baseline	holes.3	REQUIRED_HARDWARE	x	0.23	both		S9-H21-3	Coaxial hardware S9-H21-3; PDF assembly operation retained
+D9	baseline	holes.4	REQUIRED_HARDWARE	x	0.23	both		S9-H21-4	Coaxial hardware S9-H21-4; PDF assembly operation retained
+D9	baseline	holes.5	REQUIRED_HARDWARE	x	0.23	both		S9-H21-5	Coaxial hardware S9-H21-5; PDF assembly operation retained
+D9	baseline	holes.6	REQUIRED_HARDWARE	x	0.23	both		S9-H21-6	Coaxial hardware S9-H21-6; PDF assembly operation retained
+D9	baseline	holes.7	REQUIRED_HARDWARE	x	0.23	both		S9-H21-7	Coaxial hardware S9-H21-7; PDF assembly operation retained
+D9	baseline	holes.8	REQUIRED_HARDWARE	x	0.23	both		S9-H21-8	Coaxial hardware S9-H21-8; PDF assembly operation retained
+D9	baseline	holes.9	REQUIRED_HARDWARE	x	0.23	both		S9-H21-9	Coaxial hardware S9-H21-9; PDF assembly operation retained
+D9	mechanismStud.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.23	both		S9-H21-0	Coaxial hardware S9-H21-0; PDF assembly operation retained
+D9	mechanismStud.pieces.0	holes.1	REQUIRED_HARDWARE	x	0.23	both		S9-H21-1	Coaxial hardware S9-H21-1; PDF assembly operation retained
+D9	mechanismStud.pieces.0	holes.2	REQUIRED_HARDWARE	x	0.23	both		S9-H21-2	Coaxial hardware S9-H21-2; PDF assembly operation retained
+D9	mechanismStud.pieces.0	holes.3	REQUIRED_HARDWARE	x	0.23	both		S9-H21-3	Coaxial hardware S9-H21-3; PDF assembly operation retained
+D9	mechanismStud.pieces.0	holes.4	REQUIRED_HARDWARE	x	0.23	both		S9-H21-4	Coaxial hardware S9-H21-4; PDF assembly operation retained
+D9	mechanismStud.pieces.0	holes.5	REQUIRED_HARDWARE	x	0.23	both		S9-H21-5	Coaxial hardware S9-H21-5; PDF assembly operation retained
+D9	mechanismStud.pieces.0	holes.6	REQUIRED_HARDWARE	x	0.23	both		S9-H21-6	Coaxial hardware S9-H21-6; PDF assembly operation retained
+D9	mechanismStud.pieces.0	holes.7	REQUIRED_HARDWARE	x	0.23	both		S9-H21-7	Coaxial hardware S9-H21-7; PDF assembly operation retained
+D9	mechanismStud.pieces.0	holes.8	REQUIRED_HARDWARE	x	0.23	both		S9-H21-8	Coaxial hardware S9-H21-8; PDF assembly operation retained
+D9	mechanismStud.pieces.0	holes.9	REQUIRED_HARDWARE	x	0.23	both		S9-H21-9	Coaxial hardware S9-H21-9; PDF assembly operation retained
+S9-H25	baseline	holes.0	REQUIRED_HARDWARE	x	0.23	both		S9-H14-0	Coaxial hardware S9-H14-0; PDF assembly operation retained
+S9-H25	baseline	holes.1	REQUIRED_HARDWARE	x	0.23	both		S9-H14-1	Coaxial hardware S9-H14-1; PDF assembly operation retained
+D8	baseline	holes.0	REQUIRED_HARDWARE	x	0.23	both		S9-H21-0	Coaxial hardware S9-H21-0; PDF assembly operation retained
+D8	baseline	holes.1	REQUIRED_HARDWARE	x	0.23	both		S9-H21-1	Coaxial hardware S9-H21-1; PDF assembly operation retained
+D8	baseline	holes.2	REQUIRED_HARDWARE	x	0.23	both		S9-H21-2	Coaxial hardware S9-H21-2; PDF assembly operation retained
+D8	baseline	holes.3	REQUIRED_HARDWARE	x	0.23	both		S9-H21-3	Coaxial hardware S9-H21-3; PDF assembly operation retained
+D8	baseline	holes.4	REQUIRED_HARDWARE	x	0.23	both		S9-H21-4	Coaxial hardware S9-H21-4; PDF assembly operation retained
+D8	baseline	holes.5	REQUIRED_HARDWARE	x	0.23	both		S9-H21-5	Coaxial hardware S9-H21-5; PDF assembly operation retained
+D8	baseline	holes.6	REQUIRED_HARDWARE	x	0.23	both		S9-H21-6	Coaxial hardware S9-H21-6; PDF assembly operation retained
+D8	baseline	holes.7	REQUIRED_HARDWARE	x	0.23	both		S9-H21-7	Coaxial hardware S9-H21-7; PDF assembly operation retained
+D8	baseline	holes.8	REQUIRED_HARDWARE	x	0.23	both		S9-H21-8	Coaxial hardware S9-H21-8; PDF assembly operation retained
+D8	baseline	holes.9	REQUIRED_HARDWARE	x	0.23	both		S9-H21-9	Coaxial hardware S9-H21-9; PDF assembly operation retained
+D8	mechanismStud.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.23	both		S9-H21-0	Coaxial hardware S9-H21-0; PDF assembly operation retained
+D8	mechanismStud.pieces.0	holes.1	REQUIRED_HARDWARE	x	0.23	both		S9-H21-1	Coaxial hardware S9-H21-1; PDF assembly operation retained
+D8	mechanismStud.pieces.0	holes.2	REQUIRED_HARDWARE	x	0.23	both		S9-H21-2	Coaxial hardware S9-H21-2; PDF assembly operation retained
+D8	mechanismStud.pieces.0	holes.3	REQUIRED_HARDWARE	x	0.23	both		S9-H21-3	Coaxial hardware S9-H21-3; PDF assembly operation retained
+D8	mechanismStud.pieces.0	holes.4	REQUIRED_HARDWARE	x	0.23	both		S9-H21-4	Coaxial hardware S9-H21-4; PDF assembly operation retained
+D8	mechanismStud.pieces.0	holes.5	REQUIRED_HARDWARE	x	0.23	both		S9-H21-5	Coaxial hardware S9-H21-5; PDF assembly operation retained
+D8	mechanismStud.pieces.0	holes.6	REQUIRED_HARDWARE	x	0.23	both		S9-H21-6	Coaxial hardware S9-H21-6; PDF assembly operation retained
+D8	mechanismStud.pieces.0	holes.7	REQUIRED_HARDWARE	x	0.23	both		S9-H21-7	Coaxial hardware S9-H21-7; PDF assembly operation retained
+D8	mechanismStud.pieces.0	holes.8	REQUIRED_HARDWARE	x	0.23	both		S9-H21-8	Coaxial hardware S9-H21-8; PDF assembly operation retained
+D8	mechanismStud.pieces.0	holes.9	REQUIRED_HARDWARE	x	0.23	both		S9-H21-9	Coaxial hardware S9-H21-9; PDF assembly operation retained
+S10-H25	baseline	holes.0	REQUIRED_HARDWARE	x	0.23	both		S9-H14-0	Coaxial hardware S9-H14-0; PDF assembly operation retained
+S10-H25	baseline	holes.1	REQUIRED_HARDWARE	x	0.23	both		S9-H14-1	Coaxial hardware S9-H14-1; PDF assembly operation retained
+E5	baseline	holes.0	REQUIRED_HARDWARE	z	0.22	both		S10-H24-0	Coaxial hardware S10-H24-0; PDF assembly operation retained
+E5	baseline	holes.1	REQUIRED_HARDWARE	z	0.22	both		S10-H24-1	Coaxial hardware S10-H24-1; PDF assembly operation retained
+E5	baseline	holes.2	REQUIRED_HARDWARE	z	0.22	both		S10-H24-2	Coaxial hardware S10-H24-2; PDF assembly operation retained
+E5	baseline	holes.3	REQUIRED_HARDWARE	z	0.22	both		S10-H24-3	Coaxial hardware S10-H24-3; PDF assembly operation retained
+E5	baseline	holes.4	REQUIRED_HARDWARE	z	0.22	both		S10-H24-4	Coaxial hardware S10-H24-4; PDF assembly operation retained
+E5	baseline	holes.5	REQUIRED_HARDWARE	z	0.22	both		S10-H24-5	Coaxial hardware S10-H24-5; PDF assembly operation retained
+E5	baseline	holes.6	REQUIRED_HARDWARE	z	0.22	both		S10-H24-6	Coaxial hardware S10-H24-6; PDF assembly operation retained
+E5	baseline	holes.7	REQUIRED_HARDWARE	z	0.22	both		S10-H24-7	Coaxial hardware S10-H24-7; PDF assembly operation retained
+E5	baseline	holes.8	REQUIRED_HARDWARE	z	0.22	both		S10-H24-8	Coaxial hardware S10-H24-8; PDF assembly operation retained
+C2-left	baseline.pieces.0	faceBores.0	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	S14-C2-left-cam	Coaxial hardware S14-C2-left-cam; PDF assembly operation retained
+C2-left	baseline.pieces.0	faceBores.1	REQUIRED_HARDWARE	z	0.36	both		S14-C2-left-bolt	Coaxial hardware S14-C2-left-bolt; PDF assembly operation retained
+C2-left	baseline.pieces.0	faceBores.2	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	S15-C2-left-cam	Coaxial hardware S15-C2-left-cam; PDF assembly operation retained
+C2-left	baseline.pieces.0	faceBores.3	REQUIRED_HARDWARE	z	0.36	both		S14-C2-left-bolt	Coaxial hardware S14-C2-left-bolt; PDF assembly operation retained
+C2-left	baseline.pieces.0	faceBores.4	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-0-0	Coaxial hardware S20-H16-0-0; PDF assembly operation retained
+C2-left	baseline.pieces.0	faceBores.5	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-1-0	Coaxial hardware S20-H16-1-0; PDF assembly operation retained
+C2-left	baseline.pieces.0	faceBores.6	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-2-0	Coaxial hardware S20-H16-2-0; PDF assembly operation retained
+C2-left	baseline.pieces.0	faceBores.7	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-3-0	Coaxial hardware S20-H16-3-0; PDF assembly operation retained
+C2-left	baseline.pieces.0	faceBores.8	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-4-0	Coaxial hardware S20-H16-4-0; PDF assembly operation retained
+C2-left	baseline.pieces.0	faceBores.9	REQUIRED_HARDWARE	y	0.22	positive	3	S18-H20-0-H14-h0	Coaxial hardware S18-H20-0-H14-h0; PDF assembly operation retained
+C2-left	baseline.pieces.0	faceBores.10	REQUIRED_HARDWARE	y	0.22	positive	3	S18-H20-0-H14-h1	Coaxial hardware S18-H20-0-H14-h1; PDF assembly operation retained
+C2-left	baseline.pieces.0	faceBores.11	REQUIRED_HARDWARE	y	0.22	positive	3	S18-H20-1-H14-h0	Coaxial hardware S18-H20-1-H14-h0; PDF assembly operation retained
+C2-left	baseline.pieces.0	faceBores.12	REQUIRED_HARDWARE	y	0.22	positive	3	S18-H20-1-H14-h1	Coaxial hardware S18-H20-1-H14-h1; PDF assembly operation retained
+C2-left	baseline.pieces.0	faceBores.13	REQUIRED_HARDWARE	y	0.22	positive	3	S18-H20-2-H14-h0	Coaxial hardware S18-H20-2-H14-h0; PDF assembly operation retained
+C2-left	baseline.pieces.0	faceBores.14	REQUIRED_HARDWARE	y	0.22	positive	3	S18-H20-2-H14-h1	Coaxial hardware S18-H20-2-H14-h1; PDF assembly operation retained
+C2-left	baseline.pieces.0	faceBores.15	REQUIRED_HARDWARE	y	0.22	positive	3	S18-H20-3-H14-h0	Coaxial hardware S18-H20-3-H14-h0; PDF assembly operation retained
+C2-left	baseline.pieces.0	faceBores.16	REQUIRED_HARDWARE	y	0.22	positive	3	S18-H20-3-H14-h1	Coaxial hardware S18-H20-3-H14-h1; PDF assembly operation retained
+C2-left	baseline.pieces.0	faceBores.17	REQUIRED_HARDWARE	y	0.36	both		S17-side--1--55-bolt	Coaxial hardware S17-side--1--55-bolt; PDF assembly operation retained
+C2-left	baseline.pieces.0	faceBores.18	REQUIRED_CAM_DOWEL	y	0.42	both		S17-side--1--55-dowel	Coaxial hardware S17-side--1--55-dowel; PDF assembly operation retained
+C2-left	baseline.pieces.0	faceBores.19	REQUIRED_HARDWARE	y	0.36	both		S17-side--1-55-bolt	Coaxial hardware S17-side--1-55-bolt; PDF assembly operation retained
+C2-left	baseline.pieces.0	faceBores.20	REQUIRED_CAM_DOWEL	y	0.42	both		S17-side--1-55-dowel	Coaxial hardware S17-side--1-55-dowel; PDF assembly operation retained
+C2-left	baseline.pieces.1	faceBores.0	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	S14-C2-left-cam	Coaxial hardware S14-C2-left-cam; PDF assembly operation retained
+C2-left	baseline.pieces.1	faceBores.1	REQUIRED_HARDWARE	z	0.36	both		S14-C2-left-bolt	Coaxial hardware S14-C2-left-bolt; PDF assembly operation retained
+C2-left	baseline.pieces.1	faceBores.2	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	S15-C2-left-cam	Coaxial hardware S15-C2-left-cam; PDF assembly operation retained
+C2-left	baseline.pieces.1	faceBores.3	REQUIRED_HARDWARE	z	0.36	both		S14-C2-left-bolt	Coaxial hardware S14-C2-left-bolt; PDF assembly operation retained
+C2-left	baseline.pieces.1	faceBores.4	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-0-0	Coaxial hardware S20-H16-0-0; PDF assembly operation retained
+C2-left	baseline.pieces.1	faceBores.5	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-1-0	Coaxial hardware S20-H16-1-0; PDF assembly operation retained
+C2-left	baseline.pieces.1	faceBores.6	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-2-0	Coaxial hardware S20-H16-2-0; PDF assembly operation retained
+C2-left	baseline.pieces.1	faceBores.7	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-3-0	Coaxial hardware S20-H16-3-0; PDF assembly operation retained
+C2-left	baseline.pieces.1	faceBores.8	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-4-0	Coaxial hardware S20-H16-4-0; PDF assembly operation retained
+C2-left	baseline.pieces.1	faceBores.9	REQUIRED_HARDWARE	y	0.22	positive	3	S18-H20-0-H14-h0	Coaxial hardware S18-H20-0-H14-h0; PDF assembly operation retained
+C2-left	baseline.pieces.1	faceBores.10	REQUIRED_HARDWARE	y	0.22	positive	3	S18-H20-0-H14-h1	Coaxial hardware S18-H20-0-H14-h1; PDF assembly operation retained
+C2-left	baseline.pieces.1	faceBores.11	REQUIRED_HARDWARE	y	0.22	positive	3	S18-H20-1-H14-h0	Coaxial hardware S18-H20-1-H14-h0; PDF assembly operation retained
+C2-left	baseline.pieces.1	faceBores.12	REQUIRED_HARDWARE	y	0.22	positive	3	S18-H20-1-H14-h1	Coaxial hardware S18-H20-1-H14-h1; PDF assembly operation retained
+C2-left	baseline.pieces.1	faceBores.13	REQUIRED_HARDWARE	y	0.22	positive	3	S18-H20-2-H14-h0	Coaxial hardware S18-H20-2-H14-h0; PDF assembly operation retained
+C2-left	baseline.pieces.1	faceBores.14	REQUIRED_HARDWARE	y	0.22	positive	3	S18-H20-2-H14-h1	Coaxial hardware S18-H20-2-H14-h1; PDF assembly operation retained
+C2-left	baseline.pieces.1	faceBores.15	REQUIRED_HARDWARE	y	0.22	positive	3	S18-H20-3-H14-h0	Coaxial hardware S18-H20-3-H14-h0; PDF assembly operation retained
+C2-left	baseline.pieces.1	faceBores.16	REQUIRED_HARDWARE	y	0.22	positive	3	S18-H20-3-H14-h1	Coaxial hardware S18-H20-3-H14-h1; PDF assembly operation retained
+C2-left	baseline.pieces.1	faceBores.17	REQUIRED_HARDWARE	y	0.36	both		S17-side--1--55-bolt	Coaxial hardware S17-side--1--55-bolt; PDF assembly operation retained
+C2-left	baseline.pieces.1	faceBores.18	REQUIRED_CAM_DOWEL	y	0.42	both		S17-side--1--55-dowel	Coaxial hardware S17-side--1--55-dowel; PDF assembly operation retained
+C2-left	baseline.pieces.1	faceBores.19	REQUIRED_HARDWARE	y	0.36	both		S17-side--1-55-bolt	Coaxial hardware S17-side--1-55-bolt; PDF assembly operation retained
+C2-left	baseline.pieces.1	faceBores.20	REQUIRED_CAM_DOWEL	y	0.42	both		S17-side--1-55-dowel	Coaxial hardware S17-side--1-55-dowel; PDF assembly operation retained
+C4-left	baseline.pieces.0	faceBores.0	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	S11-C4-left-cam	Coaxial hardware S11-C4-left-cam; PDF assembly operation retained
+C4-left	baseline.pieces.0	faceBores.1	REQUIRED_HARDWARE	z	0.36	both		S11-C4-left-bolt	Coaxial hardware S11-C4-left-bolt; PDF assembly operation retained
+C4-left	baseline.pieces.0	faceBores.2	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	S15-C4-left-cam	Coaxial hardware S15-C4-left-cam; PDF assembly operation retained
+C4-left	baseline.pieces.0	faceBores.3	REQUIRED_HARDWARE	z	0.36	both		S11-C4-left-bolt	Coaxial hardware S11-C4-left-bolt; PDF assembly operation retained
+C4-left	baseline.pieces.0	faceBores.4	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-0-1	Coaxial hardware S20-H16-0-1; PDF assembly operation retained
+C4-left	baseline.pieces.0	faceBores.5	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-1-1	Coaxial hardware S20-H16-1-1; PDF assembly operation retained
+C4-left	baseline.pieces.0	faceBores.6	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-2-1	Coaxial hardware S20-H16-2-1; PDF assembly operation retained
+C4-left	baseline.pieces.0	faceBores.7	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-3-1	Coaxial hardware S20-H16-3-1; PDF assembly operation retained
+C4-left	baseline.pieces.0	faceBores.8	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-4-1	Coaxial hardware S20-H16-4-1; PDF assembly operation retained
+C5	baseline.pieces.0	faceBores.0	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	S12-C5-cam	Coaxial hardware S12-C5-cam; PDF assembly operation retained
+C5	baseline.pieces.0	faceBores.1	REQUIRED_HARDWARE	z	0.36	both		S12-C5-bolt	Coaxial hardware S12-C5-bolt; PDF assembly operation retained
+C5	baseline.pieces.0	faceBores.2	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	S15-C5-cam	Coaxial hardware S15-C5-cam; PDF assembly operation retained
+C5	baseline.pieces.0	faceBores.3	REQUIRED_HARDWARE	z	0.36	both		S12-C5-bolt	Coaxial hardware S12-C5-bolt; PDF assembly operation retained
+C5	baseline.pieces.0	faceBores.4	REQUIRED_HARDWARE	y	0.35	both	3	S13-H12-0-0	Coaxial hardware S13-H12-0-0; PDF assembly operation retained
+C5	baseline.pieces.0	faceBores.5	REQUIRED_HARDWARE	y	0.35	both	3	S13-H12-0-1	Coaxial hardware S13-H12-0-1; PDF assembly operation retained
+C5	baseline.pieces.0	faceBores.6	REQUIRED_HARDWARE	y	0.35	both	3	S13-H12-1-0	Coaxial hardware S13-H12-1-0; PDF assembly operation retained
+C5	baseline.pieces.0	faceBores.7	REQUIRED_HARDWARE	y	0.35	both	3	S13-H12-1-1	Coaxial hardware S13-H12-1-1; PDF assembly operation retained
+C5	baseline.pieces.0	faceBores.8	REQUIRED_HARDWARE	y	0.35	both	3	S13-H12-2-0	Coaxial hardware S13-H12-2-0; PDF assembly operation retained
+C5	baseline.pieces.0	faceBores.9	REQUIRED_HARDWARE	y	0.35	both	3	S13-H12-2-1	Coaxial hardware S13-H12-2-1; PDF assembly operation retained
+C5	baseline.pieces.0	faceBores.10	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-0-2	Coaxial hardware S20-H16-0-2; PDF assembly operation retained
+C5	baseline.pieces.0	faceBores.11	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-1-2	Coaxial hardware S20-H16-1-2; PDF assembly operation retained
+C5	baseline.pieces.0	faceBores.12	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-2-2	Coaxial hardware S20-H16-2-2; PDF assembly operation retained
+C5	baseline.pieces.0	faceBores.13	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-3-2	Coaxial hardware S20-H16-3-2; PDF assembly operation retained
+C5	baseline.pieces.0	faceBores.14	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-4-2	Coaxial hardware S20-H16-4-2; PDF assembly operation retained
+C4-right	baseline.pieces.0	faceBores.0	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	S12-C4-right-cam	Coaxial hardware S12-C4-right-cam; PDF assembly operation retained
+C4-right	baseline.pieces.0	faceBores.1	REQUIRED_HARDWARE	z	0.36	both		S12-C4-right-bolt	Coaxial hardware S12-C4-right-bolt; PDF assembly operation retained
+C4-right	baseline.pieces.0	faceBores.2	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	S15-C4-right-cam	Coaxial hardware S15-C4-right-cam; PDF assembly operation retained
+C4-right	baseline.pieces.0	faceBores.3	REQUIRED_HARDWARE	z	0.36	both		S12-C4-right-bolt	Coaxial hardware S12-C4-right-bolt; PDF assembly operation retained
+C4-right	baseline.pieces.0	faceBores.4	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-0-3	Coaxial hardware S20-H16-0-3; PDF assembly operation retained
+C4-right	baseline.pieces.0	faceBores.5	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-1-3	Coaxial hardware S20-H16-1-3; PDF assembly operation retained
+C4-right	baseline.pieces.0	faceBores.6	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-2-3	Coaxial hardware S20-H16-2-3; PDF assembly operation retained
+C4-right	baseline.pieces.0	faceBores.7	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-3-3	Coaxial hardware S20-H16-3-3; PDF assembly operation retained
+C4-right	baseline.pieces.0	faceBores.8	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-4-3	Coaxial hardware S20-H16-4-3; PDF assembly operation retained
+C2-right	baseline.pieces.0	faceBores.0	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	S14-C2-right-cam	Coaxial hardware S14-C2-right-cam; PDF assembly operation retained
+C2-right	baseline.pieces.0	faceBores.1	REQUIRED_HARDWARE	z	0.36	both		S14-C2-right-bolt	Coaxial hardware S14-C2-right-bolt; PDF assembly operation retained
+C2-right	baseline.pieces.0	faceBores.2	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	S15-C2-right-cam	Coaxial hardware S15-C2-right-cam; PDF assembly operation retained
+C2-right	baseline.pieces.0	faceBores.3	REQUIRED_HARDWARE	z	0.36	both		S14-C2-right-bolt	Coaxial hardware S14-C2-right-bolt; PDF assembly operation retained
+C2-right	baseline.pieces.0	faceBores.4	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-0-4	Coaxial hardware S20-H16-0-4; PDF assembly operation retained
+C2-right	baseline.pieces.0	faceBores.5	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-1-4	Coaxial hardware S20-H16-1-4; PDF assembly operation retained
+C2-right	baseline.pieces.0	faceBores.6	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-2-4	Coaxial hardware S20-H16-2-4; PDF assembly operation retained
+C2-right	baseline.pieces.0	faceBores.7	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-3-4	Coaxial hardware S20-H16-3-4; PDF assembly operation retained
+C2-right	baseline.pieces.0	faceBores.8	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-4-4	Coaxial hardware S20-H16-4-4; PDF assembly operation retained
+C2-right	baseline.pieces.0	faceBores.9	REQUIRED_HARDWARE	y	0.22	positive	3	S19-H20-0-H14-h0	Coaxial hardware S19-H20-0-H14-h0; PDF assembly operation retained
+C2-right	baseline.pieces.0	faceBores.10	REQUIRED_HARDWARE	y	0.22	positive	3	S19-H20-0-H14-h1	Coaxial hardware S19-H20-0-H14-h1; PDF assembly operation retained
+C2-right	baseline.pieces.0	faceBores.11	REQUIRED_HARDWARE	y	0.22	positive	3	S19-H20-1-H14-h0	Coaxial hardware S19-H20-1-H14-h0; PDF assembly operation retained
+C2-right	baseline.pieces.0	faceBores.12	REQUIRED_HARDWARE	y	0.22	positive	3	S19-H20-1-H14-h1	Coaxial hardware S19-H20-1-H14-h1; PDF assembly operation retained
+C2-right	baseline.pieces.0	faceBores.13	REQUIRED_HARDWARE	y	0.22	positive	3	S19-H20-2-H14-h0	Coaxial hardware S19-H20-2-H14-h0; PDF assembly operation retained
+C2-right	baseline.pieces.0	faceBores.14	REQUIRED_HARDWARE	y	0.22	positive	3	S19-H20-2-H14-h1	Coaxial hardware S19-H20-2-H14-h1; PDF assembly operation retained
+C2-right	baseline.pieces.0	faceBores.15	REQUIRED_HARDWARE	y	0.22	positive	3	S19-H20-3-H14-h0	Coaxial hardware S19-H20-3-H14-h0; PDF assembly operation retained
+C2-right	baseline.pieces.0	faceBores.16	REQUIRED_HARDWARE	y	0.22	positive	3	S19-H20-3-H14-h1	Coaxial hardware S19-H20-3-H14-h1; PDF assembly operation retained
+C2-right	baseline.pieces.0	faceBores.17	REQUIRED_HARDWARE	y	0.36	both		S17-side-1--55-bolt	Coaxial hardware S17-side-1--55-bolt; PDF assembly operation retained
+C2-right	baseline.pieces.0	faceBores.18	REQUIRED_CAM_DOWEL	y	0.42	both		S17-side-1--55-dowel	Coaxial hardware S17-side-1--55-dowel; PDF assembly operation retained
+C2-right	baseline.pieces.0	faceBores.19	REQUIRED_HARDWARE	y	0.36	both		S17-side-1-55-bolt	Coaxial hardware S17-side-1-55-bolt; PDF assembly operation retained
+C2-right	baseline.pieces.0	faceBores.20	REQUIRED_CAM_DOWEL	y	0.42	both		S17-side-1-55-dowel	Coaxial hardware S17-side-1-55-dowel; PDF assembly operation retained
+C2-right	baseline.pieces.1	faceBores.0	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	S14-C2-right-cam	Coaxial hardware S14-C2-right-cam; PDF assembly operation retained
+C2-right	baseline.pieces.1	faceBores.1	REQUIRED_HARDWARE	z	0.36	both		S14-C2-right-bolt	Coaxial hardware S14-C2-right-bolt; PDF assembly operation retained
+C2-right	baseline.pieces.1	faceBores.2	REQUIRED_CAM_DOWEL	y	0.8	positive	1.3	S15-C2-right-cam	Coaxial hardware S15-C2-right-cam; PDF assembly operation retained
+C2-right	baseline.pieces.1	faceBores.3	REQUIRED_HARDWARE	z	0.36	both		S14-C2-right-bolt	Coaxial hardware S14-C2-right-bolt; PDF assembly operation retained
+C2-right	baseline.pieces.1	faceBores.4	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-0-4	Coaxial hardware S20-H16-0-4; PDF assembly operation retained
+C2-right	baseline.pieces.1	faceBores.5	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-1-4	Coaxial hardware S20-H16-1-4; PDF assembly operation retained
+C2-right	baseline.pieces.1	faceBores.6	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-2-4	Coaxial hardware S20-H16-2-4; PDF assembly operation retained
+C2-right	baseline.pieces.1	faceBores.7	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-3-4	Coaxial hardware S20-H16-3-4; PDF assembly operation retained
+C2-right	baseline.pieces.1	faceBores.8	REQUIRED_HARDWARE	y	0.22	positive	3	S20-H16-4-4	Coaxial hardware S20-H16-4-4; PDF assembly operation retained
+C2-right	baseline.pieces.1	faceBores.9	REQUIRED_HARDWARE	y	0.22	positive	3	S19-H20-0-H14-h0	Coaxial hardware S19-H20-0-H14-h0; PDF assembly operation retained
+C2-right	baseline.pieces.1	faceBores.10	REQUIRED_HARDWARE	y	0.22	positive	3	S19-H20-0-H14-h1	Coaxial hardware S19-H20-0-H14-h1; PDF assembly operation retained
+C2-right	baseline.pieces.1	faceBores.11	REQUIRED_HARDWARE	y	0.22	positive	3	S19-H20-1-H14-h0	Coaxial hardware S19-H20-1-H14-h0; PDF assembly operation retained
+C2-right	baseline.pieces.1	faceBores.12	REQUIRED_HARDWARE	y	0.22	positive	3	S19-H20-1-H14-h1	Coaxial hardware S19-H20-1-H14-h1; PDF assembly operation retained
+C2-right	baseline.pieces.1	faceBores.13	REQUIRED_HARDWARE	y	0.22	positive	3	S19-H20-2-H14-h0	Coaxial hardware S19-H20-2-H14-h0; PDF assembly operation retained
+C2-right	baseline.pieces.1	faceBores.14	REQUIRED_HARDWARE	y	0.22	positive	3	S19-H20-2-H14-h1	Coaxial hardware S19-H20-2-H14-h1; PDF assembly operation retained
+C2-right	baseline.pieces.1	faceBores.15	REQUIRED_HARDWARE	y	0.22	positive	3	S19-H20-3-H14-h0	Coaxial hardware S19-H20-3-H14-h0; PDF assembly operation retained
+C2-right	baseline.pieces.1	faceBores.16	REQUIRED_HARDWARE	y	0.22	positive	3	S19-H20-3-H14-h1	Coaxial hardware S19-H20-3-H14-h1; PDF assembly operation retained
+C2-right	baseline.pieces.1	faceBores.17	REQUIRED_HARDWARE	y	0.36	both		S17-side-1--55-bolt	Coaxial hardware S17-side-1--55-bolt; PDF assembly operation retained
+C2-right	baseline.pieces.1	faceBores.18	REQUIRED_CAM_DOWEL	y	0.42	both		S17-side-1--55-dowel	Coaxial hardware S17-side-1--55-dowel; PDF assembly operation retained
+C2-right	baseline.pieces.1	faceBores.19	REQUIRED_HARDWARE	y	0.36	both		S17-side-1-55-bolt	Coaxial hardware S17-side-1-55-bolt; PDF assembly operation retained
+C2-right	baseline.pieces.1	faceBores.20	REQUIRED_CAM_DOWEL	y	0.42	both		S17-side-1-55-dowel	Coaxial hardware S17-side-1-55-dowel; PDF assembly operation retained
+C1-start	baseline	faceBores.0	REQUIRED_HARDWARE	z	0.36	both		S14-C2-left-bolt	Coaxial hardware S14-C2-left-bolt; PDF assembly operation retained
+C1-start	baseline	faceBores.1	REQUIRED_HARDWARE	z	0.36	both		S11-C4-left-bolt	Coaxial hardware S11-C4-left-bolt; PDF assembly operation retained
+C1-start	baseline	faceBores.2	REQUIRED_HARDWARE	z	0.36	both		S12-C5-bolt	Coaxial hardware S12-C5-bolt; PDF assembly operation retained
+C1-start	baseline	faceBores.3	REQUIRED_HARDWARE	z	0.36	both		S12-C4-right-bolt	Coaxial hardware S12-C4-right-bolt; PDF assembly operation retained
+C1-start	baseline	faceBores.4	REQUIRED_HARDWARE	z	0.36	both		S14-C2-right-bolt	Coaxial hardware S14-C2-right-bolt; PDF assembly operation retained
+C1-start	baseline	faceBores.5	REQUIRED_HARDWARE	y	0.22	positive	3	S19-H20-4-H14-h0	Coaxial hardware S19-H20-4-H14-h0; PDF assembly operation retained
+C1-start	baseline	faceBores.6	REQUIRED_HARDWARE	y	0.22	positive	3	S19-H20-4-H14-h1	Coaxial hardware S19-H20-4-H14-h1; PDF assembly operation retained
+C1-start	baseline	faceBores.7	REQUIRED_HARDWARE	y	0.22	positive	3	S19-H20-5-H14-h0	Coaxial hardware S19-H20-5-H14-h0; PDF assembly operation retained
+C1-start	baseline	faceBores.8	REQUIRED_HARDWARE	y	0.22	positive	3	S19-H20-5-H14-h1	Coaxial hardware S19-H20-5-H14-h1; PDF assembly operation retained
+C1-start	baseline	faceBores.9	REQUIRED_HARDWARE	y	0.36	both		S17-end--1--80-bolt	Coaxial hardware S17-end--1--80-bolt; PDF assembly operation retained
+C1-start	baseline	faceBores.10	REQUIRED_CAM_DOWEL	y	0.42	both		S17-end--1--80-dowel	Coaxial hardware S17-end--1--80-dowel; PDF assembly operation retained
+C1-start	baseline	faceBores.11	REQUIRED_HARDWARE	y	0.36	both		S17-end--1-80-bolt	Coaxial hardware S17-end--1-80-bolt; PDF assembly operation retained
+C1-start	baseline	faceBores.12	REQUIRED_CAM_DOWEL	y	0.42	both		S17-end--1-80-dowel	Coaxial hardware S17-end--1-80-dowel; PDF assembly operation retained
+C1-close	baseline	faceBores.0	REQUIRED_HARDWARE	z	0.36	both		S14-C2-left-bolt	Coaxial hardware S14-C2-left-bolt; PDF assembly operation retained
+C1-close	baseline	faceBores.1	REQUIRED_HARDWARE	z	0.36	both		S11-C4-left-bolt	Coaxial hardware S11-C4-left-bolt; PDF assembly operation retained
+C1-close	baseline	faceBores.2	REQUIRED_HARDWARE	z	0.36	both		S12-C5-bolt	Coaxial hardware S12-C5-bolt; PDF assembly operation retained
+C1-close	baseline	faceBores.3	REQUIRED_HARDWARE	z	0.36	both		S12-C4-right-bolt	Coaxial hardware S12-C4-right-bolt; PDF assembly operation retained
+C1-close	baseline	faceBores.4	REQUIRED_HARDWARE	z	0.36	both		S14-C2-right-bolt	Coaxial hardware S14-C2-right-bolt; PDF assembly operation retained
+C1-close	baseline	faceBores.5	REQUIRED_HARDWARE	y	0.22	positive	3	S18-H20-4-H14-h0	Coaxial hardware S18-H20-4-H14-h0; PDF assembly operation retained
+C1-close	baseline	faceBores.6	REQUIRED_HARDWARE	y	0.22	positive	3	S18-H20-4-H14-h1	Coaxial hardware S18-H20-4-H14-h1; PDF assembly operation retained
+C1-close	baseline	faceBores.7	REQUIRED_HARDWARE	y	0.22	positive	3	S18-H20-5-H14-h0	Coaxial hardware S18-H20-5-H14-h0; PDF assembly operation retained
+C1-close	baseline	faceBores.8	REQUIRED_HARDWARE	y	0.22	positive	3	S18-H20-5-H14-h1	Coaxial hardware S18-H20-5-H14-h1; PDF assembly operation retained
+C1-close	baseline	faceBores.9	REQUIRED_HARDWARE	y	0.36	both		S17-end-1--80-bolt	Coaxial hardware S17-end-1--80-bolt; PDF assembly operation retained
+C1-close	baseline	faceBores.10	REQUIRED_CAM_DOWEL	y	0.42	both		S17-end-1--80-dowel	Coaxial hardware S17-end-1--80-dowel; PDF assembly operation retained
+C1-close	baseline	faceBores.11	REQUIRED_HARDWARE	y	0.36	both		S17-end-1-80-bolt	Coaxial hardware S17-end-1-80-bolt; PDF assembly operation retained
+C1-close	baseline	faceBores.12	REQUIRED_CAM_DOWEL	y	0.42	both		S17-end-1-80-dowel	Coaxial hardware S17-end-1-80-dowel; PDF assembly operation retained
+C7-0	baseline	faceBores.0	REQUIRED_HARDWARE	y	0.35	positive	1.2	S13-H12-0-0	Coaxial hardware S13-H12-0-0; PDF assembly operation retained
+C7-0	baseline	faceBores.1	REQUIRED_HARDWARE	y	0.35	positive	1.2	S13-H12-0-1	Coaxial hardware S13-H12-0-1; PDF assembly operation retained
+C7-1	baseline	faceBores.0	REQUIRED_HARDWARE	y	0.35	positive	1.2	S13-H12-1-0	Coaxial hardware S13-H12-1-0; PDF assembly operation retained
+C7-1	baseline	faceBores.1	REQUIRED_HARDWARE	y	0.35	positive	1.2	S13-H12-1-1	Coaxial hardware S13-H12-1-1; PDF assembly operation retained
+C7-2	baseline	faceBores.0	REQUIRED_HARDWARE	y	0.35	positive	1.2	S13-H12-2-0	Coaxial hardware S13-H12-2-0; PDF assembly operation retained
+C7-2	baseline	faceBores.1	REQUIRED_HARDWARE	y	0.35	positive	1.2	S13-H12-2-1	Coaxial hardware S13-H12-2-1; PDF assembly operation retained
+S14-C2-left-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S14-C2-left-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S15-C2-left-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S15-C2-left-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S11-C4-left-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S11-C4-left-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S15-C4-left-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S15-C4-left-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S12-C5-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S12-C5-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S15-C5-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S15-C5-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S12-C4-right-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S12-C4-right-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S15-C4-right-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S15-C4-right-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S14-C2-right-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S14-C2-right-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S15-C2-right-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S15-C2-right-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+D2-0	baseline	faceBores.0	REQUIRED_HARDWARE	y	0.22	both		S20-H16-0-0	Coaxial hardware S20-H16-0-0; PDF assembly operation retained
+D2-0	baseline	faceBores.1	REQUIRED_HARDWARE	y	0.22	both		S20-H16-0-1	Coaxial hardware S20-H16-0-1; PDF assembly operation retained
+D2-0	baseline	faceBores.2	REQUIRED_HARDWARE	y	0.22	both		S20-H16-0-2	Coaxial hardware S20-H16-0-2; PDF assembly operation retained
+D2-0	baseline	faceBores.3	REQUIRED_HARDWARE	y	0.22	both		S20-H16-0-3	Coaxial hardware S20-H16-0-3; PDF assembly operation retained
+D2-0	baseline	faceBores.4	REQUIRED_HARDWARE	y	0.22	both		S20-H16-0-4	Coaxial hardware S20-H16-0-4; PDF assembly operation retained
+D2-1	baseline	faceBores.0	REQUIRED_HARDWARE	y	0.22	both		S20-H16-1-0	Coaxial hardware S20-H16-1-0; PDF assembly operation retained
+D2-1	baseline	faceBores.1	REQUIRED_HARDWARE	y	0.22	both		S20-H16-1-1	Coaxial hardware S20-H16-1-1; PDF assembly operation retained
+D2-1	baseline	faceBores.2	REQUIRED_HARDWARE	y	0.22	both		S20-H16-1-2	Coaxial hardware S20-H16-1-2; PDF assembly operation retained
+D2-1	baseline	faceBores.3	REQUIRED_HARDWARE	y	0.22	both		S20-H16-1-3	Coaxial hardware S20-H16-1-3; PDF assembly operation retained
+D2-1	baseline	faceBores.4	REQUIRED_HARDWARE	y	0.22	both		S20-H16-1-4	Coaxial hardware S20-H16-1-4; PDF assembly operation retained
+D2-2	baseline	faceBores.0	REQUIRED_HARDWARE	y	0.22	both		S20-H16-2-0	Coaxial hardware S20-H16-2-0; PDF assembly operation retained
+D2-2	baseline	faceBores.1	REQUIRED_HARDWARE	y	0.22	both		S20-H16-2-1	Coaxial hardware S20-H16-2-1; PDF assembly operation retained
+D2-2	baseline	faceBores.2	REQUIRED_HARDWARE	y	0.22	both		S20-H16-2-2	Coaxial hardware S20-H16-2-2; PDF assembly operation retained
+D2-2	baseline	faceBores.3	REQUIRED_HARDWARE	y	0.22	both		S20-H16-2-3	Coaxial hardware S20-H16-2-3; PDF assembly operation retained
+D2-2	baseline	faceBores.4	REQUIRED_HARDWARE	y	0.22	both		S20-H16-2-4	Coaxial hardware S20-H16-2-4; PDF assembly operation retained
+D2-3	baseline	faceBores.0	REQUIRED_HARDWARE	y	0.22	both		S20-H16-3-0	Coaxial hardware S20-H16-3-0; PDF assembly operation retained
+D2-3	baseline	faceBores.1	REQUIRED_HARDWARE	y	0.22	both		S20-H16-3-1	Coaxial hardware S20-H16-3-1; PDF assembly operation retained
+D2-3	baseline	faceBores.2	REQUIRED_HARDWARE	y	0.22	both		S20-H16-3-2	Coaxial hardware S20-H16-3-2; PDF assembly operation retained
+D2-3	baseline	faceBores.3	REQUIRED_HARDWARE	y	0.22	both		S20-H16-3-3	Coaxial hardware S20-H16-3-3; PDF assembly operation retained
+D2-3	baseline	faceBores.4	REQUIRED_HARDWARE	y	0.22	both		S20-H16-3-4	Coaxial hardware S20-H16-3-4; PDF assembly operation retained
+D2-4	baseline	faceBores.0	REQUIRED_HARDWARE	y	0.22	both		S20-H16-4-0	Coaxial hardware S20-H16-4-0; PDF assembly operation retained
+D2-4	baseline	faceBores.1	REQUIRED_HARDWARE	y	0.22	both		S20-H16-4-1	Coaxial hardware S20-H16-4-1; PDF assembly operation retained
+D2-4	baseline	faceBores.2	REQUIRED_HARDWARE	y	0.22	both		S20-H16-4-2	Coaxial hardware S20-H16-4-2; PDF assembly operation retained
+D2-4	baseline	faceBores.3	REQUIRED_HARDWARE	y	0.22	both		S20-H16-4-3	Coaxial hardware S20-H16-4-3; PDF assembly operation retained
+D2-4	baseline	faceBores.4	REQUIRED_HARDWARE	y	0.22	both		S20-H16-4-4	Coaxial hardware S20-H16-4-4; PDF assembly operation retained
+C8-left	baseline	faceBores.0	REQUIRED_CAM_DOWEL	x	0.8	positive	1.4	S16--1--1-cam	Coaxial hardware S16--1--1-cam; PDF assembly operation retained
+C8-left	baseline	faceBores.1	REQUIRED_HARDWARE	z	0.36	both		S16--1--1-bolt	Coaxial hardware S16--1--1-bolt; PDF assembly operation retained
+C8-left	baseline	faceBores.2	REQUIRED_CAM_DOWEL	z	0.42	both		S16--1--1-dowel-0	Coaxial hardware S16--1--1-dowel-0; PDF assembly operation retained
+C8-left	baseline	faceBores.3	REQUIRED_CAM_DOWEL	z	0.42	both		S16--1--1-dowel-1	Coaxial hardware S16--1--1-dowel-1; PDF assembly operation retained
+C8-left	baseline	faceBores.4	REQUIRED_CAM_DOWEL	x	0.8	positive	1.4	S16--1-1-cam	Coaxial hardware S16--1-1-cam; PDF assembly operation retained
+C8-left	baseline	faceBores.5	REQUIRED_HARDWARE	z	0.36	both		S16--1--1-bolt	Coaxial hardware S16--1--1-bolt; PDF assembly operation retained
+C8-left	baseline	faceBores.6	REQUIRED_CAM_DOWEL	z	0.42	both		S16--1--1-dowel-0	Coaxial hardware S16--1--1-dowel-0; PDF assembly operation retained
+C8-left	baseline	faceBores.7	REQUIRED_CAM_DOWEL	z	0.42	both		S16--1--1-dowel-1	Coaxial hardware S16--1--1-dowel-1; PDF assembly operation retained
+C8-left	baseline	faceBores.8	REQUIRED_CAM_DOWEL	x	0.8	positive	1.4	S17-side--1--55-cam	Coaxial hardware S17-side--1--55-cam; PDF assembly operation retained
+C8-left	baseline	faceBores.9	REQUIRED_HARDWARE	y	0.36	negative	3.5	S17-side--1--55-bolt	Coaxial hardware S17-side--1--55-bolt; PDF assembly operation retained
+C8-left	baseline	faceBores.10	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S17-side--1--55-dowel	Coaxial hardware S17-side--1--55-dowel; PDF assembly operation retained
+C8-left	baseline	faceBores.11	REQUIRED_CAM_DOWEL	x	0.8	positive	1.4	S17-side--1-55-cam	Coaxial hardware S17-side--1-55-cam; PDF assembly operation retained
+C8-left	baseline	faceBores.12	REQUIRED_HARDWARE	y	0.36	negative	3.5	S17-side--1-55-bolt	Coaxial hardware S17-side--1-55-bolt; PDF assembly operation retained
+C8-left	baseline	faceBores.13	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S17-side--1-55-dowel	Coaxial hardware S17-side--1-55-dowel; PDF assembly operation retained
+C8-left	baseline	faceBores.14	REQUIRED_HARDWARE	x	0.22	positive	1.3	S18-H20-0-H14-v0	Coaxial hardware S18-H20-0-H14-v0; PDF assembly operation retained
+C8-left	baseline	faceBores.15	REQUIRED_HARDWARE	x	0.22	positive	1.3	S18-H20-0-H14-v1	Coaxial hardware S18-H20-0-H14-v1; PDF assembly operation retained
+C8-left	baseline	faceBores.16	REQUIRED_HARDWARE	x	0.22	positive	1.3	S18-H20-1-H14-v0	Coaxial hardware S18-H20-1-H14-v0; PDF assembly operation retained
+C8-left	baseline	faceBores.17	REQUIRED_HARDWARE	x	0.22	positive	1.3	S18-H20-1-H14-v1	Coaxial hardware S18-H20-1-H14-v1; PDF assembly operation retained
+C8-left	baseline	faceBores.18	REQUIRED_HARDWARE	x	0.22	positive	1.3	S18-H20-2-H14-v0	Coaxial hardware S18-H20-2-H14-v0; PDF assembly operation retained
+C8-left	baseline	faceBores.19	REQUIRED_HARDWARE	x	0.22	positive	1.3	S18-H20-2-H14-v1	Coaxial hardware S18-H20-2-H14-v1; PDF assembly operation retained
+C8-left	baseline	faceBores.20	REQUIRED_HARDWARE	x	0.22	positive	1.3	S18-H20-3-H14-v0	Coaxial hardware S18-H20-3-H14-v0; PDF assembly operation retained
+C8-left	baseline	faceBores.21	REQUIRED_HARDWARE	x	0.22	positive	1.3	S18-H20-3-H14-v1	Coaxial hardware S18-H20-3-H14-v1; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.0	REQUIRED_CAM_DOWEL	x	0.8	positive	1.4	S16--1--1-cam	Coaxial hardware S16--1--1-cam; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.1	REQUIRED_HARDWARE	z	0.36	both		S16--1--1-bolt	Coaxial hardware S16--1--1-bolt; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.2	REQUIRED_CAM_DOWEL	z	0.42	both		S16--1--1-dowel-0	Coaxial hardware S16--1--1-dowel-0; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.3	REQUIRED_CAM_DOWEL	z	0.42	both		S16--1--1-dowel-1	Coaxial hardware S16--1--1-dowel-1; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.4	REQUIRED_CAM_DOWEL	x	0.8	positive	1.4	S16--1-1-cam	Coaxial hardware S16--1-1-cam; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.5	REQUIRED_HARDWARE	z	0.36	both		S16--1--1-bolt	Coaxial hardware S16--1--1-bolt; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.6	REQUIRED_CAM_DOWEL	z	0.42	both		S16--1--1-dowel-0	Coaxial hardware S16--1--1-dowel-0; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.7	REQUIRED_CAM_DOWEL	z	0.42	both		S16--1--1-dowel-1	Coaxial hardware S16--1--1-dowel-1; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.8	REQUIRED_CAM_DOWEL	x	0.8	positive	1.4	S17-side--1--55-cam	Coaxial hardware S17-side--1--55-cam; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.9	REQUIRED_HARDWARE	y	0.36	negative	3.5	S17-side--1--55-bolt	Coaxial hardware S17-side--1--55-bolt; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.10	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S17-side--1--55-dowel	Coaxial hardware S17-side--1--55-dowel; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.11	REQUIRED_CAM_DOWEL	x	0.8	positive	1.4	S17-side--1-55-cam	Coaxial hardware S17-side--1-55-cam; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.12	REQUIRED_HARDWARE	y	0.36	negative	3.5	S17-side--1-55-bolt	Coaxial hardware S17-side--1-55-bolt; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.13	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S17-side--1-55-dowel	Coaxial hardware S17-side--1-55-dowel; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.14	REQUIRED_HARDWARE	x	0.22	positive	1.3	S18-H20-0-H14-v0	Coaxial hardware S18-H20-0-H14-v0; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.15	REQUIRED_HARDWARE	x	0.22	positive	1.3	S18-H20-0-H14-v1	Coaxial hardware S18-H20-0-H14-v1; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.16	REQUIRED_HARDWARE	x	0.22	positive	1.3	S18-H20-1-H14-v0	Coaxial hardware S18-H20-1-H14-v0; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.17	REQUIRED_HARDWARE	x	0.22	positive	1.3	S18-H20-1-H14-v1	Coaxial hardware S18-H20-1-H14-v1; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.18	REQUIRED_HARDWARE	x	0.22	positive	1.3	S18-H20-2-H14-v0	Coaxial hardware S18-H20-2-H14-v0; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.19	REQUIRED_HARDWARE	x	0.22	positive	1.3	S18-H20-2-H14-v1	Coaxial hardware S18-H20-2-H14-v1; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.20	REQUIRED_HARDWARE	x	0.22	positive	1.3	S18-H20-3-H14-v0	Coaxial hardware S18-H20-3-H14-v0; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.21	REQUIRED_HARDWARE	x	0.22	positive	1.3	S18-H20-3-H14-v1	Coaxial hardware S18-H20-3-H14-v1; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.22	REQUIRED_HARDWARE	x	0.16	negative	1.6	S21-H21-0	Coaxial hardware S21-H21-0; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.23	REQUIRED_HARDWARE	x	0.16	negative	1.6	S21-H21-1	Coaxial hardware S21-H21-1; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.24	REQUIRED_HARDWARE	x	0.16	negative	1.6	S21-H21-2	Coaxial hardware S21-H21-2; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.25	REQUIRED_HARDWARE	x	0.16	negative	1.6	S21-H21-3	Coaxial hardware S21-H21-3; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.26	REQUIRED_HARDWARE	x	0.16	negative	1.6	S21-H21-4	Coaxial hardware S21-H21-4; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.27	REQUIRED_HARDWARE	x	0.16	negative	1.6	S21-H21-5	Coaxial hardware S21-H21-5; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.28	REQUIRED_HARDWARE	x	0.16	negative	1.6	S21-H21-6	Coaxial hardware S21-H21-6; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.29	REQUIRED_HARDWARE	x	0.16	negative	1.6	S21-H21-7	Coaxial hardware S21-H21-7; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.30	REQUIRED_PIVOT	x	0.36	both		S29--1-H10	Coaxial hardware S29--1-H10; PDF assembly operation retained
+C8-left	mechanismReceivers	faceBores.31	REQUIRED_PIVOT	x	0.57	positive	1.55	S29--1-H10	Coaxial hardware S29--1-H10; PDF assembly operation retained
+C8-right	baseline	faceBores.0	REQUIRED_CAM_DOWEL	x	0.8	negative	1.4	S16--1--1-cam	Coaxial hardware S16--1--1-cam; PDF assembly operation retained
+C8-right	baseline	faceBores.1	REQUIRED_HARDWARE	z	0.36	both		S16-1--1-bolt	Coaxial hardware S16-1--1-bolt; PDF assembly operation retained
+C8-right	baseline	faceBores.2	REQUIRED_CAM_DOWEL	z	0.42	both		S16-1--1-dowel-0	Coaxial hardware S16-1--1-dowel-0; PDF assembly operation retained
+C8-right	baseline	faceBores.3	REQUIRED_CAM_DOWEL	z	0.42	both		S16-1--1-dowel-1	Coaxial hardware S16-1--1-dowel-1; PDF assembly operation retained
+C8-right	baseline	faceBores.4	REQUIRED_CAM_DOWEL	x	0.8	negative	1.4	S16--1-1-cam	Coaxial hardware S16--1-1-cam; PDF assembly operation retained
+C8-right	baseline	faceBores.5	REQUIRED_HARDWARE	z	0.36	both		S16-1--1-bolt	Coaxial hardware S16-1--1-bolt; PDF assembly operation retained
+C8-right	baseline	faceBores.6	REQUIRED_CAM_DOWEL	z	0.42	both		S16-1--1-dowel-0	Coaxial hardware S16-1--1-dowel-0; PDF assembly operation retained
+C8-right	baseline	faceBores.7	REQUIRED_CAM_DOWEL	z	0.42	both		S16-1--1-dowel-1	Coaxial hardware S16-1--1-dowel-1; PDF assembly operation retained
+C8-right	baseline	faceBores.8	REQUIRED_CAM_DOWEL	x	0.8	negative	1.4	S17-side--1--55-cam	Coaxial hardware S17-side--1--55-cam; PDF assembly operation retained
+C8-right	baseline	faceBores.9	REQUIRED_HARDWARE	y	0.36	negative	3.5	S17-side-1--55-bolt	Coaxial hardware S17-side-1--55-bolt; PDF assembly operation retained
+C8-right	baseline	faceBores.10	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S17-side-1--55-dowel	Coaxial hardware S17-side-1--55-dowel; PDF assembly operation retained
+C8-right	baseline	faceBores.11	REQUIRED_CAM_DOWEL	x	0.8	negative	1.4	S17-side--1-55-cam	Coaxial hardware S17-side--1-55-cam; PDF assembly operation retained
+C8-right	baseline	faceBores.12	REQUIRED_HARDWARE	y	0.36	negative	3.5	S17-side-1-55-bolt	Coaxial hardware S17-side-1-55-bolt; PDF assembly operation retained
+C8-right	baseline	faceBores.13	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S17-side-1-55-dowel	Coaxial hardware S17-side-1-55-dowel; PDF assembly operation retained
+C8-right	baseline	faceBores.14	REQUIRED_HARDWARE	x	0.22	negative	1.3	S18-H20-0-H14-v1	Coaxial hardware S18-H20-0-H14-v1; PDF assembly operation retained
+C8-right	baseline	faceBores.15	REQUIRED_HARDWARE	x	0.22	negative	1.3	S18-H20-0-H14-v0	Coaxial hardware S18-H20-0-H14-v0; PDF assembly operation retained
+C8-right	baseline	faceBores.16	REQUIRED_HARDWARE	x	0.22	negative	1.3	S18-H20-1-H14-v1	Coaxial hardware S18-H20-1-H14-v1; PDF assembly operation retained
+C8-right	baseline	faceBores.17	REQUIRED_HARDWARE	x	0.22	negative	1.3	S18-H20-1-H14-v0	Coaxial hardware S18-H20-1-H14-v0; PDF assembly operation retained
+C8-right	baseline	faceBores.18	REQUIRED_HARDWARE	x	0.22	negative	1.3	S18-H20-2-H14-v1	Coaxial hardware S18-H20-2-H14-v1; PDF assembly operation retained
+C8-right	baseline	faceBores.19	REQUIRED_HARDWARE	x	0.22	negative	1.3	S18-H20-2-H14-v0	Coaxial hardware S18-H20-2-H14-v0; PDF assembly operation retained
+C8-right	baseline	faceBores.20	REQUIRED_HARDWARE	x	0.22	negative	1.3	S18-H20-3-H14-v1	Coaxial hardware S18-H20-3-H14-v1; PDF assembly operation retained
+C8-right	baseline	faceBores.21	REQUIRED_HARDWARE	x	0.22	negative	1.3	S18-H20-3-H14-v0	Coaxial hardware S18-H20-3-H14-v0; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.0	REQUIRED_CAM_DOWEL	x	0.8	negative	1.4	S16--1--1-cam	Coaxial hardware S16--1--1-cam; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.1	REQUIRED_HARDWARE	z	0.36	both		S16-1--1-bolt	Coaxial hardware S16-1--1-bolt; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.2	REQUIRED_CAM_DOWEL	z	0.42	both		S16-1--1-dowel-0	Coaxial hardware S16-1--1-dowel-0; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.3	REQUIRED_CAM_DOWEL	z	0.42	both		S16-1--1-dowel-1	Coaxial hardware S16-1--1-dowel-1; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.4	REQUIRED_CAM_DOWEL	x	0.8	negative	1.4	S16--1-1-cam	Coaxial hardware S16--1-1-cam; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.5	REQUIRED_HARDWARE	z	0.36	both		S16-1--1-bolt	Coaxial hardware S16-1--1-bolt; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.6	REQUIRED_CAM_DOWEL	z	0.42	both		S16-1--1-dowel-0	Coaxial hardware S16-1--1-dowel-0; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.7	REQUIRED_CAM_DOWEL	z	0.42	both		S16-1--1-dowel-1	Coaxial hardware S16-1--1-dowel-1; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.8	REQUIRED_CAM_DOWEL	x	0.8	negative	1.4	S17-side--1--55-cam	Coaxial hardware S17-side--1--55-cam; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.9	REQUIRED_HARDWARE	y	0.36	negative	3.5	S17-side-1--55-bolt	Coaxial hardware S17-side-1--55-bolt; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.10	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S17-side-1--55-dowel	Coaxial hardware S17-side-1--55-dowel; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.11	REQUIRED_CAM_DOWEL	x	0.8	negative	1.4	S17-side--1-55-cam	Coaxial hardware S17-side--1-55-cam; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.12	REQUIRED_HARDWARE	y	0.36	negative	3.5	S17-side-1-55-bolt	Coaxial hardware S17-side-1-55-bolt; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.13	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S17-side-1-55-dowel	Coaxial hardware S17-side-1-55-dowel; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.14	REQUIRED_HARDWARE	x	0.22	negative	1.3	S18-H20-0-H14-v1	Coaxial hardware S18-H20-0-H14-v1; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.15	REQUIRED_HARDWARE	x	0.22	negative	1.3	S18-H20-0-H14-v0	Coaxial hardware S18-H20-0-H14-v0; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.16	REQUIRED_HARDWARE	x	0.22	negative	1.3	S18-H20-1-H14-v1	Coaxial hardware S18-H20-1-H14-v1; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.17	REQUIRED_HARDWARE	x	0.22	negative	1.3	S18-H20-1-H14-v0	Coaxial hardware S18-H20-1-H14-v0; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.18	REQUIRED_HARDWARE	x	0.22	negative	1.3	S18-H20-2-H14-v1	Coaxial hardware S18-H20-2-H14-v1; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.19	REQUIRED_HARDWARE	x	0.22	negative	1.3	S18-H20-2-H14-v0	Coaxial hardware S18-H20-2-H14-v0; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.20	REQUIRED_HARDWARE	x	0.22	negative	1.3	S18-H20-3-H14-v1	Coaxial hardware S18-H20-3-H14-v1; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.21	REQUIRED_HARDWARE	x	0.22	negative	1.3	S18-H20-3-H14-v0	Coaxial hardware S18-H20-3-H14-v0; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.22	REQUIRED_HARDWARE	x	0.16	positive	1.6	S21-H21-0	Coaxial hardware S21-H21-0; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.23	REQUIRED_HARDWARE	x	0.16	positive	1.6	S21-H21-1	Coaxial hardware S21-H21-1; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.24	REQUIRED_HARDWARE	x	0.16	positive	1.6	S21-H21-2	Coaxial hardware S21-H21-2; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.25	REQUIRED_HARDWARE	x	0.16	positive	1.6	S21-H21-3	Coaxial hardware S21-H21-3; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.26	REQUIRED_HARDWARE	x	0.16	positive	1.6	S21-H21-4	Coaxial hardware S21-H21-4; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.27	REQUIRED_HARDWARE	x	0.16	positive	1.6	S21-H21-5	Coaxial hardware S21-H21-5; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.28	REQUIRED_HARDWARE	x	0.16	positive	1.6	S21-H21-6	Coaxial hardware S21-H21-6; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.29	REQUIRED_HARDWARE	x	0.16	positive	1.6	S21-H21-7	Coaxial hardware S21-H21-7; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.30	REQUIRED_PIVOT	x	0.36	both		S29--1-H10	Coaxial hardware S29--1-H10; PDF assembly operation retained
+C8-right	mechanismReceivers	faceBores.31	REQUIRED_PIVOT	x	0.57	negative	1.55	S29--1-H10	Coaxial hardware S29--1-H10; PDF assembly operation retained
+C9	baseline	faceBores.0	REQUIRED_HARDWARE	z	0.36	both		S16--1--1-bolt	Coaxial hardware S16--1--1-bolt; PDF assembly operation retained
+C9	baseline	faceBores.1	REQUIRED_CAM_DOWEL	z	0.42	both		S16--1--1-dowel-0	Coaxial hardware S16--1--1-dowel-0; PDF assembly operation retained
+C9	baseline	faceBores.2	REQUIRED_CAM_DOWEL	z	0.42	both		S16--1--1-dowel-1	Coaxial hardware S16--1--1-dowel-1; PDF assembly operation retained
+C9	baseline	faceBores.3	REQUIRED_HARDWARE	z	0.36	both		S16-1--1-bolt	Coaxial hardware S16-1--1-bolt; PDF assembly operation retained
+C9	baseline	faceBores.4	REQUIRED_CAM_DOWEL	z	0.42	both		S16-1--1-dowel-0	Coaxial hardware S16-1--1-dowel-0; PDF assembly operation retained
+C9	baseline	faceBores.5	REQUIRED_CAM_DOWEL	z	0.42	both		S16-1--1-dowel-1	Coaxial hardware S16-1--1-dowel-1; PDF assembly operation retained
+C9	baseline	faceBores.6	REQUIRED_CAM_DOWEL	z	0.8	positive	1.4	S17-end--1--80-cam	Coaxial hardware S17-end--1--80-cam; PDF assembly operation retained
+C9	baseline	faceBores.7	REQUIRED_HARDWARE	y	0.36	negative	3.5	S17-end--1--80-bolt	Coaxial hardware S17-end--1--80-bolt; PDF assembly operation retained
+C9	baseline	faceBores.8	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S17-end--1--80-dowel	Coaxial hardware S17-end--1--80-dowel; PDF assembly operation retained
+C9	baseline	faceBores.9	REQUIRED_CAM_DOWEL	z	0.8	positive	1.4	S17-end--1-80-cam	Coaxial hardware S17-end--1-80-cam; PDF assembly operation retained
+C9	baseline	faceBores.10	REQUIRED_HARDWARE	y	0.36	negative	3.5	S17-end--1-80-bolt	Coaxial hardware S17-end--1-80-bolt; PDF assembly operation retained
+C9	baseline	faceBores.11	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S17-end--1-80-dowel	Coaxial hardware S17-end--1-80-dowel; PDF assembly operation retained
+C9	baseline	faceBores.12	REQUIRED_HARDWARE	z	0.22	positive	1.3	S18-H20-4-H14-v1	Coaxial hardware S18-H20-4-H14-v1; PDF assembly operation retained
+C9	baseline	faceBores.13	REQUIRED_HARDWARE	z	0.22	positive	1.3	S18-H20-4-H14-v0	Coaxial hardware S18-H20-4-H14-v0; PDF assembly operation retained
+C9	baseline	faceBores.14	REQUIRED_HARDWARE	z	0.22	positive	1.3	S18-H20-5-H14-v1	Coaxial hardware S18-H20-5-H14-v1; PDF assembly operation retained
+C9	baseline	faceBores.15	REQUIRED_HARDWARE	z	0.22	positive	1.3	S18-H20-5-H14-v0	Coaxial hardware S18-H20-5-H14-v0; PDF assembly operation retained
+D1	baseline	faceBores.0	REQUIRED_HARDWARE	z	0.36	both		S16--1--1-bolt	Coaxial hardware S16--1--1-bolt; PDF assembly operation retained
+D1	baseline	faceBores.1	REQUIRED_CAM_DOWEL	z	0.42	both		S16--1--1-dowel-0	Coaxial hardware S16--1--1-dowel-0; PDF assembly operation retained
+D1	baseline	faceBores.2	REQUIRED_CAM_DOWEL	z	0.42	both		S16--1--1-dowel-1	Coaxial hardware S16--1--1-dowel-1; PDF assembly operation retained
+D1	baseline	faceBores.3	REQUIRED_HARDWARE	z	0.36	both		S16-1--1-bolt	Coaxial hardware S16-1--1-bolt; PDF assembly operation retained
+D1	baseline	faceBores.4	REQUIRED_CAM_DOWEL	z	0.42	both		S16-1--1-dowel-0	Coaxial hardware S16-1--1-dowel-0; PDF assembly operation retained
+D1	baseline	faceBores.5	REQUIRED_CAM_DOWEL	z	0.42	both		S16-1--1-dowel-1	Coaxial hardware S16-1--1-dowel-1; PDF assembly operation retained
+D1	baseline	faceBores.6	REQUIRED_CAM_DOWEL	z	0.8	negative	1.4	S17-end--1--80-cam	Coaxial hardware S17-end--1--80-cam; PDF assembly operation retained
+D1	baseline	faceBores.7	REQUIRED_HARDWARE	y	0.36	negative	3.5	S17-end-1--80-bolt	Coaxial hardware S17-end-1--80-bolt; PDF assembly operation retained
+D1	baseline	faceBores.8	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S17-end-1--80-dowel	Coaxial hardware S17-end-1--80-dowel; PDF assembly operation retained
+D1	baseline	faceBores.9	REQUIRED_CAM_DOWEL	z	0.8	negative	1.4	S17-end--1-80-cam	Coaxial hardware S17-end--1-80-cam; PDF assembly operation retained
+D1	baseline	faceBores.10	REQUIRED_HARDWARE	y	0.36	negative	3.5	S17-end-1-80-bolt	Coaxial hardware S17-end-1-80-bolt; PDF assembly operation retained
+D1	baseline	faceBores.11	REQUIRED_CAM_DOWEL	y	0.42	negative	1.5	S17-end-1-80-dowel	Coaxial hardware S17-end-1-80-dowel; PDF assembly operation retained
+D1	baseline	faceBores.12	REQUIRED_HARDWARE	z	0.22	negative	1.3	S18-H20-4-H14-v0	Coaxial hardware S18-H20-4-H14-v0; PDF assembly operation retained
+D1	baseline	faceBores.13	REQUIRED_HARDWARE	z	0.22	negative	1.3	S18-H20-4-H14-v1	Coaxial hardware S18-H20-4-H14-v1; PDF assembly operation retained
+D1	baseline	faceBores.14	REQUIRED_HARDWARE	z	0.22	negative	1.3	S18-H20-5-H14-v0	Coaxial hardware S18-H20-5-H14-v0; PDF assembly operation retained
+D1	baseline	faceBores.15	REQUIRED_HARDWARE	z	0.22	negative	1.3	S18-H20-5-H14-v1	Coaxial hardware S18-H20-5-H14-v1; PDF assembly operation retained
+S16--1--1-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S16--1--1-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S16--1-1-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S16--1-1-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S16-1--1-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S16-1--1-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S16-1-1-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S16-1-1-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S17-side--1--55-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S17-side--1--55-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S17-side--1-55-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S17-side--1-55-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S17-side-1--55-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S17-side-1--55-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S17-side-1-55-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S17-side-1-55-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S17-end--1--80-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S17-end--1--80-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S17-end--1-80-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S17-end--1-80-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S17-end-1--80-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S17-end-1--80-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S17-end-1-80-cam	baseline	driver-slot	ASSEMBLY_ACCESS	y	0.75	positive			Required cam/bolt driver access; not an empty timber opening
+S17-end-1-80-bolt	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S18-H20-0	baseline.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.24	both		S18-H20-0-H14-v0	Coaxial hardware S18-H20-0-H14-v0; PDF assembly operation retained
+S18-H20-0	baseline.pieces.0	holes.1	REQUIRED_HARDWARE	x	0.24	both		S18-H20-0-H14-v1	Coaxial hardware S18-H20-0-H14-v1; PDF assembly operation retained
+S18-H20-0	baseline.pieces.1	holes.0	REQUIRED_HARDWARE	y	0.24	both		S18-H20-0-H14-h1	Coaxial hardware S18-H20-0-H14-h1; PDF assembly operation retained
+S18-H20-0	baseline.pieces.1	holes.1	REQUIRED_HARDWARE	y	0.24	both		S18-H20-0-H14-h0	Coaxial hardware S18-H20-0-H14-h0; PDF assembly operation retained
+S18-H20-1	baseline.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.24	both		S18-H20-1-H14-v0	Coaxial hardware S18-H20-1-H14-v0; PDF assembly operation retained
+S18-H20-1	baseline.pieces.0	holes.1	REQUIRED_HARDWARE	x	0.24	both		S18-H20-1-H14-v1	Coaxial hardware S18-H20-1-H14-v1; PDF assembly operation retained
+S18-H20-1	baseline.pieces.1	holes.0	REQUIRED_HARDWARE	y	0.24	both		S18-H20-1-H14-h1	Coaxial hardware S18-H20-1-H14-h1; PDF assembly operation retained
+S18-H20-1	baseline.pieces.1	holes.1	REQUIRED_HARDWARE	y	0.24	both		S18-H20-1-H14-h0	Coaxial hardware S18-H20-1-H14-h0; PDF assembly operation retained
+S18-H20-2	baseline.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.24	both		S18-H20-2-H14-v0	Coaxial hardware S18-H20-2-H14-v0; PDF assembly operation retained
+S18-H20-2	baseline.pieces.0	holes.1	REQUIRED_HARDWARE	x	0.24	both		S18-H20-2-H14-v1	Coaxial hardware S18-H20-2-H14-v1; PDF assembly operation retained
+S18-H20-2	baseline.pieces.1	holes.0	REQUIRED_HARDWARE	y	0.24	both		S18-H20-2-H14-h1	Coaxial hardware S18-H20-2-H14-h1; PDF assembly operation retained
+S18-H20-2	baseline.pieces.1	holes.1	REQUIRED_HARDWARE	y	0.24	both		S18-H20-2-H14-h0	Coaxial hardware S18-H20-2-H14-h0; PDF assembly operation retained
+S18-H20-3	baseline.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.24	both		S18-H20-3-H14-v0	Coaxial hardware S18-H20-3-H14-v0; PDF assembly operation retained
+S18-H20-3	baseline.pieces.0	holes.1	REQUIRED_HARDWARE	x	0.24	both		S18-H20-3-H14-v1	Coaxial hardware S18-H20-3-H14-v1; PDF assembly operation retained
+S18-H20-3	baseline.pieces.1	holes.0	REQUIRED_HARDWARE	y	0.24	both		S18-H20-3-H14-h1	Coaxial hardware S18-H20-3-H14-h1; PDF assembly operation retained
+S18-H20-3	baseline.pieces.1	holes.1	REQUIRED_HARDWARE	y	0.24	both		S18-H20-3-H14-h0	Coaxial hardware S18-H20-3-H14-h0; PDF assembly operation retained
+S18-H20-4	baseline.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.24	both		S18-H20-4-H14-v0	Coaxial hardware S18-H20-4-H14-v0; PDF assembly operation retained
+S18-H20-4	baseline.pieces.0	holes.1	REQUIRED_HARDWARE	x	0.24	both		S18-H20-4-H14-v1	Coaxial hardware S18-H20-4-H14-v1; PDF assembly operation retained
+S18-H20-4	baseline.pieces.1	holes.0	REQUIRED_HARDWARE	y	0.24	both		S18-H20-4-H14-h1	Coaxial hardware S18-H20-4-H14-h1; PDF assembly operation retained
+S18-H20-4	baseline.pieces.1	holes.1	REQUIRED_HARDWARE	y	0.24	both		S18-H20-4-H14-h0	Coaxial hardware S18-H20-4-H14-h0; PDF assembly operation retained
+S18-H20-5	baseline.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.24	both		S18-H20-5-H14-v0	Coaxial hardware S18-H20-5-H14-v0; PDF assembly operation retained
+S18-H20-5	baseline.pieces.0	holes.1	REQUIRED_HARDWARE	x	0.24	both		S18-H20-5-H14-v1	Coaxial hardware S18-H20-5-H14-v1; PDF assembly operation retained
+S18-H20-5	baseline.pieces.1	holes.0	REQUIRED_HARDWARE	y	0.24	both		S18-H20-5-H14-h1	Coaxial hardware S18-H20-5-H14-h1; PDF assembly operation retained
+S18-H20-5	baseline.pieces.1	holes.1	REQUIRED_HARDWARE	y	0.24	both		S18-H20-5-H14-h0	Coaxial hardware S18-H20-5-H14-h0; PDF assembly operation retained
+S19-H20-0	baseline.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.24	both		S19-H20-0-H14-v0	Coaxial hardware S19-H20-0-H14-v0; PDF assembly operation retained
+S19-H20-0	baseline.pieces.0	holes.1	REQUIRED_HARDWARE	x	0.24	both		S19-H20-0-H14-v1	Coaxial hardware S19-H20-0-H14-v1; PDF assembly operation retained
+S19-H20-0	baseline.pieces.1	holes.0	REQUIRED_HARDWARE	y	0.24	both		S19-H20-0-H14-h1	Coaxial hardware S19-H20-0-H14-h1; PDF assembly operation retained
+S19-H20-0	baseline.pieces.1	holes.1	REQUIRED_HARDWARE	y	0.24	both		S19-H20-0-H14-h0	Coaxial hardware S19-H20-0-H14-h0; PDF assembly operation retained
+S19-H20-1	baseline.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.24	both		S19-H20-1-H14-v0	Coaxial hardware S19-H20-1-H14-v0; PDF assembly operation retained
+S19-H20-1	baseline.pieces.0	holes.1	REQUIRED_HARDWARE	x	0.24	both		S19-H20-1-H14-v1	Coaxial hardware S19-H20-1-H14-v1; PDF assembly operation retained
+S19-H20-1	baseline.pieces.1	holes.0	REQUIRED_HARDWARE	y	0.24	both		S19-H20-1-H14-h1	Coaxial hardware S19-H20-1-H14-h1; PDF assembly operation retained
+S19-H20-1	baseline.pieces.1	holes.1	REQUIRED_HARDWARE	y	0.24	both		S19-H20-1-H14-h0	Coaxial hardware S19-H20-1-H14-h0; PDF assembly operation retained
+S19-H20-2	baseline.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.24	both		S19-H20-2-H14-v0	Coaxial hardware S19-H20-2-H14-v0; PDF assembly operation retained
+S19-H20-2	baseline.pieces.0	holes.1	REQUIRED_HARDWARE	x	0.24	both		S18-H20-2-H14-v0	Coaxial hardware S18-H20-2-H14-v0; PDF assembly operation retained
+S19-H20-2	baseline.pieces.1	holes.0	REQUIRED_HARDWARE	y	0.24	both		S19-H20-2-H14-h1	Coaxial hardware S19-H20-2-H14-h1; PDF assembly operation retained
+S19-H20-2	baseline.pieces.1	holes.1	REQUIRED_HARDWARE	y	0.24	both		S19-H20-2-H14-h0	Coaxial hardware S19-H20-2-H14-h0; PDF assembly operation retained
+S19-H20-3	baseline.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.24	both		S19-H20-3-H14-v0	Coaxial hardware S19-H20-3-H14-v0; PDF assembly operation retained
+S19-H20-3	baseline.pieces.0	holes.1	REQUIRED_HARDWARE	x	0.24	both		S18-H20-3-H14-v0	Coaxial hardware S18-H20-3-H14-v0; PDF assembly operation retained
+S19-H20-3	baseline.pieces.1	holes.0	REQUIRED_HARDWARE	y	0.24	both		S19-H20-3-H14-h1	Coaxial hardware S19-H20-3-H14-h1; PDF assembly operation retained
+S19-H20-3	baseline.pieces.1	holes.1	REQUIRED_HARDWARE	y	0.24	both		S19-H20-3-H14-h0	Coaxial hardware S19-H20-3-H14-h0; PDF assembly operation retained
+S19-H20-4	baseline.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.24	both		S19-H20-4-H14-v0	Coaxial hardware S19-H20-4-H14-v0; PDF assembly operation retained
+S19-H20-4	baseline.pieces.0	holes.1	REQUIRED_HARDWARE	x	0.24	both		S19-H20-4-H14-v1	Coaxial hardware S19-H20-4-H14-v1; PDF assembly operation retained
+S19-H20-4	baseline.pieces.1	holes.0	REQUIRED_HARDWARE	y	0.24	both		S19-H20-4-H14-h1	Coaxial hardware S19-H20-4-H14-h1; PDF assembly operation retained
+S19-H20-4	baseline.pieces.1	holes.1	REQUIRED_HARDWARE	y	0.24	both		S19-H20-4-H14-h0	Coaxial hardware S19-H20-4-H14-h0; PDF assembly operation retained
+S19-H20-5	baseline.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.24	both		S19-H20-5-H14-v0	Coaxial hardware S19-H20-5-H14-v0; PDF assembly operation retained
+S19-H20-5	baseline.pieces.0	holes.1	REQUIRED_HARDWARE	x	0.24	both		S19-H20-5-H14-v1	Coaxial hardware S19-H20-5-H14-v1; PDF assembly operation retained
+S19-H20-5	baseline.pieces.1	holes.0	REQUIRED_HARDWARE	y	0.24	both		S19-H20-5-H14-h1	Coaxial hardware S19-H20-5-H14-h1; PDF assembly operation retained
+S19-H20-5	baseline.pieces.1	holes.1	REQUIRED_HARDWARE	y	0.24	both		S19-H20-5-H14-h0	Coaxial hardware S19-H20-5-H14-h0; PDF assembly operation retained
+E1--1	baseline.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.23	both		S21-H21-0	Coaxial hardware S21-H21-0; PDF assembly operation retained
+E1--1	baseline.pieces.0	holes.1	REQUIRED_HARDWARE	x	0.23	both		S21-H21-1	Coaxial hardware S21-H21-1; PDF assembly operation retained
+E1--1	baseline.pieces.0	holes.2	REQUIRED_HARDWARE	x	0.23	both		S21-H21-2	Coaxial hardware S21-H21-2; PDF assembly operation retained
+E1--1	baseline.pieces.0	holes.3	REQUIRED_HARDWARE	x	0.23	both		S21-H21-3	Coaxial hardware S21-H21-3; PDF assembly operation retained
+E1--1	baseline.pieces.0	holes.4	REQUIRED_HARDWARE	x	0.23	both		S21-H21-4	Coaxial hardware S21-H21-4; PDF assembly operation retained
+E1--1	baseline.pieces.0	holes.5	REQUIRED_HARDWARE	x	0.23	both		S21-H21-5	Coaxial hardware S21-H21-5; PDF assembly operation retained
+E1--1	baseline.pieces.0	holes.6	REQUIRED_HARDWARE	x	0.23	both		S21-H21-6	Coaxial hardware S21-H21-6; PDF assembly operation retained
+E1--1	baseline.pieces.0	holes.7	REQUIRED_HARDWARE	x	0.23	both		S21-H21-7	Coaxial hardware S21-H21-7; PDF assembly operation retained
+E1--1	baseline.pieces.1	holes.0	REQUIRED_HARDWARE	x	0.5	both		S25-H18--1	Coaxial hardware S25-H18--1; PDF assembly operation retained
+S23-H19	baseline.pieces.0	holes.0	REQUIRED_BEARING	x	1.55	both		S25-H18--1	Coaxial hardware S25-H18--1; PDF assembly operation retained
+S23-H19	baseline.pieces.1	holes.0	REQUIRED_BEARING	x	0.66	both		S25-H18--1	Coaxial hardware S25-H18--1; PDF assembly operation retained
+S23-H19	baseline.pieces.2	holes.0	REQUIRED_BEARING	x	1.02	both		S25-H18--1	Coaxial hardware S25-H18--1; PDF assembly operation retained
+E2--1-eyeA	baseline	holes.0	REQUIRED_PISTON	x	0.35	both		E2--1-eyeA	Coaxial hardware E2--1-eyeA; PDF assembly operation retained
+E2--1-eyeB	baseline	holes.0	REQUIRED_PISTON	x	0.35	both		E2--1-eyeB	Coaxial hardware E2--1-eyeB; PDF assembly operation retained
+S23-H17	baseline	holes.0	REQUIRED_HARDWARE	x	0.35	both		E2--1-eyeA	Coaxial hardware E2--1-eyeA; PDF assembly operation retained
+S25-H18--1	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.42333333333333334	positive			Required cam/bolt driver access; not an empty timber opening
+S26-H17	baseline	holes.0	REQUIRED_HARDWARE	x	0.35	both		S26-H17	Coaxial hardware S26-H17; PDF assembly operation retained
+E1-1	baseline.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.23	both		S21-H21-0	Coaxial hardware S21-H21-0; PDF assembly operation retained
+E1-1	baseline.pieces.0	holes.1	REQUIRED_HARDWARE	x	0.23	both		S21-H21-1	Coaxial hardware S21-H21-1; PDF assembly operation retained
+E1-1	baseline.pieces.0	holes.2	REQUIRED_HARDWARE	x	0.23	both		S21-H21-2	Coaxial hardware S21-H21-2; PDF assembly operation retained
+E1-1	baseline.pieces.0	holes.3	REQUIRED_HARDWARE	x	0.23	both		S21-H21-3	Coaxial hardware S21-H21-3; PDF assembly operation retained
+E1-1	baseline.pieces.0	holes.4	REQUIRED_HARDWARE	x	0.23	both		S21-H21-4	Coaxial hardware S21-H21-4; PDF assembly operation retained
+E1-1	baseline.pieces.0	holes.5	REQUIRED_HARDWARE	x	0.23	both		S21-H21-5	Coaxial hardware S21-H21-5; PDF assembly operation retained
+E1-1	baseline.pieces.0	holes.6	REQUIRED_HARDWARE	x	0.23	both		S21-H21-6	Coaxial hardware S21-H21-6; PDF assembly operation retained
+E1-1	baseline.pieces.0	holes.7	REQUIRED_HARDWARE	x	0.23	both		S21-H21-7	Coaxial hardware S21-H21-7; PDF assembly operation retained
+E1-1	baseline.pieces.1	holes.0	REQUIRED_HARDWARE	x	0.5	both		S25-H18--1	Coaxial hardware S25-H18--1; PDF assembly operation retained
+S24-H19	baseline.pieces.0	holes.0	REQUIRED_BEARING	x	1.55	both		S25-H18--1	Coaxial hardware S25-H18--1; PDF assembly operation retained
+S24-H19	baseline.pieces.1	holes.0	REQUIRED_BEARING	x	0.66	both		S25-H18--1	Coaxial hardware S25-H18--1; PDF assembly operation retained
+S24-H19	baseline.pieces.2	holes.0	REQUIRED_BEARING	x	1.02	both		S25-H18--1	Coaxial hardware S25-H18--1; PDF assembly operation retained
+E2-1-eyeA	baseline	holes.0	REQUIRED_PISTON	x	0.35	both		E2-1-eyeA	Coaxial hardware E2-1-eyeA; PDF assembly operation retained
+E2-1-eyeB	baseline	holes.0	REQUIRED_PISTON	x	0.35	both		E2-1-eyeB	Coaxial hardware E2-1-eyeB; PDF assembly operation retained
+S24-H17	baseline	holes.0	REQUIRED_HARDWARE	x	0.35	both		E2--1-eyeA	Coaxial hardware E2--1-eyeA; PDF assembly operation retained
+S25-H18-1	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.42333333333333334	positive			Required cam/bolt driver access; not an empty timber opening
+S27-H17	baseline	holes.0	REQUIRED_HARDWARE	x	0.35	both		S26-H17	Coaxial hardware S26-H17; PDF assembly operation retained
+D3--1	baseline.pieces.0	faceBores.0	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D7-H7-0	Coaxial hardware S28--1-D7-H7-0; PDF assembly operation retained
+D3--1	baseline.pieces.0	faceBores.1	REQUIRED_HARDWARE	x	0.57	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+D3--1	baseline.pieces.0	faceBores.2	REQUIRED_HARDWARE	x	0.38	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+D3--1	baseline.pieces.0	faceBores.3	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D7-H7-1	Coaxial hardware S28--1-D7-H7-1; PDF assembly operation retained
+D3--1	baseline.pieces.0	faceBores.4	REQUIRED_HARDWARE	x	0.57	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+D3--1	baseline.pieces.0	faceBores.5	REQUIRED_HARDWARE	x	0.38	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+D3--1	baseline.pieces.0	faceBores.6	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D6-H7-0	Coaxial hardware S28--1-D6-H7-0; PDF assembly operation retained
+D3--1	baseline.pieces.0	faceBores.7	REQUIRED_HARDWARE	x	0.57	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+D3--1	baseline.pieces.0	faceBores.8	REQUIRED_HARDWARE	x	0.38	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+D3--1	baseline.pieces.0	faceBores.9	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D6-H7-1	Coaxial hardware S28--1-D6-H7-1; PDF assembly operation retained
+D3--1	baseline.pieces.0	faceBores.10	REQUIRED_HARDWARE	x	0.57	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+D3--1	baseline.pieces.0	faceBores.11	REQUIRED_HARDWARE	x	0.38	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+D3--1	baseline.pieces.1	faceBores.0	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D7-H7-0	Coaxial hardware S28--1-D7-H7-0; PDF assembly operation retained
+D3--1	baseline.pieces.1	faceBores.1	REQUIRED_HARDWARE	x	0.57	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+D3--1	baseline.pieces.1	faceBores.2	REQUIRED_HARDWARE	x	0.38	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+D3--1	baseline.pieces.1	faceBores.3	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D7-H7-1	Coaxial hardware S28--1-D7-H7-1; PDF assembly operation retained
+D3--1	baseline.pieces.1	faceBores.4	REQUIRED_HARDWARE	x	0.57	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+D3--1	baseline.pieces.1	faceBores.5	REQUIRED_HARDWARE	x	0.38	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+D3--1	baseline.pieces.1	faceBores.6	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D6-H7-0	Coaxial hardware S28--1-D6-H7-0; PDF assembly operation retained
+D3--1	baseline.pieces.1	faceBores.7	REQUIRED_HARDWARE	x	0.57	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+D3--1	baseline.pieces.1	faceBores.8	REQUIRED_HARDWARE	x	0.38	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+D3--1	baseline.pieces.1	faceBores.9	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D6-H7-1	Coaxial hardware S28--1-D6-H7-1; PDF assembly operation retained
+D3--1	baseline.pieces.1	faceBores.10	REQUIRED_HARDWARE	x	0.57	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+D3--1	baseline.pieces.1	faceBores.11	REQUIRED_HARDWARE	x	0.38	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+D3--1	baseline.pieces.2	faceBores.0	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D7-H7-0	Coaxial hardware S28--1-D7-H7-0; PDF assembly operation retained
+D3--1	baseline.pieces.2	faceBores.1	REQUIRED_HARDWARE	x	0.57	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+D3--1	baseline.pieces.2	faceBores.2	REQUIRED_HARDWARE	x	0.38	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+D3--1	baseline.pieces.2	faceBores.3	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D7-H7-1	Coaxial hardware S28--1-D7-H7-1; PDF assembly operation retained
+D3--1	baseline.pieces.2	faceBores.4	REQUIRED_HARDWARE	x	0.57	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+D3--1	baseline.pieces.2	faceBores.5	REQUIRED_HARDWARE	x	0.38	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+D3--1	baseline.pieces.2	faceBores.6	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D6-H7-0	Coaxial hardware S28--1-D6-H7-0; PDF assembly operation retained
+D3--1	baseline.pieces.2	faceBores.7	REQUIRED_HARDWARE	x	0.57	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+D3--1	baseline.pieces.2	faceBores.8	REQUIRED_HARDWARE	x	0.38	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+D3--1	baseline.pieces.2	faceBores.9	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D6-H7-1	Coaxial hardware S28--1-D6-H7-1; PDF assembly operation retained
+D3--1	baseline.pieces.2	faceBores.10	REQUIRED_HARDWARE	x	0.57	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+D3--1	baseline.pieces.2	faceBores.11	REQUIRED_HARDWARE	x	0.38	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+D7--1	baseline.pieces.0	holes.0	REQUIRED_PIVOT	x	0.38	both		S29--1-H10	Coaxial hardware S29--1-H10; PDF assembly operation retained
+D7--1	baseline.pieces.0	faceBores.0	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D7-H7-0	Coaxial hardware S28--1-D7-H7-0; PDF assembly operation retained
+D7--1	baseline.pieces.0	faceBores.1	REQUIRED_HARDWARE	x	0.57	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+D7--1	baseline.pieces.0	faceBores.2	REQUIRED_HARDWARE	x	0.38	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+D7--1	baseline.pieces.0	faceBores.3	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D7-H7-1	Coaxial hardware S28--1-D7-H7-1; PDF assembly operation retained
+D7--1	baseline.pieces.0	faceBores.4	REQUIRED_HARDWARE	x	0.57	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+D7--1	baseline.pieces.0	faceBores.5	REQUIRED_HARDWARE	x	0.38	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+D7--1	baseline.pieces.0	faceBores.6	REQUIRED_PIVOT	x	0.7	negative	0.8	S29--1-H10	Coaxial hardware S29--1-H10; PDF assembly operation retained
+D7--1	baseline.pieces.1	holes.0	REQUIRED_PIVOT	x	0.38	both		S29--1-H10	Coaxial hardware S29--1-H10; PDF assembly operation retained
+D7--1	baseline.pieces.1	faceBores.0	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D7-H7-0	Coaxial hardware S28--1-D7-H7-0; PDF assembly operation retained
+D7--1	baseline.pieces.1	faceBores.1	REQUIRED_HARDWARE	x	0.57	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+D7--1	baseline.pieces.1	faceBores.2	REQUIRED_HARDWARE	x	0.38	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+D7--1	baseline.pieces.1	faceBores.3	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D7-H7-1	Coaxial hardware S28--1-D7-H7-1; PDF assembly operation retained
+D7--1	baseline.pieces.1	faceBores.4	REQUIRED_HARDWARE	x	0.57	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+D7--1	baseline.pieces.1	faceBores.5	REQUIRED_HARDWARE	x	0.38	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+S28--1-D7-H9-0	baseline.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.37	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+S28--1-D7-H9-0	baseline.pieces.1	holes.0	REQUIRED_HARDWARE	x	0.37	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+S28--1-D7-H1-0	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S28--1-D7-H9-1	baseline.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.37	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+S28--1-D7-H9-1	baseline.pieces.1	holes.0	REQUIRED_HARDWARE	x	0.37	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+S28--1-D7-H1-1	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+D6--1	baseline.pieces.0	faceBores.0	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D6-H7-0	Coaxial hardware S28--1-D6-H7-0; PDF assembly operation retained
+D6--1	baseline.pieces.0	faceBores.1	REQUIRED_HARDWARE	x	0.57	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+D6--1	baseline.pieces.0	faceBores.2	REQUIRED_HARDWARE	x	0.38	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+D6--1	baseline.pieces.0	faceBores.3	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D6-H7-1	Coaxial hardware S28--1-D6-H7-1; PDF assembly operation retained
+D6--1	baseline.pieces.0	faceBores.4	REQUIRED_HARDWARE	x	0.57	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+D6--1	baseline.pieces.0	faceBores.5	REQUIRED_HARDWARE	x	0.38	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+D6--1	baseline.pieces.1	faceBores.0	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D6-H7-0	Coaxial hardware S28--1-D6-H7-0; PDF assembly operation retained
+D6--1	baseline.pieces.1	faceBores.1	REQUIRED_HARDWARE	x	0.57	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+D6--1	baseline.pieces.1	faceBores.2	REQUIRED_HARDWARE	x	0.38	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+D6--1	baseline.pieces.1	faceBores.3	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D6-H7-1	Coaxial hardware S28--1-D6-H7-1; PDF assembly operation retained
+D6--1	baseline.pieces.1	faceBores.4	REQUIRED_HARDWARE	x	0.57	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+D6--1	baseline.pieces.1	faceBores.5	REQUIRED_HARDWARE	x	0.38	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+S28--1-D6-H9-0	baseline.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.37	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+S28--1-D6-H9-0	baseline.pieces.1	holes.0	REQUIRED_HARDWARE	x	0.37	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+S28--1-D6-H1-0	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S28--1-D6-H9-1	baseline.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.37	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+S28--1-D6-H9-1	baseline.pieces.1	holes.0	REQUIRED_HARDWARE	x	0.37	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+S28--1-D6-H1-1	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S29--1-H10	baseline	holes.0	REQUIRED_PIVOT	x	0.37	both		S29--1-H10	Coaxial hardware S29--1-H10; PDF assembly operation retained
+S29--1-H9	baseline.pieces.0	holes.0	REQUIRED_PIVOT	x	0.37	both		S29--1-H10	Coaxial hardware S29--1-H10; PDF assembly operation retained
+S29--1-H9	baseline.pieces.1	holes.0	REQUIRED_PIVOT	x	0.37	both		S29--1-H10	Coaxial hardware S29--1-H10; PDF assembly operation retained
+S29--1-H2	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+D3-1	baseline.pieces.0	faceBores.0	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D7-H7-0	Coaxial hardware S28--1-D7-H7-0; PDF assembly operation retained
+D3-1	baseline.pieces.0	faceBores.1	REQUIRED_HARDWARE	x	0.57	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+D3-1	baseline.pieces.0	faceBores.2	REQUIRED_HARDWARE	x	0.38	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+D3-1	baseline.pieces.0	faceBores.3	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D7-H7-1	Coaxial hardware S28--1-D7-H7-1; PDF assembly operation retained
+D3-1	baseline.pieces.0	faceBores.4	REQUIRED_HARDWARE	x	0.57	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+D3-1	baseline.pieces.0	faceBores.5	REQUIRED_HARDWARE	x	0.38	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+D3-1	baseline.pieces.0	faceBores.6	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D6-H7-0	Coaxial hardware S28--1-D6-H7-0; PDF assembly operation retained
+D3-1	baseline.pieces.0	faceBores.7	REQUIRED_HARDWARE	x	0.57	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+D3-1	baseline.pieces.0	faceBores.8	REQUIRED_HARDWARE	x	0.38	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+D3-1	baseline.pieces.0	faceBores.9	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D6-H7-1	Coaxial hardware S28--1-D6-H7-1; PDF assembly operation retained
+D3-1	baseline.pieces.0	faceBores.10	REQUIRED_HARDWARE	x	0.57	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+D3-1	baseline.pieces.0	faceBores.11	REQUIRED_HARDWARE	x	0.38	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+D3-1	baseline.pieces.1	faceBores.0	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D7-H7-0	Coaxial hardware S28--1-D7-H7-0; PDF assembly operation retained
+D3-1	baseline.pieces.1	faceBores.1	REQUIRED_HARDWARE	x	0.57	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+D3-1	baseline.pieces.1	faceBores.2	REQUIRED_HARDWARE	x	0.38	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+D3-1	baseline.pieces.1	faceBores.3	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D7-H7-1	Coaxial hardware S28--1-D7-H7-1; PDF assembly operation retained
+D3-1	baseline.pieces.1	faceBores.4	REQUIRED_HARDWARE	x	0.57	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+D3-1	baseline.pieces.1	faceBores.5	REQUIRED_HARDWARE	x	0.38	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+D3-1	baseline.pieces.1	faceBores.6	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D6-H7-0	Coaxial hardware S28--1-D6-H7-0; PDF assembly operation retained
+D3-1	baseline.pieces.1	faceBores.7	REQUIRED_HARDWARE	x	0.57	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+D3-1	baseline.pieces.1	faceBores.8	REQUIRED_HARDWARE	x	0.38	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+D3-1	baseline.pieces.1	faceBores.9	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D6-H7-1	Coaxial hardware S28--1-D6-H7-1; PDF assembly operation retained
+D3-1	baseline.pieces.1	faceBores.10	REQUIRED_HARDWARE	x	0.57	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+D3-1	baseline.pieces.1	faceBores.11	REQUIRED_HARDWARE	x	0.38	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+D3-1	baseline.pieces.2	faceBores.0	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D7-H7-0	Coaxial hardware S28--1-D7-H7-0; PDF assembly operation retained
+D3-1	baseline.pieces.2	faceBores.1	REQUIRED_HARDWARE	x	0.57	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+D3-1	baseline.pieces.2	faceBores.2	REQUIRED_HARDWARE	x	0.38	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+D3-1	baseline.pieces.2	faceBores.3	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D7-H7-1	Coaxial hardware S28--1-D7-H7-1; PDF assembly operation retained
+D3-1	baseline.pieces.2	faceBores.4	REQUIRED_HARDWARE	x	0.57	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+D3-1	baseline.pieces.2	faceBores.5	REQUIRED_HARDWARE	x	0.38	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+D3-1	baseline.pieces.2	faceBores.6	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D6-H7-0	Coaxial hardware S28--1-D6-H7-0; PDF assembly operation retained
+D3-1	baseline.pieces.2	faceBores.7	REQUIRED_HARDWARE	x	0.57	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+D3-1	baseline.pieces.2	faceBores.8	REQUIRED_HARDWARE	x	0.38	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+D3-1	baseline.pieces.2	faceBores.9	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D6-H7-1	Coaxial hardware S28--1-D6-H7-1; PDF assembly operation retained
+D3-1	baseline.pieces.2	faceBores.10	REQUIRED_HARDWARE	x	0.57	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+D3-1	baseline.pieces.2	faceBores.11	REQUIRED_HARDWARE	x	0.38	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+D7-1	baseline.pieces.0	holes.0	REQUIRED_PIVOT	x	0.38	both		S29--1-H10	Coaxial hardware S29--1-H10; PDF assembly operation retained
+D7-1	baseline.pieces.0	faceBores.0	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D7-H7-0	Coaxial hardware S28--1-D7-H7-0; PDF assembly operation retained
+D7-1	baseline.pieces.0	faceBores.1	REQUIRED_HARDWARE	x	0.57	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+D7-1	baseline.pieces.0	faceBores.2	REQUIRED_HARDWARE	x	0.38	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+D7-1	baseline.pieces.0	faceBores.3	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D7-H7-1	Coaxial hardware S28--1-D7-H7-1; PDF assembly operation retained
+D7-1	baseline.pieces.0	faceBores.4	REQUIRED_HARDWARE	x	0.57	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+D7-1	baseline.pieces.0	faceBores.5	REQUIRED_HARDWARE	x	0.38	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+D7-1	baseline.pieces.0	faceBores.6	REQUIRED_PIVOT	x	0.7	positive	0.8	S29--1-H10	Coaxial hardware S29--1-H10; PDF assembly operation retained
+D7-1	baseline.pieces.1	holes.0	REQUIRED_PIVOT	x	0.38	both		S29--1-H10	Coaxial hardware S29--1-H10; PDF assembly operation retained
+D7-1	baseline.pieces.1	faceBores.0	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D7-H7-0	Coaxial hardware S28--1-D7-H7-0; PDF assembly operation retained
+D7-1	baseline.pieces.1	faceBores.1	REQUIRED_HARDWARE	x	0.57	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+D7-1	baseline.pieces.1	faceBores.2	REQUIRED_HARDWARE	x	0.38	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+D7-1	baseline.pieces.1	faceBores.3	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D7-H7-1	Coaxial hardware S28--1-D7-H7-1; PDF assembly operation retained
+D7-1	baseline.pieces.1	faceBores.4	REQUIRED_HARDWARE	x	0.57	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+D7-1	baseline.pieces.1	faceBores.5	REQUIRED_HARDWARE	x	0.38	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+S28-1-D7-H9-0	baseline.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.37	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+S28-1-D7-H9-0	baseline.pieces.1	holes.0	REQUIRED_HARDWARE	x	0.37	both		S28--1-D7-H1-0	Coaxial hardware S28--1-D7-H1-0; PDF assembly operation retained
+S28-1-D7-H1-0	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S28-1-D7-H9-1	baseline.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.37	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+S28-1-D7-H9-1	baseline.pieces.1	holes.0	REQUIRED_HARDWARE	x	0.37	both		S28--1-D7-H1-1	Coaxial hardware S28--1-D7-H1-1; PDF assembly operation retained
+S28-1-D7-H1-1	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+D6-1	baseline.pieces.0	faceBores.0	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D6-H7-0	Coaxial hardware S28--1-D6-H7-0; PDF assembly operation retained
+D6-1	baseline.pieces.0	faceBores.1	REQUIRED_HARDWARE	x	0.57	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+D6-1	baseline.pieces.0	faceBores.2	REQUIRED_HARDWARE	x	0.38	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+D6-1	baseline.pieces.0	faceBores.3	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D6-H7-1	Coaxial hardware S28--1-D6-H7-1; PDF assembly operation retained
+D6-1	baseline.pieces.0	faceBores.4	REQUIRED_HARDWARE	x	0.57	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+D6-1	baseline.pieces.0	faceBores.5	REQUIRED_HARDWARE	x	0.38	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+D6-1	baseline.pieces.1	faceBores.0	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D6-H7-0	Coaxial hardware S28--1-D6-H7-0; PDF assembly operation retained
+D6-1	baseline.pieces.1	faceBores.1	REQUIRED_HARDWARE	x	0.57	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+D6-1	baseline.pieces.1	faceBores.2	REQUIRED_HARDWARE	x	0.38	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+D6-1	baseline.pieces.1	faceBores.3	REQUIRED_CAM_DOWEL	x	0.42	both		S28--1-D6-H7-1	Coaxial hardware S28--1-D6-H7-1; PDF assembly operation retained
+D6-1	baseline.pieces.1	faceBores.4	REQUIRED_HARDWARE	x	0.57	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+D6-1	baseline.pieces.1	faceBores.5	REQUIRED_HARDWARE	x	0.38	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+S28-1-D6-H9-0	baseline.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.37	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+S28-1-D6-H9-0	baseline.pieces.1	holes.0	REQUIRED_HARDWARE	x	0.37	both		S28--1-D6-H1-0	Coaxial hardware S28--1-D6-H1-0; PDF assembly operation retained
+S28-1-D6-H1-0	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S28-1-D6-H9-1	baseline.pieces.0	holes.0	REQUIRED_HARDWARE	x	0.37	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+S28-1-D6-H9-1	baseline.pieces.1	holes.0	REQUIRED_HARDWARE	x	0.37	both		S28--1-D6-H1-1	Coaxial hardware S28--1-D6-H1-1; PDF assembly operation retained
+S28-1-D6-H1-1	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S29-1-H10	baseline	holes.0	REQUIRED_PIVOT	x	0.37	both		S29--1-H10	Coaxial hardware S29--1-H10; PDF assembly operation retained
+S29-1-H9	baseline.pieces.0	holes.0	REQUIRED_PIVOT	x	0.37	both		S29--1-H10	Coaxial hardware S29--1-H10; PDF assembly operation retained
+S29-1-H9	baseline.pieces.1	holes.0	REQUIRED_PIVOT	x	0.37	both		S29--1-H10	Coaxial hardware S29--1-H10; PDF assembly operation retained
+S29-1-H2	baseline	hex-socket	ASSEMBLY_ACCESS	y	0.3175	positive			Required cam/bolt driver access; not an empty timber opening
+S30-H15-0	baseline.pieces.0	holes.0	REQUIRED_WALL_ANCHOR	x	0.22	both		S30-H15-0-H14-0	Coaxial hardware S30-H15-0-H14-0; PDF assembly operation retained
+S30-H15-0	baseline.pieces.0	holes.1	REQUIRED_WALL_ANCHOR	x	0.22	both		S30-H15-0-H14-1	Coaxial hardware S30-H15-0-H14-1; PDF assembly operation retained
+S30-H15-0	baseline.pieces.1	holes.0	REQUIRED_WALL_ANCHOR	z	0.22	both		S30-H15-0-H23	Coaxial hardware S30-H15-0-H23; PDF assembly operation retained
+S30-H15-1	baseline.pieces.0	holes.0	REQUIRED_WALL_ANCHOR	x	0.22	both		S30-H15-1-H14-0	Coaxial hardware S30-H15-1-H14-0; PDF assembly operation retained
+S30-H15-1	baseline.pieces.0	holes.1	REQUIRED_WALL_ANCHOR	x	0.22	both		S30-H15-1-H14-1	Coaxial hardware S30-H15-1-H14-1; PDF assembly operation retained
+S30-H15-1	baseline.pieces.1	holes.0	REQUIRED_WALL_ANCHOR	z	0.22	both		S30-H15-1-H23	Coaxial hardware S30-H15-1-H23; PDF assembly operation retained
+S31-H15-0	baseline.pieces.0	holes.0	REQUIRED_WALL_ANCHOR	x	0.22	both		S30-H15-0-H14-0	Coaxial hardware S30-H15-0-H14-0; PDF assembly operation retained
+S31-H15-0	baseline.pieces.0	holes.1	REQUIRED_WALL_ANCHOR	x	0.22	both		S30-H15-0-H14-1	Coaxial hardware S30-H15-0-H14-1; PDF assembly operation retained
+S31-H15-0	baseline.pieces.1	holes.0	REQUIRED_WALL_ANCHOR	z	0.22	both		S31-H15-0-H23	Coaxial hardware S31-H15-0-H23; PDF assembly operation retained
+S31-H15-1	baseline.pieces.0	holes.0	REQUIRED_WALL_ANCHOR	x	0.22	both		S30-H15-1-H14-0	Coaxial hardware S30-H15-1-H14-0; PDF assembly operation retained
+S31-H15-1	baseline.pieces.0	holes.1	REQUIRED_WALL_ANCHOR	x	0.22	both		S30-H15-1-H14-1	Coaxial hardware S30-H15-1-H14-1; PDF assembly operation retained
+S31-H15-1	baseline.pieces.1	holes.0	REQUIRED_WALL_ANCHOR	z	0.22	both		S31-H15-1-H23	Coaxial hardware S31-H15-1-H23; PDF assembly operation retained

@@ -1,0 +1,29 @@
+{
+  "productSHA256": "29ef4258730c3e3691c84223d98e240d9a25854d079402377f97489ace5f9fb5",
+  "mechanicalGatesPassed": true,
+  "holeAuditUnjustified": 0,
+  "fullTests": {
+    "passed": 196,
+    "files": 40
+  },
+  "finalUILabelTestsPassed": 5,
+  "typecheck": "PASS",
+  "lint": "PASS",
+  "productionBuild": "PASS",
+  "targetedClip": "wf311613-late-fit-hole-QA-720p.mp4",
+  "productionUIAndFileChecksPassed": true,
+  "networkClean": false,
+  "networkFailures": [
+    {
+      "url": "http://127.0.0.1:3020/api/export/e2209796-fe55-4162-ab4f-c08859a06651/download",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    }
+  ],
+  "fileValidationPassed": true,
+  "downloadSHA256": "a3eebfddcfc2708c7375d138f9c5051e61948f3efa7ada365d8cc84935b50acb",
+  "fullMasterRendered": false,
+  "audioAdded": false,
+  "report": "DIRECTOR-REVIEW-REPORT.md"
+}
