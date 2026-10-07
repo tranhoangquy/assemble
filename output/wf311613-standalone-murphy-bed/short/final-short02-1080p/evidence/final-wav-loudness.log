@@ -1,0 +1,29 @@
+Input #0, wav, from '/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/final-short02-1080p/WF311613-short02-FINAL-music-master.wav':
+  Metadata:
+    encoder         : Lavf62.12.102
+  Duration: 00:00:58.00, bitrate: 2304 kb/s
+  Stream #0:0: Audio: pcm_s24le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s32 (24 bit), 2304 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s24le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf62.12.102
+  Stream #0:0: Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s
+    Metadata:
+      encoder         : Lavc62.28.102 pcm_s16le
+size=N/A time=00:00:18.90 bitrate=N/A speed=37.4x elapsed=0:00:00.50    size=N/A time=00:00:38.80 bitrate=N/A speed=38.4x elapsed=0:00:01.00    [Parsed_loudnorm_0 @ 0x11ee14e00] 
+{
+	"input_i" : "-14.50",
+	"input_tp" : "-5.35",
+	"input_lra" : "1.30",
+	"input_thresh" : "-24.53",
+	"output_i" : "-14.76",
+	"output_tp" : "-5.82",
+	"output_lra" : "1.20",
+	"output_thresh" : "-24.77",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.26"
+}
+[out#0/null @ 0x11ee14c70] video:0KiB audio:43500KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:58.00 bitrate=N/A speed=39.6x elapsed=0:00:01.46    

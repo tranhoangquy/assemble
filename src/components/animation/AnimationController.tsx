@@ -7,6 +7,7 @@ import { CameraEngine } from '@/engine/camera/CameraEngine';
 import type { ObjectRegistry } from '@/engine/product/ObjectRegistry';
 import { ProductEngine } from '@/engine/product/ProductEngine';
 import { VideoEngine } from '@/engine/video/VideoEngine';
+import {EditorialVideoEngine} from '@/engine/video/EditorialVideoEngine';
 import {PrefixedVideoEngine} from '@/presentation/intro/PrefixedVideoEngine';
 import type { AssemblyDefinition } from '@/types/assembly';
 import type { ProductDefinition } from '@/types/product';
@@ -33,7 +34,7 @@ export function useVideoEngine(options: UseVideoEngineOptions) {
     const cameraEngine = new CameraEngine(options.cameraContext.camera, options.cameraContext.controls, options.video.cameraPresets);
     const firstCamera = options.video.scenes[0]?.camera;
     if (firstCamera) cameraEngine.apply(firstCamera);
-    const Engine=options.video.intro?PrefixedVideoEngine:VideoEngine;
+    const Engine=options.video.editorial?EditorialVideoEngine:options.video.intro?PrefixedVideoEngine:VideoEngine;
     const nextEngine = new Engine(options.registry, tree, options.assembly, options.video, cameraEngine, { onTime: setTime });
     nextEngine.seek(options.initialTime ?? 0);
     let active = true;

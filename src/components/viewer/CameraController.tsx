@@ -10,9 +10,10 @@ interface CameraControllerProps {
   onReady: (camera: THREE.PerspectiveCamera, controls: OrbitControlsImpl) => void;
   enabled?: boolean;
   instructional?: boolean;
+  maxDistance?: number;
 }
 
-export function CameraController({ onReady, enabled = true, instructional = false }: CameraControllerProps) {
+export function CameraController({ onReady, enabled = true, instructional = false, maxDistance = 850 }: CameraControllerProps) {
   const camera = useThree((state) => state.camera) as THREE.PerspectiveCamera;
   const setControls = useCallback((controls: OrbitControlsImpl | null) => {
     if (controls) onReady(camera, controls);
@@ -26,7 +27,7 @@ export function CameraController({ onReady, enabled = true, instructional = fals
       enableDamping={enabled && !instructional}
       dampingFactor={0.07}
       minDistance={instructional ? 2 : 180}
-      maxDistance={850}
+      maxDistance={maxDistance}
       maxPolarAngle={Math.PI * 0.49}
       minPolarAngle={0.15}
       panSpeed={0.45}

@@ -1,0 +1,1065 @@
+{
+  "status": "REQUIRES DIRECTOR REVIEW",
+  "duration": 58,
+  "fps": 30,
+  "frames": 1740,
+  "hookDuration": 2,
+  "bedCabinetHeroDuration": 10,
+  "mechanismHeroDuration": 8,
+  "finalHeroDuration": 6,
+  "shots": [
+    {
+      "id": "hook",
+      "duration": 2,
+      "sourceIn": 509.75369388888885,
+      "sourceOut": 511.75369388888885,
+      "camera": "vertical-hero",
+      "caption": "A Bed That Folds",
+      "purpose": "Recognizable finished-product opening in the first two seconds",
+      "active": "Completed bed/cabinet with anchored mechanism",
+      "validation": "Approved functional opening; source clock moves forward at original speed.",
+      "globalStart": 0,
+      "globalEnd": 2,
+      "cameraDefinition": {
+        "position": [
+          -280,
+          210,
+          -550
+        ],
+        "target": [
+          0,
+          110,
+          -38
+        ],
+        "fov": 48
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 509.75369388888885,
+        "description": "Completed anchored product at the start of approved opening"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 511.75369388888885,
+        "description": "Completed product partway through the approved opening"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "overview",
+      "duration": 3,
+      "sourceIn": 3.8,
+      "sourceOut": 3.8,
+      "camera": "vertical-overview",
+      "caption": "From Parts to Product",
+      "purpose": "Static major-group overview, explicitly an editorial presentation",
+      "active": "Approved grouped structural overview; tiny fasteners hidden",
+      "validation": "Hold the existing approved exploded presentation; no reverse assembly, props or hardware cloud.",
+      "globalStart": 2,
+      "globalEnd": 5,
+      "cameraDefinition": {
+        "position": [
+          -390,
+          270,
+          -590
+        ],
+        "target": [
+          0,
+          126,
+          -70
+        ],
+        "fov": 52
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 3.8,
+        "description": "Approved major-group exploded presentation"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 3.8,
+        "description": "Same static major-group overview"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "hold a valid evaluated state",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "cabinet-sides",
+      "duration": 3,
+      "sourceIn": 57.73548277777774,
+      "sourceOut": 61.69878277777774,
+      "camera": "vertical-cabinet",
+      "caption": "Build the Cabinet",
+      "purpose": "Join recognizable cabinet uprights",
+      "active": "Cabinet sides/lower frame",
+      "validation": "Original forward source trajectory; editorial cuts omit work, never replace attachment/pivot transforms.",
+      "globalStart": 5,
+      "globalEnd": 8,
+      "cameraDefinition": {
+        "position": [
+          -270,
+          220,
+          -520
+        ],
+        "target": [
+          0,
+          108,
+          -10
+        ],
+        "fov": 48
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 57.73548277777774,
+        "description": "Valid lower frame ready for upright seating"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 61.69878277777774,
+        "description": "Both cabinet uprights seated on the approved source route"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "cabinet-panels",
+      "duration": 2.5,
+      "sourceIn": 73.52369388888886,
+      "sourceOut": 78.27369388888886,
+      "camera": "vertical-cabinet",
+      "caption": "Build the Cabinet",
+      "purpose": "Major panel progression",
+      "active": "Lower cabinet panels",
+      "validation": "Original forward source trajectory; editorial cuts omit work, never replace attachment/pivot transforms.",
+      "globalStart": 8,
+      "globalEnd": 10.5,
+      "cameraDefinition": {
+        "position": [
+          -270,
+          220,
+          -520
+        ],
+        "target": [
+          0,
+          108,
+          -10
+        ],
+        "fov": 48
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 73.52369388888886,
+        "description": "Uprights installed; lower panels ready to seat"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 78.27369388888886,
+        "description": "Selected lower panels seated; later repetitions omitted by cut"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "cabinet-cap-lift",
+      "duration": 1.2,
+      "sourceIn": 136.45369388888875,
+      "sourceOut": 139.15369388888874,
+      "camera": "vertical-cabinet",
+      "caption": "Complete the Cabinet",
+      "purpose": "Supported top assembly approach",
+      "active": "Complete top cap",
+      "validation": "Original forward source trajectory; editorial cuts omit work, never replace attachment/pivot transforms.",
+      "globalStart": 10.5,
+      "globalEnd": 11.7,
+      "cameraDefinition": {
+        "position": [
+          -270,
+          220,
+          -520
+        ],
+        "target": [
+          0,
+          108,
+          -10
+        ],
+        "fov": 48
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 136.45369388888875,
+        "description": "Completed top cap staged on approved supports"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 139.15369388888874,
+        "description": "Cap above the uprights on the approved lift route"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "cabinet-cap-seat",
+      "duration": 1.3,
+      "sourceIn": 143.2836938888887,
+      "sourceOut": 145.6336938888887,
+      "camera": "vertical-cabinet",
+      "caption": "Complete the Cabinet",
+      "purpose": "Seat top on uprights",
+      "active": "Top cap/cabinet",
+      "validation": "Original forward source trajectory; editorial cuts omit work, never replace attachment/pivot transforms.",
+      "globalStart": 11.7,
+      "globalEnd": 13,
+      "cameraDefinition": {
+        "position": [
+          -270,
+          220,
+          -520
+        ],
+        "target": [
+          0,
+          108,
+          -10
+        ],
+        "fov": 48
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 143.2836938888887,
+        "description": "Cap aligned above cabinet"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 145.6336938888887,
+        "description": "Cap lowered and seated on cabinet uprights"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "bed-face",
+      "duration": 2,
+      "sourceIn": 200.33369388888892,
+      "sourceOut": 203.33369388888894,
+      "camera": "vertical-face",
+      "caption": "Build the Bed Frame",
+      "purpose": "First clear bed-face connection",
+      "active": "Face rails",
+      "validation": "Original forward source trajectory; editorial cuts omit work, never replace attachment/pivot transforms.",
+      "globalStart": 13,
+      "globalEnd": 15,
+      "cameraDefinition": {
+        "position": [
+          -240,
+          420,
+          -730
+        ],
+        "target": [
+          0,
+          40,
+          -255
+        ],
+        "fov": 50
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 200.33369388888892,
+        "description": "Approved bed-face staging with first rails ready"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 203.33369388888894,
+        "description": "Selected first face connection seated"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "bed-face-grid",
+      "duration": 2.5,
+      "sourceIn": 207.08369388888894,
+      "sourceOut": 215.253693888889,
+      "camera": "vertical-face",
+      "caption": "Build the Bed Frame",
+      "purpose": "Editorial progression to coherent grid",
+      "active": "Bed face grid",
+      "validation": "Original forward source trajectory; editorial cuts omit work, never replace attachment/pivot transforms.",
+      "globalStart": 15,
+      "globalEnd": 17.5,
+      "cameraDefinition": {
+        "position": [
+          -240,
+          420,
+          -730
+        ],
+        "target": [
+          0,
+          40,
+          -255
+        ],
+        "fov": 50
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 207.08369388888894,
+        "description": "Valid partial face grid with next rail staged"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 215.253693888889,
+        "description": "Coherent face grid after selected forward connections"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "bed-face-close",
+      "duration": 1,
+      "sourceIn": 243.183693888889,
+      "sourceOut": 245.13369388888898,
+      "camera": "vertical-face",
+      "caption": "Build the Bed Frame",
+      "purpose": "Complete face structure",
+      "active": "Outer face rail",
+      "validation": "Original forward source trajectory; editorial cuts omit work, never replace attachment/pivot transforms.",
+      "globalStart": 17.5,
+      "globalEnd": 18.5,
+      "cameraDefinition": {
+        "position": [
+          -240,
+          420,
+          -730
+        ],
+        "target": [
+          0,
+          40,
+          -255
+        ],
+        "fov": 50
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 243.183693888889,
+        "description": "Remaining outer face rail staged"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 245.13369388888898,
+        "description": "Outer face rail seated"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "bed-carrier-lift",
+      "duration": 1.1,
+      "sourceIn": 268.1336938888889,
+      "sourceOut": 271.43369388888885,
+      "camera": "vertical-frame",
+      "caption": "Join the Frames",
+      "purpose": "Supported carrier movement",
+      "active": "Bed carrier",
+      "validation": "Original forward source trajectory; editorial cuts omit work, never replace attachment/pivot transforms.",
+      "globalStart": 18.5,
+      "globalEnd": 19.6,
+      "cameraDefinition": {
+        "position": [
+          350,
+          380,
+          -800
+        ],
+        "target": [
+          100,
+          40,
+          -255
+        ],
+        "fov": 52
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 268.1336938888889,
+        "description": "Completed carrier staged separately from face"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 271.43369388888885,
+        "description": "Carrier above face on its approved supported route"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "bed-carrier-seat",
+      "duration": 1.4,
+      "sourceIn": 276.3036938888887,
+      "sourceOut": 279.45369388888867,
+      "camera": "vertical-platform",
+      "caption": "Join the Frames",
+      "purpose": "Carrier joins face on padded stands",
+      "active": "Carrier/face",
+      "validation": "Original forward source trajectory; editorial cuts omit work, never replace attachment/pivot transforms.",
+      "globalStart": 19.6,
+      "globalEnd": 21,
+      "cameraDefinition": {
+        "position": [
+          -280,
+          410,
+          -800
+        ],
+        "target": [
+          0,
+          48,
+          -255
+        ],
+        "fov": 48
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 276.3036938888887,
+        "description": "Carrier aligned over completed face"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 279.45369388888867,
+        "description": "Carrier seated onto face on padded supports"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "corner-support",
+      "duration": 1.6,
+      "sourceIn": 290.6936938888885,
+      "sourceOut": 291.6936938888885,
+      "camera": "vertical-platform",
+      "caption": "Install the Supports",
+      "purpose": "First reinforcing corner",
+      "active": "Corner bracket",
+      "validation": "Original forward source trajectory; editorial cuts omit work, never replace attachment/pivot transforms.",
+      "globalStart": 21,
+      "globalEnd": 22.6,
+      "cameraDefinition": {
+        "position": [
+          -280,
+          410,
+          -800
+        ],
+        "target": [
+          0,
+          48,
+          -255
+        ],
+        "fov": 48
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 290.6936938888885,
+        "description": "Valid joined carrier/face ready for reinforcement"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 291.6936938888885,
+        "description": "First selected corner reinforcement seated"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "first-slat",
+      "duration": 1.2,
+      "sourceIn": 317.39369388888855,
+      "sourceOut": 318.69369388888856,
+      "camera": "vertical-platform",
+      "caption": "Fit the Slats",
+      "purpose": "One clear support-slat seat",
+      "active": "First slat",
+      "validation": "Original forward source trajectory; editorial cuts omit work, never replace attachment/pivot transforms.",
+      "globalStart": 22.6,
+      "globalEnd": 23.8,
+      "cameraDefinition": {
+        "position": [
+          -280,
+          410,
+          -800
+        ],
+        "target": [
+          0,
+          48,
+          -255
+        ],
+        "fov": 48
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 317.39369388888855,
+        "description": "Valid bed platform ready for first slat"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 318.69369388888856,
+        "description": "First support slat seated"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "slat-progression",
+      "duration": 2.8,
+      "sourceIn": 321.2136938888886,
+      "sourceOut": 329.84369388888865,
+      "camera": "vertical-platform",
+      "caption": "Fit the Slats",
+      "purpose": "Progress through known repeated supports",
+      "active": "Remaining slats",
+      "validation": "Original forward source trajectory; editorial cuts omit work, never replace attachment/pivot transforms.",
+      "globalStart": 23.8,
+      "globalEnd": 26.6,
+      "cameraDefinition": {
+        "position": [
+          -280,
+          410,
+          -800
+        ],
+        "target": [
+          0,
+          48,
+          -255
+        ],
+        "fov": 48
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 321.2136938888886,
+        "description": "First slat installed; next slats staged"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 329.84369388888865,
+        "description": "Selected remaining slats seated in forward order"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "platform-complete",
+      "duration": 1,
+      "sourceIn": 331.7536938888887,
+      "sourceOut": 331.7536938888887,
+      "camera": "vertical-platform",
+      "caption": "Platform Complete",
+      "purpose": "Readable completed-platform milestone",
+      "active": "Complete supported bed platform",
+      "validation": "Static evaluated completion state.",
+      "globalStart": 26.6,
+      "globalEnd": 27.6,
+      "cameraDefinition": {
+        "position": [
+          -280,
+          410,
+          -800
+        ],
+        "target": [
+          0,
+          48,
+          -255
+        ],
+        "fov": 48
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 331.7536938888887,
+        "description": "Approved completed support platform"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 331.7536938888887,
+        "description": "Same completed platform held for readability"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "hold a valid evaluated state",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "mechanism-plate",
+      "duration": 1.4,
+      "sourceIn": 337.45369388888867,
+      "sourceOut": 339.0536938888887,
+      "camera": "vertical-platform",
+      "caption": "Fit the Mechanism",
+      "purpose": "Show the mechanism interface before docking",
+      "active": "First mechanism plate",
+      "validation": "Original forward source trajectory; editorial cuts omit work, never replace attachment/pivot transforms.",
+      "globalStart": 27.6,
+      "globalEnd": 29,
+      "cameraDefinition": {
+        "position": [
+          -280,
+          410,
+          -800
+        ],
+        "target": [
+          0,
+          48,
+          -255
+        ],
+        "fov": 48
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 337.45369388888867,
+        "description": "Complete platform ready for first mechanism plate"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 339.0536938888887,
+        "description": "First selected mechanism plate seated"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "attach-route",
+      "duration": 3.5,
+      "sourceIn": 376.00369388888873,
+      "sourceOut": 380.3036938888887,
+      "camera": "vertical-attach",
+      "caption": "Attach the Bed Frame",
+      "purpose": "Supported approach and receiver alignment",
+      "active": "Complete bed and cabinet",
+      "validation": "Original forward source trajectory; editorial cuts omit work, never replace attachment/pivot transforms.",
+      "globalStart": 29,
+      "globalEnd": 32.5,
+      "cameraDefinition": {
+        "position": [
+          -265,
+          205,
+          -505
+        ],
+        "target": [
+          0,
+          105,
+          -125
+        ],
+        "fov": 52
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 376.00369388888873,
+        "description": "Complete supported bed entering the approved cabinet approach"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 380.3036938888887,
+        "description": "Bed aligned at the approved receiver approach"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "attach-pivot-seat",
+      "duration": 1.5,
+      "sourceIn": 380.3036938888887,
+      "sourceOut": 382.0536938888887,
+      "camera": "vertical-pivot",
+      "caption": "Seat the Pivot",
+      "purpose": "Readable bearing lowering close-up",
+      "active": "First bearing and receiver",
+      "validation": "Original forward source trajectory; editorial cuts omit work, never replace attachment/pivot transforms.",
+      "globalStart": 32.5,
+      "globalEnd": 34,
+      "cameraDefinition": {
+        "position": [
+          -116.9,
+          37.5,
+          -13
+        ],
+        "target": [
+          -115.95,
+          36.5,
+          -9.2
+        ],
+        "fov": 85
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 380.3036938888887,
+        "description": "Bearing above its receiver on the approved docking route"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 382.0536938888887,
+        "description": "Bearing lowered to its valid receiver seat"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "attach-pivot-retain",
+      "duration": 3.5,
+      "sourceIn": 382.0536938888887,
+      "sourceOut": 385.5536938888887,
+      "camera": "vertical-pivot",
+      "caption": "Secure the Pivot",
+      "purpose": "Show first retainer; second side completed editorially",
+      "active": "Pivot retainers",
+      "validation": "Original forward source trajectory; editorial cuts omit work, never replace attachment/pivot transforms.",
+      "globalStart": 34,
+      "globalEnd": 37.5,
+      "cameraDefinition": {
+        "position": [
+          -116.9,
+          37.5,
+          -13
+        ],
+        "target": [
+          -115.95,
+          36.5,
+          -9.2
+        ],
+        "fov": 85
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 382.0536938888887,
+        "description": "First seated connection ready for retention"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 385.5536938888887,
+        "description": "First connection retained; opposite work omitted by the following cut"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "attach-result",
+      "duration": 1.5,
+      "sourceIn": 387.70369388888867,
+      "sourceOut": 389.20369388888867,
+      "camera": "vertical-attach",
+      "caption": "Bed Frame Connected",
+      "purpose": "Hold valid connected state",
+      "active": "Seated/retained bed frame",
+      "validation": "Original forward source trajectory; editorial cuts omit work, never replace attachment/pivot transforms.",
+      "globalStart": 37.5,
+      "globalEnd": 39,
+      "cameraDefinition": {
+        "position": [
+          -265,
+          205,
+          -505
+        ],
+        "target": [
+          0,
+          105,
+          -125
+        ],
+        "fov": 52
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 387.70369388888867,
+        "description": "Both original connections complete and retained"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 389.20369388888867,
+        "description": "Valid connected bed/cabinet held for readability"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "piston-first",
+      "duration": 4.5,
+      "sourceIn": 391.5036938888887,
+      "sourceOut": 398.5036938888886,
+      "camera": "vertical-piston",
+      "caption": "Connect the Gas Pistons",
+      "purpose": "Readable first cabinet eye and retainer",
+      "active": "First gas-piston cabinet eye",
+      "validation": "Original forward source trajectory; editorial cuts omit work, never replace attachment/pivot transforms.",
+      "globalStart": 39,
+      "globalEnd": 43.5,
+      "cameraDefinition": {
+        "position": [
+          -114.3,
+          116,
+          17
+        ],
+        "target": [
+          -115.3,
+          111,
+          7
+        ],
+        "fov": 88
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 391.5036938888887,
+        "description": "Approved first piston eye/target alignment state"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 398.5036938888886,
+        "description": "First piston eye and retainer verified installed"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "piston-opposite",
+      "duration": 2,
+      "sourceIn": 398.5036938888886,
+      "sourceOut": 403.5036938888886,
+      "camera": "vertical-piston-right",
+      "caption": "Connect the Gas Pistons",
+      "purpose": "Omit repetition while retaining opposite attachment",
+      "active": "Opposite gas piston",
+      "validation": "Original forward source trajectory; editorial cuts omit work, never replace attachment/pivot transforms.",
+      "globalStart": 43.5,
+      "globalEnd": 45.5,
+      "cameraDefinition": {
+        "position": [
+          114.3,
+          116,
+          17
+        ],
+        "target": [
+          115.3,
+          111,
+          7
+        ],
+        "fov": 88
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 398.5036938888886,
+        "description": "First piston installed; opposite target ready"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 403.5036938888886,
+        "description": "Both piston connections verified installed"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "mechanism-test",
+      "duration": 1.5,
+      "sourceIn": 403.5036938888886,
+      "sourceOut": 405.0036938888886,
+      "camera": "vertical-mechanism",
+      "caption": "Test the Mechanism",
+      "purpose": "Show coupled pivot/piston function",
+      "active": "Bed pivots and telescopic links",
+      "validation": "Original mechanism solver on forward approved test, original speed.",
+      "globalStart": 45.5,
+      "globalEnd": 47,
+      "cameraDefinition": {
+        "position": [
+          -285,
+          205,
+          -450
+        ],
+        "target": [
+          0,
+          102,
+          -58
+        ],
+        "fov": 48
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 403.5036938888886,
+        "description": "Installed pivot/piston system before the approved small test"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 405.0036938888886,
+        "description": "Forward test state evaluated by the original coupled solver"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "leg-install",
+      "duration": 2,
+      "sourceIn": 442.3036938888885,
+      "sourceOut": 447.35369388888853,
+      "camera": "vertical-legs",
+      "caption": "Fit the Legs",
+      "purpose": "Show approach to valid pivot attachment",
+      "active": "First folding leg",
+      "validation": "Original forward source trajectory; editorial cuts omit work, never replace attachment/pivot transforms.",
+      "globalStart": 47,
+      "globalEnd": 49,
+      "cameraDefinition": {
+        "position": [
+          -350,
+          330,
+          -620
+        ],
+        "target": [
+          0,
+          42,
+          -120
+        ],
+        "fov": 50
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 442.3036938888885,
+        "description": "Approved installed bed ready for first leg approach"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 447.35369388888853,
+        "description": "First selected leg attached at its valid pivot"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "leg-fold-test",
+      "duration": 1.8,
+      "sourceIn": 454.50369388888856,
+      "sourceOut": 458.40369388888854,
+      "camera": "vertical-legs",
+      "caption": "Fold the Legs",
+      "purpose": "Readable folding relationship; skipped second installation is a cut",
+      "active": "Installed legs",
+      "validation": "Original forward source trajectory; editorial cuts omit work, never replace attachment/pivot transforms.",
+      "globalStart": 49,
+      "globalEnd": 50.8,
+      "cameraDefinition": {
+        "position": [
+          -350,
+          330,
+          -620
+        ],
+        "target": [
+          0,
+          42,
+          -120
+        ],
+        "fov": 50
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 454.50369388888856,
+        "description": "Installed legs before the approved fold test"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 458.40369388888854,
+        "description": "Legs after the approved fold/unfold test sequence"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "wall-secured",
+      "duration": 1.2,
+      "sourceIn": 488.25369388888845,
+      "sourceOut": 488.25369388888845,
+      "camera": "vertical-cabinet",
+      "caption": "Secure to the Wall",
+      "purpose": "Required anchoring milestone before finished function",
+      "active": "All wall anchors secured",
+      "validation": "Forward-evaluated complete anchoring state; installation work omitted editorially.",
+      "globalStart": 50.8,
+      "globalEnd": 52,
+      "cameraDefinition": {
+        "position": [
+          -270,
+          220,
+          -520
+        ],
+        "target": [
+          0,
+          108,
+          -10
+        ],
+        "fov": 48
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 488.25369388888845,
+        "description": "All approved wall anchors secured"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 488.25369388888845,
+        "description": "Same completed anchoring state"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "hold a valid evaluated state",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    },
+    {
+      "id": "final-function",
+      "duration": 6,
+      "sourceIn": 503.2536938888889,
+      "sourceOut": 509.2536938888889,
+      "camera": "vertical-hero",
+      "caption": "Ready to Use",
+      "purpose": "Controlled supported close and clean closed hero payoff",
+      "active": "Complete anchored product, folding legs and linked pistons",
+      "validation": "Original speed for support lift, leg folding and bed close. Closed hero at the end.",
+      "globalStart": 52,
+      "globalEnd": 58,
+      "cameraDefinition": {
+        "position": [
+          -280,
+          210,
+          -550
+        ],
+        "target": [
+          0,
+          110,
+          -38
+        ],
+        "fov": 48
+      },
+      "startingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 503.2536938888889,
+        "description": "Complete anchored product at the approved support-lift start"
+      },
+      "endingValidState": {
+        "sourceVideo": "wf311613-final-micro-pass",
+        "sourceTime": 509.2536938888889,
+        "description": "Complete product closed with legs folded; clean final hero"
+      },
+      "transition": "hard cut; omitted source work is not animated",
+      "mechanicalAction": "forward motion from the approved source window",
+      "validationStatus": "PASS: original-source runtime state equivalence; director visual approval pending"
+    }
+  ]
+}

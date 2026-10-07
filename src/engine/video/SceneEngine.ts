@@ -24,6 +24,17 @@ export class SceneEngine {
       return computed;
     });
     this.totalDuration = cursor;
+    if (video.editorial) {
+      if (video.editorial.source.editorial) throw new Error('Nested editorial presentations are unsupported.');
+      const sourceDuration = video.editorial.source.scenes.reduce((n,s) => n+s.duration,0);
+      const windows = video.editorial.segments;
+      if (windows.length !== video.scenes.length || new Set(windows.map(s => s.sceneId)).size !== windows.length) throw new Error('Editorial windows must match scenes exactly.');
+      for (const scene of video.scenes) {
+        const w = windows.find(w => w.sceneId === scene.id);
+        if (!w || !Number.isFinite(w.sourceIn) || !Number.isFinite(w.sourceOut) || w.sourceIn < 0 || w.sourceOut < w.sourceIn || w.sourceOut > sourceDuration) throw new Error('Invalid forward editorial source interval.');
+        if (scene.assemblyStep || scene.actions.length) throw new Error('Editorial scenes must reuse source mechanics, not add assembly actions.');
+      }
+    }
   }
 
   at(time: number): ComputedScene {

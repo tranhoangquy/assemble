@@ -1,0 +1,209 @@
+{
+  "status": "PASS",
+  "scope": "Mandatory final technical media QA; director authorized final designation; agent actual listening NOT RUN",
+  "intended_timeline_seconds": 58,
+  "video": {
+    "duration": "58.000000",
+    "codec": "h264",
+    "pix_fmt": "yuv420p",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 1740,
+    "bitstream_payload_and_packet_timing_identical": true,
+    "decoded_all_1740_frames_and_timestamps_identical": true,
+    "original_approved_visual_packet_identity": true,
+    "codec_extradata_identical": true,
+    "stream_time_base": "1/15360"
+  },
+  "audio": {
+    "wav_codec": "pcm_s24le",
+    "wav_samples_per_channel": 2784000,
+    "wav_duration_seconds": 58.0,
+    "review_codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "declared_duration_seconds": 58.0,
+    "review_decoded_samples_per_channel": 2784256,
+    "aac_padding_samples_per_channel": 256,
+    "aac_padding_seconds": 0.005333333333333333,
+    "padding_note": "AAC uses whole 1024-sample frames. MP4 duration/edit metadata defines 58s; decoder may expose trailing frame padding. No video extension or truncation.",
+    "encoded_loudness": {
+      "input_i": "-14.51",
+      "input_tp": "-3.96",
+      "input_lra": "1.30",
+      "input_thresh": "-24.54"
+    },
+    "wav_final_sample_zero": true,
+    "finite_samples": true,
+    "clipped_samples": 0,
+    "interior_100ms_silence_below_minus70dbfs": [],
+    "100ms_below_minus70_including_tail": [],
+    "seam_diagnostics": [
+      {
+        "nominal_seconds": 26.3480392157,
+        "max_adjacent_sample_step_within_10ms": 0.019269704818725586,
+        "overall_max_adjacent_sample_step": 0.2379378080368042,
+        "interpretation": "Numeric diagnostic only; not an audible click/pop listening verdict."
+      },
+      {
+        "nominal_seconds": 26.9607843137,
+        "max_adjacent_sample_step_within_10ms": 0.09752345085144043,
+        "overall_max_adjacent_sample_step": 0.2379378080368042,
+        "interpretation": "Numeric diagnostic only; not an audible click/pop listening verdict."
+      },
+      {
+        "nominal_seconds": 57.7,
+        "max_adjacent_sample_step_within_10ms": 0.01571500301361084,
+        "overall_max_adjacent_sample_step": 0.2379378080368042,
+        "interpretation": "Numeric diagnostic only; not an audible click/pop listening verdict."
+      }
+    ],
+    "actual_bit_rate": 257414,
+    "wav_loudness": {
+      "input_i": -14.5,
+      "input_tp": -5.35,
+      "input_lra": 1.3,
+      "input_thresh": -24.53
+    },
+    "final_fade_start": 57.7,
+    "final_fade_end": 58,
+    "mastering_compression_gain_reduction": {
+      "max_db": 1.7555211782455444,
+      "median_db": 1.0262905359268188,
+      "p95_db": 1.3724353313446045
+    }
+  },
+  "av_sync": {
+    "status": "PASS",
+    "video_start": "0.000000",
+    "audio_start": "0.000000",
+    "waveform_alignment": [
+      {
+        "global_seconds": 1,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9999762077750441,
+        "rms_error_dbfs": -58.86470413208008
+      },
+      {
+        "global_seconds": 25,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9997918456852265,
+        "rms_error_dbfs": -48.70989990234375
+      },
+      {
+        "global_seconds": 26.7,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9999769278716556,
+        "rms_error_dbfs": -58.56405258178711
+      },
+      {
+        "global_seconds": 35,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9999896059588226,
+        "rms_error_dbfs": -61.83365249633789
+      },
+      {
+        "global_seconds": 43,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9999145562165356,
+        "rms_error_dbfs": -52.709259033203125
+      },
+      {
+        "global_seconds": 53,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9999071831848793,
+        "rms_error_dbfs": -52.26484298706055
+      },
+      {
+        "global_seconds": 56.8,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9999901459726378,
+        "rms_error_dbfs": -64.31542205810547
+      }
+    ],
+    "note": "Zero measured lag at seven locations including splice and end; no drift. Perceptual rhythm/picture fit remains director review."
+  },
+  "full_av_decode": "PASS",
+  "faststart": {
+    "status": "PASS",
+    "atoms": [
+      {
+        "type": "ftyp",
+        "offset": 0,
+        "size": 32
+      },
+      {
+        "type": "moov",
+        "offset": 32,
+        "size": 64913
+      },
+      {
+        "type": "free",
+        "offset": 64945,
+        "size": 8
+      },
+      {
+        "type": "mdat",
+        "offset": 64953,
+        "size": 7152693
+      }
+    ]
+  },
+  "hashes": {
+    "final_wav": "5ba9089960a09efb55e3e3a57e32ffb11692f2e134b5f1378097101fe883785a",
+    "final_mp4": "e24317a8787379ad9ba2aab19d5d58fd1012953de6a73a923759d492035c4a79",
+    "full_aac_preview": "3020b13dec09088561fb793316a6349d12eb1d657b45659f1f493b127828af56"
+  },
+  "actual_listening": "NOT RUN",
+  "voice_check": "VOICE_CONTENT_REQUIRES_DIRECTOR_LISTENING",
+  "master_status": "FINAL MASTER COMPLETE",
+  "preservation": {
+    "status": "PASS",
+    "protected_files": 3515,
+    "differences": [],
+    "visual_source_sha256": "aee283b9d7bf0653b45fd3bf357fc51ea98ad988ebabe532d371a2662d7cad98",
+    "music_pass01_sha256": "d47f944271d3896f5c4bee0ce2c97bbb54e077daada318d7e23464990daf6c70",
+    "no_application_source_edits": true,
+    "no_threejs_rendering": true
+  },
+  "director_authorization": {
+    "status": "DIRECTOR_AUTHORIZED_FINAL_MASTERING_AND_FINAL_DESIGNATION",
+    "package": "/Users/quyth/.codex/attachments/5216381d-60c5-4ae5-9906-d81c62bfc825/Pasted text.txt",
+    "sha256": "4b42d4887b1460cff4acbc7c90de9b27080c53cecfd36cd06d78d51b12f0a2f5",
+    "music_basis": {
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-music-pass01/WF311613-short02-music-pass01.wav",
+      "sha256": "d47f944271d3896f5c4bee0ce2c97bbb54e077daada318d7e23464990daf6c70"
+    },
+    "video_mux_input": {
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-music-pass01/WF311613-short02-music-review-pass01-vertical-1080p.mp4",
+      "sha256": "8816b48c9faec27b1597b9ba44b769e2f5e4be367191058e4949908abd6fb7f3"
+    },
+    "original_visual": {
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-visual-review-v1/WF311613-short02-visual-review-v1-vertical-1080p.mp4",
+      "sha256": "aee283b9d7bf0653b45fd3bf357fc51ea98ad988ebabe532d371a2662d7cad98"
+    },
+    "authorized_changes": [
+      "smooth gain envelope",
+      "gentle compression",
+      "final level adjustment",
+      "delayed short endpoint fade",
+      "AAC encode"
+    ],
+    "creative_rearrangement": false,
+    "publish_authorized": false,
+    "agent_actual_listening": "NOT RUN"
+  },
+  "outputs": {
+    "final_wav": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/final-short02-1080p/WF311613-short02-FINAL-music-master.wav",
+    "final_mp4": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/final-short02-1080p/WF311613-short02-FINAL-vertical-1080p.mp4"
+  },
+  "final_output_size_bytes": 7217646
+}

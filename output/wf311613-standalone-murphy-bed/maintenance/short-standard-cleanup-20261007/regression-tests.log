@@ -1,0 +1,25 @@
+
+> furniture-video-engine@0.2.0 test
+> vitest run src/products/wf311613-standalone-murphy-bed/tests/short01.test.ts src/products/wf311613-standalone-murphy-bed/tests/short02.test.ts src/products/wf311613-standalone-murphy-bed/tests/final-micro-pass.test.ts src/products/wf311613-standalone-murphy-bed/tests/whole-scene-reset.test.ts src/products/wf311613-standalone-murphy-bed/tests/final-opening.test.ts src/products/production-selection.test.ts src/products/tests/registry.test.ts src/engine/video/PresentationSelection.test.ts src/engine/export/PresentationExport.test.ts src/engine/export/RenderIdentity.test.ts src/engine/export/ResumableExport.test.ts src/engine/export/NativeSurface.test.ts src/engine/export/FrameManifest.test.ts
+
+
+ RUN  v4.1.11 /Users/quyth/development/three/POC
+
+(node:20917) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:20914) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:20919) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:20915) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+ Test Files  13 passed (13)
+      Tests  75 passed (75)
+   Start at  16:24:07
+   Duration  17.99s (transform 2.88s, setup 0ms, import 20.22s, tests 35.76s, environment 1ms)
+

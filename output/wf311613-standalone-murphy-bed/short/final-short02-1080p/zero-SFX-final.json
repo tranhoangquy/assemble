@@ -1,0 +1,31 @@
+{
+  "status": "PASS_PROCESS_GRAPH_AUDIT",
+  "only_production_audio_input": {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-music-pass01/WF311613-short02-music-pass01.wav",
+    "sha256": "d47f944271d3896f5c4bee0ce2c97bbb54e077daada318d7e23464990daf6c70"
+  },
+  "graph": [
+    "approved Pass01 WAV",
+    "smooth gain envelope",
+    "gentle broadband compression",
+    "known fade reshaping to 57.7\u201358",
+    "fixed loudness gain",
+    "24bit final WAV",
+    "AAC encode"
+  ],
+  "video_input": {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-music-pass01/WF311613-short02-music-review-pass01-vertical-1080p.mp4",
+    "sha256": "8816b48c9faec27b1597b9ba44b769e2f5e4be367191058e4949908abd6fb7f3"
+  },
+  "video_mapping": "0:v:0 copy",
+  "audio_mapping": "1:a:0 final WAV only; previous review AAC explicitly excluded",
+  "new_songs": false,
+  "new_arrangement": false,
+  "new_instruments": false,
+  "SFX": false,
+  "narration": false,
+  "ambience": false,
+  "EQ": false,
+  "actual_listening": "NOT RUN",
+  "voice_check": "VOICE_CONTENT_REQUIRES_DIRECTOR_LISTENING; no voice introduced by mastering"
+}

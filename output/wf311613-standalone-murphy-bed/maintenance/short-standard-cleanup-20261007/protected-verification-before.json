@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "files": 2207,
+  "manifest_sha256": "4226a317a9f8a62e60b2db34424ebdf8a4faf4ceefa6ce83ae2edcffe9db7221",
+  "explicit_locked_hashes": "PASS from audit",
+  "no_worker_lock": true,
+  "terminal_job_manifest_identity": "PASS"
+}

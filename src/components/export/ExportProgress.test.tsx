@@ -9,11 +9,11 @@ import type { AssemblyValidationResult } from '@/engine/assembly/AssemblyValidat
 const view={id:'job',productId:'example',productName:'Example',status:'rendering',progress:38,totalFrames:1500,validFrames:640,currentFrame:640,totalChunks:5,completedChunks:2,currentChunk:{index:2,start:600,end:899,status:'rendering',validFrames:40,retries:0},elapsedSeconds:123,canCancel:true,message:'Rendering work chunk 3 of 5…'} as ExportJobView;
 const render=(job:ExportJobView)=>renderToStaticMarkup(<ExportProgress job={job} onResume={()=>{}} onCancel={()=>{}} onDelete={()=>{}}/>);
 describe('Generate File user-facing status',()=>{
-  it('shows derived ready summary and preserves legacy/native/FPS choices',()=>{
+  it('shows derived summary while recovery disables generation and preserves profile/FPS choices',()=>{
     const product=getProductPackage('demo-cabinet');
     const validation={valid:true,errors:[]} as unknown as AssemblyValidationResult;
     const html=renderToStaticMarkup(<ExportVideoModal open product={product} validation={validation} onClose={()=>{}}/>);
-    expect(html).toContain('Ready to generate');expect(html).toContain('Generate File');expect(html).toContain(Math.ceil(product.video.scenes.reduce((sum,s)=>sum+s.duration,0)*30).toLocaleString());
+    expect(html).toContain('Checking saved generation');expect(html).toContain('aria-busy="true"');expect(html).toContain('<button disabled="" class="primary">Generate File</button>');expect(html).not.toContain('Ready to generate');expect(html).toContain('Generate File');expect(html).toContain(Math.ceil(product.video.scenes.reduce((sum,s)=>sum+s.duration,0)*30).toLocaleString());
     for(const profile of ['1280x720','1920x1080','720p','1080p','1440p','2160p'])expect(html).toContain(`data-profile-id="${profile}"`);
     expect(html).toContain('60 FPS');
   });

@@ -1,0 +1,106 @@
+{
+  "version": 2,
+  "view": {
+    "id": "aacd9093-480f-4fe2-9ab2-0b29a8a1801c",
+    "productId": "wf311613-final-micro-pass",
+    "productName": "Standalone Murphy Bed · Final micro-pass · QA only",
+    "filename": "WF311613-short01-visual-review-v1-vertical-1080p.mp4",
+    "outputFilename": "WF311613-short01-visual-review-v1-vertical-1080p.mp4",
+    "outputPath": "/Users/quyth/development/three/POC/output/export-jobs/render-vertical-1080p-5fdbffb9812f-aacd9093-480f-4fe2-9ab2-0b29a8a1801c/final/WF311613-short01-visual-review-v1-vertical-1080p.mp4",
+    "frameDirectory": "/Users/quyth/development/three/POC/output/export-jobs/render-vertical-1080p-5fdbffb9812f-aacd9093-480f-4fe2-9ab2-0b29a8a1801c/frames",
+    "profileId": "vertical-1080p",
+    "profileLabel": "Vertical — 1080×1920",
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "videoId": "wf311613-short01-visual-v1",
+    "videoHash": "30c7eaf84a32d60e60a19493416e68f8dda8b636afc0752dc5fdea604e10deb1",
+    "renderIdentity": "76c7e6e6ba5db2fdcdf816cafeae0d7ab8414975fb87550a5609a38f4a3594a9",
+    "creativeHash": "766c94309e70138518ed43b03e488751b79ccbf178670bc891a16a6d93363e5b",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 58,
+    "timelineDuration": 58,
+    "frameLimit": 6,
+    "status": "stale",
+    "progress": 80,
+    "progressKind": "complete",
+    "currentFrame": 6,
+    "totalFrames": 6,
+    "message": "Creative sources changed. Start a new generation.",
+    "createdAt": "2026-10-06T09:05:53.023Z",
+    "updatedAt": "2026-10-06T11:07:40.417Z",
+    "validFrames": 6,
+    "currentChunk": {
+      "index": 2,
+      "start": 4,
+      "end": 5,
+      "status": "completed",
+      "validFrames": 2,
+      "retries": 0
+    },
+    "sha256": "a2a59af5d0eb3ff4d0a0d3116cf83fb58f72effcb209a7428ab3ae025f31d78b",
+    "fileSize": 74988,
+    "outputDuration": 0.2,
+    "downloadUrl": "/api/export/aacd9093-480f-4fe2-9ab2-0b29a8a1801c/download",
+    "errorCode": "RENDER_CHECKPOINT_INCOMPATIBLE"
+  },
+  "profile": {
+    "id": "vertical-1080p",
+    "label": "Vertical — 1080×1920",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "codec": "h264",
+    "encoder": "libx264",
+    "pixelFormat": "yuv420p",
+    "kind": "standard",
+    "supportedFps": [
+      30
+    ]
+  },
+  "creativeHash": "766c94309e70138518ed43b03e488751b79ccbf178670bc891a16a6d93363e5b",
+  "rendererSourceHash": "884f0bf4e8af3431d247c2c6adfa15b25357e2d30c913301ba80eb019e33666d",
+  "identityHash": "5fdbffb9812fdb54d54833731f374f13cd4dc24aa0de448b74122256601d67f3",
+  "chunkSize": 2,
+  "chunks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 1,
+      "status": "completed",
+      "validFrames": 2,
+      "retries": 0
+    },
+    {
+      "index": 1,
+      "start": 2,
+      "end": 3,
+      "status": "completed",
+      "validFrames": 2,
+      "retries": 0
+    },
+    {
+      "index": 2,
+      "start": 4,
+      "end": 5,
+      "status": "completed",
+      "validFrames": 2,
+      "retries": 0
+    }
+  ],
+  "frames": {
+    "0": "6c8d86840f1e0cbdb5ecb3a98d04c8b2b40f517a1335af60a5b62d7b5125ff66",
+    "1": "d8a11e1a4e7f345c77c6734214ba6d9dfa3e285e0fc0be266a86599d4110db25",
+    "2": "dc702d056e9760aaa4d8dab94ff64633363c6b90fca5afd8217c3f068381394f",
+    "3": "907671ddcf270eb14b52605c7da04b903bdf09486bc4b463341038e4b75f663f",
+    "4": "98fa23cba9fb6d528e6520a2c84698783e5fc81bd46b9fdea6136182b9db5439",
+    "5": "a919e9a0b86726f43dd504246c0ff6b27f0b67b72cf89997004be686d1effdab"
+  },
+  "missingFrames": [],
+  "invalidFrames": [],
+  "retries": 0,
+  "framePadding": 6,
+  "elapsedMs": 215090,
+  "lastError": "__EXPORT_CANCELLED__"
+}

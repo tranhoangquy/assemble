@@ -230,3 +230,18 @@ button { color: inherit; }
 .export-progress details { margin-top: 12px; overflow-wrap: anywhere; }
 
 .export-progress > .export-job-actions { height: auto; overflow: visible; background: transparent; }
+
+/* Optional vertical presentation; existing horizontal composition is unchanged. */
+.video-type-selector { border: 0; margin: 0; padding: 16px 20px; border-bottom: 1px solid var(--line); }
+.video-type-selector legend { font-size: 11px; padding-top: 14px; color: #62655f; }
+.video-type-selector > div { display: flex; gap: 8px; }
+.video-type-selector button { flex: 1; padding: 10px 8px; border: 1px solid var(--line); background: transparent; border-radius: 6px; font: inherit; font-size: 12px; cursor: pointer; }
+.video-type-selector button[aria-pressed=true] { background: #373a34; color: #fff; }
+.video-type-selector button:disabled { opacity: .45; cursor: default; }
+.video-type-selector small { display: block; margin-top: 8px; color: #777; }
+.vertical-preview .viewport-panel { container-type: size; }
+.vertical-preview .canvas-shell { width: min(100%, calc((100cqh - 36px) * 9 / 16)); height: calc(100cqh - 36px); margin-inline: auto; }
+.vertical-video .video-overlay { left: 8%; right: 16%; bottom: auto; top: 11%; max-width: none; padding: 10px 12px; border-radius: 8px; background: rgba(248,247,244,.9); text-shadow: none; }
+.vertical-video .video-overlay h2 { font-size: clamp(16px, 2cqw, 30px); line-height: 1.15; letter-spacing: -.02em; text-align: center; }
+.render-stage .vertical-video .video-overlay { left: 8%; right: 16%; top: 11%; bottom: auto; max-width: none; padding: 1.8vw 2vw; }
+.render-stage .vertical-video .video-overlay h2 { font-size: 5vw; line-height: 1.15; letter-spacing: -.02em; }

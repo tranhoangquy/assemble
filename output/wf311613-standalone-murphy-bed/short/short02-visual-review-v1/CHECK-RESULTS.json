@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "targetedTests": {
+    "passed": 99,
+    "files": 15,
+    "log": "targeted-tests-final-v2.log"
+  },
+  "build": {
+    "status": "PASS",
+    "command": "npm run build -- --webpack",
+    "log": "build-final.log"
+  },
+  "typescript": {
+    "status": "PASS",
+    "command": "npm run typecheck",
+    "log": "typecheck-final.log"
+  },
+  "changedFileLint": {
+    "status": "PASS",
+    "log": "source-lint-final.log"
+  },
+  "repositoryLint": {
+    "status": "WARNING",
+    "errors": 59,
+    "warnings": 24,
+    "unchangedFromShort01": true,
+    "log": "repository-lint.log"
+  },
+  "longRegression": {
+    "status": "PASS",
+    "evidence": [
+      "final-micro-pass.test.ts",
+      "PresentationSelection.test.ts",
+      "production-selection.test.ts",
+      "creative-freeze.json",
+      "protected-after.json"
+    ]
+  },
+  "mechanicalRegression": {
+    "status": "PASS",
+    "report": "mechanical-regression.json"
+  },
+  "initialFramingTests": {
+    "status": "FAIL \u2014 preserved; resolved by Short02-only hero camera pullback",
+    "logs": [
+      "initial-tests.log",
+      "framing-tests-v3.log"
+    ]
+  },
+  "notes": "Product/assembly/material and Long hashes match approved baselines. Runtime engine/exporter unchanged."
+}

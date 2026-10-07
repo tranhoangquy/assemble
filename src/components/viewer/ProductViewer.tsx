@@ -1,5 +1,6 @@
 'use client';
 
+import type { VideoType } from '@/engine/video/PresentationSelection';
 import { productionProductLabel } from '@/products/registry';
 import { Canvas } from '@react-three/fiber';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
@@ -47,9 +48,12 @@ interface ProductViewerProps {
   onExport?: () => void;
   renderProfile?: RenderProfile;
   renderFps?: number;
+  videoType?: VideoType;
+  shortAvailable?: boolean;
+  onVideoTypeChange?: (type: VideoType) => void;
 }
 
-export function ProductViewer({ product, assembly, video, debugMode = false, renderMode = false, initialTime = 0, catalog, activeProductId, loading = false, onProductChange, onExport, renderProfile, renderFps }: ProductViewerProps) {
+export function ProductViewer({ product, assembly, video, debugMode = false, renderMode = false, initialTime = 0, catalog, activeProductId, loading = false, onProductChange, onExport, renderProfile, renderFps, videoType='long', shortAvailable=false, onVideoTypeChange }: ProductViewerProps) {
   const registry = useMemo(() => new ObjectRegistry(), []);
   const sceneEngine = useMemo(() => new SceneEngine(video, assembly), [video, assembly]);
   const [selectedId, setSelectedId] = useState<string | null>(null);
@@ -228,10 +232,10 @@ export function ProductViewer({ product, assembly, video, debugMode = false, ren
   };
 
   const canvas = (
-    <div className="canvas-shell">
+    <div className={`canvas-shell${video.captionLayout==='vertical-safe'?' vertical-video':''}`}>
       <Canvas
         shadows="percentage"
-        frameloop={renderMode ? 'never' : 'always'}
+        frameloop={renderMode || !engine ? 'never' : isPlaying ? 'always' : 'demand'}
         dpr={renderMode ? 1 : [1, 2]}
         camera={{ position: [330, 235, 390], fov: 34, near: 1, far: 1800 }}
         gl={{ antialias: true, preserveDrawingBuffer: renderMode, powerPreference: 'high-performance' }}
@@ -243,6 +247,7 @@ export function ProductViewer({ product, assembly, video, debugMode = false, ren
         }}
       >
         <Scene
+          cameraMaxDistance={video.editorial ? Math.max(850, ...Object.values(video.cameraPresets).map(p => Math.hypot(...p.position.map((n, i) => n - p.target[i])) + 1)) : undefined}
           product={product}
           background={video.presentation?.background ?? video.background}
           presentation={video.presentation}
@@ -283,7 +288,7 @@ export function ProductViewer({ product, assembly, video, debugMode = false, ren
   if (renderMode) return <main className="render-stage">{canvas}</main>;
 
   return (
-    <main className="editor-app">
+    <main className={`editor-app${video.captionLayout==='vertical-safe'?' vertical-preview':''}`}>
       <header className="app-header">
         <div className="brand-lockup"><i><b /><b /><b /></i><span>FURNITURE VIDEO ENGINE<small>Assembly video preview</small></span></div>
         <div className="project-meta">
@@ -306,6 +311,7 @@ export function ProductViewer({ product, assembly, video, debugMode = false, ren
           {canvas}
         </section>
         <aside className="sidebar">
+          {onVideoTypeChange && <fieldset className="video-type-selector"><legend>Video Type</legend><div><button aria-pressed={videoType==='long'} onClick={()=>{engine?.pause();setIsPlaying(false);onVideoTypeChange('long');}}>Long Video</button><button aria-pressed={videoType==='short'} disabled={!shortAvailable} title={!shortAvailable?'Short Video unavailable':undefined} onClick={()=>{engine?.pause();setIsPlaying(false);onVideoTypeChange('short');}}>Short Video</button></div>{!shortAvailable && <small>Short Video unavailable</small>}</fieldset>}
           <ScenePanel scenes={sceneEngine.scenes} activeId={activeScene.id} onSelect={(value) => { engine?.seek(value); setIsPlaying(false); }} />
           {debugMode && <>
           <PartsPanel product={product} presentationNames={video.presentationNames} selectedId={selectedId} onSelect={setSelectedId} validation={validation} assemblyState={selectedId ? assemblySnapshot?.hardware.get(selectedId) ?? assemblySnapshot?.parts.get(selectedId) : undefined} />

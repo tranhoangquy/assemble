@@ -1,0 +1,37 @@
+{
+  "output": {
+    "files": 1957,
+    "logical_bytes": 1889235898
+  },
+  "repository_working_files": {
+    "files": 2634,
+    "logical_bytes": 1972686562
+  },
+  "repository_exclusions": [
+    ".git",
+    "node_modules",
+    ".next",
+    "symlinks"
+  ],
+  "before": {
+    "output": {
+      "files": 8160,
+      "logical_bytes": 8063277130
+    },
+    "repository_working_files": {
+      "files": 8837,
+      "logical_bytes": 8146727794
+    },
+    "repository_exclusions": [
+      ".git",
+      "node_modules",
+      ".next",
+      "symlinks"
+    ],
+    "logical_size_not_physical_disk_reclamation": true
+  },
+  "deleted_files": 6224,
+  "deleted_logical_bytes": 6176404144,
+  "removed_directories": 35,
+  "net_output_logical_bytes_reduction": 6174041232
+}

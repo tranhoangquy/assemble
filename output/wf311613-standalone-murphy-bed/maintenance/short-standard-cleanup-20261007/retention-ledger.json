@@ -1,0 +1,20 @@
+{
+  "status": "KEEP_AND_PURGE_BOUNDARY_DOCUMENTED",
+  "current_master_bundle": "short/final-short02-1080p/ fully retained and verified",
+  "director_story": [
+    "Short01 canonical candidate/stills/plan/QA retained",
+    "Short02 approved silent candidate/native and decoded stills/contact sheets/director plan retained",
+    "MusicPass01 selected WAV + reviewMP4 + edit/analysis/provenance/QA/iteration metadata retained",
+    "FinalShort mastering script/configuration/audio/video/checks retained"
+  ],
+  "historical_manifests": "Preserved byte-identically; raw/rejected media deletions are recorded by exact path/hash in deletion-manifest.json and deletion-ledger.jsonl, not rewritten as current file availability.",
+  "reproduction_dependencies": [
+    "Short FINAL master_audio.py requires selected Pass01 WAV: retained",
+    "Short FINAL mux_verify.py uses Pass01 reviewMP4 and original silent visual: retained",
+    "Long Pass02 build asserts old approved AB candidate1/BC/intro/provenance freezes: entire Long musicPass01/02 retained including raw director MP3s",
+    "Final Short checksum bundle includes working pre-level WAV: retained to keep final bundle verifiable"
+  ],
+  "raw_frame_recovery": "Purged stale/smoke jobs cannot resume; archived checkpoint/logs remain. Completed Short02 job finalMP4 remains downloadable; its removed raw frames must be freshly validated/re-rendered if needed. No exporter or automatic cache behavior changed.",
+  "unrelated_products": "Retained",
+  "archived_job_metadata_manifest": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/maintenance/short-standard-cleanup-20261007/retained-job-evidence.json"
+}

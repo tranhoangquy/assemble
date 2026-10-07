@@ -1,0 +1,1218 @@
+{
+  "status": "PASS",
+  "visualApproval": "REQUIRES DIRECTOR REVIEW",
+  "surface": {
+    "profileId": "vertical-1080p",
+    "width": 1080,
+    "height": 1920,
+    "drawingBuffer": [
+      1080,
+      1920
+    ],
+    "deviceScaleFactor": 1
+  },
+  "stills": [
+    {
+      "filename": "01-hook-closed.png",
+      "time": 0.3,
+      "caption": "A Bed That Folds",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -419.99999999999983,
+          309.99999999999994,
+          -820
+        ],
+        "direction": [
+          0.47589203763069254,
+          -0.22661525601461552,
+          0.8498072100548086
+        ],
+        "target": [
+          0,
+          110,
+          -70
+        ],
+        "fov": 48
+      }
+    },
+    {
+      "filename": "02-hook-opening.png",
+      "time": 1.05,
+      "caption": "A Bed That Folds",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -419.99999999999983,
+          309.99999999999994,
+          -820
+        ],
+        "direction": [
+          0.47589203763069254,
+          -0.22661525601461552,
+          0.8498072100548086
+        ],
+        "target": [
+          0,
+          110,
+          -70
+        ],
+        "fov": 48
+      }
+    },
+    {
+      "filename": "03-hook-open.png",
+      "time": 1.75,
+      "caption": "A Bed That Folds",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -419.99999999999983,
+          309.99999999999994,
+          -820
+        ],
+        "direction": [
+          0.47589203763069254,
+          -0.22661525601461552,
+          0.8498072100548086
+        ],
+        "target": [
+          0,
+          110,
+          -70
+        ],
+        "fov": 48
+      }
+    },
+    {
+      "filename": "04-overview.png",
+      "time": 3.5,
+      "caption": "From Parts to Product",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -390,
+          270,
+          -590
+        ],
+        "direction": [
+          0.5857969330143818,
+          -0.2162942521899256,
+          0.7810625773525093
+        ],
+        "target": [
+          0,
+          126,
+          -70
+        ],
+        "fov": 52
+      }
+    },
+    {
+      "filename": "05-cabinet-sides.png",
+      "time": 6.4,
+      "caption": "Build the Cabinet",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -270.00000000000006,
+          219.99999999999997,
+          -520
+        ],
+        "direction": [
+          0.4593165414251623,
+          -0.1905313060726598,
+          0.8675979115808621
+        ],
+        "target": [
+          0,
+          108,
+          -10
+        ],
+        "fov": 48
+      }
+    },
+    {
+      "filename": "06-cabinet-panels.png",
+      "time": 8.9,
+      "caption": "Build the Cabinet",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -270.00000000000006,
+          219.99999999999997,
+          -520
+        ],
+        "direction": [
+          0.4593165414251623,
+          -0.1905313060726598,
+          0.8675979115808621
+        ],
+        "target": [
+          0,
+          108,
+          -10
+        ],
+        "fov": 48
+      }
+    },
+    {
+      "filename": "07-cabinet-cap-lift.png",
+      "time": 10.55,
+      "caption": "Complete the Cabinet",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -270.0000000000001,
+          260.00000000000006,
+          -650
+        ],
+        "direction": [
+          0.3672110164957449,
+          -0.14960448820197011,
+          0.9180275412393619
+        ],
+        "target": [
+          0,
+          150,
+          25
+        ],
+        "fov": 50
+      }
+    },
+    {
+      "filename": "08-cabinet-cap-seat.png",
+      "time": 11.75,
+      "caption": "Complete the Cabinet",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -270.0000000000001,
+          260.00000000000006,
+          -650
+        ],
+        "direction": [
+          0.3672110164957449,
+          -0.14960448820197011,
+          0.9180275412393619
+        ],
+        "target": [
+          0,
+          150,
+          25
+        ],
+        "fov": 50
+      }
+    },
+    {
+      "filename": "09-bed-face.png",
+      "time": 13.3,
+      "caption": "Build the Bed Frame",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -240,
+          420,
+          -730.0000000000001
+        ],
+        "direction": [
+          0.3670115214594115,
+          -0.5811015756440682,
+          0.7263769695550854
+        ],
+        "target": [
+          0,
+          40,
+          -255
+        ],
+        "fov": 50
+      }
+    },
+    {
+      "filename": "10-bed-face-grid.png",
+      "time": 15.25,
+      "caption": "Build the Bed Frame",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -240,
+          420,
+          -730.0000000000001
+        ],
+        "direction": [
+          0.3670115214594115,
+          -0.5811015756440682,
+          0.7263769695550854
+        ],
+        "target": [
+          0,
+          40,
+          -255
+        ],
+        "fov": 50
+      }
+    },
+    {
+      "filename": "11-bed-face-close.png",
+      "time": 16.75,
+      "caption": "Build the Bed Frame",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -240,
+          420,
+          -730.0000000000001
+        ],
+        "direction": [
+          0.3670115214594115,
+          -0.5811015756440682,
+          0.7263769695550854
+        ],
+        "target": [
+          0,
+          40,
+          -255
+        ],
+        "fov": 50
+      }
+    },
+    {
+      "filename": "12-bed-carrier-lift.png",
+      "time": 17.65,
+      "caption": "Join the Frames",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          460.00000000000006,
+          600,
+          -1360
+        ],
+        "direction": [
+          -0.24566644256963555,
+          -0.42397273153146775,
+          0.8717196349245131
+        ],
+        "target": [
+          150,
+          65,
+          -260
+        ],
+        "fov": 54
+      }
+    },
+    {
+      "filename": "13-bed-carrier-seat.png",
+      "time": 18.799999999999997,
+      "caption": "Join the Frames",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -330.0000000000001,
+          500,
+          -949.9999999999999
+        ],
+        "direction": [
+          0.37441422726830575,
+          -0.48787308401627705,
+          0.788539054398401
+        ],
+        "target": [
+          0,
+          70,
+          -255
+        ],
+        "fov": 50
+      }
+    },
+    {
+      "filename": "14-corner-support.png",
+      "time": 20.249999999999996,
+      "caption": "Install the Supports",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -279.99999999999994,
+          410.00000000000006,
+          -800
+        ],
+        "direction": [
+          0.393442795580684,
+          -0.5086653285721702,
+          0.7658082985409744
+        ],
+        "target": [
+          0,
+          48,
+          -255
+        ],
+        "fov": 48
+      }
+    },
+    {
+      "filename": "15-first-slat.png",
+      "time": 21.65,
+      "caption": "Fit the Slats",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -279.99999999999994,
+          410.00000000000006,
+          -800
+        ],
+        "direction": [
+          0.393442795580684,
+          -0.5086653285721702,
+          0.7658082985409744
+        ],
+        "target": [
+          0,
+          48,
+          -255
+        ],
+        "fov": 48
+      }
+    },
+    {
+      "filename": "16-slat-progression.png",
+      "time": 23.449999999999996,
+      "caption": "Fit the Slats",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -279.99999999999994,
+          410.00000000000006,
+          -800
+        ],
+        "direction": [
+          0.393442795580684,
+          -0.5086653285721702,
+          0.7658082985409744
+        ],
+        "target": [
+          0,
+          48,
+          -255
+        ],
+        "fov": 48
+      }
+    },
+    {
+      "filename": "17-platform-complete.png",
+      "time": 25,
+      "caption": "Platform Complete",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -279.99999999999994,
+          410.00000000000006,
+          -800
+        ],
+        "direction": [
+          0.393442795580684,
+          -0.5086653285721702,
+          0.7658082985409744
+        ],
+        "target": [
+          0,
+          48,
+          -255
+        ],
+        "fov": 48
+      }
+    },
+    {
+      "filename": "18-mechanism-plate.png",
+      "time": 26.2,
+      "caption": "Fit the Mechanism",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -279.99999999999994,
+          410.00000000000006,
+          -800
+        ],
+        "direction": [
+          0.393442795580684,
+          -0.5086653285721702,
+          0.7658082985409744
+        ],
+        "target": [
+          0,
+          48,
+          -255
+        ],
+        "fov": 48
+      }
+    },
+    {
+      "filename": "19-attach-context.png",
+      "time": 27.3,
+      "caption": "Attach the Bed Frame",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -265,
+          205.00000000000006,
+          -505
+        ],
+        "direction": [
+          0.5591351935971981,
+          -0.21099441267818808,
+          0.801778768177114
+        ],
+        "target": [
+          0,
+          105,
+          -125
+        ],
+        "fov": 52
+      }
+    },
+    {
+      "filename": "20-attach-route.png",
+      "time": 28.8,
+      "caption": "Attach the Bed Frame",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -265,
+          205.00000000000006,
+          -505
+        ],
+        "direction": [
+          0.5591351935971981,
+          -0.21099441267818808,
+          0.801778768177114
+        ],
+        "target": [
+          0,
+          105,
+          -125
+        ],
+        "fov": 52
+      }
+    },
+    {
+      "filename": "21-attach-pivot-seat.png",
+      "time": 31,
+      "caption": "Seat the Pivot",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -116.9,
+          37.5,
+          -13
+        ],
+        "direction": [
+          0.23499810407419122,
+          -0.2473664253412532,
+          0.9399924162967623
+        ],
+        "target": [
+          -115.95,
+          36.5,
+          -9.2
+        ],
+        "fov": 85
+      }
+    },
+    {
+      "filename": "22-attach-pivot-retain.png",
+      "time": 34,
+      "caption": "Secure the Pivot",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -116.9,
+          37.5,
+          -13
+        ],
+        "direction": [
+          0.23499810407419122,
+          -0.2473664253412532,
+          0.9399924162967623
+        ],
+        "target": [
+          -115.95,
+          36.5,
+          -9.2
+        ],
+        "fov": 85
+      }
+    },
+    {
+      "filename": "23-attach-result.png",
+      "time": 37,
+      "caption": "Bed Frame Connected",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -265,
+          205.00000000000006,
+          -505
+        ],
+        "direction": [
+          0.5591351935971981,
+          -0.21099441267818808,
+          0.801778768177114
+        ],
+        "target": [
+          0,
+          105,
+          -125
+        ],
+        "fov": 52
+      }
+    },
+    {
+      "filename": "24-piston-first.png",
+      "time": 39.75,
+      "caption": "Connect the Gas Pistons",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -114.3,
+          116,
+          17
+        ],
+        "direction": [
+          -0.0890870806374748,
+          -0.44543540318737396,
+          -0.8908708063747479
+        ],
+        "target": [
+          -115.3,
+          111,
+          7
+        ],
+        "fov": 88
+      }
+    },
+    {
+      "filename": "25-piston-opposite.png",
+      "time": 42.5,
+      "caption": "Connect the Gas Pistons",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          114.3,
+          116,
+          17
+        ],
+        "direction": [
+          0.0890870806374748,
+          -0.44543540318737396,
+          -0.8908708063747479
+        ],
+        "target": [
+          115.3,
+          111,
+          7
+        ],
+        "fov": 88
+      }
+    },
+    {
+      "filename": "26-mechanism-secured.png",
+      "time": 43.75,
+      "caption": "Mechanism Secured",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          114.3,
+          116,
+          17
+        ],
+        "direction": [
+          0.0890870806374748,
+          -0.44543540318737396,
+          -0.8908708063747479
+        ],
+        "target": [
+          115.3,
+          111,
+          7
+        ],
+        "fov": 88
+      }
+    },
+    {
+      "filename": "27-mechanism-pullback.png",
+      "time": 44.25,
+      "caption": "Test the Mechanism",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -285.00000000000006,
+          204.99999999999994,
+          -450.00000000000006
+        ],
+        "direction": [
+          0.5752026534451015,
+          -0.20788025720998388,
+          0.7911559303525604
+        ],
+        "target": [
+          0,
+          102,
+          -58
+        ],
+        "fov": 48
+      }
+    },
+    {
+      "filename": "28-mechanism-test.png",
+      "time": 45.25,
+      "caption": "Test the Mechanism",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -285.00000000000006,
+          204.99999999999994,
+          -450.00000000000006
+        ],
+        "direction": [
+          0.5752026534451015,
+          -0.20788025720998388,
+          0.7911559303525604
+        ],
+        "target": [
+          0,
+          102,
+          -58
+        ],
+        "fov": 48
+      }
+    },
+    {
+      "filename": "29-leg-install.png",
+      "time": 47,
+      "caption": "Fit the Legs",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -350,
+          330.00000000000006,
+          -620
+        ],
+        "direction": [
+          0.5186215416445066,
+          -0.4267514399817655,
+          0.7408879166350096
+        ],
+        "target": [
+          0,
+          42,
+          -120
+        ],
+        "fov": 50
+      }
+    },
+    {
+      "filename": "30-leg-fold-test.png",
+      "time": 48.9,
+      "caption": "Fold the Legs",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -350,
+          330.00000000000006,
+          -620
+        ],
+        "direction": [
+          0.5186215416445066,
+          -0.4267514399817655,
+          0.7408879166350096
+        ],
+        "target": [
+          0,
+          42,
+          -120
+        ],
+        "fov": 50
+      }
+    },
+    {
+      "filename": "31-wall-secured.png",
+      "time": 50.9,
+      "caption": "Secure to the Wall",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -270.00000000000006,
+          219.99999999999997,
+          -520
+        ],
+        "direction": [
+          0.4593165414251623,
+          -0.1905313060726598,
+          0.8675979115808621
+        ],
+        "target": [
+          0,
+          108,
+          -10
+        ],
+        "fov": 48
+      }
+    },
+    {
+      "filename": "32-final-finished.png",
+      "time": 52.5,
+      "caption": "Ready to Use",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -419.99999999999983,
+          309.99999999999994,
+          -820
+        ],
+        "direction": [
+          0.47589203763069254,
+          -0.22661525601461552,
+          0.8498072100548086
+        ],
+        "target": [
+          0,
+          110,
+          -70
+        ],
+        "fov": 48
+      }
+    },
+    {
+      "filename": "33-final-close.png",
+      "time": 54,
+      "caption": "Ready to Use",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -419.99999999999983,
+          309.99999999999994,
+          -820
+        ],
+        "direction": [
+          0.47589203763069254,
+          -0.22661525601461552,
+          0.8498072100548086
+        ],
+        "target": [
+          0,
+          110,
+          -70
+        ],
+        "fov": 48
+      }
+    },
+    {
+      "filename": "34-final-open.png",
+      "time": 56,
+      "caption": "Ready to Use",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -419.99999999999983,
+          309.99999999999994,
+          -820
+        ],
+        "direction": [
+          0.47589203763069254,
+          -0.22661525601461552,
+          0.8498072100548086
+        ],
+        "target": [
+          0,
+          110,
+          -70
+        ],
+        "fov": 48
+      }
+    },
+    {
+      "filename": "35-final-hero.png",
+      "time": 57.5,
+      "caption": "Ready to Use",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -419.99999999999983,
+          309.99999999999994,
+          -820
+        ],
+        "direction": [
+          0.47589203763069254,
+          -0.22661525601461552,
+          0.8498072100548086
+        ],
+        "target": [
+          0,
+          110,
+          -70
+        ],
+        "fov": 48
+      }
+    }
+  ],
+  "captionSafeArea": "PASS",
+  "deterministic": [
+    {
+      "time": 0,
+      "sha256": "3fa95949059ae5000efbb222a54a7d3df26817d36b4870d69d8a28f9f4426db6"
+    },
+    {
+      "time": 8,
+      "sha256": "dd91f006c897c72db6521fb2a6eb917378283c36bd19039dee86d18addc76142"
+    },
+    {
+      "time": 25,
+      "sha256": "e6e29920e398e51da1f599bf88f439c0e41cf19e802a89a33d8be5470d27a902"
+    },
+    {
+      "time": 34,
+      "sha256": "932b08113b704724896ff182c308af2745cfb6ae32c7e05b3aabeb1949843b99"
+    },
+    {
+      "time": 41,
+      "sha256": "a2bb348489d335658cb15fc5b04ef868b3ac5ee2724dd6f4fac74895ada3b33d"
+    },
+    {
+      "time": 48,
+      "sha256": "d35d3a312531f5cdd5c0e01fe6f990951e7d767ad81457ffdd257667e604eb1a"
+    },
+    {
+      "time": 57.5,
+      "sha256": "a2948261c0e2ddaf0668f3e9df9e124630549788ce79153c81e962712f4be07d"
+    }
+  ],
+  "creativeHash": "37319086663ab2abba1f83e8829237da369aa4a41c6f8bd43bea46f151383b36",
+  "rendererSourceHash": "f744374bdb755f52a7f4eefcc2af4931d762b4fb3c0c2f2c333608d37f90e901",
+  "nativeEvidenceReused": {
+    "reason": "Short02 native preflight reused at exact same frozen creative and renderer hashes; only QA navigation budget changed.",
+    "rendererSourceHash": "f744374bdb755f52a7f4eefcc2af4931d762b4fb3c0c2f2c333608d37f90e901"
+  },
+  "stage": "short-resume-PASS",
+  "longPlayScrub": "PASS",
+  "smokeInitial": {
+    "id": "8e23a36a-5360-4a15-ba2f-8fcf9672ca29",
+    "productId": "wf311613-final-micro-pass",
+    "productName": "Standalone Murphy Bed \u00b7 Final micro-pass \u00b7 QA only",
+    "filename": "WF311613-short02-visual-review-v1-vertical-1080p.mp4",
+    "outputFilename": "WF311613-short02-visual-review-v1-vertical-1080p.mp4",
+    "outputPath": "/Users/quyth/development/three/POC/output/export-jobs/render-vertical-1080p-e7ecb50d55c4-8e23a36a-5360-4a15-ba2f-8fcf9672ca29/final/WF311613-short02-visual-review-v1-vertical-1080p.mp4",
+    "frameDirectory": "/Users/quyth/development/three/POC/output/export-jobs/render-vertical-1080p-e7ecb50d55c4-8e23a36a-5360-4a15-ba2f-8fcf9672ca29/frames",
+    "profileId": "vertical-1080p",
+    "profileLabel": "Vertical \u2014 1080\u00d71920",
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "videoId": "wf311613-short02-visual-v1",
+    "videoHash": "81dcb5c8340d58e81aa5cc582854998c7c8c555e880d046a74f493490f5ce383",
+    "renderIdentity": "e90217227f59ecc72753fd8463136f7e3f0f01d5f4f914d0203909ed6dfeed81",
+    "creativeHash": "37319086663ab2abba1f83e8829237da369aa4a41c6f8bd43bea46f151383b36",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 58,
+    "timelineDuration": 58,
+    "frameLimit": 6,
+    "status": "queued",
+    "progress": 0,
+    "progressKind": "indeterminate",
+    "currentFrame": 0,
+    "totalFrames": 6,
+    "message": "Waiting to prepare generation\u2026",
+    "createdAt": "2026-10-06T10:56:36.393Z",
+    "stage": "queued",
+    "validFrames": 0,
+    "completedChunks": 0,
+    "totalChunks": 3,
+    "chunkSize": 2,
+    "elapsedSeconds": 0,
+    "canResume": false,
+    "canCancel": true,
+    "canDelete": false,
+    "hasAudio": false
+  },
+  "cancelled": {
+    "id": "8e23a36a-5360-4a15-ba2f-8fcf9672ca29",
+    "productId": "wf311613-final-micro-pass",
+    "productName": "Standalone Murphy Bed \u00b7 Final micro-pass \u00b7 QA only",
+    "filename": "WF311613-short02-visual-review-v1-vertical-1080p.mp4",
+    "outputFilename": "WF311613-short02-visual-review-v1-vertical-1080p.mp4",
+    "outputPath": "/Users/quyth/development/three/POC/output/export-jobs/render-vertical-1080p-e7ecb50d55c4-8e23a36a-5360-4a15-ba2f-8fcf9672ca29/final/WF311613-short02-visual-review-v1-vertical-1080p.mp4",
+    "frameDirectory": "/Users/quyth/development/three/POC/output/export-jobs/render-vertical-1080p-e7ecb50d55c4-8e23a36a-5360-4a15-ba2f-8fcf9672ca29/frames",
+    "profileId": "vertical-1080p",
+    "profileLabel": "Vertical \u2014 1080\u00d71920",
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "videoId": "wf311613-short02-visual-v1",
+    "videoHash": "81dcb5c8340d58e81aa5cc582854998c7c8c555e880d046a74f493490f5ce383",
+    "renderIdentity": "e90217227f59ecc72753fd8463136f7e3f0f01d5f4f914d0203909ed6dfeed81",
+    "creativeHash": "37319086663ab2abba1f83e8829237da369aa4a41c6f8bd43bea46f151383b36",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 58,
+    "timelineDuration": 58,
+    "frameLimit": 6,
+    "status": "cancelled",
+    "progress": 17,
+    "progressKind": "indeterminate",
+    "currentFrame": 1,
+    "totalFrames": 6,
+    "message": "Generation cancelled. Checkpoint and valid frames kept.",
+    "createdAt": "2026-10-06T10:56:36.393Z",
+    "updatedAt": "2026-10-06T10:58:10.325Z",
+    "validFrames": 1,
+    "currentChunk": {
+      "index": 0,
+      "start": 0,
+      "end": 1,
+      "status": "rendering",
+      "validFrames": 1,
+      "retries": 0
+    },
+    "stage": "cancelled",
+    "completedChunks": 0,
+    "totalChunks": 3,
+    "chunkSize": 2,
+    "elapsedSeconds": 93,
+    "canResume": true,
+    "canCancel": false,
+    "canDelete": true,
+    "hasAudio": false
+  },
+  "smokeCompleted": {
+    "id": "8e23a36a-5360-4a15-ba2f-8fcf9672ca29",
+    "productId": "wf311613-final-micro-pass",
+    "productName": "Standalone Murphy Bed \u00b7 Final micro-pass \u00b7 QA only",
+    "filename": "WF311613-short02-visual-review-v1-vertical-1080p.mp4",
+    "outputFilename": "WF311613-short02-visual-review-v1-vertical-1080p.mp4",
+    "outputPath": "/Users/quyth/development/three/POC/output/export-jobs/render-vertical-1080p-e7ecb50d55c4-8e23a36a-5360-4a15-ba2f-8fcf9672ca29/final/WF311613-short02-visual-review-v1-vertical-1080p.mp4",
+    "frameDirectory": "/Users/quyth/development/three/POC/output/export-jobs/render-vertical-1080p-e7ecb50d55c4-8e23a36a-5360-4a15-ba2f-8fcf9672ca29/frames",
+    "profileId": "vertical-1080p",
+    "profileLabel": "Vertical \u2014 1080\u00d71920",
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "videoId": "wf311613-short02-visual-v1",
+    "videoHash": "81dcb5c8340d58e81aa5cc582854998c7c8c555e880d046a74f493490f5ce383",
+    "renderIdentity": "e90217227f59ecc72753fd8463136f7e3f0f01d5f4f914d0203909ed6dfeed81",
+    "creativeHash": "37319086663ab2abba1f83e8829237da369aa4a41c6f8bd43bea46f151383b36",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 58,
+    "timelineDuration": 58,
+    "frameLimit": 6,
+    "status": "completed",
+    "progress": 100,
+    "progressKind": "complete",
+    "currentFrame": 6,
+    "totalFrames": 6,
+    "message": "Generation complete. Ready to download.",
+    "createdAt": "2026-10-06T10:56:36.393Z",
+    "updatedAt": "2026-10-06T11:04:39.047Z",
+    "validFrames": 6,
+    "currentChunk": {
+      "index": 2,
+      "start": 4,
+      "end": 5,
+      "status": "completed",
+      "validFrames": 2,
+      "retries": 0
+    },
+    "sha256": "a02b959e7727713fc81edd6f0fe3d1c7ba1ab60808cdd4ddc0df7fc754ffa3f8",
+    "fileSize": 55313,
+    "outputDuration": 0.2,
+    "downloadUrl": "/api/export/8e23a36a-5360-4a15-ba2f-8fcf9672ca29/download",
+    "stage": "completed",
+    "completedChunks": 3,
+    "totalChunks": 3,
+    "chunkSize": 2,
+    "elapsedSeconds": 374,
+    "canResume": false,
+    "canCancel": false,
+    "canDelete": true,
+    "hasAudio": false
+  },
+  "refreshShort": "PASS",
+  "switchJobIsolation": "PASS",
+  "cancelResume": "PASS",
+  "noShortProduct": "PASS",
+  "longDefaultDurationProfile": "PASS",
+  "independentChunkBoundary": "PASS"
+}

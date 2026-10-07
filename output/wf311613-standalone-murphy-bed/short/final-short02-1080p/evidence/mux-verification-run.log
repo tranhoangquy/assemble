@@ -1,0 +1,156 @@
+MUX DONE
+FRAME DECODE source
+FRAME DECODE review
+{
+  "status": "PASS",
+  "scope": "Mandatory final technical media QA; director authorized final designation; agent actual listening NOT RUN",
+  "intended_timeline_seconds": 58,
+  "video": {
+    "duration": "58.000000",
+    "codec": "h264",
+    "pix_fmt": "yuv420p",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 1740,
+    "bitstream_payload_and_packet_timing_identical": true,
+    "decoded_all_1740_frames_and_timestamps_identical": true,
+    "original_approved_visual_packet_identity": true,
+    "codec_extradata_identical": true,
+    "stream_time_base": "1/15360"
+  },
+  "audio": {
+    "wav_codec": "pcm_s24le",
+    "wav_samples_per_channel": 2784000,
+    "wav_duration_seconds": 58.0,
+    "review_codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "declared_duration_seconds": 58.0,
+    "review_decoded_samples_per_channel": 2784256,
+    "aac_padding_samples_per_channel": 256,
+    "aac_padding_seconds": 0.005333333333333333,
+    "padding_note": "AAC uses whole 1024-sample frames. MP4 duration/edit metadata defines 58s; decoder may expose trailing frame padding. No video extension or truncation.",
+    "encoded_loudness": {
+      "input_i": "-14.51",
+      "input_tp": "-3.96",
+      "input_lra": "1.30",
+      "input_thresh": "-24.54"
+    },
+    "wav_final_sample_zero": true,
+    "finite_samples": true,
+    "clipped_samples": 0,
+    "interior_100ms_silence_below_minus70dbfs": [],
+    "100ms_below_minus70_including_tail": [],
+    "seam_diagnostics": [
+      {
+        "nominal_seconds": 26.3480392157,
+        "max_adjacent_sample_step_within_10ms": 0.019269704818725586,
+        "overall_max_adjacent_sample_step": 0.2379378080368042,
+        "interpretation": "Numeric diagnostic only; not an audible click/pop listening verdict."
+      },
+      {
+        "nominal_seconds": 26.9607843137,
+        "max_adjacent_sample_step_within_10ms": 0.09752345085144043,
+        "overall_max_adjacent_sample_step": 0.2379378080368042,
+        "interpretation": "Numeric diagnostic only; not an audible click/pop listening verdict."
+      },
+      {
+        "nominal_seconds": 57.7,
+        "max_adjacent_sample_step_within_10ms": 0.01571500301361084,
+        "overall_max_adjacent_sample_step": 0.2379378080368042,
+        "interpretation": "Numeric diagnostic only; not an audible click/pop listening verdict."
+      }
+    ]
+  },
+  "av_sync": {
+    "status": "PASS",
+    "video_start": "0.000000",
+    "audio_start": "0.000000",
+    "waveform_alignment": [
+      {
+        "global_seconds": 1,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9999762077750441,
+        "rms_error_dbfs": -58.86470413208008
+      },
+      {
+        "global_seconds": 25,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9997918456852265,
+        "rms_error_dbfs": -48.70989990234375
+      },
+      {
+        "global_seconds": 26.7,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9999769278716556,
+        "rms_error_dbfs": -58.56405258178711
+      },
+      {
+        "global_seconds": 35,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9999896059588226,
+        "rms_error_dbfs": -61.83365249633789
+      },
+      {
+        "global_seconds": 43,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9999145562165356,
+        "rms_error_dbfs": -52.709259033203125
+      },
+      {
+        "global_seconds": 53,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9999071831848793,
+        "rms_error_dbfs": -52.26484298706055
+      },
+      {
+        "global_seconds": 56.8,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9999901459726378,
+        "rms_error_dbfs": -64.31542205810547
+      }
+    ],
+    "note": "Zero measured lag at seven locations including splice and end; no drift. Perceptual rhythm/picture fit remains director review."
+  },
+  "full_av_decode": "PASS",
+  "faststart": {
+    "status": "PASS",
+    "atoms": [
+      {
+        "type": "ftyp",
+        "offset": 0,
+        "size": 32
+      },
+      {
+        "type": "moov",
+        "offset": 32,
+        "size": 64913
+      },
+      {
+        "type": "free",
+        "offset": 64945,
+        "size": 8
+      },
+      {
+        "type": "mdat",
+        "offset": 64953,
+        "size": 7152693
+      }
+    ]
+  },
+  "hashes": {
+    "wav": "5ba9089960a09efb55e3e3a57e32ffb11692f2e134b5f1378097101fe883785a",
+    "review_mp4": "e24317a8787379ad9ba2aab19d5d58fd1012953de6a73a923759d492035c4a79",
+    "preview_m4a": "3020b13dec09088561fb793316a6349d12eb1d657b45659f1f493b127828af56"
+  },
+  "actual_listening": "NOT RUN",
+  "voice_check": "VOICE_CONTENT_REQUIRES_DIRECTOR_LISTENING"
+}

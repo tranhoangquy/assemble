@@ -20,6 +20,7 @@ import {fullReviewCheckpoints} from './validation/full-checkpoints';
 import {polishPlan,polishAssembly,polishVideo,polishCheckpoints} from './director/polish-pass01';
 import {polish02Plan,polish02Assembly,polish02Video,polish02Checkpoints} from './director/polish-pass02';
 import {polish02bId,polish02bVideo,polish02bCheckpoints} from './director/polish-pass02b';
+import {short02Video} from './director/short02';
 import {microId,microVideo,microCheckpoints} from './director/final-micro-pass';
 
 export const productKey = 'wf311613-standalone-murphy-bed';
@@ -37,7 +38,7 @@ function checkpoints(plan: DirectorPlan): RenderCheckpoint[] {
 const entry = (id:string,label:string,filename:string,reviewDirectory:string,product:ProductPackage['product'],assembly:ProductPackage['assembly'],video:ProductPackage['video'],plan?:DirectorPlan):ProductPackage => ({id,productKey,label,filename,reviewDirectory,product,assembly,video,directorPlan:plan,checkpoints:plan?checkpoints(plan):[]});
 export const packages: readonly ProductPackage[] = [
   {...entry(polish02bId,'Standalone Murphy Bed · Director polish 02B · QA only','wf311613-director-polish-02b-review.mp4','director-polish-02b',fullProduct,polish02Assembly,polish02bVideo,polish02Plan),checkpoints:polish02bCheckpoints},
-  {...entry(microId,'Standalone Murphy Bed · Final micro-pass · QA only','wf311613-final-micro-pass-review.mp4','final-micro-pass',fullProduct,polish02Assembly,microVideo,polish02Plan),checkpoints:microCheckpoints},
+  {...entry(microId,'Standalone Murphy Bed · Final micro-pass · QA only','wf311613-final-micro-pass-review.mp4','final-micro-pass',fullProduct,polish02Assembly,microVideo,polish02Plan),checkpoints:microCheckpoints,shortPresentation:{video:short02Video,filename:'WF311613-short02-visual-review-v1.mp4'}},
   {...entry(polish02Plan.id,'Standalone Murphy Bed · Director polish 02 · QA only','wf311613-director-polish-02-review.mp4','director-polish-02',fullProduct,polish02Assembly,polish02Video,polish02Plan),checkpoints:polish02Checkpoints},
   {...entry(polishPlan.id,'WF311613 · Director polish 01 · bedroom QA (not reviewed)','wf311613-director-polish-01-review.mp4','director-polish-01',fullProduct,polishAssembly,polishVideo,polishPlan),checkpoints:polishCheckpoints},
   {...entry(fullPlan.id,'WF311613 · Complete PDF Steps 1–31 director review','wf311613-full-assembly-review.mp4','full-assembly',fullProduct,fullAssembly,fullVideo,fullPlan),checkpoints:fullReviewCheckpoints},

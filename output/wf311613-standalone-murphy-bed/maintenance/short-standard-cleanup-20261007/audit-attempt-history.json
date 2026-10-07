@@ -1,0 +1,12 @@
+{
+  "first_attempt": {
+    "status": "FAIL_BEFORE_DELETION",
+    "reason": "Local audit script transcribed the historical silent Long hash without the 51b7 segment. The immutable input itself was unchanged.",
+    "incorrect_expected_hash": "0d5d898cbfaecb4573f07e818ce722c6884cbd4dc67d7c6c724f404ba0a"
+  },
+  "correction": {
+    "authoritative_expected_hash": "0d5d898cbfaecb4573f07e818ce722c6884cbd4dc67d7c51b7c6c724f404ba0a",
+    "source": "Existing director-approved Long hash and previous source-preflight/approval records"
+  },
+  "second_attempt": "PASS; manifest completed and protected hashes verified before any deletion"
+}

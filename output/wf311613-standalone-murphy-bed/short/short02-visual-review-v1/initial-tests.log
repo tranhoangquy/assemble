@@ -1,0 +1,31 @@
+
+> furniture-video-engine@0.2.0 test
+> vitest run src/engine/video/PresentationSelection.test.ts src/products/wf311613-standalone-murphy-bed/tests/short02.test.ts src/products/wf311613-standalone-murphy-bed/tests/short01.test.ts
+
+
+ RUN  v4.1.11 /Users/quyth/development/three/POC
+
+(node:35279) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:35280) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ❯ src/engine/video/PresentationSelection.test.ts (11 tests | 1 failed) 27ms
+     × maps per-shot forwardwindows, hold and hardcuts without a global multiplier 3ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/engine/video/PresentationSelection.test.ts > same product, two presentations > maps per-shot forwardwindows, hold and hardcuts without a global multiplier
+AssertionError: expected 515.2536938888888 to be close to 516.4536938888888, received difference is 1.1999999999999318, but expected 0.005
+ ❯ src/engine/video/PresentationSelection.test.ts:21:187
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 2 passed (3)
+      Tests  1 failed | 14 passed (15)
+   Start at  17:46:00
+   Duration  2.42s (transform 633ms, setup 0ms, import 1.13s, tests 3.81s, environment 0ms)
+

@@ -1,0 +1,26 @@
+{
+  "status": "PASS_EXPECTED_DELTA",
+  "preexisting_status_entries": 45,
+  "after_status_entries": 2129,
+  "new_tracked_disposable_deletions": 2086,
+  "new_nondeletion_entries": [
+    " M AGENTS.md",
+    " M rules/long-form-assembly-video.md",
+    "?? .agents/skills/short-form-assembly-video/",
+    "?? rules/production-artifact-retention.md",
+    "?? rules/short-form-assembly-video.md"
+  ],
+  "removed_status_entries": [
+    " M output/export-jobs/render-1440p-4f65982e9702-f2f12f33-1149-42b5-8368-b121e5e94012/manifest.json",
+    "?? output/export-jobs/render-vertical-1080p-1529cb52c1f6-09a6b9d9-2d5c-47a6-bc9e-753d69982299/",
+    "?? output/export-jobs/render-vertical-1080p-1529cb52c1f6-17af60ac-e3ba-4bd3-b62e-ab0bf7ba9201/",
+    "?? output/export-jobs/render-vertical-1080p-5fdbffb9812f-7995136a-9903-4d60-9e41-b6b7ec825233/",
+    "?? output/export-jobs/render-vertical-1080p-5fdbffb9812f-83efd779-6e68-4ac7-90a4-9df53f85aadf/",
+    "?? output/export-jobs/render-vertical-1080p-5fdbffb9812f-aacd9093-480f-4fe2-9ab2-0b29a8a1801c/",
+    "?? output/export-jobs/render-vertical-1080p-e7ecb50d55c4-8e23a36a-5360-4a15-ba2f-8fcf9672ca29/"
+  ],
+  "preexisting_source_changes_preserved": true,
+  "history_operations": false,
+  "git_gc": false,
+  "lfs_policy_changes": false
+}

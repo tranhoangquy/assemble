@@ -13,6 +13,8 @@ export interface ProductPackage {
   product: ProductDefinition;
   assembly: AssemblyDefinition;
   video: VideoDefinition;
+  /** Optional presentation over the same product and AssemblyGraph. Long stays the default. */
+  shortPresentation?: { video: VideoDefinition; filename: string; checkpoints?: RenderCheckpoint[]; }; 
   directorPlan?: DirectorPlan;
   checkpoints?: RenderCheckpoint[];
   /** Server-owned, explicitly approved soundtrack; never selected from client paths. */

@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "comparison": "Fresh browser seek versus every full-job work-chunk boundary and functional endpoints",
+  "frames": [
+    {
+      "index": 1739,
+      "time": 57.96666666666667,
+      "sha256": "a2948261c0e2ddaf0668f3e9df9e124630549788ce79153c81e962712f4be07d",
+      "status": "PASS"
+    },
+    {
+      "index": 0,
+      "time": 0,
+      "sha256": "3fa95949059ae5000efbb222a54a7d3df26817d36b4870d69d8a28f9f4426db6",
+      "status": "PASS"
+    },
+    {
+      "index": 45,
+      "time": 1.5,
+      "sha256": "15f8fe6142579437659e53354eedfa501ba32a3518df8b8192e562edaeab59d7",
+      "status": "PASS"
+    },
+    {
+      "index": 59,
+      "time": 1.9666666666666666,
+      "sha256": "15f8fe6142579437659e53354eedfa501ba32a3518df8b8192e562edaeab59d7",
+      "status": "PASS"
+    },
+    {
+      "index": 60,
+      "time": 2,
+      "sha256": "bf9ad28fe0a8568e1846581f5d219332d57ccf93fec9b12dee90244a6b332307",
+      "status": "PASS"
+    },
+    {
+      "index": 299,
+      "time": 9.966666666666667,
+      "sha256": "b41ce1bb5ba5b7903c7cb735c67c388241684381b6339467d6e4db39cc167482",
+      "status": "PASS"
+    },
+    {
+      "index": 300,
+      "time": 10,
+      "sha256": "798b1ffe74fc32a77946e4760edb43a789925573366fa2aa63736174390395f6",
+      "status": "PASS"
+    },
+    {
+      "index": 599,
+      "time": 19.966666666666665,
+      "sha256": "187ade25039ab4e954729a720b118cc3acdc333c300afff0e74d39214f733ee7",
+      "status": "PASS"
+    },
+    {
+      "index": 600,
+      "time": 20,
+      "sha256": "187ade25039ab4e954729a720b118cc3acdc333c300afff0e74d39214f733ee7",
+      "status": "PASS"
+    },
+    {
+      "index": 899,
+      "time": 29.966666666666665,
+      "sha256": "bedb56fd4523c7897b8850e654605b6f7e6d332a8ea79f9774e9ed341446e795",
+      "status": "PASS"
+    },
+    {
+      "index": 900,
+      "time": 30,
+      "sha256": "aefd40fd812d94c58a0311c2baa80f859a0b09f5edfb605c2a857f601a4eb4c4",
+      "status": "PASS"
+    },
+    {
+      "index": 1199,
+      "time": 39.96666666666667,
+      "sha256": "54408f2a7aaee4221d731645a27fe1043c909cfaa2e57f43506175e8c04471a4",
+      "status": "PASS"
+    },
+    {
+      "index": 1200,
+      "time": 40,
+      "sha256": "f9e721987e3901723bfd9cce7a381fb25511241682b74d2bd6eeb57aed65bf8f",
+      "status": "PASS"
+    },
+    {
+      "index": 1499,
+      "time": 49.96666666666667,
+      "sha256": "c135c34a738adab1cb0e0bbf1538bcb39972aa11bd86a38a30baa02e7997c51e",
+      "status": "PASS"
+    },
+    {
+      "index": 1500,
+      "time": 50,
+      "sha256": "c135c34a738adab1cb0e0bbf1538bcb39972aa11bd86a38a30baa02e7997c51e",
+      "status": "PASS"
+    },
+    {
+      "index": 1649,
+      "time": 54.96666666666667,
+      "sha256": "4280bb85e8ba118356ded15412a906cbc79dc03d6577d1d670dfe4ffff42ca36",
+      "status": "PASS"
+    },
+    {
+      "index": 1650,
+      "time": 55,
+      "sha256": "4280bb85e8ba118356ded15412a906cbc79dc03d6577d1d670dfe4ffff42ca36",
+      "status": "PASS"
+    },
+    {
+      "index": 1710,
+      "time": 57,
+      "sha256": "a2948261c0e2ddaf0668f3e9df9e124630549788ce79153c81e962712f4be07d",
+      "status": "PASS"
+    }
+  ]
+}

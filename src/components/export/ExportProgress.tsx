@@ -11,7 +11,7 @@ export function ExportProgress({job,onResume,onCancel,onDelete,busy=false}:{job:
   return <div className={`export-progress ${job.status}`} aria-live="polite">
     <div role="progressbar" aria-label="Overall generation progress" aria-valuemin={0} aria-valuemax={100} aria-valuenow={job.progress}><span style={{width:`${job.progress}%`}}/></div>
     <p><b>{exportStageLabels[job.status]}</b><em>{job.progress}% overall</em></p>
-    <small>{job.message}</small>
+    <small>{job.width<job.height?'Short Video':'Long Video'} · {job.message}</small>
     <dl className="export-job-metrics">
       <div><dt>Frames</dt><dd>{(job.validFrames??job.currentFrame).toLocaleString()} / {job.totalFrames.toLocaleString()} valid</dd></div>
       <div><dt>Chunks</dt><dd>{job.completedChunks??0} / {job.totalChunks??1} completed</dd></div>

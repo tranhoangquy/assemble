@@ -1,0 +1,57 @@
+[
+  {
+    "original": "output/export-jobs/render-vertical-1080p-1529cb52c1f6-17af60ac-e3ba-4bd3-b62e-ab0bf7ba9201/manifest.json",
+    "retained": "output/wf311613-standalone-murphy-bed/maintenance/short-standard-cleanup-20261007/retained-job-evidence/render-vertical-1080p-1529cb52c1f6-17af60ac-e3ba-4bd3-b62e-ab0bf7ba9201/manifest.json",
+    "sha256": "e680118dcc5682cc1f7c298f445585a7282dc09a10fead0356290950ad03fddf"
+  },
+  {
+    "original": "output/export-jobs/render-vertical-1080p-1529cb52c1f6-17af60ac-e3ba-4bd3-b62e-ab0bf7ba9201/logs/verification.json",
+    "retained": "output/wf311613-standalone-murphy-bed/maintenance/short-standard-cleanup-20261007/retained-job-evidence/render-vertical-1080p-1529cb52c1f6-17af60ac-e3ba-4bd3-b62e-ab0bf7ba9201/logs/verification.json",
+    "sha256": "4a9b090517dbe87033996c17d2b5746a640261b26f535c22c30faf5233d608bf"
+  },
+  {
+    "original": "output/export-jobs/render-vertical-1080p-1529cb52c1f6-09a6b9d9-2d5c-47a6-bc9e-753d69982299/manifest.json",
+    "retained": "output/wf311613-standalone-murphy-bed/maintenance/short-standard-cleanup-20261007/retained-job-evidence/render-vertical-1080p-1529cb52c1f6-09a6b9d9-2d5c-47a6-bc9e-753d69982299/manifest.json",
+    "sha256": "b93dd4b9ae4aea68f4cdc5e6974ea0147b22106b9c3a876000b55c97793941c0"
+  },
+  {
+    "original": "output/export-jobs/render-vertical-1080p-1529cb52c1f6-09a6b9d9-2d5c-47a6-bc9e-753d69982299/logs/verification.json",
+    "retained": "output/wf311613-standalone-murphy-bed/maintenance/short-standard-cleanup-20261007/retained-job-evidence/render-vertical-1080p-1529cb52c1f6-09a6b9d9-2d5c-47a6-bc9e-753d69982299/logs/verification.json",
+    "sha256": "0a6b097bcdcd3fd3d112caf3ee2891e1fd5c3219ae00492d7ada75e482b69a7a"
+  },
+  {
+    "original": "output/export-jobs/render-1440p-4f65982e9702-f2f12f33-1149-42b5-8368-b121e5e94012/manifest.json",
+    "retained": "output/wf311613-standalone-murphy-bed/maintenance/short-standard-cleanup-20261007/retained-job-evidence/render-1440p-4f65982e9702-f2f12f33-1149-42b5-8368-b121e5e94012/manifest.json",
+    "sha256": "d7999a60fbca29009f4734fb150f37e6318f84d330042851aebb448c56ef49fe"
+  },
+  {
+    "original": "output/export-jobs/render-vertical-1080p-e7ecb50d55c4-8e23a36a-5360-4a15-ba2f-8fcf9672ca29/manifest.json",
+    "retained": "output/wf311613-standalone-murphy-bed/maintenance/short-standard-cleanup-20261007/retained-job-evidence/render-vertical-1080p-e7ecb50d55c4-8e23a36a-5360-4a15-ba2f-8fcf9672ca29/manifest.json",
+    "sha256": "34a0e22a1f0af046391b212dff563ed914b9cefd76c04857de54f9b1ae3107ed"
+  },
+  {
+    "original": "output/export-jobs/render-vertical-1080p-e7ecb50d55c4-8e23a36a-5360-4a15-ba2f-8fcf9672ca29/logs/verification.json",
+    "retained": "output/wf311613-standalone-murphy-bed/maintenance/short-standard-cleanup-20261007/retained-job-evidence/render-vertical-1080p-e7ecb50d55c4-8e23a36a-5360-4a15-ba2f-8fcf9672ca29/logs/verification.json",
+    "sha256": "3c3f8bf08684066870af200b49a2c2edda7b40c514eb85195e3e87da483ea3ff"
+  },
+  {
+    "original": "output/export-jobs/render-vertical-1080p-5fdbffb9812f-83efd779-6e68-4ac7-90a4-9df53f85aadf/manifest.json",
+    "retained": "output/wf311613-standalone-murphy-bed/maintenance/short-standard-cleanup-20261007/retained-job-evidence/render-vertical-1080p-5fdbffb9812f-83efd779-6e68-4ac7-90a4-9df53f85aadf/manifest.json",
+    "sha256": "0a24d894ea52d969fbc8d9b88c45729cc90b580c2ff0f4455df2c11c85464873"
+  },
+  {
+    "original": "output/export-jobs/render-vertical-1080p-5fdbffb9812f-7995136a-9903-4d60-9e41-b6b7ec825233/manifest.json",
+    "retained": "output/wf311613-standalone-murphy-bed/maintenance/short-standard-cleanup-20261007/retained-job-evidence/render-vertical-1080p-5fdbffb9812f-7995136a-9903-4d60-9e41-b6b7ec825233/manifest.json",
+    "sha256": "d7219fc50afb83285cb354a63320693be1e32d73ebd6aca360331172cd83572a"
+  },
+  {
+    "original": "output/export-jobs/render-vertical-1080p-5fdbffb9812f-aacd9093-480f-4fe2-9ab2-0b29a8a1801c/manifest.json",
+    "retained": "output/wf311613-standalone-murphy-bed/maintenance/short-standard-cleanup-20261007/retained-job-evidence/render-vertical-1080p-5fdbffb9812f-aacd9093-480f-4fe2-9ab2-0b29a8a1801c/manifest.json",
+    "sha256": "33d036635029563a15ff8c20bfee32c11e233d2d6478be3c5ed60bd5ccefd3b6"
+  },
+  {
+    "original": "output/export-jobs/render-vertical-1080p-5fdbffb9812f-aacd9093-480f-4fe2-9ab2-0b29a8a1801c/logs/verification.json",
+    "retained": "output/wf311613-standalone-murphy-bed/maintenance/short-standard-cleanup-20261007/retained-job-evidence/render-vertical-1080p-5fdbffb9812f-aacd9093-480f-4fe2-9ab2-0b29a8a1801c/logs/verification.json",
+    "sha256": "762f9d5b7016778e86831b4e4e3d49122c85f510d70c39f186bde2ded4729614"
+  }
+]

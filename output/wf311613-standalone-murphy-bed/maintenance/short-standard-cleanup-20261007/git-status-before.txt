@@ -1,0 +1,45 @@
+ M next-env.d.ts
+ M output/export-jobs/render-1440p-4f65982e9702-f2f12f33-1149-42b5-8368-b121e5e94012/manifest.json
+ M src/app/api/export/[jobId]/route.ts
+ M src/app/globals.css
+ M src/app/page.tsx
+ M src/app/render/page.tsx
+ M src/components/animation/AnimationController.tsx
+ M src/components/export/ExportProgress.test.tsx
+ M src/components/export/ExportProgress.tsx
+ M src/components/export/ExportVideoModal.tsx
+ M src/components/product/ProductWorkspace.tsx
+ M src/components/viewer/CameraController.tsx
+ M src/components/viewer/ProductViewer.tsx
+ M src/components/viewer/Scene.tsx
+ M src/engine/export/ExportActions.test.ts
+ M src/engine/export/ExportJobManager.test.ts
+ M src/engine/export/ExportJobManager.ts
+ M src/engine/export/RenderProfiles.ts
+ M src/engine/product/ProductManager.ts
+ M src/engine/video/SceneEngine.ts
+ M src/presentation/intro/PrefixedVideoEngine.ts
+ M src/products/export-manager.ts
+ M src/products/production-selection.test.ts
+ M src/products/wf311613-standalone-murphy-bed/index.ts
+ M src/types/product-package.ts
+ M src/types/video.ts
+?? output/export-jobs/render-vertical-1080p-1529cb52c1f6-09a6b9d9-2d5c-47a6-bc9e-753d69982299/
+?? output/export-jobs/render-vertical-1080p-1529cb52c1f6-17af60ac-e3ba-4bd3-b62e-ab0bf7ba9201/
+?? output/export-jobs/render-vertical-1080p-5fdbffb9812f-7995136a-9903-4d60-9e41-b6b7ec825233/
+?? output/export-jobs/render-vertical-1080p-5fdbffb9812f-83efd779-6e68-4ac7-90a4-9df53f85aadf/
+?? output/export-jobs/render-vertical-1080p-5fdbffb9812f-aacd9093-480f-4fe2-9ab2-0b29a8a1801c/
+?? output/export-jobs/render-vertical-1080p-e7ecb50d55c4-8e23a36a-5360-4a15-ba2f-8fcf9672ca29/
+?? output/export-jobs/render-vertical-1080p-e7ecb50d55c4-d0f4b8c2-20d6-46c0-98a5-61a069824580/
+?? output/wf311613-standalone-murphy-bed/maintenance/
+?? output/wf311613-standalone-murphy-bed/short/
+?? scripts/verify-short01.ts
+?? scripts/verify-short02.ts
+?? src/engine/export/PresentationExport.test.ts
+?? src/engine/video/EditorialVideoEngine.ts
+?? src/engine/video/PresentationSelection.test.ts
+?? src/engine/video/PresentationSelection.ts
+?? src/products/wf311613-standalone-murphy-bed/director/short01.ts
+?? src/products/wf311613-standalone-murphy-bed/director/short02.ts
+?? src/products/wf311613-standalone-murphy-bed/tests/short01.test.ts
+?? src/products/wf311613-standalone-murphy-bed/tests/short02.test.ts

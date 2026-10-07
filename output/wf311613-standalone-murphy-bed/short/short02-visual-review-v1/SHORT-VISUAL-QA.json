@@ -1,0 +1,98 @@
+{
+  "status": "REQUIRES DIRECTOR REVIEW",
+  "technicalStatus": "PASS",
+  "tests": {
+    "passed": 99,
+    "files": 15,
+    "log": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-visual-review-v1/targeted-tests-final-v2.log"
+  },
+  "build": "PASS \u2014 Webpack production",
+  "typeScript": "PASS",
+  "sourceLint": "PASS",
+  "repositoryLint": "WARNING \u2014 unchanged 59 errors / 24 warnings in historical output scripts",
+  "mechanicalReport": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-visual-review-v1/mechanical-regression.json",
+  "sourceProtection": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-visual-review-v1/protected-after.json",
+  "nativeEvidence": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-visual-review-v1/native-preflight.json",
+  "resumeEvidence": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-visual-review-v1/browser-smoke.json",
+  "functionalStory": {
+    "hook": "closed 0\u20130.6; full opening 0.6\u20131.5; open glimpse 1.5\u20132",
+    "assemblyCompression": "24 seconds to 22 seconds",
+    "context": "27\u201327.6 seconds",
+    "mechanism": "15-degree articulation at 44.5\u201346; exact canonical leg-install state restored at 46",
+    "final": "finished open 52\u201353; supported lift/fold/close 53\u201355; full open/deploy/lower 55\u201357; open hero 57\u201358"
+  },
+  "technicalLimitations": [
+    "Sampled actual-mesh mechanical regression plus exact source equivalence; director creative review remains pending.",
+    "The index hash snapshot completed after its authorized Short reference edit; independent Long hashes verify preservation."
+  ],
+  "candidate": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-visual-review-v1/WF311613-short02-visual-review-v1-vertical-1080p.mp4",
+  "duration": 58.0,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "frames": 1740,
+  "codec": "h264",
+  "pixelFormat": "yuv420p",
+  "sha256": "aee283b9d7bf0653b45fd3bf357fc51ea98ad988ebabe532d371a2662d7cad98",
+  "bytes": 5307176,
+  "audioStreams": 0,
+  "jobId": "d0f4b8c2-20d6-46c0-98a5-61a069824580",
+  "creativeHash": "37319086663ab2abba1f83e8829237da369aa4a41c6f8bd43bea46f151383b36",
+  "rendererSourceHash": "f744374bdb755f52a7f4eefcc2af4931d762b4fb3c0c2f2c333608d37f90e901",
+  "checks": {
+    "mechanicalSourceEquivalence": "PASS",
+    "verticalFraming": "PASS",
+    "actualCameraPresetAgreement": "PASS",
+    "captionSafeArea": "PASS",
+    "deterministicSeek": "PASS",
+    "nativeSurface": "PASS",
+    "cancelResume": "PASS",
+    "independentChunkBoundary": "PASS",
+    "longRegression": "PASS",
+    "productWithoutShort": "PASS",
+    "sourceProtection": "PASS",
+    "fullDecode": "PASS",
+    "faststart": "PASS",
+    "videoAudioMastering": "NOT RUN \u2014 silent visual review only",
+    "directorVisualApproval": "REQUIRES DIRECTOR REVIEW",
+    "fullNativeBoundaryIdentity": "PASS"
+  },
+  "warnings": [
+    "Pivot/piston close-ups crop surrounding cabinet context while retaining the active connection.",
+    "The 0.9-second carrier transfer uses a brief wide view to keep both subassemblies visible.",
+    "Anchoring and repeated connections are represented by editorial cuts to original valid completion states."
+  ],
+  "contactSheet": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-visual-review-v1/CONTACT-SHEET.jpg",
+  "directorPlan": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-visual-review-v1/SHORT-DIRECTOR-PLAN.json",
+  "stillManifest": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-visual-review-v1/review-stills-manifest.json",
+  "encodedSpotChecks": {
+    "status": "PASS",
+    "frames": 23,
+    "manifest": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-visual-review-v1/encoded-stills-manifest.json",
+    "contactSheet": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-visual-review-v1/ENCODED-SPOT-CHECKS.jpg"
+  },
+  "functionalRegistryContinuity": {
+    "status": "PASS",
+    "log": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-visual-review-v1/functional-continuity-tests.log"
+  },
+  "visualObservations": [
+    "Hook visibly transforms the closed cabinet to the fully open leg-supported bed by 1.5 s.",
+    "Context identifies bed and cabinet before bearing/retainer macros.",
+    "Completed piston macro cuts to contextual pose and performs the entire validated 15\u00b0 articulation.",
+    "Final support lift/fold/close and reopen/deploy/lower lead to an open-bed hero; no final static closed ending.",
+    "Caption bounds and actual camera poses passed native checks; no severe active-action clipping observed in selected native/decoded frames."
+  ],
+  "fullNativeBoundaryVerification": {
+    "status": "PASS",
+    "comparisons": 18,
+    "report": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-visual-review-v1/full-native-boundary-verification.json"
+  },
+  "versions": {
+    "ffmpeg": "8.1.2",
+    "ffprobe": "8.1.2",
+    "Next": "16.3.6",
+    "Node": "20.19.6"
+  }
+}

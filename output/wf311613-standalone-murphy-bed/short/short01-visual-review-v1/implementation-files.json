@@ -1,0 +1,38 @@
+{
+  "changed": [
+    "src/app/api/export/[jobId]/route.ts",
+    "src/app/globals.css",
+    "src/app/page.tsx",
+    "src/app/render/page.tsx",
+    "src/components/animation/AnimationController.tsx",
+    "src/components/export/ExportProgress.test.tsx",
+    "src/components/export/ExportProgress.tsx",
+    "src/components/export/ExportVideoModal.tsx",
+    "src/components/product/ProductWorkspace.tsx",
+    "src/components/viewer/CameraController.tsx",
+    "src/components/viewer/ProductViewer.tsx",
+    "src/components/viewer/Scene.tsx",
+    "src/engine/export/ExportActions.test.ts",
+    "src/engine/export/ExportJobManager.test.ts",
+    "src/engine/export/ExportJobManager.ts",
+    "src/engine/export/RenderProfiles.ts",
+    "src/engine/product/ProductManager.ts",
+    "src/engine/video/SceneEngine.ts",
+    "src/presentation/intro/PrefixedVideoEngine.ts",
+    "src/products/export-manager.ts",
+    "src/products/production-selection.test.ts",
+    "src/products/wf311613-standalone-murphy-bed/index.ts",
+    "src/types/product-package.ts",
+    "src/types/video.ts"
+  ],
+  "added": [
+    "scripts/verify-short01.ts",
+    "src/engine/export/PresentationExport.test.ts",
+    "src/engine/video/EditorialVideoEngine.ts",
+    "src/engine/video/PresentationSelection.test.ts",
+    "src/engine/video/PresentationSelection.ts",
+    "src/products/wf311613-standalone-murphy-bed/director/short01.ts",
+    "src/products/wf311613-standalone-murphy-bed/tests/short01.test.ts"
+  ],
+  "priorCleanup": "Pre-existing tracked pre-short cleanup deletions are independent. No further cleanup performed."
+}

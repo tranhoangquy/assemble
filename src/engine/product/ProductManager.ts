@@ -1,4 +1,5 @@
 import type { ProductPackage } from '@/types/product-package';
+import { selectVideoId } from '@/engine/video/PresentationSelection';
 import { ProductEngine } from './ProductEngine';
 import { SceneEngine } from '@/engine/video/SceneEngine';
 import { AssemblyValidator, type AssemblyValidationResult } from '@/engine/assembly/AssemblyValidator';
@@ -13,6 +14,7 @@ export class ProductManager {
       ProductEngine.build(entry.product);
       new SceneEngine(entry.video, entry.assembly);
       this.validateTargets(entry);
+      if(entry.shortPresentation) { const short=selectVideoId(entry,entry.shortPresentation.video.id); new SceneEngine(short.video,short.assembly); this.validateTargets(short); }
       this.validations.set(entry.id, AssemblyValidator.validate(entry.product, entry.assembly));
       this.products.set(entry.id, entry);
     }
@@ -20,10 +22,10 @@ export class ProductManager {
 
   list(): readonly ProductPackage[] { return [...this.products.values()]; }
   has(id: string): boolean { return this.products.has(id); }
-  load(id: string): ProductPackage {
+  load(id: string, videoId?: string): ProductPackage {
     const entry = this.products.get(id);
     if (!entry) throw new Error(`Unknown product: ${id}`);
-    return entry;
+    return selectVideoId(entry, videoId);
   }
   validation(id: string): AssemblyValidationResult {
     const validation = this.validations.get(id);

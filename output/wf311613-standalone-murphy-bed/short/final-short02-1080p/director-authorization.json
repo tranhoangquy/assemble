@@ -1,0 +1,27 @@
+{
+  "status": "DIRECTOR_AUTHORIZED_FINAL_MASTERING_AND_FINAL_DESIGNATION",
+  "package": "/Users/quyth/.codex/attachments/5216381d-60c5-4ae5-9906-d81c62bfc825/Pasted text.txt",
+  "sha256": "4b42d4887b1460cff4acbc7c90de9b27080c53cecfd36cd06d78d51b12f0a2f5",
+  "music_basis": {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-music-pass01/WF311613-short02-music-pass01.wav",
+    "sha256": "d47f944271d3896f5c4bee0ce2c97bbb54e077daada318d7e23464990daf6c70"
+  },
+  "video_mux_input": {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-music-pass01/WF311613-short02-music-review-pass01-vertical-1080p.mp4",
+    "sha256": "8816b48c9faec27b1597b9ba44b769e2f5e4be367191058e4949908abd6fb7f3"
+  },
+  "original_visual": {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-visual-review-v1/WF311613-short02-visual-review-v1-vertical-1080p.mp4",
+    "sha256": "aee283b9d7bf0653b45fd3bf357fc51ea98ad988ebabe532d371a2662d7cad98"
+  },
+  "authorized_changes": [
+    "smooth gain envelope",
+    "gentle compression",
+    "final level adjustment",
+    "delayed short endpoint fade",
+    "AAC encode"
+  ],
+  "creative_rearrangement": false,
+  "publish_authorized": false,
+  "agent_actual_listening": "NOT RUN"
+}

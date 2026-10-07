@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "protected_files": 3515,
+  "differences": [],
+  "visual_source_sha256": "aee283b9d7bf0653b45fd3bf357fc51ea98ad988ebabe532d371a2662d7cad98",
+  "music_pass01_sha256": "d47f944271d3896f5c4bee0ce2c97bbb54e077daada318d7e23464990daf6c70",
+  "no_application_source_edits": true,
+  "no_threejs_rendering": true
+}

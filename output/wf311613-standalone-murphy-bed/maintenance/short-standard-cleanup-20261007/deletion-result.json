@@ -1,0 +1,98 @@
+{
+  "status": "CLEANUP_EXECUTED",
+  "files_removed": 6224,
+  "logical_bytes_removed": 6176404144,
+  "directories_removed": 35,
+  "directory_paths_removed": [
+    "output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/1080p/proof-frames",
+    "output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/1440p/proof-frames",
+    "output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/2160p/proof-frames",
+    "output/wf311613-standalone-murphy-bed/final/final-review-web-qa-01/native-resolution-qa/720p/proof-frames",
+    "output/wf311613-standalone-murphy-bed/final/audio-pass01/assets",
+    "output/wf311613-standalone-murphy-bed/final/audio-pass01/review-clips",
+    "output/wf311613-standalone-murphy-bed/final/product-fit-hole-audit/targeted-frames",
+    "output/wf311613-standalone-murphy-bed/short/short02-music-pass01/internal-iterations",
+    "output/wf311613-standalone-murphy-bed/short/short02-music-pass01/review-clips",
+    "output/export-jobs/render-1440p-4f65982e9702-f2f12f33-1149-42b5-8368-b121e5e94012/logs",
+    "output/export-jobs/render-vertical-1080p-1529cb52c1f6-09a6b9d9-2d5c-47a6-bc9e-753d69982299/final",
+    "output/export-jobs/render-vertical-1080p-1529cb52c1f6-09a6b9d9-2d5c-47a6-bc9e-753d69982299/frames",
+    "output/export-jobs/render-vertical-1080p-1529cb52c1f6-09a6b9d9-2d5c-47a6-bc9e-753d69982299/logs",
+    "output/export-jobs/render-vertical-1080p-1529cb52c1f6-17af60ac-e3ba-4bd3-b62e-ab0bf7ba9201/final",
+    "output/export-jobs/render-vertical-1080p-1529cb52c1f6-17af60ac-e3ba-4bd3-b62e-ab0bf7ba9201/frames",
+    "output/export-jobs/render-vertical-1080p-1529cb52c1f6-17af60ac-e3ba-4bd3-b62e-ab0bf7ba9201/logs",
+    "output/export-jobs/render-vertical-1080p-5fdbffb9812f-7995136a-9903-4d60-9e41-b6b7ec825233/logs",
+    "output/export-jobs/render-vertical-1080p-5fdbffb9812f-83efd779-6e68-4ac7-90a4-9df53f85aadf/frames",
+    "output/export-jobs/render-vertical-1080p-5fdbffb9812f-83efd779-6e68-4ac7-90a4-9df53f85aadf/logs",
+    "output/export-jobs/render-vertical-1080p-5fdbffb9812f-aacd9093-480f-4fe2-9ab2-0b29a8a1801c/final",
+    "output/export-jobs/render-vertical-1080p-5fdbffb9812f-aacd9093-480f-4fe2-9ab2-0b29a8a1801c/frames",
+    "output/export-jobs/render-vertical-1080p-5fdbffb9812f-aacd9093-480f-4fe2-9ab2-0b29a8a1801c/logs",
+    "output/export-jobs/render-vertical-1080p-e7ecb50d55c4-8e23a36a-5360-4a15-ba2f-8fcf9672ca29/final",
+    "output/export-jobs/render-vertical-1080p-e7ecb50d55c4-8e23a36a-5360-4a15-ba2f-8fcf9672ca29/frames",
+    "output/export-jobs/render-vertical-1080p-e7ecb50d55c4-8e23a36a-5360-4a15-ba2f-8fcf9672ca29/logs",
+    "output/export-jobs/render-vertical-1080p-e7ecb50d55c4-d0f4b8c2-20d6-46c0-98a5-61a069824580/frames",
+    "output/wf311613-standalone-murphy-bed/screenshots/action-speed-v2",
+    "output/wf311613-standalone-murphy-bed/screenshots/pacing-v1",
+    "output/wf311613-standalone-murphy-bed/screenshots/wf311613-steps01-03-action-speed",
+    "output/wf311613-standalone-murphy-bed/screenshots/wf311613-steps01-10-paced",
+    "output/export-jobs/render-vertical-1080p-1529cb52c1f6-09a6b9d9-2d5c-47a6-bc9e-753d69982299",
+    "output/export-jobs/render-vertical-1080p-1529cb52c1f6-17af60ac-e3ba-4bd3-b62e-ab0bf7ba9201",
+    "output/export-jobs/render-vertical-1080p-5fdbffb9812f-aacd9093-480f-4fe2-9ab2-0b29a8a1801c",
+    "output/export-jobs/render-vertical-1080p-e7ecb50d55c4-8e23a36a-5360-4a15-ba2f-8fcf9672ca29",
+    "output/wf311613-standalone-murphy-bed/screenshots"
+  ],
+  "categories": {
+    "export-job-stale": {
+      "files": 2363,
+      "bytes": 2737064279
+    },
+    "export-encode-intermediates": {
+      "files": 1,
+      "bytes": 5307176
+    },
+    "completed-export-frames": {
+      "files": 1740,
+      "bytes": 1962060884
+    },
+    "export-job-completed": {
+      "files": 12,
+      "bytes": 5279981
+    },
+    "obsolete-pacing-screenshots": {
+      "files": 106,
+      "bytes": 42993563
+    },
+    "short-music-review-previews": {
+      "files": 9,
+      "bytes": 4264294
+    },
+    "empty-logs": {
+      "files": 9,
+      "bytes": 0
+    },
+    "audio-analysis-cache": {
+      "files": 1,
+      "bytes": 1572774
+    },
+    "short-music-internal-iterations": {
+      "files": 5,
+      "bytes": 83520510
+    },
+    "native-smoke-frames": {
+      "files": 240,
+      "bytes": 351366073
+    },
+    "obsolete-fit-probe-frames": {
+      "files": 1719,
+      "bytes": 738654735
+    },
+    "obsolete-procedural-sfx-pass": {
+      "files": 19,
+      "bytes": 244319875
+    }
+  },
+  "manifest_sha256": "4226a317a9f8a62e60b2db34424ebdf8a4faf4ceefa6ce83ae2edcffe9db7221",
+  "ledger_sha256": "05d9d8d93a4314d6406d96904d9c299a0007a1c71a1a1c8159e972cc82d96e33",
+  "protected_hashes": "PASS",
+  "final_short_bundle": "PASS",
+  "retention_notice": "Historical review SHA/freeze manifests describe original snapshots. Their deliberately purged files resolve through this exact-path/hash ledger. Current final Short bundle fully intact. Purged stale/smoke jobs retired; purged completed raw frames require fresh validation/re-render before any resume."
+}

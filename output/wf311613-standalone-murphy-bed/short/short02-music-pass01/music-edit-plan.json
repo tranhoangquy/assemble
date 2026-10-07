@@ -1,0 +1,155 @@
+{
+  "version": "Short02 music Pass01",
+  "status": "REQUIRES DIRECTOR AUDIO REVIEW",
+  "source": {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/WF311613-lofi-mix-pass02.wav",
+    "sha256": "75b282e6e55a65923b00c152099f47e194b66c007f2e8053ccf6b9ec66690b2b"
+  },
+  "selected_candidate": {
+    "id": "v2-one-beat",
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-music-pass01/internal-iterations/v2-one-beat.wav",
+    "sha256": "d47f944271d3896f5c4bee0ce2c97bbb54e077daada318d7e23464990daf6c70",
+    "source_regions": [
+      {
+        "source_in_seconds": 22.61,
+        "source_out_seconds": 50.11,
+        "source_in_samples": 1085280,
+        "source_out_samples": 2405280,
+        "global_start": 0,
+        "global_end": 26.96078431372549
+      },
+      {
+        "source_in_seconds": 109.481,
+        "source_out_seconds": 141.766,
+        "source_in_samples": 5255088,
+        "source_out_samples": 6804768,
+        "global_start": 26.348039215686274,
+        "global_end": 58
+      }
+    ],
+    "source_overlap": 0.625,
+    "global_crossfade": {
+      "start": 26.348039215686274,
+      "end": 26.96078431372549,
+      "duration": 0.6127450980392157,
+      "curve": "complementary half-cosine",
+      "nominal_output_start_sample": 1264706,
+      "nominal_output_end_sample": 1294118
+    },
+    "processing": {
+      "atempo_speed": 1.02,
+      "atempo_output_samples": 2784609,
+      "sample_count_adjustment": -609,
+      "correction": "Uniform linear sample-grid interpolation only if WSOLA ends a few samples off; documented additional rate/pitch ratio",
+      "additional_rate_ratio": 1.00021875,
+      "endpoint_fade": {
+        "start": 57.3,
+        "end": 58,
+        "curve": "half cosine"
+      },
+      "entry_declick_seconds": 0.008,
+      "gain_automation": {
+        "global_seconds": [
+          0,
+          27,
+          38,
+          52,
+          56,
+          57.3,
+          58
+        ],
+        "gain_db": [
+          0,
+          0,
+          0.4,
+          0.4,
+          0.6,
+          0.6,
+          0.6
+        ],
+        "interpolation": "linear dB; <=0.6dB total"
+      },
+      "additional_rate_pitch_cents": 0.3786660331456788
+    },
+    "linear_gain_db": 3.9899999999999984,
+    "measured_loudness": {
+      "input_i": "-15.00",
+      "input_tp": "-5.74",
+      "input_lra": "1.50",
+      "input_thresh": "-25.07",
+      "output_i": "-14.99",
+      "output_tp": "-5.86",
+      "output_lra": "1.30",
+      "output_thresh": "-25.03",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.01"
+    },
+    "section_energy": {
+      "hook": {
+        "rms_dbfs": -16.607950963448147,
+        "peak_dbfs": -6.641360558934563
+      },
+      "assembly": {
+        "rms_dbfs": -15.909182444804715,
+        "peak_dbfs": -6.288206705187285
+      },
+      "connection": {
+        "rms_dbfs": -15.580510919100366,
+        "peak_dbfs": -5.84658182913995
+      },
+      "mechanism": {
+        "rms_dbfs": -15.08293809705297,
+        "peak_dbfs": -6.037360152861178
+      },
+      "legs": {
+        "rms_dbfs": -15.385432372032131,
+        "peak_dbfs": -6.038974557403424
+      },
+      "payoff": {
+        "rms_dbfs": -14.986814150583058,
+        "peak_dbfs": -5.744388122716293
+      },
+      "ending": {
+        "rms_dbfs": -32.80284129900715,
+        "peak_dbfs": -17.77779690028292
+      }
+    },
+    "finite_samples": true,
+    "sample_peak_dbfs": -5.744388103485107,
+    "interior_100ms_below_minus70": [],
+    "actual_listening": "NOT RUN",
+    "provisional_form": "Source A only; 24-bar source offset preserves provisional harmonic/rhythmic phase. Source tail releases after 140.7s, no Long crossfade or full-song intro.",
+    "measured_loudness_interpretation": "input_* fields are measurements of actual WAV. output_* and normalization_type are discarded loudnorm-to-null diagnostics, NOT production processing.",
+    "global_timestamp_precision": "Nominal source-to-output mapping at 1.02 music speed. WSOLA local phase displacement is not constant; global splice timestamps are nominal, not guarantees of exact transient position after WSOLA. Final WAV length and gain/fade sample grids are exact."
+  },
+  "timeline_seconds": 58,
+  "sample_rate": 48000,
+  "channels": 2,
+  "samples_per_channel": 2784000,
+  "output_wav": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-music-pass01/WF311613-short02-music-pass01.wav",
+  "output_sha256": "d47f944271d3896f5c4bee0ce2c97bbb54e077daada318d7e23464990daf6c70",
+  "tempo_hypothesis_bpm": 96.14583,
+  "tempo_after_2percent_adjustment_bpm": 98.0687466,
+  "tempo_confidence": "Provisional spectral pulse; meter/downbeat/harmonic interpretation not listening-confirmed",
+  "picture_retimed": false,
+  "additional_tracks": [],
+  "SFX": false,
+  "limiter": false,
+  "EQ": false,
+  "new_instruments": false,
+  "loops": false,
+  "source_repetition": "Reordered existing comparable source A phrases; no synthetic loop",
+  "selection_reason": "Continuous established groove at entry; a one-beat complementary crossfade brings stronger source phrase near picture27s; source release/short tail retained for hero, level matched without limiting. Selected on structural/technical evidence; hearing review remains pending.",
+  "final_gain_fade_sample_grid": {
+    "entry_declick_samples": 384,
+    "final_fade_start_sample": 2750400,
+    "final_fade_end_exclusive": 2784000
+  },
+  "meter_hypothesis": "4/4 inferred, not listening-confirmed; approximately one beat source overlap; source phrase offset 59.996s corresponds approximately to 24 bars at 96 BPM.",
+  "encoded_review_loudness": {
+    "input_i": "-15.01",
+    "input_tp": "-5.83",
+    "input_lra": "1.40",
+    "input_thresh": "-25.08"
+  }
+}

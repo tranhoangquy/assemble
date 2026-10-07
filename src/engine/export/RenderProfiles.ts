@@ -24,6 +24,7 @@ export const renderProfiles: readonly RenderProfile[] = Object.freeze([
   profile('720p', '720p — 1280×720', 1280, 720, 'standard'),
   profile('1080p', '1080p — 1920×1080', 1920, 1080, 'standard'),
   profile('1440p', '2K / 1440p — 2560×1440', 2560, 1440, 'standard'),
+  Object.freeze({ ...profile('vertical-1080p', 'Vertical — 1080×1920', 1080, 1920, 'standard'), supportedFps: Object.freeze([30]) }),
   profile('2160p', '4K / 2160p — 3840×2160', 3840, 2160, 'standard'),
 ]);
 

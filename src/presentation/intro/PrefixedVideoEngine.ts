@@ -77,6 +77,17 @@ export class PrefixedVideoEngine extends VideoEngine {
 
 /** Existing room props/lighting receive their unchanged ORIGINAL clock. */
 export function presentationTime(video:VideoDefinition,time:number){
+  if(video.editorial){
+    let start=0;
+    for(const [index,scene] of video.scenes.entries()){
+      if(time<start+scene.duration||index===video.scenes.length-1){
+        const segment=video.editorial.segments.find(s=>s.sceneId===scene.id)!;
+        const u=Math.max(0,Math.min(1,(time-start)/scene.duration));
+        return presentationTime(video.editorial.source,segment.sourceIn+(segment.sourceOut-segment.sourceIn)*u);
+      }
+      start+=scene.duration;
+    }
+  }
   const intro=video.intro;if(!intro)return time;
   if(time>=intro.duration)return time-intro.duration;
   const state=introPhase(intro,time);

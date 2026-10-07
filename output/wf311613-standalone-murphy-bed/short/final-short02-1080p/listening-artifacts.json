@@ -1,0 +1,13 @@
+{
+  "agent_actual_listening": "NOT RUN",
+  "full_preview": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/final-short02-1080p/WF311613-short02-FINAL-music-preview.m4a",
+  "full_preview_sha256": "3020b13dec09088561fb793316a6349d12eb1d657b45659f1f493b127828af56",
+  "ending_excerpt": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/final-short02-1080p/WF311613-short02-FINAL-ending-preview.m4a",
+  "ending_excerpt_sha256": "20a81a16dc400ca41d20530a2cb29b4c5ec35ce27cf1aa36d59feb176bba7e4e",
+  "ending_range_seconds": [
+    52,
+    58
+  ],
+  "preview_audio_stream_copy": true,
+  "ending_excerpt_reencoded_from_final_aac": true
+}

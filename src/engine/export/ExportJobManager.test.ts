@@ -72,10 +72,10 @@ describe('render-job profile propagation',()=>{
     await run.mock.results[0].value;
 
     expect(launch).toHaveBeenCalledTimes(1);
-    expect(launch).toHaveBeenCalledWith({headless:true});
+    expect(launch).toHaveBeenCalledWith({headless:true,executablePath:chromium.executablePath()});
     expect(browser.newPage).toHaveBeenCalledWith({viewport:{width:1280,height:720},deviceScaleFactor:1});
     expect(page.goto).toHaveBeenCalledWith(
-      'http://127.0.0.1:3017/render?project=generic-product&profile=720p&fps=30',
+      'http://127.0.0.1:3017/render?project=generic-product&video=generic-video&profile=720p&fps=30',
       {waitUntil:'domcontentloaded',timeout:60_000},
     );
     expect(RENDERER_READY_TIMEOUT_MS).toBe(90_000);

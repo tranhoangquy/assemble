@@ -1,0 +1,12 @@
+{"at":"2026-10-06T11:07:40.430Z","status":"preparing","message":"Preparing generation and validating saved work…","validFrames":0,"retries":0}
+{"at":"2026-10-06T11:07:40.471Z","status":"rendering","message":"Rendering missing or invalid frames…","validFrames":0,"retries":0}
+{"at":"2026-10-06T11:07:40.480Z","status":"rendering","message":"Rendering work chunk 1 of 6…","validFrames":0,"retries":0}
+{"at":"2026-10-06T11:10:18.198Z","status":"rendering","message":"Rendering work chunk 2 of 6…","validFrames":300,"retries":0}
+{"at":"2026-10-06T11:11:41.376Z","status":"rendering","message":"Rendering work chunk 3 of 6…","validFrames":600,"retries":0}
+{"at":"2026-10-06T11:13:16.534Z","status":"rendering","message":"Rendering work chunk 4 of 6…","validFrames":900,"retries":0}
+{"at":"2026-10-06T11:14:14.140Z","status":"rendering","message":"Rendering work chunk 5 of 6…","validFrames":1200,"retries":0}
+{"at":"2026-10-06T11:15:38.496Z","status":"rendering","message":"Rendering work chunk 6 of 6…","validFrames":1500,"retries":0}
+{"at":"2026-10-06T11:18:08.050Z","status":"validating_frames","message":"Validating the complete frame sequence…","validFrames":1740,"retries":0}
+{"at":"2026-10-06T11:19:16.635Z","status":"encoding","message":"Encoding validated frames…","validFrames":1740,"retries":0}
+{"at":"2026-10-06T11:19:24.764Z","status":"verifying","message":"Verifying final video…","validFrames":1740,"retries":0}
+{"at":"2026-10-06T11:19:27.289Z","status":"completed","message":"Generation complete. Ready to download.","validFrames":1740,"retries":0}

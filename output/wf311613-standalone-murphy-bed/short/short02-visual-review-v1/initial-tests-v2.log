@@ -1,0 +1,19 @@
+
+> furniture-video-engine@0.2.0 test
+> vitest run src/engine/video/PresentationSelection.test.ts src/products/wf311613-standalone-murphy-bed/tests/short02.test.ts src/products/wf311613-standalone-murphy-bed/tests/short01.test.ts
+
+
+ RUN  v4.1.11 /Users/quyth/development/three/POC
+
+(node:35929) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:35928) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+ Test Files  3 passed (3)
+      Tests  16 passed (16)
+   Start at  17:46:46
+   Duration  2.39s (transform 577ms, setup 0ms, import 1.03s, tests 3.61s, environment 0ms)
+

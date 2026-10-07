@@ -1,0 +1,831 @@
+{
+  "status": "PASS",
+  "stills": [
+    {
+      "filename": "01-hook.png",
+      "time": 1,
+      "caption": "A Bed That Folds",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -280.0000000000001,
+          210.00000000000003,
+          -550
+        ],
+        "direction": [
+          0.4729189997244066,
+          -0.16889964275871666,
+          0.864766170924629
+        ],
+        "target": [
+          0,
+          110,
+          -38
+        ],
+        "fov": 48
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/01-hook.png"
+    },
+    {
+      "filename": "02-overview.png",
+      "time": 3.5,
+      "caption": "From Parts to Product",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -390,
+          270,
+          -590
+        ],
+        "direction": [
+          0.5857969330143818,
+          -0.2162942521899256,
+          0.7810625773525093
+        ],
+        "target": [
+          0,
+          126,
+          -70
+        ],
+        "fov": 52
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/02-overview.png"
+    },
+    {
+      "filename": "03-cabinet-sides.png",
+      "time": 6.5,
+      "caption": "Build the Cabinet",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -270.00000000000006,
+          219.99999999999997,
+          -520
+        ],
+        "direction": [
+          0.4593165414251623,
+          -0.1905313060726598,
+          0.8675979115808621
+        ],
+        "target": [
+          0,
+          108,
+          -10
+        ],
+        "fov": 48
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/03-cabinet-sides.png"
+    },
+    {
+      "filename": "04-cabinet-panels.png",
+      "time": 9.25,
+      "caption": "Build the Cabinet",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -270.00000000000006,
+          219.99999999999997,
+          -520
+        ],
+        "direction": [
+          0.4593165414251623,
+          -0.1905313060726598,
+          0.8675979115808621
+        ],
+        "target": [
+          0,
+          108,
+          -10
+        ],
+        "fov": 48
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/04-cabinet-panels.png"
+    },
+    {
+      "filename": "05-cabinet-cap-lift.png",
+      "time": 11.1,
+      "caption": "Complete the Cabinet",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -270.0000000000001,
+          260.00000000000006,
+          -650
+        ],
+        "direction": [
+          0.3672110164957449,
+          -0.14960448820197011,
+          0.9180275412393619
+        ],
+        "target": [
+          0,
+          150,
+          25
+        ],
+        "fov": 50
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/05-cabinet-cap-lift.png"
+    },
+    {
+      "filename": "06-cabinet-cap-seat.png",
+      "time": 12.35,
+      "caption": "Complete the Cabinet",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -270.0000000000001,
+          260.00000000000006,
+          -650
+        ],
+        "direction": [
+          0.3672110164957449,
+          -0.14960448820197011,
+          0.9180275412393619
+        ],
+        "target": [
+          0,
+          150,
+          25
+        ],
+        "fov": 50
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/06-cabinet-cap-seat.png"
+    },
+    {
+      "filename": "07-bed-face.png",
+      "time": 14,
+      "caption": "Build the Bed Frame",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -240,
+          420,
+          -730.0000000000001
+        ],
+        "direction": [
+          0.3670115214594115,
+          -0.5811015756440682,
+          0.7263769695550854
+        ],
+        "target": [
+          0,
+          40,
+          -255
+        ],
+        "fov": 50
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/07-bed-face.png"
+    },
+    {
+      "filename": "08-bed-face-grid.png",
+      "time": 16.25,
+      "caption": "Build the Bed Frame",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -240,
+          420,
+          -730.0000000000001
+        ],
+        "direction": [
+          0.3670115214594115,
+          -0.5811015756440682,
+          0.7263769695550854
+        ],
+        "target": [
+          0,
+          40,
+          -255
+        ],
+        "fov": 50
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/08-bed-face-grid.png"
+    },
+    {
+      "filename": "09-bed-face-close.png",
+      "time": 18,
+      "caption": "Build the Bed Frame",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -240,
+          420,
+          -730.0000000000001
+        ],
+        "direction": [
+          0.3670115214594115,
+          -0.5811015756440682,
+          0.7263769695550854
+        ],
+        "target": [
+          0,
+          40,
+          -255
+        ],
+        "fov": 50
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/09-bed-face-close.png"
+    },
+    {
+      "filename": "10-bed-carrier-lift.png",
+      "time": 19.05,
+      "caption": "Join the Frames",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          460.00000000000006,
+          600,
+          -1360
+        ],
+        "direction": [
+          -0.24566644256963555,
+          -0.42397273153146775,
+          0.8717196349245131
+        ],
+        "target": [
+          150,
+          65,
+          -260
+        ],
+        "fov": 54
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/10-bed-carrier-lift.png"
+    },
+    {
+      "filename": "11-bed-carrier-seat.png",
+      "time": 20.3,
+      "caption": "Join the Frames",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -330.0000000000001,
+          500,
+          -949.9999999999999
+        ],
+        "direction": [
+          0.37441422726830575,
+          -0.48787308401627705,
+          0.788539054398401
+        ],
+        "target": [
+          0,
+          70,
+          -255
+        ],
+        "fov": 50
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/11-bed-carrier-seat.png"
+    },
+    {
+      "filename": "12-corner-support.png",
+      "time": 21.8,
+      "caption": "Install the Supports",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -279.99999999999994,
+          410.00000000000006,
+          -800
+        ],
+        "direction": [
+          0.393442795580684,
+          -0.5086653285721702,
+          0.7658082985409744
+        ],
+        "target": [
+          0,
+          48,
+          -255
+        ],
+        "fov": 48
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/12-corner-support.png"
+    },
+    {
+      "filename": "13-first-slat.png",
+      "time": 23.200000000000003,
+      "caption": "Fit the Slats",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -279.99999999999994,
+          410.00000000000006,
+          -800
+        ],
+        "direction": [
+          0.393442795580684,
+          -0.5086653285721702,
+          0.7658082985409744
+        ],
+        "target": [
+          0,
+          48,
+          -255
+        ],
+        "fov": 48
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/13-first-slat.png"
+    },
+    {
+      "filename": "14-slat-progression.png",
+      "time": 25.200000000000003,
+      "caption": "Fit the Slats",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -279.99999999999994,
+          410.00000000000006,
+          -800
+        ],
+        "direction": [
+          0.393442795580684,
+          -0.5086653285721702,
+          0.7658082985409744
+        ],
+        "target": [
+          0,
+          48,
+          -255
+        ],
+        "fov": 48
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/14-slat-progression.png"
+    },
+    {
+      "filename": "15-platform-complete.png",
+      "time": 27.1,
+      "caption": "Platform Complete",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -279.99999999999994,
+          410.00000000000006,
+          -800
+        ],
+        "direction": [
+          0.393442795580684,
+          -0.5086653285721702,
+          0.7658082985409744
+        ],
+        "target": [
+          0,
+          48,
+          -255
+        ],
+        "fov": 48
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/15-platform-complete.png"
+    },
+    {
+      "filename": "16-mechanism-plate.png",
+      "time": 28.3,
+      "caption": "Fit the Mechanism",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -279.99999999999994,
+          410.00000000000006,
+          -800
+        ],
+        "direction": [
+          0.393442795580684,
+          -0.5086653285721702,
+          0.7658082985409744
+        ],
+        "target": [
+          0,
+          48,
+          -255
+        ],
+        "fov": 48
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/16-mechanism-plate.png"
+    },
+    {
+      "filename": "17-attach-route.png",
+      "time": 30.75,
+      "caption": "Attach the Bed Frame",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -265,
+          205.00000000000006,
+          -505
+        ],
+        "direction": [
+          0.5591351935971981,
+          -0.21099441267818808,
+          0.801778768177114
+        ],
+        "target": [
+          0,
+          105,
+          -125
+        ],
+        "fov": 52
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/17-attach-route.png"
+    },
+    {
+      "filename": "18-attach-pivot-seat.png",
+      "time": 33.25,
+      "caption": "Seat the Pivot",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -116.9,
+          37.5,
+          -13
+        ],
+        "direction": [
+          0.23499810407419122,
+          -0.2473664253412532,
+          0.9399924162967623
+        ],
+        "target": [
+          -115.95,
+          36.5,
+          -9.2
+        ],
+        "fov": 85
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/18-attach-pivot-seat.png"
+    },
+    {
+      "filename": "19-attach-pivot-retain.png",
+      "time": 35.75,
+      "caption": "Secure the Pivot",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -116.9,
+          37.5,
+          -13
+        ],
+        "direction": [
+          0.23499810407419122,
+          -0.2473664253412532,
+          0.9399924162967623
+        ],
+        "target": [
+          -115.95,
+          36.5,
+          -9.2
+        ],
+        "fov": 85
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/19-attach-pivot-retain.png"
+    },
+    {
+      "filename": "20-attach-result.png",
+      "time": 38.25,
+      "caption": "Bed Frame Connected",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -265,
+          205.00000000000006,
+          -505
+        ],
+        "direction": [
+          0.5591351935971981,
+          -0.21099441267818808,
+          0.801778768177114
+        ],
+        "target": [
+          0,
+          105,
+          -125
+        ],
+        "fov": 52
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/20-attach-result.png"
+    },
+    {
+      "filename": "21-piston-first.png",
+      "time": 41.25,
+      "caption": "Connect the Gas Pistons",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -114.3,
+          116,
+          17
+        ],
+        "direction": [
+          -0.0890870806374748,
+          -0.44543540318737396,
+          -0.8908708063747479
+        ],
+        "target": [
+          -115.3,
+          111,
+          7
+        ],
+        "fov": 88
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/21-piston-first.png"
+    },
+    {
+      "filename": "22-piston-opposite.png",
+      "time": 44.5,
+      "caption": "Connect the Gas Pistons",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          114.3,
+          116,
+          17
+        ],
+        "direction": [
+          0.0890870806374748,
+          -0.44543540318737396,
+          -0.8908708063747479
+        ],
+        "target": [
+          115.3,
+          111,
+          7
+        ],
+        "fov": 88
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/22-piston-opposite.png"
+    },
+    {
+      "filename": "23-mechanism-test.png",
+      "time": 46.25,
+      "caption": "Test the Mechanism",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -285.00000000000006,
+          204.99999999999994,
+          -450.00000000000006
+        ],
+        "direction": [
+          0.5752026534451015,
+          -0.20788025720998388,
+          0.7911559303525604
+        ],
+        "target": [
+          0,
+          102,
+          -58
+        ],
+        "fov": 48
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/23-mechanism-test.png"
+    },
+    {
+      "filename": "24-leg-install.png",
+      "time": 48,
+      "caption": "Fit the Legs",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -350,
+          330.00000000000006,
+          -620
+        ],
+        "direction": [
+          0.5186215416445066,
+          -0.4267514399817655,
+          0.7408879166350096
+        ],
+        "target": [
+          0,
+          42,
+          -120
+        ],
+        "fov": 50
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/24-leg-install.png"
+    },
+    {
+      "filename": "25-leg-fold-test.png",
+      "time": 49.9,
+      "caption": "Fold the Legs",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -350,
+          330.00000000000006,
+          -620
+        ],
+        "direction": [
+          0.5186215416445066,
+          -0.4267514399817655,
+          0.7408879166350096
+        ],
+        "target": [
+          0,
+          42,
+          -120
+        ],
+        "fov": 50
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/25-leg-fold-test.png"
+    },
+    {
+      "filename": "26-wall-secured.png",
+      "time": 51.4,
+      "caption": "Secure to the Wall",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -270.00000000000006,
+          219.99999999999997,
+          -520
+        ],
+        "direction": [
+          0.4593165414251623,
+          -0.1905313060726598,
+          0.8675979115808621
+        ],
+        "target": [
+          0,
+          108,
+          -10
+        ],
+        "fov": 48
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/26-wall-secured.png"
+    },
+    {
+      "filename": "27-final-function.png",
+      "time": 55,
+      "caption": "Ready to Use",
+      "captionBounds": {
+        "x": 86.390625,
+        "y": 211.1875,
+        "width": 820.8125,
+        "height": 100.96875
+      },
+      "camera": {
+        "position": [
+          -280.0000000000001,
+          210.00000000000003,
+          -550
+        ],
+        "direction": [
+          0.4729189997244066,
+          -0.16889964275871666,
+          0.864766170924629
+        ],
+        "target": [
+          0,
+          110,
+          -38
+        ],
+        "fov": 48
+      },
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/27-final-function.png"
+    }
+  ],
+  "framingEndpoints": [
+    "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/framing-cabinet-cap-lift-start.png",
+    "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/framing-cabinet-cap-lift-end.png",
+    "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/framing-cabinet-cap-seat-start.png",
+    "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/framing-cabinet-cap-seat-end.png",
+    "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/framing-bed-carrier-lift-start.png",
+    "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/framing-bed-carrier-lift-end.png",
+    "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/framing-bed-carrier-seat-start.png",
+    "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/framing-bed-carrier-seat-end.png"
+  ],
+  "note": "Final current native selection; diagnostic/obsolete iterations excluded.",
+  "ending": {
+    "time": 57.96666666666667,
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/stills/ending-57.966667.png",
+    "source": "Final native frame from the completed job"
+  }
+}

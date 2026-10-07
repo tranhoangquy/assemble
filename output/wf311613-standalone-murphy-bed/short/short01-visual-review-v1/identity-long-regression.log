@@ -1,0 +1,12 @@
+
+ RUN  v4.1.11 /Users/quyth/development/three/POC
+
+(node:21999) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+ Test Files  3 passed (3)
+      Tests  11 passed (11)
+   Start at  15:04:42
+   Duration  1.48s (transform 286ms, setup 0ms, import 698ms, tests 568ms, environment 0ms)
+

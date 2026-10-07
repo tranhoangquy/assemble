@@ -1,0 +1,23 @@
+import { describe,it,expect } from 'vitest';
+import { getProductPackage,defaultProductId,productCatalog } from '@/products/registry';
+import { selectPresentation,selectVideoId,presentationFocusKey,presentationType } from './PresentationSelection';
+import { SceneEngine } from './SceneEngine';
+import { getRenderProfile,resolveRenderProfile } from '@/engine/export/RenderProfiles';
+import { creativePackageHash } from '@/engine/export/CreativeIdentity';
+import { createRenderIdentity,renderIdentityHash,hashVideoDefinition } from '@/engine/export/RenderIdentity';
+import { editorialSourceTime } from './EditorialVideoEngine';
+import { presentationTime } from '@/presentation/intro/PrefixedVideoEngine';
+const long=getProductPackage(defaultProductId),short=selectPresentation(long,'short');
+describe('same product, two presentations',()=>{
+ it('defaults to exact existing Long package',()=>{expect(selectPresentation(long)).toBe(long);expect(selectVideoId(long)).toBe(long);expect(presentationType(long)).toBe('long');});
+ it('does not register another product or graph',()=>{expect(short.id).toBe(long.id);expect(short.product).toBe(long.product);expect(short.assembly).toBe(long.assembly);expect(productCatalog.filter(p=>p.id===long.id)).toHaveLength(1);});
+ it('provides a native58second30fpsShort with1740frames',()=>{expect(short.video).toMatchObject({width:1080,height:1920,fps:30});const scenes=new SceneEngine(short.video,short.assembly);expect(scenes.totalDuration).toBe(58);expect(Math.ceil(scenes.totalDuration*30)).toBe(1740);});
+ it('restores unchanged Long timeline/cameras and524second duration',()=>{expect(selectPresentation(long,'long').video).toBe(long.video);expect(new SceneEngine(long.video,long.assembly).totalDuration).toBeCloseTo(524.0536938888888,9);});
+ it('keeps products withoutShort honest and rejects unknownvideoIDs',()=>{const demo=getProductPackage('demo-cabinet');expect(selectPresentation(demo)).toBe(demo);expect(()=>selectPresentation(demo,'short')).toThrow('unavailable');expect(()=>selectVideoId(long,'unknown')).toThrow('does not match');});
+ it('does not inheritLongaudio orLongDirectorPlan',()=>{expect(short.approvedAudioMaster).toBeUndefined();expect(short.directorPlan).toBeUndefined();expect(short.video.audio).toEqual({voiceover:null,music:null});});
+ it('isolates focus/recovery keys forShort andLong',()=>{expect(presentationType(short)).toBe('short');expect(presentationFocusKey(short)).not.toBe(presentationFocusKey(long));});
+ it('isolates video, creative, resolution and checkpoint identities',()=>{expect(creativePackageHash(short)).not.toBe(creativePackageHash(long));const id=(p:typeof long,profile:string)=>renderIdentityHash(createRenderIdentity(p.id,p.video.id,hashVideoDefinition(p.video),getRenderProfile(profile)));expect(id(short,'vertical-1080p')).not.toBe(id(long,'1080p'));expect(id(short,'vertical-1080p')).not.toBe(id(short,'1080p'));});
+ it('requires vertical30FPS without changing horizontal defaults',()=>{expect(resolveRenderProfile({profileId:'vertical-1080p'})).toMatchObject({width:1080,height:1920,fps:30});expect(()=>resolveRenderProfile({profileId:'vertical-1080p',fps:60})).toThrow();expect(getRenderProfile('1080p')).toMatchObject({width:1920,height:1080,supportedFps:[30,60]});});
+ it('maps per-shot forwardwindows, hold and hardcuts without a global multiplier',()=>{expect(editorialSourceTime(short.video,2.5)).toBe(3.8);expect(editorialSourceTime(short.video,52)).toBeCloseTo(515.2536938888888);expect(editorialSourceTime(short.video,58)).toBeCloseTo(515.2536938888888);expect(presentationTime(short.video,0)).toBeCloseTo(editorialSourceTime(short.video,0)-5);});
+ it('rejects reversedmechanics and windows outside the approvedsource',()=>{const make=(sourceIn:number,sourceOut:number)=>({...short.video,editorial:{...short.video.editorial!,segments:short.video.editorial!.segments.map((s,i)=>i===0?{...s,sourceIn,sourceOut}:s)}});expect(()=>new SceneEngine(make(20,10),short.assembly)).toThrow();expect(()=>new SceneEngine(make(0,999),short.assembly)).toThrow();});
+});

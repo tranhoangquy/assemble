@@ -47,3 +47,6 @@ This standard describes required outcomes, not a claim that every engine capabil
 This is an INSTRUCTIONAL ASSEMBLY VIDEO GENERATOR. Mechanical truth, visual clarity, directorial continuity and deterministic reproducibility govern every phase. Assembly clarity wins when cinematic appearance conflicts with understanding real assembly.
 
 Operational implementation: [.agents/skills/long-form-assembly-video/SKILL.md](../.agents/skills/long-form-assembly-video/SKILL.md).
+
+## Shared Short and retention standards
+Native portrait Shorts extend shared source/mechanical/provenance principles through [the Short standard](short-form-assembly-video.md), with their own presentation identities and Director gates. Explicit post-freeze cleanup follows [production artifact retention](production-artifact-retention.md); it does not change rendering behavior or automatic cache retention.

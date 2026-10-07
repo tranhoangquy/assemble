@@ -1,0 +1,47 @@
+{
+  "status": "REQUIRES DIRECTOR REVIEW",
+  "technicalStatus": "PASS",
+  "candidate": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/WF311613-short01-visual-review-v1-vertical-1080p.mp4",
+  "duration": 58,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "frames": 1740,
+  "codec": "h264",
+  "pixelFormat": "yuv420p",
+  "sha256": "4de21d2ee4807b435ecd42b2b74dd519a41575b811d8e75c9b9e271414602c65",
+  "bytes": 5984835,
+  "audioStreams": 0,
+  "jobId": "17af60ac-e3ba-4bd3-b62e-ab0bf7ba9201",
+  "creativeHash": "bbaf18c37d19e1d43b4ac124efebcec171cb99d3af50ee976d8f8a511945d89a",
+  "rendererSourceHash": "4dd669143d735d3ea0e21db85cc02ba000adcabdb396f5b37d474aa7a696a53b",
+  "checks": {
+    "mechanicalSourceEquivalence": "PASS",
+    "verticalFraming": "PASS",
+    "actualCameraPresetAgreement": "PASS",
+    "captionSafeArea": "PASS",
+    "deterministicSeek": "PASS",
+    "nativeSurface": "PASS",
+    "cancelResume": "PASS",
+    "independentChunkBoundary": "PASS",
+    "longRegression": "PASS",
+    "productWithoutShort": "PASS",
+    "sourceProtection": "PASS",
+    "fullDecode": "PASS",
+    "faststart": "PASS",
+    "videoAudioMastering": "NOT RUN — silent visual review only",
+    "directorVisualApproval": "REQUIRES DIRECTOR REVIEW",
+    "encodedVisualSpotChecks": "PASS"
+  },
+  "warnings": [
+    "Pivot/piston close-ups crop surrounding cabinet context while retaining the active connection.",
+    "The 1.1-second carrier transfer uses a brief wide view to keep both subassemblies visible.",
+    "Anchoring and repeated connections are represented by editorial cuts to original valid completion states."
+  ],
+  "contactSheet": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/CONTACT-SHEET.jpg",
+  "directorPlan": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/SHORT-DIRECTOR-PLAN.json",
+  "stillManifest": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/review-stills-manifest.json",
+  "encodedSpotChecks": "output/wf311613-standalone-murphy-bed/short/short01-visual-review-v1/ENCODED-SPOT-CHECKS.jpg"
+}

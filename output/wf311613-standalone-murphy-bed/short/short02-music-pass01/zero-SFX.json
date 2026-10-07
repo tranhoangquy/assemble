@@ -1,0 +1,26 @@
+{
+  "status": "PASS_INPUT_AND_PROCESS_GRAPH_AUDIT",
+  "only_production_audio_input": {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/WF311613-lofi-mix-pass02.wav",
+    "sha256": "75b282e6e55a65923b00c152099f47e194b66c007f2e8053ccf6b9ec66690b2b"
+  },
+  "graph": [
+    "Pass02 PCM WAV decode",
+    "select A regions 22.610\u201350.110 and 109.481\u2013141.766",
+    "625ms complementary half-cosine source overlap",
+    "music-only atempo 1.02",
+    "documented 609-sample grid correction",
+    "gain +3.99dB and <=0.6dB smooth automation",
+    "8ms entry de-click; 700ms final half-cosine fade",
+    "24-bit PCM WAV",
+    "AAC encode and explicit stream-copy video mux"
+  ],
+  "external_music_inputs": [],
+  "generated_audio": false,
+  "procedural_sfx": false,
+  "narration": false,
+  "ambience": false,
+  "new_instruments": false,
+  "audio_cue_plan_used": false,
+  "voice_listening": "VOICE_CONTENT_REQUIRES_DIRECTOR_LISTENING"
+}

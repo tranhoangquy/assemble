@@ -53,7 +53,8 @@ export class ExportJobManager {
   private queue:Promise<void>=Promise.resolve();
   private initialization?:Promise<void>;
   readonly storageRoot:string;
-  readonly pipelineVersion = 2;
+  readonly pipelineVersion = 3;
+  usesCatalog(manager: ProductManager): boolean { return this.productManager === manager; }
   private readonly legacyManager?:LegacyExportManager;
   private readonly policy:Required<Omit<ExportManagerPolicy,'storageRoot'|'legacyManager'>>;
   constructor(private readonly productManager:ProductManager, policy:ExportManagerPolicy={}) {
@@ -77,8 +78,9 @@ export class ExportJobManager {
   async list(productId:string):Promise<ExportJobView[]> {await this.ready();return [...this.jobs.values()].filter(j=>j.checkpoint.view.productId===productId).map(j=>this.jobView(j)).sort((a,b)=>b.createdAt.localeCompare(a.createdAt));}
   start(options:StartExportOptions):ExportJobView {
     if(!this.productManager.has(options.productId))throw new Error(`Unknown product: ${options.productId}`);
-    const profile=resolveRenderProfile(options),product=this.productManager.load(options.productId);
+    const profile=resolveRenderProfile(options),product=this.productManager.load(options.productId,options.videoId);
     if(options.videoId!==undefined&&options.videoId!==product.video.id)throw new Error('Requested video does not match the selected product package.');
+    if(product.video.editorial && (profile.id!=='vertical-1080p'||profile.fps!==30))throw new Error('This Short requires native vertical 1080×1920 / 30 FPS.');
     const id=randomUUID(),videoHash=hashVideoDefinition(product.video),identity=createRenderIdentity(product.id,product.video.id,videoHash,profile);
     const creativeHash=creativePackageHash(product),sourceHash=this.policy.sourceHash();
     const directory=path.join(this.storageRoot,profileJobDirectoryName(id,identity));
@@ -115,14 +117,14 @@ export class ExportJobManager {
   }
   private checkIdentity(job:InternalJob):void {
     const c=job.checkpoint,v=c.view;
-    if(!this.productManager.has(v.productId)||creativePackageHash(this.productManager.load(v.productId))!==c.creativeHash||this.policy.sourceHash()!==c.rendererSourceHash)throw new ExportFailure('RENDER_CHECKPOINT_INCOMPATIBLE','Creative sources changed. Start a new generation; old frames are preserved.');
+    if(!this.productManager.has(v.productId)||creativePackageHash(this.productManager.load(v.productId,v.videoId))!==c.creativeHash||this.policy.sourceHash()!==c.rendererSourceHash)throw new ExportFailure('RENDER_CHECKPOINT_INCOMPATIBLE','Creative sources changed. Start a new generation; old frames are preserved.');
     const profile=resolveRenderProfile({profileId:v.profileId,fps:v.fps});
     const identity=createRenderIdentity(v.productId,v.videoId,v.videoHash,profile);
     if(profile.width!==v.width||profile.height!==v.height||renderIdentityHash(identity)!==c.identityHash||v.renderIdentity!==sha256(JSON.stringify({identity,creativeHash:c.creativeHash,sourceHash:c.rendererSourceHash})))throw new ExportFailure('RENDER_CHECKPOINT_INCOMPATIBLE','Checkpoint profile/FPS/identity mismatch.');
-    const packageDuration=this.productManager.load(v.productId).video.scenes.reduce((sum,scene)=>sum+scene.duration,0);
+    const packageDuration=this.productManager.load(v.productId,v.videoId).video.scenes.reduce((sum,scene)=>sum+scene.duration,0);
     const expected=Math.min(Math.ceil(packageDuration*v.fps),v.frameLimit??Infinity);
     if(v.timelineDuration!==packageDuration || v.totalFrames!==expected || JSON.stringify(profile)!==JSON.stringify(c.profile))throw new ExportFailure('RENDER_CHECKPOINT_INCOMPATIBLE','Checkpoint timeline/profile changed.');
-    const currentAudio=this.productManager.load(v.productId).approvedAudioMaster;
+    const currentAudio=this.productManager.load(v.productId,v.videoId).approvedAudioMaster;
     if(JSON.stringify(currentAudio)!==JSON.stringify(c.audio))throw new ExportFailure('RENDER_CHECKPOINT_INCOMPATIBLE','Approved audio identity changed. Start a new generation.');
   }
   private assertActive(job:InternalJob):void {if(job.cancelRequested)throw new Error('__EXPORT_CANCELLED__');}
@@ -171,18 +173,18 @@ export class ExportJobManager {
     await this.save(job);
   }
   private async renderer(job:InternalJob,origin:string):Promise<Page> {
-    const v=job.checkpoint.view;job.browser=await chromium.launch({headless:true});this.assertActive(job);
+    const v=job.checkpoint.view;job.browser=await chromium.launch({headless:true,executablePath:chromium.executablePath()});this.assertActive(job);
     const page=await job.browser.newPage({viewport:{width:v.width,height:v.height},deviceScaleFactor:1});
     page.setDefaultTimeout(this.policy.frameTimeoutMs);
     const errors:string[]=[];page.on('pageerror',error=>errors.push(error.message));
-    const url=new URL('/render',origin);url.searchParams.set('project',v.productId);url.searchParams.set('profile',v.profileId);url.searchParams.set('fps',String(v.fps));
+    const url=new URL('/render',origin);url.searchParams.set('project',v.productId);url.searchParams.set('video',v.videoId);url.searchParams.set('profile',v.profileId);url.searchParams.set('fps',String(v.fps));
     try{
       await page.goto(url.toString(),{waitUntil:'domcontentloaded',timeout:60_000});
       await page.waitForFunction(()=>window.__VIDEO_RENDERER__?.ready===true,undefined,{timeout:RENDERER_READY_TIMEOUT_MS});
     }catch(error){throw new ExportFailure('RENDERER_READINESS_TIMEOUT',`waiting for deterministic WebGL renderer ready: ${(error as Error).message}`);}
     this.assertActive(job);
     const metadata=await page.evaluate(()=>({duration:window.__VIDEO_RENDERER__!.getDuration(),creative:window.__VIDEO_RENDERER__!.getCreativeDefinition?.()}));
-    if(Math.abs(metadata.duration-v.timelineDuration)>1e-6||sha256(JSON.stringify(metadata.creative))!==creativeDataHash(this.productManager.load(v.productId)))throw new ExportFailure('RENDER_CHECKPOINT_INCOMPATIBLE','Loaded renderer creative definition differs from frozen job.');
+    if(Math.abs(metadata.duration-v.timelineDuration)>1e-6||sha256(JSON.stringify(metadata.creative))!==creativeDataHash(this.productManager.load(v.productId,v.videoId)))throw new ExportFailure('RENDER_CHECKPOINT_INCOMPATIBLE','Loaded renderer creative definition differs from frozen job.');
     try{assertNativeSurface(await page.evaluate(inspectNativeSurface),job.checkpoint.profile);}catch(error){throw new ExportFailure('RENDER_RESOURCE_LIMIT',(error as Error).message);}
     if(errors.length)throw new Error(errors.join('; '));
     page.on('pageerror',()=>{void job.browser?.close();});return page;

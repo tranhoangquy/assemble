@@ -29,6 +29,9 @@ export interface VideoDefinition {
   background: string;
   presentation?: VideoPresentationDefinition;
   intro?:ExplodedIntroDefinition;
+  /** Editorial source windows; source mechanics are evaluated on their original clock. */
+  editorial?: { source: VideoDefinition; segments: { sceneId: string; sourceIn: number; sourceOut: number }[] };
+  captionLayout?: 'vertical-safe';
   cameraPresets: Record<string, CameraPreset>;
   quickActions?: QuickActionDefinition[];
   scenes: VideoScene[];

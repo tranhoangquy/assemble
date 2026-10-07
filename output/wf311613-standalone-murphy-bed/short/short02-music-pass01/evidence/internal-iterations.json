@@ -1,0 +1,255 @@
+{
+  "iterations": [
+    {
+      "id": "v1-continuous-excerpt",
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-music-pass01/internal-iterations/v1-continuous-excerpt.wav",
+      "source_regions": [
+        {
+          "source_in": 22.61,
+          "source_out": 80.61
+        }
+      ],
+      "rejected": "Contains source sparse passage after 60s => global37.39s, reducing energy through mechanism/payoff; no intentional phrase release at the hero.",
+      "loudness": {
+        "input_i": "-20.20",
+        "input_tp": "-10.02",
+        "input_lra": "5.60",
+        "input_thresh": "-30.21",
+        "output_i": "-16.03",
+        "output_tp": "-6.09",
+        "output_lra": "4.90",
+        "output_thresh": "-26.04",
+        "normalization_type": "dynamic",
+        "target_offset": "1.03"
+      },
+      "actual_listening": "NOT RUN"
+    },
+    {
+      "id": "v2-one-beat",
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-music-pass01/internal-iterations/v2-one-beat.wav",
+      "sha256": "d47f944271d3896f5c4bee0ce2c97bbb54e077daada318d7e23464990daf6c70",
+      "source_regions": [
+        {
+          "source_in_seconds": 22.61,
+          "source_out_seconds": 50.11,
+          "source_in_samples": 1085280,
+          "source_out_samples": 2405280,
+          "global_start": 0,
+          "global_end": 26.96078431372549
+        },
+        {
+          "source_in_seconds": 109.481,
+          "source_out_seconds": 141.766,
+          "source_in_samples": 5255088,
+          "source_out_samples": 6804768,
+          "global_start": 26.348039215686274,
+          "global_end": 58
+        }
+      ],
+      "source_overlap": 0.625,
+      "global_crossfade": {
+        "start": 26.348039215686274,
+        "end": 26.96078431372549,
+        "duration": 0.6127450980392157,
+        "curve": "complementary half-cosine"
+      },
+      "processing": {
+        "atempo_speed": 1.02,
+        "atempo_output_samples": 2784609,
+        "sample_count_adjustment": -609,
+        "correction": "Uniform linear sample-grid interpolation only if WSOLA ends a few samples off; documented additional rate/pitch ratio",
+        "additional_rate_ratio": 1.00021875,
+        "endpoint_fade": {
+          "start": 57.3,
+          "end": 58,
+          "curve": "half cosine"
+        },
+        "entry_declick_seconds": 0.008,
+        "gain_automation": {
+          "global_seconds": [
+            0,
+            27,
+            38,
+            52,
+            56,
+            57.3,
+            58
+          ],
+          "gain_db": [
+            0,
+            0,
+            0.4,
+            0.4,
+            0.6,
+            0.6,
+            0.6
+          ],
+          "interpolation": "linear dB; <=0.6dB total"
+        }
+      },
+      "linear_gain_db": 3.9899999999999984,
+      "measured_loudness": {
+        "input_i": "-15.00",
+        "input_tp": "-5.74",
+        "input_lra": "1.50",
+        "input_thresh": "-25.07",
+        "output_i": "-14.99",
+        "output_tp": "-5.86",
+        "output_lra": "1.30",
+        "output_thresh": "-25.03",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.01"
+      },
+      "section_energy": {
+        "hook": {
+          "rms_dbfs": -16.607950963448147,
+          "peak_dbfs": -6.641360558934563
+        },
+        "assembly": {
+          "rms_dbfs": -15.909182444804715,
+          "peak_dbfs": -6.288206705187285
+        },
+        "connection": {
+          "rms_dbfs": -15.580510919100366,
+          "peak_dbfs": -5.84658182913995
+        },
+        "mechanism": {
+          "rms_dbfs": -15.08293809705297,
+          "peak_dbfs": -6.037360152861178
+        },
+        "legs": {
+          "rms_dbfs": -15.385432372032131,
+          "peak_dbfs": -6.038974557403424
+        },
+        "payoff": {
+          "rms_dbfs": -14.986814150583058,
+          "peak_dbfs": -5.744388122716293
+        },
+        "ending": {
+          "rms_dbfs": -32.80284129900715,
+          "peak_dbfs": -17.77779690028292
+        }
+      },
+      "finite_samples": true,
+      "sample_peak_dbfs": -5.744388103485107,
+      "interior_100ms_below_minus70": [],
+      "actual_listening": "NOT RUN",
+      "provisional_form": "Source A only; 24-bar source offset preserves provisional harmonic/rhythmic phase. Source tail releases after 140.7s, no Long crossfade or full-song intro."
+    },
+    {
+      "id": "v3-one-bar",
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-music-pass01/internal-iterations/v3-one-bar.wav",
+      "sha256": "808ebf78ebce7c1f512b08888f88fde7d6ad7b10456fb8750865a8825a7f3415",
+      "source_regions": [
+        {
+          "source_in_seconds": 22.61,
+          "source_out_seconds": 50.11,
+          "source_in_samples": 1085280,
+          "source_out_samples": 2405280,
+          "global_start": 0,
+          "global_end": 26.96078431372549
+        },
+        {
+          "source_in_seconds": 107.606,
+          "source_out_seconds": 141.766,
+          "source_in_samples": 5165088,
+          "source_out_samples": 6804768,
+          "global_start": 24.509803921568626,
+          "global_end": 58
+        }
+      ],
+      "source_overlap": 2.5,
+      "global_crossfade": {
+        "start": 24.509803921568626,
+        "end": 26.96078431372549,
+        "duration": 2.450980392156863,
+        "curve": "sin/cos equal-power"
+      },
+      "processing": {
+        "atempo_speed": 1.02,
+        "atempo_output_samples": 2784609,
+        "sample_count_adjustment": -609,
+        "correction": "Uniform linear sample-grid interpolation only if WSOLA ends a few samples off; documented additional rate/pitch ratio",
+        "additional_rate_ratio": 1.00021875,
+        "endpoint_fade": {
+          "start": 57.3,
+          "end": 58,
+          "curve": "half cosine"
+        },
+        "entry_declick_seconds": 0.008,
+        "gain_automation": {
+          "global_seconds": [
+            0,
+            27,
+            38,
+            52,
+            56,
+            57.3,
+            58
+          ],
+          "gain_db": [
+            0,
+            0,
+            0.4,
+            0.4,
+            0.6,
+            0.6,
+            0.6
+          ],
+          "interpolation": "linear dB; <=0.6dB total"
+        }
+      },
+      "linear_gain_db": 3.9499999999999993,
+      "measured_loudness": {
+        "input_i": "-15.00",
+        "input_tp": "-5.27",
+        "input_lra": "1.50",
+        "input_thresh": "-25.07",
+        "output_i": "-14.99",
+        "output_tp": "-5.18",
+        "output_lra": "1.30",
+        "output_thresh": "-25.02",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.01"
+      },
+      "section_energy": {
+        "hook": {
+          "rms_dbfs": -16.647951025223225,
+          "peak_dbfs": -6.681360269108156
+        },
+        "assembly": {
+          "rms_dbfs": -15.902920480653865,
+          "peak_dbfs": -5.274043895962301
+        },
+        "connection": {
+          "rms_dbfs": -15.619156392785644,
+          "peak_dbfs": -5.889925574794229
+        },
+        "mechanism": {
+          "rms_dbfs": -15.122310161377541,
+          "peak_dbfs": -6.077360305270619
+        },
+        "legs": {
+          "rms_dbfs": -15.425432431417956,
+          "peak_dbfs": -6.078974865339762
+        },
+        "payoff": {
+          "rms_dbfs": -15.026814210504245,
+          "peak_dbfs": -5.78438863519623
+        },
+        "ending": {
+          "rms_dbfs": -32.84284136180053,
+          "peak_dbfs": -17.817796703041928
+        }
+      },
+      "finite_samples": true,
+      "sample_peak_dbfs": -5.274043560028076,
+      "interior_100ms_below_minus70": [],
+      "actual_listening": "NOT RUN",
+      "provisional_form": "Source A only; 24-bar source offset preserves provisional harmonic/rhythmic phase. Source tail releases after 140.7s, no Long crossfade or full-song intro."
+    }
+  ],
+  "selected": "v2-one-beat",
+  "v3_not_selected_reason": "Longer simultaneous-texture overlap and equal-power overlap provide no necessary structural advantage; one-beat phase-aligned edit is less invasive. This is not a listening judgment.",
+  "actual_listening": "NOT RUN"
+}

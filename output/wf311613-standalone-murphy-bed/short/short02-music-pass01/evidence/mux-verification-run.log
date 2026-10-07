@@ -1,0 +1,154 @@
+MUX DONE
+FRAME DECODE source
+FRAME DECODE review
+{
+  "status": "PASS",
+  "scope": "TECHNICAL MEDIA ONLY; actual listening NOT RUN",
+  "intended_timeline_seconds": 58,
+  "video": {
+    "duration": "58.000000",
+    "codec": "h264",
+    "pix_fmt": "yuv420p",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 1740,
+    "bitstream_payload_and_packet_timing_identical": true,
+    "decoded_all_1740_frames_and_timestamps_identical": true,
+    "stream_time_base": "1/15360"
+  },
+  "audio": {
+    "wav_codec": "pcm_s24le",
+    "wav_samples_per_channel": 2784000,
+    "wav_duration_seconds": 58.0,
+    "review_codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "declared_duration_seconds": 58.0,
+    "review_decoded_samples_per_channel": 2784256,
+    "aac_padding_samples_per_channel": 256,
+    "aac_padding_seconds": 0.005333333333333333,
+    "padding_note": "AAC uses whole 1024-sample frames. MP4 duration/edit metadata defines 58s; decoder may expose trailing frame padding. No video extension or truncation.",
+    "encoded_loudness": {
+      "input_i": "-15.01",
+      "input_tp": "-5.83",
+      "input_lra": "1.40",
+      "input_thresh": "-25.08"
+    },
+    "wav_final_sample_zero": true,
+    "finite_samples": true,
+    "clipped_samples": 0,
+    "interior_100ms_silence_below_minus70dbfs": [],
+    "100ms_below_minus70_including_tail": [],
+    "seam_diagnostics": [
+      {
+        "nominal_seconds": 26.3480392157,
+        "max_adjacent_sample_step_within_10ms": 0.018277764320373535,
+        "overall_max_adjacent_sample_step": 0.20760107040405273,
+        "interpretation": "Numeric diagnostic only; not an audible click/pop listening verdict."
+      },
+      {
+        "nominal_seconds": 26.9607843137,
+        "max_adjacent_sample_step_within_10ms": 0.09073877334594727,
+        "overall_max_adjacent_sample_step": 0.20760107040405273,
+        "interpretation": "Numeric diagnostic only; not an audible click/pop listening verdict."
+      },
+      {
+        "nominal_seconds": 57.3,
+        "max_adjacent_sample_step_within_10ms": 0.014515042304992676,
+        "overall_max_adjacent_sample_step": 0.20760107040405273,
+        "interpretation": "Numeric diagnostic only; not an audible click/pop listening verdict."
+      }
+    ]
+  },
+  "av_sync": {
+    "status": "PASS",
+    "video_start": "0.000000",
+    "audio_start": "0.000000",
+    "waveform_alignment": [
+      {
+        "global_seconds": 1,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9999770240473708,
+        "rms_error_dbfs": -59.940345764160156
+      },
+      {
+        "global_seconds": 25,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9998815103790921,
+        "rms_error_dbfs": -51.69477844238281
+      },
+      {
+        "global_seconds": 26.7,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9999779252448985,
+        "rms_error_dbfs": -59.4747314453125
+      },
+      {
+        "global_seconds": 35,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9999908321135501,
+        "rms_error_dbfs": -62.72117233276367
+      },
+      {
+        "global_seconds": 43,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9999379305389163,
+        "rms_error_dbfs": -54.341922760009766
+      },
+      {
+        "global_seconds": 53,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9999339158405979,
+        "rms_error_dbfs": -53.86327362060547
+      },
+      {
+        "global_seconds": 56.8,
+        "lag_samples": 0,
+        "lag_ms": 0.0,
+        "correlation": 0.9999905820058804,
+        "rms_error_dbfs": -65.06013488769531
+      }
+    ],
+    "note": "Zero measured lag at seven locations including splice and end; no drift. Perceptual rhythm/picture fit remains director review."
+  },
+  "full_av_decode": "PASS",
+  "faststart": {
+    "status": "PASS",
+    "atoms": [
+      {
+        "type": "ftyp",
+        "offset": 0,
+        "size": 32
+      },
+      {
+        "type": "moov",
+        "offset": 32,
+        "size": 64913
+      },
+      {
+        "type": "free",
+        "offset": 64945,
+        "size": 8
+      },
+      {
+        "type": "mdat",
+        "offset": 64953,
+        "size": 7147746
+      }
+    ]
+  },
+  "hashes": {
+    "wav": "d47f944271d3896f5c4bee0ce2c97bbb54e077daada318d7e23464990daf6c70",
+    "review_mp4": "8816b48c9faec27b1597b9ba44b769e2f5e4be367191058e4949908abd6fb7f3",
+    "preview_m4a": "00be66494d3f373119dec7a5b1183acfb3dd626c307ce4d49dc0bb8f1db148ac"
+  },
+  "actual_listening": "NOT RUN",
+  "voice_check": "VOICE_CONTENT_REQUIRES_DIRECTOR_LISTENING"
+}

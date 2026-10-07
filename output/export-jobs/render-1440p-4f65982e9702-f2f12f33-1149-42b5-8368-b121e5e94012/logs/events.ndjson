@@ -1,8 +1,0 @@
-{"at":"2026-10-06T04:45:18.099Z","status":"preparing","message":"Preparing generation and validating saved work…","validFrames":0,"retries":0}
-{"at":"2026-10-06T04:45:18.800Z","status":"rendering","message":"Rendering missing or invalid frames…","validFrames":0,"retries":0}
-{"at":"2026-10-06T04:45:18.819Z","status":"rendering","message":"Rendering work chunk 1 of 53…","validFrames":0,"retries":0}
-{"at":"2026-10-06T04:47:57.363Z","status":"retrying","message":"Retrying frame 1; valid work kept.","validFrames":0,"retries":1,"lastError":"waiting for deterministic WebGL renderer ready: page.waitForFunction: Timeout 90000ms exceeded."}
-{"at":"2026-10-06T04:47:57.364Z","status":"rendering","message":"Rendering work chunk 1…","validFrames":0,"retries":1,"lastError":"waiting for deterministic WebGL renderer ready: page.waitForFunction: Timeout 90000ms exceeded."}
-{"at":"2026-10-06T04:50:28.577Z","status":"retrying","message":"Retrying frame 1; valid work kept.","validFrames":0,"retries":2,"lastError":"waiting for deterministic WebGL renderer ready: page.waitForFunction: Timeout 90000ms exceeded."}
-{"at":"2026-10-06T04:50:28.579Z","status":"rendering","message":"Rendering work chunk 1…","validFrames":0,"retries":2,"lastError":"waiting for deterministic WebGL renderer ready: page.waitForFunction: Timeout 90000ms exceeded."}
-{"at":"2026-10-06T04:53:00.621Z","status":"waiting_for_resume","message":"Generation stopped. Checkpoint and valid frames kept.","validFrames":0,"retries":2,"errorCode":"RENDERER_READINESS_TIMEOUT","lastError":"Retry budget exhausted at frame 0: waiting for deterministic WebGL renderer ready: page.waitForFunction: Timeout 90000ms exceeded."}

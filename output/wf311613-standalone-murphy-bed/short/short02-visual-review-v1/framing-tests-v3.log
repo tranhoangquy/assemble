@@ -1,0 +1,33 @@
+
+> furniture-video-engine@0.2.0 test
+> vitest run src/products/wf311613-standalone-murphy-bed/tests/short02.test.ts
+
+
+ RUN  v4.1.11 /Users/quyth/development/three/POC
+
+(node:37193) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ❯ src/products/wf311613-standalone-murphy-bed/tests/short02.test.ts (3 tests | 1 failed) 2840ms
+   × keeps the moving cap and both carrier/face assemblies inside the vertical action region 1517ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/products/wf311613-standalone-murphy-bed/tests/short02.test.ts > keeps the moving cap and both carrier/face assemblies inside the vertical action region
+AssertionError: hook-opening/C2-right: horizontal clipping at 3: expected 0.8549764801800017 to be less than 0.8
+ ❯ src/products/wf311613-standalone-murphy-bed/tests/short02.test.ts:48:83
+     46|      for(const box of materialCells(definition.geometry))for(const x o…
+     47|       const point=new THREE.Vector3(x,y,z).applyMatrix4(object.matrixW…
+     48|       expect(Math.abs(point.x),`${id}/${part}: horizontal clipping at …
+       |                                                                                   ^
+     49|       expect(point.y,`${id}/${part}: caption/edge overlap at ${sample}…
+     50|       expect(point.y,`${id}/${part}: bottom clipping at ${sample}`).to…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 2 passed (3)
+   Start at  17:48:03
+   Duration  3.24s (transform 208ms, setup 0ms, import 330ms, tests 2.84s, environment 0ms)
+

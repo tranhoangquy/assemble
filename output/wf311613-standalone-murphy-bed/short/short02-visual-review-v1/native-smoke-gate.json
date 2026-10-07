@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "jobId": "8e23a36a-5360-4a15-ba2f-8fcf9672ca29",
+  "creativeHash": "37319086663ab2abba1f83e8829237da369aa4a41c6f8bd43bea46f151383b36",
+  "rendererSourceHash": "f744374bdb755f52a7f4eefcc2af4931d762b4fb3c0c2f2c333608d37f90e901",
+  "nativeSize": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "frames": 6,
+  "frameZeroIdentity": "PASS",
+  "cancelResume": "PASS",
+  "independentChunkBoundary": "PASS",
+  "fullDecode": "PASS",
+  "faststart": "PASS"
+}

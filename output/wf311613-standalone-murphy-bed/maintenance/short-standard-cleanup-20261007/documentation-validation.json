@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "links_checked": 21,
+  "links": [
+    {
+      "source": "AGENTS.md",
+      "target": "rules/long-form-assembly-video.md",
+      "exists": true
+    },
+    {
+      "source": "AGENTS.md",
+      "target": ".agents/skills/long-form-assembly-video/SKILL.md",
+      "exists": true
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "rules/short-form-assembly-video.md",
+      "exists": true
+    },
+    {
+      "source": "AGENTS.md",
+      "target": ".agents/skills/short-form-assembly-video/SKILL.md",
+      "exists": true
+    },
+    {
+      "source": "AGENTS.md",
+      "target": "rules/production-artifact-retention.md",
+      "exists": true
+    },
+    {
+      "source": "rules/long-form-assembly-video.md",
+      "target": "../.agents/skills/long-form-assembly-video/SKILL.md",
+      "exists": true
+    },
+    {
+      "source": "rules/long-form-assembly-video.md",
+      "target": "short-form-assembly-video.md",
+      "exists": true
+    },
+    {
+      "source": "rules/long-form-assembly-video.md",
+      "target": "production-artifact-retention.md",
+      "exists": true
+    },
+    {
+      "source": "rules/short-form-assembly-video.md",
+      "target": "long-form-assembly-video.md",
+      "exists": true
+    },
+    {
+      "source": "rules/short-form-assembly-video.md",
+      "target": "../docs/resumable-export.md",
+      "exists": true
+    },
+    {
+      "source": "rules/short-form-assembly-video.md",
+      "target": "production-artifact-retention.md",
+      "exists": true
+    },
+    {
+      "source": "rules/short-form-assembly-video.md",
+      "target": "../.agents/skills/short-form-assembly-video/SKILL.md",
+      "exists": true
+    },
+    {
+      "source": ".agents/skills/short-form-assembly-video/SKILL.md",
+      "target": "../../../rules/short-form-assembly-video.md",
+      "exists": true
+    },
+    {
+      "source": ".agents/skills/short-form-assembly-video/SKILL.md",
+      "target": "../long-form-assembly-video/references/repository-adapter.md",
+      "exists": true
+    },
+    {
+      "source": ".agents/skills/short-form-assembly-video/SKILL.md",
+      "target": "../long-form-assembly-video/references/artifact-contract.md",
+      "exists": true
+    },
+    {
+      "source": ".agents/skills/short-form-assembly-video/SKILL.md",
+      "target": "../long-form-assembly-video/references/resumable-export.md",
+      "exists": true
+    },
+    {
+      "source": ".agents/skills/short-form-assembly-video/SKILL.md",
+      "target": "../long-form-assembly-video/checklists/long-render-generate-file-qa.md",
+      "exists": true
+    },
+    {
+      "source": ".agents/skills/short-form-assembly-video/SKILL.md",
+      "target": "../long-form-assembly-video/references/audio-and-mux.md",
+      "exists": true
+    },
+    {
+      "source": ".agents/skills/short-form-assembly-video/SKILL.md",
+      "target": "../long-form-assembly-video/checklists/audio-listening-review.md",
+      "exists": true
+    },
+    {
+      "source": ".agents/skills/short-form-assembly-video/SKILL.md",
+      "target": "../long-form-assembly-video/checklists/final-mux-qa.md",
+      "exists": true
+    },
+    {
+      "source": ".agents/skills/short-form-assembly-video/SKILL.md",
+      "target": "../../../rules/production-artifact-retention.md",
+      "exists": true
+    }
+  ],
+  "skill_frontmatter": "PASS using system Python3 and bundled quick_validate.py",
+  "initial_validator_runtime_note": "Bundled primary Python lacks yaml; system Python3 already has PyYAML6.0.3; no dependency installed",
+  "normative_vs_procedural_review": "Rule20 invariants + shared retention; Skill10 phases; no fixed WF timestamps as business rules; explicit approval and listening limits preserved"
+}

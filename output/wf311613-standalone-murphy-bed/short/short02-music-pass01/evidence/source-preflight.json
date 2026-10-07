@@ -1,0 +1,164 @@
+{
+  "status": "PASS",
+  "visual": {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-visual-review-v1/WF311613-short02-visual-review-v1-vertical-1080p.mp4",
+    "sha256": "aee283b9d7bf0653b45fd3bf357fc51ea98ad988ebabe532d371a2662d7cad98",
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "High",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "mime_codec_string": "avc1.640028",
+          "width": 1080,
+          "height": 1920,
+          "coded_width": 1088,
+          "coded_height": 1920,
+          "has_b_frames": 2,
+          "pix_fmt": "yuv420p",
+          "level": 40,
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "refs": 4,
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1",
+          "time_base": "1/15360",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 890880,
+          "duration": "58.000000",
+          "bit_rate": "729067",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "1740",
+          "nb_read_frames": "1740",
+          "extradata_size": 47,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "encoder": "Lavc62.28.102 libx264"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-visual-review-v1/WF311613-short02-visual-review-v1-vertical-1080p.mp4",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "58.000000",
+        "size": "5307176",
+        "bit_rate": "732024",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf62.12.102"
+        }
+      }
+    },
+    "director_status": "APPROVED_AND_FROZEN_BY_CURRENT_PACKAGE"
+  },
+  "music": {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/WF311613-lofi-mix-pass02.wav",
+    "sha256": "75b282e6e55a65923b00c152099f47e194b66c007f2e8053ccf6b9ec66690b2b",
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "pcm_s24le",
+          "codec_long_name": "PCM signed 24-bit little-endian",
+          "codec_type": "audio",
+          "codec_tag_string": "[1][0][0][0]",
+          "codec_tag": "0x0001",
+          "sample_fmt": "s32",
+          "sample_rate": "48000",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 24,
+          "initial_padding": 0,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/48000",
+          "duration_ts": 25155200,
+          "duration": "524.066667",
+          "bit_rate": "2304000",
+          "bits_per_raw_sample": "24",
+          "nb_read_frames": "6142",
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/WF311613-lofi-mix-pass02.wav",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "wav",
+        "format_long_name": "WAV / WAVE (Waveform Audio)",
+        "duration": "524.066667",
+        "size": "150931302",
+        "bit_rate": "2304001",
+        "probe_score": 99,
+        "tags": {
+          "encoder": "Lavf62.12.102"
+        }
+      }
+    },
+    "approval_evidence": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/director-approval-and-final-build.json"
+  },
+  "directorPackage": {
+    "path": "/Users/quyth/.codex/attachments/ab5b9f20-4213-45a3-9d6b-eca96f294c1a/Pasted text.txt",
+    "sha256": "d7a1cda119e2ee6d8d2d731f81f3a83ef0f2a9d9f83ac159658008061a60b199"
+  },
+  "listeningCapability": "NOT AVAILABLE; agent listening NOT RUN; director audio review required"
+}

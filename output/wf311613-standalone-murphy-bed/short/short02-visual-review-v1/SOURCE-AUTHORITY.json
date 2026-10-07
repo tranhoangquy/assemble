@@ -1,0 +1,14 @@
+{
+  "revision": "wf311613-short02-visual-v1",
+  "authorizedScope": "Complete native 1080x1920 30fps silent visual candidate <=60s; stop for director visual review",
+  "directorPackage": {
+    "path": "/Users/quyth/.codex/attachments/c249004f-67db-4233-9446-b82bfc26e940/Pasted text.txt",
+    "sha256": "571b68ace5fa26a291f23c788b4fb2059e1d53bef66aeda362c06a50ac011d49"
+  },
+  "frozenProductSha256": "29ef4258730c3e3691c84223d98e240d9a25854d079402377f97489ace5f9fb5",
+  "approvedLongSilentSha256": "0d5d898cbfaecb4573f07e818ce722c6884cbd4dc67d7c51b7c6c724f404ba0a",
+  "short01ReviewCandidateSha256": "4de21d2ee4807b435ecd42b2b74dd519a41575b811d8e75c9b9e271414602c65",
+  "mechanicalAuthority": "Existing validated product + polish02Plan/AssemblyGraph; no new part/dimension/material/attachment inference",
+  "visualReviewStatus": "REQUIRES DIRECTOR REVIEW",
+  "audioAuthorization": "NOT AUTHORIZED in this phase"
+}

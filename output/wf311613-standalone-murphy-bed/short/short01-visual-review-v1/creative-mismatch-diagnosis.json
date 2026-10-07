@@ -1,0 +1,872 @@
+{
+  "status": "FAIL_BEFORE_FIX",
+  "differenceCount": 144,
+  "cause": "Node/Chromium procedural trigonometry differs at final floating-point bits",
+  "resolution": "Resolve canonical creative on existing render server page and serialize to same ProductViewer; exact hash guard unchanged",
+  "differences": [
+    {
+      "path": "/product/parts/365/geometry/pieces/1/geometry/points/9/1",
+      "node": 0.502456794685779,
+      "chromium": 0.5024567946857791,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/365/geometry/pieces/1/geometry/points/22/1",
+      "node": 0.5404552479966545,
+      "chromium": 0.5404552479966546,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/365/geometry/pieces/1/geometry/points/36/1",
+      "node": -0.24874423103730825,
+      "chromium": -0.2487442310373083,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/365/geometry/pieces/1/geometry/points/57/0",
+      "node": 0.5024567946857788,
+      "chromium": 0.5024567946857789,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/374/geometry/pieces/0/geometry/points/9/1",
+      "node": 1.5460209067254738,
+      "chromium": 1.546020906725474,
+      "absoluteDifference": 2.220446049250313e-16
+    },
+    {
+      "path": "/product/parts/374/geometry/pieces/0/geometry/points/22/1",
+      "node": 1.6629392246050907,
+      "chromium": 1.662939224605091,
+      "absoluteDifference": 2.220446049250313e-16
+    },
+    {
+      "path": "/product/parts/374/geometry/pieces/0/geometry/points/36/1",
+      "node": -0.7653668647301792,
+      "chromium": -0.7653668647301793,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/374/geometry/pieces/0/geometry/points/43/0",
+      "node": -0.9427934736519958,
+      "chromium": -0.9427934736519957,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/374/geometry/pieces/0/geometry/points/57/0",
+      "node": 1.546020906725473,
+      "chromium": 1.5460209067254733,
+      "absoluteDifference": 2.220446049250313e-16
+    },
+    {
+      "path": "/product/parts/374/geometry/pieces/1/geometry/points/9/1",
+      "node": 0.7884706624299916,
+      "chromium": 0.7884706624299918,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/374/geometry/pieces/1/geometry/points/22/1",
+      "node": 0.8480990045485962,
+      "chromium": 0.8480990045485964,
+      "absoluteDifference": 2.220446049250313e-16
+    },
+    {
+      "path": "/product/parts/374/geometry/pieces/1/geometry/points/36/1",
+      "node": -0.39033710101239144,
+      "chromium": -0.3903371010123915,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/374/geometry/pieces/1/geometry/points/43/0",
+      "node": -0.4808246715625179,
+      "chromium": -0.48082467156251785,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/374/geometry/pieces/1/geometry/points/57/0",
+      "node": 0.7884706624299913,
+      "chromium": 0.7884706624299914,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/374/geometry/pieces/2/geometry/points/9/1",
+      "node": 1.1981662027122422,
+      "chromium": 1.1981662027122424,
+      "absoluteDifference": 2.220446049250313e-16
+    },
+    {
+      "path": "/product/parts/374/geometry/pieces/2/geometry/points/22/1",
+      "node": 1.2887778990689454,
+      "chromium": 1.2887778990689456,
+      "absoluteDifference": 2.220446049250313e-16
+    },
+    {
+      "path": "/product/parts/374/geometry/pieces/2/geometry/points/36/1",
+      "node": -0.5931593201658889,
+      "chromium": -0.593159320165889,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/374/geometry/pieces/2/geometry/points/57/0",
+      "node": 1.1981662027122417,
+      "chromium": 1.198166202712242,
+      "absoluteDifference": 2.220446049250313e-16
+    },
+    {
+      "path": "/product/parts/379/geometry/points/22/1",
+      "node": 0.5820287286117817,
+      "chromium": 0.5820287286117818,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/380/geometry/points/22/1",
+      "node": 0.5820287286117817,
+      "chromium": 0.5820287286117818,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/381/geometry/points/4/1",
+      "node": -0.5369357503463519,
+      "chromium": -0.5369357503463518,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/383/geometry/points/4/1",
+      "node": -0.5369357503463519,
+      "chromium": -0.5369357503463518,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/384/geometry/pieces/1/geometry/points/9/1",
+      "node": 0.502456794685779,
+      "chromium": 0.5024567946857791,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/384/geometry/pieces/1/geometry/points/22/1",
+      "node": 0.5404552479966545,
+      "chromium": 0.5404552479966546,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/384/geometry/pieces/1/geometry/points/36/1",
+      "node": -0.24874423103730825,
+      "chromium": -0.2487442310373083,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/384/geometry/pieces/1/geometry/points/57/0",
+      "node": 0.5024567946857788,
+      "chromium": 0.5024567946857789,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/393/geometry/pieces/0/geometry/points/9/1",
+      "node": 1.5460209067254738,
+      "chromium": 1.546020906725474,
+      "absoluteDifference": 2.220446049250313e-16
+    },
+    {
+      "path": "/product/parts/393/geometry/pieces/0/geometry/points/22/1",
+      "node": 1.6629392246050907,
+      "chromium": 1.662939224605091,
+      "absoluteDifference": 2.220446049250313e-16
+    },
+    {
+      "path": "/product/parts/393/geometry/pieces/0/geometry/points/36/1",
+      "node": -0.7653668647301792,
+      "chromium": -0.7653668647301793,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/393/geometry/pieces/0/geometry/points/43/0",
+      "node": -0.9427934736519958,
+      "chromium": -0.9427934736519957,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/393/geometry/pieces/0/geometry/points/57/0",
+      "node": 1.546020906725473,
+      "chromium": 1.5460209067254733,
+      "absoluteDifference": 2.220446049250313e-16
+    },
+    {
+      "path": "/product/parts/393/geometry/pieces/1/geometry/points/9/1",
+      "node": 0.7884706624299916,
+      "chromium": 0.7884706624299918,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/393/geometry/pieces/1/geometry/points/22/1",
+      "node": 0.8480990045485962,
+      "chromium": 0.8480990045485964,
+      "absoluteDifference": 2.220446049250313e-16
+    },
+    {
+      "path": "/product/parts/393/geometry/pieces/1/geometry/points/36/1",
+      "node": -0.39033710101239144,
+      "chromium": -0.3903371010123915,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/393/geometry/pieces/1/geometry/points/43/0",
+      "node": -0.4808246715625179,
+      "chromium": -0.48082467156251785,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/393/geometry/pieces/1/geometry/points/57/0",
+      "node": 0.7884706624299913,
+      "chromium": 0.7884706624299914,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/393/geometry/pieces/2/geometry/points/9/1",
+      "node": 1.1981662027122422,
+      "chromium": 1.1981662027122424,
+      "absoluteDifference": 2.220446049250313e-16
+    },
+    {
+      "path": "/product/parts/393/geometry/pieces/2/geometry/points/22/1",
+      "node": 1.2887778990689454,
+      "chromium": 1.2887778990689456,
+      "absoluteDifference": 2.220446049250313e-16
+    },
+    {
+      "path": "/product/parts/393/geometry/pieces/2/geometry/points/36/1",
+      "node": -0.5931593201658889,
+      "chromium": -0.593159320165889,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/393/geometry/pieces/2/geometry/points/57/0",
+      "node": 1.1981662027122417,
+      "chromium": 1.198166202712242,
+      "absoluteDifference": 2.220446049250313e-16
+    },
+    {
+      "path": "/product/parts/398/geometry/points/22/1",
+      "node": 0.5820287286117817,
+      "chromium": 0.5820287286117818,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/399/geometry/points/22/1",
+      "node": 0.5820287286117817,
+      "chromium": 0.5820287286117818,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/400/geometry/points/4/1",
+      "node": -0.5369357503463519,
+      "chromium": -0.5369357503463518,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/402/geometry/points/4/1",
+      "node": -0.5369357503463519,
+      "chromium": -0.5369357503463518,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/407/geometry/pieces/0/geometry/points/9/1",
+      "node": 0.42515574934950534,
+      "chromium": 0.4251557493495054,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/407/geometry/pieces/0/geometry/points/22/1",
+      "node": 0.45730828676639995,
+      "chromium": 0.45730828676640006,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/407/geometry/pieces/0/geometry/points/36/1",
+      "node": -0.21047588780079932,
+      "chromium": -0.21047588780079934,
+      "absoluteDifference": 2.7755575615628914e-17
+    },
+    {
+      "path": "/product/parts/407/geometry/pieces/0/geometry/points/43/0",
+      "node": -0.2592682052542989,
+      "chromium": -0.25926820525429883,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/407/geometry/pieces/0/geometry/points/57/0",
+      "node": 0.4251557493495051,
+      "chromium": 0.4251557493495052,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/407/geometry/pieces/1/geometry/points/9/1",
+      "node": 0.502456794685779,
+      "chromium": 0.5024567946857791,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/407/geometry/pieces/1/geometry/points/22/1",
+      "node": 0.5404552479966545,
+      "chromium": 0.5404552479966546,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/407/geometry/pieces/1/geometry/points/36/1",
+      "node": -0.24874423103730825,
+      "chromium": -0.2487442310373083,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/407/geometry/pieces/1/geometry/points/57/0",
+      "node": 0.5024567946857788,
+      "chromium": 0.5024567946857789,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/410/geometry/pieces/0/geometry/points/9/1",
+      "node": 0.42515574934950534,
+      "chromium": 0.4251557493495054,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/410/geometry/pieces/0/geometry/points/22/1",
+      "node": 0.45730828676639995,
+      "chromium": 0.45730828676640006,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/410/geometry/pieces/0/geometry/points/36/1",
+      "node": -0.21047588780079932,
+      "chromium": -0.21047588780079934,
+      "absoluteDifference": 2.7755575615628914e-17
+    },
+    {
+      "path": "/product/parts/410/geometry/pieces/0/geometry/points/43/0",
+      "node": -0.2592682052542989,
+      "chromium": -0.25926820525429883,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/410/geometry/pieces/0/geometry/points/57/0",
+      "node": 0.4251557493495051,
+      "chromium": 0.4251557493495052,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/410/geometry/pieces/1/geometry/points/9/1",
+      "node": 0.502456794685779,
+      "chromium": 0.5024567946857791,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/410/geometry/pieces/1/geometry/points/22/1",
+      "node": 0.5404552479966545,
+      "chromium": 0.5404552479966546,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/410/geometry/pieces/1/geometry/points/36/1",
+      "node": -0.24874423103730825,
+      "chromium": -0.2487442310373083,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/410/geometry/pieces/1/geometry/points/57/0",
+      "node": 0.5024567946857788,
+      "chromium": 0.5024567946857789,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/414/geometry/pieces/0/geometry/points/9/1",
+      "node": 0.42515574934950534,
+      "chromium": 0.4251557493495054,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/414/geometry/pieces/0/geometry/points/22/1",
+      "node": 0.45730828676639995,
+      "chromium": 0.45730828676640006,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/414/geometry/pieces/0/geometry/points/36/1",
+      "node": -0.21047588780079932,
+      "chromium": -0.21047588780079934,
+      "absoluteDifference": 2.7755575615628914e-17
+    },
+    {
+      "path": "/product/parts/414/geometry/pieces/0/geometry/points/43/0",
+      "node": -0.2592682052542989,
+      "chromium": -0.25926820525429883,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/414/geometry/pieces/0/geometry/points/57/0",
+      "node": 0.4251557493495051,
+      "chromium": 0.4251557493495052,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/414/geometry/pieces/1/geometry/points/9/1",
+      "node": 0.502456794685779,
+      "chromium": 0.5024567946857791,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/414/geometry/pieces/1/geometry/points/22/1",
+      "node": 0.5404552479966545,
+      "chromium": 0.5404552479966546,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/414/geometry/pieces/1/geometry/points/36/1",
+      "node": -0.24874423103730825,
+      "chromium": -0.2487442310373083,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/414/geometry/pieces/1/geometry/points/57/0",
+      "node": 0.5024567946857788,
+      "chromium": 0.5024567946857789,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/417/geometry/pieces/0/geometry/points/9/1",
+      "node": 0.42515574934950534,
+      "chromium": 0.4251557493495054,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/417/geometry/pieces/0/geometry/points/22/1",
+      "node": 0.45730828676639995,
+      "chromium": 0.45730828676640006,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/417/geometry/pieces/0/geometry/points/36/1",
+      "node": -0.21047588780079932,
+      "chromium": -0.21047588780079934,
+      "absoluteDifference": 2.7755575615628914e-17
+    },
+    {
+      "path": "/product/parts/417/geometry/pieces/0/geometry/points/43/0",
+      "node": -0.2592682052542989,
+      "chromium": -0.25926820525429883,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/417/geometry/pieces/0/geometry/points/57/0",
+      "node": 0.4251557493495051,
+      "chromium": 0.4251557493495052,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/417/geometry/pieces/1/geometry/points/9/1",
+      "node": 0.502456794685779,
+      "chromium": 0.5024567946857791,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/417/geometry/pieces/1/geometry/points/22/1",
+      "node": 0.5404552479966545,
+      "chromium": 0.5404552479966546,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/417/geometry/pieces/1/geometry/points/36/1",
+      "node": -0.24874423103730825,
+      "chromium": -0.2487442310373083,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/417/geometry/pieces/1/geometry/points/57/0",
+      "node": 0.5024567946857788,
+      "chromium": 0.5024567946857789,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/419/geometry/points/9/1",
+      "node": 0.7730104533627369,
+      "chromium": 0.773010453362737,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/419/geometry/points/22/1",
+      "node": 0.8314696123025453,
+      "chromium": 0.8314696123025455,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/419/geometry/points/36/1",
+      "node": -0.3826834323650896,
+      "chromium": -0.38268343236508967,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/419/geometry/points/43/0",
+      "node": -0.4713967368259979,
+      "chromium": -0.47139673682599786,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/419/geometry/points/57/0",
+      "node": 0.7730104533627365,
+      "chromium": 0.7730104533627367,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/420/geometry/pieces/0/geometry/points/9/1",
+      "node": 0.42515574934950534,
+      "chromium": 0.4251557493495054,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/420/geometry/pieces/0/geometry/points/22/1",
+      "node": 0.45730828676639995,
+      "chromium": 0.45730828676640006,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/420/geometry/pieces/0/geometry/points/36/1",
+      "node": -0.21047588780079932,
+      "chromium": -0.21047588780079934,
+      "absoluteDifference": 2.7755575615628914e-17
+    },
+    {
+      "path": "/product/parts/420/geometry/pieces/0/geometry/points/43/0",
+      "node": -0.2592682052542989,
+      "chromium": -0.25926820525429883,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/420/geometry/pieces/0/geometry/points/57/0",
+      "node": 0.4251557493495051,
+      "chromium": 0.4251557493495052,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/420/geometry/pieces/1/geometry/points/9/1",
+      "node": 0.502456794685779,
+      "chromium": 0.5024567946857791,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/420/geometry/pieces/1/geometry/points/22/1",
+      "node": 0.5404552479966545,
+      "chromium": 0.5404552479966546,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/420/geometry/pieces/1/geometry/points/36/1",
+      "node": -0.24874423103730825,
+      "chromium": -0.2487442310373083,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/420/geometry/pieces/1/geometry/points/57/0",
+      "node": 0.5024567946857788,
+      "chromium": 0.5024567946857789,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/426/geometry/pieces/0/geometry/points/9/1",
+      "node": 0.42515574934950534,
+      "chromium": 0.4251557493495054,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/426/geometry/pieces/0/geometry/points/22/1",
+      "node": 0.45730828676639995,
+      "chromium": 0.45730828676640006,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/426/geometry/pieces/0/geometry/points/36/1",
+      "node": -0.21047588780079932,
+      "chromium": -0.21047588780079934,
+      "absoluteDifference": 2.7755575615628914e-17
+    },
+    {
+      "path": "/product/parts/426/geometry/pieces/0/geometry/points/43/0",
+      "node": -0.2592682052542989,
+      "chromium": -0.25926820525429883,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/426/geometry/pieces/0/geometry/points/57/0",
+      "node": 0.4251557493495051,
+      "chromium": 0.4251557493495052,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/426/geometry/pieces/1/geometry/points/9/1",
+      "node": 0.502456794685779,
+      "chromium": 0.5024567946857791,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/426/geometry/pieces/1/geometry/points/22/1",
+      "node": 0.5404552479966545,
+      "chromium": 0.5404552479966546,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/426/geometry/pieces/1/geometry/points/36/1",
+      "node": -0.24874423103730825,
+      "chromium": -0.2487442310373083,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/426/geometry/pieces/1/geometry/points/57/0",
+      "node": 0.5024567946857788,
+      "chromium": 0.5024567946857789,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/429/geometry/pieces/0/geometry/points/9/1",
+      "node": 0.42515574934950534,
+      "chromium": 0.4251557493495054,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/429/geometry/pieces/0/geometry/points/22/1",
+      "node": 0.45730828676639995,
+      "chromium": 0.45730828676640006,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/429/geometry/pieces/0/geometry/points/36/1",
+      "node": -0.21047588780079932,
+      "chromium": -0.21047588780079934,
+      "absoluteDifference": 2.7755575615628914e-17
+    },
+    {
+      "path": "/product/parts/429/geometry/pieces/0/geometry/points/43/0",
+      "node": -0.2592682052542989,
+      "chromium": -0.25926820525429883,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/429/geometry/pieces/0/geometry/points/57/0",
+      "node": 0.4251557493495051,
+      "chromium": 0.4251557493495052,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/429/geometry/pieces/1/geometry/points/9/1",
+      "node": 0.502456794685779,
+      "chromium": 0.5024567946857791,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/429/geometry/pieces/1/geometry/points/22/1",
+      "node": 0.5404552479966545,
+      "chromium": 0.5404552479966546,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/429/geometry/pieces/1/geometry/points/36/1",
+      "node": -0.24874423103730825,
+      "chromium": -0.2487442310373083,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/429/geometry/pieces/1/geometry/points/57/0",
+      "node": 0.5024567946857788,
+      "chromium": 0.5024567946857789,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/433/geometry/pieces/0/geometry/points/9/1",
+      "node": 0.42515574934950534,
+      "chromium": 0.4251557493495054,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/433/geometry/pieces/0/geometry/points/22/1",
+      "node": 0.45730828676639995,
+      "chromium": 0.45730828676640006,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/433/geometry/pieces/0/geometry/points/36/1",
+      "node": -0.21047588780079932,
+      "chromium": -0.21047588780079934,
+      "absoluteDifference": 2.7755575615628914e-17
+    },
+    {
+      "path": "/product/parts/433/geometry/pieces/0/geometry/points/43/0",
+      "node": -0.2592682052542989,
+      "chromium": -0.25926820525429883,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/433/geometry/pieces/0/geometry/points/57/0",
+      "node": 0.4251557493495051,
+      "chromium": 0.4251557493495052,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/433/geometry/pieces/1/geometry/points/9/1",
+      "node": 0.502456794685779,
+      "chromium": 0.5024567946857791,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/433/geometry/pieces/1/geometry/points/22/1",
+      "node": 0.5404552479966545,
+      "chromium": 0.5404552479966546,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/433/geometry/pieces/1/geometry/points/36/1",
+      "node": -0.24874423103730825,
+      "chromium": -0.2487442310373083,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/433/geometry/pieces/1/geometry/points/57/0",
+      "node": 0.5024567946857788,
+      "chromium": 0.5024567946857789,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/436/geometry/pieces/0/geometry/points/9/1",
+      "node": 0.42515574934950534,
+      "chromium": 0.4251557493495054,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/436/geometry/pieces/0/geometry/points/22/1",
+      "node": 0.45730828676639995,
+      "chromium": 0.45730828676640006,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/436/geometry/pieces/0/geometry/points/36/1",
+      "node": -0.21047588780079932,
+      "chromium": -0.21047588780079934,
+      "absoluteDifference": 2.7755575615628914e-17
+    },
+    {
+      "path": "/product/parts/436/geometry/pieces/0/geometry/points/43/0",
+      "node": -0.2592682052542989,
+      "chromium": -0.25926820525429883,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/436/geometry/pieces/0/geometry/points/57/0",
+      "node": 0.4251557493495051,
+      "chromium": 0.4251557493495052,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/436/geometry/pieces/1/geometry/points/9/1",
+      "node": 0.502456794685779,
+      "chromium": 0.5024567946857791,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/436/geometry/pieces/1/geometry/points/22/1",
+      "node": 0.5404552479966545,
+      "chromium": 0.5404552479966546,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/436/geometry/pieces/1/geometry/points/36/1",
+      "node": -0.24874423103730825,
+      "chromium": -0.2487442310373083,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/436/geometry/pieces/1/geometry/points/57/0",
+      "node": 0.5024567946857788,
+      "chromium": 0.5024567946857789,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/438/geometry/points/9/1",
+      "node": 0.7730104533627369,
+      "chromium": 0.773010453362737,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/438/geometry/points/22/1",
+      "node": 0.8314696123025453,
+      "chromium": 0.8314696123025455,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/438/geometry/points/36/1",
+      "node": -0.3826834323650896,
+      "chromium": -0.38268343236508967,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/438/geometry/points/43/0",
+      "node": -0.4713967368259979,
+      "chromium": -0.47139673682599786,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/438/geometry/points/57/0",
+      "node": 0.7730104533627365,
+      "chromium": 0.7730104533627367,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/439/geometry/pieces/0/geometry/points/9/1",
+      "node": 0.42515574934950534,
+      "chromium": 0.4251557493495054,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/439/geometry/pieces/0/geometry/points/22/1",
+      "node": 0.45730828676639995,
+      "chromium": 0.45730828676640006,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/439/geometry/pieces/0/geometry/points/36/1",
+      "node": -0.21047588780079932,
+      "chromium": -0.21047588780079934,
+      "absoluteDifference": 2.7755575615628914e-17
+    },
+    {
+      "path": "/product/parts/439/geometry/pieces/0/geometry/points/43/0",
+      "node": -0.2592682052542989,
+      "chromium": -0.25926820525429883,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/439/geometry/pieces/0/geometry/points/57/0",
+      "node": 0.4251557493495051,
+      "chromium": 0.4251557493495052,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/439/geometry/pieces/1/geometry/points/9/1",
+      "node": 0.502456794685779,
+      "chromium": 0.5024567946857791,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/439/geometry/pieces/1/geometry/points/22/1",
+      "node": 0.5404552479966545,
+      "chromium": 0.5404552479966546,
+      "absoluteDifference": 1.1102230246251565e-16
+    },
+    {
+      "path": "/product/parts/439/geometry/pieces/1/geometry/points/36/1",
+      "node": -0.24874423103730825,
+      "chromium": -0.2487442310373083,
+      "absoluteDifference": 5.551115123125783e-17
+    },
+    {
+      "path": "/product/parts/439/geometry/pieces/1/geometry/points/57/0",
+      "node": 0.5024567946857788,
+      "chromium": 0.5024567946857789,
+      "absoluteDifference": 1.1102230246251565e-16
+    }
+  ]
+}

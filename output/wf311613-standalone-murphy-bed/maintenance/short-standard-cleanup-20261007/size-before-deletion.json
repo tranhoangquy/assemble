@@ -1,0 +1,17 @@
+{
+  "output": {
+    "files": 8160,
+    "logical_bytes": 8063277130
+  },
+  "repository_working_files": {
+    "files": 8837,
+    "logical_bytes": 8146727794
+  },
+  "repository_exclusions": [
+    ".git",
+    "node_modules",
+    ".next",
+    "symlinks"
+  ],
+  "logical_size_not_physical_disk_reclamation": true
+}

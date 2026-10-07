@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "skill_validation": "PASS",
+  "documentation_links": {
+    "status": "PASS",
+    "checked": 21
+  },
+  "typecheck_before_cleanup": "PASS",
+  "typecheck_after_cleanup": "PASS",
+  "regressions": {
+    "status": "PASS",
+    "files": 13,
+    "tests": 75,
+    "coverage": [
+      "Short01/Short02 source equivalence, hook reset, seek, proof restoration and story",
+      "Long micro-pass/reset/final-function regression",
+      "presentation/registry isolation",
+      "shared export identity/native frame manifest/resumability"
+    ]
+  },
+  "protected_hashes": {
+    "status": "PASS",
+    "files": 2207,
+    "differences": []
+  },
+  "final_short_bundle": "40/40 SHA256 entries PASS",
+  "rendering": "NOT RUN \u2014 out of scope",
+  "audio_rendering": "NOT RUN \u2014 out of scope",
+  "application_source_edits": false,
+  "git_delta": "PASS_EXPECTED_DELTA"
+}

@@ -1,0 +1,10 @@
+{
+  "valid": true,
+  "errors": [],
+  "rigidChecks": 143598,
+  "pivotChecks": 1380,
+  "pistonChecks": 1578,
+  "pistonSolidChecks": 226752,
+  "structuralPoses": 24459,
+  "legChecks": 2760
+}

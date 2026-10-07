@@ -1,0 +1,191 @@
+{
+  "project": "WF311613 Short02 Music Pass01",
+  "status": "REQUIRES DIRECTOR AUDIO REVIEW",
+  "production_input": {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/WF311613-lofi-mix-pass02.wav",
+    "sha256": "75b282e6e55a65923b00c152099f47e194b66c007f2e8053ccf6b9ec66690b2b"
+  },
+  "used_tracks": [
+    {
+      "track_id": "A",
+      "title": "And So It Begins",
+      "artist": "Artificial.Music",
+      "director_url": "https://www.youtube.com/watch?v=BH-SnQ8J1VU&list=PLfP6i5T0-DkIMLNRwmJpRBs4PJvxfgwBg&index=1",
+      "official_source_page": "https://breakingcopyright.com/song/artificialmusic-and-so-it-begins",
+      "official_audio_url": "https://files.breakingcopyright.com/song/artificialmusic-and-so-it-begins.mp3",
+      "source_filename": "A-director-supplied.mp3",
+      "source_sha256": "419442217a6d6300803a3d552eb7b4451a156a6fe671e19a449cdef55698a132",
+      "stated_license": "YouTube Free license",
+      "license_url": null,
+      "youtube_use": "Explicitly allowed with credits",
+      "commercial_use": "Not independently verified; track A page FAQ says yes subject to license terms, with generic CC explanation",
+      "editing_permission": "Not separately stated in inspected YouTube-specific terms",
+      "attribution_required": true,
+      "required_credit_text": "Song: And So It Begins\nComposer: Artificial.Music\nWebsite: https://www.youtube.com/channel/UCC49uNuUk7pY77NoVMlNYDA\nLicense: Free To Use YouTube license youtube-free\nMusic powered by BreakingCopyright: https://breakingcopyright.com",
+      "content_id": "Registration in copyright detection systems prohibited. No no-claim/no-Content-ID guarantee established.",
+      "restrictions": [
+        "Attribution required",
+        "Do not claim authorship or register original track in copyright detection systems",
+        "Official per-track page requires artist contact for use outside YouTube"
+      ],
+      "verified_at": "2026-10-05T03:10:06.828948+00:00",
+      "evidence_path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/A-verified-source.json",
+      "acquisition_status": "PASS_DIRECTOR_SUPPLIED_LOCAL_ASSET",
+      "http_status": 403,
+      "source_path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/sources/A-director-supplied.mp3",
+      "director_supplied_original_path": "/Users/quyth/Downloads/YTSave_YouTube_Media_BH-SnQ8J1VU_No-Copyright-Music-Artificial-Music-And-So-It-Begins-Lo-fi_008_128k.mp3",
+      "production_asset_origin": "Director manually supplied local file; not an official publisher download",
+      "audio_metadata": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "mp3",
+            "codec_long_name": "MP3 (MPEG audio layer 3)",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "mime_codec_string": "mp4a.40.34",
+            "sample_fmt": "fltp",
+            "sample_rate": "44100",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/14112000",
+            "start_pts": 353600,
+            "start_time": "0.025057",
+            "duration_ts": 2939944960,
+            "duration": "208.329433",
+            "bit_rate": "179119",
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "encoder": "Lavc62.11"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/sources/A-director-supplied.mp3",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mp3",
+          "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+          "start_time": "0.025057",
+          "duration": "208.329433",
+          "size": "4665707",
+          "bit_rate": "179166",
+          "probe_score": 51,
+          "tags": {
+            "major_brand": "dash",
+            "minor_version": "0",
+            "compatible_brands": "iso6mp41",
+            "encoder": "Lavf62.3.100"
+          }
+        }
+      },
+      "identity_verification": {
+        "director_supplied_assignment": "PASS",
+        "filename_video_id": "PASS",
+        "duration_consistent_with_observed_youtube": "PASS",
+        "independent_audio_fingerprint_or_listening": "NOT_PERFORMED"
+      }
+    }
+  ],
+  "unused_tracks": [
+    "B \u2014 Herbal Tea",
+    "C \u2014 Way Home"
+  ],
+  "production_input_only_approved_pass02_wav": true,
+  "director_supplied_original_acquisition": "Historical A file supplied by director; no reacquisition performed. Raw MP3 was not a production input to this edit.",
+  "inherited_provenance": {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/music-provenance.json",
+    "sha256": "031b121c178f9902a29ec266b8758854cdb006ca356bdedbd96b1fa9a54eb4b1",
+    "status_note": "Historical pending status superseded for Long by director approval below; Short audio review still pending."
+  },
+  "long_approval": {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/director-approval-and-final-build.json",
+    "sha256": "ede4c74128cb6ae11e030f283ab533cc90acae3ff42b1a39f4cde17c7aa66434",
+    "record": {
+      "status": "DIRECTOR_APPROVED_FINAL_MUX_COMPLETE",
+      "source_approval_package": "/Users/quyth/.codex/attachments/90bc9e8b-1914-46c4-a4c7-284285d2808e/Pasted text.txt",
+      "director_listening": {
+        "complete_Pass02": "PASS",
+        "AB": "PASS_LOCKED",
+        "BC": "PASS_LOCKED",
+        "ending": "PASS_LOCKED",
+        "voice_spoken_content": "PASS_FOR_DIRECTOR_REVIEW_NO_OBJECTIONABLE_CONTENT_IDENTIFIED"
+      },
+      "audio_master": {
+        "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/WF311613-lofi-mix-pass02.wav",
+        "sha256": "75b282e6e55a65923b00c152099f47e194b66c007f2e8053ccf6b9ec66690b2b",
+        "identity": "PASS"
+      },
+      "visual_master": {
+        "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/director-approved-full-720p-20261004/WF311613-director-approved-full-720p.mp4",
+        "sha256": "0d5d898cbfaecb4573f07e818ce722c6884cbd4dc67d7c51b7c6c724f404ba0a",
+        "identity": "PASS"
+      },
+      "final_MP4": {
+        "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/final/final-lofi-720p/WF311613-final-lofi-720p.mp4",
+        "sha256": "c42767184db43ce794aa165e9b60c6762c6551829833ed2f7ba60c7fdb42d457",
+        "size_bytes": 47279961,
+        "duration": "524.066667"
+      },
+      "original_provenance_preserved": "Copied byte-identically; historical pending-listening status superseded by this director approval record",
+      "created_at": "2026-10-05T04:42:33.309943+00:00"
+    }
+  },
+  "current_director_package": {
+    "path": "/Users/quyth/.codex/attachments/ab5b9f20-4213-45a3-9d6b-eca96f294c1a/Pasted text.txt",
+    "sha256": "d7a1cda119e2ee6d8d2d731f81f3a83ef0f2a9d9f83ac159658008061a60b199"
+  },
+  "source_identity": "PASS_EXPECTED_SHA256",
+  "rights_scope": "Existing director-approved source and recorded evidence inherited for this local review; no new rights verification, publishing, alternative versions or external acquisition. Retains exact original restrictions and credit text.",
+  "voice_content_short": "VOICE_CONTENT_REQUIRES_DIRECTOR_LISTENING",
+  "short_audio_director_approval": "PENDING",
+  "selected_regions": [
+    {
+      "source_in_seconds": 22.61,
+      "source_out_seconds": 50.11,
+      "source_in_samples": 1085280,
+      "source_out_samples": 2405280,
+      "global_start": 0,
+      "global_end": 26.96078431372549
+    },
+    {
+      "source_in_seconds": 109.481,
+      "source_out_seconds": 141.766,
+      "source_in_samples": 5255088,
+      "source_out_samples": 6804768,
+      "global_start": 26.348039215686274,
+      "global_end": 58
+    }
+  ],
+  "deliverable_hashes": {
+    "wav": "d47f944271d3896f5c4bee0ce2c97bbb54e077daada318d7e23464990daf6c70",
+    "review_mp4": "8816b48c9faec27b1597b9ba44b769e2f5e4be367191058e4949908abd6fb7f3",
+    "preview_m4a": "00be66494d3f373119dec7a5b1183acfb3dd626c307ce4d49dc0bb8f1db148ac"
+  }
+}

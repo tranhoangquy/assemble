@@ -16,7 +16,7 @@ describe('typed export recovery actions',()=>{
   it('deletes only through an explicit action',async()=>{
     const response=await PATCH(request({action:'delete'}),context);expect(await response.json()).toEqual({deleted:true});expect(handlers.delete).toHaveBeenCalledWith('safe-job');
   });
-  it.each([{productId:'other'},{profileId:'2160p'},{fps:60}])('rejects a mismatched selector claim %j',async fields=>{
+  it.each([{productId:'other'},{videoId:'other-video'},{profileId:'2160p'},{fps:60}])('rejects a mismatched selector claim %j',async fields=>{
     expect((await PATCH(request({action:'resume',...fields}),context)).status).toBe(409);expect(handlers.resume).not.toHaveBeenCalled();
   });
   it('does not invent a resume for missing job or unknown action',async()=>{

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checkedFiles": 3065,
+  "unchangedFiles": 3064,
+  "authorizedCompositionChange": [
+    "src/products/wf311613-standalone-murphy-bed/index.ts"
+  ],
+  "missing": [],
+  "note": "Only the optional Short reference is added to the existing WF product index. Protected geometry, assembly, materials, Long creative/audio/masters and rules/skill files unchanged."
+}

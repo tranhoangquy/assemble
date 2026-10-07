@@ -1,0 +1,1 @@
+{"status":"FAIL","gate":"NATIVE_RENDERER_READINESS","diagnosis":"Headless-shell GPU process remained CPU-bound; registry 911, productReadyVersion 0. Owned QA attempt terminated before full render. Retrying existing CLI Chromium executable with same native quality."}

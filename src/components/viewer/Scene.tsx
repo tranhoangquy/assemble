@@ -26,6 +26,7 @@ interface SceneProps {
   debug: DebugSettings;
   validation: AssemblyValidationResult;
   renderMode: boolean;
+  cameraMaxDistance?: number;
   onSelect: (id: string) => void;
   onProductReady: () => void;
   onCameraReady: (camera: THREE.PerspectiveCamera, controls: OrbitControlsImpl) => void;
@@ -57,7 +58,7 @@ export function Scene(props: SceneProps) {
         onReady={props.onProductReady}
       />
       {!props.renderMode && <AssemblyDebugVisualizer product={props.product} validation={props.validation} selectedId={props.selectedId} settings={props.debug} />}
-      <CameraController onReady={props.onCameraReady} enabled={!props.renderMode} instructional={props.product.rendering?.cameraControls === 'instructional'} />
+      <CameraController onReady={props.onCameraReady} enabled={!props.renderMode} instructional={props.product.rendering?.cameraControls === 'instructional'} maxDistance={props.cameraMaxDistance} />
     </>
   );
 }

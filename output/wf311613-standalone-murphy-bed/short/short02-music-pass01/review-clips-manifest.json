@@ -1,0 +1,73 @@
+{
+  "full_preview": {
+    "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-music-pass01/WF311613-short02-music-pass01-preview.m4a",
+    "sha256": "00be66494d3f373119dec7a5b1183acfb3dd626c307ce4d49dc0bb8f1db148ac",
+    "audio_stream_copy_from_review_mux": true
+  },
+  "clips": [
+    {
+      "name": "hook",
+      "global_in": 0,
+      "global_out": 6,
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-music-pass01/review-clips/WF311613-short02-hook.m4a",
+      "sha256": "9a314afda803ca9158953bfd8cdf06f41a5444f82d6c4d16acd0d62f1a8b256c",
+      "source": "Decoded selected review MP4; re-encoded AAC for convenient section listening"
+    },
+    {
+      "name": "assembly",
+      "global_in": 2,
+      "global_out": 27,
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-music-pass01/review-clips/WF311613-short02-assembly.m4a",
+      "sha256": "9826269137d680d266c00ddc1c9582f79d756695b1d3f9c7f15670bfbb0bb89d",
+      "source": "Decoded selected review MP4; re-encoded AAC for convenient section listening"
+    },
+    {
+      "name": "phrase-transition",
+      "global_in": 22,
+      "global_out": 32,
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-music-pass01/review-clips/WF311613-short02-phrase-transition.m4a",
+      "sha256": "cc92bf1bc78473f722f62be4d920b5f6e42e2b3bd478d3f384245cf403bef938",
+      "source": "Decoded selected review MP4; re-encoded AAC for convenient section listening"
+    },
+    {
+      "name": "connection",
+      "global_in": 27,
+      "global_out": 38,
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-music-pass01/review-clips/WF311613-short02-connection.m4a",
+      "sha256": "2dd962099f153b7008db1f53ad3895b9b0ea75900be55088f48a47a30a66f2f8",
+      "source": "Decoded selected review MP4; re-encoded AAC for convenient section listening"
+    },
+    {
+      "name": "mechanism",
+      "global_in": 38,
+      "global_out": 46,
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-music-pass01/review-clips/WF311613-short02-mechanism.m4a",
+      "sha256": "9a65649d18a37e9c7375539738543666b33fb2f000cdf30a38dcb18570ebbcea",
+      "source": "Decoded selected review MP4; re-encoded AAC for convenient section listening"
+    },
+    {
+      "name": "legs-anchoring",
+      "global_in": 46,
+      "global_out": 52,
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-music-pass01/review-clips/WF311613-short02-legs-anchoring.m4a",
+      "sha256": "c42a4039377df78c721d9fb8d9ae0a5f881a6c7e1742487b0398c4def0716a84",
+      "source": "Decoded selected review MP4; re-encoded AAC for convenient section listening"
+    },
+    {
+      "name": "payoff-ending",
+      "global_in": 52,
+      "global_out": 58,
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-music-pass01/review-clips/WF311613-short02-payoff-ending.m4a",
+      "sha256": "a2822f2ed6f967e7eb1d08750441665f6d65e4416a6c69bb1e12657df9e191b2",
+      "source": "Decoded selected review MP4; re-encoded AAC for convenient section listening"
+    },
+    {
+      "name": "final-hero",
+      "global_in": 56,
+      "global_out": 58,
+      "path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-music-pass01/review-clips/WF311613-short02-final-hero.m4a",
+      "sha256": "0309c40697a65d5aef472f9f02c6663d6baacbd80c3b977a27d6dec0d8bc19c0",
+      "source": "Decoded selected review MP4; re-encoded AAC for convenient section listening"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "status": "MASTERING_COMPLETE_PENDING_TECHNICAL_MUX_QA",
+  "input_sha256": "d47f944271d3896f5c4bee0ce2c97bbb54e077daada318d7e23464990daf6c70",
+  "input_path": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/short02-music-pass01/WF311613-short02-music-pass01.wav",
+  "sample_rate": 48000,
+  "samples_per_channel": 2784000,
+  "arrangement_unchanged": true,
+  "time_adjustment": false,
+  "EQ": false,
+  "compression": {
+    "ffmpeg_filter": "acompressor=threshold=0.125892541:ratio=1.25:attack=25:release=180:knee=2.828427125:makeup=1:link=average:detection=rms",
+    "exact_argv": [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-f",
+      "f32le",
+      "-ar",
+      "48000",
+      "-ac",
+      "2",
+      "-i",
+      "pipe:0",
+      "-af",
+      "acompressor=threshold=0.125892541:ratio=1.25:attack=25:release=180:knee=2.828427125:makeup=1:link=average:detection=rms",
+      "-f",
+      "f32le",
+      "-acodec",
+      "pcm_f32le",
+      "pipe:1"
+    ],
+    "gain_reduction": {
+      "max_db": 1.7555211782455444,
+      "median_db": 1.0262905359268188,
+      "p95_db": 1.3724353313446045
+    }
+  },
+  "old_creative_gain_removed": {
+    "times": [
+      0,
+      27,
+      38,
+      52,
+      56,
+      57.3,
+      58
+    ],
+    "db": [
+      0,
+      0,
+      0.4,
+      0.4,
+      0.6,
+      0.6,
+      0.6
+    ]
+  },
+  "new_smooth_gain": {
+    "times": [
+      0,
+      2,
+      27,
+      52,
+      56.75,
+      57.3,
+      57.7,
+      58
+    ],
+    "db": [
+      0.35,
+      0.35,
+      0,
+      0,
+      0,
+      2,
+      2,
+      2
+    ],
+    "interpolation": "linear dB; no steps"
+  },
+  "ending": {
+    "old_fade": {
+      "start": 57.3,
+      "end": 58,
+      "curve": "half-cosine"
+    },
+    "new_fade": {
+      "start": 57.7,
+      "end": 58,
+      "curve": "half-cosine"
+    },
+    "new_fade_start_sample": 2769600,
+    "final_endpoint_samples": 2784000,
+    "implementation": "Analytic ratio newfade/oldfade applied to supplied Pass01 samples; bounded even approaching endpoint. Final PCM sample set zero. No tail reconstruction or new musical samples.",
+    "max_old_fade_correction_ratio": 5.444444388001908,
+    "additional_natural_tail_gain_db": 2,
+    "note": "Fade correction undoes only known early fade, not underlying natural decay; underlying decay is preserved. No upward tail level normalization."
+  },
+  "fixed_gain_db": 1.6600000000000001,
+  "pre_level_measurement": {
+    "input_i": -16.16,
+    "input_tp": -7.01,
+    "input_lra": 1.4,
+    "input_thresh": -26.18
+  },
+  "wav_measurement": {
+    "input_i": -14.5,
+    "input_tp": -5.35,
+    "input_lra": 1.3,
+    "input_thresh": -24.53
+  },
+  "limiter": "Not engaged: substantial measured true-peak headroom, no limiting required to meet -1dBTP; avoids unnecessary dynamics change.",
+  "sections": {
+    "hook": {
+      "start": 0,
+      "end": 2,
+      "pass01_rms_dbfs": -16.60795095170499,
+      "final_rms_dbfs": -15.61584208419254
+    },
+    "assembly": {
+      "start": 2,
+      "end": 27,
+      "pass01_rms_dbfs": -15.909182446765753,
+      "final_rms_dbfs": -15.148495561704863
+    },
+    "connection": {
+      "start": 27,
+      "end": 38,
+      "pass01_rms_dbfs": -15.58051091488107,
+      "final_rms_dbfs": -15.158810167841018
+    },
+    "mechanism": {
+      "start": 38,
+      "end": 46,
+      "pass01_rms_dbfs": -15.082938104303098,
+      "final_rms_dbfs": -14.935062379016212
+    },
+    "anchoring": {
+      "start": 46,
+      "end": 52,
+      "pass01_rms_dbfs": -15.385432371918368,
+      "final_rms_dbfs": -15.197662136615257
+    },
+    "payoff-before-hero": {
+      "start": 52,
+      "end": 57,
+      "pass01_rms_dbfs": -14.767194915134121,
+      "final_rms_dbfs": -14.731945443414219
+    },
+    "hero-early": {
+      "start": 57,
+      "end": 57.3,
+      "pass01_rms_dbfs": -23.667234120480146,
+      "final_rms_dbfs": -21.407906291273278
+    },
+    "hero-middle": {
+      "start": 57.3,
+      "end": 57.6,
+      "pass01_rms_dbfs": -29.603358791806677,
+      "final_rms_dbfs": -25.465140550783097
+    },
+    "hero-presence-before-fade": {
+      "start": 57.6,
+      "end": 57.7,
+      "pass01_rms_dbfs": -35.38810828924719,
+      "final_rms_dbfs": -26.500584111964564
+    },
+    "final-fade": {
+      "start": 57.7,
+      "end": 58,
+      "pass01_rms_dbfs": -44.98648387273094,
+      "final_rms_dbfs": -31.556868917918415
+    }
+  },
+  "output": "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/final-short02-1080p/WF311613-short02-FINAL-music-master.wav",
+  "output_sha256": "5ba9089960a09efb55e3e3a57e32ffb11692f2e134b5f1378097101fe883785a",
+  "wav_write_argv": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-f",
+    "f32le",
+    "-ar",
+    "48000",
+    "-ac",
+    "2",
+    "-i",
+    "pipe:0",
+    "-c:a",
+    "pcm_s24le",
+    "/Users/quyth/development/three/POC/output/wf311613-standalone-murphy-bed/short/final-short02-1080p/WF311613-short02-FINAL-music-master.wav"
+  ],
+  "loudness_measurement_only": "input_* from loudnorm-to-null; no dynamic normalization applied",
+  "actual_listening": "NOT RUN; numerical envelope and mastering only"
+}
