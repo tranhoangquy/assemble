@@ -1,0 +1,117 @@
+- heading "ChatGPT said:" [level=4]
+    - 'heading "PRODUCT #01 + #03 — Final-Only Consolidation Review" [level=2]'
+    - generic: BOUNDED REVIEW PASS
+    - paragraph:
+      - generic: "T phê duyệt phương án hợp nhất thư mục cuối cùng của Product #01 và #03."
+      - text: "Phương án đáp ứng cả hai mục tiêu: giữ thư mục sản phẩm gọn và bảo toàn tài nguyên cần thiết để sau này chỉnh sửa, dựng lại hoặc tạo video tổng hợp nhiều sản phẩm."
+    - paragraph:
+      - text: T đã đọc
+      - code: REPORT.md
+      - text: và kiểm tra trực tiếp ZIP gồm 8 tệp. ZIP không có lỗi toàn vẹn. Các hồ sơ
+      - code: PLAN.json
+      - text: ","
+      - code: RESULT.json
+      - text: ","
+      - code: PATH-AND-MEDIA-QA.json
+      - text: ","
+      - code: CHECKS.json
+      - text: ", catalog phát hành và tài liệu reproduction nhất quán ở những nội dung trọng yếu."
+    - heading "Kết quả review" [level=3]
+    - table:
+      - rowgroup:
+        - row "Hạng mục Quyết định":
+          - columnheader "Hạng mục":
+            - paragraph: Hạng mục
+          - columnheader "Quyết định":
+            - paragraph: Quyết định
+        - row "Mỗi sản phẩm chỉ còn README.md và final/ PASS":
+          - cell "Mỗi sản phẩm chỉ còn README.md và final/":
+            - paragraph:
+              - text: Mỗi sản phẩm chỉ còn
+              - code: README.md
+              - text: và
+              - code: final/
+          - cell "PASS":
+            - paragraph: PASS
+        - row "Hai MP4 cuối cho mỗi sản phẩm PASS theo manifest":
+          - cell "Hai MP4 cuối cho mỗi sản phẩm":
+            - paragraph: Hai MP4 cuối cho mỗi sản phẩm
+          - cell "PASS theo manifest":
+            - paragraph: PASS theo manifest
+        - row "134 tệp di chuyển không đổi nội dung PASS theo QA":
+          - cell "134 tệp di chuyển không đổi nội dung":
+            - paragraph: 134 tệp di chuyển không đổi nội dung
+          - cell "PASS theo QA":
+            - paragraph: PASS theo QA
+        - row "10 tệp hỗ trợ trùng/tạm được lưu lịch sử gọn PASS":
+          - cell "10 tệp hỗ trợ trùng/tạm được lưu lịch sử gọn":
+            - paragraph: 10 tệp hỗ trợ trùng/tạm được lưu lịch sử gọn
+          - cell "PASS":
+            - paragraph: PASS
+        - row "Bốn MP4 và bốn WAV giữ nguyên hash PASS theo QA":
+          - cell "Bốn MP4 và bốn WAV giữ nguyên hash":
+            - paragraph: Bốn MP4 và bốn WAV giữ nguyên hash
+          - cell "PASS theo QA":
+            - paragraph: PASS theo QA
+        - 'row "Product #02/JULIETTE không thay đổi PASS theo protected-path report"':
+          - 'cell "Product #02/JULIETTE không thay đổi"':
+            - paragraph: "Product #02/JULIETTE không thay đổi"
+          - cell "PASS theo protected-path report":
+            - paragraph: PASS theo protected-path report
+        - row "Source, camera, material, test, manual/BOM RETAIN":
+          - cell "Source, camera, material, test, manual/BOM":
+            - paragraph: Source, camera, material, test, manual/BOM
+          - cell "RETAIN":
+            - paragraph: RETAIN
+        - row "Nguồn nhạc, license, credit và audio master RETAIN":
+          - cell "Nguồn nhạc, license, credit và audio master":
+            - paragraph: Nguồn nhạc, license, credit và audio master
+          - cell "RETAIN":
+            - paragraph: RETAIN
+        - row "Lịch sử FAIL và quyết định Director RETAIN dưới dạng archive":
+          - cell "Lịch sử FAIL và quyết định Director":
+            - paragraph: Lịch sử FAIL và quyết định Director
+          - cell "RETAIN dưới dạng archive":
+            - paragraph: RETAIN dưới dạng archive
+    - paragraph:
+      - generic: "Quyết định quan trọng nhất:"
+      - text: "Giữ nguyên 15 thư mục source Product #03 có tên phiên bản. Phân tích dependency offline cho thấy chúng vẫn tham gia trực tiếp vào source của Long và Short. Xóa theo tên"
+      - code: v1/v2
+      - text: sẽ gây rủi ro mất khả năng dựng lại. Không cần refactor kiến trúc trong đợt cleanup này.
+    - heading "Khả năng tái sử dụng" [level=3]
+    - paragraph: "T chấp thuận cấu trúc:"
+    - generic: Plain text
+    - button "Enable word wrap":
+    - button "Copy code":
+    - code:
+      - text: Product01/ README.md final/ long/ short/ music/ release-assets/ ... tài nguyên dựng lại và QA
+      - text: Product03/ README.md final/ long/ short/ music/ release-assets/ ... tài nguyên dựng lại và QA
+    - paragraph: Đối với video tổng hợp sau này, có thể lấy video stream từ các MP4 final mà không phải render lại 3D. Nếu cần góc quay hoặc thao tác khác, sử dụng source và reproduction adapter đã lưu.
+    - paragraph:
+      - text: "Lưu ý: quyền sử dụng nhạc Product #01 hiện chỉ được xác minh trong phạm vi YouTube; không tự suy rộng sang nền tảng khác. Product #03 vẫn giữ giới hạn nghe duyệt nhạc và toàn bộ trạng thái cơ khí"
+      - code: OPEN/HOLD
+      - text: .
+    - heading "Quyết định triển khai" [level=3]
+    - paragraph:
+      - generic: AUTHORIZE VERIFY → COMMIT → DIRECT GIT PUSH.
+    - paragraph: "Không yêu cầu chỉnh sửa bổ sung từ Creative Director ở vòng này. Codex được tiếp tục theo ủy quyền của human, với các điều kiện:"
+    - list:
+      - paragraph: "Chỉ đưa thay đổi consolidation của Product #01/#03 và tài liệu liên quan vào commit."
+      - paragraph: Xác minh lại staged diff, hash của bốn MP4/bốn WAV, đường dẫn catalog và dependency.
+      - paragraph: "Không đưa Product #02 vào commit."
+      - paragraph: Không render, thay âm thanh, thay đổi Git history hoặc tự xuất bản.
+      - paragraph: Sau push, bàn giao commit SHA, branch, remote và trạng thái push thực tế.
+    - paragraph:
+      - generic: "Giới hạn xác minh:"
+      - text: T đã kiểm tra trực tiếp cấu trúc và nội dung bằng chứng đính kèm, nhưng không có quyền kiểm toán filesystem Git trên máy Codex. Kết quả 61.095 đường dẫn không thay đổi và các hash media được chấp nhận dựa trên QA của Codex, không phải phép kiểm tra độc lập.
+    - paragraph:
+      - generic: "Trạng thái:"
+      - code: FINAL-ONLY RETENTION APPROVED / FUTURE REUSE PRESERVED / GIT PUSH AUTHORIZED / NO NEW PRODUCTION OR PUBLICATION
+      - text: .
+    - paragraph: Không cần thêm ACK.
+    - button "Copy":
+    - button "Rate response":
+    - button "Read aloud":
+    - button "Share":
+    - button "Regenerate response":
+    - button "More actions":

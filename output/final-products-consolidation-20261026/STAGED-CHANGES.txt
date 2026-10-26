@@ -1,0 +1,171 @@
+M	docs/publishing/README.md
+M	docs/publishing/product-01.md
+M	docs/publishing/product-03.md
+M	docs/publishing/release-catalog.json
+M	docs/publishing/reproduction-and-retention.md
+A	output/final-products-consolidation-20261026/ACTIVE-SOURCE-DEPENDENCIES.json
+A	output/final-products-consolidation-20261026/CHECKS.json
+A	output/final-products-consolidation-20261026/CURRENT-FINAL-PACKAGES.json
+A	output/final-products-consolidation-20261026/FINAL-ONLY-CONSOLIDATION-REVIEW.zip
+A	output/final-products-consolidation-20261026/PATH-AND-MEDIA-QA.json
+A	output/final-products-consolidation-20261026/PLAN-SUMMARY.json
+A	output/final-products-consolidation-20261026/PLAN.json
+A	output/final-products-consolidation-20261026/PROTECTED-BEFORE.json.gz
+A	output/final-products-consolidation-20261026/RELOCATED-SHA256.json
+A	output/final-products-consolidation-20261026/REPORT.md
+A	output/final-products-consolidation-20261026/RESULT.json
+A	output/final-products-consolidation-20261026/director-review/ACTUAL-DIRECTOR-RESPONSE.txt
+A	output/final-products-consolidation-20261026/director-review/DECISION.json
+A	output/final-products-consolidation-20261026/director-review/DECISION.png
+A	output/final-products-consolidation-20261026/director-review/SUBMISSION.txt
+A	output/final-products-consolidation-20261026/director-review/SUBMITTED.png
+R095	output/product03-pet-crate-w114586144/final-music-v1/PRODUCT03-NEW-CC0-MUSIC-REVIEW-EVIDENCE.zip	output/final-products-consolidation-20261026/redundant-support-history.tar.gz
+M	output/product03-pet-crate-w114586144/README.md
+A	output/product03-pet-crate-w114586144/final/README.md
+R100	output/product03-pet-crate-w114586144/final-music-v1/PRODUCT03-Long-V5-MUSIC-720p.mp4	output/product03-pet-crate-w114586144/final/long/PRODUCT03-Long-FINAL-720p.mp4
+R100	output/product03-pet-crate-w114586144/music-only-v1/CURRENT-MUSIC-STATE-R2.json	output/product03-pet-crate-w114586144/final/music/CURRENT-MUSIC-STATE-R2.json
+R100	output/product03-pet-crate-w114586144/music-only-v1/CURRENT-MUSIC-STATE.json	output/product03-pet-crate-w114586144/final/music/CURRENT-MUSIC-STATE.json
+R100	output/product03-pet-crate-w114586144/final-music-v1/DIRECTOR-MUSIC-REVIEW.md	output/product03-pet-crate-w114586144/final/music/DIRECTOR-MUSIC-REVIEW.md
+R100	output/product03-pet-crate-w114586144/final-music-v1/HUMAN-AUTHORITY.json	output/product03-pet-crate-w114586144/final/music/HUMAN-AUTHORITY.json
+R100	output/product03-pet-crate-w114586144/music-only-v1/Long-AAC-LOUDNESS.txt	output/product03-pet-crate-w114586144/final/music/Long-AAC-LOUDNESS.txt
+R100	output/product03-pet-crate-w114586144/music-only-v1/Long-PRE-GAIN-LOUDNESS.txt	output/product03-pet-crate-w114586144/final/music/Long-PRE-GAIN-LOUDNESS.txt
+R100	output/product03-pet-crate-w114586144/music-only-v1/Long-WAV-LOUDNESS.txt	output/product03-pet-crate-w114586144/final/music/Long-WAV-LOUDNESS.txt
+R100	output/product03-pet-crate-w114586144/final-music-v1/MUSIC-CREDITS.txt	output/product03-pet-crate-w114586144/final/music/MUSIC-CREDITS.txt
+R100	output/product03-pet-crate-w114586144/final-music-v1/MUSIC-REVIEW-QA.json	output/product03-pet-crate-w114586144/final/music/MUSIC-REVIEW-QA.json
+R100	output/product03-pet-crate-w114586144/music-only-v1/MUSIC-SHA256.json	output/product03-pet-crate-w114586144/final/music/MUSIC-SHA256.json
+R100	output/product03-pet-crate-w114586144/final-music-v1/PICTURE-PROTECTION-QA.json	output/product03-pet-crate-w114586144/final/music/PICTURE-PROTECTION-QA.json
+R100	output/product03-pet-crate-w114586144/music-only-v1/PRODUCT03-Long-music-pass01-preview.m4a	output/product03-pet-crate-w114586144/final/music/PRODUCT03-Long-music-pass01-preview.m4a
+R100	output/product03-pet-crate-w114586144/music-only-v1/PRODUCT03-Long-music-pass01.wav	output/product03-pet-crate-w114586144/final/music/PRODUCT03-Long-music-pass01.wav
+R100	output/product03-pet-crate-w114586144/music-only-v1/PRODUCT03-Short-music-pass01-preview.m4a	output/product03-pet-crate-w114586144/final/music/PRODUCT03-Short-music-pass01-preview.m4a
+R100	output/product03-pet-crate-w114586144/music-only-v1/PRODUCT03-Short-music-pass01.wav	output/product03-pet-crate-w114586144/final/music/PRODUCT03-Short-music-pass01.wav
+R100	output/product03-pet-crate-w114586144/music-only-v1/SOURCE-MUSICAL-ANALYSIS.json	output/product03-pet-crate-w114586144/final/music/SOURCE-MUSICAL-ANALYSIS.json
+R100	output/product03-pet-crate-w114586144/music-only-v1/Short-AAC-LOUDNESS.txt	output/product03-pet-crate-w114586144/final/music/Short-AAC-LOUDNESS.txt
+R100	output/product03-pet-crate-w114586144/music-only-v1/Short-PRE-GAIN-LOUDNESS.txt	output/product03-pet-crate-w114586144/final/music/Short-PRE-GAIN-LOUDNESS.txt
+R100	output/product03-pet-crate-w114586144/music-only-v1/Short-WAV-LOUDNESS.txt	output/product03-pet-crate-w114586144/final/music/Short-WAV-LOUDNESS.txt
+R100	output/product03-pet-crate-w114586144/music-only-v1/analyze-source.py	output/product03-pet-crate-w114586144/final/music/analyze-source.py
+R100	output/product03-pet-crate-w114586144/music-only-v1/build-music.py	output/product03-pet-crate-w114586144/final/music/build-music.py
+R100	output/product03-pet-crate-w114586144/music-only-v1/evidence/ACQUISITION.json	output/product03-pet-crate-w114586144/final/music/evidence/ACQUISITION.json
+R100	output/product03-pet-crate-w114586144/music-only-v1/evidence/CC0-deed.html	output/product03-pet-crate-w114586144/final/music/evidence/CC0-deed.html
+R100	output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html	output/product03-pet-crate-w114586144/final/music/evidence/creator-collection-page.html
+R100	output/product03-pet-crate-w114586144/music-only-v1/finalize-music.py	output/product03-pet-crate-w114586144/final/music/finalize-music.py
+R100	output/product03-pet-crate-w114586144/final-music-v1/music-edit-plan.json	output/product03-pet-crate-w114586144/final/music/music-edit-plan.json
+R100	output/product03-pet-crate-w114586144/final-music-v1/music-provenance.json	output/product03-pet-crate-w114586144/final/music/music-provenance.json
+R100	output/product03-pet-crate-w114586144/music-only-v1/mux-command-review.json	output/product03-pet-crate-w114586144/final/music/mux-command-review.json
+R100	output/product03-pet-crate-w114586144/music-only-v1/mux-review.py	output/product03-pet-crate-w114586144/final/music/mux-review.py
+R100	output/product03-pet-crate-w114586144/music-only-v1/qa-music.py	output/product03-pet-crate-w114586144/final/music/qa-music.py
+R100	output/product03-pet-crate-w114586144/music-only-v1/source/HoliznaCC0-Dreams.mp3	output/product03-pet-crate-w114586144/final/music/source/HoliznaCC0-Dreams.mp3
+R100	output/product03-pet-crate-w114586144/music-only-v1/DIRECTOR-MUSIC-REVIEW.md	output/product03-pet-crate-w114586144/final/qa/DIRECTOR-MUSIC-REVIEW.md
+R100	output/product03-pet-crate-w114586144/final-music-v1/FINAL-MUSIC-QA.json	output/product03-pet-crate-w114586144/final/qa/FINAL-MUSIC-QA.json
+R100	output/product03-pet-crate-w114586144/music-only-v1/HUMAN-AUTHORITY.json	output/product03-pet-crate-w114586144/final/qa/HUMAN-AUTHORITY.json
+R100	output/product03-pet-crate-w114586144/final-music-v1/HUMAN-REVIEW.md	output/product03-pet-crate-w114586144/final/qa/HUMAN-REVIEW.md
+R100	output/product03-pet-crate-w114586144/music-only-v1/MUSIC-CREDITS.txt	output/product03-pet-crate-w114586144/final/qa/MUSIC-CREDITS.txt
+R100	output/product03-pet-crate-w114586144/music-only-v1/MUSIC-REVIEW-QA.json	output/product03-pet-crate-w114586144/final/qa/MUSIC-REVIEW-QA.json
+R100	output/product03-pet-crate-w114586144/final-music-v1/PACKAGE-FREEZE.json	output/product03-pet-crate-w114586144/final/qa/PACKAGE-FREEZE.json
+R100	output/product03-pet-crate-w114586144/music-only-v1/PICTURE-PROTECTION-QA.json	output/product03-pet-crate-w114586144/final/qa/PICTURE-PROTECTION-QA.json
+R100	output/product03-pet-crate-w114586144/final-music-v1/SHA256SUMS.txt	output/product03-pet-crate-w114586144/final/qa/SHA256SUMS.txt
+R100	output/product03-pet-crate-w114586144/final-music-v1/director-approval/ACTUAL-DIRECTOR-RESPONSE-DOM.txt	output/product03-pet-crate-w114586144/final/qa/director-approval/ACTUAL-DIRECTOR-RESPONSE-DOM.txt
+R100	output/product03-pet-crate-w114586144/final-music-v1/director-approval/DECISION.json	output/product03-pet-crate-w114586144/final/qa/director-approval/DECISION.json
+R100	output/product03-pet-crate-w114586144/final-music-v1/director-approval/DECISION.png	output/product03-pet-crate-w114586144/final/qa/director-approval/DECISION.png
+R100	output/product03-pet-crate-w114586144/final-music-v1/director-approval/SUBMISSION-DOM.txt	output/product03-pet-crate-w114586144/final/qa/director-approval/SUBMISSION-DOM.txt
+R100	output/product03-pet-crate-w114586144/music-only-v1/music-edit-plan.json	output/product03-pet-crate-w114586144/final/qa/music-edit-plan.json
+R100	output/product03-pet-crate-w114586144/music-only-v1/music-provenance.json	output/product03-pet-crate-w114586144/final/qa/music-provenance.json
+R100	output/product03-pet-crate-w114586144/release-assets/long-thumbnail-source.png	output/product03-pet-crate-w114586144/final/release-assets/long-thumbnail-source.png
+R100	output/product03-pet-crate-w114586144/release-assets/short-poster-source.png	output/product03-pet-crate-w114586144/final/release-assets/short-poster-source.png
+R100	output/product03-pet-crate-w114586144/reproduction/RENDER-AUTHORITY.json	output/product03-pet-crate-w114586144/final/reproduction/RENDER-AUTHORITY.json
+R100	output/product03-pet-crate-w114586144/reproduction/reference-long.png	output/product03-pet-crate-w114586144/final/reproduction/reference-long.png
+R100	output/product03-pet-crate-w114586144/reproduction/reference-short.png	output/product03-pet-crate-w114586144/final/reproduction/reference-short.png
+R100	output/product03-pet-crate-w114586144/final-music-v1/PRODUCT03-Short-V3-MUSIC-1080x1920.mp4	output/product03-pet-crate-w114586144/final/short/PRODUCT03-Short-FINAL-1080x1920.mp4
+R100	output/product03-pet-crate-w114586144/phase-a-v1/ASSEMBLY-DEPENDENCIES.json	output/product03-pet-crate-w114586144/final/source-audit/ASSEMBLY-DEPENDENCIES.json
+R100	output/product03-pet-crate-w114586144/phase-a-v1/ASSEMBLY-DEPENDENCY-MAP.md	output/product03-pet-crate-w114586144/final/source-audit/ASSEMBLY-DEPENDENCY-MAP.md
+R100	output/product03-pet-crate-w114586144/phase-a-v1/PARTS-HARDWARE-INVENTORY.json	output/product03-pet-crate-w114586144/final/source-audit/PARTS-HARDWARE-INVENTORY.json
+R100	output/product03-pet-crate-w114586144/phase-a-v1/PHASE-A-QA.json	output/product03-pet-crate-w114586144/final/source-audit/PHASE-A-QA.json
+R100	output/product03-pet-crate-w114586144/phase-a-v1/PHASE-A-REPORT.md	output/product03-pet-crate-w114586144/final/source-audit/PHASE-A-REPORT.md
+R100	output/product03-pet-crate-w114586144/phase-a-v1/PREMIUM-ART-DIRECTION.md	output/product03-pet-crate-w114586144/final/source-audit/PREMIUM-ART-DIRECTION.md
+R100	output/product03-pet-crate-w114586144/phase-a-v1/PRODUCT-BOM.md	output/product03-pet-crate-w114586144/final/source-audit/PRODUCT-BOM.md
+R100	output/product03-pet-crate-w114586144/phase-a-v1/SOURCE-AUTHORITY.json	output/product03-pet-crate-w114586144/final/source-audit/SOURCE-AUTHORITY.json
+R100	output/product03-pet-crate-w114586144/phase-a-v1/UNCERTAINTY-REGISTER.json	output/product03-pet-crate-w114586144/final/source-audit/UNCERTAINTY-REGISTER.json
+R100	output/product03-pet-crate-w114586144/phase-a-v1/UNCERTAINTY-REGISTER.md	output/product03-pet-crate-w114586144/final/source-audit/UNCERTAINTY-REGISTER.md
+R100	output/product03-pet-crate-w114586144/phase-a-v1/source/human-provided-pet-crate-manual.pdf	output/product03-pet-crate-w114586144/final/source-audit/source/human-provided-pet-crate-manual.pdf
+D	output/product03-pet-crate-w114586144/music-only-v1/ASSEMBLE-MUSIC-REQUEST.txt
+D	output/product03-pet-crate-w114586144/music-only-v1/BUILD-MUSIC-LOG.txt
+D	output/product03-pet-crate-w114586144/music-only-v1/FINALIZE-LOG.txt
+D	output/product03-pet-crate-w114586144/music-only-v1/MUSIC-QA-LOG.txt
+D	output/product03-pet-crate-w114586144/music-only-v1/MUX-REVIEW-LOG.txt
+M	output/wf311613-standalone-murphy-bed/README.md
+A	output/wf311613-standalone-murphy-bed/final/README.md
+D	output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/retry-A-403.html
+D	output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/retry-B-403.html
+D	output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/retry-C-403.html
+D	output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/retry-download-results.json
+R100	output/wf311613-standalone-murphy-bed/final/final-lofi-720p/FINAL-MUSIC-QA-REPORT.md	output/wf311613-standalone-murphy-bed/final/long/FINAL-MUSIC-QA-REPORT.md
+R100	output/wf311613-standalone-murphy-bed/final/final-lofi-720p/SHA256SUMS.txt	output/wf311613-standalone-murphy-bed/final/long/SHA256SUMS.txt
+R100	output/wf311613-standalone-murphy-bed/final/final-lofi-720p/WF311613-final-lofi-720p.mp4	output/wf311613-standalone-murphy-bed/final/long/WF311613-final-lofi-720p.mp4
+R100	output/wf311613-standalone-murphy-bed/final/final-lofi-720p/YOUTUBE-MUSIC-CREDITS.txt	output/wf311613-standalone-murphy-bed/final/long/YOUTUBE-MUSIC-CREDITS.txt
+R100	output/wf311613-standalone-murphy-bed/final/final-lofi-720p/aac-preview-identity.json	output/wf311613-standalone-murphy-bed/final/long/aac-preview-identity.json
+R100	output/wf311613-standalone-murphy-bed/final/final-lofi-720p/build/verify_final.py	output/wf311613-standalone-murphy-bed/final/long/build/verify_final.py
+R100	output/wf311613-standalone-murphy-bed/final/final-lofi-720p/director-approval-and-final-build.json	output/wf311613-standalone-murphy-bed/final/long/director-approval-and-final-build.json
+R100	output/wf311613-standalone-murphy-bed/final/final-lofi-720p/faststart-verification.json	output/wf311613-standalone-murphy-bed/final/long/faststart-verification.json
+R100	output/wf311613-standalone-murphy-bed/final/final-lofi-720p/ffprobe-final.json	output/wf311613-standalone-murphy-bed/final/long/ffprobe-final.json
+R100	output/wf311613-standalone-murphy-bed/final/final-lofi-720p/full-av-decode.json	output/wf311613-standalone-murphy-bed/final/long/full-av-decode.json
+R100	output/wf311613-standalone-murphy-bed/final/final-lofi-720p/loudness-peak-report.json	output/wf311613-standalone-murphy-bed/final/long/loudness-peak-report.json
+R100	output/wf311613-standalone-murphy-bed/final/final-lofi-720p/music-edit-plan.json	output/wf311613-standalone-murphy-bed/final/long/music-edit-plan.json
+R100	output/wf311613-standalone-murphy-bed/final/final-lofi-720p/music-provenance.json	output/wf311613-standalone-murphy-bed/final/long/music-provenance.json
+R100	output/wf311613-standalone-murphy-bed/final/final-lofi-720p/mux-audio-integrity.json	output/wf311613-standalone-murphy-bed/final/long/mux-audio-integrity.json
+R100	output/wf311613-standalone-murphy-bed/final/final-lofi-720p/mux-command.json	output/wf311613-standalone-murphy-bed/final/long/mux-command.json
+R100	output/wf311613-standalone-murphy-bed/final/final-lofi-720p/review-clips-manifest.json	output/wf311613-standalone-murphy-bed/final/long/review-clips-manifest.json
+R100	output/wf311613-standalone-murphy-bed/final/final-lofi-720p/video-stream-identity.json	output/wf311613-standalone-murphy-bed/final/long/video-stream-identity.json
+R100	output/wf311613-standalone-murphy-bed/final/final-lofi-720p/visual-spot-checks.json	output/wf311613-standalone-murphy-bed/final/long/visual-spot-checks.json
+R100	output/wf311613-standalone-murphy-bed/final/final-lofi-720p/zero-SFX-final.json	output/wf311613-standalone-murphy-bed/final/long/zero-SFX-final.json
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/MUSIC-PASS02-REPORT.md	output/wf311613-standalone-murphy-bed/final/music/long-master/MUSIC-PASS02-REPORT.md
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/SHA256SUMS.txt	output/wf311613-standalone-murphy-bed/final/music/long-master/SHA256SUMS.txt
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/WF311613-lofi-mix-pass02.wav	output/wf311613-standalone-murphy-bed/final/music/long-master/WF311613-lofi-mix-pass02.wav
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/YOUTUBE-MUSIC-CREDITS.txt	output/wf311613-standalone-murphy-bed/final/music/long-master/YOUTUBE-MUSIC-CREDITS.txt
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/build/build_pass02.py	output/wf311613-standalone-murphy-bed/final/music/long-master/build/build_pass02.py
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/loudness-peak-report.json	output/wf311613-standalone-murphy-bed/final/music/long-master/loudness-peak-report.json
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/music-edit-plan.json	output/wf311613-standalone-murphy-bed/final/music/long-master/music-edit-plan.json
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/music-provenance.json	output/wf311613-standalone-murphy-bed/final/music/long-master/music-provenance.json
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/pass01-evidence-freeze.json	output/wf311613-standalone-murphy-bed/final/music/long-master/pass01-evidence-freeze.json
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/zero-SFX-verification.json	output/wf311613-standalone-murphy-bed/final/music/long-master/zero-SFX-verification.json
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/A-source.html	output/wf311613-standalone-murphy-bed/final/music/original-sources/evidence/A-source.html
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/A-technical-analysis.json	output/wf311613-standalone-murphy-bed/final/music/original-sources/evidence/A-technical-analysis.json
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/A-verified-source.json	output/wf311613-standalone-murphy-bed/final/music/original-sources/evidence/A-verified-source.json
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/B-source.html	output/wf311613-standalone-murphy-bed/final/music/original-sources/evidence/B-source.html
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/B-technical-analysis.json	output/wf311613-standalone-murphy-bed/final/music/original-sources/evidence/B-technical-analysis.json
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/B-verified-source.json	output/wf311613-standalone-murphy-bed/final/music/original-sources/evidence/B-verified-source.json
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/C-source.html	output/wf311613-standalone-murphy-bed/final/music/original-sources/evidence/C-source.html
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/C-technical-analysis.json	output/wf311613-standalone-murphy-bed/final/music/original-sources/evidence/C-technical-analysis.json
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/C-verified-source.json	output/wf311613-standalone-murphy-bed/final/music/original-sources/evidence/C-verified-source.json
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/director-supplied-local-assets.json	output/wf311613-standalone-murphy-bed/final/music/original-sources/evidence/director-supplied-local-assets.json
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/evidence/visual-master-preflight.json	output/wf311613-standalone-murphy-bed/final/music/original-sources/evidence/visual-master-preflight.json
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/sources/A-director-supplied.mp3	output/wf311613-standalone-murphy-bed/final/music/original-sources/sources/A-director-supplied.mp3
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/sources/B-director-supplied.mp3	output/wf311613-standalone-murphy-bed/final/music/original-sources/sources/B-director-supplied.mp3
+R100	output/wf311613-standalone-murphy-bed/final/lofi-music-pass01/sources/C-director-supplied.mp3	output/wf311613-standalone-murphy-bed/final/music/original-sources/sources/C-director-supplied.mp3
+R100	output/wf311613-standalone-murphy-bed/release-assets/long-thumbnail-source.png	output/wf311613-standalone-murphy-bed/final/release-assets/long-thumbnail-source.png
+R100	output/wf311613-standalone-murphy-bed/release-assets/short-poster-source.png	output/wf311613-standalone-murphy-bed/final/release-assets/short-poster-source.png
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/FINAL-MASTER-REPORT.md	output/wf311613-standalone-murphy-bed/final/short/FINAL-MASTER-REPORT.md
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/FINAL-MEDIA-VERIFICATION.json	output/wf311613-standalone-murphy-bed/final/short/FINAL-MEDIA-VERIFICATION.json
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/SHA256SUMS.txt	output/wf311613-standalone-murphy-bed/final/short/SHA256SUMS.txt
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/WF311613-short02-FINAL-music-master.wav	output/wf311613-standalone-murphy-bed/final/short/WF311613-short02-FINAL-music-master.wav
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/WF311613-short02-FINAL-vertical-1080p.mp4	output/wf311613-standalone-murphy-bed/final/short/WF311613-short02-FINAL-vertical-1080p.mp4
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/YOUTUBE-MUSIC-CREDITS.txt	output/wf311613-standalone-murphy-bed/final/short/YOUTUBE-MUSIC-CREDITS.txt
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/build/master_audio.py	output/wf311613-standalone-murphy-bed/final/short/build/master_audio.py
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/build/mux_verify.py	output/wf311613-standalone-murphy-bed/final/short/build/mux_verify.py
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/build/package_final.py	output/wf311613-standalone-murphy-bed/final/short/build/package_final.py
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/director-authorization.json	output/wf311613-standalone-murphy-bed/final/short/director-authorization.json
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/evidence/ffprobe-preview.json	output/wf311613-standalone-murphy-bed/final/short/evidence/ffprobe-preview.json
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/evidence/ffprobe-review.json	output/wf311613-standalone-murphy-bed/final/short/evidence/ffprobe-review.json
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/evidence/ffprobe-source.json	output/wf311613-standalone-murphy-bed/final/short/evidence/ffprobe-source.json
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/evidence/ffprobe-wav.json	output/wf311613-standalone-murphy-bed/final/short/evidence/ffprobe-wav.json
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/evidence/protected-after.json	output/wf311613-standalone-murphy-bed/final/short/evidence/protected-after.json
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/evidence/protected-before.json	output/wf311613-standalone-murphy-bed/final/short/evidence/protected-before.json
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/evidence/video-codec-extradata-identity.json	output/wf311613-standalone-murphy-bed/final/short/evidence/video-codec-extradata-identity.json
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/evidence/video-packets-review.json	output/wf311613-standalone-murphy-bed/final/short/evidence/video-packets-review.json
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/evidence/video-packets-source.json	output/wf311613-standalone-murphy-bed/final/short/evidence/video-packets-source.json
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/listening-artifacts.json	output/wf311613-standalone-murphy-bed/final/short/listening-artifacts.json
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/mastering-configuration.json	output/wf311613-standalone-murphy-bed/final/short/mastering-configuration.json
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/music-provenance.json	output/wf311613-standalone-murphy-bed/final/short/music-provenance.json
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/mux-command.json	output/wf311613-standalone-murphy-bed/final/short/mux-command.json
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/preservation-verification.json	output/wf311613-standalone-murphy-bed/final/short/preservation-verification.json
+R100	output/wf311613-standalone-murphy-bed/short/final-short02-1080p/zero-SFX-final.json	output/wf311613-standalone-murphy-bed/final/short/zero-SFX-final.json
+A	scripts/consolidate-final-products-01-03.py
+M	scripts/render-product03-finals.ts

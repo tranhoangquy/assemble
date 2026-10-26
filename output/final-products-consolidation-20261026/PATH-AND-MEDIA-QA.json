@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "packages": {
+    "wf311613-standalone-murphy-bed": {
+      "movies": [
+        "output/wf311613-standalone-murphy-bed/final/short/WF311613-short02-FINAL-vertical-1080p.mp4",
+        "output/wf311613-standalone-murphy-bed/final/long/WF311613-final-lofi-720p.mp4"
+      ],
+      "files": 72,
+      "logicalBytes": 243262019
+    },
+    "product03-pet-crate-w114586144": {
+      "movies": [
+        "output/product03-pet-crate-w114586144/final/short/PRODUCT03-Short-FINAL-1080x1920.mp4",
+        "output/product03-pet-crate-w114586144/final/long/PRODUCT03-Long-FINAL-720p.mp4"
+      ],
+      "files": 66,
+      "logicalBytes": 181633273
+    }
+  },
+  "movieCount": 4,
+  "movedFileHashes": "ALL MATCH",
+  "documentLinks": "PASS",
+  "Product01CreditSHA256": "aa50424f38567495633316d8d9e9c93b343466a85e4f5a8260680657d1aaa032",
+  "newRenderOrMediaProcessing": false
+}

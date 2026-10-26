@@ -1,0 +1,30 @@
+- heading "You said:" [level=4]
+    - button "FINAL-ONLY-CONSOLIDATION-REVIEW.zip"
+    - generic "FINAL-ONLY-CONSOLIDATION-REVIEW.zip"
+    - generic: File
+    - button "REPORT.md"
+    - generic "REPORT.md"
+    - generic: Document
+    - generic: "PRODUCT01 + PRODUCT03 — FINAL-ONLY RETENTION FOR FUTURE REUSE Human follow-up requests keeping only necessary material, including future multi-product compilation or further edits. Actual local consolidation completed: each product root now only README + final;2 final MP4s/product.134 files moved byte-for-byte;10 transient/duplicate support files archived and removed from loose output. All4 MP4 +4 WAV identities unchanged. Product02 and all product source protected:61,095paths checked,0changes. Kept final films, music sources/masters/licenses/credits, manuals/BOM, source/cameras/materials/tests, minimal reproduction inputs, finalQA and compact historicalFAIL evidence. Actual offline esbuild graph shows15 version-named Product03 source directories still directly used by final Long/Short (34/31files); deleting them would break reproduction. No runtime refactor/render/audio/publication. Current path catalog, notes and adapter updated; TypeScript and links PASS. Prior credit fix was already restored to original approved716-byte SHA and pushed in5231902; it remains intact. This is a new consolidation milestone, not a duplicate ACK. Read actual attached8-entry ZIP and report; review bounded retention/path plan for future reuse. Filesystem hashes credited to Codex evidence, not independent review. Human already authorizes cleanup and Git push. No new production, final acceptance or music-listening claim. After bounded review/fixes, verify and push, no further ACK needed."
+    - generic: …
+    - button "Show more":
+      - generic: Show more
+    - button "Copy message":
+    - button "Share prompt":
+    - status:
+      - generic: ChatGPT is responding
+    - generic: ChatGPT can make mistakes. Check important info.
+    - button "Scroll to bottom"
+    - heading "Latest response" [level=4]
+    - status
+    - button "Add files and more":
+    - textbox "Ask ChatGPT":
+      - paragraph: Ask ChatGPT
+    - button "Select ChatGPT model":
+      - generic: Thinking effort
+      - generic: Instant
+    - button "Dictate" [disabled]:
+    - button "Stop":
+- status
+- status
+- status

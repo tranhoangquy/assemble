@@ -2,9 +2,9 @@
 
 ## Đúng tệp để đăng
 
-- Long: `output/product03-pet-crate-w114586144/final-music-v1/PRODUCT03-Long-V5-MUSIC-720p.mp4` — 278s, 1280×720, 30fps, đã có nhạc.
-- Short: `output/product03-pet-crate-w114586144/final-music-v1/PRODUCT03-Short-V3-MUSIC-1080x1920.mp4` — 59s, 1080×1920, 30fps, đã có nhạc.
-- Ảnh nền thumbnail/poster: `output/product03-pet-crate-w114586144/release-assets/`.
+- Long: `output/product03-pet-crate-w114586144/final/long/PRODUCT03-Long-FINAL-720p.mp4` — 278s, 1280×720, 30fps, đã có nhạc.
+- Short: `output/product03-pet-crate-w114586144/final/short/PRODUCT03-Short-FINAL-1080x1920.mp4` — 59s, 1080×1920, 30fps, đã có nhạc.
+- Ảnh nền thumbnail/poster: `output/product03-pet-crate-w114586144/final/release-assets/`.
 
 Human đã duyệt hình và chỉ định hai file này là final để lưu/dọn. Hồ sơ cũ vẫn ghi đúng giới hạn review nhạc: Codex/Director không xác nhận nghe bằng tai; human cần nghe duyệt nội dung giọng hát/cảm nhận. Đợt cleanup không tạo một kết quả nghe giả.
 
@@ -67,10 +67,10 @@ Edited excerpt and custom fade. Courtesy credit.
 
 Dreams — HoliznaCC0, phát hành trực tiếp trong bộ Chillout Instrumentals, khai báo CC0/public domain. Không bắt buộc attribution theo CC0; vẫn có credit lịch sự và bằng chứng nguồn. CC0 hỗ trợ dùng/chỉnh sửa miễn phí kể cả thương mại, nhưng không phải bảo đảm không có khiếu nại Content ID.
 
-- [Credit](../../output/product03-pet-crate-w114586144/final-music-v1/MUSIC-CREDITS.txt), [provenance](../../output/product03-pet-crate-w114586144/final-music-v1/music-provenance.json).
-- MP3 nguyên bản: `music-only-v1/source/HoliznaCC0-Dreams.mp3`, SHA256 `4537fdb9b3bed68cf32fa3a6c59a270098d3b7b91bdffa3e643e6a9596e26c19`.
-- HTML nguồn và giấy phép: `music-only-v1/evidence/`; không cần tải lại hoặc tìm mirror.
-- Long dùng source21.333333–299.333333, fade0.7/6s; Short dùng source64–123, fade0.15/3s. Không loop, retime, SFX, thoại hay ambience. Audio master WAV và AAC production stream còn giữ trong `music-only-v1/`.
+- [Credit](../../output/product03-pet-crate-w114586144/final/qa/MUSIC-CREDITS.txt), [provenance](../../output/product03-pet-crate-w114586144/final/qa/music-provenance.json).
+- MP3 nguyên bản: `final/music/source/HoliznaCC0-Dreams.mp3`, SHA256 `4537fdb9b3bed68cf32fa3a6c59a270098d3b7b91bdffa3e643e6a9596e26c19`.
+- HTML nguồn và giấy phép: `final/music/evidence/`; không cần tải lại hoặc tìm mirror.
+- Long dùng source21.333333–299.333333, fade0.7/6s; Short dùng source64–123, fade0.15/3s. Không loop, retime, SFX, thoại hay ambience. Audio master WAV và AAC production stream còn giữ trong `final/music/`.
 
 Giữ rõ các giới hạn đã ghi: K22/10 UNMEASURED; F NONLITERAL; C13/C14 và I/J OPEN; S17/S18 POSE_ONLY; S19pads/door HOLD; historical raw collision FAIL. Không thêm tuyên bố sức chịu tải, kích thước OEM đã đo, khả năng giữ cửa hoặc an toàn sử dụng với thú nuôi.
 

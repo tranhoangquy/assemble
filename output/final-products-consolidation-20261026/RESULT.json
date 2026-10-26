@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "movedFiles": 134,
+  "archivedAndRemovedFiles": 10,
+  "removedLogicalBytes": 2424341,
+  "protectedPathsChecked": 61095,
+  "protectedChanges": [],
+  "Product02": "UNCHANGED",
+  "movieBytes": "UNCHANGED;2 final MP4s per product",
+  "source": "UNCHANGED",
+  "historicalManifests": "Original bytes; old paths resolved through PLAN.json relocation map",
+  "noRender": true,
+  "noAudioChange": true
+}

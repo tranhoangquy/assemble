@@ -2,9 +2,9 @@
 
 ## Đúng tệp để đăng
 
-- Long: `output/wf311613-standalone-murphy-bed/final/final-lofi-720p/WF311613-final-lofi-720p.mp4` — 524.066667s, 1280×720, 30fps, đã có nhạc.
-- Short: `output/wf311613-standalone-murphy-bed/short/final-short02-1080p/WF311613-short02-FINAL-vertical-1080p.mp4` — 58s, 1080×1920, 30fps, đã có nhạc.
-- Ảnh nền thumbnail/poster: `output/wf311613-standalone-murphy-bed/release-assets/`. Đây là frame nguồn sẵn có, không phải thumbnail chữ đã thiết kế.
+- Long: `output/wf311613-standalone-murphy-bed/final/long/WF311613-final-lofi-720p.mp4` — 524.066667s, 1280×720, 30fps, đã có nhạc.
+- Short: `output/wf311613-standalone-murphy-bed/final/short/WF311613-short02-FINAL-vertical-1080p.mp4` — 58s, 1080×1920, 30fps, đã có nhạc.
+- Ảnh nền thumbnail/poster: `output/wf311613-standalone-murphy-bed/final/release-assets/`. Đây là frame nguồn sẵn có, không phải thumbnail chữ đã thiết kế.
 
 ## Quy trình thủ công
 
@@ -90,10 +90,10 @@ Long dùng A → B → C, theo bản mix Pass02 đã được Director duyệt; 
 
 Hồ sơ A/C chỉ xác nhận phạm vi YouTube: không tự dùng nguyên nhạc #01 cho TikTok/Reels/quảng cáo/nền tảng khác khi chưa xác minh quyền tương ứng. Không đăng ký quyền sở hữu hoặc Content ID cho các bản nhạc của tác giả. Không có bảo đảm “không bao giờ bị claim”.
 
-Credit Long chính xác: [YOUTUBE-MUSIC-CREDITS.txt](../../output/wf311613-standalone-murphy-bed/final/final-lofi-720p/YOUTUBE-MUSIC-CREDITS.txt).
-Credit Short chính xác: [YOUTUBE-MUSIC-CREDITS.txt](../../output/wf311613-standalone-murphy-bed/short/final-short02-1080p/YOUTUBE-MUSIC-CREDITS.txt).
+Credit Long chính xác: [YOUTUBE-MUSIC-CREDITS.txt](../../output/wf311613-standalone-murphy-bed/final/long/YOUTUBE-MUSIC-CREDITS.txt).
+Credit Short chính xác: [YOUTUBE-MUSIC-CREDITS.txt](../../output/wf311613-standalone-murphy-bed/final/short/YOUTUBE-MUSIC-CREDITS.txt).
 
-Hồ sơ gốc: `final/final-lofi-720p/music-provenance.json`; ba MP3 do Director cung cấp giữ ở `final/lofi-music-pass01/sources/`. Audio master Long ở `final/lofi-music-pass02/`, Short ở `short/final-short02-1080p/`. Không cần tải nhạc lại.
+Hồ sơ gốc: `final/long/music-provenance.json`; ba MP3 do Director cung cấp giữ ở `final/music/original-sources/sources/`. Audio master Long ở `final/music/long-master/`, Short ở `final/short/`. Không cần tải nhạc lại.
 
 ## Sổ đăng
 

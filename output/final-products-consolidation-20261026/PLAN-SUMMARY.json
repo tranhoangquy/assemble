@@ -1,0 +1,13 @@
+{
+  "actions": {
+    "KEEP": 2,
+    "MOVE": 134,
+    "ARCHIVE_REMOVE": 10
+  },
+  "protectedPaths": 61095,
+  "archiveSHA256": "2d9f9a901178e024c7953fefdfea06094f59b6c0bfeba913f0a9fdbe033253a6",
+  "authority": "Human: retain necessary inputs for final films, future compilations and further editing; only01/03",
+  "sourceVersions": "15 Product03 source directories are active transitive final dependencies; no runtime refactor/deletion",
+  "noRender": true,
+  "Product02": "Excluded and fully protected"
+}
