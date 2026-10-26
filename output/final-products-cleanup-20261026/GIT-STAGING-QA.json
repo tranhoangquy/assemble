@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "stagedPaths": 1868,
+  "Product02Staged": 0,
+  "fourFinalVideoLFSsha256Pointers": "PASS",
+  "creditRestorationAndPublicationNotes": "PASS",
+  "sourceDocsWhitespace": "PASS",
+  "rawEvidenceWhitespace": "WARN, original bytes retained; see STAGED-DIFF-QA.json",
+  "noLFSRuleChanges": true
+}

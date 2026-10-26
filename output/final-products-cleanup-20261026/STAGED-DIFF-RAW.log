@@ -1,0 +1,194 @@
+output/final-products-cleanup-20261026/TESTS-ISOLATED-RETRY.log:9: new blank line at EOF.
+output/final-products-cleanup-20261026/TESTS.log:148: new blank line at EOF.
+output/product03-pet-crate-w114586144/music-only-v1/Long-AAC-LOUDNESS.txt:13: trailing whitespace.
++    major_brand     : M4A 
+output/product03-pet-crate-w114586144/music-only-v1/Long-AAC-LOUDNESS.txt:26: trailing whitespace.
++    major_brand     : M4A 
+output/product03-pet-crate-w114586144/music-only-v1/Long-AAC-LOUDNESS.txt:34: trailing whitespace.
++size=N/A time=00:00:19.00 bitrate=N/A speed=37.7x elapsed=0:00:00.50    
+output/product03-pet-crate-w114586144/music-only-v1/Long-AAC-LOUDNESS.txt:35: trailing whitespace.
++size=N/A time=00:00:38.90 bitrate=N/A speed=38.4x elapsed=0:00:01.01    
+output/product03-pet-crate-w114586144/music-only-v1/Long-AAC-LOUDNESS.txt:36: trailing whitespace.
++size=N/A time=00:00:58.70 bitrate=N/A speed=38.6x elapsed=0:00:01.52    
+output/product03-pet-crate-w114586144/music-only-v1/Long-AAC-LOUDNESS.txt:37: trailing whitespace.
++size=N/A time=00:01:18.70 bitrate=N/A speed=38.8x elapsed=0:00:02.02    
+output/product03-pet-crate-w114586144/music-only-v1/Long-AAC-LOUDNESS.txt:38: trailing whitespace.
++size=N/A time=00:01:38.70 bitrate=N/A speed=38.9x elapsed=0:00:02.53    
+output/product03-pet-crate-w114586144/music-only-v1/Long-AAC-LOUDNESS.txt:39: trailing whitespace.
++size=N/A time=00:01:58.90 bitrate=N/A speed=  39x elapsed=0:00:03.04    
+output/product03-pet-crate-w114586144/music-only-v1/Long-AAC-LOUDNESS.txt:40: trailing whitespace.
++size=N/A time=00:02:19.00 bitrate=N/A speed=39.1x elapsed=0:00:03.55    
+output/product03-pet-crate-w114586144/music-only-v1/Long-AAC-LOUDNESS.txt:41: trailing whitespace.
++size=N/A time=00:02:38.50 bitrate=N/A speed=  39x elapsed=0:00:04.06    
+output/product03-pet-crate-w114586144/music-only-v1/Long-AAC-LOUDNESS.txt:42: trailing whitespace.
++size=N/A time=00:02:58.40 bitrate=N/A speed=39.1x elapsed=0:00:04.56    
+output/product03-pet-crate-w114586144/music-only-v1/Long-AAC-LOUDNESS.txt:43: trailing whitespace.
++size=N/A time=00:03:18.30 bitrate=N/A speed=39.1x elapsed=0:00:05.07    
+output/product03-pet-crate-w114586144/music-only-v1/Long-AAC-LOUDNESS.txt:44: trailing whitespace.
++size=N/A time=00:03:38.00 bitrate=N/A speed=39.1x elapsed=0:00:05.57    
+output/product03-pet-crate-w114586144/music-only-v1/Long-AAC-LOUDNESS.txt:45: trailing whitespace.
++size=N/A time=00:03:58.10 bitrate=N/A speed=39.1x elapsed=0:00:06.08    
+output/product03-pet-crate-w114586144/music-only-v1/Long-AAC-LOUDNESS.txt:46: trailing whitespace.
++size=N/A time=00:04:18.10 bitrate=N/A speed=39.1x elapsed=0:00:06.59    
+output/product03-pet-crate-w114586144/music-only-v1/Long-AAC-LOUDNESS.txt:47: trailing whitespace.
++[Parsed_loudnorm_0 @ 0x137604c60] 
+output/product03-pet-crate-w114586144/music-only-v1/Long-AAC-LOUDNESS.txt:61: trailing whitespace.
++size=N/A time=00:04:38.10 bitrate=N/A speed=39.4x elapsed=0:00:07.06    
+output/product03-pet-crate-w114586144/music-only-v1/Long-PRE-GAIN-LOUDNESS.txt:26: trailing whitespace.
++size=N/A time=00:00:19.00 bitrate=N/A speed=37.4x elapsed=0:00:00.50    
+output/product03-pet-crate-w114586144/music-only-v1/Long-PRE-GAIN-LOUDNESS.txt:27: trailing whitespace.
++size=N/A time=00:00:39.20 bitrate=N/A speed=38.5x elapsed=0:00:01.01    
+output/product03-pet-crate-w114586144/music-only-v1/Long-PRE-GAIN-LOUDNESS.txt:28: trailing whitespace.
++size=N/A time=00:00:59.10 bitrate=N/A speed=38.7x elapsed=0:00:01.52    
+output/product03-pet-crate-w114586144/music-only-v1/Long-PRE-GAIN-LOUDNESS.txt:29: trailing whitespace.
++size=N/A time=00:01:19.50 bitrate=N/A speed=  39x elapsed=0:00:02.03    
+output/product03-pet-crate-w114586144/music-only-v1/Long-PRE-GAIN-LOUDNESS.txt:30: trailing whitespace.
++size=N/A time=00:01:39.60 bitrate=N/A speed=39.3x elapsed=0:00:02.53    
+output/product03-pet-crate-w114586144/music-only-v1/Long-PRE-GAIN-LOUDNESS.txt:31: trailing whitespace.
++size=N/A time=00:01:59.70 bitrate=N/A speed=39.3x elapsed=0:00:03.04    
+output/product03-pet-crate-w114586144/music-only-v1/Long-PRE-GAIN-LOUDNESS.txt:32: trailing whitespace.
++size=N/A time=00:02:20.00 bitrate=N/A speed=39.4x elapsed=0:00:03.55    
+output/product03-pet-crate-w114586144/music-only-v1/Long-PRE-GAIN-LOUDNESS.txt:33: trailing whitespace.
++size=N/A time=00:02:40.40 bitrate=N/A speed=39.4x elapsed=0:00:04.06    
+output/product03-pet-crate-w114586144/music-only-v1/Long-PRE-GAIN-LOUDNESS.txt:34: trailing whitespace.
++size=N/A time=00:03:00.80 bitrate=N/A speed=39.5x elapsed=0:00:04.57    
+output/product03-pet-crate-w114586144/music-only-v1/Long-PRE-GAIN-LOUDNESS.txt:35: trailing whitespace.
++size=N/A time=00:03:21.20 bitrate=N/A speed=39.6x elapsed=0:00:05.08    
+output/product03-pet-crate-w114586144/music-only-v1/Long-PRE-GAIN-LOUDNESS.txt:36: trailing whitespace.
++size=N/A time=00:03:41.50 bitrate=N/A speed=39.6x elapsed=0:00:05.59    
+output/product03-pet-crate-w114586144/music-only-v1/Long-PRE-GAIN-LOUDNESS.txt:37: trailing whitespace.
++size=N/A time=00:04:01.90 bitrate=N/A speed=39.6x elapsed=0:00:06.10    
+output/product03-pet-crate-w114586144/music-only-v1/Long-PRE-GAIN-LOUDNESS.txt:38: trailing whitespace.
++size=N/A time=00:04:22.00 bitrate=N/A speed=39.7x elapsed=0:00:06.60    
+output/product03-pet-crate-w114586144/music-only-v1/Long-PRE-GAIN-LOUDNESS.txt:39: trailing whitespace.
++[Parsed_loudnorm_0 @ 0x1299045a0] 
+output/product03-pet-crate-w114586144/music-only-v1/Long-PRE-GAIN-LOUDNESS.txt:53: trailing whitespace.
++size=N/A time=00:04:38.00 bitrate=N/A speed=39.9x elapsed=0:00:06.96    
+output/product03-pet-crate-w114586144/music-only-v1/Long-WAV-LOUDNESS.txt:25: trailing whitespace.
++size=N/A time=00:00:19.50 bitrate=N/A speed=38.5x elapsed=0:00:00.50    
+output/product03-pet-crate-w114586144/music-only-v1/Long-WAV-LOUDNESS.txt:26: trailing whitespace.
++size=N/A time=00:00:39.30 bitrate=N/A speed=38.7x elapsed=0:00:01.01    
+output/product03-pet-crate-w114586144/music-only-v1/Long-WAV-LOUDNESS.txt:27: trailing whitespace.
++size=N/A time=00:00:59.70 bitrate=N/A speed=39.1x elapsed=0:00:01.52    
+output/product03-pet-crate-w114586144/music-only-v1/Long-WAV-LOUDNESS.txt:28: trailing whitespace.
++size=N/A time=00:01:20.00 bitrate=N/A speed=39.3x elapsed=0:00:02.03    
+output/product03-pet-crate-w114586144/music-only-v1/Long-WAV-LOUDNESS.txt:29: trailing whitespace.
++size=N/A time=00:01:40.10 bitrate=N/A speed=39.3x elapsed=0:00:02.54    
+output/product03-pet-crate-w114586144/music-only-v1/Long-WAV-LOUDNESS.txt:30: trailing whitespace.
++size=N/A time=00:02:00.10 bitrate=N/A speed=39.3x elapsed=0:00:03.05    
+output/product03-pet-crate-w114586144/music-only-v1/Long-WAV-LOUDNESS.txt:31: trailing whitespace.
++size=N/A time=00:02:20.40 bitrate=N/A speed=39.4x elapsed=0:00:03.56    
+output/product03-pet-crate-w114586144/music-only-v1/Long-WAV-LOUDNESS.txt:32: trailing whitespace.
++size=N/A time=00:02:40.80 bitrate=N/A speed=39.5x elapsed=0:00:04.07    
+output/product03-pet-crate-w114586144/music-only-v1/Long-WAV-LOUDNESS.txt:33: trailing whitespace.
++size=N/A time=00:03:01.10 bitrate=N/A speed=39.5x elapsed=0:00:04.58    
+output/product03-pet-crate-w114586144/music-only-v1/Long-WAV-LOUDNESS.txt:34: trailing whitespace.
++size=N/A time=00:03:21.00 bitrate=N/A speed=39.5x elapsed=0:00:05.08    
+output/product03-pet-crate-w114586144/music-only-v1/Long-WAV-LOUDNESS.txt:35: trailing whitespace.
++size=N/A time=00:03:41.50 bitrate=N/A speed=39.6x elapsed=0:00:05.59    
+output/product03-pet-crate-w114586144/music-only-v1/Long-WAV-LOUDNESS.txt:36: trailing whitespace.
++size=N/A time=00:04:01.90 bitrate=N/A speed=39.6x elapsed=0:00:06.10    
+output/product03-pet-crate-w114586144/music-only-v1/Long-WAV-LOUDNESS.txt:37: trailing whitespace.
++size=N/A time=00:04:22.30 bitrate=N/A speed=39.6x elapsed=0:00:06.61    
+output/product03-pet-crate-w114586144/music-only-v1/Long-WAV-LOUDNESS.txt:38: trailing whitespace.
++[Parsed_loudnorm_0 @ 0x126005390] 
+output/product03-pet-crate-w114586144/music-only-v1/Long-WAV-LOUDNESS.txt:52: trailing whitespace.
++size=N/A time=00:04:38.00 bitrate=N/A speed=39.8x elapsed=0:00:06.97    
+output/product03-pet-crate-w114586144/music-only-v1/Short-AAC-LOUDNESS.txt:13: trailing whitespace.
++    major_brand     : M4A 
+output/product03-pet-crate-w114586144/music-only-v1/Short-AAC-LOUDNESS.txt:26: trailing whitespace.
++    major_brand     : M4A 
+output/product03-pet-crate-w114586144/music-only-v1/Short-AAC-LOUDNESS.txt:34: trailing whitespace.
++size=N/A time=00:00:18.90 bitrate=N/A speed=37.2x elapsed=0:00:00.50    
+output/product03-pet-crate-w114586144/music-only-v1/Short-AAC-LOUDNESS.txt:35: trailing whitespace.
++size=N/A time=00:00:38.50 bitrate=N/A speed=38.2x elapsed=0:00:01.00    
+output/product03-pet-crate-w114586144/music-only-v1/Short-AAC-LOUDNESS.txt:36: trailing whitespace.
++[Parsed_loudnorm_0 @ 0x136004790] 
+output/product03-pet-crate-w114586144/music-only-v1/Short-AAC-LOUDNESS.txt:50: trailing whitespace.
++size=N/A time=00:00:59.10 bitrate=N/A speed=39.5x elapsed=0:00:01.49    
+output/product03-pet-crate-w114586144/music-only-v1/Short-PRE-GAIN-LOUDNESS.txt:26: trailing whitespace.
++size=N/A time=00:00:18.90 bitrate=N/A speed=37.8x elapsed=0:00:00.50    
+output/product03-pet-crate-w114586144/music-only-v1/Short-PRE-GAIN-LOUDNESS.txt:27: trailing whitespace.
++size=N/A time=00:00:39.40 bitrate=N/A speed=  39x elapsed=0:00:01.01    
+output/product03-pet-crate-w114586144/music-only-v1/Short-PRE-GAIN-LOUDNESS.txt:28: trailing whitespace.
++[Parsed_loudnorm_0 @ 0x13c8045a0] 
+output/product03-pet-crate-w114586144/music-only-v1/Short-PRE-GAIN-LOUDNESS.txt:42: trailing whitespace.
++size=N/A time=00:00:59.00 bitrate=N/A speed=40.3x elapsed=0:00:01.46    
+output/product03-pet-crate-w114586144/music-only-v1/Short-WAV-LOUDNESS.txt:25: trailing whitespace.
++size=N/A time=00:00:19.20 bitrate=N/A speed=37.6x elapsed=0:00:00.50    
+output/product03-pet-crate-w114586144/music-only-v1/Short-WAV-LOUDNESS.txt:26: trailing whitespace.
++size=N/A time=00:00:39.60 bitrate=N/A speed=38.8x elapsed=0:00:01.01    
+output/product03-pet-crate-w114586144/music-only-v1/Short-WAV-LOUDNESS.txt:27: trailing whitespace.
++[Parsed_loudnorm_0 @ 0x13d0045a0] 
+output/product03-pet-crate-w114586144/music-only-v1/Short-WAV-LOUDNESS.txt:41: trailing whitespace.
++size=N/A time=00:00:59.00 bitrate=N/A speed=40.2x elapsed=0:00:01.46    
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:63: trailing whitespace.
++    
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:75: trailing whitespace.
++  
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:101: trailing whitespace.
++    
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:113: trailing whitespace.
++    
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:159: trailing whitespace.
++    
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:168: trailing whitespace.
++    
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:193: trailing whitespace.
++            
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:195: trailing whitespace.
++            
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:199: trailing whitespace.
++    
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:203: trailing whitespace.
++  
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:206: trailing whitespace.
++  
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:208: trailing whitespace.
++      <div class="field field-name-author-submitter field-type-ds field-label-above"><div class="field-label">Author:&nbsp;</div><div class="field-items"><div class="field-item even"><span class='username'><a href="/users/holizna">Holizna</a></span></div></div></div><div class="field field-name-post-date field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even">Thursday, April 11, 2024 - 19:48</div></div></div><div class="field field-name-flattr-box field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><script type="text/javascript">
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:209: trailing whitespace.
++(function() {
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:210: trailing whitespace.
++    var s = document.createElement('script');
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:211: trailing whitespace.
++    var t = document.getElementsByTagName('script')[0];
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:212: trailing whitespace.
++
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:213: trailing whitespace.
++    s.type = 'text/javascript';
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:214: trailing whitespace.
++    s.async = true;
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:215: trailing whitespace.
++    s.src = '//api.flattr.com/js/0.6/load.js?mode=auto';
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:216: trailing whitespace.
++
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:217: trailing whitespace.
++    t.parentNode.insertBefore(s, t);
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:218: trailing whitespace.
++ })();
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:219: trailing whitespace.
++</script>
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:220: trailing whitespace.
++<a class="FlattrButton" style="display:none;"
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:221: trailing whitespace.
++    title="Chillout Instrumentals (Collection)"
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:222: trailing whitespace.
++    data-flattr-uid="Holizna"
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:223: trailing whitespace.
++    data-flattr-tags="art, opensource"
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:224: trailing whitespace.
++    data-flattr-category="rest"
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:225: trailing whitespace.
++    data-flattr-popout="0"
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:226: trailing whitespace.
++    href="https://opengameart.org/content/chillout-instrumentals-collection">
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:227: trailing whitespace.
++Flattr this item
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:228: trailing whitespace.
++</a>
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:229: trailing whitespace.
++</div></div></div><div class="field field-name-art-patreon-link field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><a href='http://www.patreon.com/holizna' class='patreon-button' target='_blank'>Support Holizna on Patreon</a>
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:231: trailing whitespace.
++  
+output/product03-pet-crate-w114586144/music-only-v1/evidence/creator-collection-page.html:237: trailing whitespace.
++  

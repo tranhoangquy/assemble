@@ -1,0 +1,345 @@
+{
+  "parts": [
+    {
+      "id": "1",
+      "quantity": 1,
+      "description": "Tubular mesh side-frame variant 1",
+      "introduction": "S7 feet; S8 module attachment",
+      "orientation": "Opposite side to 2; curved rail at finished top. Do not interchange hole faces.",
+      "evidence": "PDF p3, printed p2; PDF p1 exploded; relevant numbered step",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "dimensions": "UNKNOWN"
+    },
+    {
+      "id": "2",
+      "quantity": 1,
+      "description": "Tubular mesh side-frame variant 2",
+      "introduction": "S7 feet; S8 module attachment",
+      "orientation": "Opposite side to 1; preserve square-pipe direction in S8 insets.",
+      "evidence": "PDF p3, printed p2; PDF p1 exploded; relevant numbered step",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "dimensions": "UNKNOWN"
+    },
+    {
+      "id": "3",
+      "quantity": 1,
+      "description": "Front upper crossrail / door-header assembly",
+      "introduction": "S11",
+      "orientation": "Handle/tab faces follow S11 inset; descriptive role INFERRED from location.",
+      "evidence": "PDF p3, printed p2; PDF p1 exploded; relevant numbered step",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "dimensions": "UNKNOWN"
+    },
+    {
+      "id": "4",
+      "quantity": 1,
+      "description": "Rear mesh-frame assembly",
+      "introduction": "S9",
+      "orientation": "Spans sides 1/2; four C fixing positions depicted.",
+      "evidence": "PDF p3, printed p2; PDF p1 exploded; relevant numbered step",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "dimensions": "UNKNOWN"
+    },
+    {
+      "id": "5",
+      "quantity": 1,
+      "description": "Front lower crossrail with centre foot support and tabs",
+      "introduction": "S7 A preparation; S14",
+      "orientation": "Preserve tab/iron direction, centre A foot and depicted projecting studs.",
+      "evidence": "PDF p3, printed p2; PDF p1 exploded; relevant numbered step",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "dimensions": "UNKNOWN"
+    },
+    {
+      "id": "6",
+      "quantity": 4,
+      "description": "Floor-support crossrails",
+      "introduction": "S13/S14",
+      "orientation": "Four bars; end receiver shown in S13. Exact C allocation across ends unresolved.",
+      "evidence": "PDF p3, printed p2; PDF p1 exploded; relevant numbered step",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "dimensions": "UNKNOWN"
+    },
+    {
+      "id": "7",
+      "quantity": 1,
+      "description": "Front door variant 7",
+      "introduction": "S16",
+      "orientation": "Left in S16 front view; hinge leaves and handle are depicted constituent features.",
+      "evidence": "PDF p3, printed p2; PDF p1 exploded; relevant numbered step",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "dimensions": "UNKNOWN"
+    },
+    {
+      "id": "8",
+      "quantity": 1,
+      "description": "Front door variant 8",
+      "introduction": "S16",
+      "orientation": "Right in S16 front view; do not mirror latch studs/hinges arbitrarily.",
+      "evidence": "PDF p3, printed p2; PDF p1 exploded; relevant numbered step",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "dimensions": "UNKNOWN"
+    },
+    {
+      "id": "9",
+      "quantity": 1,
+      "description": "Large upper panel / tabletop",
+      "introduction": "S3",
+      "orientation": "Four D positions depicted; finished role supported by exploded and completed views.",
+      "evidence": "PDF p3, printed p2; PDF p1 exploded; relevant numbered step",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "dimensions": "UNKNOWN"
+    },
+    {
+      "id": "10",
+      "quantity": 2,
+      "description": "Upper-module side panels",
+      "introduction": "S1",
+      "orientation": "Hole-marked faces/edges as S1; identical ID does not permit arbitrary orientation.",
+      "evidence": "PDF p3, printed p2; PDF p1 exploded; relevant numbered step",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "dimensions": "UNKNOWN"
+    },
+    {
+      "id": "11",
+      "quantity": 2,
+      "description": "Upper-module divider panels",
+      "introduction": "S2",
+      "orientation": "S2 Metal nuts labels and hole marks; K brackets added in S4.",
+      "evidence": "PDF p3, printed p2; PDF p1 exploded; relevant numbered step",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "dimensions": "UNKNOWN"
+    },
+    {
+      "id": "12",
+      "quantity": 1,
+      "description": "Long upper-module connecting panel",
+      "introduction": "S1",
+      "orientation": "Links 10 pair and receives divider association in S2; rear-wall role INFERRED.",
+      "evidence": "PDF p3, printed p2; PDF p1 exploded; relevant numbered step",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "dimensions": "UNKNOWN"
+    },
+    {
+      "id": "13",
+      "quantity": 1,
+      "description": "Long upper-module panel / rear upstand",
+      "introduction": "S5",
+      "orientation": "Seven D positions. Upstand role INFERRED by relating exploded and finished views.",
+      "evidence": "PDF p3, printed p2; PDF p1 exploded; relevant numbered step",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "dimensions": "UNKNOWN"
+    },
+    {
+      "id": "14",
+      "quantity": 1,
+      "description": "Crate floor panel",
+      "introduction": "S15",
+      "orientation": "Placed over completed lower supports; no additional fixing hardware called out.",
+      "evidence": "PDF p3, printed p2; PDF p1 exploded; relevant numbered step",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "dimensions": "UNKNOWN"
+    },
+    {
+      "id": "15",
+      "quantity": 1,
+      "description": "Upper-module broad closing panel",
+      "introduction": "S6",
+      "orientation": "Ten D positions; finished cubby-floor role INFERRED. Prefer numbered steps over ambiguous exploded leaders.",
+      "evidence": "PDF p3, printed p2; PDF p1 exploded; relevant numbered step",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "dimensions": "UNKNOWN"
+    }
+  ],
+  "hardware": [
+    {
+      "id": "A",
+      "quantity": 5,
+      "description": "Round adjustable-foot type",
+      "printed_size": "Ø16",
+      "category": "installed",
+      "allocation": "S7:5",
+      "limitations": "External foot/stem pictured; thread diameter/pitch and adjustment range UNKNOWN.",
+      "evidence": "PDF p1 hardware table; named steps",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "size_units": "Units not printed; do not silently promote conventional mm interpretation to source-confirmed dimensions"
+    },
+    {
+      "id": "B",
+      "quantity": 4,
+      "description": "Socket-head short bolt",
+      "printed_size": "Ø6X10L",
+      "category": "installed",
+      "allocation": "S4:4",
+      "limitations": "Through K into shown panel receiving points; hidden insert construction UNKNOWN.",
+      "evidence": "PDF p1 hardware table; named steps",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "size_units": "Units not printed; do not silently promote conventional mm interpretation to source-confirmed dimensions"
+    },
+    {
+      "id": "C",
+      "quantity": 18,
+      "description": "Socket-head long bolt",
+      "printed_size": "Ø6X25L",
+      "category": "installed",
+      "allocation": "S9:4; S11:4; S13:4; S14:6",
+      "limitations": "Frame/rail joints; exact bore coordinates/thread pitch UNKNOWN.",
+      "evidence": "PDF p1 hardware table; named steps",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "size_units": "Units not printed; do not silently promote conventional mm interpretation to source-confirmed dimensions"
+    },
+    {
+      "id": "D",
+      "quantity": 39,
+      "description": "Pointed socket-drive panel screw",
+      "printed_size": "Ø5X44L",
+      "category": "installed",
+      "allocation": "S1:4; S2:4; S3:4; S5:7; S6:10; S8:10",
+      "limitations": "Screw silhouette and nominal size shown. No invented pilot depth, thread helix/pitch or insert.",
+      "evidence": "PDF p1 hardware table; named steps",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "size_units": "Units not printed; do not silently promote conventional mm interpretation to source-confirmed dimensions"
+    },
+    {
+      "id": "E",
+      "quantity": 8,
+      "description": "Cross-drive short hinge screw",
+      "printed_size": "Ø4*11L",
+      "category": "installed",
+      "allocation": "S16:8",
+      "limitations": "Two per depicted hinge attachment; receiving construction not sectioned.",
+      "evidence": "PDF p1 hardware table; named steps",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "size_units": "Units not printed; do not silently promote conventional mm interpretation to source-confirmed dimensions"
+    },
+    {
+      "id": "F",
+      "quantity": 8,
+      "description": "Cross-drive long frame-to-module screw",
+      "printed_size": "Ø4*25L",
+      "category": "installed",
+      "allocation": "S10:4; S12:4",
+      "limitations": "Source explicitly says Lock the screws firmly; preserve alignment-first rule.",
+      "evidence": "PDF p1 hardware table; named steps",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "size_units": "Units not printed; do not silently promote conventional mm interpretation to source-confirmed dimensions"
+    },
+    {
+      "id": "G",
+      "quantity": 4,
+      "description": "Hex nut with raised collar",
+      "printed_size": "not stated",
+      "category": "installed",
+      "allocation": "S17:2; S18:2",
+      "limitations": "Exact thread and insert/locking chemistry UNKNOWN.",
+      "evidence": "PDF p1 hardware table; named steps",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "size_units": "Units not printed; do not silently promote conventional mm interpretation to source-confirmed dimensions"
+    },
+    {
+      "id": "H",
+      "quantity": 4,
+      "description": "Split-ring washer",
+      "printed_size": "not stated",
+      "category": "installed",
+      "allocation": "S17:2; S18:2",
+      "limitations": "Shown split; dimensions and washer material UNKNOWN.",
+      "evidence": "PDF p1 hardware table; named steps",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "size_units": "Units not printed; do not silently promote conventional mm interpretation to source-confirmed dimensions"
+    },
+    {
+      "id": "I",
+      "quantity": 2,
+      "description": "Bent rotating retaining tab, ID I",
+      "printed_size": "not stated",
+      "category": "installed",
+      "allocation": "S18:2 PROVISIONAL",
+      "limitations": "S18 inset says I; S18 summary says J. Conflict must remain visible.",
+      "evidence": "PDF p1 hardware table; named steps",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "size_units": "Units not printed; do not silently promote conventional mm interpretation to source-confirmed dimensions"
+    },
+    {
+      "id": "J",
+      "quantity": 2,
+      "description": "Bent rotating retaining tab, ID J",
+      "printed_size": "not stated",
+      "category": "installed",
+      "allocation": "S17:2",
+      "limitations": "S17 inset and summary agree J. Do not silently consume J twice.",
+      "evidence": "PDF p1 hardware table; named steps",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "size_units": "Units not printed; do not silently promote conventional mm interpretation to source-confirmed dimensions"
+    },
+    {
+      "id": "K",
+      "quantity": 2,
+      "description": "Right-angle fixing bracket",
+      "printed_size": "not stated",
+      "category": "installed",
+      "allocation": "S4:2",
+      "limitations": "Two B per bracket connect divider region to broad panel as inset.",
+      "evidence": "PDF p1 hardware table; named steps",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "size_units": "Units not printed; do not silently promote conventional mm interpretation to source-confirmed dimensions"
+    },
+    {
+      "id": "L",
+      "quantity": 1,
+      "description": "L-shaped hex key",
+      "printed_size": "M4",
+      "category": "tool",
+      "allocation": "tool, not consumed",
+      "limitations": "M4 is the tool label; not proof all mating threads are M4.",
+      "evidence": "PDF p1 hardware table; named steps",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "size_units": "Units not printed; do not silently promote conventional mm interpretation to source-confirmed dimensions"
+    },
+    {
+      "id": "M",
+      "quantity": 1,
+      "description": "Phillips screwdriver",
+      "printed_size": "not stated",
+      "category": "tool",
+      "allocation": "tool, not consumed",
+      "limitations": "Manual tool-required notice; power tool NOT recommended.",
+      "evidence": "PDF p1 hardware table; named steps",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "size_units": "Units not printed; do not silently promote conventional mm interpretation to source-confirmed dimensions"
+    },
+    {
+      "id": "N",
+      "quantity": 4,
+      "description": "EVA-type pad/disc",
+      "printed_size": "Ø19*3",
+      "category": "accessory",
+      "allocation": "S19:4",
+      "limitations": "Release-liner sketch, two positions per door; selection wording is ambiguous.",
+      "evidence": "PDF p1 hardware table; named steps",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "size_units": "Units not printed; do not silently promote conventional mm interpretation to source-confirmed dimensions"
+    },
+    {
+      "id": "O",
+      "quantity": 1,
+      "description": "Open-ended spanner",
+      "printed_size": "not stated",
+      "category": "tool",
+      "allocation": "tool, not consumed",
+      "limitations": "Jaw size UNKNOWN; not an installed product component.",
+      "evidence": "PDF p1 hardware table; named steps",
+      "quantity_status": "CONFIRMED_LOCAL_MANUAL",
+      "size_units": "Units not printed; do not silently promote conventional mm interpretation to source-confirmed dimensions"
+    }
+  ],
+  "counting_rule": "Count 1-15 as OEM supplied assemblies. Do not count constituent welded mesh/hinges/handles as extra OEM parts.",
+  "totals": {
+    "part_types": 15,
+    "part_instances": 20,
+    "hardware_and_tool_types": 15,
+    "hardware_accessories_and_tool_units": 103,
+    "installed_or_accessory_units": 100,
+    "tool_units": 3
+  }
+}

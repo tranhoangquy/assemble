@@ -1,0 +1,727 @@
+- link "Skip to content":
+  - /url: "#_R_7er7l8aqn75cched5hlb5_"
+- complementary:
+  - 'button "Switch mode, current mode: ChatGPT"':
+    - generic: ChatGPT
+  - button "Search":
+  - button "Hide sidebar" [expanded]:
+  - navigation "Chat history":
+    - button "New chat":
+      - generic: New chat
+    - button "Scheduled":
+      - generic: Scheduled
+    - button "Library":
+      - generic: Library
+    - button "Plugins":
+      - generic: Plugins
+    - button "Explore":
+      - generic: Explore
+    - button "Projects" [expanded]:
+      - generic: Projects
+    - button "Project sidebar options":
+    - button "Add new project":
+    - list:
+      - listitem: No projects
+    - button "Recents" [expanded]:
+      - generic: Recents
+    - button "Chat sidebar options":
+    - button "Filter chats and work":
+    - button "New chat":
+    - list:
+      - group "Assemble":
+        - link "Assemble":
+          - /url: /c/6aba3623-39a8-83ec-8e58-c9b0e7c05ff2
+          - generic: Assemble
+        - status "Working":
+        - button "Chat actions":
+        - button "Pin chat":
+      - group "Tripi Product Direction":
+        - link "Tripi Product Direction":
+          - /url: /c/6aa76081-da64-83ec-8513-288fff492d1b
+          - generic: Tripi Product Direction
+        - button "Chat actions":
+        - button "Pin chat":
+      - group "Cổ phiếu nên mua hôm nay":
+        - link "Cổ phiếu nên mua hôm nay":
+          - /url: /c/6ad9869d-2110-83ec-8429-52d497eb1748
+          - generic: Cổ phiếu nên mua hôm nay
+        - button "Chat actions":
+        - button "Pin chat":
+      - group "Thiết kế Codex đa máy":
+        - link "Thiết kế Codex đa máy":
+          - /url: /c/6adb2a77-d814-83ec-bbfb-e2b4128a53c6
+          - generic: Thiết kế Codex đa máy
+        - button "Chat actions":
+        - button "Pin chat":
+      - group "Tìm tên phim":
+        - link "Tìm tên phim":
+          - /url: /c/6ad9f0c2-a1cc-83ec-8eeb-34f77dbd09b6
+          - generic: Tìm tên phim
+        - button "Chat actions":
+        - button "Pin chat":
+      - group "Tư vấn ổ cứng rời":
+        - link "Tư vấn ổ cứng rời":
+          - /url: /c/6ad7853a-84a8-83ec-886d-abc5e11c2233
+          - generic: Tư vấn ổ cứng rời
+        - button "Chat actions":
+        - button "Pin chat":
+      - group "Lập kế hoạch Half Marathon":
+        - link "Lập kế hoạch Half Marathon":
+          - /url: /c/6ad60340-6518-83ec-a58e-5d2e64a639eb
+          - generic: Lập kế hoạch Half Marathon
+        - button "Chat actions":
+        - button "Pin chat":
+      - group "Thay hình túi":
+        - link "Thay hình túi":
+          - /url: /c/6ad34b96-03ac-83ec-92fb-8ab396be2b40
+          - generic: Thay hình túi
+        - button "Chat actions":
+        - button "Pin chat":
+      - group "Chỉnh ảnh túi trái":
+        - link "Chỉnh ảnh túi trái":
+          - /url: /c/6ad34240-c9a8-83ec-9d9c-2ebae0852af3
+          - generic: Chỉnh ảnh túi trái
+        - button "Chat actions":
+        - button "Pin chat":
+      - group "Tìm tên Lê Thị Hồng":
+        - link "Tìm tên Lê Thị Hồng":
+          - /url: /c/6ad31e20-3d94-83ec-9ffd-2d726794b797
+          - generic: Tìm tên Lê Thị Hồng
+        - button "Chat actions":
+        - button "Pin chat":
+      - group "Đồng bộ Huawei Strava chậm":
+        - link "Đồng bộ Huawei Strava chậm":
+          - /url: /c/6ad23627-c12c-83ec-8c34-931ad54777b1
+          - generic: Đồng bộ Huawei Strava chậm
+        - button "Chat actions":
+        - button "Pin chat":
+      - group "Dịch Anh xin lỗi 10 tiếng":
+        - link "Dịch Anh xin lỗi 10 tiếng":
+          - /url: /c/6ad0e047-e304-83ec-add5-22fae507b52d
+          - generic: Dịch Anh xin lỗi 10 tiếng
+        - button "Chat actions":
+        - button "Pin chat":
+      - group "Viết email hỗ trợ QR code":
+        - link "Viết email hỗ trợ QR code":
+          - /url: /c/6ad08890-ce34-83ec-963a-22b52efaa3f4
+          - generic: Viết email hỗ trợ QR code
+        - button "Chat actions":
+        - button "Pin chat":
+      - group "Thay ảnh 4K":
+        - link "Thay ảnh 4K":
+          - /url: /c/6acdf594-0bb0-83ec-a86e-d6663e3b5ef0
+          - generic: Thay ảnh 4K
+        - button "Chat actions":
+        - button "Pin chat":
+      - group "Describe poster image":
+        - link "Describe poster image":
+          - /url: /c/6acdf573-7e08-83ec-8686-1ed542d92664
+          - generic: Describe poster image
+        - button "Chat actions":
+        - button "Pin chat":
+  - button "Open profile menu"
+  - generic: Quy Tran Hoang
+  - generic: Plus
+  - separator
+- main:
+  - button "More":
+  - button "Share":
+    - text: Share
+  - button "Toggle pinned summary":
+  - region "Conversation":
+    - status:
+      - generic: Loading older messages…
+    - separator "Today 10:25 AM":
+      - time: Today 10:25 AM
+    - heading "You said:" [level=4]
+    - generic: còn sửa một điểm nữa là cái bản lề cho bắt cả ở cánh lẫn điểm bán luôn có nghĩa là 1 bản lề vặn 4 lần ốc
+    - button "Copy message":
+    - button "Share prompt":
+    - heading "ChatGPT said:" [level=4]
+    - paragraph:
+      - text: Hiểu rồi. Bạn muốn
+      - generic: mỗi bản lề được bắt vít ở cả hai phía
+      - text: ":"
+    - list:
+      - paragraph:
+        - generic: 2 vít vào khung cố định.
+      - paragraph:
+        - generic: 2 vít vào cánh cửa.
+      - paragraph:
+        - text: Tổng cộng
+        - generic: 4 vít cho mỗi bản lề
+        - text: .
+    - paragraph:
+      - text: Với 4 bản lề, hình ảnh sẽ thể hiện
+      - generic: 16 vị trí bắt vít
+      - text: .
+    - paragraph:
+      - text: "Tuy nhiên, có một điểm cần chốt:"
+      - generic: tài liệu OEM hiện chỉ liệt kê 8 vít E
+      - text: ", và không xác nhận thêm 8 vít phía cánh cửa. Vì vậy, yêu cầu mới của bạn khác với phương án đã được duyệt trước đó. T sẽ không tự coi 16 vít là cấu hình OEM đã được chứng minh."
+    - paragraph:
+      - generic: "T cần bạn xác nhận đúng một điều:"
+    - radiogroup "Options":
+      - radio "Phương án A — Minh họa 4 vít/bản lề theo yêu cầu của bạn. Chấp nhận 8 vít phía cửa là chi tiết bổ sung chưa được OEM xác minh; ghi rõ giới hạn này trong hồ sơ." [checked]
+      - paragraph:
+        - generic: Phương án A — Minh họa 4 vít/bản lề theo yêu cầu của bạn.
+        - text: Chấp nhận 8 vít phía cửa là chi tiết bổ sung chưa được OEM xác minh; ghi rõ giới hạn này trong hồ sơ.
+      - radio "Phương án B — Phải đúng OEM. Chỉ triển khai khi có thêm hình ảnh hoặc tài liệu xác nhận cách cố định bản lề phía cửa."
+      - paragraph:
+        - generic: Phương án B — Phải đúng OEM.
+        - text: Chỉ triển khai khi có thêm hình ảnh hoặc tài liệu xác nhận cách cố định bản lề phía cửa.
+    - button "Xác nhận phương án":
+      - generic: Xác nhận phương án
+    - paragraph:
+      - text: Sau khi chốt, phạm vi sửa chỉ gồm
+      - generic: bản lề và thao tác bắt vít liên quan
+      - text: . Camera C16, chân đế, đệm EVA và những phần đã đạt sẽ được giữ nguyên. Long V4 và Short V2 tạm thời chưa nghiệm thu cuối cùng.
+    - button "Copy":
+    - button "Rate response":
+    - button "Read aloud":
+    - button "Share":
+    - button "More actions":
+    - heading "You said:" [level=4]
+    - generic: "Tôi chốt phương án A: minh họa 4 vít mỗi bản lề, tổng 16 vít, 8 vít phía cửa là bổ sung chưa được OEM xác minh. Hãy lập gói triển khai giới hạn và giữ nguyên các phần khác."
+    - button "Copy message":
+    - button "Share prompt":
+    - heading "ChatGPT said:" [level=4]
+    - paragraph:
+      - text: Đã chốt
+      - generic: phương án A
+      - text: ". Với vai trò Creative Director, t phê duyệt thay đổi yêu cầu hình ảnh:"
+      - generic: 4 bản lề × 4 vít = 16 vít được minh họa
+      - text: ", gồm 8 vít phía khung theo OEM và 8 vít phía cánh cửa bổ sung theo quyết định của bạn."
+    - paragraph:
+      - text: Đây là
+      - generic: yêu cầu minh họa do human phê duyệt
+      - text: ", không phải bằng chứng rằng nhà sản xuất cung cấp 16 vít E. Vì thế cần giữ tách biệt số lượng OEM và số lượng minh họa."
+    - paragraph: Dưới đây là gói triển khai giới hạn để chuyển cho Codex.
+    - generic: Writing
+    - button "Copy":
+    - button "Open editor":
+    - textbox "Start writing":
+      - 'heading "GÓI TRIỂN KHAI — PRODUCT #03" [level=1]'
+      - heading "HINGE 4-SCREW VISUAL OVERRIDE / HUMAN APPROVED" [level=2]
+      - paragraph:
+        - strong: "Trạng thái:"
+        - text: APPROVED FOR IMPLEMENTATION
+        - strong: "Người quyết định nghiệp vụ:"
+        - text: Human
+        - strong: "Người review:"
+        - text: ChatGPT Creative Director
+        - strong: "Người triển khai:"
+        - text: Codex
+      - heading "1. Mục tiêu" [level=3]
+      - paragraph: "Sửa duy nhất phần bản lề cửa trong Product #03 để người xem thấy rõ mỗi bản lề được bắt vít vào cả khung cố định và cánh cửa."
+      - paragraph: Mỗi bản lề có bốn vít được minh họa, chia đều hai phía.
+      - paragraph: Không làm lại những phần đã được duyệt.
+      - heading "2. Requirement đã chốt" [level=3]
+      - list:
+        - paragraph: Có 4 bản lề, gồm 2 bản lề trên mỗi cánh cửa.
+        - paragraph: Mỗi bản lề thể hiện 2 vít ở lá phía khung và 2 vít ở lá phía cánh cửa.
+        - paragraph: Tổng cộng 16 vít được minh họa.
+        - paragraph: Giữ nguyên 8 vít E phía khung hiện có.
+        - paragraph: Bổ sung 8 vít minh họa phía cửa, có actor ID và trạng thái riêng, không đánh đồng với 8 vít E thuộc danh mục OEM.
+        - paragraph: Khôi phục hoặc tạo vị trí vít phía cánh cửa phù hợp với hình học bản lề hiện tại.
+        - paragraph: Thể hiện đầy đủ thao tác đưa vít vào vị trí, tiếp cận bằng dụng cụ, bắt vít và rút dụng cụ ở cả hai phía.
+        - paragraph: Camera phải cho thấy rõ cả vị trí bắt vít trên khung lẫn trên cánh cửa.
+        - paragraph: Không làm phát sinh thao tác lắp mới ngoài phạm vi bản lề.
+      - heading "3. Business Rules" [level=3]
+      - paragraph:
+        - strong: BR-01 — Phân biệt OEM và minh họa
+      - paragraph: Tài liệu OEM liệt kê E ×8. Tám vít phía cánh cửa được bổ sung theo quyết định minh họa của human, không được khai báo là vít OEM đã xác minh.
+      - paragraph:
+        - strong: BR-02 — Không khẳng định cơ khí
+      - paragraph: Việc thể hiện vít đi vào lá bản lề và cánh cửa không chứng minh lỗ nhận vít, ren, chiều sâu ăn vít, khả năng chịu lực hoặc độ bền liên kết.
+      - paragraph:
+        - strong: BR-03 — Không nâng cấp trạng thái chức năng
+      - paragraph: "Phải giữ rõ giới hạn:"
+      - list:
+        - paragraph:
+          - code: "DOOR-SIDE FASTENERS: HUMAN-APPROVED ILLUSTRATION"
+        - paragraph:
+          - code: "OEM ATTACHMENT DETAILS: UNVERIFIED"
+        - paragraph:
+          - code: "DOOR FUNCTION: HOLD"
+      - paragraph: Không tự chuyển sang trạng thái cửa hoạt động được hoặc lắp đặt đạt chuẩn.
+      - paragraph:
+        - strong: BR-04 — Quản lý số lượng
+      - paragraph: Giữ nguyên danh mục OEM gồm 103 đơn vị hardware/tools đã ghi nhận. Theo dõi riêng 8 vít minh họa bổ sung. Không âm thầm thay đổi số lượng OEM thành 111.
+      - paragraph:
+        - strong: BR-05 — Không thay đổi sản phẩm
+      - paragraph: Không chỉnh kích thước, vật liệu, bố cục, cơ cấu cửa hoặc các chi tiết ngoài bản lề.
+      - heading "4. Acceptance Criteria" [level=3]
+      - paragraph:
+        - strong: AC-01 — Hình ảnh
+      - list:
+        - paragraph: Cả 4 bản lề đều có đủ 4 vít.
+        - paragraph: Hai vít phía khung và hai vít phía cửa được thể hiện rõ.
+        - paragraph: Không có vít lơ lửng, xuyên sai hướng hoặc biến mất bất thường.
+        - paragraph: Camera không che khuất thao tác quan trọng.
+      - paragraph:
+        - strong: AC-02 — Animation
+      - list:
+        - paragraph: Vít phía cửa được đưa đến đúng vị trí minh họa.
+        - paragraph: Dụng cụ tiếp cận và rút ra hợp lý về mặt hình ảnh.
+        - paragraph: Không có thao tác bắt vít giả tạo bằng cách làm vít đột ngột xuất hiện ở trạng thái hoàn tất.
+        - paragraph: Không làm phát sinh chuyển động mở cửa hoặc khẳng định chức năng bản lề.
+      - paragraph:
+        - strong: AC-03 — Bằng chứng
+      - paragraph: "Trước khi render phim hoàn chỉnh, Codex phải cung cấp:"
+      - list:
+        - paragraph: Proof BEFORE/AFTER.
+        - paragraph: Video liên tục thể hiện thao tác trên cả hai phía bản lề.
+        - paragraph: Cận cảnh kiểm tra cả 4 bản lề.
+        - paragraph: Bảng đối chiếu 8 vít OEM và 8 vít minh họa.
+        - paragraph: Báo cáo actor/state, camera và regression QA.
+      - paragraph:
+        - strong: AC-04 — Regression
+      - paragraph: Không thay đổi camera C16 đã PASS, chân A1–A5, đệm N1–N4 hoặc các cảnh không liên quan.
+      - heading "5. Edge Cases bắt buộc" [level=3]
+      - list:
+        - paragraph: Vít phía cửa bị che khi cánh cửa ở vị trí hiện tại.
+        - paragraph: Dụng cụ xuyên qua cánh cửa hoặc lá bản lề.
+        - paragraph: Hai lá bản lề bị thể hiện sai phía.
+        - paragraph: Vít mới vô tình được tính là vít E OEM.
+        - paragraph: Các vít phía khung bị lắp lại hoặc xuất hiện hai lần.
+        - paragraph: Chuyển camera quá nhanh khiến không nhìn rõ thao tác.
+        - paragraph: Thêm tám thao tác khiến nhịp phim không còn đủ thời gian.
+        - paragraph: Long và Short không đồng nhất về trạng thái bản lề.
+      - paragraph: Nếu không đủ thời lượng để minh họa rõ, Codex phải đề xuất điều chỉnh cục bộ và trình Director review; không tự thay đổi tổng thời lượng phim.
+      - heading "6. Ràng buộc" [level=3]
+      - list:
+        - paragraph: Bắt đầu từ Long V4 và Short V2 đã được review.
+        - paragraph: Long giữ mục tiêu 278 giây; Short giữ 59 giây.
+        - paragraph: Short chỉ thay đổi nếu có cảnh bản lề chịu ảnh hưởng hoặc trạng thái bản lề cần cập nhật.
+        - paragraph: Không sửa camera C16.
+        - paragraph: Không thêm âm thanh.
+        - paragraph: Không truy cập Internet ngoài phạm vi ChatGPT Web Assemble đã được phép.
+        - paragraph: Không công bố, không sử dụng dịch vụ trả phí.
+        - paragraph: "Không chỉnh Product #01 hoặc JULIETTE."
+      - heading "7. Không được thay đổi" [level=3]
+      - list:
+        - paragraph: Tài liệu OEM gốc.
+        - paragraph: Các bản phim cũ và bằng chứng đã khóa.
+        - paragraph: Số lượng phụ kiện OEM.
+        - paragraph: Ba bản sửa đã PASS trước đó, ngoại trừ hình học lá bản lề phía cửa trong phạm vi yêu cầu mới.
+        - paragraph: Các trạng thái K UNMEASURED, F NONLITERAL, C13/C14 và I/J OPEN, S17/S18 POSE_ONLY, S19 HOLD và raw collision FAIL.
+      - heading "8. Câu hỏi còn mở" [level=3]
+      - list:
+        - paragraph: Tọa độ chính xác của hai vít phía cửa trên mỗi bản lề chưa được OEM xác minh.
+        - paragraph: Cấu trúc nhận vít và khả năng giữ cửa thực tế chưa được xác minh.
+        - paragraph: Cần đánh giá liệu nhịp phim hiện tại có đủ để thể hiện rõ các thao tác bổ sung hay không.
+      - paragraph: Codex được tự chọn bố cục hình ảnh hợp lý trong phạm vi minh họa, nhưng phải ghi rõ các quyết định chưa có chứng cứ OEM.
+      - heading "9. Quy trình triển khai" [level=3]
+      - list:
+        - paragraph: Audit actor và timeline bản lề hiện tại.
+        - paragraph: Xây dựng phương án bổ sung 8 vít minh họa phía cửa.
+        - paragraph: Tạo bounded proof với đầy đủ bốn bản lề.
+        - paragraph: Gửi proof và QA trực tiếp cho ChatGPT Creative Director trong Assemble.
+        - paragraph: Nếu Director PASS, tích hợp vào Long V5 và Short V3 nếu Short cần thay đổi; nếu Short không cần thay đổi, giữ Short V2 và giải thích bằng chứng.
+        - paragraph: Render, QA và gửi Director review phim hoàn chỉnh.
+        - paragraph: Bàn giao cho human nghiệm thu cuối cùng.
+      - paragraph: Không yêu cầu human xác nhận từng bước. Chỉ dừng nếu xuất hiện quyết định nghiệp vụ mới ngoài phạm vi được ủy quyền.
+      - paragraph:
+        - strong: "Final gate: HUMAN FINAL ACCEPTANCE REQUIRED."
+    - paragraph:
+      - generic: "Trạng thái mới:"
+      - code: HINGE VISUAL OVERRIDE APPROVED → BOUNDED PROOF REQUIRED → FULL FILM REVIEW → HUMAN ACCEPTANCE
+      - text: .
+    - paragraph: "Lưu ý: việc bổ sung 8 vít minh họa không đồng nghĩa chứng nhận kết cấu bản lề an toàn hoặc hoạt động được. Hai bản phim hiện tại chưa được nghiệm thu cuối cùng."
+    - paragraph: Bạn có thể gửi nguyên gói trên cho Codex để triển khai.
+    - button "Copy":
+    - button "Rate response":
+    - button "Read aloud":
+    - button "Share":
+    - button "More actions":
+    - separator "Today 2:10 PM":
+      - time: Today 2:10 PM
+    - heading "You said:" [level=4]
+    - button "User attachment":
+      - img "User attachment"
+    - button "User attachment":
+      - img "User attachment"
+    - button "User attachment":
+      - img "User attachment"
+    - button "PRODUCT03-HINGE-FOUR-HINGES-PROOF-V1.mp4"
+    - generic "PRODUCT03-HINGE-FOUR-HINGES-PROOF-V1.mp4"
+    - generic: File
+    - button "PRODUCT03-HINGE-PORTRAIT-PROOF-V1.mp4"
+    - generic "PRODUCT03-HINGE-PORTRAIT-PROOF-V1.mp4"
+    - generic: File
+    - button "DIRECTOR-PROOF-REVIEW(1).md"
+    - generic "DIRECTOR-PROOF-REVIEW(1).md"
+    - generic: Document
+    - button "FASTENER-ACCOUNTING.json"
+    - generic "FASTENER-ACCOUNTING.json"
+    - generic: Code
+    - button "PRODUCT03-HINGE-OVERRIDE-PROOF-COMPACT-EVIDENCE.zip"
+    - generic "PRODUCT03-HINGE-OVERRIDE-PROOF-COMPACT-EVIDENCE.zip"
+    - generic: File
+    - generic: "PRODUCT03 — HUMAN HINGE4-SCREW OVERRIDE / BOUNDED PROOF + TIMING REVIEW Actual continuous35.5s/1065frame landscape proof covers ALL4 hinges: existing OEM E8 + separate8 door-side human illustrations,16 shown screws. Native portrait8.1s/243frames shows one complete4-screw hinge. MP4s,compact evidenceZIP (actual sampled JPEGs+QA; full native PNGs preserved locally), same-source227.9/same-camera4hinge BEFORE/AFTER and accounting attached. No full films rendered yet. OEM103hardware/tools stays103; OEM registry123 unchanged,8additional non-OEM actors tracked separately. Only door-leaf visible holes restored under HUMAN override; no hidden receivers/threads. Extra silhouettes approximate existing E, not new OEM E. Tool M reused. Existing E8 seats/count unchanged; bounded hinge approach distances for readable staging. Exact authority/UNVERIFIED/FUNCTION HOLD labels persist; no door motion or physical-confidence upgrade. QA:4332 non-hinge root comparisons/backward seeks PASS,184 tool-leaf-plane clearance samples, all1308 frames/full decode/PTS/noaudio/native/frustum checks PASS,51066 protected paths unchanged; C16 source untouched. Actual sampled MP4 images inspected, not a claim of continuous playback or certified access. LANDSCAPE SHA2569e6eae4373632d3717d5e6d1053c2142bed5f9f3ce0605e203c2403b532ea5ee PORTRAIT SHA25676cc4ddafaa67359755753e786cb33a5a4f05a88b4f3b29d0047e0a77373e534 COMPACT ZIP SHA256137ef7197261356b7996f8e4d890402b26e4b299a8abcc8d8edf492c6433bddb Request explicit visual PASS/revision AND duration/edit decision: LONG278 proposal: add4×4s illustrative pauses=16s. Preserve OEM motion speeds and original247–249 camera bridge2s. Shorten ONLY static249–262 hold13→3 and final static study10→4. New S17start244,S18start254,alignment263–268,N268–274,hero274–278. clock-option-278-r2 is correct proposal; unused earlier draft long map would speed camera bridge, will NOT be used. SHORT59 proposal: preserve0–44.6; door7placement44.6–46.6; one complete four-screw hinge46.6–54.4 including full E1/E2+two new1.8s cycles; door8placement54.4–56.4 with declared other3hinges omitted/seeLong. Omit two POSE_ONLY G/H,I/J interstitial cards, keep limitations explicit. N HOLD56.4–57.133333 unchanged0.733333s; static hero57.133333–59. Hook/ending reflect all16 screws with authority/HOLD labels. Short must change. Please explicitly authorize/revise these local hold/editorial adjustments before full LongV5/ShortV3. No total-duration change assumed. All KUNMEASURED/FNONLITERAL/C13C14,IJOPEN/S17S18POSE_ONLY/S19HOLD/rawcollisionFAIL preserved. Noaudio/publication/generalInternet/paidservices/Product01/JULIETTE changes. Human sole final approver. Upload recovery: site reported Upload failed for original22MB ZIP; only that failed draft attachment was replaced with compact1.54MB ZIP. Original raw PNGs/archive and all previous films remain locally preserved. No duplicate submission."
+    - generic: …
+    - button "Show more":
+      - generic: Show more
+    - button "Copy message":
+    - button "Share prompt":
+    - button "Worked for 3m 54s":
+      - generic: Worked for 3m 54s
+    - heading "ChatGPT said:" [level=4]
+    - 'heading "PRODUCT #03 — Hinge 4-Screw Override / Bounded Proof Review" [level=2]'
+    - paragraph: "T đã xác minh trực tiếp ba tệp được bàn giao:"
+    - table:
+      - rowgroup:
+        - row "Tệp Kết quả":
+          - columnheader "Tệp":
+            - paragraph: Tệp
+          - columnheader "Kết quả":
+            - paragraph: Kết quả
+        - row "Landscape proof SHA256 khớp; 35,5 giây, 1.065 frame, 1280×720":
+          - cell "Landscape proof":
+            - paragraph: Landscape proof
+          - cell "SHA256 khớp; 35,5 giây, 1.065 frame, 1280×720":
+            - paragraph: SHA256 khớp; 35,5 giây, 1.065 frame, 1280×720
+        - row "Portrait proof SHA256 khớp; 8,1 giây, 243 frame, 1080×1920":
+          - cell "Portrait proof":
+            - paragraph: Portrait proof
+          - cell "SHA256 khớp; 8,1 giây, 243 frame, 1080×1920":
+            - paragraph: SHA256 khớp; 8,1 giây, 243 frame, 1080×1920
+        - row "Evidence ZIP SHA256 khớp; kiểm tra toàn vẹn không có lỗi":
+          - cell "Evidence ZIP":
+            - paragraph: Evidence ZIP
+          - cell "SHA256 khớp; kiểm tra toàn vẹn không có lỗi":
+            - paragraph: SHA256 khớp; kiểm tra toàn vẹn không có lỗi
+    - paragraph: Cả hai MP4 đều có một luồng hình ảnh 30fps, không có luồng âm thanh. T cũng đã xem ảnh đối chiếu BEFORE/AFTER và contact sheet của thao tác bản lề.
+    - paragraph:
+      - generic: "Điểm quan trọng đã đạt:"
+      - text: Phương án bổ sung tám vít phía cánh cửa được quản lý riêng, không làm tăng số vít E hoặc thay đổi danh mục OEM. Đây là minh họa được human phê duyệt, không phải xác nhận cấu tạo cơ khí của nhà sản xuất.
+    - heading "Phán quyết Creative Director" [level=2]
+    - generic: BOUNDED VISUAL PROOF PASS
+    - paragraph:
+      - generic: T chấp thuận cả proof Landscape và Portrait
+      - text: ", đồng thời"
+      - generic: phê duyệt phương án biên tập Long 278 giây và Short 59 giây
+      - text: được đề xuất.
+    - heading "1. Đánh giá hình ảnh" [level=3]
+    - paragraph: T đã trích thêm frame trực tiếp từ cả hai MP4, lấy mẫu mỗi giây xuyên suốt proof, bên cạnh các ảnh bằng chứng được cung cấp.
+    - table:
+      - rowgroup:
+        - row "Hạng mục Quyết định":
+          - columnheader "Hạng mục":
+            - paragraph: Hạng mục
+          - columnheader "Quyết định":
+            - paragraph: Quyết định
+        - row "Bốn bản lề, mỗi bản lề bốn vít PASS":
+          - cell "Bốn bản lề, mỗi bản lề bốn vít":
+            - paragraph: Bốn bản lề, mỗi bản lề bốn vít
+          - cell "PASS":
+            - paragraph: PASS
+        - row "Tám vít E phía khung PASS — giữ riêng theo OEM":
+          - cell "Tám vít E phía khung":
+            - paragraph: Tám vít E phía khung
+          - cell "PASS — giữ riêng theo OEM":
+            - paragraph: PASS — giữ riêng theo OEM
+        - row "Tám vít minh họa phía cửa PASS — theo human override":
+          - cell "Tám vít minh họa phía cửa":
+            - paragraph: Tám vít minh họa phía cửa
+          - cell "PASS — theo human override":
+            - paragraph: PASS — theo human override
+        - row "Thao tác bắt vít và rút dụng cụ PASS trong phạm vi hình ảnh lấy mẫu":
+          - cell "Thao tác bắt vít và rút dụng cụ":
+            - paragraph: Thao tác bắt vít và rút dụng cụ
+          - cell "PASS trong phạm vi hình ảnh lấy mẫu":
+            - paragraph: PASS trong phạm vi hình ảnh lấy mẫu
+        - row "Camera Landscape PASS — đủ rõ từng nhóm thao tác":
+          - cell "Camera Landscape":
+            - paragraph: Camera Landscape
+          - cell "PASS — đủ rõ từng nhóm thao tác":
+            - paragraph: PASS — đủ rõ từng nhóm thao tác
+        - row "Camera Portrait PASS — một bản lề đại diện có bốn vít":
+          - cell "Camera Portrait":
+            - paragraph: Camera Portrait
+          - cell "PASS — một bản lề đại diện có bốn vít":
+            - paragraph: PASS — một bản lề đại diện có bốn vít
+        - row "Nhãn nguồn gốc và giới hạn PASS theo proof và báo cáo":
+          - cell "Nhãn nguồn gốc và giới hạn":
+            - paragraph: Nhãn nguồn gốc và giới hạn
+          - cell "PASS theo proof và báo cáo":
+            - paragraph: PASS theo proof và báo cáo
+        - row "Chứng nhận liên kết cơ khí Không cấp":
+          - cell "Chứng nhận liên kết cơ khí":
+            - paragraph: Chứng nhận liên kết cơ khí
+          - cell "Không cấp":
+            - paragraph:
+              - generic: Không cấp
+    - paragraph: Không thấy lỗi bố cục nghiêm trọng hoặc thao tác bị che khuất kéo dài trong các frame kiểm tra. Đây là review lấy mẫu hình ảnh thực tế, không phải xem liên tục toàn bộ 43,6 giây proof hay chứng nhận khả năng bắt vít ngoài đời.
+    - heading "2. Quyết định thời lượng và biên tập" [level=3]
+    - paragraph:
+      - generic: Long V5 — APPROVED, 278 giây
+    - paragraph:
+      - text: Phê duyệt phương án
+      - code: clock-option-278-r2.ts
+      - text: ":"
+    - list:
+      - paragraph: Bổ sung 16 giây cho bốn bản lề, mỗi bản lề 4 giây.
+      - paragraph: Giữ nguyên tốc độ thao tác OEM và đoạn chuyển camera 247–249 giây.
+      - paragraph: Rút cảnh giữ tĩnh 249–262 giây từ 13 xuống 3 giây.
+      - paragraph: Rút cảnh nghiên cứu sản phẩm tĩnh cuối từ 10 xuống 4 giây.
+      - paragraph: S17 bắt đầu ở 244 giây; S18 ở 254 giây; alignment 263–268; N 268–274; hero 274–278.
+    - paragraph:
+      - generic: Không dùng bản clock draft cũ
+      - text: có thay đổi tốc độ đoạn camera bridge.
+    - paragraph:
+      - generic: Short V3 — APPROVED, 59 giây
+    - paragraph: "Phê duyệt phương án:"
+    - list:
+      - paragraph: Giữ nguyên 0–44,6 giây.
+      - paragraph: "Door 7: 44,6–46,6 giây."
+      - paragraph: "Một bản lề đại diện với đầy đủ bốn thao tác vít: 46,6–54,4 giây."
+      - paragraph: "Door 8: 54,4–56,4 giây."
+      - paragraph: "N HOLD: 56,4–57,133333 giây."
+      - paragraph: "Hero cuối: 57,133333–59 giây."
+    - paragraph:
+      - text: Chấp thuận bỏ hai thẻ chuyển tiếp G/H và I/J dạng
+      - code: POSE_ONLY
+      - text: ","
+      - generic: với điều kiện
+      - text: giới hạn
+      - code: OPEN/POSE_ONLY
+      - text: vẫn được nêu rõ trong phim hoặc phần chú thích kết thúc. Ba bản lề còn lại được khai báo là thao tác lặp đã lược bỏ, không được khiến người xem hiểu rằng chúng không cần bắt vít.
+    - heading "3. Lệnh triển khai tiếp theo" [level=3]
+    - paragraph:
+      - generic: AUTHORIZE FULL LONG V5 + SHORT V3 RENDER.
+    - paragraph: Codex được tiếp tục tự động triển khai hai bản phim, QA toàn bộ, kiểm tra các vùng chuyển cảnh vừa rút ngắn, xác nhận 16 vít ở trạng thái kết thúc và gửi cả hai MP4 thực tế cho t review nội bộ.
+    - paragraph:
+      - text: Đặc biệt cần kiểm tra cảnh hero cuối Long V5 chỉ còn 4 giây có đủ thời gian để đọc các nhãn quan trọng; và Short V3 có đủ thời gian đọc trạng thái
+      - code: HUMAN-APPROVED ILLUSTRATION / UNVERIFIED / FUNCTION HOLD
+      - text: mà không che mất bản lề.
+    - paragraph:
+      - text: Giữ nguyên camera C16 đã duyệt, chân A1–A5, đệm N1–N4, toàn bộ số lượng OEM và các giới hạn
+      - code: OPEN/HOLD/raw collision FAIL
+      - text: . Không âm thanh, không công bố, không thay đổi sản phẩm khác.
+    - paragraph:
+      - generic: "Trạng thái chính thức:"
+    - paragraph:
+      - code: HINGE PROOFS PASS / LONG V5 TIMING APPROVED / SHORT V3 EDIT APPROVED / FULL RENDERS AUTHORIZED / HUMAN FINAL ACCEPTANCE PENDING
+    - paragraph: Không cần thêm vòng ACK. Codex tiếp tục đến bước bàn giao phim hoàn chỉnh để review.
+    - button "Copy":
+    - button "Rate response":
+    - button "Read aloud":
+    - button "Share":
+    - button "More actions":
+    - separator "Today 4:24 PM":
+      - time: Today 4:24 PM
+    - heading "You said:" [level=4]
+    - button "User attachment":
+      - img "User attachment"
+    - button "User attachment":
+      - img "User attachment"
+    - button "User attachment":
+      - img "User attachment"
+    - button "PRODUCT03-Long-V5-278s-SILENT-720p.mp4"
+    - generic "PRODUCT03-Long-V5-278s-SILENT-720p.mp4"
+    - generic: File
+    - button "PRODUCT03-Short-V3-59s-SILENT-1080x1920.mp4"
+    - generic "PRODUCT03-Short-V3-59s-SILENT-1080x1920.mp4"
+    - generic: File
+    - button "PRODUCT03-HINGE-FULL-FILMS-REVIEW-EVIDENCE.zip"
+    - generic "PRODUCT03-HINGE-FULL-FILMS-REVIEW-EVIDENCE.zip"
+    - generic: File
+    - button "FULL-DIRECTOR-REVIEW.md"
+    - generic "FULL-DIRECTOR-REVIEW.md"
+    - generic: Document
+    - button "FULL-FILM-QA.json"
+    - generic "FULL-FILM-QA.json"
+    - generic: Code
+    - button "FASTENER-ACCOUNTING(1).json"
+    - generic "FASTENER-ACCOUNTING(1).json"
+    - generic: Code
+    - generic: "PRODUCT03 — LONG V5 + SHORT V3 / COMPLETE SILENT FILM REVIEW Following your actual BOUNDED VISUAL PROOF PASS, both complete new films are now rendered and attached, with actual evidence ZIP, report, QA, accounting and decoded sheets. Long V5: 278s / 8340 frames / native1280×720 /30fps / silent. SHA256 6cd7488e4d2e02f26c8eefa8c6e6aca1ff574ab3e890585abab1225fb0031bd0 Short V3: 59s /1770frames /native1080×1920 /30fps /silent. SHA256 7ef1d1384720dae2092a5b48b0f937b39a504d10fb265c8054145e77d540d10c Review evidence ZIP SHA256 bd10bcffa2d759a88069bd342fb57c86e554ffdcebd9ca6ca85bebdf0afda034 Approved Long clock-option-278-r2 implemented: added4×4s hinge blocks; OEM motion speeds and source247–249 camera bridge unchanged; only static holds shortened. S17global244,S18global254,alignment263–268,N268–274,hero274–278. Approved Short edit:0–44.6 preserved except finished-hook16screw/authority update; full representative four-screw hinge46.6–54.4; door8 54.4–56.4 with door7retained and3otherhinges explicitly omitted/seeLong; N56.4–57.133333;hero→59. G/H,I/J POSE_ONLY/OPEN,C13/C14 OPEN,Fnonliteral retained in ending text. New status label does not overlap the unchanged N label. Full decode,PTS,faststart,native all-frame validation/context/presence,inputfreeze:PASS.6252pre-hinge Long PNGs and1278Short assembly PNGs byte-identical to prior films;C16all102frames identical.2850nonhinge transform comparisons and forward/backseek PASS.51066protected paths unchanged. OEM103/E8 unchanged;8separate human screws;16hinge screws retained at both final states. Every frame freshly captured; CoW optimization only after exact-byte comparison, no skipped capture/hardlinks/old-file modification. Please review the ACTUAL full MP4s and explicitly decide each film. Focus on Long208.5–244 hinge/tool sequence and263–278 shortened final transitions; Short46.6–59 four-screw motion, door2retention, omission disclosure, caption legibility and final labels. Agent QA inspected52decoded actual MP4 samples plus native preflight/reverse checks; not a claim of continuous perceptual playback or physical installation certification. Please state your own actual review method and limits. Door-side screws remain HUMAN-APPROVED ILLUSTRATION; OEM attachment UNVERIFIED; door FUNCTION HOLD. K22/10 UNMEASURED,F NONLITERAL,C13/C14 andI/J OPEN,S17/S18 POSE_ONLY,S19pads/door HOLD,historical raw collision FAIL all preserved. Noaudio,no publication,no Product01/JULIETTE changes. If both pass, authorize packaging as READY FOR HUMAN FINAL REVIEW — NOT YET ACCEPTED. Human alone grants final acceptance. If revisions are needed, identify exact film/time and bounded correction."
+    - generic: …
+    - button "Show more":
+      - generic: Show more
+    - button "Copy message":
+    - button "Share prompt":
+    - button "See versions":
+    - button "Worked for 3m 54s":
+      - generic: Worked for 3m 54s
+    - heading "ChatGPT said:" [level=4]
+    - 'heading "PRODUCT #03 — Final Internal Review" [level=2]'
+    - generic: LONG V5 / SHORT V3 — INTERNAL VISUAL PASS
+    - paragraph:
+      - text: T đã kiểm tra trực tiếp
+      - generic: hai MP4 hoàn chỉnh
+      - text: ", không chỉ dựa vào báo cáo Codex. Cả ba mã SHA256 của Long V5, Short V3 và evidence ZIP đều khớp chính xác với bản bàn giao."
+    - table:
+      - rowgroup:
+        - row "Hạng mục Long V5 Short V3":
+          - columnheader "Hạng mục":
+            - paragraph: Hạng mục
+          - columnheader "Long V5":
+            - paragraph: Long V5
+          - columnheader "Short V3":
+            - paragraph: Short V3
+        - row "Thời lượng 278 giây 59 giây":
+          - cell "Thời lượng":
+            - paragraph: Thời lượng
+          - cell "278 giây":
+            - paragraph: 278 giây
+          - cell "59 giây":
+            - paragraph: 59 giây
+        - row "Độ phân giải 1280×720 1080×1920":
+          - cell "Độ phân giải":
+            - paragraph: Độ phân giải
+          - cell "1280×720":
+            - paragraph: 1280×720
+          - cell "1080×1920":
+            - paragraph: 1080×1920
+        - row "Frame 8.340 1.770":
+          - cell "Frame":
+            - paragraph: Frame
+          - cell "8.340":
+            - paragraph: "8.340"
+          - cell "1.770":
+            - paragraph: "1.770"
+        - row "Camera và bố cục PASS PASS":
+          - cell "Camera và bố cục":
+            - paragraph: Camera và bố cục
+          - cell "PASS":
+            - paragraph: PASS
+          - cell "PASS":
+            - paragraph: PASS
+        - row "Minh họa vít bản lề PASS PASS":
+          - cell "Minh họa vít bản lề":
+            - paragraph: Minh họa vít bản lề
+          - cell "PASS":
+            - paragraph: PASS
+          - cell "PASS":
+            - paragraph: PASS
+        - row "Chuyển cảnh cuối PASS PASS":
+          - cell "Chuyển cảnh cuối":
+            - paragraph: Chuyển cảnh cuối
+          - cell "PASS":
+            - paragraph: PASS
+          - cell "PASS":
+            - paragraph: PASS
+        - row "Nhãn và giới hạn PASS trong phạm vi kiểm tra PASS trong phạm vi kiểm tra":
+          - cell "Nhãn và giới hạn":
+            - paragraph: Nhãn và giới hạn
+          - cell "PASS trong phạm vi kiểm tra":
+            - paragraph: PASS trong phạm vi kiểm tra
+          - cell "PASS trong phạm vi kiểm tra":
+            - paragraph: PASS trong phạm vi kiểm tra
+        - row "Quyết định INTERNAL PASS INTERNAL PASS":
+          - cell "Quyết định":
+            - paragraph: Quyết định
+          - cell "INTERNAL PASS":
+            - paragraph:
+              - generic: INTERNAL PASS
+          - cell "INTERNAL PASS":
+            - paragraph:
+              - generic: INTERNAL PASS
+    - heading "Những điểm t đã kiểm tra" [level=3]
+    - paragraph:
+      - generic: "Long V5:"
+      - text: Các mốc từ 208,5–244 giây thể hiện lần lượt thao tác ở bốn bản lề, có chuyển góc và dụng cụ bắt vít. Các mốc 263–278 giây vẫn giữ bố cục sản phẩm rõ ràng sau khi rút ngắn các cảnh tĩnh. Cảnh kết thúc 4 giây không xuất hiện lỗi hình ảnh rõ rệt ở những frame được kiểm tra.
+    - paragraph:
+      - generic: "Short V3:"
+      - text: Đoạn 46,6–54,4 giây thể hiện một bản lề đại diện với các thao tác bắt vít; sau đó chuyển sang cánh cửa còn lại. Các frame cuối cho thấy chú thích về những bản lề đã lược bỏ, giới hạn cơ khí và trạng thái sản phẩm. Nhãn không che mất toàn bộ khu vực bản lề.
+    - paragraph:
+      - generic: "Phương pháp và giới hạn:"
+      - text: T trích và xem trực tiếp 17 frame của Long V5 cùng 12 frame của Short V3 tại các mốc trọng yếu, kết hợp contact sheet, báo cáo QA và đối chiếu hash. Đây là
+      - generic: review hình ảnh lấy mẫu
+      - text: ", không phải tuyên bố đã xem liên tục toàn bộ hai phim. Kết quả full decode, toàn bộ PTS và regression được ghi nhận từ QA của Codex, không phải phép thử độc lập do t chạy lại."
+    - heading "Quyết định Creative Director" [level=2]
+    - paragraph:
+      - generic: AUTHORIZE FINAL HUMAN REVIEW PACKAGE.
+    - paragraph: Không yêu cầu sửa thêm ở vòng review nội bộ này. Hai bản phim được phép bàn giao để bạn xem và quyết định nghiệm thu cuối cùng.
+    - paragraph:
+      - generic: Long V5 — 4 phút 38 giây
+    - paragraph:
+      - link "Open Xem / tải Long V5":
+        - generic: Xem / tải Long
+        - generic: V5
+    - paragraph:
+      - generic: Short V3 — 59 giây
+    - paragraph:
+      - link "Open Xem / tải Short V3":
+        - generic: Xem / tải Short
+        - generic: V3
+    - paragraph:
+      - generic: Bằng chứng review và QA
+    - paragraph:
+      - link "Open Tải evidence ZIP":
+        - generic: Tải evidence
+        - generic: ZIP
+    - paragraph:
+      - generic: "Lưu ý khi nghiệm thu:"
+      - text: Mỗi bản lề hiện được minh họa bằng bốn vít, tổng 16 vít. Trong đó, tám vít phía cửa là bổ sung theo quyết định của bạn,
+      - generic: chưa được OEM xác minh
+      - text: . Trạng thái cửa
+      - code: FUNCTION HOLD
+      - text: ", các giới hạn"
+      - code: OPEN/POSE_ONLY
+      - text: và lỗi raw collision lịch sử vẫn được bảo lưu. Không có chứng nhận lắp đặt hoặc vận hành cơ khí.
+    - paragraph: READY FOR HUMAN FINAL REVIEW — NOT YET ACCEPTED
+    - paragraph:
+      - text: Bạn là người quyết định nghiệm thu. Nếu cả hai phim đã đúng ý, chỉ cần xác nhận
+      - generic: "“Nghiệm thu Product #03 Long V5 và Short V3.”"
+      - text: Nếu còn lỗi, hãy cho biết phim và thời điểm; t sẽ giới hạn sửa đúng đoạn đó.
+    - button "Copy":
+    - button "Rate response":
+    - button "Read aloud":
+    - button "Share":
+    - button "More actions":
+    - button "Sources":
+    - separator "Today 6:25 PM":
+      - time: Today 6:25 PM
+    - heading "You said:" [level=4]
+    - button "User attachment":
+      - img "User attachment"
+    - button "PRODUCT03-Long-V5-MUSIC-REVIEW-720p.mp4"
+    - generic "PRODUCT03-Long-V5-MUSIC-REVIEW-720p.mp4"
+    - generic: File
+    - button "PRODUCT03-Short-V3-MUSIC-REVIEW-1080x1920.mp4"
+    - generic "PRODUCT03-Short-V3-MUSIC-REVIEW-1080x1920.mp4"
+    - generic: File
+    - button "PRODUCT03-NEW-CC0-MUSIC-REVIEW-EVIDENCE.zip"
+    - generic "PRODUCT03-NEW-CC0-MUSIC-REVIEW-EVIDENCE.zip"
+    - generic: File
+    - button "DIRECTOR-MUSIC-REVIEW.md"
+    - generic "DIRECTOR-MUSIC-REVIEW.md"
+    - generic: Document
+    - button "MUSIC-REVIEW-QA.json"
+    - generic "MUSIC-REVIEW-QA.json"
+    - generic: Code
+    - button "music-provenance(4).json"
+    - generic "music-provenance(4).json"
+    - generic: Code
+    - button "MUSIC-CREDITS.txt"
+    - generic "MUSIC-CREDITS.txt"
+    - generic: Document
+    - generic: "PRODUCT03 — NEW CC0 MUSIC / LONG V5 + SHORT V3 COMPLETE REVIEW Human now approved both pictures (“oke rồi đấy”) and explicitly requested NEW free music, authorizing public music sourcing. This authorizes the present MUSIC-ONLY pass; no picture or duration change. Actual complete soundtracked review MP4s attached: Long278s SHA25678a277f72aa3cf18f52896152beb5c5af719f6fe1d1df3be85698110b8744620 Short59s SHA256fd281928f91b3eb3961e857bfafe12facc4f0d7e902b5ad5bc712718f3248a25 EvidenceZIP SHA2567b625c0694cd62b8f9b7f93182ffc97fd80b89f68dd5430e36484b64baa8bcf3 NEW track: Dreams — HoliznaCC0, creator release https://opengameart.org/content/chillout-instrumentals-collection explicitly CC0/public domain, tagged Instrumental/lo-fi/chill. Acquired directly from creator ZIP, entry size+CRC verified, MP3 SHA4537fdb9b3bed68cf32fa3a6c59a270098d3b7b91bdffa3e643e6a9596e26c19. Original license HTML, acquisition, provenance and optional credit attached. No login/purchase; no old music reused or zero-Content-ID guarantee claimed. Lossless48k24bitstereo WAVs created FIRST at exact lengths. Longsource21.333333–299.333333, fade0.7/6s; Shortsource64–123, fade0.15/3s. Continuous excerpts; no loops, concatenation, music or video retime, SFX, narration or ambience. Constant gain only; no compressor/limiter. Around−16LUFS, AAC true peaks below−7dBTP. Intro/body/break/outro and tentative90BPM are signal-analysis estimates, not hearing claims. Full mix is in each attached MP4; intro/body/ending audio clips and exact WAV/preview SHA are inside ZIP/plan. QA: fullAVdecode, exact native8340/1770frames and278/59s,faststart,samplecount,finite/no clipping/internal gaps PASS. ALL video ordered packet payload hashes/timing/side data IDENTICAL to human-approved silent V5/V3. AAC packets IDENTICAL to music previews. Zero-lag WAV/AAC correlations at multiple positions PASS; codec padding separately disclosed. No source/OEM/Product01/JULIETTE change; all existing OPEN/HOLD/rawcollisionFAIL limits retained. LISTENING HONESTY: Agent cannot audition audio; listening NOT RUN, VOICE_CONTENT_REQUIRES_DIRECTOR_LISTENING. Creator “Instrumental” tag is not independent no-voice proof. Please inspect actual sound as capabilities permit and explicitly state what you could/could not hear; do not invent full-listening, voice or perceptual PASS. Please decide music treatment for EACH complete film. If accepted within your actual review limits, authorize final stream-copy packaging of THESE EXACT streams with no new processing; any outstanding listening limit remains explicit for the human. If revisions are needed, identify exact film/time/required change. Human alone accepts final music/films. No publication, paid service, additional research or mechanical-confidence upgrade."
+    - generic: …
+    - button "Show more":
+      - generic: Show more
+    - button "Copy message":
+    - button "Share prompt":
+    - status:
+      - generic: ChatGPT is responding
+    - generic: ChatGPT can make mistakes. Check important info.
+    - button "Scroll to bottom"
+    - heading "Latest response" [level=4]
+    - status
+    - button "Add files and more" [disabled]:
+    - textbox "Ask ChatGPT":
+      - paragraph: Ask ChatGPT
+    - button "Select ChatGPT model":
+      - generic: Thinking effort
+      - generic: Instant
+    - button "Dictate" [disabled]:
+    - button "Stop" [disabled]:
+- status
+- status
+- status
+- button "⋮⋮"
+- button "⋮⋮"

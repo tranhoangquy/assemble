@@ -1,0 +1,53 @@
+{
+  "phase": "PRE-DELETION PLAN FROZEN",
+  "authority": "Human explicitly requests cleanup01+03, final Long/Short only plus relevant source/evidence, notes and Git push; Product02 excluded",
+  "scope": [
+    "wf311613-standalone-murphy-bed",
+    "product03-pet-crate-w114586144"
+  ],
+  "Product02": "KEEP ALL, full protected SHA baseline",
+  "statistics": {
+    "wf311613-standalone-murphy-bed": {
+      "files": {
+        "DELETE": 1638,
+        "KEEP": 74
+      },
+      "logicalBytes": {
+        "DELETE": 1417637912,
+        "KEEP": 243261165
+      },
+      "historicalImages": 3
+    },
+    "product03-pet-crate-w114586144": {
+      "files": {
+        "DELETE": 76995,
+        "KEEP": 67
+      },
+      "logicalBytes": {
+        "DELETE": 29749355154,
+        "KEEP": 183132996
+      },
+      "historicalImages": 24
+    }
+  },
+  "archives": {
+    "wf311613-standalone-murphy-bed": {
+      "path": "output/final-products-cleanup-20261026/wf311613-standalone-murphy-bed-history.tar.gz",
+      "entries": 726,
+      "bytes": 14209585,
+      "sha256": "c195e36ba1f45f35007779809423a2a89c2bd608a91f4583286ee4e5dfd8ab69",
+      "allMembersVerified": true
+    },
+    "product03-pet-crate-w114586144": {
+      "path": "output/final-products-cleanup-20261026/product03-pet-crate-w114586144-history.tar.gz",
+      "entries": 1638,
+      "bytes": 19955122,
+      "sha256": "8f89607160d2c428c96b8d76db9f68a48be6426831b037eeb0500ba3b36ad4cd",
+      "allMembersVerified": true
+    }
+  },
+  "protectedPaths": 61237,
+  "seconds": 74.37516903877258,
+  "symlinks": 0,
+  "resume": "Old raw render caches retired; historical manifests stay original inside archive. Re-render requires fresh job, never resume purged frames."
+}

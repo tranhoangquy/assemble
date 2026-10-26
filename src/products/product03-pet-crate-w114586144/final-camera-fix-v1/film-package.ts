@@ -1,0 +1,3 @@
+import {longPackage as prior} from '../human-3-image-correction-v1/film-package';
+export const longPackage={...prior,id:'product03-final-camera-long-v4',filename:'PRODUCT03-Long-V4-278s-SILENT',video:{...prior.video,id:'product03-final-camera-long-v4'}};
+export function capturePackage(start:number,end:number){return{...longPackage,id:`product03-camera-c16-${start}-${end}`,filename:`PRODUCT03-C16-camera-proof-${start}-${end}`,video:{...longPackage.video,id:`product03-camera-c16-${start}-${end}`,scenes:[{id:'bounded-c16-camera',title:'C16 camera-only continuous proof',duration:end-start,phase:'assembly' as const,actions:[]}]}};}

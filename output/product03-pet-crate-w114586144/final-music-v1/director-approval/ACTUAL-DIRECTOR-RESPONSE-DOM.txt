@@ -1,0 +1,157 @@
+- heading "ChatGPT said:" [level=4]
+    - 'heading "PRODUCT #03 — Review nhạc mới cho Long V5 và Short V3" [level=2]'
+    - paragraph:
+      - generic: "Kết quả kiểm tra kỹ thuật: PASS cho cả hai phim."
+    - paragraph: "T đã kiểm tra trực tiếp các tệp MP4 và ZIP được đính kèm:"
+    - table:
+      - rowgroup:
+        - row "Hạng mục Long V5 Short V3":
+          - columnheader "Hạng mục":
+            - paragraph: Hạng mục
+          - columnheader "Long V5":
+            - paragraph: Long V5
+          - columnheader "Short V3":
+            - paragraph: Short V3
+        - row "SHA256 Khớp Khớp":
+          - cell "SHA256":
+            - paragraph: SHA256
+          - cell "Khớp":
+            - paragraph: Khớp
+          - cell "Khớp":
+            - paragraph: Khớp
+        - row "Thời lượng 278 giây 59 giây":
+          - cell "Thời lượng":
+            - paragraph: Thời lượng
+          - cell "278 giây":
+            - paragraph: 278 giây
+          - cell "59 giây":
+            - paragraph: 59 giây
+        - row "Nhạc AAC stereo AAC stereo":
+          - cell "Nhạc":
+            - paragraph: Nhạc
+          - cell "AAC stereo":
+            - paragraph: AAC stereo
+          - cell "AAC stereo":
+            - paragraph: AAC stereo
+        - row "Tần số lấy mẫu 48 kHz 48 kHz":
+          - cell "Tần số lấy mẫu":
+            - paragraph: Tần số lấy mẫu
+          - cell "48 kHz":
+            - paragraph: 48 kHz
+          - cell "48 kHz":
+            - paragraph: 48 kHz
+        - row "Báo cáo QA PASS PASS":
+          - cell "Báo cáo QA":
+            - paragraph: Báo cáo QA
+          - cell "PASS":
+            - paragraph: PASS
+          - cell "PASS":
+            - paragraph: PASS
+        - row "Nghe và đánh giá cảm nhận Chưa xác nhận Chưa xác nhận":
+          - cell "Nghe và đánh giá cảm nhận":
+            - paragraph: Nghe và đánh giá cảm nhận
+          - cell "Chưa xác nhận":
+            - paragraph: Chưa xác nhận
+          - cell "Chưa xác nhận":
+            - paragraph: Chưa xác nhận
+    - paragraph:
+      - text: Evidence ZIP có
+      - generic: 22 mục
+      - text: ", kiểm tra toàn vẹn thành công và mã SHA256 khớp."
+    - paragraph: Theo báo cáo QA, toàn bộ packet video giữ nguyên so với hai bản hình ảnh đã được duyệt; âm thanh được ghép bằng stream-copy, không render lại hình ảnh. Mức âm lượng đo được khoảng −16 LUFS, true peak thấp hơn −7 dBTP, không phát hiện clipping trong kiểm tra kỹ thuật.
+    - paragraph:
+      - generic: "Giới hạn quan trọng:"
+      - text: T có thể đọc và phân tích tín hiệu âm thanh, nhưng chưa thực sự nghe được nhạc bằng tai trong phiên này. Vì vậy t không xác nhận rằng bản nhạc hoàn toàn không có giọng hát, hay rằng mọi đoạn chuyển nhạc đều tạo cảm giác tự nhiên khi nghe.
+    - heading "Quyết định Creative Director" [level=2]
+    - generic: TECHNICAL / MUSIC EDIT PASS
+    - paragraph:
+      - generic: T chấp thuận phương án dựng nhạc cho cả Long V5 và Short V3
+      - text: ", trong phạm vi đã kiểm tra. Không yêu cầu chỉnh thêm gain, fade, điểm cắt hoặc thay bài ở giai đoạn này."
+    - table:
+      - rowgroup:
+        - row "Phim Quyết định":
+          - columnheader "Phim":
+            - paragraph: Phim
+          - columnheader "Quyết định":
+            - paragraph: Quyết định
+        - row "Long V5 + Music PASS kỹ thuật và phương án dựng; chờ human nghe":
+          - cell "Long V5 + Music":
+            - paragraph:
+              - generic: Long V5 + Music
+          - cell "PASS kỹ thuật và phương án dựng; chờ human nghe":
+            - paragraph: PASS kỹ thuật và phương án dựng; chờ human nghe
+        - row "Short V3 + Music PASS kỹ thuật và phương án dựng; chờ human nghe":
+          - cell "Short V3 + Music":
+            - paragraph:
+              - generic: Short V3 + Music
+          - cell "PASS kỹ thuật và phương án dựng; chờ human nghe":
+            - paragraph: PASS kỹ thuật và phương án dựng; chờ human nghe
+    - paragraph:
+      - text: Bài nhạc được chọn là
+      - generic: Dreams — HoliznaCC0
+      - text: ", từ bộ"
+      - generic: Chillout Instrumentals
+      - text: . Hồ sơ nguồn ghi giấy phép CC0 1.0 và có lưu bằng chứng công bố của tác giả. Việc này hỗ trợ sử dụng miễn phí, nhưng không bảo đảm sẽ không có khiếu nại Content ID.
+    - heading "Lệnh cho Codex" [level=3]
+    - paragraph:
+      - generic: AUTHORIZE FINAL STREAM-COPY PACKAGING
+      - text: ", với các điều kiện:"
+    - list:
+      - paragraph: Sử dụng đúng hai luồng video và âm thanh đã được kiểm tra, không xử lý nhạc thêm.
+      - paragraph: Giữ nguyên hình ảnh, thời lượng 278/59 giây và toàn bộ giới hạn OEM.
+      - paragraph: Giữ bằng chứng giấy phép, mã SHA256 và credit tùy chọn.
+      - paragraph: Không công bố, không upload lên nền tảng bên thứ ba.
+      - paragraph:
+        - text: Ghi rõ
+        - code: "VOICE CONTENT / PERCEPTUAL LISTENING: HUMAN REVIEW REQUIRED"
+        - text: .
+    - heading "Hai bản có nhạc để bạn nghe nghiệm thu" [level=2]
+    - paragraph:
+      - generic: Long V5 + Music — 4:38
+    - paragraph:
+      - link "Open Xem và nghe Long V5":
+        - generic: Xem và nghe Long
+        - generic: V5
+    - paragraph:
+      - generic: Short V3 + Music — 0:59
+    - paragraph:
+      - link "Open Xem và nghe Short V3":
+        - generic: Xem và nghe Short
+        - generic: V3
+    - paragraph:
+      - generic: Bằng chứng nhạc và giấy phép
+    - paragraph:
+      - link "Open Tải evidence ZIP":
+        - generic: Tải evidence
+        - generic: ZIP
+    - paragraph:
+      - generic: "Trạng thái:"
+      - code: PICTURE HUMAN APPROVED / MUSIC TECHNICAL PASS / FINAL HUMAN LISTENING PENDING
+      - text: .
+    - paragraph:
+      - text: Bạn chỉ cần nghe hai bản, chú ý nhạc có hợp với nhịp lắp ráp, có giọng hát không mong muốn hoặc đoạn chuyển khó chịu hay không.
+      - generic: Quyền nghiệm thu âm nhạc cuối cùng vẫn thuộc về bạn.
+    - button "Copy":
+    - button "Rate response":
+    - button "Read aloud":
+    - button "Share":
+    - button "Regenerate response":
+    - button "More actions":
+    - button "Sources":
+    - generic: ChatGPT can make mistakes. Check important info.
+    - button "Scroll to bottom":
+    - heading "Latest response" [level=4]
+    - status
+    - button "Add files and more":
+    - textbox "Ask ChatGPT":
+      - paragraph: Ask ChatGPT
+    - button "Select ChatGPT model":
+      - generic: Thinking effort
+      - generic: Instant
+    - button "Dictate":
+    - button "Start Voice":
+- status
+- status: Response complete
+- status
+- button "⋮⋮"
+- button "⋮⋮"

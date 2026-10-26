@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "protectedPaths": 61241,
+  "unexpectedChanges": [],
+  "separatelyAuthorizedCreditRestoration": {
+    "path": "output/wf311613-standalone-murphy-bed/final/final-lofi-720p/YOUTUBE-MUSIC-CREDITS.txt",
+    "originalFrozenSHA256Restored": "aa50424f38567495633316d8d9e9c93b343466a85e4f5a8260680657d1aaa032"
+  },
+  "Product02": "UNCHANGED",
+  "fourFinalMP4s": "UNCHANGED",
+  "creditAgreement": "Pass02 TXT + final provenance + final QA + ORIGINAL frozen hash all agree",
+  "noteAndLinksAfterFix": "PASS",
+  "DirectorRequestedFixSatisfiedLocally": true,
+  "DirectorResponseNotFabricated": "director-review/ACTUAL-DIRECTOR-RESPONSE.txt"
+}

@@ -1,0 +1,720 @@
+[
+  {
+    "id": "unchanged",
+    "baselineStart": 0,
+    "baselineEnd": 120.29854545454546,
+    "proposedStart": 0,
+    "proposedEnd": 120.29854545454546,
+    "kind": "IDENTITY_OR_TRANSLATION"
+  },
+  {
+    "id": "D30-tool-free",
+    "baselineStart": 120.29854545454546,
+    "baselineEnd": 120.37272727272727,
+    "proposedStart": 120.29854545454546,
+    "proposedEnd": 120.54854545454546,
+    "kind": "STATIC_HOLD_ADDED"
+  },
+  {
+    "id": "D31-D39",
+    "baselineStart": 120.37272727272727,
+    "baselineEnd": 131.5,
+    "proposedStart": 120.54854545454546,
+    "proposedEnd": 131.6758181818182,
+    "kind": "MOVING_UNCHANGED_DURATION"
+  },
+  {
+    "id": "S08-tail",
+    "baselineStart": 131.5,
+    "baselineEnd": 132,
+    "proposedStart": 131.6758181818182,
+    "proposedEnd": 132,
+    "kind": "STATIC_DONOR"
+  },
+  {
+    "id": "unchanged",
+    "baselineStart": 132,
+    "baselineEnd": 195.34371428571427,
+    "proposedStart": 132,
+    "proposedEnd": 195.34371428571427,
+    "kind": "IDENTITY_OR_TRANSLATION"
+  },
+  {
+    "id": "C13-tool-free",
+    "baselineStart": 195.34371428571427,
+    "baselineEnd": 195.42857142857142,
+    "proposedStart": 195.34371428571427,
+    "proposedEnd": 195.59371428571427,
+    "kind": "STATIC_HOLD_ADDED"
+  },
+  {
+    "id": "C14-C18",
+    "baselineStart": 195.42857142857142,
+    "baselineEnd": 202.5,
+    "proposedStart": 195.59371428571427,
+    "proposedEnd": 202.66514285714285,
+    "kind": "MOVING_UNCHANGED_DURATION"
+  },
+  {
+    "id": "S14-tail",
+    "baselineStart": 202.5,
+    "baselineEnd": 203,
+    "proposedStart": 202.66514285714285,
+    "proposedEnd": 203,
+    "kind": "STATIC_DONOR"
+  },
+  {
+    "id": "unchanged",
+    "baselineStart": 203,
+    "baselineEnd": 207.15,
+    "proposedStart": 203,
+    "proposedEnd": 207.15,
+    "kind": "IDENTITY_OR_TRANSLATION"
+  },
+  {
+    "id": "S15-floor-tail",
+    "baselineStart": 207.15,
+    "baselineEnd": 209,
+    "proposedStart": 207.15,
+    "proposedEnd": 208.375,
+    "kind": "STATIC_DONOR"
+  },
+  {
+    "id": "S16-introduction",
+    "baselineStart": 209.0,
+    "baselineEnd": 209.25,
+    "proposedStart": 208.375,
+    "proposedEnd": 208.5,
+    "kind": "STATIC_DONOR",
+    "duration": 0.125,
+    "durationDelta": -0.125
+  },
+  {
+    "id": "door7-placement",
+    "baselineStart": 209.25,
+    "baselineEnd": 211.25,
+    "proposedStart": 208.5,
+    "proposedEnd": 210.5,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 2.0,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "door7-contact-dwell",
+    "baselineStart": 211.25,
+    "baselineEnd": 211.6,
+    "proposedStart": 210.5,
+    "proposedEnd": 210.75,
+    "kind": "STATIC_DONOR",
+    "duration": 0.25,
+    "durationDelta": -0.1
+  },
+  {
+    "id": "E1:bolt-approach",
+    "baselineStart": 211.6,
+    "baselineEnd": 211.999,
+    "proposedStart": 210.75,
+    "proposedEnd": 211.149,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.399,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E1:tip-aligned-wait",
+    "baselineStart": 211.999,
+    "baselineEnd": 212.265,
+    "proposedStart": 211.149,
+    "proposedEnd": 211.29,
+    "kind": "STATIC_DONOR",
+    "duration": 0.141,
+    "durationDelta": -0.125
+  },
+  {
+    "id": "E1:tool-approach",
+    "baselineStart": 212.265,
+    "baselineEnd": 212.664,
+    "proposedStart": 211.29,
+    "proposedEnd": 211.689,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.399,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E1:feed",
+    "baselineStart": 212.664,
+    "baselineEnd": 213.728,
+    "proposedStart": 211.689,
+    "proposedEnd": 212.753,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 1.064,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E1:rotation-tail",
+    "baselineStart": 213.728,
+    "baselineEnd": 213.9142,
+    "proposedStart": 212.753,
+    "proposedEnd": 212.9392,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.1862,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E1:tool-withdrawal",
+    "baselineStart": 213.9142,
+    "baselineEnd": 214.1802,
+    "proposedStart": 212.9392,
+    "proposedEnd": 213.2052,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.266,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E1:tool-free-visual-hold",
+    "baselineStart": 214.1802,
+    "baselineEnd": 214.26,
+    "proposedStart": 213.2052,
+    "proposedEnd": 213.285,
+    "kind": "STATIC_UNCHANGED",
+    "duration": 0.0798,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E2:bolt-approach",
+    "baselineStart": 214.26,
+    "baselineEnd": 214.4595,
+    "proposedStart": 213.285,
+    "proposedEnd": 213.4845,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.1995,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E2:tip-aligned-wait",
+    "baselineStart": 214.4595,
+    "baselineEnd": 214.5925,
+    "proposedStart": 213.4845,
+    "proposedEnd": 213.6175,
+    "kind": "STATIC_UNCHANGED",
+    "duration": 0.133,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E2:tool-approach",
+    "baselineStart": 214.5925,
+    "baselineEnd": 214.792,
+    "proposedStart": 213.6175,
+    "proposedEnd": 213.817,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.1995,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E2:feed",
+    "baselineStart": 214.792,
+    "baselineEnd": 215.324,
+    "proposedStart": 213.817,
+    "proposedEnd": 214.349,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.532,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E2:rotation-tail",
+    "baselineStart": 215.324,
+    "baselineEnd": 215.4171,
+    "proposedStart": 214.349,
+    "proposedEnd": 214.4421,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.0931,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E2:tool-withdrawal",
+    "baselineStart": 215.4171,
+    "baselineEnd": 215.5501,
+    "proposedStart": 214.4421,
+    "proposedEnd": 214.5751,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.133,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E2:tool-free-visual-hold",
+    "baselineStart": 215.5501,
+    "baselineEnd": 215.59,
+    "proposedStart": 214.5751,
+    "proposedEnd": 214.8251,
+    "kind": "STATIC_HOLD_ADDED",
+    "duration": 0.25,
+    "durationDelta": 0.2101
+  },
+  {
+    "id": "E3:bolt-approach",
+    "baselineStart": 215.59,
+    "baselineEnd": 215.7895,
+    "proposedStart": 214.8251,
+    "proposedEnd": 215.0246,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.1995,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E3:tip-aligned-wait",
+    "baselineStart": 215.7895,
+    "baselineEnd": 215.9225,
+    "proposedStart": 215.0246,
+    "proposedEnd": 215.1576,
+    "kind": "STATIC_UNCHANGED",
+    "duration": 0.133,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E3:tool-approach",
+    "baselineStart": 215.9225,
+    "baselineEnd": 216.122,
+    "proposedStart": 215.1576,
+    "proposedEnd": 215.3571,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.1995,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E3:feed",
+    "baselineStart": 216.122,
+    "baselineEnd": 216.654,
+    "proposedStart": 215.3571,
+    "proposedEnd": 215.8891,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.532,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E3:rotation-tail",
+    "baselineStart": 216.654,
+    "baselineEnd": 216.7471,
+    "proposedStart": 215.8891,
+    "proposedEnd": 215.9822,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.0931,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E3:tool-withdrawal",
+    "baselineStart": 216.7471,
+    "baselineEnd": 216.8801,
+    "proposedStart": 215.9822,
+    "proposedEnd": 216.1152,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.133,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E3:tool-free-visual-hold",
+    "baselineStart": 216.8801,
+    "baselineEnd": 216.92,
+    "proposedStart": 216.1152,
+    "proposedEnd": 216.1551,
+    "kind": "STATIC_UNCHANGED",
+    "duration": 0.0399,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E4:bolt-approach",
+    "baselineStart": 216.92,
+    "baselineEnd": 217.1195,
+    "proposedStart": 216.1551,
+    "proposedEnd": 216.3546,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.1995,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E4:tip-aligned-wait",
+    "baselineStart": 217.1195,
+    "baselineEnd": 217.2525,
+    "proposedStart": 216.3546,
+    "proposedEnd": 216.4876,
+    "kind": "STATIC_UNCHANGED",
+    "duration": 0.133,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E4:tool-approach",
+    "baselineStart": 217.2525,
+    "baselineEnd": 217.452,
+    "proposedStart": 216.4876,
+    "proposedEnd": 216.6871,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.1995,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E4:feed",
+    "baselineStart": 217.452,
+    "baselineEnd": 217.984,
+    "proposedStart": 216.6871,
+    "proposedEnd": 217.2191,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.532,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E4:rotation-tail",
+    "baselineStart": 217.984,
+    "baselineEnd": 218.0771,
+    "proposedStart": 217.2191,
+    "proposedEnd": 217.3122,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.0931,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E4:tool-withdrawal",
+    "baselineStart": 218.0771,
+    "baselineEnd": 218.2101,
+    "proposedStart": 217.3122,
+    "proposedEnd": 217.4452,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.133,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E4:tool-free-visual-hold",
+    "baselineStart": 218.2101,
+    "baselineEnd": 218.25,
+    "proposedStart": 217.4452,
+    "proposedEnd": 217.4851,
+    "kind": "STATIC_UNCHANGED",
+    "duration": 0.0399,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "door-handover-context",
+    "baselineStart": 218.25,
+    "baselineEnd": 218.75,
+    "proposedStart": 217.4851,
+    "proposedEnd": 218.1952,
+    "kind": "STATIC_TRANSITION_BUDGET",
+    "duration": 0.7101,
+    "durationDelta": 0.2101
+  },
+  {
+    "id": "door8-placement",
+    "baselineStart": 218.75,
+    "baselineEnd": 220.75,
+    "proposedStart": 218.1952,
+    "proposedEnd": 220.1952,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 2.0,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "door8-contact-dwell",
+    "baselineStart": 220.75,
+    "baselineEnd": 221.1,
+    "proposedStart": 220.1952,
+    "proposedEnd": 220.4452,
+    "kind": "STATIC_DONOR",
+    "duration": 0.25,
+    "durationDelta": -0.1
+  },
+  {
+    "id": "E5:bolt-approach",
+    "baselineStart": 221.1,
+    "baselineEnd": 221.499,
+    "proposedStart": 220.4452,
+    "proposedEnd": 220.8442,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.399,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E5:tip-aligned-wait",
+    "baselineStart": 221.499,
+    "baselineEnd": 221.765,
+    "proposedStart": 220.8442,
+    "proposedEnd": 220.9852,
+    "kind": "STATIC_DONOR",
+    "duration": 0.141,
+    "durationDelta": -0.125
+  },
+  {
+    "id": "E5:tool-approach",
+    "baselineStart": 221.765,
+    "baselineEnd": 222.164,
+    "proposedStart": 220.9852,
+    "proposedEnd": 221.3842,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.399,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E5:feed",
+    "baselineStart": 222.164,
+    "baselineEnd": 223.228,
+    "proposedStart": 221.3842,
+    "proposedEnd": 222.4482,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 1.064,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E5:rotation-tail",
+    "baselineStart": 223.228,
+    "baselineEnd": 223.4142,
+    "proposedStart": 222.4482,
+    "proposedEnd": 222.6344,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.1862,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E5:tool-withdrawal",
+    "baselineStart": 223.4142,
+    "baselineEnd": 223.6802,
+    "proposedStart": 222.6344,
+    "proposedEnd": 222.9004,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.266,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E5:tool-free-visual-hold",
+    "baselineStart": 223.6802,
+    "baselineEnd": 223.76,
+    "proposedStart": 222.9004,
+    "proposedEnd": 222.9802,
+    "kind": "STATIC_UNCHANGED",
+    "duration": 0.0798,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E6:bolt-approach",
+    "baselineStart": 223.76,
+    "baselineEnd": 223.9595,
+    "proposedStart": 222.9802,
+    "proposedEnd": 223.1797,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.1995,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E6:tip-aligned-wait",
+    "baselineStart": 223.9595,
+    "baselineEnd": 224.0925,
+    "proposedStart": 223.1797,
+    "proposedEnd": 223.3127,
+    "kind": "STATIC_UNCHANGED",
+    "duration": 0.133,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E6:tool-approach",
+    "baselineStart": 224.0925,
+    "baselineEnd": 224.292,
+    "proposedStart": 223.3127,
+    "proposedEnd": 223.5122,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.1995,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E6:feed",
+    "baselineStart": 224.292,
+    "baselineEnd": 224.824,
+    "proposedStart": 223.5122,
+    "proposedEnd": 224.0442,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.532,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E6:rotation-tail",
+    "baselineStart": 224.824,
+    "baselineEnd": 224.9171,
+    "proposedStart": 224.0442,
+    "proposedEnd": 224.1373,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.0931,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E6:tool-withdrawal",
+    "baselineStart": 224.9171,
+    "baselineEnd": 225.0501,
+    "proposedStart": 224.1373,
+    "proposedEnd": 224.2703,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.133,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E6:tool-free-visual-hold",
+    "baselineStart": 225.0501,
+    "baselineEnd": 225.09,
+    "proposedStart": 224.2703,
+    "proposedEnd": 224.5203,
+    "kind": "STATIC_HOLD_ADDED",
+    "duration": 0.25,
+    "durationDelta": 0.2101
+  },
+  {
+    "id": "E7:bolt-approach",
+    "baselineStart": 225.09,
+    "baselineEnd": 225.2895,
+    "proposedStart": 224.5203,
+    "proposedEnd": 224.7198,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.1995,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E7:tip-aligned-wait",
+    "baselineStart": 225.2895,
+    "baselineEnd": 225.4225,
+    "proposedStart": 224.7198,
+    "proposedEnd": 224.8528,
+    "kind": "STATIC_UNCHANGED",
+    "duration": 0.133,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E7:tool-approach",
+    "baselineStart": 225.4225,
+    "baselineEnd": 225.622,
+    "proposedStart": 224.8528,
+    "proposedEnd": 225.0523,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.1995,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E7:feed",
+    "baselineStart": 225.622,
+    "baselineEnd": 226.154,
+    "proposedStart": 225.0523,
+    "proposedEnd": 225.5843,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.532,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E7:rotation-tail",
+    "baselineStart": 226.154,
+    "baselineEnd": 226.2471,
+    "proposedStart": 225.5843,
+    "proposedEnd": 225.6774,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.0931,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E7:tool-withdrawal",
+    "baselineStart": 226.2471,
+    "baselineEnd": 226.3801,
+    "proposedStart": 225.6774,
+    "proposedEnd": 225.8104,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.133,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E7:tool-free-visual-hold",
+    "baselineStart": 226.3801,
+    "baselineEnd": 226.42,
+    "proposedStart": 225.8104,
+    "proposedEnd": 225.8503,
+    "kind": "STATIC_UNCHANGED",
+    "duration": 0.0399,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E8:bolt-approach",
+    "baselineStart": 226.42000000000002,
+    "baselineEnd": 226.61950000000002,
+    "proposedStart": 225.8503,
+    "proposedEnd": 226.0498,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.1995,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E8:tip-aligned-wait",
+    "baselineStart": 226.61950000000002,
+    "baselineEnd": 226.75250000000003,
+    "proposedStart": 226.0498,
+    "proposedEnd": 226.1828,
+    "kind": "STATIC_UNCHANGED",
+    "duration": 0.133,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E8:tool-approach",
+    "baselineStart": 226.75250000000003,
+    "baselineEnd": 226.95200000000003,
+    "proposedStart": 226.1828,
+    "proposedEnd": 226.3823,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.1995,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E8:feed",
+    "baselineStart": 226.95200000000003,
+    "baselineEnd": 227.484,
+    "proposedStart": 226.3823,
+    "proposedEnd": 226.9143,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.532,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E8:rotation-tail",
+    "baselineStart": 227.484,
+    "baselineEnd": 227.57710000000003,
+    "proposedStart": 226.9143,
+    "proposedEnd": 227.0074,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.0931,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E8:tool-withdrawal",
+    "baselineStart": 227.57710000000003,
+    "baselineEnd": 227.7101,
+    "proposedStart": 227.0074,
+    "proposedEnd": 227.1404,
+    "kind": "MOVING_UNCHANGED_DURATION",
+    "duration": 0.133,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "E8:tool-free-visual-hold",
+    "baselineStart": 227.7101,
+    "baselineEnd": 227.75000000000003,
+    "proposedStart": 227.1404,
+    "proposedEnd": 227.1803,
+    "kind": "STATIC_UNCHANGED",
+    "duration": 0.0399,
+    "durationDelta": 0.0
+  },
+  {
+    "id": "S16-end-context",
+    "baselineStart": 227.75,
+    "baselineEnd": 228.0,
+    "proposedStart": 227.1803,
+    "proposedEnd": 228.0,
+    "kind": "STATIC_TRANSITION_BUDGET",
+    "duration": 0.8197,
+    "durationDelta": 0.5697
+  },
+  {
+    "id": "tail",
+    "baselineStart": 228.0,
+    "baselineEnd": 278,
+    "proposedStart": 228.0,
+    "proposedEnd": 278,
+    "kind": "IDENTITY_OR_TRANSLATION"
+  }
+]

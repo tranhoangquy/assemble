@@ -1,0 +1,172 @@
+{
+  "Long": {
+    "status": "TECHNICAL PASS / DIRECTOR AUDIO REVIEW PENDING",
+    "reviewMovie": "PRODUCT03-Long-V5-MUSIC-REVIEW-720p.mp4",
+    "sha256": "78a277f72aa3cf18f52896152beb5c5af719f6fe1d1df3be85698110b8744620",
+    "duration": 278,
+    "videoFrames": 8340,
+    "nativeDimensions": [
+      1280,
+      720
+    ],
+    "videoCodec": "h264",
+    "fps": "30/1",
+    "videoStreamCopyAllOrderedPackets": "IDENTICAL including payload hashes, PTS/DTS/duration/size/flags/side data",
+    "videoPackets": 8340,
+    "AACAllOrderedPacketsVsPreview": "IDENTICAL",
+    "AACPackets": 13033,
+    "AACDeclaredDuration": "278.000000",
+    "AACBitrate": "257646",
+    "AACRate": 48000,
+    "AACChannels": 2,
+    "WAVSamplesPerChannel": 13344000,
+    "decodedAACSamplesPerChannel": 13344768,
+    "AACExtraPaddingSamples": 768,
+    "AACPaddingNote": "Container edit-list duration equals locked picture; decoded residual codec padding separately reported; no intended tail truncated",
+    "finalWAVSampleZero": true,
+    "fullAVDecode": "PASS",
+    "faststart": "PASS",
+    "inputHashesUnchanged": true,
+    "finiteClippedSamples": "PASS, no clipped/nonfinite samples",
+    "alignment": [
+      {
+        "time": 1,
+        "WAVvsAACCorrelation": 0.999969379337778,
+        "lagSamples": 0
+      },
+      {
+        "time": 30,
+        "WAVvsAACCorrelation": 0.9999335343701556,
+        "lagSamples": 0
+      },
+      {
+        "time": 139,
+        "WAVvsAACCorrelation": 0.999994611850628,
+        "lagSamples": 0
+      },
+      {
+        "time": 268,
+        "WAVvsAACCorrelation": 0.9999611035500223,
+        "lagSamples": 0
+      },
+      {
+        "time": 276,
+        "WAVvsAACCorrelation": 0.9999326326555991,
+        "lagSamples": 0
+      }
+    ],
+    "WAVLoudness": {
+      "input_i": "-16.00",
+      "input_tp": "-7.62",
+      "input_lra": "2.60",
+      "input_thresh": "-26.06",
+      "output_i": "-15.98",
+      "output_tp": "-6.96",
+      "output_lra": "2.40",
+      "output_thresh": "-26.01",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.02"
+    },
+    "AACLoudness": {
+      "input_i": "-16.01",
+      "input_tp": "-7.41",
+      "input_lra": "2.60",
+      "input_thresh": "-26.06",
+      "output_i": "-15.98",
+      "output_tp": "-6.95",
+      "output_lra": "2.40",
+      "output_thresh": "-26.01",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.02"
+    },
+    "agentListening": "NOT RUN",
+    "voiceContent": "VOICE_CONTENT_REQUIRES_DIRECTOR_LISTENING",
+    "sources": "One creator-released CC0 track only; noSFX/narration/ambience",
+    "humanFinalMusicAcceptance": false
+  },
+  "Short": {
+    "status": "TECHNICAL PASS / DIRECTOR AUDIO REVIEW PENDING",
+    "reviewMovie": "PRODUCT03-Short-V3-MUSIC-REVIEW-1080x1920.mp4",
+    "sha256": "fd281928f91b3eb3961e857bfafe12facc4f0d7e902b5ad5bc712718f3248a25",
+    "duration": 59,
+    "videoFrames": 1770,
+    "nativeDimensions": [
+      1080,
+      1920
+    ],
+    "videoCodec": "h264",
+    "fps": "30/1",
+    "videoStreamCopyAllOrderedPackets": "IDENTICAL including payload hashes, PTS/DTS/duration/size/flags/side data",
+    "videoPackets": 1770,
+    "AACAllOrderedPacketsVsPreview": "IDENTICAL",
+    "AACPackets": 2767,
+    "AACDeclaredDuration": "59.000000",
+    "AACBitrate": "257643",
+    "AACRate": 48000,
+    "AACChannels": 2,
+    "WAVSamplesPerChannel": 2832000,
+    "decodedAACSamplesPerChannel": 2832384,
+    "AACExtraPaddingSamples": 384,
+    "AACPaddingNote": "Container edit-list duration equals locked picture; decoded residual codec padding separately reported; no intended tail truncated",
+    "finalWAVSampleZero": true,
+    "fullAVDecode": "PASS",
+    "faststart": "PASS",
+    "inputHashesUnchanged": true,
+    "finiteClippedSamples": "PASS, no clipped/nonfinite samples",
+    "alignment": [
+      {
+        "time": 1,
+        "WAVvsAACCorrelation": 0.9998686991840938,
+        "lagSamples": 0
+      },
+      {
+        "time": 29,
+        "WAVvsAACCorrelation": 0.9999246033924994,
+        "lagSamples": 0
+      },
+      {
+        "time": 30,
+        "WAVvsAACCorrelation": 0.9999380479239708,
+        "lagSamples": 0
+      },
+      {
+        "time": 49,
+        "WAVvsAACCorrelation": 0.9999573802860362,
+        "lagSamples": 0
+      },
+      {
+        "time": 57,
+        "WAVvsAACCorrelation": 0.9999647756072935,
+        "lagSamples": 0
+      }
+    ],
+    "WAVLoudness": {
+      "input_i": "-16.00",
+      "input_tp": "-7.69",
+      "input_lra": "2.00",
+      "input_thresh": "-26.14",
+      "output_i": "-16.13",
+      "output_tp": "-7.65",
+      "output_lra": "1.90",
+      "output_thresh": "-26.20",
+      "normalization_type": "dynamic",
+      "target_offset": "0.13"
+    },
+    "AACLoudness": {
+      "input_i": "-16.01",
+      "input_tp": "-7.60",
+      "input_lra": "2.00",
+      "input_thresh": "-26.15",
+      "output_i": "-16.13",
+      "output_tp": "-7.70",
+      "output_lra": "1.90",
+      "output_thresh": "-26.20",
+      "normalization_type": "dynamic",
+      "target_offset": "0.13"
+    },
+    "agentListening": "NOT RUN",
+    "voiceContent": "VOICE_CONTENT_REQUIRES_DIRECTOR_LISTENING",
+    "sources": "One creator-released CC0 track only; noSFX/narration/ambience",
+    "humanFinalMusicAcceptance": false
+  }
+}

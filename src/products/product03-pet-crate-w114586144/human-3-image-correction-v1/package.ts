@@ -1,0 +1,3 @@
+import {longPackage as previous} from '../continuous-production-v2-r2/full-long-package';
+export const definitions=[{id:'hinge',duration:16},{id:'base',duration:10},{id:'pads',duration:8}] as const;
+export function proofPackage(index:number){const p=definitions[index];if(!p)throw Error('proof index');return{...previous,id:`product03-human-3-image-${p.id}-proof-v1`,filename:`PRODUCT03-${p.id}-correction-proof-v1`,video:{...previous.video,id:`product03-human-3-image-${p.id}-proof-v1`,scenes:[{id:p.id,title:'Bounded human correction; physical OPEN/HOLD retained',duration:p.duration,phase:'assembly' as const,actions:[]}]}};}

@@ -1,0 +1,25 @@
+{
+  "original_path": "/Users/quyth/development/three/file/e0bb7330993c76052d97a1cd7d60a9b2ffcd71981d42f35bf3d8b2deb3457042_optim.pdf",
+  "copy_path": "output/product03-pet-crate-w114586144/phase-a-v1/source/human-provided-pet-crate-manual.pdf",
+  "sha256": "70873d55959072bdd1e702030262548c52f4667a208bc9d2ced8b2e4d781bd29",
+  "bytes": 2224904,
+  "expected_pdf_pages": 13,
+  "identity_status": "MATCHED_LOCAL_13_PAGE_PET_CRATE_MANUAL; exact commercial identity metadata-only",
+  "offline_only": true,
+  "recorded_at": "2026-10-15T11:13:14.299096+07:00",
+  "pdf_metadata": {
+    "/ModDate": "D:20250915120521Z",
+    "/Creator": "PScript5.dll Version 5.2.2",
+    "/CreationDate": "D:20250915120517Z00'00'",
+    "/Producer": "GPL Ghostscript 9.25; modified using iText 5.0.3 (c) 1T3XT BVBA",
+    "/Author": "Administrator",
+    "/Title": "Wayfair W114586144 Large Wooden Dog Crate End Table With Drawers Installation Guide",
+    "/Keywords": "Wayfair,dfse1007, W114586144, W114586144 Large Wooden Dog Crate End Table With Drawers, W114586144, Large Wooden Dog Crate End Table With Drawers, Table With Drawers, Drawers, Installation Guide",
+    "/Subject": "W114586144 Large Wooden Dog Crate End Table With Drawers"
+  },
+  "page_count": 13,
+  "printed_numbering": "p1 hardware; unnumbered foreword inserted as PDF p2; printed2-12 at PDF p3-13",
+  "manual_visible_title": "INSTALLATION INSTRUCTION",
+  "online_verification": "NOT_RUN — forbidden",
+  "scope": "20 numbered assemblies and 19 steps for pictured open-cubby, double-door mesh crate. Metadata drawer wording is not a license to add drawers."
+}

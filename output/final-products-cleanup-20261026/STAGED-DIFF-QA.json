@@ -1,0 +1,6 @@
+{
+  "sourceAndDocsWhitespace": "PASS",
+  "wholeStagedDiff": "WARN \u2014 immutable raw FFmpeg logs and downloaded original HTML retain original whitespace/line endings",
+  "immutableEvidenceNotReformatted": true,
+  "rawReport": "STAGED-DIFF-RAW.log"
+}

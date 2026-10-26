@@ -1,0 +1,12 @@
+import type {ProductPackage} from '@/types/product-package';
+import type {AssemblyDefinition} from '@/types/assembly';
+import {placements,assembly as originalAssembly,steps as originalSteps} from '../s04-integration-v2/timeline';
+import {steps} from './option-n-runtime';
+import {fromV2} from './option-n-clock';
+/** Registry/AssemblyGraph metadata for the existing exporter. Procedural mesh and
+ * nonlinear accepted poses remain in the existing product-owned V2 evaluator.
+ * Coordinates are display units; no OEM dimensions or receiving details added. */
+const assembly:AssemblyDefinition={...originalAssembly,id:'product03-illustrative-option-n-film-v1',sourceNote:'Same nineteen documentary dependencies; accepted N presentation clock; physical OPEN/HOLD unchanged',steps:originalAssembly.steps.map(s=>{const old=originalSteps.find(x=>x.id===s.id)!,current=steps.find(x=>x.id===s.id)!;return{...s,actions:s.actions.map(a=>{const start=old.start+(a.at??0);return{...a,at:fromV2(start)-current.start,...(a.duration===undefined?{}:{duration:fromV2(start+a.duration)-fromV2(start)})};})};})};
+const scenes=steps.flatMap(s=>[...(s.number===19?[{id:'alignment',title:'Alignment before final tightening',duration:15,phase:'assembly' as const,actions:[]}]:[]),{id:s.id,title:s.source.action,assemblyStep:s.id,duration:s.duration,phase:'assembly' as const,actions:[]}]);
+scenes.push({id:'source-study',title:'Illustrative assembly study / open issues remain',duration:10,phase:'assembly',actions:[]});
+export const longPackage:ProductPackage={id:'product03-illustrative-film-v1',productKey:'product03-pet-crate-w114586144',label:'Product03 / illustrative assembly film',filename:'PRODUCT03-Long-integrated-v1-silent',product:{id:'product03-source-registry',name:'Wood and steel pet crate — unmeasured visual study',unit:'mm',sourceNote:'Engine unit adapter only; all coordinates unmeasured display approximations. Procedural geometry is fingerprinted with accepted runtime source. No invented receivers/threads.',materials:{},parts:placements.map(p=>({id:p.id,name:p.id,type:'group',position:[...p.position],visible:false,evidence:{source:'image_visible',confidence:'low',note:p.note}}))},assembly,video:{id:'product03-long-option-n-integrated-v1',title:'Wood & steel / illustrative assembly',width:1280,height:720,fps:30,background:'#e9e6df',cameraPresets:{},scenes,audio:{voiceover:null,music:null}}};

@@ -1,0 +1,6 @@
+import {longPackage as priorLong} from '../continuous-production-v2-r2/full-long-package';
+import {shortPackage as priorShort} from '../native-portrait-short-v1/package';
+export const longPackage={...priorLong,id:'product03-human-corrected-long-v3',filename:'PRODUCT03-Long-human-corrected-v3-silent',video:{...priorLong.video,id:'product03-human-corrected-long-v3'}};
+export const shortPackage={...priorShort,id:'product03-human-corrected-short-v2',filename:'PRODUCT03-Short-human-corrected-v2-silent',video:{...priorShort.video,id:'product03-human-corrected-short-v2'}};
+export function capturePackage(start:number,end:number){return{...longPackage,id:`product03-human-corrected-long-v3-${start}-${end}`,filename:`PRODUCT03-Long-v3-proof-${start}-${end}`,video:{...longPackage.video,id:`product03-human-corrected-long-v3-${start}-${end}`,scenes:[{id:'bounded-window',title:'Bounded N278 correction integration',duration:end-start,phase:'assembly' as const,actions:[]}]}};}
+export function preflightPackage(count:number){return{...shortPackage,id:'product03-human-corrected-short-v2-preflight',filename:'PRODUCT03-Short-v2-native-preflight',video:{...shortPackage.video,id:'product03-human-corrected-short-v2-preflight',scenes:[{id:'native-keyframes',title:'Native selected-frame preflight only',duration:count/30,phase:'assembly' as const,actions:[]}]}};}

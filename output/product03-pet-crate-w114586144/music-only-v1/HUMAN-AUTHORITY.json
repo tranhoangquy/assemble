@@ -1,0 +1,14 @@
+{
+ "source":"DIRECT HUMAN MESSAGE IN CODEX APP",
+ "humanPictureApproval":"oke rồi đấy giờ thêm nhạc nữa là xong",
+ "humanMusicDirective":"thêm nhạc cho nhạc mới vào đi tự tìm nhạc k bản quyền thêm vào đi",
+ "authorized":"Find and acquire new free music from public sources; music-only edits for both approved films; no picture or duration changes",
+ "networkException":"Minimum public music searches and public source/license downloads explicitly requested; existing Assemble Director review remains authorized",
+ "noOtherOnlineActions":true,
+ "noLoginPurchasesPaidServicesPublication":true,
+ "lockedPictures":{
+   "LongV5":{"duration":278,"sha256":"6cd7488e4d2e02f26c8eefa8c6e6aca1ff574ab3e890585abab1225fb0031bd0"},
+   "ShortV3":{"duration":59,"sha256":"7ef1d1384720dae2092a5b48b0f937b39a504d10fb265c8054145e77d540d10c"}
+ },
+ "humanFinalMusicAcceptance":false
+}

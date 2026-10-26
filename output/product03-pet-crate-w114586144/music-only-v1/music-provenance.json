@@ -1,0 +1,41 @@
+{
+  "title": "Dreams",
+  "artist": "HoliznaCC0 / Holizna",
+  "release": "Chillout Instrumentals (Collection)",
+  "creatorPage": "https://opengameart.org/content/chillout-instrumentals-collection",
+  "creatorProfile": "https://opengameart.org/users/holizna",
+  "officialCreatorArchive": "https://opengameart.org/sites/default/files/chillout_instrumentals.zip",
+  "archiveEntry": "Chillout Instrumentals/01 HoliznaCC0 - Dreams.mp3",
+  "license": "CC0 1.0 Universal",
+  "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "permissionEvidence": "Creator upload explicitly labels collection CC0/public domain; public anonymous source acquired directly from this release; selected archive entry CRC and uncompressed size verified",
+  "commercialUse": "Permitted by CC0 waiver to extent legally applicable",
+  "YouTubeVideoUse": "Permitted; no publication performed",
+  "attribution": "Not required by CC0; optional courtesy credit supplied",
+  "copyrightClaimsOrContentID": "Not independently tested; no zero-claim guarantee is made",
+  "identityVerification": "Direct bytes of uniquely named complete MP3 entry from creator-supplied archive; raw-deflate size and CRC32 verified; title/artist derives from creator archive entry, no reliance on a random mirror filename. ID3 has date/encoder but no title/artist. No external audio fingerprint test.",
+  "localProductionAsset": "source/HoliznaCC0-Dreams.mp3",
+  "sha256": "4537fdb9b3bed68cf32fa3a6c59a270098d3b7b91bdffa3e643e6a9596e26c19",
+  "codec": "mp3",
+  "sampleRate": 48000,
+  "channels": 2,
+  "bitrate": 320000,
+  "durationContainer": 306.636,
+  "durationDecoded": 306.625,
+  "licensingEvidence": [
+    {
+      "file": "evidence/CC0-deed.html",
+      "sha256": "abb4d48fc8b85de52b377dd105532c6c549f515d492a8e1712bc99e7316a1f12"
+    },
+    {
+      "file": "evidence/creator-collection-page.html",
+      "sha256": "447d71534ae5fc00cd8da08424b0bf474d69393a12221cfd2f5f83e8829ab5b1"
+    }
+  ],
+  "acquisitionGate": "PASS for directly acquired creator-release bytes and traceable CC0 declaration",
+  "newMusicForProduct03": true,
+  "previousProductMusicNotReused": true,
+  "noPaymentLogin": true,
+  "voiceVerification": "Creator tags collection Instrumental; agent listening NOT RUN / VOICE_CONTENT_REQUIRES_DIRECTOR_LISTENING",
+  "humanFinalAcceptance": false
+}

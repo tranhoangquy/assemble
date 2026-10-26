@@ -1,0 +1,1 @@
+{"extends":"../../tsconfig.json","compilerOptions":{"incremental":false},"include":["../../src/**/*.ts","../../src/**/*.tsx","../../scripts/render-product03-finals.ts","../../.next/types/**/*.ts","../../.next/dev/types/**/*.ts"],"exclude":["../../node_modules","../../output"]}

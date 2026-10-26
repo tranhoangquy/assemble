@@ -1,0 +1,11 @@
+import * as T from 'three';
+import {RoomEnvironment} from 'three/examples/jsm/environments/RoomEnvironment.js';
+export function presentation(portrait=false){
+ const renderer=new T.WebGLRenderer({antialias:true,preserveDrawingBuffer:true});renderer.setPixelRatio(1);renderer.setSize(portrait?1080:1280,portrait?1920:720);renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=.9;renderer.localClippingEnabled=false;document.body.style.cssText='margin:0;background:#e9e6df;overflow:hidden';document.body.append(renderer.domElement);
+ const scene=new T.Scene();scene.background=new T.Color('#e9e6df');scene.environment=new T.PMREMGenerator(renderer).fromScene(new RoomEnvironment(),.04).texture;scene.add(new T.HemisphereLight('#fffaf2','#9ca5ad',1.8));for(const p of[[-1200,1700,-1000],[1200,900,1100],[0,-1000,1000]]){const l=new T.DirectionalLight('#fffaf4',2.6);l.position.set(...p as[number,number,number]);scene.add(l);}
+ const label=(css:string)=>{const e=document.createElement('div');e.style.cssText=css;document.body.append(e);return e;};
+ const brand=label(portrait?'position:fixed;left:72px;top:124px;font:600 27px Arial;color:#574c40;background:#f5f1e8ed;padding:8px':'position:fixed;left:28px;top:22px;font:600 12px Arial;letter-spacing:2px;color:#51483e;background:#f5f1e8e8;padding:6px 8px');brand.textContent='WOOD & STEEL / HINGE VISUAL OVERRIDE';
+ const limits=label(portrait?'position:fixed;left:72px;right:150px;top:240px;font:24px/1.4 Arial;color:#765d45;background:#f5f1e8ed;padding:10px;white-space:pre-line':'position:fixed;right:28px;top:22px;font:12px/1.5 Arial;color:#765d45;background:#f5f1e8e8;padding:6px 8px;white-space:pre-line');limits.textContent='DOOR-SIDE FASTENERS: HUMAN-APPROVED ILLUSTRATION\nOEM ATTACHMENT DETAILS: UNVERIFIED\nDOOR FUNCTION: HOLD';
+ const panel=label(portrait?'position:fixed;left:72px;right:150px;bottom:268px;padding:20px 24px;border-left:5px solid #947054;background:#f5f1e8ed;color:#292d2e;font:31px/1.4 Arial;white-space:pre-line':'position:fixed;left:28px;bottom:26px;max-width:700px;background:#f5f1e8e8;padding:12px 17px;border-left:3px solid #947054;color:#292d2e;font:14px/1.6 Arial;white-space:pre-line');
+ return{renderer,scene,panel,limits,brand};
+}

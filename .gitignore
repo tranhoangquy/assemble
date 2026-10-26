@@ -4,3 +4,10 @@ dist/
 tmp/
 *.tsbuildinfo
 .DS_Store
+
+# Product01/03 disposable render caches (retained final media remain versioned).
+/output/wf311613-standalone-murphy-bed/**/frames/
+/output/wf311613-standalone-murphy-bed/**/render-jobs/
+/output/product03-pet-crate-w114586144/**/frames/
+/output/product03-pet-crate-w114586144/**/render-jobs/
+/output/product03-pet-crate-w114586144/**/__pycache__/

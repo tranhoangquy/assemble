@@ -1,0 +1,20 @@
+from pathlib import Path
+import numpy as np,subprocess,json,hashlib,re
+p=Path(__file__).resolve().parent;sr=48000;source=p/'source/HoliznaCC0-Dreams.mp3';sha=lambda f:hashlib.sha256(Path(f).read_bytes()).hexdigest()
+x=np.frombuffer(subprocess.check_output(['/opt/homebrew/bin/ffmpeg','-v','error','-i',str(source),'-ac','2','-ar',str(sr),'-f','f32le','pipe:1']),dtype='<f4').reshape(-1,2);rows={}
+def measure(f,log):
+ r=subprocess.run(['/opt/homebrew/bin/ffmpeg','-v','info','-i',str(f),'-af','loudnorm=I=-16:TP=-1.5:LRA=11:print_format=json','-f','null','-'],capture_output=True,text=True);assert r.returncode==0;(p/log).write_text(r.stderr);m=re.findall(r'\{\s*"input_i".*?\}',r.stderr,re.S);assert m;return json.loads(m[-1])
+for name,duration,source_in,fade_in,fade_out in [('Long',278,1024000,.7,6),('Short',59,3072000,.15,3)]:
+ n=duration*sr;y=x[source_in:source_in+n].copy();assert len(y)==n;fi=round(fade_in*sr);fo=round(fade_out*sr);y[:fi]*=(.5-.5*np.cos(np.pi*np.linspace(0,1,fi)))[:,None];y[-fo:]*=(.5+.5*np.cos(np.pi*np.linspace(0,1,fo)))[:,None]
+ draft=p/f'PRODUCT03-{name}-music-envelope-float.wav';subprocess.run(['/opt/homebrew/bin/ffmpeg','-v','error','-f','f32le','-ar',str(sr),'-ac','2','-i','pipe:0','-c:a','pcm_f32le','-n',str(draft)],input=y.astype('<f4').tobytes(),check=True)
+ stats=measure(draft,f'{name}-PRE-GAIN-LOUDNESS.txt');gain=-16-float(stats['input_i']);y*=10**(gain/20);assert np.isfinite(y).all()and np.max(np.abs(y))<1
+ wav=p/f'PRODUCT03-{name}-music-pass01.wav';subprocess.run(['/opt/homebrew/bin/ffmpeg','-v','error','-f','f32le','-ar',str(sr),'-ac','2','-i','pipe:0','-c:a','pcm_s24le','-n',str(wav)],input=y.astype('<f4').tobytes(),check=True)
+ preview=p/f'PRODUCT03-{name}-music-pass01-preview.m4a';subprocess.run(['/opt/homebrew/bin/ffmpeg','-v','error','-i',str(wav),'-c:a','aac','-b:a','256k','-ar','48000','-ac','2','-movflags','+faststart','-n',str(preview)],check=True)
+ finalstats=measure(wav,f'{name}-WAV-LOUDNESS.txt');encstats=measure(preview,f'{name}-AAC-LOUDNESS.txt');assert abs(float(finalstats['input_i'])+16)<.2 and float(encstats['input_tp'])<=-1.5
+ # Half-second blocks: reject unexpected silent middle; fades intentionally excluded.
+ rms=np.sqrt(np.mean(y[:len(y)//24000*24000].reshape(-1,24000,2).astype(float)**2,axis=(1,2)));middle=rms[2:-max(2,int(fade_out*2))];assert np.min(middle)>10**(-65/20)
+ out=p/'review-clips';out.mkdir(exist_ok=True)
+ for label,start,length in [('intro',0,12),('body',min(50,duration-20),12),('ending',duration-12,12)]:
+  subprocess.run(['/opt/homebrew/bin/ffmpeg','-v','error','-ss',str(start),'-i',str(wav),'-t',str(length),'-c:a','aac','-b:a','256k','-n',str(out/f'{name}-{label}.m4a')],check=True)
+ rows[name]={'duration':duration,'sampleRate':sr,'channels':2,'samplesPerChannel':n,'sourceINsamples':source_in,'sourceOUTsamples':source_in+n,'sourceINseconds':source_in/sr,'sourceOUTseconds':source_in/sr+duration,'sourceTrack':'Dreams — HoliznaCC0','sourceSHA256':sha(source),'singleContinuousSourceRegion':True,'loops':0,'retiming':False,'crossfades':[],'fadeINseconds':fade_in,'fadeOUTseconds':fade_out,'fadeCurve':'complementary half-cosine, final sample zero','staticGainDB':gain,'targetLUFS':-16,'WAV':{'file':wav.name,'sha256':sha(wav),'codec':'pcm_s24le','loudness':finalstats},'preview':{'file':preview.name,'sha256':sha(preview),'codec':'AAC256k','loudness':encstats},'minimumInternalHalfSecondRMSdBFS':float(20*np.log10(middle.min())),'listening':'NOT RUN / VOICE_CONTENT_REQUIRES_DIRECTOR_LISTENING'}
+(p/'music-edit-plan.json').write_text(json.dumps({'version':'pass01','sourceWorkingRate':sr,'pictureLocked':True,'edits':rows,'noSFX':True,'noNarration':True,'noAmbience':True,'method':'One continuous new music excerpt per film, no concatenation, loop or retime. Long retains native mid-song contrast and reaches the original outro region. Short starts in established groove; fades are dedicated to each exact picture endpoint. Phrase/bar alignment is provisional signal analysis, not a listening claim.'},indent=2));print(json.dumps(rows,indent=2))

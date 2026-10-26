@@ -1,0 +1,18 @@
+{
+  "source": "ACTUAL_CHATGPT_WEB_RESPONSE",
+  "conversation": "Assemble",
+  "recordedAt": "2026-10-26T11:36:38.707Z",
+  "verdict": "TECHNICAL / MUSIC EDIT PASS",
+  "long": "Technical and music-edit treatment PASS; human listening pending",
+  "short": "Technical and music-edit treatment PASS; human listening pending",
+  "finalStreamCopyPackagingAuthorized": true,
+  "processingChangesAuthorized": false,
+  "exactStreamsRequired": true,
+  "reviewMethod": "Director directly checked actual MP4 and ZIP hashes/profiles/integrity, read signal/QA evidence; explicitly unable to hear by ear in this session",
+  "directorActualListening": "NOT RUN / NOT CONFIRMED",
+  "voiceContentPerceptualListening": "HUMAN REVIEW REQUIRED",
+  "humanApprovedPicture": true,
+  "humanFinalMusicAcceptance": false,
+  "next": "FINAL STREAM-COPY PACKAGING; deliver both exact movies for human listening; no publication",
+  "voiceContentCertified": false
+}

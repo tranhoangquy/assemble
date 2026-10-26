@@ -1,0 +1,36 @@
+{
+  "status": "CLEANUP PASS",
+  "deletedFiles": {
+    "wf311613-standalone-murphy-bed": 1638,
+    "product03-pet-crate-w114586144": 76995
+  },
+  "deletedLogicalBytes": {
+    "wf311613-standalone-murphy-bed": 1417637912,
+    "product03-pet-crate-w114586144": 29749355154
+  },
+  "totalDeletedLogicalBytes": 31166993066,
+  "removedEmptyDirectories": 583,
+  "retained": {
+    "wf311613-standalone-murphy-bed": {
+      "MP4s": [
+        "final/final-lofi-720p/WF311613-final-lofi-720p.mp4",
+        "short/final-short02-1080p/WF311613-short02-FINAL-vertical-1080p.mp4"
+      ],
+      "files": 74,
+      "logicalBytes": 243261165
+    },
+    "product03-pet-crate-w114586144": {
+      "MP4s": [
+        "final-music-v1/PRODUCT03-Long-V5-MUSIC-720p.mp4",
+        "final-music-v1/PRODUCT03-Short-V3-MUSIC-1080x1920.mp4"
+      ],
+      "files": 70,
+      "logicalBytes": 184054472
+    }
+  },
+  "protectedPathsChecked": 61241,
+  "protectedChanges": [],
+  "Product02": "UNCHANGED — every baseline path SHA verified",
+  "Product01Product03Source": "UNCHANGED",
+  "oldRawCacheResume": "RETIRED — fresh render required; final movie hashes remain unchanged"
+}

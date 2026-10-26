@@ -1,0 +1,16 @@
+{
+  "state": "MUSIC ADDED / TECHNICAL AND MUSIC EDIT PASS / EXACT STREAM-COPY PACKAGE COMPLETE / HUMAN LISTENING PENDING",
+  "humanApprovedPictures": true,
+  "humanFinalMusicAcceptance": false,
+  "directorSource": "ACTUAL_CHATGPT_WEB_RESPONSE",
+  "voiceContentPerceptualListening": "HUMAN REVIEW REQUIRED",
+  "files": {
+    "Long": "PRODUCT03-Long-V5-MUSIC-720p.mp4",
+    "Short": "PRODUCT03-Short-V3-MUSIC-1080x1920.mp4"
+  },
+  "finalPackageFreezeVerified": true,
+  "frozenPictureFilesUnchanged": 18,
+  "musicSourceWorkspace": "music-only-v1; source,losslessWAVs,completeM4A,provenance,reproduction scripts retained here",
+  "humanOutput": "final-music-v1",
+  "noPublication": true
+}

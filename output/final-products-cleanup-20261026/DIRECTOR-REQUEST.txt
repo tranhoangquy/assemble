@@ -1,0 +1,11 @@
+PRODUCT01 + PRODUCT03 — FINAL MEDIA RETENTION / PUBLICATION NOTES
+
+Human explicitly ordered cleanup of redundant media for finished01 and03, publication/music-credit notes, then direct Git push. Latest clarification excludes unfinished02/JULIETTE entirely. This authorizes deleting superseded copies/caches; all4principal Long/Short final files, audio masters, original music/licenses, source/manuals and compact historical evidence remain. No geometry/render/audio/publication.
+
+Actual cleanup completed:78,633files /31,166,993,066logical bytes removed,583empty directories. Exactly2MP4s per01/03; all final hashes unchanged.61,241protected paths verified,0changes, including ALL Product02 source/output. Source01/03unchanged. Verified compact14MiB+19MiB history archives retain original QA/FAILs/Director choices/manifests and representative visuals; original snapshots not rewritten. Per-file hash+deletion ledger retained. Raw frames retired; no false resume claim. Minimal portable adapter uses existing shared exporter, not a new engine/exporter; not executed.
+
+New actual publication notes include ready titles/descriptions, exact01credits,03CC0source/credit, music scope limitations, poster frames and honest unfilled upload URLs. No publication; no payment/LFS-policy/history rewrite. Only01/03and relateddocs/helpers staged; untracked02 is excluded.
+
+Checks: scoped actual-source+adapter TypeScript PASS;131unique tests pass after a bounded retry of only5affected files with maxWorkers1 (initial122PASS/9default5stimeouts; retry15/15PASS at same5sbudget). Raw timeout logs kept, no assertion/tolerance changes. Docs links and finalMP4/WAV hashes PASS.
+
+Attached actual outcome/QA, notes and ledger. Please read the files and record a bounded review decision on cleanup/retention/notes. Human already authorizes Git push; this does not reopen production or publication. Existing03voice/perceptual listening limits and all mechanicalOPEN/HOLD/rawcollisionFAIL remain; cleanup does not fabricate acceptance. No extra routine ACK required.

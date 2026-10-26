@@ -1,0 +1,4 @@
+import * as T from 'three';
+import {blocks} from './clock';
+export function hingeCamera(index:number,portrait=false){const b=blocks[index],sign=b.door==='7'?-1:1,target=new T.Vector3(sign*581,b.upper?623:177,316.5),c=new T.PerspectiveCamera(portrait?24:28,portrait?1080/1920:1280/720,.1,20000);c.position.copy(target).add(new T.Vector3(sign*60,25,portrait?720:500));c.lookAt(target);c.updateMatrixWorld(true);return c;}
+export function proofCamera(state:{sourceTime:number;clock:{block:typeof blocks[number]|null}},portrait=false){const s=state.sourceTime;if(state.clock.block)return hingeCamera(state.clock.block.index,portrait);if(s>=210.5&&s<218.1952)return hingeCamera(s<214.8251?0:1,portrait);if(s>=220.1952)return hingeCamera(s<224.5203?2:3,portrait);const c=new T.PerspectiveCamera(35,portrait?1080/1920:1280/720,.1,20000);c.position.set(-600,950,portrait?2300:1950);c.lookAt(new T.Vector3(0,480,150));c.updateMatrixWorld(true);return c;}

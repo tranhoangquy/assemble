@@ -1,0 +1,145 @@
+{
+  "revision": "PRODUCT03-PHASE-A-V1",
+  "checked_at": "2026-10-15T11:27:04.702649+07:00",
+  "checks": {
+    "source_pages": {
+      "status": "PASS",
+      "actual": 13,
+      "expected": 13
+    },
+    "source_copy_identity": {
+      "status": "PASS",
+      "sha256": "70873d55959072bdd1e702030262548c52f4667a208bc9d2ced8b2e4d781bd29"
+    },
+    "numbered_parts": {
+      "status": "PASS",
+      "types": 15,
+      "instances": 20,
+      "expected_instances": 20
+    },
+    "all_steps_accounted": {
+      "status": "PASS",
+      "actual_steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "expected_steps": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "part_introduction_coverage": {
+      "status": "PASS"
+    },
+    "dependency_acyclic_and_ordered": {
+      "status": "PASS"
+    },
+    "A_O_inventory": {
+      "status": "PASS",
+      "units": 103,
+      "installed_accessory_units": 100,
+      "tool_units": 3
+    },
+    "literal_S18_summary_reconciliation": {
+      "status": "FAIL — SOURCE CONTRADICTION",
+      "I_declared": 2,
+      "I_literal_used": 0,
+      "J_declared": 2,
+      "J_literal_used": 4
+    },
+    "provisional_S18_inset_reconciliation": {
+      "status": "WARNING — hypothesis only, not manufacturer approval",
+      "allocated": {
+        "A": 5,
+        "B": 4,
+        "C": 18,
+        "D": 39,
+        "E": 8,
+        "F": 8,
+        "G": 4,
+        "H": 4,
+        "I": 2,
+        "J": 2,
+        "K": 2,
+        "N": 4
+      },
+      "declared": {
+        "A": 5,
+        "B": 4,
+        "C": 18,
+        "D": 39,
+        "E": 8,
+        "F": 8,
+        "G": 4,
+        "H": 4,
+        "I": 2,
+        "J": 2,
+        "K": 2,
+        "N": 4
+      },
+      "counts_match": true
+    },
+    "physical_fit_tool_access": {
+      "status": "NOT_RUN",
+      "reason": "No geometry; engineering dimensions/access evidence missing"
+    },
+    "geometry_video_audio": {
+      "status": "NOT_RUN",
+      "reason": "Phase A only"
+    },
+    "source_render_quality": {
+      "status": "WARNING",
+      "reason": "Poppler Adobe-GB1 / R19 font warnings; PDF p2 overlapping text; all main diagram and hardware/parts callouts inspected; no source repair claimed"
+    },
+    "director_review": {
+      "status": "NOT_RUN",
+      "reason": "Offline-only instruction prohibits browser handoff"
+    },
+    "protected_assets": {
+      "status": "PASS",
+      "manifest_paths_checked": 938,
+      "changed": [],
+      "scope": "Existing historical protection manifest plus full local source packages for P01/P02; not exhaustive hashing of every media frame"
+    }
+  },
+  "phase_A": "DOCUMENTARY_AUDIT_COMPLETE_WITH_OPEN_ISSUES",
+  "foundation_gate": "REQUIRES_LOCAL_REVIEW — I/J conflict and missing geometry evidence",
+  "phase_B_F": "NOT_STARTED",
+  "JULIETTE": "DISCONTINUED_BY_HUMAN; files preserved",
+  "security": "OFFLINE_ONLY; no browser, network, upload, account, external API, installation or paid action",
+  "final_acceptance": "NOT_GRANTED; human alone must accept both completed Long/Short films"
+}

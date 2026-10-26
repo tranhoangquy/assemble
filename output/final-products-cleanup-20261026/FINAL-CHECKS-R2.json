@@ -1,0 +1,57 @@
+{
+  "status": "CLEANUP AND PUBLICATION NOTES COMPLETE / GIT PUSH AUTHORIZED BY HUMAN",
+  "scope": [
+    "Product01 WF311613",
+    "Product03 pet crate"
+  ],
+  "Product02": "EXCLUDED; full baseline unchanged",
+  "deletedFiles": 78633,
+  "deletedLogicalBytes": 31166993066,
+  "mainVideosRetained": 4,
+  "protectedPathsVerified": 61241,
+  "protectedChanges": 0,
+  "sourceAndFinalMasterBytesChanged": false,
+  "typecheck": "PASS \u2014 actual src + portable reproduction adapter; archived output code excluded",
+  "tests": {
+    "uniqueTestsPassedAfterBoundedRetry": 131,
+    "initial": "122PASS,9default5000msTIMEOUT while parallel",
+    "retry": "Only5 affected files,15tests PASS with maxWorkers1; same5000ms budget and no source/assertion/threshold changes",
+    "rawInitialLogRetained": true
+  },
+  "docsLinks": "PASS",
+  "fourFinalAndAudioHashes": "PASS",
+  "GitDiffWhitespace": {
+    "sourceAndDocsWhitespace": "PASS",
+    "wholeStagedDiff": "WARN \u2014 immutable raw FFmpeg logs and downloaded original HTML retain original whitespace/line endings",
+    "immutableEvidenceNotReformatted": true,
+    "rawReport": "STAGED-DIFF-RAW.log"
+  },
+  "historyArchiveIntegrityAndConcreteCredentialScan": "PASS",
+  "rendersAudioExportsPublicationPerformed": false,
+  "notes": [
+    "docs/publishing/product-01.md",
+    "docs/publishing/product-03.md",
+    "docs/publishing/reproduction-and-retention.md"
+  ],
+  "gitScope": "Only01/03,documentation,new cleanup/reproduction helpers and required existing offline diagnostics wrapper; untrackedProduct02 not staged",
+  "approvedDocumentaryCorrection": {
+    "status": "VERIFIED DOCUMENTARY REPAIR AFTER CLEANUP",
+    "path": "output/wf311613-standalone-murphy-bed/final/final-lofi-720p/YOUTUBE-MUSIC-CREDITS.txt",
+    "beforeSHA256": "a3a5e715f0cc574a73c3f9bebb6bc24f32ffd5b67b387244c2c909da779a1478",
+    "beforeBytes": 2,
+    "afterSHA256": "aa50424f38567495633316d8d9e9c93b343466a85e4f5a8260680657d1aaa032",
+    "afterBytes": 716,
+    "source": "output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/YOUTUBE-MUSIC-CREDITS.txt",
+    "agreement": [
+      "Exact Pass02 credit TXT",
+      "Every track.required_credit_text in final Long provenance",
+      "Exact fenced block in FINAL-MUSIC-QA-REPORT.md",
+      "Original final SHA256SUMS.txt"
+    ],
+    "reason": "Existing final credit TXT was corrupt (single c); new publication note inherited that corruption. Director identified the defect; human cleanup/notes scope and Director bounded-doc-fix authorization cover correction.",
+    "videoAudioSourceGeometryChanged": false,
+    "historicalManifestsChanged": false,
+    "protectedSnapshotTiming": "RESULT.json0changes refers to completed deletion verification BEFORE this separately recorded documentary restoration."
+  },
+  "postCleanupProtectedChanges": "One separately documented credit TXT restored to its ORIGINAL frozen hash; all other protected paths and all4master hashes unchanged"
+}

@@ -14,9 +14,18 @@ async function main() {
   const bundle = await build({ entryPoints: [path.resolve(process.env.PRODUCT_AUDIT_MODULE)], bundle: true,
     write: false, platform: 'browser', format: 'iife', target: 'es2020',
     define: { 'process.env.NODE_ENV': '"production"' }, logLevel: 'warning' });
-  const browser = await chromium.launch({ headless: true });
+  // Optional local-only review: no fetches, service workers, or browser background traffic.
+  // Default behavior remains unchanged for existing product review scripts.
+  const offline = process.env.AUDIT_OFFLINE === '1';
+  const browser = await chromium.launch({ headless: true, args:offline?[
+    '--disable-background-networking','--disable-component-update','--disable-sync',
+    '--no-pings','--host-resolver-rules=MAP * ~NOTFOUND',
+  ]:[] });
   try {
-    const page = await browser.newPage({ viewport: { width: 1280, height: 720 }, deviceScaleFactor: 1 });
+    const page = await browser.newPage({ viewport: { width: 1280, height: 720 }, deviceScaleFactor: 1,
+      ...(offline?{offline:true,serviceWorkers:'block' as const}:{}) });
+    const networkAttempts:string[]=[];
+    if(offline)await page.route('**/*',route=>{networkAttempts.push(route.request().url());return route.abort();});
     const errors: string[] = [];
     page.on('pageerror', error => errors.push(error.message));
     await page.setContent('<!doctype html><html><head><title>Mechanism diagnostics</title></head><body></body></html>');
@@ -34,6 +43,7 @@ async function main() {
     }
     if (errors.length) throw new Error(errors.join('\n'));
     await writeFile(path.join(directory, selection?'selected-diagnostic-manifest.json':'diagnostic-manifest.json'), JSON.stringify(manifest, null, 2));
+    if(offline)await writeFile(path.join(directory,'offline-network.json'),JSON.stringify({offline:true,serviceWorkers:'blocked',allRequests:'aborted',attemptedRequests:networkAttempts},null,2));
   } finally { await browser.close(); }
 }
 main().catch(error => { console.error(error); process.exitCode = 1; });

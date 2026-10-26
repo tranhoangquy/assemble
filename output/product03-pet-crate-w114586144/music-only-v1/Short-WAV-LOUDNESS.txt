@@ -1,0 +1,41 @@
+ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers
+  built with Apple clang version 17.0.0 (clang-1700.6.4.2)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/8.1.2_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gpl --enable-libsvtav1 --enable-libopus --enable-libx264 --enable-libmp3lame --enable-libdav1d --enable-libvmaf --enable-libvpx --enable-libx265 --enable-openssl --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      60. 26.102 / 60. 26.102
+  libavcodec     62. 28.102 / 62. 28.102
+  libavformat    62. 12.102 / 62. 12.102
+  libavdevice    62.  3.102 / 62.  3.102
+  libavfilter    11. 14.102 / 11. 14.102
+  libswscale      9.  5.102 /  9.  5.102
+  libswresample   6.  3.102 /  6.  3.102
+Input #0, wav, from '/Users/quyth/development/three/POC/output/product03-pet-crate-w114586144/music-only-v1/PRODUCT03-Short-music-pass01.wav':
+  Metadata:
+    encoder         : Lavf62.12.102
+  Duration: 00:00:59.00, bitrate: 2304 kb/s
+  Stream #0:0: Audio: pcm_s24le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s32 (24 bit), 2304 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s24le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf62.12.102
+  Stream #0:0: Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s
+    Metadata:
+      encoder         : Lavc62.28.102 pcm_s16le
+size=N/A time=00:00:19.20 bitrate=N/A speed=37.6x elapsed=0:00:00.50    
+size=N/A time=00:00:39.60 bitrate=N/A speed=38.8x elapsed=0:00:01.01    
+[Parsed_loudnorm_0 @ 0x13d0045a0] 
+{
+	"input_i" : "-16.00",
+	"input_tp" : "-7.69",
+	"input_lra" : "2.00",
+	"input_thresh" : "-26.14",
+	"output_i" : "-16.13",
+	"output_tp" : "-7.65",
+	"output_lra" : "1.90",
+	"output_thresh" : "-26.20",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.13"
+}
+[out#0/null @ 0x13c615330] video:0KiB audio:44250KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:59.00 bitrate=N/A speed=40.2x elapsed=0:00:01.46    

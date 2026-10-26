@@ -1,0 +1,125 @@
+- heading "ChatGPT said:" [level=4]
+    - 'heading "PRODUCT #01 + #03 — Creative Director Cleanup Review" [level=2]'
+    - generic: BOUNDED REVIEW PASS
+    - paragraph: T đã đọc báo cáo cleanup, QA, ghi chú xuất bản của cả hai sản phẩm và kiểm tra tính toàn vẹn của ZIP bằng chứng.
+    - paragraph:
+      - generic: "Quyết định:"
+      - text: Chấp thuận kết quả dọn dẹp, chính sách lưu giữ và bộ ghi chú xuất bản trong phạm vi hồ sơ đã cung cấp. Không yêu cầu phục hồi các bản render hoặc cache trung gian đã được phân loại là dư thừa.
+    - table:
+      - rowgroup:
+        - row "Hạng mục Kết quả":
+          - columnheader "Hạng mục":
+            - paragraph: Hạng mục
+          - columnheader "Kết quả":
+            - paragraph: Kết quả
+        - row "78.633 tệp đã xóa Ghi nhận theo ledger và báo cáo":
+          - cell "78.633 tệp đã xóa":
+            - paragraph: 78.633 tệp đã xóa
+          - cell "Ghi nhận theo ledger và báo cáo":
+            - paragraph: Ghi nhận theo ledger và báo cáo
+        - row "Khoảng 31,17 GB dữ liệu logic đã dọn Ghi nhận":
+          - cell "Khoảng 31,17 GB dữ liệu logic đã dọn":
+            - paragraph: Khoảng 31,17 GB dữ liệu logic đã dọn
+          - cell "Ghi nhận":
+            - paragraph: Ghi nhận
+        - 'row "4 MP4 cuối của Product #01 và #03 Được báo cáo giữ nguyên"':
+          - 'cell "4 MP4 cuối của Product #01 và #03"':
+            - paragraph: "4 MP4 cuối của Product #01 và #03"
+          - cell "Được báo cáo giữ nguyên":
+            - paragraph: Được báo cáo giữ nguyên
+        - row "61.241 đường dẫn được bảo vệ QA báo cáo 0 thay đổi":
+          - cell "61.241 đường dẫn được bảo vệ":
+            - paragraph: 61.241 đường dẫn được bảo vệ
+          - cell "QA báo cáo 0 thay đổi":
+            - paragraph: QA báo cáo 0 thay đổi
+        - 'row "Product #02 / JULIETTE Loại trừ hoàn toàn"':
+          - 'cell "Product #02 / JULIETTE"':
+            - paragraph: "Product #02 / JULIETTE"
+          - cell "Loại trừ hoàn toàn":
+            - paragraph: Loại trừ hoàn toàn
+        - row "TypeScript PASS":
+          - cell "TypeScript":
+            - paragraph: TypeScript
+          - cell "PASS":
+            - paragraph: PASS
+        - row "131 bài test PASS sau retry giới hạn":
+          - cell "131 bài test":
+            - paragraph: 131 bài test
+          - cell "PASS sau retry giới hạn":
+            - paragraph: PASS sau retry giới hạn
+        - row "Ghi chú xuất bản PASS, có các điều kiện bên dưới":
+          - cell "Ghi chú xuất bản":
+            - paragraph: Ghi chú xuất bản
+          - cell "PASS, có các điều kiện bên dưới":
+            - paragraph: PASS, có các điều kiện bên dưới
+    - paragraph:
+      - generic: "Giới hạn xác minh:"
+      - text: ZIP đính kèm có 11 mục và không có lỗi cấu trúc. T không có toàn bộ cây thư mục Git gốc trong phiên này, nên không thể tự xác nhận lại từng tệp đã xóa, toàn bộ 61.241 đường dẫn hay trạng thái Git thực tế. Những kết quả đó dựa trên ledger và QA của Codex, không phải kiểm toán filesystem độc lập.
+    - heading "Một lỗi cần sửa trước khi Git push" [level=3]
+    - paragraph:
+      - text: Trong
+      - code: docs/publishing/product-01.md
+      - text: ", phần mô tả"
+      - generic: "Long Product #01"
+      - text: "hiện có:"
+    - generic: Plain text
+    - button "Enable word wrap":
+    - button "Copy code":
+    - code:
+      - generic: MUSIC CREDITS c
+    - paragraph:
+      - text: "Đây là lỗi nội dung thực tế, không phải placeholder hợp lệ. Trong khi đó, hồ sơ đã lưu yêu cầu credit đầy đủ cho ba bản nhạc của Product #01."
+      - button "product-01.md":
+        - generic: product-01.md
+    - paragraph:
+      - generic: "Yêu cầu sửa giới hạn:"
+      - text: Codex thay duy nhất ký tự
+      - code: c
+      - text: bằng nội dung chính xác từ
+      - code: YOUTUBE-MUSIC-CREDITS.txt
+      - text: "của bản Long #01, rồi kiểm tra lại liên kết và diff. Không tự viết lại credit từ trí nhớ."
+    - paragraph:
+      - text: "Các ghi chú Product #03 được chấp thuận, bao gồm việc giữ nguyên cảnh báo tám vít bản lề minh họa, giới hạn chức năng cửa và yêu cầu human nghe duyệt nhạc."
+      - button "product-03.md":
+        - generic: product-03.md
+    - heading "Quyết định Git" [level=3]
+    - paragraph:
+      - generic: AUTHORIZE BOUNDED DOC FIX → VERIFY → GIT PUSH.
+    - paragraph: "Human đã cho phép Git push, vì vậy Codex không cần xin ACK mới. Sau khi sửa credit, Codex được:"
+    - list:
+      - paragraph: "Kiểm tra diff và chỉ commit Product #01, Product #03, tài liệu cùng helper đã được phê duyệt."
+      - paragraph: "Xác nhận Product #02/JULIETTE không nằm trong staged changes."
+      - paragraph: Commit và push lên remote/branch đã được human chỉ định trong môi trường Codex.
+      - paragraph: Bàn giao commit SHA, branch, remote, kết quả push và các kiểm tra sau sửa.
+    - paragraph:
+      - text: T không trực tiếp thực hiện Git push trong phiên review này;
+      - generic: chưa có xác nhận push thành công
+      - text: .
+    - paragraph:
+      - generic: "Trạng thái:"
+      - code: CLEANUP PASS / RETENTION PASS / PUBLICATION NOTES ONE TARGETED FIX / GIT PUSH AUTHORIZED / NO PUBLICATION
+      - text: .
+    - paragraph: "Không mở lại sản xuất phim, không tự đăng video và không nâng cấp trạng thái nghiệm thu nhạc Product #03."
+    - button "Copy":
+    - button "Rate response":
+    - button "Read aloud":
+    - button "Share":
+    - button "Regenerate response":
+    - button "More actions":
+    - generic: ChatGPT can make mistakes. Check important info.
+    - button "Scroll to bottom":
+    - heading "Latest response" [level=4]
+    - status
+    - button "Add files and more":
+    - textbox "Ask ChatGPT":
+      - paragraph: Ask ChatGPT
+    - button "Select ChatGPT model":
+      - generic: Thinking effort
+      - generic: Instant
+    - button "Dictate":
+    - button "Start Voice":
+- status
+- status: Response complete
+- status
+- button "⋮⋮"
+- button "⋮⋮"

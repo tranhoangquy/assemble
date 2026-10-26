@@ -1,0 +1,37 @@
+{
+  "status": "CLEANUP AND PUBLICATION NOTES COMPLETE / GIT PUSH AUTHORIZED BY HUMAN",
+  "scope": [
+    "Product01 WF311613",
+    "Product03 pet crate"
+  ],
+  "Product02": "EXCLUDED; full baseline unchanged",
+  "deletedFiles": 78633,
+  "deletedLogicalBytes": 31166993066,
+  "mainVideosRetained": 4,
+  "protectedPathsVerified": 61241,
+  "protectedChanges": 0,
+  "sourceAndFinalMasterBytesChanged": false,
+  "typecheck": "PASS \u2014 actual src + portable reproduction adapter; archived output code excluded",
+  "tests": {
+    "uniqueTestsPassedAfterBoundedRetry": 131,
+    "initial": "122PASS,9default5000msTIMEOUT while parallel",
+    "retry": "Only5 affected files,15tests PASS with maxWorkers1; same5000ms budget and no source/assertion/threshold changes",
+    "rawInitialLogRetained": true
+  },
+  "docsLinks": "PASS",
+  "fourFinalAndAudioHashes": "PASS",
+  "GitDiffWhitespace": {
+    "sourceAndDocsWhitespace": "PASS",
+    "wholeStagedDiff": "WARN \u2014 immutable raw FFmpeg logs and downloaded original HTML retain original whitespace/line endings",
+    "immutableEvidenceNotReformatted": true,
+    "rawReport": "STAGED-DIFF-RAW.log"
+  },
+  "historyArchiveIntegrityAndConcreteCredentialScan": "PASS",
+  "rendersAudioExportsPublicationPerformed": false,
+  "notes": [
+    "docs/publishing/product-01.md",
+    "docs/publishing/product-03.md",
+    "docs/publishing/reproduction-and-retention.md"
+  ],
+  "gitScope": "Only01/03,documentation,new cleanup/reproduction helpers and required existing offline diagnostics wrapper; untrackedProduct02 not staged"
+}

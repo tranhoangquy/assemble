@@ -1,0 +1,2 @@
+import {longPackage as prior} from '../final-camera-fix-v1/film-package';
+export function proofPackage(portrait=false){const id=`product03-hinge-human-override-${portrait?'portrait':'four-hinges'}-v1`,duration=portrait?8.1:35.5;return{...prior,id,filename:`PRODUCT03-HINGE-4-SCREW-${portrait?'PORTRAIT':'FOUR-HINGES'}-PROOF-V1`,video:{...prior.video,id,scenes:[{id:'human-hinge-illustration',title:'OEM E8 plus separate human-approved8; function HOLD',duration,phase:'assembly' as const,actions:[]}]}};}

@@ -1,0 +1,67 @@
+{
+  "authority": "Human designated Product01 and03 final Long/Short for retention; Product02 excluded",
+  "products": {
+    "01": {
+      "product": "wf311613-standalone-murphy-bed",
+      "films": {
+        "long": {
+          "path": "output/wf311613-standalone-murphy-bed/final/final-lofi-720p/WF311613-final-lofi-720p.mp4",
+          "sha256": "c42767184db43ce794aa165e9b60c6762c6551829833ed2f7ba60c7fdb42d457",
+          "audioMaster": "output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/WF311613-lofi-mix-pass02.wav",
+          "audioSHA256": "75b282e6e55a65923b00c152099f47e194b66c007f2e8053ccf6b9ec66690b2b",
+          "duration": 524.066667,
+          "frames": 15722,
+          "fps": 30,
+          "dimensions": [
+            1280,
+            720
+          ]
+        },
+        "short": {
+          "path": "output/wf311613-standalone-murphy-bed/short/final-short02-1080p/WF311613-short02-FINAL-vertical-1080p.mp4",
+          "sha256": "e24317a8787379ad9ba2aab19d5d58fd1012953de6a73a923759d492035c4a79",
+          "audioMaster": "output/wf311613-standalone-murphy-bed/short/final-short02-1080p/WF311613-short02-FINAL-music-master.wav",
+          "audioSHA256": "5ba9089960a09efb55e3e3a57e32ffb11692f2e134b5f1378097101fe883785a",
+          "duration": 58,
+          "frames": 1740,
+          "fps": 30,
+          "dimensions": [
+            1080,
+            1920
+          ]
+        }
+      }
+    },
+    "03": {
+      "product": "product03-pet-crate-w114586144",
+      "films": {
+        "long": {
+          "path": "output/product03-pet-crate-w114586144/final-music-v1/PRODUCT03-Long-V5-MUSIC-720p.mp4",
+          "sha256": "78a277f72aa3cf18f52896152beb5c5af719f6fe1d1df3be85698110b8744620",
+          "audioMaster": "output/product03-pet-crate-w114586144/music-only-v1/PRODUCT03-Long-music-pass01.wav",
+          "audioSHA256": "a68e51ef775024c1ecd958a7eabc25eb9c993ede5a7f472424423a75640e1739",
+          "duration": 278,
+          "frames": 8340,
+          "fps": 30,
+          "dimensions": [
+            1280,
+            720
+          ]
+        },
+        "short": {
+          "path": "output/product03-pet-crate-w114586144/final-music-v1/PRODUCT03-Short-V3-MUSIC-1080x1920.mp4",
+          "sha256": "fd281928f91b3eb3961e857bfafe12facc4f0d7e902b5ad5bc712718f3248a25",
+          "audioMaster": "output/product03-pet-crate-w114586144/music-only-v1/PRODUCT03-Short-music-pass01.wav",
+          "audioSHA256": "1ad9a9bef22b2bbfe0653caff1f18303eb90477ebdac3834bfef8cfeaaa4b8a4",
+          "duration": 59,
+          "frames": 1770,
+          "fps": 30,
+          "dimensions": [
+            1080,
+            1920
+          ]
+        }
+      }
+    }
+  }
+}

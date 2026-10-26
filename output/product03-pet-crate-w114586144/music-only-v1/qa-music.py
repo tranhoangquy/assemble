@@ -1,0 +1,22 @@
+from pathlib import Path
+import hashlib,json,subprocess,struct
+import numpy as np
+p=Path(__file__).resolve().parent;plan=json.loads((p/'music-edit-plan.json').read_text());mux=json.loads((p/'mux-command-review.json').read_text());rows={}
+def probe(f):return json.loads(subprocess.check_output(['/opt/homebrew/bin/ffprobe','-v','error','-count_frames','-show_streams','-show_format','-of','json',str(f)]))
+def packets(f,selector):return json.loads(subprocess.check_output(['/opt/homebrew/bin/ffprobe','-v','error','-select_streams',selector,'-show_packets','-show_data_hash','sha256','-show_entries','packet=pts,dts,duration,size,flags,data_hash,side_data_list','-of','json',str(f)]))['packets']
+def decode(f):return np.frombuffer(subprocess.check_output(['/opt/homebrew/bin/ffmpeg','-v','error','-i',str(f),'-map','0:a:0','-ar','48000','-ac','2','-f','f32le','pipe:1']),dtype='<f4').reshape(-1,2)
+for name,m in mux.items():
+ e=plan['edits'][name];f=Path(m['reviewMovie']);pr=probe(f);v=[s for s in pr['streams']if s['codec_type']=='video'];a=[s for s in pr['streams']if s['codec_type']=='audio'];assert len(pr['streams'])==2 and len(v)==len(a)==1;v=v[0];a=a[0];assert int(v['nb_read_frames'])==(8340 if name=='Long'else 1770);assert abs(float(v['duration'])-e['duration'])<1e-6 and abs(float(a['duration'])-e['duration'])<1e-6 and a['sample_rate']=='48000'and a['channels']==2 and a['codec_name']=='aac'
+ old=packets(m['picture'],'v:0');new=packets(f,'v:0');assert old==new;aa=packets(p/e['preview']['file'],'a:0');bb=packets(f,'a:0');assert aa==bb
+ before=probe(m['picture'])['streams'][0];fields=['codec_name','profile','codec_tag_string','width','height','pix_fmt','r_frame_rate','avg_frame_rate','time_base','extradata_size'];assert all(before.get(k)==v.get(k)for k in fields)
+ r=subprocess.run(['/opt/homebrew/bin/ffmpeg','-v','error','-i',str(f),'-f','null','-'],capture_output=True);assert r.returncode==0 and not r.stderr
+ w=decode(p/e['WAV']['file']);x=decode(f);n=e['samplesPerChannel'];assert len(w)==n and len(x)>=n and len(x)-n<1024 and np.isfinite(x).all()and np.max(np.abs(x))<1;assert np.max(np.abs(w[-1]))==0
+ checks=[]
+ for t in sorted(set([1,min(30,e['duration']-8),e['duration']//2,e['duration']-10,e['duration']-2])):
+  start=int(t*48000);end=min(n,start+48000);corr=float(np.corrcoef(w[start:end].reshape(-1),x[start:end].reshape(-1))[0,1]);assert corr>.97;checks.append({'time':t,'WAVvsAACCorrelation':corr,'lagSamples':0})
+ b=f.read_bytes();pos=0;boxes=[]
+ while pos<len(b):
+  size,kind=struct.unpack('>I4s',b[pos:pos+8]);size=struct.unpack('>Q',b[pos+8:pos+16])[0]if size==1 else len(b)-pos if size==0 else size;assert size>=8;boxes.append(kind.decode());pos+=size
+ assert boxes.index('moov')<boxes.index('mdat');assert hashlib.sha256(Path(m['picture']).read_bytes()).hexdigest()==m['pictureSHA256'];assert hashlib.sha256((p/e['WAV']['file']).read_bytes()).hexdigest()==e['WAV']['sha256']
+ rows[name]={'status':'TECHNICAL PASS / DIRECTOR AUDIO REVIEW PENDING','reviewMovie':f.name,'sha256':hashlib.sha256(b).hexdigest(),'duration':e['duration'],'videoFrames':int(v['nb_read_frames']),'nativeDimensions':[v['width'],v['height']],'videoCodec':v['codec_name'],'fps':v['r_frame_rate'],'videoStreamCopyAllOrderedPackets':'IDENTICAL including payload hashes, PTS/DTS/duration/size/flags/side data','videoPackets':len(new),'AACAllOrderedPacketsVsPreview':'IDENTICAL','AACPackets':len(bb),'AACDeclaredDuration':a['duration'],'AACBitrate':a['bit_rate'],'AACRate':48000,'AACChannels':2,'WAVSamplesPerChannel':n,'decodedAACSamplesPerChannel':len(x),'AACExtraPaddingSamples':len(x)-n,'AACPaddingNote':'Container edit-list duration equals locked picture; decoded residual codec padding separately reported; no intended tail truncated','finalWAVSampleZero':True,'fullAVDecode':'PASS','faststart':'PASS','inputHashesUnchanged':True,'finiteClippedSamples':'PASS, no clipped/nonfinite samples','alignment':checks,'WAVLoudness':e['WAV']['loudness'],'AACLoudness':e['preview']['loudness'],'agentListening':'NOT RUN','voiceContent':'VOICE_CONTENT_REQUIRES_DIRECTOR_LISTENING','sources':'One creator-released CC0 track only; noSFX/narration/ambience','humanFinalMusicAcceptance':False}
+(p/'MUSIC-REVIEW-QA.json').write_text(json.dumps({'status':'TECHNICAL PASS / DIRECTOR AUDIO REVIEW PENDING','movies':rows,'sourceVoiceClassification':'Creator Instrumental tag; no fabricated listening PASS','frozenPicturePackageUnchanged':True},indent=2));print(json.dumps(rows,indent=2))

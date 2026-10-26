@@ -1,0 +1,148 @@
+
+ RUN  v4.1.11 /Users/quyth/development/three/POC
+
+(node:86608) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:86602) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:86609) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:86603) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:86607) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:86604) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:86605) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ❯ src/products/product03-pet-crate-w114586144/p0-connections-v1/model.test.ts (3 tests | 3 failed) 23224ms
+     × removes positive-volume wood intersections and puts14 on all four6 rails 7210ms
+     × keeps all10 S8 axes incident on proposed backing without pretending the F path is clear 7725ms
+     × seeks the five focused clips without history dependence or hidden geometry/clipping 8287ms
+ ❯ src/products/product03-pet-crate-w114586144/timeline-integration-v1/runtime.test.ts (3 tests | 3 failed) 23765ms
+     × retains source inventory/order while refusing known-invalid or unsupported completion 7387ms
+     × keeps installed local poses after contact and restores them after reverse/random seeks, including prepared feet 8622ms
+     × does not reveal current screws while their connection bodies are approaching 7753ms
+ ❯ src/products/product03-pet-crate-w114586144/f-illustrative-proof-v1/model.test.ts (3 tests | 1 failed) 31258ms
+     × repeats arbitrary forward/backward seeks with the tool and installed screw retained 6730ms
+ ❯ src/products/product03-pet-crate-w114586144/prototype-v2/model.test.ts (3 tests | 1 failed) 15159ms
+     × has finite non-empty geometry without a runtime production catalog entry or concealed threads 8305ms
+(node:88077) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ ❯ src/products/product03-pet-crate-w114586144/prototype-v1/model.test.ts (3 tests | 1 failed) 13833ms
+     × has finite non-empty geometry without a runtime production catalog entry or concealed threads 7880ms
+(node:88118) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:88160) [THREE_CJS_DEPRECATED] DeprecationWarning: `require("three")` is deprecated and will be removed.
+Replace `const THREE = require("three")` with `import * as THREE from "three"`.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 9 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/products/product03-pet-crate-w114586144/f-illustrative-proof-v1/model.test.ts > Human B local nonliteral F reconstruction > repeats arbitrary forward/backward seeks with the tool and installed screw retained
+Error: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/products/product03-pet-crate-w114586144/f-illustrative-proof-v1/model.test.ts:7:2
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/9]⎯
+
+ FAIL  src/products/product03-pet-crate-w114586144/p0-connections-v1/model.test.ts > Product03 focused P0 geometry proposals > removes positive-volume wood intersections and puts14 on all four6 rails
+Error: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/products/product03-pet-crate-w114586144/p0-connections-v1/model.test.ts:6:2
+      4| import {createProof,groups} from './proof';
+      5| describe('Product03 focused P0 geometry proposals',()=>{
+      6|  it('removes positive-volume wood intersections and puts14 on all four…
+       |  ^
+      7|   const m=createModel(true),wood=[...m.r.registry.entries()].filter(([…
+      8|   for(let i=0;i<wood.length;i++)for(let j=i+1;j<wood.length;j++){
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/9]⎯
+
+ FAIL  src/products/product03-pet-crate-w114586144/p0-connections-v1/model.test.ts > Product03 focused P0 geometry proposals > keeps all10 S8 axes incident on proposed backing without pretending the F path is clear
+Error: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/products/product03-pet-crate-w114586144/p0-connections-v1/model.test.ts:14:2
+     12|   for(let i=1;i<=4;i++)expect(floor.min.y).toBeCloseTo(new T.Box3().se…
+     13|  });
+     14|  it('keeps all10 S8 axes incident on proposed backing without pretendi…
+       |  ^
+     15|   const m=createModel(true);
+     16|   for(const p of placements.filter(p=>p.step===8&&p.id.startsWith('har…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/9]⎯
+
+ FAIL  src/products/product03-pet-crate-w114586144/p0-connections-v1/model.test.ts > Product03 focused P0 geometry proposals > seeks the five focused clips without history dependence or hidden geometry/clipping
+Error: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/products/product03-pet-crate-w114586144/p0-connections-v1/model.test.ts:25:2
+     23|   }
+     24|  });
+     25|  it('seeks the five focused clips without history dependence or hidden…
+       |  ^
+     26|   const p=createProof(true);for(const group of groups){p.evaluate(grou…
+     27|   p.rig.traverse(o=>{if(o instanceof T.Mesh)for(const m of Array.isArr…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/9]⎯
+
+ FAIL  src/products/product03-pet-crate-w114586144/prototype-v1/model.test.ts > Product03 Phase B non-certified prototype > has finite non-empty geometry without a runtime production catalog entry or concealed threads
+Error: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/products/product03-pet-crate-w114586144/prototype-v1/model.test.ts:13:2
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/9]⎯
+
+ FAIL  src/products/product03-pet-crate-w114586144/prototype-v2/model.test.ts > Product03 Phase B non-certified prototype > has finite non-empty geometry without a runtime production catalog entry or concealed threads
+Error: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/products/product03-pet-crate-w114586144/prototype-v2/model.test.ts:13:2
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/9]⎯
+
+ FAIL  src/products/product03-pet-crate-w114586144/timeline-integration-v1/runtime.test.ts > Bounded19-step integration > retains source inventory/order while refusing known-invalid or unsupported completion
+Error: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/products/product03-pet-crate-w114586144/timeline-integration-v1/runtime.test.ts:6:2
+      4|
+      5| describe('Bounded19-step integration',()=>{
+      6|  it('retains source inventory/order while refusing known-invalid or un…
+       |  ^
+      7|   expect(graph.cycles).toEqual([]);expect(graph.missingDependencies).t…
+      8|   expect(steps).toHaveLength(19);expect(new Set(bodies.map(b=>b.id)).s…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/9]⎯
+
+ FAIL  src/products/product03-pet-crate-w114586144/timeline-integration-v1/runtime.test.ts > Bounded19-step integration > keeps installed local poses after contact and restores them after reverse/random seeks, including prepared feet
+Error: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/products/product03-pet-crate-w114586144/timeline-integration-v1/runtime.test.ts:16:2
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/9]⎯
+
+ FAIL  src/products/product03-pet-crate-w114586144/timeline-integration-v1/runtime.test.ts > Bounded19-step integration > does not reveal current screws while their connection bodies are approaching
+Error: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/products/product03-pet-crate-w114586144/timeline-integration-v1/runtime.test.ts:23:2
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/9]⎯
+
+
+ Test Files  5 failed | 30 passed (35)
+      Tests  9 failed | 122 passed (131)
+   Start at  20:42:10
+   Duration  84.11s (transform 2.98s, setup 0ms, import 8.13s, tests 770.01s, environment 4ms)
+

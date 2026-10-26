@@ -1,0 +1,19 @@
+{
+  "status": "VERIFIED DOCUMENTARY REPAIR AFTER CLEANUP",
+  "path": "output/wf311613-standalone-murphy-bed/final/final-lofi-720p/YOUTUBE-MUSIC-CREDITS.txt",
+  "beforeSHA256": "a3a5e715f0cc574a73c3f9bebb6bc24f32ffd5b67b387244c2c909da779a1478",
+  "beforeBytes": 2,
+  "afterSHA256": "aa50424f38567495633316d8d9e9c93b343466a85e4f5a8260680657d1aaa032",
+  "afterBytes": 716,
+  "source": "output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/YOUTUBE-MUSIC-CREDITS.txt",
+  "agreement": [
+    "Exact Pass02 credit TXT",
+    "Every track.required_credit_text in final Long provenance",
+    "Exact fenced block in FINAL-MUSIC-QA-REPORT.md",
+    "Original final SHA256SUMS.txt"
+  ],
+  "reason": "Existing final credit TXT was corrupt (single c); new publication note inherited that corruption. Director identified the defect; human cleanup/notes scope and Director bounded-doc-fix authorization cover correction.",
+  "videoAudioSourceGeometryChanged": false,
+  "historicalManifestsChanged": false,
+  "protectedSnapshotTiming": "RESULT.json0changes refers to completed deletion verification BEFORE this separately recorded documentary restoration."
+}

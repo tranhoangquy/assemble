@@ -1,0 +1,50 @@
+{
+  "source": "ACTUAL_CHATGPT_WEB_RESPONSE",
+  "conversation": "Assemble",
+  "recordedAt": "2026-10-26T07:20:09.529Z",
+  "verdict": "BOUNDED VISUAL PROOF PASS",
+  "fullLongAuthorized": true,
+  "fullShortAuthorized": true,
+  "longTiming": {
+    "duration": 278,
+    "addedHingeSeconds": 16,
+    "clock": "clock-option-278-r2.ts",
+    "cameraBridge247to249": "UNACCELERATED",
+    "static249to262": [
+      13,
+      3
+    ],
+    "finalStaticStudy": [
+      10,
+      4
+    ]
+  },
+  "shortTiming": {
+    "duration": 59,
+    "preserveBefore": 44.6,
+    "hinge": [
+      46.6,
+      54.4
+    ],
+    "door8": [
+      54.4,
+      56.4
+    ],
+    "NHold": [
+      56.4,
+      57.13333333333333
+    ],
+    "hero": [
+      57.13333333333333,
+      59
+    ],
+    "omitPoseInterstitials": [
+      "G/H",
+      "I/J"
+    ],
+    "condition": "Retain OPEN/POSE_ONLY disclosures; declare3omitted repeated hinges"
+  },
+  "reviewMethod": "Actual MP4 hashes/metadata/ZIP integrity; sampled each second plus before/after and sheets; not continuous playback or physical certification",
+  "humanFinalAcceptance": false,
+  "next": "Render LongV5 and ShortV3; QA transitions,16screws,caption readability; actual full-file Director review"
+}

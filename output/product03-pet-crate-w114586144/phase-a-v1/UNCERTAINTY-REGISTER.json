@@ -1,0 +1,137 @@
+[
+  {
+    "id": "P03-U01",
+    "severity": "P0",
+    "subject": "Identity / variant",
+    "observed": "PDF metadata names Wayfair W114586144 and drawers; visible pages have no model label and show open cubbies, not drawer boxes/slides.",
+    "evidence_needed": "Human-confirmed local product reference/model label or dimensioned matched local sheet. Do not add drawers.",
+    "affected_scope": "Exact commercial/finish variant and drawer animation",
+    "status": "OPEN"
+  },
+  {
+    "id": "P03-U02",
+    "severity": "P0",
+    "subject": "Dimensions",
+    "observed": "No overall or per-panel dimensions, mesh pitch, tube section or thickness drawing.",
+    "evidence_needed": "Dimensioned local product/part drawing or measurements supplied with authority. Never scale hardware/perspective into certified panel sizes.",
+    "affected_scope": "Faithful dimensioned geometry and fit",
+    "status": "OPEN"
+  },
+  {
+    "id": "P03-U03",
+    "severity": "P0",
+    "subject": "S18 I/J conflict",
+    "observed": "PDF p12 inset calls I twice, summary calls J x2; inventory gives I2/J2.",
+    "evidence_needed": "Authoritative correction or clear local photos of I/J and their installed positions. Recommendation only: J2 upper/S17, I2 lower/S18.",
+    "affected_scope": "Lower retaining-tab identity; no automatic confidence upgrade",
+    "status": "OPEN"
+  },
+  {
+    "id": "P03-U04",
+    "severity": "P1",
+    "subject": "C allocation S13/S14",
+    "observed": "Four rails6, C4 in S13 and C6 in S14 together with rail5.",
+    "evidence_needed": "Clear matched end-connection views or annotated OEM allocation. Hypothesis four C at opposite6 ends plus two at5 is not confirmed.",
+    "affected_scope": "Individual fastener chronology/end targets",
+    "status": "OPEN"
+  },
+  {
+    "id": "P03-U05",
+    "severity": "P0",
+    "subject": "Receiving geometry",
+    "observed": "Diagrams establish visible associations but no depth, thread pitch, insert construction, exact bore coordinates or engagement lengths.",
+    "evidence_needed": "Local detailed drawings/photos/measurements for any hidden feature to be modeled. Keep visible-only abstraction explicit where permitted.",
+    "affected_scope": "Detailed internal fastener/receiving models; not a rejection of documented qualitative joints",
+    "status": "OPEN"
+  },
+  {
+    "id": "P03-U06",
+    "severity": "P1",
+    "subject": "Panel orientation / role mapping",
+    "observed": "10/11 hole orientation and 12/13/15 roles require preserving numbered-step views; exploded leaders alone can be ambiguous.",
+    "evidence_needed": "Cross-view local annotation of every mating face; receive-coordinate evidence for production fit.",
+    "affected_scope": "Orientation transforms and backing ownership",
+    "status": "OPEN"
+  },
+  {
+    "id": "P03-U07",
+    "severity": "P1",
+    "subject": "Support and reorientation",
+    "observed": "S4 underside view; S8-S14 inverted frame; S15 upright. No manpower or supported turnover path specified.",
+    "evidence_needed": "Local approved support/staging plan; do not certify lifting or stability. Keep all installed parts rigidly grouped during a visible change.",
+    "affected_scope": "Turnovers and unsupported floating states",
+    "status": "OPEN"
+  },
+  {
+    "id": "P03-U08",
+    "severity": "P1",
+    "subject": "Full tightening semantics",
+    "observed": "Global alignment-first notice plus explicit firmly-lock captions in S10/S12; no torque or comprehensive final tightening sequence.",
+    "evidence_needed": "Documentary plan that honors source checkpoints and has a final inspection after all alignment; no arbitrary torque.",
+    "affected_scope": "No early final tightening or blanket looseness after completion",
+    "status": "OPEN"
+  },
+  {
+    "id": "P03-U09",
+    "severity": "P1",
+    "subject": "Tools and access",
+    "observed": "L/M/O pictured; no precise hand/bit/shaft clearance in installed state; power tool not recommended.",
+    "evidence_needed": "Actual local dimensions/access evidence before certifying tool/hand fit; visible manual axes may be taught without hidden engagement claims.",
+    "affected_scope": "Connection proof and future access",
+    "status": "OPEN"
+  },
+  {
+    "id": "P03-U10",
+    "severity": "P1",
+    "subject": "Factory features / studs / hinges",
+    "observed": "Door handles, hinge leaves and studs are drawn in composite parts; no separate loose inventory IDs or fasteners to build them.",
+    "evidence_needed": "Detailed matched local feature views if necessary. Retain as integrated depicted features, do not invent installation hardware.",
+    "affected_scope": "Door rig, latch stack and inventory boundaries",
+    "status": "OPEN"
+  },
+  {
+    "id": "P03-U11",
+    "severity": "P1",
+    "subject": "Floor14 and operation limits",
+    "observed": "Floor is placed in S15 without screws; no load, pet size, floor fixing, door angle limit or closing clearance stated.",
+    "evidence_needed": "Matched local dimensional/functional evidence. No fabricated floor fixings, stop or certified capacity.",
+    "affected_scope": "Functional demonstration claims and collision setup",
+    "status": "OPEN"
+  },
+  {
+    "id": "P03-U12",
+    "severity": "P1",
+    "subject": "Pad N",
+    "observed": "Inventory N4 and S19 N4; text allows own EVA pad, liner sketch shown.",
+    "evidence_needed": "Local choice/confirmation of supplied pads and clear target photos; no invented adhesive product or certified pinch protection.",
+    "affected_scope": "Optionality and final contacts",
+    "status": "OPEN"
+  },
+  {
+    "id": "P03-U13",
+    "severity": "P2",
+    "subject": "Materials / colors",
+    "observed": "Line drawing does not specify wood species, board composition, coating, paint, plating or color.",
+    "evidence_needed": "Local product appearance reference or human approval of clearly labeled art proposal.",
+    "affected_scope": "Final appearance; proposed palette is not OEM fact",
+    "status": "OPEN"
+  },
+  {
+    "id": "P03-U14",
+    "severity": "P2",
+    "subject": "Source readability",
+    "observed": "Catalog/foreword page overlaps text; Poppler reports Adobe-GB1 / R19 font warnings. Main numbered diagrams/tables are legible in reviewed images.",
+    "evidence_needed": "Retain raw PDF and warn about rendering limits; use extracted text and visible instruction inset together, not guessed lost glyphs.",
+    "affected_scope": "Do not claim error-free source render",
+    "status": "OPEN"
+  },
+  {
+    "id": "P03-U15",
+    "severity": "P1",
+    "subject": "Exact hardware specifications",
+    "observed": "Sizes printed without explicit unit statement; Ø is not an ISO thread specification; G/H/I/J/K have no dimensions.",
+    "evidence_needed": "Matched local specification if exact engineering dimensions are required. M4 on L does not assign every joint thread.",
+    "affected_scope": "Engineering-sized fastener prototypes",
+    "status": "OPEN"
+  }
+]

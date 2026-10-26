@@ -2,7 +2,7 @@
 
 Prototype của một **Automated 3D Assembly Video Generator**. POC dùng Next.js, TypeScript, React Three Fiber, Three.js và GSAP để dựng nhiều sản phẩm hoàn toàn từ JSON, preview trên global timeline và xuất frame deterministic để encode MP4.
 
-> Checkpoint hiện hành: WF311613 standalone Murphy Bed, PDF Steps 1–3, action-speed review. PDF là nguồn engineering; các kích thước không in trong PDF vẫn được đánh dấu estimated. Các sản phẩm bookcase/Merax cũ là package riêng, không phải cấu phần của WF311613. Steps 4+ chưa được triển khai theo chuẩn review mới.
+> Final media hiện hành: **Product #01 WF311613** và **Product #03 pet crate** đã có Long/Short kèm nhạc. Xem [catalog và note đăng nội dung](docs/publishing/README.md). **Product #02 JULIETTE chưa hoàn tất và được giữ nguyên.** Các checkpoint/review cũ là lịch sử; đợt cleanup chỉ dọn #01/#03, không sửa sản phẩm hoặc xuất bản video.
 
 ## Chạy development
 

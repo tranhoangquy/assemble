@@ -1,0 +1,27 @@
+import * as T from 'three';import {RoomEnvironment} from 'three/examples/jsm/environments/RoomEnvironment.js';import {installFrameRenderer} from '@/engine/render/FrameRenderer';
+import {createRuntime} from './runtime';import {proofPackage,definitions} from './package';import {createFilmCamera} from '../continuous-production-v2-r2/full-camera';
+declare const __P03_PROOF__:number;
+const index=__P03_PROOF__,pkg=proofPackage(index),duration=definitions[index].duration,before=createRuntime(false),after=createRuntime(),r=after,renderer=new T.WebGLRenderer({antialias:true,preserveDrawingBuffer:true});
+renderer.setPixelRatio(1);renderer.setSize(innerWidth,innerHeight);renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=.9;
+document.body.style.cssText='margin:0;overflow:hidden;background:#e9e6df';document.body.append(renderer.domElement);const scene=new T.Scene();scene.background=new T.Color('#e9e6df');scene.add(before.rig,after.rig);scene.environment=new T.PMREMGenerator(renderer).fromScene(new RoomEnvironment(),.04).texture;scene.add(new T.HemisphereLight('#fffaf2','#9ca5ad',1.8));for(const p of [[-1200,1700,-1000],[1200,900,1100],[0,-1000,1000]]){const l=new T.DirectionalLight('#fffaf4',2.6);l.position.set(...p as [number,number,number]);scene.add(l);}
+const beforeTrack=createFilmCamera(before),afterTrack=createFilmCamera(after);
+function text(css:string){const d=document.createElement('div');d.style.cssText=css;document.body.append(d);return d;}
+const label=text('position:fixed;left:28px;top:20px;font:600 18px Arial;color:#302b25;background:#fff9eeeb;padding:10px 14px');
+const desc=text('position:fixed;left:28px;bottom:25px;max-width:1110px;font:18px/1.45 Arial;color:#302b25;background:#fff9eef2;padding:12px 16px;border-left:4px solid #947054');
+const tags=Array.from({length:6},()=>text('display:none;position:fixed;font:600 15px Arial;color:#fff;background:#60503cef;padding:6px 9px;border-radius:4px;'));
+const fixed=(p:number[],target:number[],fov=28)=>{const c=new T.PerspectiveCamera(fov,1280/720,.1,20000);c.position.set(...p as [number,number,number]);c.lookAt(new T.Vector3(...target));c.updateMatrixWorld(true);return c;};
+let state:ReturnType<typeof after.evaluate>,camera:T.PerspectiveCamera,sourceTime=0,proofTime=0,isBefore=false;
+function render(t:number){proofTime=t;isBefore=t<2;const current=isBefore?before:after;before.rig.visible=isBefore;after.rig.visible=!isBefore;tags.forEach(a=>a.style.display='none');
+ if(index===0){sourceTime=t<2?212:t<10?210.5+t-2:t<12?218:t<14?228:228;state=current.evaluate(sourceTime);const upper=t>=10&&t<12||t>=14,sign=t>=12?1:-1,x=sign*574,y=upper?623:177;camera=fixed([x+sign*100,y+55,716.5],[x,y,296.5],28);
+  desc.textContent='OEM p11 / S16: E ×8 = 2 per frame leaf ×4 hinges. Door-side constituent shown in p3; attachment method OPEN. No door operation or retention claim.';
+  if(!isBefore){const point=new T.Vector3(x-sign*7,y,296.5).project(camera);tags[0].style.cssText+=`display:block;left:${(point.x+1)*640+18}px;top:${(1-point.y)*360-45}px`;tags[0].textContent='Door leaf · attachment OPEN';tags[1].style.cssText+='display:block;left:45px;top:100px';tags[1].textContent=`${sign<0?'Door 7 / frame 1':'Door 8 / frame 2'} · ${upper?'upper':'lower'} hinge`;}
+ }else if(index===1){sourceTime=t<4?194:t<6?108.5+t-4:203+t-6;state=current.evaluate(sourceTime);if(t<4)camera=(isBefore?beforeTrack:afterTrack).camera(sourceTime);else if(t<6){camera=fixed([1050,220,1000],[580,15,286],32);}else{camera=fixed([-1600,580,1900],[0,300,0],40);}
+ desc.textContent='OEM p7 / S07: A ×5 adjustable feet — A1/A2 → frame1, A3/A4 → frame2, A5 → rail5. Stem points into host; disc remains outside. No invented threads or retention.';
+ }else{sourceTime=t<4?273:263+t-4;state=current.evaluate(sourceTime);camera=(isBefore?beforeTrack:afterTrack).camera(sourceTime);if(!isBefore){for(let i=1;i<=4;i++){const tag=tags[i-1];tag.textContent=`N${i} · EVA PAD / ${current.r.registry.require(`hardware-N-${i}`).visible?'HELD':'NOT YET STAGED'} / NOT INSTALLED`;tag.style.display='block';tag.style.left='45px';tag.style.top=`${95+i*42}px`;}}
+ desc.textContent='OEM p1 / p13 S19: N ×4 EVA pads, two depicted on each door. These four dots are HELD_STAGED; positions/access unresolved. No pad installation or door opening is shown.';
+ }
+ label.textContent=`${isBefore?'BEFORE · HUMAN-REJECTED BASELINE':'AFTER · BOUNDED CORRECTION / OPEN-HOLD'} / ${definitions[index].id.toUpperCase()} / source ${sourceTime.toFixed(3)}s`;
+ renderer.render(scene,camera);return state;
+}
+const gl=renderer.getContext();(window as unknown as {__P03_TELEMETRY__:()=>unknown}).__P03_TELEMETRY__=()=>({proofTime,sourceTime,isBefore,contextLost:gl.isContextLost(),glError:gl.getError(),drawingBuffer:[gl.drawingBufferWidth,gl.drawingBufferHeight],visible:state.visible.length,ready:!gl.isContextLost()});
+installFrameRenderer({ready:true,duration,fps:30,getDuration:()=>duration,getCreativeDefinition:()=>({product:pkg.product,assembly:pkg.assembly,video:pkg.video}),getSceneState:()=>state,getCameraState:()=>({position:camera.position.toArray(),direction:camera.getWorldDirection(new T.Vector3()).toArray(),target:[],fov:camera.fov}),seek:async t=>{render(t);},setTime:async t=>{render(t);},renderFrame:async t=>{render(t);gl.finish();await new Promise<void>(resolve=>requestAnimationFrame(()=>resolve()));}});render(0);

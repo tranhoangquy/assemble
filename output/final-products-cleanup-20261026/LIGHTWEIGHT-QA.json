@@ -1,0 +1,28 @@
+{
+  "newDocumentationLinks": "PASS",
+  "01-long": {
+    "status": "INPUT IDENTITY PASS",
+    "video": "output/wf311613-standalone-murphy-bed/final/final-lofi-720p/WF311613-final-lofi-720p.mp4",
+    "audio": "output/wf311613-standalone-murphy-bed/final/lofi-music-pass02/WF311613-lofi-mix-pass02.wav",
+    "renderOrMuxStarted": false
+  },
+  "01-short": {
+    "status": "INPUT IDENTITY PASS",
+    "video": "output/wf311613-standalone-murphy-bed/short/final-short02-1080p/WF311613-short02-FINAL-vertical-1080p.mp4",
+    "audio": "output/wf311613-standalone-murphy-bed/short/final-short02-1080p/WF311613-short02-FINAL-music-master.wav",
+    "renderOrMuxStarted": false
+  },
+  "03-long": {
+    "status": "INPUT IDENTITY PASS",
+    "video": "output/product03-pet-crate-w114586144/final-music-v1/PRODUCT03-Long-V5-MUSIC-720p.mp4",
+    "audio": "output/product03-pet-crate-w114586144/music-only-v1/PRODUCT03-Long-music-pass01.wav",
+    "renderOrMuxStarted": false
+  },
+  "03-short": {
+    "status": "INPUT IDENTITY PASS",
+    "video": "output/product03-pet-crate-w114586144/final-music-v1/PRODUCT03-Short-V3-MUSIC-1080x1920.mp4",
+    "audio": "output/product03-pet-crate-w114586144/music-only-v1/PRODUCT03-Short-music-pass01.wav",
+    "renderOrMuxStarted": false
+  },
+  "retainedHistoryCredentialScan": "PASS, no concrete credential tokens detected"
+}
